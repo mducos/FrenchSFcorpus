@@ -7,14 +7,17 @@ This repository contains a corpus of French science fiction stories (short stori
 ```
 NovSFcorpus/
 │
-├── About_LeCasDeMGuerin_1862/
-│   ├── About_LeCasDeMGuerin_1862.txt
-│   ├── About_LeCasDeMGuerin_1862_sent.txt
-│   ├── About_LeCasDeMGuerin_1862.tsv
-│   └── About_LeCasDeMGuerin_1862.ann
-│
-├── About_LeNezDUnNotaire_1862/
-│   └── ...
+├── NovSFcorpus/
+│   ├── About_LeCasDeMGuerin_1862/
+│   │   ├── About_LeCasDeMGuerin_1862.txt
+│   │   ├── About_LeCasDeMGuerin_1862_sent.txt
+│   │   ├── About_LeCasDeMGuerin_1862.tsv
+│   │   └── About_LeCasDeMGuerin_1862.ann
+│   │
+│   ├── About_LeNezDUnNotaire_1862/
+│   │   └── ...
+│   │
+│   └── metadata.csv
 │
 ├── script/
 │   ├── txt2ann.py
@@ -52,6 +55,8 @@ Each folder contains the following files:
 
 * `author_title_date.ann`
   Annotation file (BRAT format) of novums
+
+All metadata is grouped together in the file `metadata.csv` in the format `author,title,date_publication,nb_tokens`.
 
 ## Scripts
 
