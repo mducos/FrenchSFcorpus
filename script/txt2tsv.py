@@ -150,7 +150,7 @@ def write_bio(tokens, spans, bio_path, n_cols=3):
 
 
 # chargement de spaCy FR avec lemmatisation
-nlp = spacy.load("fr_core_news_sm")
+nlp = spacy.load("fr_dep_news_trf")
 
 # parcours ses fichiers du dossier
 for dirname in os.listdir("NovSFcorpus"):

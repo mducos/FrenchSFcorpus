@@ -68,6 +68,13 @@ The scripts are located in the `script/` folder.
 
 * `txt2ann.py`: annotates novum in an `.ann` file in BRAT format.
 
+To run the scripts, create a virtual environment. Once inside, run the following lines of code:
+
+```
+pip install -r requirements.txt
+python -m spacy download fr_core_news_sm
+```
+
 ## Resources
 
 The `src/` folder contains:
