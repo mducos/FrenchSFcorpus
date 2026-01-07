@@ -57,17 +57,11 @@ Each folder contains the following files:
 
 The scripts are located in the `script/` folder.
 
-### `txt2sent_txt.py`
+* `txt2sent_txt.py`: segments a `.txt` file into sentences and produces an associated `_sent.txt` file.
 
-Segments a `.txt` file into sentences and produces an associated `_sent.txt` file.
+* `txt2tsv.py`: annotates novum in a `.txt` file in BIO format.
 
-### `txt2tsv.py`
-
-Annotates novum in a `.txt` file in BIO format.
-
-### `txt2ann.py`
-
-Annotates novum in an `.ann` file in BRAT format.
+* `txt2ann.py`: annotates novum in an `.ann` file in BRAT format.
 
 ## Resources
 
