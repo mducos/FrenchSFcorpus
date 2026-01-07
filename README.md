@@ -1,0 +1,81 @@
+# NovSFcorpus
+
+This repository contains a corpus of French science fiction stories (short stories, novellas, and novels) between 1860 and 1950 for linguistic analysis and annotation, as well as a set of scripts for producing different representations of the text from a source file.
+
+## Repository structure
+
+```
+NovSFcorpus/
+│
+├── About_LeCasDeMGuerin_1862/
+│   ├── About_LeCasDeMGuerin_1862.txt
+│   ├── About_LeCasDeMGuerin_1862_sent.txt
+│   ├── About_LeCasDeMGuerin_1862.tsv
+│   └── About_LeCasDeMGuerin_1862.ann
+│
+├── About_LeNezDUnNotaire_1862/
+│   └── ...
+│
+├── script/
+│   ├── txt2ann.py
+│   ├── txt2sent_txt.py
+│   └── txt2tsv.py
+│
+└── src/
+    └── title2novum.json
+```
+
+## Organization of the corpus
+
+Each subfolder corresponds to a story and is named according to the format:
+
+```
+author_title_date
+```
+
+Example:
+
+```
+Verne_VoyageAuCentreDeLaTerre_1864
+```
+
+Each folder contains the following files:
+
+* `author_title_date.txt`
+  Facsimile of the cleaned full text
+
+* `author_title_date_sent.txt`
+  Text segmented into sentences (one sentence per line)
+
+* `author_title_date.tsv`
+  Tabular version of the text with semi-automatic annotations of novums
+
+* `author_title_date.ann`
+  Annotation file (BRAT format) of novums
+
+## Scripts
+
+The scripts are located in the `script/` folder.
+
+### `txt2sent_txt.py`
+
+Segments a `.txt` file into sentences and produces an associated `_sent.txt` file.
+
+### `txt2tsv.py`
+
+Annotates novum in a `.txt` file in BIO format.
+
+### `txt2ann.py`
+
+Annotates novum in an `.ann` file in BRAT format.
+
+## Resources
+
+The `src/` folder contains:
+
+* `title2novum.json`
+  Dictionary linking story titles to the novum they contain.
+
+## Licence
+
+This repository is distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/deed.fr).
