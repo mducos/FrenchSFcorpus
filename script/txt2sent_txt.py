@@ -1,10 +1,32 @@
 import os
 import spacy
+import re
 
 # charger le modèle spaCy
 nlp = spacy.load("fr_dep_news_trf")
 
 corpus2 = "NovSFcorpus"
+
+def clean_text(text):
+    # remplacement des retours ligne par un espace
+    text = re.sub(r"\n", " ", text)
+
+    # normalisation des espaces
+    text = re.sub(r"[ \t]+", " ", text).strip()
+
+    # suppression de la mise en forme italique ou gras
+    text = re.sub(r"\*", "", text)
+    text = re.sub(r"\_","",text)
+
+    # normalisation des caractères spéciaux
+    text = re.sub(r"’", "'", text)
+    text = re.sub(r"´","",text)
+    text = re.sub(r"œ","oe",text)
+
+    # séparation des mots avec tirets
+    text = re.sub(r"\-"," - ",text)
+
+    return text
 
 for folder_name in os.listdir(corpus2):
     folder_path = os.path.join(corpus2, folder_name)
@@ -23,7 +45,8 @@ for folder_name in os.listdir(corpus2):
 
     with open(txt_path, "r", encoding="utf-8") as f:
         text = f.read()
-    text = text.replace("\n", " ")
+
+    text = clean_text(text)
 
     # segmentation en phrases avec spaCy
     doc = nlp(text)

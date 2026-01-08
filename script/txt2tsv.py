@@ -6,32 +6,7 @@ import os
 
 
 # -----------------------------------------------------------
-# 1. Nettoyage du texte
-# -----------------------------------------------------------
-
-def clean_text(text):
-    # remplacement des retours ligne par un espace
-    text = re.sub(r"\n", " ", text)
-
-    # normalisation des espaces
-    text = re.sub(r"[ \t]+", " ", text).strip()
-
-    # suppression de la mise en forme italique ou gras
-    text = re.sub(r"\*", "", text)
-    text = re.sub(r"\_","",text)
-
-    # normalisation des caractères spéciaux
-    text = re.sub(r"’", "'", text)
-    text = re.sub(r"´","",text)
-    text = re.sub(r"œ","oe",text)
-
-    # séparation des mots avec tirets
-    text = re.sub(r"\-"," - ",text)
-
-    return text
-
-# -----------------------------------------------------------
-# 2. Tokenisation + lemmatisation
+# 1. Tokenisation + lemmatisation
 # -----------------------------------------------------------
 
 def tokenize(text):
@@ -53,7 +28,7 @@ def tokenize(text):
 
 
 # -----------------------------------------------------------
-# 3. Détection des novums lemmatisés dans le texte
+# 2. Détection des novums lemmatisés dans le texte
 # -----------------------------------------------------------
 
 def find_novum_spans(tokens, novums_lemma, max_gap=4):
@@ -95,7 +70,7 @@ def find_novum_spans(tokens, novums_lemma, max_gap=4):
 
 
 # -----------------------------------------------------------
-# 4. Génération du fichier .bio
+# 3. Génération du fichier .bio
 # -----------------------------------------------------------
 
 def write_bio(tokens, spans, bio_path, n_cols=3):
@@ -155,8 +130,8 @@ nlp = spacy.load("fr_dep_news_trf")
 # parcours ses fichiers du dossier
 for dirname in os.listdir("NovSFcorpus"):
     for filename in os.listdir("NovSFcorpus\\"+dirname):
-        if not(filename.lower().endswith("_sent.txt")) and filename.lower().endswith(".txt"):
-            title = filename[:-4]
+        if filename.lower().endswith("_sent.txt"):
+            title = filename[:-9]
 
             # -----------------------------------------------------------
             # CONFIGURATION
@@ -191,11 +166,8 @@ for dirname in os.listdir("NovSFcorpus"):
             # chargement du texte original
             raw_text = Path(TEXT_FILE).read_text(encoding="utf-8")
 
-            # nettoyage
-            cleaned_text = clean_text(raw_text)
-
             # tokenisation + lemmatisation
-            tokens = tokenize(cleaned_text)
+            tokens = tokenize(raw_text)
 
             # recherche des novums par lemmes
             spans = find_novum_spans(tokens, NOVUMS_LEMMA)
