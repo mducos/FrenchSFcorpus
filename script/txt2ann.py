@@ -32,7 +32,6 @@ def tokenize(text):
 
 def find_novum_spans(tokens, novums_lemma, max_gap=4):
     spans = []
-    print(tokens[5], tokens[6]) # TODO
 
     novum_lemmas = [novum.lower().split() for novum in novums_lemma]
 
@@ -132,6 +131,3 @@ for dirname in os.listdir("NovSFcorpus"):
             write_ann(spans, ANN_FILE)
 
             print(f"Génération du fichier : {title}.ann")
-
-            break
-    break
