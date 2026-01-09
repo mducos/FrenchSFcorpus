@@ -1,16 +1,16 @@
 C'	ce	PRON	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 aujourd'hui	aujourd'hui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 23	23	NUM	O	O	O
 avril	avril	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
 américain	américain	ADJ	O	O	O
 David	david	PROPN	O	O	O
-Todd	todd	VERB	O	O	O
+Todd	todd	PROPN	O	O	O
 doit	devoir	VERB	O	O	O
 se	se	PRON	O	O	O
 mettre	mettre	VERB	O	O	O
@@ -19,17 +19,17 @@ communication	communication	NOUN	O	O	O
 avec	avec	ADP	O	O	O
 la	le	DET	O	O	O
 planète	planète	NOUN	O	O	O
-Mars	mar	ADJ	O	O	O
+Mars	mars	PROPN	O	O	O
 —	—	PUNCT	O	O	O
 si	si	SCONJ	O	O	O
 toutefois	toutefois	ADV	O	O	O
 la	le	DET	O	O	O
 planète	planète	NOUN	O	O	O
-Mars	mar	ADJ	O	O	O
+Mars	mars	PROPN	O	O	O
 est	être	AUX	O	O	O
 disposée	disposer	VERB	O	O	O
 à	à	ADP	O	O	O
-l'	le	DET	O	O	O
+l'	le	PRON	O	O	O
 entendre	entendre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -65,7 +65,7 @@ lui	luire	PRON	O	O	O
 aussi	aussi	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-Américain	américain	PROPN	O	O	O
+Américain	américain	ADJ	O	O	O
 cela	celer	PRON	O	O	O
 va	aller	VERB	O	O	O
 sans	sans	ADP	O	O	O
@@ -80,8 +80,8 @@ entre	entrer	ADP	O	O	O
 la	le	DET	O	O	O
 Terre	terre	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-Mars	mars	NOUN	O	O	O
-des	de	ADP	O	O	O
+Mars	mars	PROPN	O	O	O
+des	un	DET	O	O	O
 relations	relation	NOUN	O	O	O
 radiotéléphoniques	radiotéléphonique	ADJ	O	O	O
 .	.	PUNCT	O	O	O
@@ -92,13 +92,13 @@ du	de	ADP	O	O	O
 moins	moins	ADV	O	O	O
 ce	ce	PRON	O	O	O
 qu'	que	PRON	O	O	O
-affirma	affirma	ADJ	O	O	O
+affirma	affirmer	VERB	O	O	O
 devant	devant	ADP	O	O	O
 moi	moi	PRON	O	O	O
 le	le	DET	O	O	O
 capitaine	capitaine	NOUN	O	O	O
 Gordon	gordon	PROPN	O	O	O
-Tower	tower	ADV	O	O	O
+Tower	tower	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 dont	dont	PRON	O	O	O
 je	je	PRON	O	O	O
@@ -120,12 +120,12 @@ qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 commandait	commander	VERB	O	O	O
 la	le	DET	O	O	O
-5e	5e	NOUN	O	O	O
+5e	cinquième	ADJ	O	O	O
 compagnie	compagnie	NOUN	O	O	O
 du	de	ADP	O	O	O
 régiment	régiment	NOUN	O	O	O
 américain	américain	ADJ	O	O	O
-affecté	affecté	NOUN	O	O	O
+affecté	affecter	VERB	O	O	O
 à	à	ADP	O	O	O
 notre	notre	DET	O	O	O
 division	division	NOUN	O	O	O
@@ -141,7 +141,7 @@ déjeuner	déjeuner	VERB	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
 P.	p.	NOUN	O	O	O
-C.	c.	PROPN	O	O	O
+C.	c.	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ainsi	ainsi	ADV	O	O	O
 que	que	SCONJ	O	O	O
@@ -152,19 +152,19 @@ camarades	camarade	NOUN	O	O	O
 du	de	ADP	O	O	O
 95e	95	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-Delarue	delarue	NOUN	O	O	O
+Delarue	delarue	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 capitaine	capitaine	NOUN	O	O	O
-adjudant	adjuder	VERB	O	O	O
--	-	PUNCT	O	O	O
+adjudant	adjudant	NOUN	O	O	O
+-	-	NOUN	O	O	O
 major	major	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 Sainmont	sainmont	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 lieutenant	lieutenant	NOUN	O	O	O
-porte	porte	VERB	O	O	O
--	-	PUNCT	O	O	O
+porte	porte	NOUN	O	O	O
+-	-	NOUN	O	O	O
 drapeau	drapeau	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -181,11 +181,11 @@ cette	ce	DET	O	O	O
 simple	simple	ADJ	O	O	O
 déclaration	déclaration	NOUN	O	O	O
 me	me	PRON	O	O	O
-dispense	dispense	NOUN	O	O	O
+dispense	dispense	VERB	O	O	O
 de	de	ADP	O	O	O
 plus	plus	ADV	O	O	O
 amples	ample	ADJ	O	O	O
-détails	détail	ADJ	O	O	O
+détails	détail	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Au	au	ADP	O	O	O
@@ -203,7 +203,7 @@ avoué	avoué	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 possède	posséder	VERB	O	O	O
 une	un	DET	O	O	O
-âme	âm	ADJ	O	O	O
+âme	âme	NOUN	O	O	O
 éminemment	éminemment	ADV	O	O	O
 poétique	poétique	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -215,7 +215,7 @@ la	le	DET	O	O	O
 pluralité	pluralité	NOUN	O	O	O
 des	de	ADP	O	O	O
 mondes	monde	NOUN	O	O	O
-habités	habité	NOUN	O	O	O
+habités	habiter	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -227,11 +227,11 @@ le	le	DET	O	O	O
 capitaine	capitaine	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-I	i	NOUN	O	O	O
-know	know	NOUN	O	O	O
+I	i	X	O	O	O
+know	know	X	O	O	O
 .	.	PUNCT	O	O	O
 
-Qu'	que	PRON	O	O	O
+Qu'	que	SCONJ	O	O	O
 une	un	DET	O	O	O
 monde	monde	NOUN	O	O	O
 pour	pour	ADP	O	O	O
@@ -280,10 +280,10 @@ mars	mars	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
-Mac'	mac'	VERB	O	O	O
-Cob	cob	ADJ	O	O	O
+Mac'	mac'	PROPN	O	O	O
+Cob	cob	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 le	le	DET	O	O	O
 plus	plus	ADV	O	O	O
 grand	grand	ADJ	O	O	O
@@ -318,13 +318,13 @@ de	de	ADP	O	O	O
 ses	son	DET	O	O	O
 appareils	appareil	NOUN	O	O	O
 en	en	ADP	O	O	O
-haut	haut	ADJ	O	O	O
+haut	haut	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 pic	pic	NOUN	O	O	O
 des	de	ADP	O	O	O
 Montagnes	montagne	NOUN	O	O	O
-Rocheuses	rocheuse	NOUN	O	O	O
+Rocheuses	rocheux	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Son	son	DET	O	O	O
@@ -332,9 +332,9 @@ ami	ami	NOUN	O	O	O
 le	le	DET	O	O	O
 capitaine	capitaine	NOUN	O	O	O
 Gordon	gordon	PROPN	O	O	O
-Tower	tower	ADV	O	O	O
-l'	le	DET	O	O	O
-assistait	assistait	NOUN	O	O	O
+Tower	tower	PROPN	O	O	O
+l'	le	PRON	O	O	O
+assistait	assister	VERB	O	O	O
 dans	dans	ADP	O	O	O
 ses	son	DET	O	O	O
 expériences	expérience	NOUN	O	O	O
@@ -349,15 +349,15 @@ au	au	ADP	O	O	O
 point	point	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-A	avoir	AUX	O	O	O
-neuf	neuf	VERB	O	O	O
+A	à	ADP	O	O	O
+neuf	neuf	NUM	O	O	O
 heures	heure	NOUN	O	O	O
 du	de	ADP	O	O	O
 soir	soir	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 aides	aide	NOUN	O	O	O
-mettaient	mettaient	NOUN	O	O	O
+mettaient	mettre	VERB	O	O	O
 en	en	ADP	O	O	O
 marche	marche	NOUN	O	O	O
 l'	le	DET	O	O	O
@@ -368,29 +368,28 @@ les	le	DET	O	O	O
 deux	deux	NUM	O	O	O
 hommes	homme	NOUN	O	O	O
 s'	se	PRON	O	O	O
-asseyaient	asseoir	ADV	O	O	O
+asseyaient	asseoir	VERB	O	O	O
 devant	devant	ADP	O	O	O
 les	le	DET	O	O	O
 appareils	appareil	NOUN	O	O	O
 téléphoniques	téléphonique	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-plaquaient	plaquer	ADV	O	O	O
+plaquaient	plaquer	VERB	O	O	O
 les	le	DET	O	O	O
 récepteurs	récepteur	NOUN	O	O	O
 à	à	ADP	O	O	O
 leurs	leur	DET	O	O	O
 oreilles	oreille	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-«	«	PROPN	O	O	O
-Allo	allo	PROPN	O	O	O
-!	!	PUNCT	O	O	O
 
-allo	allo	NOUN	O	O	O
+«	«	PUNCT	O	O	O
+Allo	allo	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
+allo	allo	INTJ	O	O	O
+!	!	PUNCT	O	O	O
 »	»	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
-cria	cria	NOUN	O	O	O
+cria	crier	VERB	O	O	O
 le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -401,7 +400,7 @@ eut	avoir	VERB	O	O	O
 une	un	DET	O	O	O
 bonne	bon	ADJ	O	O	O
 demi	demi	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 heure	heure	NOUN	O	O	O
 d'	de	ADP	O	O	O
 attente	attente	NOUN	O	O	O
@@ -409,32 +408,28 @@ pendant	pendant	ADP	O	O	O
 laquelle	lequel	PRON	O	O	O
 le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
-répéta	répéta	ADJ	O	O	O
+répéta	répéter	VERB	O	O	O
 sans	sans	ADP	O	O	O
 se	se	PRON	O	O	O
 lasser	lasser	VERB	O	O	O
 :	:	PUNCT	O	O	O
-«	«	PROPN	O	O	O
-Allo	allo	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Allo	allo	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
-allo	allo	NOUN	O	O	O
+allo	allo	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
-»	»	NOUN	O	O	O
+»	»	PUNCT	O	O	O
 quand	quand	SCONJ	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 un	un	DET	O	O	O
 autre	autre	ADJ	O	O	O
-«	«	NOUN	O	O	O
-Allo	allo	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Allo	allo	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
-allo	allo	NOUN	O	O	O
+allo	allo	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
 lui	luire	PRON	O	O	O
 parvint	parvenir	VERB	O	O	O
@@ -450,10 +445,10 @@ espace	espace	NOUN	O	O	O
 Vous	vous	PRON	O	O	O
 êtes	être	AUX	O	O	O
 bien	bien	ADV	O	O	O
-Mars	mar	ADJ	O	O	O
+Mars	mars	PROPN	O	O	O
 ?	?	PUNCT	O	O	O
 
-demanda	demander	ADV	O	O	O
+demanda	demander	VERB	O	O	O
 le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -483,30 +478,29 @@ sommes	être	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Eh	eh	NOUN	O	O	O
+Eh	eh	INTJ	O	O	O
 bien	bien	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 vous	vous	PRON	O	O	O
 n'	ne	ADV	O	O	O
 êtes	être	AUX	O	O	O
 pas	pas	ADV	O	O	O
-pressés	presser	VERB	O	O	O
+pressés	pressé	ADJ	O	O	O
 de	de	ADP	O	O	O
 nous	nous	PRON	O	O	O
 répondre	répondre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Voilà	voilà	VERB	O	O	O
-six	six	NUM	O	O	O
-cent	cent	PRON	O	O	O
-quarante	quarante	PRON	O	O	O
--	-	PUNCT	O	O	O
-trois	trois	PRON	O	O	O
+six	six	DET	O	O	O
+cent	cent	NUM	O	O	O
+quarante	quarante	NUM	O	O	O
+-	-	NOUN	O	O	O
+trois	trois	NUM	O	O	O
 de	de	ADP	O	O	O
 nos	notre	DET	O	O	O
 années	année	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 nous	nous	PRON	O	O	O
 vous	vous	PRON	O	O	O
 appelons	appeler	VERB	O	O	O
@@ -518,9 +512,9 @@ Le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
 allait	aller	VERB	O	O	O
 poser	poser	VERB	O	O	O
-quelques	quelque	PRON	O	O	O
--	-	PUNCT	O	O	O
-unes	une	ADJ	O	O	O
+quelques	quelque	DET	O	O	O
+-	-	PRON	O	O	O
+unes	une	NOUN	O	O	O
 des	de	ADP	O	O	O
 questions	question	NOUN	O	O	O
 qu'	que	PRON	O	O	O
@@ -538,8 +532,8 @@ offensive	offensive	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Etes	ete	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Etes	etes	AUX	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 macaïste	macaïst	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
@@ -563,7 +557,7 @@ bien	bien	ADV	O	O	O
 
 Mais	mais	CCONJ	O	O	O
 dites	dire	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 moi	moi	PRON	O	O	O
 :	:	PUNCT	O	O	O
 ces	ce	DET	O	O	O
@@ -579,12 +573,12 @@ de	de	ADP	O	O	O
 Mars	mars	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
 que	que	SCONJ	O	O	O
 ?	?	PUNCT	O	O	O
-
 ...	...	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 vous	vous	PRON	O	O	O
@@ -593,8 +587,8 @@ si	si	SCONJ	O	O	O
 vous	vous	PRON	O	O	O
 êtes	être	AUX	O	O	O
 ma	mon	DET	O	O	O
--	-	PUNCT	O	O	O
-caïste	caïst	ADJ	O	O	O
+-	-	NOUN	O	O	O
+caïste	caïste	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 dit	dire	VERB	O	O	O
@@ -639,7 +633,7 @@ question	question	NOUN	O	O	O
 était	être	AUX	O	O	O
 posée	poser	VERB	O	O	O
 rendait	rendre	VERB	O	O	O
-facile	facile	VERB	O	O	O
+facile	facile	ADJ	O	O	O
 la	le	DET	O	O	O
 réponse	réponse	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -672,9 +666,9 @@ la	le	DET	O	O	O
 Terre	terre	NOUN	O	O	O
 y	y	PRON	O	O	O
 a	avoir	VERB	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 beaucoup	beaucoup	ADV	O	O	O
 d'	de	ADP	O	O	O
@@ -683,10 +677,9 @@ antimacaïstes	antimacaïste	NOUN	O	O	O
 
 —	—	PUNCT	O	O	O
 Pas	pas	ADV	O	O	O
-un	un	DET	O	O	O
+un	un	PRON	O	O	O
 !	!	PUNCT	O	O	O
-
-rugit	rugit	NOUN	O	O	O
+rugit	rugir	VERB	O	O	O
 le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -706,22 +699,20 @@ parole	parole	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 Hourra	hourra	PROPN	O	O	O
 !	!	PUNCT	O	O	O
-
 vieux	vieux	ADJ	O	O	O
 frère	frère	NOUN	O	O	O
 terrien	terrien	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
-vive	vivre	VERB	O	O	O
+vive	vif	ADJ	O	O	O
 Maca	maca	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Vive	vive	PROPN	O	O	O
+Vive	vivre	VERB	O	O	O
 Maca	maca	PROPN	O	O	O
 !	!	PUNCT	O	O	O
-
 vieux	vieux	ADJ	O	O	O
 frère	frère	NOUN	O	O	O
 martien	martien	ADJ	O	O	O
@@ -732,7 +723,7 @@ voix	voix	NOUN	O	O	O
 ne	ne	ADV	O	O	O
 fit	faire	VERB	O	O	O
 plus	plus	ADV	O	O	O
-de	de	ADP	O	O	O
+de	de	DET	O	O	O
 difficultés	difficulté	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 répondre	répondre	VERB	O	O	O
@@ -753,7 +744,7 @@ aux	à	ADP	O	O	O
 deux	deux	NUM	O	O	O
 pôles	pôle	NOUN	O	O	O
 de	de	ADP	O	O	O
-Mars	mars	NOUN	O	O	O
+Mars	mars	PROPN	O	O	O
 sont	être	AUX	O	O	O
 des	un	DET	O	O	O
 bûchers	bûcher	NOUN	B-NOV	O	O
@@ -761,7 +752,7 @@ bûchers	bûcher	NOUN	B-NOV	O	O
 où	où	PRON	O	O	O
 l'	le	PRON	O	O	O
 on	on	PRON	O	O	O
-fait	faire	VERB	O	O	O
+fait	faire	AUX	O	O	O
 griller	griller	VERB	O	O	O
 les	le	DET	O	O	O
 antimacaïstes	antimacaïste	NOUN	O	O	O
@@ -782,10 +773,10 @@ Les	le	DET	O	O	O
 canaux	canal	NOUN	O	O	O
 mystérieux	mystérieux	ADJ	O	O	O
 de	de	ADP	O	O	O
-Mars	mars	NOUN	O	O	O
+Mars	mars	PROPN	O	O	O
 sont	être	AUX	O	O	O
 bien	bien	ADV	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 canaux	canal	NOUN	O	O	O
 véritables	véritable	ADJ	O	O	O
 et	et	CCONJ	O	O	O
@@ -793,12 +784,12 @@ non	non	ADV	O	O	O
 des	un	DET	O	O	O
 illusions	illusion	NOUN	O	O	O
 d'	de	ADP	O	O	O
-optique	optique	ADJ	O	O	O
+optique	optique	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	SCONJ	O	O	O
-crut	crut	NOUN	O	O	O
+crut	croire	VERB	O	O	O
 devoir	devoir	VERB	O	O	O
-l'	le	DET	O	O	O
+l'	le	PRON	O	O	O
 avancer	avancer	VERB	O	O	O
 un	un	DET	O	O	O
 facétieux	facétieux	ADJ	O	O	O
@@ -819,13 +810,13 @@ macaïstes	macaïste	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 nations	nation	NOUN	O	O	O
-antimacaïstes	antimacaïste	NOUN	O	O	O
+antimacaïstes	antimacaïste	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
-Mac'	mac'	VERB	O	O	O
-Cob	cob	NOUN	O	O	O
+Mac'	mac'	PROPN	O	O	O
+Cob	cob	PROPN	O	O	O
 ayant	avoir	AUX	O	O	O
 demandé	demander	VERB	O	O	O
 quelques	quelque	DET	O	O	O
@@ -839,7 +830,7 @@ et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
 Phobos	phobos	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-ce	ce	DET	O	O	O
+ce	ce	PRON	O	O	O
 lui	luire	PRON	O	O	O
 fut	être	AUX	O	O	O
 l'	le	DET	O	O	O
@@ -851,8 +842,8 @@ ces	ce	DET	O	O	O
 deux	deux	NUM	O	O	O
 satellites	satellite	NOUN	O	O	O
 de	de	ADP	O	O	O
-Mars	mars	NOUN	O	O	O
-venaient	venir	ADV	O	O	O
+Mars	mars	PROPN	O	O	O
+venaient	venir	VERB	O	O	O
 de	de	ADP	O	O	O
 tomber	tomber	VERB	O	O	O
 depuis	depuis	ADP	O	O	O
@@ -864,7 +855,7 @@ macaïstes	macaïste	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Ceux	celui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ci	ci	PRON	O	O	O
 étaient	être	AUX	O	O	O
 en	en	ADP	O	O	O
@@ -872,7 +863,7 @@ train	train	NOUN	O	O	O
 d'	de	ADP	O	O	O
 y	y	PRON	O	O	O
 installer	installer	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 machines	machine	NOUN	O	O	O
 extrêmement	extrêmement	ADV	O	O	O
 puissantes	puissant	ADJ	O	O	O
@@ -889,33 +880,33 @@ au	au	ADP	O	O	O
 moyen	moyen	NOUN	O	O	O
 de	de	ADP	O	O	O
 rayons	rayon	NOUN	O	O	O
-bleus	bleu	NOUN	O	O	O
--	-	PUNCT	O	O	O
-verts	vert	PROPN	O	O	O
+bleus	bleu	ADJ	O	O	O
+-	-	ADJ	O	O	O
+verts	vert	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 habitants	habitant	NOUN	O	O	O
 des	de	ADP	O	O	O
 pays	pays	NOUN	O	O	O
-antimacaïstes	antimacaïstes	X	O	O	O
+antimacaïstes	antimacaïste	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 Quelle	quell	ADJ	O	O	O
 est	être	AUX	O	O	O
 votre	votre	DET	O	O	O
 religion	religion	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
-demanda	demander	ADV	O	O	O
+demanda	demander	VERB	O	O	O
 encore	encore	ADV	O	O	O
 le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Macaïste	macaïste	NOUN	O	O	O
+Macaïste	macaïste	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -925,7 +916,7 @@ philosophique	philosophique	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Macaïste	macaïste	NOUN	O	O	O
+Macaïste	macaïste	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -936,7 +927,7 @@ gouvernement	gouvernement	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Macaïste	macaïste	NOUN	O	O	O
+Macaïste	macaïste	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -946,7 +937,7 @@ littéraire	littéraire	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Macaïste	macaïste	NOUN	O	O	O
+Macaïste	macaïste	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 C'	ce	PRON	O	O	O
@@ -956,8 +947,8 @@ obsession	obsession	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Excusez	excusez	PROPN	O	O	O
--	-	PUNCT	O	O	O
+Excusez	excuser	VERB	O	O	O
+-	-	PRON	O	O	O
 moi	moi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 dit	dire	VERB	O	O	O
@@ -971,14 +962,14 @@ professeur	professeur	NOUN	O	O	O
 Mais	mais	CCONJ	O	O	O
 notre	notre	DET	O	O	O
 documentation	documentation	NOUN	O	O	O
-terrestre	terrestre	VERB	O	O	O
+terrestre	terrestre	ADJ	O	O	O
 a	avoir	VERB	O	O	O
 quelques	quelque	DET	O	O	O
 lacunes	lacune	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Voudriez	voudriez	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Voudriez	vouloir	VERB	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 me	me	PRON	O	O	O
 donner	donner	VERB	O	O	O
@@ -992,7 +983,6 @@ macaïsme	macaïsme	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 Quoi	quoi	PRON	O	O	O
 !	!	PUNCT	O	O	O
-
 s'	se	PRON	O	O	O
 écria	écrier	VERB	O	O	O
 la	le	DET	O	O	O
@@ -1007,7 +997,7 @@ profonde	profond	ADJ	O	O	O
 
 Ne	ne	ADV	O	O	O
 savez	savoir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 pas	pas	ADV	O	O	O
 que	que	SCONJ	O	O	O
@@ -1043,11 +1033,11 @@ son	son	DET	O	O	O
 maître	maître	NOUN	O	O	O
 de	de	ADP	O	O	O
 lui	luire	PRON	O	O	O
-avoir	avoir	VERB	O	O	O
+avoir	avoir	AUX	O	O	O
 dérobé	dérober	VERB	O	O	O
 une	un	DET	O	O	O
 demi	demi	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 douzaine	douzaine	NOUN	O	O	O
 de	de	ADP	O	O	O
 fourchettes	fourchette	NOUN	O	O	O
@@ -1058,16 +1048,16 @@ ce	ce	DET	O	O	O
 moment	moment	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
-violent	violent	NOUN	O	O	O
+violent	violent	ADJ	O	O	O
 orage	orage	NOUN	O	O	O
-interrompit	interrompit	ADJ	O	O	O
+interrompit	interrompre	VERB	O	O	O
 la	le	DET	O	O	O
 conversation	conversation	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Elle	lui	PRON	O	O	O
 ne	ne	ADV	O	O	O
-put	pouvoir	ADV	O	O	O
+put	pouvoir	VERB	O	O	O
 jamais	jamais	ADV	O	O	O
 être	être	AUX	O	O	O
 reprise	reprendre	VERB	O	O	O
@@ -1085,22 +1075,21 @@ le	le	DET	O	O	O
 Martien	martien	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
-interrogea	interrogea	NOUN	O	O	O
-Delarue	delarue	NOUN	O	O	O
+interrogea	interroger	VERB	O	O	O
+Delarue	delarue	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 non	non	ADV	O	O	O
 sans	sans	ADP	O	O	O
-naïveté	naïveter	VERB	O	O	O
+naïveté	naïveté	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 En	en	ADP	O	O	O
-anglais	anglais	PROPN	O	O	O
+anglais	anglais	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-vieil	vieux	NOUN	O	O	O
-homme	homm	ADJ	O	O	O
+vieil	vieux	ADJ	O	O	O
+homme	homme	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 répondit	répondre	VERB	O	O	O
 le	le	DET	O	O	O
 capitaine	capitaine	NOUN	O	O	O
@@ -1116,12 +1105,13 @@ anglaise	anglais	ADJ	O	O	O
 est	être	AUX	O	O	O
 le	le	DET	O	O	O
 seul	seul	ADJ	O	O	O
-parlé	parler	VERB	O	O	O
+parlé	parlé	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 les	le	DET	O	O	O
 planètes	planète	NOUN	O	O	O
 civilisées	civilisé	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
+
 Tel	tel	ADJ	O	O	O
 est	être	AUX	O	O	O
 le	le	DET	O	O	O
@@ -1132,7 +1122,7 @@ fit	faire	VERB	O	O	O
 le	le	DET	O	O	O
 capitaine	capitaine	NOUN	O	O	O
 Gordon	gordon	PROPN	O	O	O
-Tower	tower	ADV	O	O	O
+Tower	tower	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 De	de	ADP	O	O	O
@@ -1148,7 +1138,7 @@ puis	pouvoir	VERB	O	O	O
 donner	donner	VERB	O	O	O
 en	en	ADP	O	O	O
 témoignage	témoignage	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 la	le	DET	O	O	O
 seule	seul	ADJ	O	O	O
 parole	parole	NOUN	O	O	O
@@ -1160,6 +1150,7 @@ Mais	mais	CCONJ	O	O	O
 cela	celer	PRON	O	O	O
 suffit	suffire	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Il	il	PRON	O	O	O
 m'	me	PRON	O	O	O
@@ -1170,13 +1161,13 @@ raconter	raconter	VERB	O	O	O
 des	un	DET	O	O	O
 jokes	joke	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 humbugs	humbug	NOUN	O	O	O
 quand	quand	SCONJ	O	O	O
 je	je	PRON	O	O	O
-suis	être	AUX	O	O	O
+suis	suivre	VERB	O	O	O
 à	à	ADP	O	O	O
-jeun	jeun	PROPN	O	O	O
+jeun	jeun	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 aimait	aimer	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -1193,7 +1184,7 @@ jamais	jamais	ADV	O	O	O
 quand	quand	SCONJ	O	O	O
 je	je	PRON	O	O	O
 suis	être	AUX	O	O	O
-bu	boire	ADJ	O	O	O
+bu	boire	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Or	or	CCONJ	O	O	O
@@ -1211,8 +1202,8 @@ en	en	PRON	O	O	O
 étions	être	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
-douzième	douzième	NOUN	O	O	O
-bouteille	bouteill	ADJ	O	O	O
+douzième	douzième	ADJ	O	O	O
+bouteille	bouteille	NOUN	O	O	O
 de	de	ADP	O	O	O
 champagne	champagne	NOUN	O	O	O
 .	.	PUNCT	O	O	O

@@ -1,13 +1,14 @@
-I	i	NOUN	O	O	O
+I	i	PUNCT	O	O	O
+
 C'	ce	PRON	O	O	O
 était	être	AUX	O	O	O
 un	un	DET	O	O	O
 garçon	garçon	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Provence	provence	NOUN	O	O	O
+Provence	provence	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-nommé	nommer	PROPN	O	O	O
+nommé	nommer	VERB	O	O	O
 Marius	marius	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -19,7 +20,7 @@ terre	terre	NOUN	O	O	O
 produit	produire	VERB	O	O	O
 en	en	ADP	O	O	O
 quantité	quantité	NOUN	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 hommes	homme	NOUN	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
@@ -35,6 +36,7 @@ de	de	ADP	O	O	O
 toute	tout	DET	O	O	O
 sorte	sorte	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 et	et	CCONJ	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -44,19 +46,19 @@ qu'	que	SCONJ	O	O	O
 un	un	DET	O	O	O
 homme	homme	NOUN	O	O	O
 -	-	NOUN	O	O	O
-serpent	serper	VERB	O	O	O
+serpent	serpent	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 ne	ne	ADV	O	O	O
-serait	être	VERB	O	O	O
+serait	être	AUX	O	O	O
 pas	pas	ADV	O	O	O
 du	de	ADP	O	O	O
-Midi	midi	NOUN	O	O	O
+Midi	midi	PROPN	O	O	O
 n'	ne	ADV	O	O	O
 aurait	avoir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 pour	pour	ADP	O	O	O
 ainsi	ainsi	ADV	O	O	O
-dire	dire	VERB	O	O	O
+dire	dire	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 aucune	aucun	DET	O	O	O
 chance	chance	NOUN	O	O	O
@@ -91,13 +93,13 @@ dès	dès	ADP	O	O	O
 son	son	DET	O	O	O
 jeune	jeune	ADJ	O	O	O
 âge	âge	NOUN	O	O	O
-doué	douer	VERB	O	O	O
+doué	doué	ADJ	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 façon	façon	NOUN	O	O	O
 excep	excep	ADJ	O	O	O
--	-	PUNCT	O	O	O
-nelle	nelle	NOUN	O	O	O
+-	-	ADJ	O	O	O
+nelle	nell	ADJ	O	O	O
 pour	pour	ADP	O	O	O
 les	le	DET	O	O	O
 exercices	exercice	NOUN	O	O	O
@@ -121,8 +123,8 @@ il	il	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 fini	finir	VERB	O	O	O
 par	par	ADP	O	O	O
-rem	rem	NOUN	O	O	O
--	-	PUNCT	O	O	O
+rem	rem	VERB	O	O	O
+-	-	ADV	O	O	O
 peu	peu	ADV	O	O	O
 près	près	ADV	O	O	O
 complètement	complètement	ADV	O	O	O
@@ -148,6 +150,7 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 bourgeoisie	bourgeoisie	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 les	le	DET	O	O	O
 lycées	lycée	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -166,8 +169,8 @@ partie	partie	NOUN	O	O	O
 du	de	ADP	O	O	O
 baccalauréat	baccalauréat	NOUN	O	O	O
 y	y	PRON	O	O	O
-en	en	ADP	O	O	O
-tres	tre	NOUN	O	O	O
+en	en	PRON	O	O	O
+tres	tres	ADV	O	O	O
 comportait	comporter	VERB	O	O	O
 un	un	DET	O	O	O
 examen	examen	NOUN	O	O	O
@@ -178,7 +181,7 @@ le	le	DET	O	O	O
 cours	cours	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Faculté	faculté	PROPN	O	O	O
+Faculté	faculté	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
@@ -260,11 +263,11 @@ Et	et	CCONJ	O	O	O
 au	au	ADP	O	O	O
 lieu	lieu	NOUN	O	O	O
 de	de	ADP	O	O	O
-contrarier	contrarier	NOUN	O	O	O
+contrarier	contrarier	VERB	O	O	O
 sa	son	DET	O	O	O
 vocation	vocation	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-comme	comme	ADP	O	O	O
+comme	comme	SCONJ	O	O	O
 les	le	DET	O	O	O
 parents	parent	NOUN	O	O	O
 n'	ne	ADV	O	O	O
@@ -293,10 +296,10 @@ enfant	enfant	NOUN	O	O	O
 était	être	AUX	O	O	O
 d'	de	ADP	O	O	O
 ailleurs	ailleurs	ADV	O	O	O
-doué	douer	VERB	O	O	O
+doué	doué	ADJ	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
-rare	rare	NOUN	O	O	O
+rare	rare	ADJ	O	O	O
 intelligence	intelligence	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
@@ -340,13 +343,13 @@ avait	avoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
 seize	seize	NUM	O	O	O
 ans	an	NOUN	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 il	il	PRON	O	O	O
 savait	savoir	VERB	O	O	O
 déjà	déjà	ADV	O	O	O
 lire	lire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-écrire	écrir	ADJ	O	O	O
+écrire	écrire	VERB	O	O	O
 et	et	CCONJ	O	O	O
 compter	compter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -354,9 +357,9 @@ comme	comme	ADP	O	O	O
 s'	se	SCONJ	O	O	O
 il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
-eût	avoir	PRON	O	O	O
+eût	avoir	AUX	O	O	O
 fait	faire	VERB	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 cela	celer	PRON	O	O	O
 toute	tout	ADJ	O	O	O
 sa	son	DET	O	O	O
@@ -367,20 +370,20 @@ Les	le	DET	O	O	O
 succès	succès	NOUN	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-flatteurs	flatteur	NOUN	O	O	O
+flatteurs	flatteur	ADJ	O	O	O
 récompen	récompen	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	ADJ	O	O	O
 sèrent	sèrer	VERB	O	O	O
 ses	son	DET	O	O	O
-hautes	haute	NOUN	O	O	O
-capacités	capacité	ADJ	O	O	O
+hautes	haut	ADJ	O	O	O
+capacités	capacité	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Ce	ce	PRON	O	O	O
 fut	être	AUX	O	O	O
 lui	luire	PRON	O	O	O
 qui	qui	PRON	O	O	O
-gagna	gagner	ADV	O	O	O
+gagna	gagner	VERB	O	O	O
 en	en	ADP	O	O	O
 1900	1900	NUM	O	O	O
 la	le	DET	O	O	O
@@ -388,8 +391,8 @@ grande	grand	ADJ	O	O	O
 course	course	NOUN	O	O	O
 de	de	ADP	O	O	O
 Paris	paris	PROPN	O	O	O
--	-	PUNCT	O	O	O
-Kamtchatka	kamtchatka	NOUN	O	O	O
+-	-	PROPN	O	O	O
+Kamtchatka	kamtchatka	PROPN	O	O	O
 organiséepar	organiséepar	ADP	O	O	O
 la	le	DET	O	O	O
 presse	presse	NOUN	O	O	O
@@ -416,10 +419,11 @@ cette	ce	DET	O	O	O
 épreuve	épreuve	NOUN	O	O	O
 solennelle	solennel	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 les	le	DET	O	O	O
 Anglais	anglais	NOUN	O	O	O
 n'	ne	ADV	O	O	O
-arrivèrent	arriver	AUX	O	O	O
+arrivèrent	arriver	VERB	O	O	O
 qu'	que	ADV	O	O	O
 en	en	ADP	O	O	O
 seconde	second	ADJ	O	O	O
@@ -432,27 +436,27 @@ de	de	ADP	O	O	O
 plus	plus	ADV	O	O	O
 de	de	ADP	O	O	O
 quinze	quinze	NUM	O	O	O
-cents	cent	NOUN	O	O	O
-lieues	lieue	ADJ	O	O	O
+cents	cent	DET	O	O	O
+lieues	lieue	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 ce	ce	DET	O	O	O
 succès	succès	NOUN	O	O	O
 magnifique	magnifique	ADJ	O	O	O
-augmenta	augmenta	NOUN	O	O	O
+augmenta	augmenter	VERB	O	O	O
 encore	encore	ADV	O	O	O
 le	le	DET	O	O	O
 prestige	prestige	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Provence	provence	NOUN	O	O	O
+Provence	provence	PROPN	O	O	O
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
 opinion	opinion	NOUN	O	O	O
 publique	public	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-A	avoir	AUX	O	O	O
+A	à	ADP	O	O	O
 voir	voir	VERB	O	O	O
 le	le	DET	O	O	O
 jeune	jeune	ADJ	O	O	O
@@ -463,7 +467,7 @@ son	son	DET	O	O	O
 bicycle	bicycle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 on	on	PRON	O	O	O
-eût	avoir	PRON	O	O	O
+eût	avoir	AUX	O	O	O
 juré	jurer	VERB	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
@@ -471,11 +475,11 @@ bicycle	bicycle	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 lui	luire	PRON	O	O	O
 ne	ne	ADV	O	O	O
-faisaientqu'	faisaientqu'	ADP	O	O	O
+faisaientqu'	faisaientqu'	ADV	O	O	O
 une	un	DET	O	O	O
 seule	seul	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-même	même	ADV	O	O	O
+même	même	ADJ	O	O	O
 personne	personne	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
@@ -483,7 +487,7 @@ c'	ce	PRON	O	O	O
 était	être	AUX	O	O	O
 une	un	DET	O	O	O
 question	question	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 l'	le	PRON	O	O	O
 on	on	PRON	O	O	O
 pouvait	pouvoir	VERB	O	O	O
@@ -507,12 +511,12 @@ qui	qui	PRON	O	O	O
 entraînait	entraîner	VERB	O	O	O
 Marius	marius	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-tant	tant	ADV	O	O	O
+tant	tant	SCONJ	O	O	O
 leurs	leur	DET	O	O	O
 mouvements	mouvement	NOUN	O	O	O
 communs	commun	ADJ	O	O	O
 étaient	être	AUX	O	O	O
-aisés	aiser	VERB	O	O	O
+aisés	aisé	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 amples	ample	ADJ	O	O	O
 et	et	CCONJ	O	O	O
@@ -520,7 +524,7 @@ harmonieux	harmonieux	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Vous	vous	PRON	O	O	O
-connaissezcette	connaissezcette	VERB	O	O	O
+connaissezcette	connaissezcette	DET	O	O	O
 histoire	histoire	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
@@ -537,21 +541,20 @@ dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 salle	salle	NOUN	O	O	O
 à	à	ADP	O	O	O
-manger	manger	VERB	O	O	O
+manger	manger	NOUN	O	O	O
 familiale	familial	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 En	en	ADP	O	O	O
-l'	le	DET	O	O	O
+l'	le	PRON	O	O	O
 apercevant	apercevoir	VERB	O	O	O
 sa	son	DET	O	O	O
 fille	fille	NOUN	O	O	O
-murmure	murmur	ADJ	O	O	O
+murmure	murmure	VERB	O	O	O
 :	:	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
-Oh	oh	DET	O	O	O
+Oh	oh	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
 papa	papa	NOUN	O	O	O
 marche	marche	VERB	O	O	O
 les	le	DET	O	O	O
@@ -577,7 +580,7 @@ Ainsi	ainsi	ADV	O	O	O
 lorsque	lorsque	SCONJ	O	O	O
 Marius	marius	PROPN	O	O	O
 n'	ne	ADV	O	O	O
-était	être	AUX	O	O	O
+était	être	VERB	O	O	O
 pas	pas	ADV	O	O	O
 sur	sur	ADP	O	O	O
 son	son	DET	O	O	O
@@ -607,7 +610,7 @@ venu	venir	VERB	O	O	O
 à	à	ADP	O	O	O
 ce	ce	DET	O	O	O
 point	point	NOUN	O	O	O
-qu'	que	PRON	O	O	O
+qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 avait	avoir	VERB	O	O	O
 besoin	besoin	NOUN	O	O	O
@@ -652,7 +655,7 @@ d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 sommeil	sommeil	NOUN	O	O	O
 paisible	paisible	ADJ	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 avec	avec	ADP	O	O	O
 son	son	DET	O	O	O
 bicycle	bicycle	NOUN	O	O	O
@@ -677,7 +680,7 @@ ayant	avoir	AUX	O	O	O
 toutes	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 joies	joie	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 les	le	DET	O	O	O
 bicycles	bicycle	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -695,20 +698,22 @@ mélancolie	mélancolie	NOUN	O	O	O
 Il	il	PRON	O	O	O
 murmurait	murmurer	VERB	O	O	O
 :	:	PUNCT	O	O	O
-—	—	PRON	O	O	O
+
+—	—	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 suis	être	AUX	O	O	O
 le	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-fort	fort	ADV	O	O	O
+fort	fort	ADJ	O	O	O
 de	de	ADP	O	O	O
 tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 bicy	bicy	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 clistes	cliste	NOUN	O	O	O
-connus	connu	ADJ	O	O	O
+connus	connaître	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 tout	tout	ADJ	O	O	O
 ce	ce	PRON	O	O	O
 que	que	PRON	O	O	O
@@ -757,30 +762,30 @@ triomphes	triomphe	NOUN	O	O	O
 Que	que	PRON	O	O	O
 me	me	PRON	O	O	O
 reste	reste	VERB	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 à	à	ADP	O	O	O
 faire	faire	VERB	O	O	O
 ?	?	PUNCT	O	O	O
 
-Oh	oh	NOUN	O	O	O
+Oh	oh	INTJ	O	O	O
 !	!	PUNCT	O	O	O
 
 l'	le	DET	O	O	O
 humanité	humanité	NOUN	O	O	O
 est	être	AUX	O	O	O
 bien	bien	ADV	O	O	O
-bornée	borné	ADJ	O	O	O
+bornée	borner	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
 il	il	PRON	O	O	O
 poussait	pousser	VERB	O	O	O
-de	de	ADP	O	O	O
-longs	long	NOUN	O	O	O
-soupirs	soupir	ADJ	O	O	O
+de	de	DET	O	O	O
+longs	long	ADJ	O	O	O
+soupirs	soupir	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 la	le	DET	O	O	O
 vanité	vanité	NOUN	O	O	O
@@ -810,7 +815,8 @@ la	le	DET	O	O	O
 campagne	campagne	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-II	ii	NOUN	O	O	O
+II	ii	PUNCT	O	O	O
+
 Il	il	PRON	O	O	O
 ne	ne	ADV	O	O	O
 tarda	tarder	VERB	O	O	O
@@ -819,12 +825,12 @@ pas	pas	ADV	O	O	O
 éprouver	éprouver	VERB	O	O	O
 une	un	DET	O	O	O
 sensation	sensation	NOUN	O	O	O
-étrange	étrange	NOUN	O	O	O
+étrange	étrange	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
 avait	avoir	AUX	O	O	O
-beau	beau	NOUN	O	O	O
+beau	beau	ADV	O	O	O
 rouler	rouler	VERB	O	O	O
 avec	avec	ADP	O	O	O
 une	un	DET	O	O	O
@@ -871,12 +877,12 @@ individu	individu	NOUN	O	O	O
 Ses	son	DET	O	O	O
 mains	main	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-dirigeant	dirigeant	NOUN	O	O	O
+dirigeant	diriger	VERB	O	O	O
 le	le	DET	O	O	O
 gouvernail	gouvernail	NOUN	O	O	O
 machinalement	machinalement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-comme	comme	SCONJ	O	O	O
+comme	comme	ADP	O	O	O
 si	si	SCONJ	O	O	O
 c'	ce	PRON	O	O	O
 était	être	AUX	O	O	O
@@ -886,6 +892,7 @@ ses	son	DET	O	O	O
 propres	propre	ADJ	O	O	O
 doigts	doigt	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 ses	son	DET	O	O	O
 pieds	pied	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -900,18 +907,18 @@ il	il	PRON	O	O	O
 ne	ne	ADV	O	O	O
 savait	savoir	VERB	O	O	O
 plus	plus	ADV	O	O	O
-où	où	PRON	O	O	O
+où	où	ADV	O	O	O
 finissait	finir	VERB	O	O	O
 sa	son	DET	O	O	O
 chair	chair	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-où	où	PRON	O	O	O
+où	où	ADV	O	O	O
 commençait	commencer	VERB	O	O	O
 le	le	DET	O	O	O
 bicycle	bicycle	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Ayant	avoir	VERB	O	O	O
+Ayant	avoir	AUX	O	O	O
 heurté	heurter	VERB	O	O	O
 un	un	DET	O	O	O
 caillou	caillou	NOUN	O	O	O
@@ -931,24 +938,23 @@ il	il	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 marché	marcher	VERB	O	O	O
 pieds	pied	NOUN	O	O	O
-nus	nu	VERB	O	O	O
+nus	nu	ADJ	O	O	O
 sur	sur	ADP	O	O	O
 des	un	DET	O	O	O
 pierres	pierre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
-Voilà	voilà	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Voilà	voilà	VERB	O	O	O
 qui	qui	PRON	O	O	O
 est	être	AUX	O	O	O
 particulier	particulier	ADJ	O	O	O
 !	!	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
 s'	se	PRON	O	O	O
 écria	écrier	VERB	O	O	O
--	-	PUNCT	O	O	O
-til	til	ADJ	O	O	O
+-	-	PRON	O	O	O
+til	til	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -959,7 +965,7 @@ allure	allure	NOUN	O	O	O
 s'	se	PRON	O	O	O
 arrêta	arrêter	VERB	O	O	O
 et	et	CCONJ	O	O	O
-essaya	essaya	ADJ	O	O	O
+essaya	essayer	VERB	O	O	O
 de	de	ADP	O	O	O
 descendre	descendre	VERB	O	O	O
 .	.	PUNCT	O	O	O
@@ -979,7 +985,7 @@ ou	ou	CCONJ	O	O	O
 qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 était	être	AUX	O	O	O
-victime	victime	ADJ	O	O	O
+victime	victime	NOUN	O	O	O
 de	de	ADP	O	O	O
 quelque	quelque	DET	O	O	O
 cauchemar	cauchemar	NOUN	O	O	O
@@ -1005,11 +1011,11 @@ réveiller	réveiller	VERB	O	O	O
 ainsi	ainsi	ADV	O	O	O
 que	que	SCONJ	O	O	O
 c'	ce	PRON	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 de	de	ADP	O	O	O
 mode	mode	NOUN	O	O	O
 en	en	ADP	O	O	O
-Provence	provence	NOUN	O	O	O
+Provence	provence	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 les	le	DET	O	O	O
@@ -1034,7 +1040,7 @@ ses	son	DET	O	O	O
 pieds	pied	NOUN	O	O	O
 restèrent	rester	VERB	O	O	O
 implacablement	implacablement	ADV	O	O	O
-fixés	fixé	ADJ	O	O	O
+fixés	fixer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -1044,6 +1050,7 @@ hausser	hausser	VERB	O	O	O
 son	son	DET	O	O	O
 séant	séant	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 son	son	DET	O	O	O
 séant	séant	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -1052,7 +1059,7 @@ siège	siège	NOUN	O	O	O
 du	de	ADP	O	O	O
 bicycle	bicycle	NOUN	O	O	O
 étaient	être	AUX	O	O	O
-inséparables	inséparabler	VERB	O	O	O
+inséparables	inséparable	ADJ	O	O	O
 l'	le	DET	O	O	O
 un	un	PRON	O	O	O
 de	de	ADP	O	O	O
@@ -1106,10 +1113,10 @@ une	un	DET	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
 farces	farce	NOUN	O	O	O
-comme	comme	ADP	O	O	O
+comme	comme	SCONJ	O	O	O
 les	le	DET	O	O	O
 méridionaux	méridional	NOUN	O	O	O
-ont	avoir	AUX	O	O	O
+ont	avoir	VERB	O	O	O
 l'	le	DET	O	O	O
 habitude	habitude	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1120,15 +1127,14 @@ entre	entrer	ADP	O	O	O
 eux	lui	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-Descends	descend	NOUN	O	O	O
+—	—	PUNCT	O	O	O
+Descends	descendre	VERB	O	O	O
 de	de	ADP	O	O	O
-ton	ton	NOUN	O	O	O
-bicycle	bicycl	ADJ	O	O	O
+ton	ton	DET	O	O	O
+bicycle	bicycle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 eh	eh	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
 feignant	feindre	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -1144,8 +1150,8 @@ fallut	falloir	VERB	O	O	O
 que	que	SCONJ	O	O	O
 Marius	marius	PROPN	O	O	O
 versât	verser	VERB	O	O	O
-d'	de	ADP	O	O	O
-abondantes	abondant	PROPN	O	O	O
+d'	de	DET	O	O	O
+abondantes	abondant	ADJ	O	O	O
 larmes	larme	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 qu'	que	SCONJ	O	O	O
@@ -1156,20 +1162,20 @@ prendre	prendre	VERB	O	O	O
 son	son	DET	O	O	O
 aventure	aventure	NOUN	O	O	O
 au	au	ADP	O	O	O
-sérieux	sérieux	PROPN	O	O	O
+sérieux	sérieux	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Té	té	ADJ	O	O	O
+Té	té	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
-tu	tu	ADP	O	O	O
+tu	tu	PRON	O	O	O
 t'	te	PRON	O	O	O
-es	être	ADP	O	O	O
+es	être	AUX	O	O	O
 empêtré	empêtrer	VERB	O	O	O
 là	là	ADV	O	O	O
--	-	PUNCT	O	O	O
-dessus	dessus	NOUN	O	O	O
+-	-	ADV	O	O	O
+dessus	dessus	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
 lui	luire	PRON	O	O	O
@@ -1178,7 +1184,7 @@ son	son	DET	O	O	O
 père	père	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Attends	attend	NOUN	O	O	O
+Attends	attendre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 vais	aller	VERB	O	O	O
@@ -1187,14 +1193,14 @@ retirer	retirer	VERB	O	O	O
 de	de	ADP	O	O	O
 là	là	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-nigaud	nigaud	VERB	O	O	O
+nigaud	nigaud	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
-quelque	quelque	DET	O	O	O
+quelque	quelque	ADV	O	O	O
 effort	effort	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 fit	faire	VERB	O	O	O
 le	le	DET	O	O	O
 père	père	NOUN	O	O	O
@@ -1223,7 +1229,7 @@ passait	passer	VERB	O	O	O
 quelque	quelque	DET	O	O	O
 chose	chose	NOUN	O	O	O
 de	de	ADP	O	O	O
-fantastique	fantastique	NOUN	O	O	O
+fantastique	fantastique	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 toute	tout	ADJ	O	O	O
 la	le	DET	O	O	O
@@ -1234,7 +1240,7 @@ mit	mettre	VERB	O	O	O
 genoux	genou	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 adressa	adresser	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 prières	prière	NOUN	O	O	O
 au	au	ADP	O	O	O
 ciel	ciel	NOUN	O	O	O
@@ -1257,7 +1263,7 @@ le	le	DET	O	O	O
 signe	signe	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-croix	croix	PROPN	O	O	O
+croix	croix	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
@@ -1295,8 +1301,8 @@ exorciser	exorciser	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 murmura	murmurer	VERB	O	O	O
 une	un	DET	O	O	O
-brave	brave	NOUN	O	O	O
-dame	dame	ADP	O	O	O
+brave	brave	ADJ	O	O	O
+dame	dame	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 se	se	PRON	O	O	O
 précipita	précipiter	VERB	O	O	O
@@ -1317,15 +1323,15 @@ hâte	hâte	NOUN	O	O	O
 Mais	mais	CCONJ	O	O	O
 il	il	PRON	O	O	O
 eut	avoir	VERB	O	O	O
-beau	beau	NOUN	O	O	O
+beau	beau	ADV	O	O	O
 jeter	jeter	VERB	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 eau	eau	NOUN	O	O	O
-bénite	bénit	VERB	O	O	O
+bénite	bénit	ADJ	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
-malheureux	malheureux	NOUN	O	O	O
+malheureux	malheureux	ADJ	O	O	O
 Marius	marius	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 lui	luire	PRON	O	O	O
@@ -1337,11 +1343,11 @@ en	en	PRON	O	O	O
 restèrent	rester	VERB	O	O	O
 pas	pas	ADV	O	O	O
 moins	moins	ADV	O	O	O
-intimement	intimemer	VERB	O	O	O
-unis	unir	ADV	O	O	O
+intimement	intimement	ADV	O	O	O
+unis	uni	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	PRON	O	O	O
+—	—	PUNCT	O	O	O
 Ça	cela	PRON	O	O	O
 ne	ne	ADV	O	O	O
 regarde	regarder	VERB	O	O	O
@@ -1364,7 +1370,8 @@ un	un	DET	O	O	O
 médecin	médecin	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-III	iii	NOUN	O	O	O
+III	iii	PUNCT	O	O	O
+
 L'	le	DET	O	O	O
 homme	homme	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1388,8 +1395,8 @@ se	se	PRON	O	O	O
 déranger	déranger	VERB	O	O	O
 pour	pour	ADP	O	O	O
 une	un	DET	O	O	O
-pareille	pareille	NOUN	O	O	O
-sottise	sottis	ADJ	O	O	O
+pareille	pareil	ADJ	O	O	O
+sottise	sottise	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -1406,10 +1413,10 @@ le	le	DET	O	O	O
 médecin	médecin	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-déclara	déclara	ADJ	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+déclara	déclarer	VERB	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 avec	avec	ADP	O	O	O
 autorité	autorité	NOUN	O	O	O
@@ -1435,8 +1442,8 @@ tâta	tâter	VERB	O	O	O
 le	le	DET	O	O	O
 pouls	pouls	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-l'	le	DET	O	O	O
-ausculta	ausculta	NOUN	O	O	O
+l'	le	PRON	O	O	O
+ausculta	ausculter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 appuya	appuyer	VERB	O	O	O
 la	le	DET	O	O	O
@@ -1447,8 +1454,8 @@ la	le	DET	O	O	O
 poitrine	poitrine	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	PRON	O	O	O
-Allons	allons	PROPN	O	O	O
+—	—	PUNCT	O	O	O
+Allons	aller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 mon	mon	DET	O	O	O
 garçon	garçon	NOUN	O	O	O
@@ -1457,10 +1464,10 @@ vous	vous	PRON	O	O	O
 n'	ne	ADV	O	O	O
 avezrien	avezrien	VERB	O	O	O
 du	de	ADP	O	O	O
-tout	tout	PRON	O	O	O
+tout	tout	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 conclut	conclure	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1477,12 +1484,11 @@ Marius	marius	PROPN	O	O	O
 —	—	PUNCT	O	O	O
 Comment	comment	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 vous	vous	PRON	O	O	O
 voulez	vouloir	VERB	O	O	O
 me	me	PRON	O	O	O
-faire	faire	VERB	O	O	O
-accroire	accroir	ADJ	O	O	O
+faire	faire	AUX	O	O	O
+accroire	accroire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 moi	moi	PRON	O	O	O
@@ -1505,7 +1511,7 @@ indigné	indigné	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Essayez	essayez	PROPN	O	O	O
+Essayez	essayer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 reprit	reprendre	VERB	O	O	O
 Marius	marius	PROPN	O	O	O
@@ -1517,9 +1523,9 @@ bien	bien	ADV	O	O	O
 
 Le	le	DET	O	O	O
 docteur	docteur	NOUN	O	O	O
-le	le	DET	O	O	O
-secoua	secoua	NOUN	O	O	O
-terriblement	terriblement	NOUN	O	O	O
+le	le	PRON	O	O	O
+secoua	secouer	VERB	O	O	O
+terriblement	terriblement	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -1533,9 +1539,9 @@ imposteur	imposteur	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 La	le	DET	O	O	O
-sciencedémontreque	sciencedémontreque	NOUN	O	O	O
+sciencedémontreque	sciencedémontreque	VERB	O	O	O
 lorsqu'	lorsque	SCONJ	O	O	O
-unhomme	unhomme	PROPN	O	O	O
+unhomme	unhomme	NOUN	O	O	O
 est	être	AUX	O	O	O
 monté	monter	VERB	O	O	O
 sur	sur	ADP	O	O	O
@@ -1546,16 +1552,16 @@ il	il	PRON	O	O	O
 doit	devoir	VERB	O	O	O
 pouvoir	pouvoir	VERB	O	O	O
 nécessairement	nécessairement	ADV	O	O	O
-en	en	ADP	O	O	O
+en	en	PRON	O	O	O
 descendre	descendre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 ce	ce	PRON	O	O	O
 n'	ne	ADV	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 pas	pas	ADV	O	O	O
 au	au	ADP	O	O	O
-commencement	commencemer	VERB	O	O	O
+commencement	commencement	NOUN	O	O	O
 du	de	ADP	O	O	O
 vingtième	vingtième	ADJ	O	O	O
 siècle	siècle	NOUN	O	O	O
@@ -1580,14 +1586,14 @@ mécanique	mécanique	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Marius	marius	PROPN	O	O	O
-poussa	poussa	PROPN	O	O	O
-de	de	ADP	O	O	O
-lamentables	lamentable	DET	O	O	O
+poussa	pousser	VERB	O	O	O
+de	de	DET	O	O	O
+lamentables	lamentable	ADJ	O	O	O
 gémissements	gémissement	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Puisque	puisque	PROPN	O	O	O
+Puisque	puisque	SCONJ	O	O	O
 je	je	PRON	O	O	O
 vous	vous	PRON	O	O	O
 dis	dire	VERB	O	O	O
@@ -1607,8 +1613,8 @@ pas	pas	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 vous	vous	PRON	O	O	O
-en	en	ADP	O	O	O
-supplie	supplie	NOUN	O	O	O
+en	en	PRON	O	O	O
+supplie	supplier	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Touché	toucher	VERB	O	O	O
@@ -1640,8 +1646,8 @@ de	de	ADP	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 Marius	marius	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-l'	le	DET	O	O	O
-interrogea	interrogea	NOUN	O	O	O
+l'	le	PRON	O	O	O
+interrogea	interroger	VERB	O	O	O
 sur	sur	ADP	O	O	O
 sa	son	DET	O	O	O
 vie	vie	NOUN	O	O	O
@@ -1649,7 +1655,7 @@ vie	vie	NOUN	O	O	O
 lui	luire	PRON	O	O	O
 demanda	demander	VERB	O	O	O
 si	si	SCONJ	O	O	O
-pareille	pareil	PRON	O	O	O
+pareille	pareil	ADJ	O	O	O
 chose	chose	NOUN	O	O	O
 était	être	AUX	O	O	O
 déjà	déjà	ADV	O	O	O
@@ -1668,7 +1674,7 @@ je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 l'	le	PRON	O	O	O
 ai	avoir	AUX	O	O	O
-ouï	ouï	NOUN	O	O	O
+ouï	ouïr	VERB	O	O	O
 dire	dire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 fit	faire	VERB	O	O	O
@@ -1693,13 +1699,13 @@ et	et	CCONJ	O	O	O
 je	je	PRON	O	O	O
 n'	ne	ADV	O	O	O
 y	y	PRON	O	O	O
-comprends	comprend	NOUN	O	O	O
+comprends	comprendre	VERB	O	O	O
 plus	plus	ADV	O	O	O
 rien	rien	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 A	à	ADP	O	O	O
-tout	tout	ADV	O	O	O
+tout	tout	DET	O	O	O
 hasard	hasard	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
@@ -1709,7 +1715,8 @@ potion	potion	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ajoutant	ajouter	VERB	O	O	O
 :	:	PUNCT	O	O	O
-—	—	PRON	O	O	O
+
+—	—	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 reviendrai	revenir	VERB	O	O	O
 demain	demain	ADV	O	O	O
@@ -1726,7 +1733,7 @@ même	même	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 j'	je	PRON	O	O	O
 appellerai	appeler	VERB	O	O	O
-deux	deux	NUM	O	O	O
+deux	deux	PRON	O	O	O
 de	de	ADP	O	O	O
 mes	mon	DET	O	O	O
 collègues	collègue	NOUN	O	O	O
@@ -1744,7 +1751,8 @@ de	de	ADP	O	O	O
 médecine	médecine	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Marius	mariu	NOUN	O	O	O
+Marius	marius	PROPN	O	O	O
+
 sur	sur	ADP	O	O	O
 son	son	DET	O	O	O
 bicycle	bicycle	NOUN	O	O	O
@@ -1802,9 +1810,9 @@ Deux	deux	NUM	O	O	O
 jours	jour	NOUN	O	O	O
 après	après	ADP	O	O	O
 cinq	cinq	PRON	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 plus	plus	ADV	O	O	O
-renommés	renommer	VERB	O	O	O
+renommés	renommer	ADJ	O	O	O
 maîtres	maître	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
@@ -1820,7 +1828,7 @@ et	et	CCONJ	O	O	O
 leur	son	DET	O	O	O
 avis	avis	NOUN	O	O	O
 unanime	unanime	ADJ	O	O	O
-fut	être	AUX	O	O	O
+fut	être	VERB	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
 bicycle	bicycle	NOUN	O	O	O
@@ -1850,7 +1858,6 @@ moins	moins	ADV	O	O	O
 l'	le	DET	O	O	O
 homme	homme	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
 L'	le	DET	O	O	O
 un	un	PRON	O	O	O
 d'	de	ADP	O	O	O
@@ -1868,10 +1875,11 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 science	science	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 ne	ne	ADV	O	O	O
 renonça	renoncer	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 avec	avec	ADP	O	O	O
 peine	peine	NOUN	O	O	O
 à	à	ADP	O	O	O
@@ -1893,17 +1901,17 @@ Vous	vous	PRON	O	O	O
 êtes	être	AUX	O	O	O
 devenu	devenir	VERB	O	O	O
 homme	homme	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 bicycle	bicycle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-conclurent	conclure	ADV	O	O	O
+conclurent	conclure	VERB	O	O	O
 les	le	DET	O	O	O
 savants	savant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Cela	celer	PRON	O	O	O
 devait	devoir	VERB	O	O	O
-fatalement	fatalemer	VERB	O	O	O
+fatalement	fatalement	ADV	O	O	O
 se	se	PRON	O	O	O
 produire	produire	VERB	O	O	O
 un	un	DET	O	O	O
@@ -1914,8 +1922,8 @@ autre	autre	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Peut	pouvoir	ADV	O	O	O
--	-	PUNCT	O	O	O
+Peut	pouvoir	VERB	O	O	O
+-	-	PRON	O	O	O
 on	on	PRON	O	O	O
 vivre	vivre	VERB	O	O	O
 ainsi	ainsi	ADV	O	O	O
@@ -1940,7 +1948,7 @@ l'	le	PRON	O	O	O
 on	on	PRON	O	O	O
 pouvait	pouvoir	VERB	O	O	O
 parfaitement	parfaitement	ADV	O	O	O
-vivre	vivr	ADJ	O	O	O
+vivre	vivre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 condition	condition	NOUN	O	O	O
@@ -1970,11 +1978,11 @@ affaire	affaire	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 Marius	marius	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-interviewé	interviewé	NOUN	O	O	O
+interviewé	interviewer	VERB	O	O	O
 plus	plus	ADV	O	O	O
 de	de	ADP	O	O	O
-deux	deux	NUM	O	O	O
-mille	mille	NUM	O	O	O
+deux	deux	DET	O	O	O
+mille	mille	DET	O	O	O
 fois	fois	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 devint	devenir	VERB	O	O	O
@@ -1989,9 +1997,10 @@ la	le	DET	O	O	O
 terre	terre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-IV	iv	NOUN	O	O	O
+IV	iv	NUM	O	O	O
+
 Le	le	DET	O	O	O
-pauvre	pauvre	NOUN	O	O	O
+pauvre	pauvre	ADJ	O	O	O
 Marius	marius	PROPN	O	O	O
 finit	finir	VERB	O	O	O
 par	par	ADP	O	O	O
@@ -1999,7 +2008,7 @@ s'	se	PRON	O	O	O
 accoutumer	accoutumer	VERB	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
-étrange	étrange	NOUN	O	O	O
+étrange	étrange	ADJ	O	O	O
 position	position	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -2011,39 +2020,39 @@ trouva	trouver	VERB	O	O	O
 peu	peu	ADV	O	O	O
 à	à	ADP	O	O	O
 peu	peu	ADV	O	O	O
-du	de	ADP	O	O	O
+du	de	DET	O	O	O
 charme	charme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
 je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 sais	savoir	VERB	O	O	O
-quoi	quoi	ADV	O	O	O
+quoi	quoi	PRON	O	O	O
 de	de	ADP	O	O	O
-piquant	piquant	ADV	O	O	O
+piquant	piquant	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 d'	de	ADP	O	O	O
-imprévu	imprévu	VERB	O	O	O
+imprévu	imprévu	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
 recevait	recevoir	VERB	O	O	O
 des	un	DET	O	O	O
-visites	visite	ADJ	O	O	O
-flatteuses	flatteur	NOUN	O	O	O
+visites	visite	NOUN	O	O	O
+flatteuses	flatteur	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 hommages	hommage	NOUN	O	O	O
 sans	sans	ADP	O	O	O
 nombre	nombre	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 compliments	compliment	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 chatouillaient	chatouiller	VERB	O	O	O
 son	son	DET	O	O	O
 amour	amour	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 propre	propre	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -2057,15 +2066,15 @@ lorsqu'	lorsque	SCONJ	O	O	O
 il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
 était	être	AUX	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 un	un	DET	O	O	O
 homme	homme	NOUN	O	O	O
 comme	comme	ADP	O	O	O
 tout	tout	ADJ	O	O	O
 le	le	DET	O	O	O
 monde	monde	NOUN	O	O	O
-tombèrent	tombèrent	ADJ	O	O	O
-amoureuses	amoureux	NOUN	O	O	O
+tombèrent	tomber	VERB	O	O	O
+amoureuses	amoureux	ADJ	O	O	O
 de	de	ADP	O	O	O
 lui	luire	PRON	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2073,7 +2082,7 @@ et	et	CCONJ	O	O	O
 il	il	PRON	O	O	O
 eut	avoir	VERB	O	O	O
 la	le	DET	O	O	O
-joie	joi	ADJ	O	O	O
+joie	joie	NOUN	O	O	O
 cruelle	cruel	ADJ	O	O	O
 de	de	ADP	O	O	O
 les	le	PRON	O	O	O
@@ -2093,29 +2102,29 @@ leur	son	DET	O	O	O
 désespoir	désespoir	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Inutile	inutile	ADJ	O	O	O
+Inutile	inutile	ADV	O	O	O
 de	de	ADP	O	O	O
 dire	dire	VERB	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-brillantes	brillante	NOUN	O	O	O
-propositions	proposition	ADJ	O	O	O
+brillantes	brillant	ADJ	O	O	O
+propositions	proposition	NOUN	O	O	O
 lui	luire	PRON	O	O	O
 furent	être	AUX	O	O	O
 faites	faire	VERB	O	O	O
 par	par	ADP	O	O	O
 des	un	DET	O	O	O
-im	im	PROPN	O	O	O
--	-	PUNCT	O	O	O
-presarios	presarios	VERB	O	O	O
+im	im	NOUN	O	O	O
+-	-	NOUN	O	O	O
+presarios	presario	NOUN	O	O	O
 américains	américain	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
 il	il	PRON	O	O	O
 refusa	refuser	VERB	O	O	O
-énergiquement	énergiquemer	VERB	O	O	O
+énergiquement	énergiquement	ADV	O	O	O
 de	de	ADP	O	O	O
 s'	se	PRON	O	O	O
 exhiber	exhiber	VERB	O	O	O
@@ -2185,7 +2194,7 @@ consentit	consentir	VERB	O	O	O
 à	à	ADP	O	O	O
 être	être	AUX	O	O	O
 nommé	nommer	VERB	O	O	O
-chevalier	chevalier	ADJ	O	O	O
+chevalier	chevalier	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 Légion	légion	NOUN	O	O	O
@@ -2200,7 +2209,7 @@ année	année	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 passa	passer	VERB	O	O	O
 en	en	ADP	O	O	O
-Provence	provence	NOUN	O	O	O
+Provence	provence	PROPN	O	O	O
 une	un	DET	O	O	O
 princesse	princesse	NOUN	O	O	O
 belle	bel	ADJ	O	O	O
@@ -2226,8 +2235,8 @@ les	le	DET	O	O	O
 touristes	touriste	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 devint	devenir	VERB	O	O	O
-éperdument	éperdument	NOUN	O	O	O
-éprise	éprise	NOUN	O	O	O
+éperdument	éperdument	ADV	O	O	O
+éprise	éprendre	VERB	O	O	O
 du	de	ADP	O	O	O
 jeune	jeune	ADJ	O	O	O
 homme	homme	NOUN	O	O	O
@@ -2237,12 +2246,12 @@ Elle	lui	PRON	O	O	O
 déclara	déclarer	VERB	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
-royal	royal	NOUN	O	O	O
-père	pèr	ADJ	O	O	O
+royal	royal	ADJ	O	O	O
+père	père	NOUN	O	O	O
 qu'	que	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
 n'	ne	ADV	O	O	O
-aurait	avoir	AUX	O	O	O
+aurait	avoir	VERB	O	O	O
 jamais	jamais	ADV	O	O	O
 d'	de	DET	O	O	O
 autre	autre	ADJ	O	O	O
@@ -2266,9 +2275,9 @@ dit	dire	VERB	O	O	O
 que	que	SCONJ	O	O	O
 la	le	DET	O	O	O
 princesse	princesse	NOUN	O	O	O
-mourrait	mourrait	ADJ	O	O	O
+mourrait	mourir	VERB	O	O	O
 de	de	ADP	O	O	O
-chagrin	chagrin	PROPN	O	O	O
+chagrin	chagrin	NOUN	O	O	O
 si	si	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
 n'	ne	ADV	O	O	O
@@ -2279,7 +2288,7 @@ Marius	marius	PROPN	O	O	O
 il	il	PRON	O	O	O
 se	se	PRON	O	O	O
 laissa	laisser	VERB	O	O	O
-fléchir	fléchir	ADJ	O	O	O
+fléchir	fléchir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
@@ -2321,7 +2330,7 @@ os	os	NOUN	O	O	O
 ce	ce	PRON	O	O	O
 qui	qui	PRON	O	O	O
 était	être	AUX	O	O	O
-facile	facile	VERB	O	O	O
+facile	facile	ADJ	O	O	O
 à	à	ADP	O	O	O
 prévoir	prévoir	VERB	O	O	O
 .	.	PUNCT	O	O	O
@@ -2333,7 +2342,7 @@ les	le	DET	O	O	O
 hommes	homme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 au	au	ADP	O	O	O
-commencement	commencemer	VERB	O	O	O
+commencement	commencement	NOUN	O	O	O
 du	de	ADP	O	O	O
 vingtième	vingtième	ADJ	O	O	O
 siècle	siècle	NOUN	O	O	O
@@ -2342,10 +2351,10 @@ une	un	DET	O	O	O
 race	race	NOUN	O	O	O
 d'	de	ADP	O	O	O
 hommes	homme	NOUN	O	O	O
--	-	PUNCT	O	O	O
-bicycles	bicycle	ADJ	O	O	O
+-	-	NOUN	O	O	O
+bicycles	bicycle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-analogues	analogue	NOUN	O	O	O
+analogues	analogue	ADJ	O	O	O
 aux	à	ADP	O	O	O
 centaures	centaure	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -2356,22 +2365,22 @@ antiquité	antiquité	NOUN	O	O	O
 Cette	ce	DET	O	O	O
 race	race	NOUN	O	O	O
 fut	être	AUX	O	O	O
-fertile	fertile	VERB	O	O	O
+fertile	fertile	ADJ	O	O	O
 en	en	ADP	O	O	O
 esprits	esprit	NOUN	O	O	O
 ingénieux	ingénieux	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-remarquables	remarquable	NOUN	O	O	O
+remarquables	remarquable	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-jeta	jeter	PROPN	O	O	O
+jeta	jeter	VERB	O	O	O
 un	un	DET	O	O	O
-peu	peu	ADV	O	O	O
+peu	peu	NOUN	O	O	O
 de	de	ADP	O	O	O
 distraction	distraction	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
-humanité	humanité	PROPN	O	O	O
+humanité	humanité	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 

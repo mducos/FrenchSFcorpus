@@ -2,12 +2,12 @@ La	le	DET	O	O	O
 dernière	dernier	ADJ	O	O	O
 réunion	réunion	NOUN	O	O	O
 des	de	ADP	O	O	O
-Franes	frane	NOUN	O	O	O
--	-	PUNCT	O	O	O
-Licheurs	licheurs	PROPN	O	O	O
+Franes	franes	PROPN	O	O	O
+-	-	PROPN	O	O	O
+Licheurs	licheur	NOUN	O	O	O
 au	au	ADP	O	O	O
 grand	grand	ADJ	O	O	O
-Seize	seize	PROPN	O	O	O
+Seize	seize	NOUN	O	O	O
 du	de	ADP	O	O	O
 Café	café	NOUN	O	O	O
 anglais	anglais	ADJ	O	O	O
@@ -16,6 +16,7 @@ avait	avoir	AUX	O	O	O
 très	très	ADV	O	O	O
 gaie	gai	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 jamais	jamais	ADV	O	O	O
 on	on	PRON	O	O	O
 n'	ne	ADV	O	O	O
@@ -39,12 +40,12 @@ artifice	artifice	NOUN	O	O	O
 d'	de	ADP	O	O	O
 avance	avance	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-tant	tant	ADV	O	O	O
+tant	tant	SCONJ	O	O	O
 les	le	DET	O	O	O
 fusées	fusée	NOUN	O	O	O
 avaient	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
-brillantes	brillanter	VERB	O	O	O
+brillantes	brillant	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Après	après	ADP	O	O	O
@@ -99,11 +100,11 @@ qui	qui	PRON	O	O	O
 un	un	DET	O	O	O
 morceau	morceau	NOUN	O	O	O
 de	de	ADP	O	O	O
-Miss	miss	PROPN	O	O	O
+Miss	miss	NOUN	O	O	O
 Helyett	helyett	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
-un	un	PRON	O	O	O
+un	un	DET	O	O	O
 duo	duo	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
@@ -126,7 +127,7 @@ n'	ne	ADV	O	O	O
 écoutaient	écouter	VERB	O	O	O
 pas	pas	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-regardaient	regarder	ADV	O	O	O
+regardaient	regarder	VERB	O	O	O
 avec	avec	ADP	O	O	O
 intérêt	intérêt	NOUN	O	O	O
 la	le	DET	O	O	O
@@ -134,7 +135,7 @@ figure	figure	NOUN	O	O	O
 de	de	ADP	O	O	O
 ceux	celui	PRON	O	O	O
 qui	qui	PRON	O	O	O
-écoutaient	écouter	ADV	O	O	O
+écoutaient	écouter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 car	car	CCONJ	O	O	O
 il	il	PRON	O	O	O
@@ -168,6 +169,7 @@ l'	le	DET	O	O	O
 auditeur	auditeur	NOUN	O	O	O
 disait	dire	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Tout	tout	ADJ	O	O	O
 le	le	DET	O	O	O
@@ -178,6 +180,7 @@ voix	voix	NOUN	O	O	O
 de	de	ADP	O	O	O
 perroquet	perroquet	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Mais	mais	CCONJ	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -202,7 +205,8 @@ apparition	apparition	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 dit	dire	VERB	O	O	O
 :	:	PUNCT	O	O	O
-—	—	PRON	O	O	O
+
+—	—	PUNCT	O	O	O
 Si	si	SCONJ	O	O	O
 vous	vous	PRON	O	O	O
 voulez	vouloir	VERB	O	O	O
@@ -211,7 +215,7 @@ messieurs	monsieur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 j'	je	PRON	O	O	O
 ai	avoir	AUX	O	O	O
-fait	faire	VERB	O	O	O
+fait	faire	AUX	O	O	O
 installer	installer	VERB	O	O	O
 chez	chez	ADP	O	O	O
 moi	moi	PRON	O	O	O
@@ -231,7 +235,7 @@ monde	monde	NOUN	O	O	O
 
 Pour	pour	ADP	O	O	O
 dix	dix	NUM	O	O	O
-sous	sou	ADP	O	O	O
+sous	sou	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 vous	vous	PRON	O	O	O
 pouvez	pouvoir	VERB	O	O	O
@@ -263,7 +267,7 @@ exclamations	exclamation	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Oui	oui	PROPN	O	O	O
+Oui	oui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -337,7 +341,7 @@ vêtement	vêtement	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
-diverses	diverse	NOUN	O	O	O
+diverses	divers	ADJ	O	O	O
 postures	posture	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 lesquelles	lequel	PRON	O	O	O
@@ -370,7 +374,7 @@ Eros	eros	PROPN	O	O	O
 
 Je	je	PRON	O	O	O
 n'	ne	ADV	O	O	O
-ai	avoir	AUX	O	O	O
+ai	avoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
 encore	encore	ADV	O	O	O
 la	le	DET	O	O	O
@@ -387,8 +391,8 @@ mode	mode	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Cela	celer	PRON	O	O	O
-viendra	venir	PRON	O	O	O
-moyennant	moyenner	VERB	O	O	O
+viendra	venir	VERB	O	O	O
+moyennant	moyenner	ADP	O	O	O
 un	un	DET	O	O	O
 abonnement	abonnement	NOUN	O	O	O
 annuel	annuel	ADJ	O	O	O
@@ -400,7 +404,7 @@ déjà	déjà	ADV	O	O	O
 d'	de	ADP	O	O	O
 accord	accord	NOUN	O	O	O
 avec	avec	ADP	O	O	O
-plusieurs	plusieur	NOUN	O	O	O
+plusieurs	plusieurs	PRON	O	O	O
 d'	de	ADP	O	O	O
 entre	entrer	ADP	O	O	O
 elles	lui	PRON	O	O	O
@@ -414,7 +418,7 @@ reste	reste	VERB	O	O	O
 plus	plus	ADV	O	O	O
 à	à	ADP	O	O	O
 débattre	débattre	VERB	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 le	le	DET	O	O	O
 prix	prix	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -423,7 +427,7 @@ Quelques	quelque	DET	O	O	O
 maris	mari	NOUN	O	O	O
 un	un	DET	O	O	O
 peu	peu	ADV	O	O	O
-gênés	gêner	VERB	O	O	O
+gênés	gêné	ADJ	O	O	O
 m'	me	PRON	O	O	O
 ont	avoir	AUX	O	O	O
 même	même	ADV	O	O	O
@@ -449,13 +453,13 @@ loyer	loyer	NOUN	O	O	O
 C'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 à	à	ADP	O	O	O
-réfléchir	réfléchir	PROPN	O	O	O
+réfléchir	réfléchir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 suis	être	AUX	O	O	O
 avant	avant	ADP	O	O	O
-tout	tout	DET	O	O	O
-respectueuse	respectueuse	VERB	O	O	O
+tout	tout	ADV	O	O	O
+respectueuse	respectueux	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 famille	famille	NOUN	O	O	O
@@ -463,12 +467,12 @@ famille	famille	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 puis	pouvoir	CCONJ	O	O	O
 ces	ce	DET	O	O	O
-idylles	idylle	ADJ	O	O	O
+idylles	idylle	NOUN	O	O	O
 bourgeoises	bourgeois	ADJ	O	O	O
 ne	ne	ADV	O	O	O
 sauraient	savoir	VERB	O	O	O
 avoir	avoir	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 un	un	DET	O	O	O
 intérêt	intérêt	NOUN	O	O	O
 très	très	ADV	O	O	O
@@ -528,7 +532,7 @@ Ainsi	ainsi	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 est	être	AUX	O	O	O
-neuf	neuf	VERB	O	O	O
+neuf	neuf	NUM	O	O	O
 heures	heure	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
@@ -536,16 +540,19 @@ est	être	AUX	O	O	O
 précisément	précisément	ADV	O	O	O
 le	le	DET	O	O	O
 moment	moment	NOUN	O	O	O
-où	où	PRON	O	O	O
+
+où	où	ADV	O	O	O
+
 le	le	DET	O	O	O
 spectacle	spectacle	NOUN	O	O	O
 va	aller	VERB	O	O	O
 devenir	devenir	VERB	O	O	O
 intéressant	intéressant	ADJ	O	O	O
+
 .	.	PUNCT	O	O	O
 
 Voulez	vouloir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 en	en	PRON	O	O	O
 essayer	essayer	VERB	O	O	O
@@ -564,7 +571,7 @@ moi	moi	PRON	O	O	O
 
 —	—	PUNCT	O	O	O
 Un	un	DET	O	O	O
-peu	peu	ADV	O	O	O
+peu	peu	NOUN	O	O	O
 de	de	ADP	O	O	O
 silence	silence	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -586,13 +593,14 @@ Le	le	DET	O	O	O
 marquis	marquis	NOUN	O	O	O
 de	de	ADP	O	O	O
 Quasi	quasi	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Mazas	mazas	PROPN	O	O	O
 prit	prendre	VERB	O	O	O
 alors	alors	ADV	O	O	O
 la	le	DET	O	O	O
 parole	parole	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Mes	mon	DET	O	O	O
 chers	cher	ADJ	O	O	O
@@ -607,7 +615,7 @@ d'	de	ADP	O	O	O
 ,	,	PUNCT	O	O	O
 privilège	privilège	NOUN	O	O	O
 que	que	PRON	O	O	O
-personne	personne	NOUN	O	O	O
+personne	personne	PRON	O	O	O
 ne	ne	ADV	O	O	O
 m'	me	PRON	O	O	O
 enviera	envier	VERB	O	O	O
@@ -636,7 +644,7 @@ poussé	pousser	VERB	O	O	O
 par	par	ADP	O	O	O
 aucune	aucun	DET	O	O	O
 curiosité	curiosité	NOUN	O	O	O
-malsaine	malsaine	NOUN	O	O	O
+malsaine	malsain	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Je	je	PRON	O	O	O
@@ -662,6 +670,7 @@ me	me	PRON	O	O	O
 laisse	laisse	VERB	O	O	O
 froid	froid	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 il	il	PRON	O	O	O
 y	y	PRON	O	O	O
@@ -707,14 +716,14 @@ le	le	DET	O	O	O
 marquis	marquis	NOUN	O	O	O
 de	de	ADP	O	O	O
 Quasi	quasi	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Mazas	mazas	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 suivi	suivre	VERB	O	O	O
 du	de	ADP	O	O	O
 patron	patron	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-pénétra	pénétra	ADJ	O	O	O
+pénétra	pénétrer	VERB	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 petit	petit	ADJ	O	O	O
@@ -727,7 +736,7 @@ espèce	espèce	NOUN	O	O	O
 de	de	ADP	O	O	O
 lanterne	lanterne	NOUN	O	O	O
 magique	magique	ADJ	O	O	O
-munie	munie	NOUN	O	O	O
+munie	munir	VERB	O	O	O
 de	de	ADP	O	O	O
 deux	deux	NUM	O	O	O
 récepteurs	récepteur	NOUN	O	O	O
@@ -772,34 +781,34 @@ avec	avec	ADP	O	O	O
 quel	quel	DET	O	O	O
 restaurant	restaurant	NOUN	O	O	O
 monsieur	monsieur	NOUN	O	O	O
-désire	désir	ADJ	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+désire	désirer	VERB	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 la	le	DET	O	O	O
 communication	communication	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
-—	—	PRON	O	O	O
+—	—	PUNCT	O	O	O
 Ça	cela	PRON	O	O	O
 m'	me	PRON	O	O	O
 est	être	AUX	O	O	O
 égal	égal	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Prenons	prenon	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Prenons	prendre	VERB	O	O	O
+-	-	PRON	O	O	O
 en	en	ADP	O	O	O
-un	un	DET	O	O	O
+un	un	PRON	O	O	O
 au	au	ADP	O	O	O
 hasard	hasard	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 Maison	maison	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 d'	de	ADP	O	O	O
-Or	or	CCONJ	O	O	O
+Or	or	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 par	par	ADP	O	O	O
 exemple	exemple	NOUN	O	O	O
@@ -809,14 +818,14 @@ exemple	exemple	NOUN	O	O	O
 Va	aller	VERB	O	O	O
 pour	pour	ADP	O	O	O
 la	le	DET	O	O	O
-Maison	maison	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Maison	maison	PROPN	O	O	O
+-	-	NOUN	O	O	O
 d'	de	ADP	O	O	O
-Or	or	CCONJ	O	O	O
+Or	or	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 vais	aller	VERB	O	O	O
-faire	faire	VERB	O	O	O
+faire	faire	AUX	O	O	O
 défiler	défiler	VERB	O	O	O
 devant	devant	ADP	O	O	O
 vous	vous	PRON	O	O	O
@@ -842,21 +851,21 @@ on	on	PRON	O	O	O
 vit	voir	VERB	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 apparaître	apparaître	VERB	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 rideau	rideau	NOUN	O	O	O
 d'	de	ADP	O	O	O
-abord	abord	ADV	O	O	O
+abord	abord	NOUN	O	O	O
 un	un	DET	O	O	O
 banquet	banquet	NOUN	O	O	O
 de	de	ADP	O	O	O
 corps	corps	NOUN	O	O	O
 au	au	ADP	O	O	O
-Grand	grand	ADJ	O	O	O
--	-	PUNCT	O	O	O
-Six	six	PROPN	O	O	O
+Grand	grand	PROPN	O	O	O
+-	-	PROPN	O	O	O
+Six	six	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 puis	pouvoir	CCONJ	O	O	O
 une	un	DET	O	O	O
@@ -866,24 +875,26 @@ posément	posément	ADV	O	O	O
 des	un	DET	O	O	O
 asperges	asperge	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 puis	pouvoir	CCONJ	O	O	O
 une	un	DET	O	O	O
 partie	partie	NOUN	O	O	O
-carrée	carrer	VERB	O	O	O
+carrée	carré	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 deux	deux	NUM	O	O	O
 gigolos	gigolo	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 deux	deux	NUM	O	O	O
 belles	bel	ADJ	O	O	O
-petites	petit	ADJ	O	O	O
+petites	petit	NOUN	O	O	O
 très	très	ADV	O	O	O
 convenables	convenable	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 puis	pouvoir	CCONJ	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 le	le	DET	O	O	O
 marquis	marquis	NOUN	O	O	O
 poussa	pousser	VERB	O	O	O
@@ -907,7 +918,7 @@ un	un	DET	O	O	O
 monsieur	monsieur	NOUN	O	O	O
 brun	brun	ADJ	O	O	O
 très	très	ADV	O	O	O
-élégant	éléger	VERB	O	O	O
+élégant	élégant	ADJ	O	O	O
 avec	avec	ADP	O	O	O
 le	le	DET	O	O	O
 frac	frac	NOUN	O	O	O
@@ -935,13 +946,13 @@ Et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 près	près	ADV	O	O	O
 du	de	ADP	O	O	O
-beau	beau	NOUN	O	O	O
-brun	brun	ADJ	O	O	O
+beau	beau	ADJ	O	O	O
+brun	brun	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 même	même	ADJ	O	O	O
-canapé	canapé	PROPN	O	O	O
+canapé	canapé	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 attablée	attabler	VERB	O	O	O
 côte	côte	NOUN	O	O	O
@@ -953,16 +964,17 @@ y	y	PRON	O	O	O
 avait	avoir	VERB	O	O	O
 une	un	DET	O	O	O
 ravissante	ravissant	ADJ	O	O	O
-blonde	blonde	VERB	O	O	O
+blonde	blonde	NOUN	O	O	O
 en	en	ADP	O	O	O
 brocart	brocart	NOUN	O	O	O
-mousse	mousse	VERB	O	O	O
+mousse	mousse	NOUN	O	O	O
 clair	clair	ADJ	O	O	O
 avec	avec	ADP	O	O	O
 branches	branche	NOUN	O	O	O
 de	de	ADP	O	O	O
 rose	rose	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 la	le	DET	O	O	O
 traîne	traîne	NOUN	O	O	O
 doublée	doubler	VERB	O	O	O
@@ -984,7 +996,7 @@ volants	volant	NOUN	O	O	O
 de	de	ADP	O	O	O
 point	point	NOUN	O	O	O
 d'	de	ADP	O	O	O
-Alençon	alençon	NOUN	O	O	O
+Alençon	alençon	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 bouillons	bouillon	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -993,17 +1005,17 @@ dans	dans	ADP	O	O	O
 lesquels	lequel	PRON	O	O	O
 étaient	être	AUX	O	O	O
 passés	passer	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 rubans	ruban	NOUN	O	O	O
-roses	rose	NOUN	O	O	O
+roses	rose	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Saprísti	saprísti	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
-jolie	jolie	NOUN	O	O	O
-personne	personn	ADJ	O	O	O
+jolie	joli	ADJ	O	O	O
+personne	personne	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 dit	dire	VERB	O	O	O
@@ -1014,22 +1026,22 @@ patron	patron	NOUN	O	O	O
 Monsieur	monsieur	NOUN	O	O	O
 le	le	DET	O	O	O
 marquis	marquis	NOUN	O	O	O
-la	le	DET	O	O	O
-connaît	connaît	NOUN	O	O	O
+la	le	PRON	O	O	O
+connaît	connaître	VERB	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Si	si	SCONJ	O	O	O
 je	je	PRON	O	O	O
-la	le	DET	O	O	O
-connais	connai	NOUN	O	O	O
+la	le	PRON	O	O	O
+connais	connaître	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-fit	fit	NOUN	O	O	O
+fit	faire	VERB	O	O	O
 M.	m.	NOUN	O	O	O
 de	de	ADP	O	O	O
 Quasi	quasi	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Mazas	mazas	PROPN	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
@@ -1038,8 +1050,8 @@ altérée	altérer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 si	si	SCONJ	O	O	O
 je	je	PRON	O	O	O
-la	le	DET	O	O	O
-connais	connai	NOUN	O	O	O
+la	le	PRON	O	O	O
+connais	connaître	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 Elle	lui	PRON	O	O	O
@@ -1060,32 +1072,32 @@ ainsi	ainsi	ADV	O	O	O
 qu'	que	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
 le	le	PRON	O	O	O
-fait	fait	NOUN	O	O	O
+fait	faire	VERB	O	O	O
 toutes	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 fois	fois	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 je	je	PRON	O	O	O
 viens	venir	VERB	O	O	O
 au	au	ADP	O	O	O
 banquet	banquet	NOUN	O	O	O
 des	de	ADP	O	O	O
 Francs	franc	NOUN	O	O	O
--	-	PUNCT	O	O	O
-Licheurs	licheurs	PROPN	O	O	O
+-	-	NOUN	O	O	O
+Licheurs	licheur	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
-Ah	ah	PROPN	O	O	O
-!	!	PUNCT	O	O	O
 
+Ah	ah	INTJ	O	O	O
+!	!	PUNCT	O	O	O
 l'	le	DET	O	O	O
-infâme	infâme	NOUN	O	O	O
+infâme	infâme	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
 Monsieur	monsieur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 voulez	vouloir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 immédiatement	immédiatement	ADV	O	O	O
 téléphoner	téléphoner	VERB	O	O	O
@@ -1113,7 +1125,7 @@ Un	un	DET	O	O	O
 quart	quart	NOUN	O	O	O
 d'	de	ADP	O	O	O
 heure	heure	NOUN	O	O	O
-après	après	ADP	O	O	O
+après	après	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 commissaire	commissaire	NOUN	O	O	O
@@ -1126,7 +1138,7 @@ heureusement	heureusement	ADV	O	O	O
 était	être	AUX	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
-Opéra	opéra	NOUN	O	O	O
+Opéra	opéra	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 faisait	faire	VERB	O	O	O
 son	son	DET	O	O	O
@@ -1137,7 +1149,7 @@ Il	il	PRON	O	O	O
 recula	reculer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 très	très	ADV	O	O	O
-étonné	étonner	VERB	O	O	O
+étonné	étonné	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 devant	devant	ADP	O	O	O
 le	le	DET	O	O	O
@@ -1159,9 +1171,9 @@ pas	pas	ADV	O	O	O
 monsieur	monsieur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 dit	dire	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
-sévèrement	sévèremer	VERB	O	O	O
+sévèrement	sévèrement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 que	que	SCONJ	O	O	O
 vous	vous	PRON	O	O	O
@@ -1204,16 +1216,17 @@ face	face	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
-Maison	maison	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Maison	maison	PROPN	O	O	O
+-	-	NOUN	O	O	O
 d'	de	ADP	O	O	O
-Or	or	CCONJ	O	O	O
+Or	or	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 le	le	DET	O	O	O
 monsieur	monsieur	NOUN	O	O	O
 pomponné	pomponner	VERB	O	O	O
 et	et	CCONJ	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 vous	vous	PRON	O	O	O
 voyez	voir	VERB	O	O	O
 là	là	ADV	O	O	O
@@ -1230,6 +1243,7 @@ mon	mon	DET	O	O	O
 premier	premier	ADJ	O	O	O
 secrétaire	secrétaire	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 et	et	CCONJ	O	O	O
 la	le	DET	O	O	O
 dame	dame	NOUN	O	O	O
@@ -1263,21 +1277,20 @@ la	le	DET	O	O	O
 marquise	marquis	NOUN	O	O	O
 de	de	ADP	O	O	O
 Quasi	quasi	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Mazars	mazars	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	VERB	O	O	O
-Tiens	tiens	PROPN	O	O	O
+—	—	PUNCT	O	O	O
+Tiens	tenir	VERB	O	O	O
 !	!	PUNCT	O	O	O
-
-tiens	tien	NOUN	O	O	O
+tiens	tien	PRON	O	O	O
 !	!	PUNCT	O	O	O
 
 fit	faire	VERB	O	O	O
 le	le	DET	O	O	O
 commissaire	commissaire	NOUN	O	O	O
-subitement	subitement	NOUN	O	O	O
+subitement	subitement	ADV	O	O	O
 intéressé	intéresser	VERB	O	O	O
 et	et	CCONJ	O	O	O
 regardant	regarder	VERB	O	O	O
@@ -1288,7 +1301,7 @@ yeux	oeil	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Savez	savoir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 qu'	que	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
@@ -1336,8 +1349,8 @@ d'	de	ADP	O	O	O
 heure	heure	NOUN	O	O	O
 que	que	SCONJ	O	O	O
 je	je	PRON	O	O	O
-les	le	DET	O	O	O
-écoute	écoute	NOUN	O	O	O
+les	le	PRON	O	O	O
+écoute	écoute	VERB	O	O	O
 avec	avec	ADP	O	O	O
 le	le	DET	O	O	O
 téléphone	téléphone	NOUN	O	O	O
@@ -1359,7 +1372,7 @@ phonographe	phonographe	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Ça	ça	PROPN	O	O	O
+Ça	cela	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -1380,7 +1393,7 @@ enquête	enquête	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
-fera	faire	VERB	O	O	O
+fera	faire	AUX	O	O	O
 entendre	entendre	VERB	O	O	O
 le	le	DET	O	O	O
 phonographe	phonographe	NOUN	O	O	O
@@ -1389,7 +1402,7 @@ tribunal	tribunal	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 En	en	ADP	O	O	O
-attendant	attendant	NOUN	O	O	O
+attendant	attendre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 si	si	SCONJ	O	O	O
 vous	vous	PRON	O	O	O
@@ -1404,6 +1417,7 @@ peu	peu	ADV	O	O	O
 mon	mon	DET	O	O	O
 tour	tour	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Pendant	pendant	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
@@ -1425,13 +1439,13 @@ C'	ce	PRON	O	O	O
 les	le	DET	O	O	O
 autres	autre	ADJ	O	O	O
 Francs	franc	NOUN	O	O	O
--	-	PUNCT	O	O	O
-Licheurs	licheurs	PROPN	O	O	O
+-	-	NOUN	O	O	O
+Licheurs	licheur	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 s'	se	PRON	O	O	O
-impatica	impatica	ADJ	O	O	O
+impatica	impaticer	VERB	O	O	O
 -	-	PUNCT	O	O	O
-taient	taient	ADV	O	O	O
+taient	taier	VERB	O	O	O
 et	et	CCONJ	O	O	O
 voulaient	vouloir	VERB	O	O	O
 user	user	VERB	O	O	O
@@ -1441,7 +1455,7 @@ instrument	instrument	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Marquis	marquis	PROPN	O	O	O
+Marquis	marquis	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 vous	vous	PRON	O	O	O
 n'	ne	ADV	O	O	O
@@ -1480,8 +1494,8 @@ l'	le	DET	O	O	O
 électricité	électricité	NOUN	O	O	O
 a	avoir	AUX	O	O	O
 fait	faire	VERB	O	O	O
-subitement	subitement	NOUN	O	O	O
-défaut	défaut	ADJ	O	O	O
+subitement	subitement	ADV	O	O	O
+défaut	défaut	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Puis	pouvoir	CCONJ	O	O	O
@@ -1491,8 +1505,9 @@ continua	continuer	VERB	O	O	O
 voix	voix	NOUN	O	O	O
 basse	bas	ADJ	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Tenez	tenez	PROPN	O	O	O
+Tenez	tenir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 monsieur	monsieur	NOUN	O	O	O
 le	le	DET	O	O	O
@@ -1548,11 +1563,11 @@ profilait	profiler	VERB	O	O	O
 dans	dans	ADP	O	O	O
 des	un	DET	O	O	O
 poses	pose	NOUN	O	O	O
-alanguios	alanguios	VERB	O	O	O
+alanguios	alanguio	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
-était	être	AUX	O	O	O
+était	être	VERB	O	O	O
 maintenant	maintenant	ADV	O	O	O
 au	au	ADP	O	O	O
 café	café	NOUN	O	O	O
@@ -1575,13 +1590,13 @@ le	le	DET	O	O	O
 commissaire	commissaire	NOUN	O	O	O
 éclatait	éclater	VERB	O	O	O
 de	de	ADP	O	O	O
-rire	rire	NOUN	O	O	O
+rire	rire	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Qu'	que	PRON	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
 qu'	que	PRON	O	O	O
 ils	il	PRON	O	O	O
@@ -1594,30 +1609,30 @@ demandait	demander	VERB	O	O	O
 le	le	DET	O	O	O
 marquis	marquis	NOUN	O	O	O
 très	très	ADV	O	O	O
-énervé	énerver	VERB	O	O	O
+énervé	énervé	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 C'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 très	très	ADV	O	O	O
-drôle	drôle	NOUN	O	O	O
+drôle	drôle	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 vraiment	vraiment	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-hi	hi	PROPN	O	O	O
+hi	hi	X	O	O	O
 !	!	PUNCT	O	O	O
 
-hi	hi	NOUN	O	O	O
+hi	hi	PRON	O	O	O
 !	!	PUNCT	O	O	O
 
-hi	hi	NOUN	O	O	O
+hi	hi	PRON	O	O	O
 !	!	PUNCT	O	O	O
 
 C'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 très	très	ADV	O	O	O
-drôle	drôle	NOUN	O	O	O
+drôle	drôle	ADJ	O	O	O
 :	:	PUNCT	O	O	O
 il	il	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -1634,18 +1649,18 @@ esprit	esprit	NOUN	O	O	O
 aux	à	ADP	O	O	O
 filles	fille	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-rende	rend	ADJ	O	O	O
+rende	rendre	VERB	O	O	O
 aussi	aussi	ADV	O	O	O
 idiots	idiot	ADJ	O	O	O
 les	le	DET	O	O	O
 hommes	homme	NOUN	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-intelligents	intelligent	NOUN	O	O	O
+intelligents	intelligent	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Voyons	voyons	PROPN	O	O	O
+Voyons	voir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 monsieur	monsieur	NOUN	O	O	O
 le	le	DET	O	O	O
@@ -1654,23 +1669,23 @@ commissaire	commissaire	NOUN	O	O	O
 un	un	DET	O	O	O
 peu	peu	ADV	O	O	O
 de	de	ADP	O	O	O
-sérieux	sérieux	PROPN	O	O	O
+sérieux	sérieux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 que	que	SCONJ	O	O	O
-diable	diable	NOUN	O	O	O
+diable	diable	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 dites	dire	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 moi	moi	PRON	O	O	O
-où	où	PRON	O	O	O
+où	où	ADV	O	O	O
 ils	il	PRON	O	O	O
 en	en	PRON	O	O	O
 sont	être	VERB	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Dame	dame	PROPN	O	O	O
+Dame	dame	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 monsieur	monsieur	NOUN	O	O	O
 le	le	DET	O	O	O
@@ -1684,22 +1699,21 @@ monsieur	monsieur	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 murmure	murmure	VERB	O	O	O
 :	:	PUNCT	O	O	O
-«	«	PROPN	O	O	O
-Cruelle	cruelle	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Cruelle	cruelle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 pourquoi	pourquoi	ADV	O	O	O
 ne	ne	ADV	O	O	O
 voulez	vouloir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 pas	pas	ADV	O	O	O
 ?	?	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
 —	—	PUNCT	O	O	O
-Ah	ah	PROPN	O	O	O
+Ah	ah	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
 elle	lui	PRON	O	O	O
 ne	ne	ADV	O	O	O
 veut	vouloir	VERB	O	O	O
@@ -1721,7 +1735,7 @@ précisément	précisément	ADV	O	O	O
 elle	lui	PRON	O	O	O
 dit	dire	VERB	O	O	O
 :	:	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 Plus	plus	ADV	O	O	O
 tard	tard	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1732,16 +1746,16 @@ le	le	DET	O	O	O
 temps	temps	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Laissez	laisser	ADV	O	O	O
--	-	PUNCT	O	O	O
+Laissez	laisser	VERB	O	O	O
+-	-	PRON	O	O	O
 moi	moi	PRON	O	O	O
 fumer	fumer	VERB	O	O	O
 tranquillement	tranquillement	ADV	O	O	O
 ma	mon	DET	O	O	O
 cigarette	cigarette	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	VERB	O	O	O
 Quelques	quelque	DET	O	O	O
 secondes	seconde	NOUN	O	O	O
 se	se	PRON	O	O	O
@@ -1780,11 +1794,11 @@ transports	transport	NOUN	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 joie	joie	NOUN	O	O	O
-délirante	délirante	NOUN	O	O	O
+délirante	délirant	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Miséricorde	miséricorde	PROPN	O	O	O
+Miséricorde	miséricorde	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 monsieur	monsieur	NOUN	O	O	O
@@ -1793,18 +1807,18 @@ commissaire	commissaire	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	SCONJ	O	O	O
 ils	il	PRON	O	O	O
-sont	être	AUX	O	O	O
+sont	être	VERB	O	O	O
 près	près	ADV	O	O	O
 maintenant	maintenant	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
-misérables	misérable	NOUN	O	O	O
+misérables	misérable	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
 qu'	que	PRON	O	O	O
 ils	il	PRON	O	O	O
@@ -1812,13 +1826,13 @@ se	se	PRON	O	O	O
 disent	dire	VERB	O	O	O
 ?	?	PUNCT	O	O	O
 
-Répondez	répondez	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Répondez	répondre	VERB	O	O	O
+-	-	PRON	O	O	O
 moi	moi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 qu'	que	PRON	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
 qu'	que	PRON	O	O	O
 ils	il	PRON	O	O	O
@@ -1829,20 +1843,22 @@ disent	dire	VERB	O	O	O
 —	—	PUNCT	O	O	O
 C'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
-bizarre	bizarre	VERB	O	O	O
+bizarre	bizarre	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 dit	dire	VERB	O	O	O
 le	le	DET	O	O	O
 commissaire	commissaire	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 je	je	PRON	O	O	O
 n'	ne	ADV	O	O	O
 entend	entendre	VERB	O	O	O
 plus	plus	ADV	O	O	O
 rien	rien	PRON	O	O	O
 du	de	ADP	O	O	O
-tout	tout	PRON	O	O	O
+tout	tout	ADV	O	O	O
 ...	...	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Ils	il	PRON	O	O	O
 ne	ne	ADV	O	O	O
@@ -1866,9 +1882,9 @@ vite	vite	ADV	O	O	O
 
 Vous	vous	PRON	O	O	O
 arrivorez	arrivorer	VERB	O	O	O
-peut	pouvoir	VERB	O	O	O
--	-	PUNCT	O	O	O
-être	être	AUX	O	O	O
+peut	pouvoir	ADV	O	O	O
+-	-	ADV	O	O	O
+être	être	ADV	O	O	O
 à	à	ADP	O	O	O
 temps	temps	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -1876,7 +1892,7 @@ temps	temps	NOUN	O	O	O
 Vous	vous	PRON	O	O	O
 n'	ne	ADV	O	O	O
 avez	avoir	VERB	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 le	le	DET	O	O	O
 boulevard	boulevard	NOUN	O	O	O
 à	à	ADP	O	O	O
@@ -1894,7 +1910,8 @@ marquis	marquis	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 j'	je	PRON	O	O	O
 y	y	PRON	O	O	O
-vais	vai	ADJ	O	O	O
+vais	aller	VERB	O	O	O
+
 .	.	PUNCT	O	O	O
 
 Vous	vous	PRON	O	O	O
@@ -1904,6 +1921,7 @@ au	au	ADP	O	O	O
 plus	plus	ADV	O	O	O
 intéressant	intéressant	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 je	je	PRON	O	O	O
 tiens	tenir	VERB	O	O	O
@@ -1962,14 +1980,15 @@ moment	moment	NOUN	O	O	O
 où	où	PRON	O	O	O
 les	le	DET	O	O	O
 Franes	frane	NOUN	O	O	O
--	-	PUNCT	O	O	O
-Licheurs	licheurs	PROPN	O	O	O
-pénétraient	pénétraient	NOUN	O	O	O
+-	-	NOUN	O	O	O
+Licheurs	licheur	NOUN	O	O	O
+pénétraient	pénétrer	VERB	O	O	O
 de	de	ADP	O	O	O
 force	force	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Allons	allons	PROPN	O	O	O
+Allons	aller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 président	président	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1988,15 +2007,15 @@ votre	votre	DET	O	O	O
 ,	,	PUNCT	O	O	O
 vous	vous	PRON	O	O	O
 n'	ne	ADV	O	O	O
-avez	avoir	AUX	O	O	O
+avez	avoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
-honte	hont	ADJ	O	O	O
+honte	honte	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 Maintenant	maintenant	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 à	à	ADP	O	O	O
 notre	notre	DET	O	O	O
 tour	tour	NOUN	O	O	O

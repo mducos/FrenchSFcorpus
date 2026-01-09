@@ -2,7 +2,8 @@ Conte	conte	NOUN	O	O	O
 fantaisiste	fantaisiste	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-I	i	NOUN	O	O	O
+I	i	PUNCT	O	O	O
+
 Vers	vers	ADP	O	O	O
 l'	le	DET	O	O	O
 an	an	NOUN	O	O	O
@@ -12,25 +13,25 @@ an	an	NOUN	O	O	O
 Les	le	DET	O	O	O
 derniers	dernier	ADJ	O	O	O
 décadents	décadent	NOUN	O	O	O
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 une	un	DET	O	O	O
 douzaine	douzaine	NOUN	O	O	O
 environ	environ	ADV	O	O	O
-—	—	PRON	O	O	O
+—	—	PUNCT	O	O	O
 sont	être	AUX	O	O	O
 réunis	réunir	VERB	O	O	O
 dans	dans	ADP	O	O	O
 une	un	DET	O	O	O
 petite	petit	ADJ	O	O	O
 pièce	pièce	NOUN	O	O	O
-décorée	décorer	ADJ	O	O	O
+décorée	décorer	VERB	O	O	O
 avec	avec	ADP	O	O	O
 un	un	DET	O	O	O
 goût	goût	NOUN	O	O	O
 étrange	étrange	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Extraordinaire	extraordinaire	NOUN	O	O	O
+Extraordinaire	extraordinaire	ADJ	O	O	O
 jusqu'	jusque	ADP	O	O	O
 en	en	ADP	O	O	O
 sa	son	DET	O	O	O
@@ -57,15 +58,15 @@ somptueux	somptueux	ADJ	O	O	O
 velours	velours	NOUN	O	O	O
 noir	noir	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-brodé	brodé	NOUN	O	O	O
+brodé	broder	VERB	O	O	O
 de	de	ADP	O	O	O
-dessins	dessin	ADJ	O	O	O
+dessins	dessin	NOUN	O	O	O
 fantastiques	fantastique	ADJ	O	O	O
 en	en	ADP	O	O	O
 soie	soie	NOUN	O	O	O
 blanche	blanc	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-tapisse	tapisse	NOUN	O	O	O
+tapisse	tapir	VERB	O	O	O
 entièrement	entièrement	ADV	O	O	O
 la	le	DET	O	O	O
 paroi	paroi	NOUN	O	O	O
@@ -73,24 +74,24 @@ paroi	paroi	NOUN	O	O	O
 
 Tout	tout	ADV	O	O	O
 en	en	ADP	O	O	O
-haut	haut	ADJ	O	O	O
+haut	haut	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 éclairant	éclairer	VERB	O	O	O
 à	à	ADP	O	O	O
 peine	peine	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-brûle	brûle	NOUN	O	O	O
+brûle	brûler	VERB	O	O	O
 une	un	DET	O	O	O
 lampe	lampe	NOUN	B-NOV	O	O
 au	au	ADP	I-NOV	O	O
 magnésium	magnésium	NOUN	I-NOV	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 emprisonne	emprisonner	VERB	O	O	O
 un	un	DET	O	O	O
 globe	globe	NOUN	O	O	O
 de	de	ADP	O	O	O
 verre	verre	NOUN	O	O	O
-fumé	fumé	ADJ	O	O	O
+fumé	fumer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
@@ -118,10 +119,10 @@ lumière	lumière	NOUN	O	O	O
 grise	gris	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 une	un	DET	O	O	O
-irrémédiable	irrémédiable	NOUN	O	O	O
+irrémédiable	irrémédiable	ADJ	O	O	O
 tristesse	tristesse	NOUN	O	O	O
 est	être	AUX	O	O	O
-empreinte	empreindre	ADJ	O	O	O
+empreinte	empreinte	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 En	en	ADP	O	O	O
@@ -138,9 +139,9 @@ leur	son	DET	O	O	O
 art	art	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 le	le	DET	O	O	O
-néant	néer	VERB	O	O	O
-les	le	DET	O	O	O
-arrête	arrête	NOUN	O	O	O
+néant	néant	NOUN	O	O	O
+les	le	PRON	O	O	O
+arrête	arrêter	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Depuis	depuis	ADP	O	O	O
@@ -150,30 +151,32 @@ leur	son	DET	O	O	O
 pensée	pensée	NOUN	O	O	O
 est	être	AUX	O	O	O
 devenue	devenir	VERB	O	O	O
-si	si	SCONJ	O	O	O
-subtile	subtil	VERB	O	O	O
+si	si	ADV	O	O	O
+subtile	subtil	ADJ	O	O	O
 qu'	que	SCONJ	O	O	O
 eux	lui	PRON	O	O	O
--	-	PUNCT	O	O	O
-mêmes	même	ADJ	O	O	O
+-	-	PRON	O	O	O
+mêmes	même	PRON	O	O	O
 ne	ne	ADV	O	O	O
-la	le	DET	O	O	O
-comprennent	comprennent	NOUN	O	O	O
+la	le	PRON	O	O	O
+comprennent	comprendre	VERB	O	O	O
 plus	plus	ADV	O	O	O
 ;	;	PUNCT	O	O	O
+
 ils	il	PRON	O	O	O
 ont	avoir	VERB	O	O	O
 des	un	DET	O	O	O
 sensations	sensation	NOUN	O	O	O
-si	si	SCONJ	O	O	O
+si	si	ADV	O	O	O
 fines	fin	ADJ	O	O	O
-qu'	que	PRON	O	O	O
+qu'	que	SCONJ	O	O	O
 ils	il	PRON	O	O	O
 ne	ne	ADV	O	O	O
 les	le	PRON	O	O	O
 perçoivent	percevoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
 ;	;	PUNCT	O	O	O
+
 les	le	DET	O	O	O
 nuances	nuance	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -189,9 +192,9 @@ que	que	SCONJ	O	O	O
 l'	le	DET	O	O	O
 oeil	oeil	NOUN	O	O	O
 ne	ne	ADV	O	O	O
-les	le	DET	O	O	O
-distingue	distingu	ADJ	O	O	O
-point	point	NOUN	O	O	O
+les	le	PRON	O	O	O
+distingue	distinguer	VERB	O	O	O
+point	point	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 quelle	quel	DET	O	O	O
@@ -216,8 +219,8 @@ inutile	inutile	ADJ	O	O	O
 leur	son	DET	O	O	O
 génie	génie	NOUN	O	O	O
 épuisé	épuiser	VERB	O	O	O
-vat	vat	ADJ	O	O	O
--	-	PUNCT	O	O	O
+vat	vat	VERB	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 rester	rester	VERB	O	O	O
 désormais	désormais	ADV	O	O	O
@@ -226,7 +229,7 @@ infécond	infécond	ADJ	O	O	O
 
 Leur	son	DET	O	O	O
 langue	langue	NOUN	O	O	O
-—	—	PROPN	O	O	O
+—	—	PUNCT	O	O	O
 composée	composer	VERB	O	O	O
 maintenant	maintenant	ADV	O	O	O
 de	de	ADP	O	O	O
@@ -240,19 +243,19 @@ glossaire	glossaire	NOUN	O	O	O
 de	de	ADP	O	O	O
 Vanier	vanier	PROPN	O	O	O
 en	en	PRON	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
 cent	cent	NUM	O	O	O
 deuxième	deuxième	ADJ	O	O	O
 tome	tome	NOUN	O	O	O
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 leur	son	DET	O	O	O
 langue	langue	NOUN	O	O	O
 sera	être	AUX	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	DET	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 elle	lui	PRON	O	O	O
 oubliée	oublier	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -273,19 +276,19 @@ voix	voix	NOUN	O	O	O
 basse	bas	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
-terrifiés	terrifier	ADJ	O	O	O
+terrifiés	terrifier	VERB	O	O	O
 par	par	ADP	O	O	O
 cette	ce	DET	O	O	O
 mort	mort	NOUN	O	O	O
 intellectuelle	intellectuel	ADJ	O	O	O
 qui	qui	PRON	O	O	O
-les	le	DET	O	O	O
+les	le	PRON	O	O	O
 touche	toucher	VERB	O	O	O
 déjà	déjà	ADV	O	O	O
 de	de	ADP	O	O	O
 sa	son	DET	O	O	O
-dextre	dextre	DET	O	O	O
-glacée	glacer	VERB	O	O	O
+dextre	dextre	NOUN	O	O	O
+glacée	glacé	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 Soudain	soudain	ADV	O	O	O
@@ -295,7 +298,7 @@ docteur	docteur	NOUN	O	O	O
 suprême	suprême	ADJ	O	O	O
 de	de	ADP	O	O	O
 ce	ce	DET	O	O	O
-parfait	parfaire	VERB	O	O	O
+parfait	parfait	ADJ	O	O	O
 cénacle	cénacle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
@@ -313,6 +316,7 @@ gravement	gravement	ADV	O	O	O
 avec	avec	ADP	O	O	O
 assurance	assurance	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 J'	je	PRON	O	O	O
 ai	avoir	VERB	O	O	O
@@ -337,13 +341,13 @@ de	de	ADP	O	O	O
 s'	se	PRON	O	O	O
 entendre	entendre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-emploient	emploient	NOUN	O	O	O
+emploient	employer	VERB	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 conversation	conversation	NOUN	O	O	O
 le	le	DET	O	O	O
 dialecte	dialecte	NOUN	O	O	O
-vulgaire	vulgaire	NOUN	O	O	O
+vulgaire	vulgaire	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 C'	ce	PRON	O	O	O
@@ -355,13 +359,14 @@ ordinaire	ordinaire	ADJ	O	O	O
 du	de	ADP	O	O	O
 xxᵉ	xxᵉ	ADJ	O	O	O
 siècle	siècle	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 Subtilius	subtilius	PROPN	O	O	O
 prononce	prononcer	VERB	O	O	O
 ces	ce	DET	O	O	O
-stupéfiantes	stupéfiante	NOUN	O	O	O
-paroles	parole	ADJ	O	O	O
+stupéfiantes	stupéfiant	ADJ	O	O	O
+paroles	parole	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 J'	je	PRON	O	O	O
 ai	avoir	VERB	O	O	O
@@ -374,7 +379,7 @@ Malgré	malgré	ADP	O	O	O
 le	le	DET	O	O	O
 respect	respect	NOUN	O	O	O
 relatif	relatif	ADJ	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 ils	il	PRON	O	O	O
 portent	porter	VERB	O	O	O
 au	au	ADP	O	O	O
@@ -392,7 +397,7 @@ amer	amer	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Oui	oui	PROPN	O	O	O
+Oui	oui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 reprend	reprendre	VERB	O	O	O
 Subtilius	subtilius	PROPN	O	O	O
@@ -409,7 +414,7 @@ neuve	neuf	ADJ	O	O	O
 
 Nous	nous	PRON	O	O	O
 avons	avoir	AUX	O	O	O
-usé	user	X	O	O	O
+usé	user	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 jusqu'	jusque	ADP	O	O	O
 à	à	ADP	O	O	O
@@ -426,25 +431,28 @@ d'	de	ADP	O	O	O
 expression	expression	NOUN	O	O	O
 traditionnels	traditionnel	ADJ	O	O	O
 :	:	PUNCT	O	O	O
+
 la	le	DET	O	O	O
 musique	musique	NOUN	O	O	O
 est	être	AUX	O	O	O
-vide	vide	VERB	O	O	O
+vide	vide	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 peinture	peinture	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-vide	vide	VERB	O	O	O
+vide	vide	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 la	le	DET	O	O	O
 prose	prose	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-vide	vide	NOUN	O	O	O
+vide	vide	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 la	le	DET	O	O	O
 poésie	poésie	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-vide	vide	NOUN	O	O	O
+vide	vide	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Nous	nous	PRON	O	O	O
@@ -461,10 +469,10 @@ cerveaux	cerveau	NOUN	O	O	O
 mêmes	même	ADJ	O	O	O
 ne	ne	ADV	O	O	O
 sont	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ils	il	PRON	O	O	O
 pas	pas	ADV	O	O	O
-vides	vide	NOUN	O	O	O
+vides	vide	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 absolument	absolument	ADV	O	O	O
 vides	vide	ADJ	O	O	O
@@ -473,8 +481,7 @@ vides	vide	ADJ	O	O	O
 —	—	PUNCT	O	O	O
 Hélas	hélas	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
-soupire	soupire	NOUN	O	O	O
+soupire	soupirer	VERB	O	O	O
 lugubrement	lugubrement	ADV	O	O	O
 un	un	DET	O	O	O
 choeur	choeur	NOUN	O	O	O
@@ -482,10 +489,9 @@ désolé	désolé	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Eh	eh	NOUN	O	O	O
+Eh	eh	INTJ	O	O	O
 bien	bien	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 puisque	puisque	SCONJ	O	O	O
 nous	nous	PRON	O	O	O
 avons	avoir	AUX	O	O	O
@@ -495,7 +501,7 @@ les	le	DET	O	O	O
 arts	art	NOUN	O	O	O
 anciens	ancien	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-créons	créon	NOUN	O	O	O
+créons	créer	VERB	O	O	O
 un	un	DET	O	O	O
 art	art	NOUN	O	O	O
 nouveau	nouveau	ADJ	O	O	O
@@ -512,8 +518,9 @@ interruptions	interruption	NOUN	O	O	O
 violentes	violent	ADJ	O	O	O
 éclatent	éclater	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Impossible	impossible	PROPN	O	O	O
+Impossible	impossible	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -521,7 +528,7 @@ Illusion	illusion	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Utopie	utopie	PROPN	O	O	O
+Utopie	utopie	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -531,7 +538,7 @@ essayé	essayer	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Quel	quel	VERB	O	O	O
+Quel	quel	DET	O	O	O
 art	art	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
@@ -539,19 +546,20 @@ Subtilius	subtilius	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 toujours	toujours	ADV	O	O	O
 très	très	ADV	O	O	O
-calme	calme	PROPN	O	O	O
+calme	calme	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 répond	répondre	VERB	O	O	O
 à	à	ADP	O	O	O
 cette	ce	DET	O	O	O
 interrogation	interrogation	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-lancée	lancée	NOUN	O	O	O
+lancée	lancer	VERB	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 voix	voix	NOUN	O	O	O
 âpre	âpre	ADJ	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 L'	le	DET	O	O	O
 enosmie	enosmie	NOUN	O	O	O
@@ -565,19 +573,20 @@ fait	faire	VERB	O	O	O
 
 Ce	ce	DET	O	O	O
 mot	mot	NOUN	O	O	O
-inconnu	inconnu	VERB	O	O	O
+inconnu	inconnu	ADJ	O	O	O
 ne	ne	ADV	O	O	O
 surprend	surprendre	VERB	O	O	O
 pas	pas	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 il	il	PRON	O	O	O
-intrigue	intrigu	ADJ	O	O	O
+intrigue	intriguer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Subtilius	subtilius	PROPN	O	O	O
 continue	continuer	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Ou	ou	CCONJ	O	O	O
 si	si	SCONJ	O	O	O
@@ -614,12 +623,12 @@ parfumisterie	parfumisterie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 En	en	ADP	O	O	O
-patois	patois	ADJ	O	O	O
-bourgeois	bourgeois	NOUN	O	O	O
+patois	patois	NOUN	O	O	O
+bourgeois	bourgeois	ADJ	O	O	O
 enfin	enfin	ADV	O	O	O
 :	:	PUNCT	O	O	O
 l'	le	DET	O	O	O
-art	art	PROPN	O	O	O
+art	art	NOUN	O	O	O
 des	de	ADP	O	O	O
 parfums	parfum	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -628,10 +637,10 @@ parfums	parfum	NOUN	O	O	O
 Connu	connaître	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-hurlent	hurler	ADV	O	O	O
+hurlent	hurler	VERB	O	O	O
 les	le	DET	O	O	O
 disciples	disciple	NOUN	O	O	O
-exaspérés	exaspérer	ADJ	O	O	O
+exaspérés	exaspérer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -646,15 +655,15 @@ pas	pas	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	SCONJ	O	O	O
 vous	vous	PRON	O	O	O
-le	le	DET	O	O	O
-croyez	croyez	NOUN	O	O	O
+le	le	PRON	O	O	O
+croyez	croire	VERB	O	O	O
 sans	sans	ADP	O	O	O
 doute	doute	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 explique	expliquer	VERB	O	O	O
 Subtilius	subtilius	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 cette	ce	DET	O	O	O
 révolte	révolte	NOUN	O	O	O
 laisse	laisse	VERB	O	O	O
@@ -681,14 +690,14 @@ poésie	poésie	NOUN	O	O	O
 l'	le	DET	O	O	O
 équivalence	équivalence	NOUN	O	O	O
 de	de	ADP	O	O	O
-tels	tel	NOUN	O	O	O
+tels	tel	DET	O	O	O
 ou	ou	CCONJ	O	O	O
 tels	tel	ADJ	O	O	O
-parfums	parfum	PROPN	O	O	O
+parfums	parfum	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Je	je	PRON	O	O	O
-le	le	DET	O	O	O
+le	le	PRON	O	O	O
 sais	savoir	VERB	O	O	O
 aussi	aussi	ADV	O	O	O
 bien	bien	ADV	O	O	O
@@ -698,11 +707,11 @@ vous	vous	PRON	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 chose	chose	NOUN	O	O	O
-démodée	démoder	VERB	O	O	O
+démodée	démodé	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 banale	banal	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-méprisablemment	méprisablemmer	VERB	O	O	O
+méprisablemment	méprisablemment	ADV	O	O	O
 classique	classique	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -720,7 +729,7 @@ leur	son	DET	O	O	O
 temps	temps	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Moi	moi	PROPN	O	O	O
+Moi	moi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 veux	vouloir	VERB	O	O	O
@@ -759,19 +768,19 @@ merveilleux	merveilleux	ADJ	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 har	har	NOUN	O	O	O
--	-	PUNCT	O	O	O
-SPACE	O	O	O
+-	-	NOUN	O	O	O
+ 	 	SPACE	O	O	O
 monium	monium	NOUN	O	O	O
-suave	suave	NOUN	O	O	O
+suave	suave	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Donnez	donnez	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Donnez	donner	VERB	O	O	O
+-	-	PRON	O	O	O
 moi	moi	PRON	O	O	O
 seulement	seulement	ADV	O	O	O
 un	un	DET	O	O	O
 délai	délai	NOUN	O	O	O
-afin	afin	ADV	O	O	O
+afin	afin	ADP	O	O	O
 que	que	SCONJ	O	O	O
 je	je	PRON	O	O	O
 médite	méditer	VERB	O	O	O
@@ -811,13 +820,13 @@ Tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 décadents	décadent	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-muets	muet	NOUN	O	O	O
+muets	muet	ADJ	O	O	O
 d'	de	ADP	O	O	O
 extase	extase	NOUN	O	O	O
 heureuse	heureux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
-lèvent	lever	ADV	O	O	O
+lèvent	lever	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
@@ -825,17 +834,18 @@ concert	concert	NOUN	O	O	O
 laudatif	laudatif	ADJ	O	O	O
 résonne	résonner	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Tu	tu	ADV	O	O	O
-es	e	ADJ	O	O	O
-divin	divin	NOUN	O	O	O
+Tu	tu	PRON	O	O	O
+es	être	AUX	O	O	O
+divin	divin	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-ô	ö	NOUN	O	O	O
+ô	ô	INTJ	O	O	O
 Subtilius	subtilius	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Salut	salut	PROPN	O	O	O
+Salut	salut	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 sauveur	sauveur	NOUN	O	O	O
 du	de	ADP	O	O	O
@@ -847,34 +857,34 @@ mourant	mourant	ADJ	O	O	O
 Ange	ange	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-art	art	PROPN	O	O	O
+art	art	NOUN	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-emporte	emporte	NOUN	O	O	O
--	-	PUNCT	O	O	O
+emporte	emporter	VERB	O	O	O
+-	-	PRON	O	O	O
 nous	nous	PRON	O	O	O
 au	au	ADP	O	O	O
 ciel	ciel	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-perfu	perfu	NOUN	O	O	O
--	-	PUNCT	O	O	O
+perfu	perfu	PROPN	O	O	O
+-	-	NOUN	O	O	O
 misterie	misterie	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Gloria	gloria	PROPN	O	O	O
-tibi	tibi	ADJ	O	O	O
+tibi	tibi	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 Subtili	subtili	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-odorum	odorum	NOUN	O	O	O
-domine	domin	ADJ	O	O	O
+odorum	odorum	PROPN	O	O	O
+domine	dominer	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Suavitatum	suavitatum	PROPN	O	O	O
-princeps	princeps	ADJ	O	O	O
+princeps	princep	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -889,8 +899,8 @@ toujours	toujours	ADV	O	O	O
 aussi	aussi	ADV	O	O	O
 froid	froid	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-les	le	DET	O	O	O
-dominant	dominant	NOUN	O	O	O
+les	le	PRON	O	O	O
+dominant	dominer	VERB	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 regard	regard	NOUN	O	O	O
@@ -899,8 +909,9 @@ dédaigneux	dédaigneux	ADJ	O	O	O
 dit	dire	VERB	O	O	O
 simplement	simplement	ADV	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Ici	ici	NOUN	O	O	O
+Ici	ici	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Dans	dans	ADP	O	O	O
@@ -910,10 +921,11 @@ mois	mois	NOUN	O	O	O
 
 Et	et	CCONJ	O	O	O
 il	il	PRON	O	O	O
-sort	sort	ADJ	O	O	O
+sort	sortir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-II	ii	NOUN	O	O	O
+II	ii	PUNCT	O	O	O
+
 Deux	deux	NUM	O	O	O
 mois	mois	NOUN	O	O	O
 après	après	ADV	O	O	O
@@ -962,7 +974,7 @@ semblable	semblable	ADJ	O	O	O
 un	un	DET	O	O	O
 tuyau	tuyau	NOUN	O	O	O
 d'	de	ADP	O	O	O
-orgue	orgue	PROPN	O	O	O
+orgue	orgue	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 chacun	chacun	PRON	O	O	O
@@ -1018,7 +1030,7 @@ son	son	DET	O	O	O
 effet	effet	NOUN	O	O	O
 produit	produire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-afin	afin	ADV	O	O	O
+afin	afin	ADP	O	O	O
 qu'	que	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
 ne	ne	ADV	O	O	O
@@ -1051,11 +1063,11 @@ Subtilius	subtilius	PROPN	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
 fait	fait	NOUN	O	O	O
-maître	maître	NOUN	O	O	O
+maître	maître	ADJ	O	O	O
 de	de	ADP	O	O	O
 son	son	DET	O	O	O
 harmonium	harmonium	NOUN	B-NOV	O	O
-suave	suave	NOUN	I-NOV	O	O
+suave	suave	ADJ	I-NOV	O	O
 ,	,	PUNCT	O	O	O
 pouvait	pouvoir	VERB	O	O	O
 jouer	jouer	VERB	O	O	O
@@ -1070,29 +1082,29 @@ grand	grand	ADJ	O	O	O
 morceau	morceau	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 L'	le	DET	O	O	O
-Âme	âme	NOUN	O	O	O
+Âme	âme	PROPN	O	O	O
 des	de	ADP	O	O	O
 fleurs	fleur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
 auditeurs	auditeur	NOUN	O	O	O
-—	—	PROPN	O	O	O
+—	—	PUNCT	O	O	O
 ou	ou	CCONJ	O	O	O
 plutôt	plutôt	ADV	O	O	O
 les	le	DET	O	O	O
 odorateurs	odorateur	NOUN	O	O	O
-—	—	PRON	O	O	O
-penchés	pencher	ADJ	O	O	O
+—	—	PUNCT	O	O	O
+penchés	pencher	VERB	O	O	O
 en	en	ADP	O	O	O
-avant	avant	ADV	O	O	O
+avant	avant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 narines	narine	NOUN	O	O	O
-voluptueusement	voluptueusemer	VERB	O	O	O
+voluptueusement	voluptueusement	ADV	O	O	O
 ouvertes	ouvert	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-respiraient	respirer	ADV	O	O	O
+respiraient	respirer	VERB	O	O	O
 ce	ce	DET	O	O	O
 chef	chef	NOUN	O	O	O
 d'	de	ADP	O	O	O
@@ -1111,16 +1123,16 @@ par	par	ADP	O	O	O
 un	un	DET	O	O	O
 très	très	ADV	O	O	O
 léger	léger	ADJ	O	O	O
-reni	reni	ADJ	O	O	O
--	-	PUNCT	O	O	O
-SPACE	O	O	O
+reni	reni	NOUN	O	O	O
+-	-	NOUN	O	O	O
+ 	 	SPACE	O	O	O
 flement	flement	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-si	si	SCONJ	O	O	O
+si	si	ADV	O	O	O
 doux	doux	ADJ	O	O	O
 qu'	que	SCONJ	O	O	O
 on	on	PRON	O	O	O
-eût	avoir	PRON	O	O	O
+eût	avoir	AUX	O	O	O
 dit	dire	VERB	O	O	O
 le	le	DET	O	O	O
 dernier	dernier	ADJ	O	O	O
@@ -1136,7 +1148,7 @@ donc	donc	ADV	O	O	O
 trouvé	trouver	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-art	art	PROPN	O	O	O
+art	art	NOUN	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -1149,7 +1161,7 @@ de	de	ADP	O	O	O
 subtilités	subtilité	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
-subtil	subtil	NOUN	O	O	O
+subtil	subtil	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -1160,7 +1172,7 @@ pour	pour	ADP	O	O	O
 des	un	DET	O	O	O
 siècles	siècle	NOUN	O	O	O
 à	à	ADP	O	O	O
-varier	varier	NOUN	O	O	O
+varier	varier	VERB	O	O	O
 et	et	CCONJ	O	O	O
 à	à	ADP	O	O	O
 raffiner	raffiner	VERB	O	O	O
@@ -1169,15 +1181,15 @@ dilettantisme	dilettantisme	NOUN	O	O	O
 naissant	naissant	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
-Radieux	radieux	PROPN	O	O	O
+Radieux	radieux	ADJ	O	O	O
 avenir	avenir	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
-tous	tout	ADJ	O	O	O
+tous	tout	PRON	O	O	O
 en	en	ADP	O	O	O
-leur	son	PRON	O	O	O
-âme	âm	ADJ	O	O	O
+leur	son	DET	O	O	O
+âme	âme	NOUN	O	O	O
 rendaient	rendre	VERB	O	O	O
 grâce	grâce	NOUN	O	O	O
 au	au	ADP	O	O	O
@@ -1191,7 +1203,7 @@ décadents	décadent	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
-impérissable	impérissable	NOUN	O	O	O
+impérissable	impérissable	ADJ	O	O	O
 Subtilius	subtilius	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1220,26 +1232,26 @@ une	un	DET	O	O	O
 cadence	cadence	NOUN	O	O	O
 mystérieuse	mystérieux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-impondérables	impondérable	NOUN	O	O	O
+impondérables	impondérable	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 impalpables	impalpable	ADJ	O	O	O
 comme	comme	ADP	O	O	O
 le	le	DET	O	O	O
 rêve	rêve	NOUN	O	O	O
 même	même	ADV	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 elles	lui	PRON	O	O	O
 exprimaient	exprimer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
 cette	ce	DET	O	O	O
-«	«	NOUN	O	O	O
-âme	âm	ADJ	O	O	O
+«	«	PUNCT	O	O	O
+âme	âme	NOUN	O	O	O
 des	de	ADP	O	O	O
 fleurs	fleur	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
-douce	doux	VERB	O	O	O
+douce	doux	ADJ	O	O	O
 haleine	haleine	NOUN	O	O	O
 des	de	ADP	O	O	O
 saisons	saison	NOUN	O	O	O
@@ -1250,26 +1262,26 @@ amour	amour	NOUN	O	O	O
 Les	le	DET	O	O	O
 décadents	décadent	NOUN	O	O	O
 jouissaient	jouir	VERB	O	O	O
-—	—	PRON	O	O	O
-comme	comme	ADV	O	O	O
+—	—	PUNCT	O	O	O
+comme	comme	SCONJ	O	O	O
 jamais	jamais	ADV	O	O	O
-homme	homm	ADJ	O	O	O
+homme	homme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 depuis	depuis	ADP	O	O	O
-le	le	PRON	O	O	O
-commencement	commencemer	VERB	O	O	O
+le	le	DET	O	O	O
+commencement	commencement	NOUN	O	O	O
 du	de	ADP	O	O	O
 monde	monde	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 n'	ne	ADV	O	O	O
-avait	avoir	VERB	O	O	O
+avait	avoir	AUX	O	O	O
 encore	encore	ADV	O	O	O
-joui	joui	ADJ	O	O	O
+joui	jouir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Double	double	PROPN	O	O	O
-ivresse	ivress	ADJ	O	O	O
+Double	double	ADJ	O	O	O
+ivresse	ivresse	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 ivresse	ivresse	NOUN	O	O	O
 des	de	ADP	O	O	O
@@ -1290,14 +1302,14 @@ peu	peu	ADV	O	O	O
 une	un	DET	O	O	O
 délicieuse	délicieux	ADJ	O	O	O
 somnolence	somnolence	NOUN	O	O	O
-les	le	DET	O	O	O
-envahissait	envahissait	NOUN	O	O	O
-—	—	DET	O	O	O
+les	le	PRON	O	O	O
+envahissait	envahir	VERB	O	O	O
+—	—	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 ils	il	PRON	O	O	O
 s'	se	PRON	O	O	O
 y	y	PRON	O	O	O
-abandonnaient	abandonner	ADV	O	O	O
+abandonnaient	abandonner	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 ne	ne	ADV	O	O	O
 comprenant	comprendre	VERB	O	O	O
@@ -1322,12 +1334,12 @@ eux	lui	PRON	O	O	O
 ainsi	ainsi	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
-Car	car	NOUN	O	O	O
+Car	car	CCONJ	O	O	O
 Subtilius	subtilius	PROPN	O	O	O
 ne	ne	ADV	O	O	O
 s'	se	PRON	O	O	O
 apercevait	apercevoir	VERB	O	O	O
-point	point	NOUN	O	O	O
+point	point	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
@@ -1369,7 +1381,7 @@ close	clos	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
 atmosphère	atmosphère	NOUN	O	O	O
-devint	devint	NOUN	O	O	O
+devint	devenir	VERB	O	O	O
 irrespirable	irrespirable	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1383,13 +1395,13 @@ meurtriers	meurtrier	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 décadents	décadent	NOUN	O	O	O
-dormaient	dormir	ADV	O	O	O
+dormaient	dormir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Subtilius	subtilius	PROPN	O	O	O
 lui	luire	PRON	O	O	O
--	-	PUNCT	O	O	O
-même	même	ADV	O	O	O
+-	-	PRON	O	O	O
+même	même	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 dont	dont	PRON	O	O	O
 les	le	DET	O	O	O
@@ -1415,7 +1427,7 @@ un	un	DET	O	O	O
 sommeil	sommeil	NOUN	O	O	O
 profond	profond	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-singulièrement	singulièremer	VERB	O	O	O
+singulièrement	singulièrement	ADV	O	O	O
 profond	profond	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1430,7 +1442,7 @@ Leur	son	DET	O	O	O
 âme	âme	NOUN	O	O	O
 s'	se	PRON	O	O	O
 était	être	AUX	O	O	O
-évanouie	évanoui	ADJ	O	O	O
+évanouie	évanouir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
 une	un	DET	O	O	O
@@ -1446,8 +1458,8 @@ qui	qui	PRON	O	O	O
 le	le	DET	O	O	O
 lendemain	lendemain	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-les	le	DET	O	O	O
-trouvèrent	trouver	ADV	O	O	O
+les	le	PRON	O	O	O
+trouvèrent	trouver	VERB	O	O	O
 inanimés	inanimé	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 ne	ne	ADV	O	O	O
@@ -1456,7 +1468,7 @@ rien	rien	PRON	O	O	O
 à	à	ADP	O	O	O
 ce	ce	DET	O	O	O
 drame	drame	NOUN	O	O	O
-étrange	étrange	NOUN	O	O	O
+étrange	étrange	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Ils	il	PRON	O	O	O
@@ -1482,33 +1494,33 @@ par	par	ADP	O	O	O
 asphyxie	asphyxie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Oui	oui	PROPN	O	O	O
+Oui	oui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 suicidés	suicider	VERB	O	O	O
 par	par	ADP	O	O	O
 asphyxie	asphyxie	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-Comme	comme	SCONJ	O	O	O
+Comme	comme	ADP	O	O	O
 le	le	DET	O	O	O
 premier	premier	ADJ	O	O	O
-misérable	misérable	NOUN	O	O	O
+misérable	misérable	ADJ	O	O	O
 venu	venir	VERB	O	O	O
 qui	qui	PRON	O	O	O
 meurt	mourir	VERB	O	O	O
-bêtement	bêtemer	VERB	O	O	O
+bêtement	bêtement	ADV	O	O	O
 dans	dans	ADP	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 fumée	fumée	NOUN	O	O	O
 de	de	ADP	O	O	O
-charbon	charbon	ADJ	O	O	O
+charbon	charbon	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 siècles	siècle	NOUN	O	O	O
-futurs	futur	NOUN	O	O	O
+futurs	futur	ADJ	O	O	O
 ignorèrent	ignorer	VERB	O	O	O
 la	le	DET	O	O	O
 parfumerie	parfumerie	NOUN	O	O	O

@@ -1,5 +1,6 @@
-A	a	NOUN	O	O	O
+A	à	ADP	O	O	O
 Trok	trok	PROPN	O	O	O
+
 -	-	PUNCT	O	O	O
 Massal	massal	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -14,10 +15,10 @@ voisine	voisin	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 fameuse	fameux	ADJ	O	O	O
-Atlantide	atlantide	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+Atlantide	atlantide	PROPN	O	O	O
+que	que	PRON	O	O	O
 fit	faire	AUX	O	O	O
-disparaître	disparaître	NOUN	O	O	O
+disparaître	disparaître	VERB	O	O	O
 un	un	DET	O	O	O
 immense	immense	ADJ	O	O	O
 cataclysme	cataclysme	NOUN	O	O	O
@@ -25,11 +26,11 @@ cataclysme	cataclysme	NOUN	O	O	O
 on	on	PRON	O	O	O
 retrouve	retrouver	VERB	O	O	O
 encore	encore	ADV	O	O	O
-de	de	ADP	O	O	O
-vastes	vaste	NOUN	O	O	O
-souterrains	souterrain	ADJ	O	O	O
+de	de	DET	O	O	O
+vastes	vaste	ADJ	O	O	O
+souterrains	souterrain	NOUN	O	O	O
 dont	dont	PRON	O	O	O
-beaucoup	beaucoup	ADV	O	O	O
+beaucoup	beaucoup	PRON	O	O	O
 restent	rester	VERB	O	O	O
 inexplorés	inexploré	ADJ	O	O	O
 .	.	PUNCT	O	O	O
@@ -38,21 +39,21 @@ Des	un	DET	O	O	O
 villes	ville	NOUN	O	O	O
 furent	être	AUX	O	O	O
 alors	alors	ADV	O	O	O
-englouties	engloutir	ADJ	O	O	O
+englouties	engloutir	VERB	O	O	O
 par	par	ADP	O	O	O
 une	un	DET	O	O	O
 tourmente	tourmente	NOUN	O	O	O
 phénoménale	phénoménal	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
-tremblement	tremblement	ADJ	O	O	O
+tremblement	tremblement	NOUN	O	O	O
 formidable	formidable	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 laissant	laisser	VERB	O	O	O
-çà	çà	ADJ	O	O	O
+çà	çà	ADV	O	O	O
 et	et	CCONJ	O	O	O
 là	là	ADV	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 cavernes	caverne	NOUN	O	O	O
 insondables	insondable	ADJ	O	O	O
 où	où	PRON	O	O	O
@@ -98,8 +99,9 @@ dans	dans	ADP	O	O	O
 un	un	DET	O	O	O
 hôtel	hôtel	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-«	«	NOUN	O	O	O
-–	–	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
+–	–	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 crois	croire	VERB	O	O	O
 être	être	AUX	O	O	O
@@ -107,9 +109,9 @@ sur	sur	ADP	O	O	O
 la	le	DET	O	O	O
 piste	piste	NOUN	O	O	O
 du	de	ADP	O	O	O
-fameux	fameu	NOUN	O	O	O
-animal	animal	ADJ	O	O	O
-que	que	SCONJ	O	O	O
+fameux	fameux	ADJ	O	O	O
+animal	animal	NOUN	O	O	O
+que	que	PRON	O	O	O
 certains	certain	DET	O	O	O
 indigènes	indigène	NOUN	O	O	O
 déclarent	déclarer	VERB	O	O	O
@@ -142,9 +144,9 @@ de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
 animaux	animal	NOUN	O	O	O
 antédiluviens	antédiluvien	ADJ	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 on	on	PRON	O	O	O
-voit	voir	AUX	O	O	O
+voit	voir	VERB	O	O	O
 reconstitués	reconstituer	VERB	O	O	O
 dans	dans	ADP	O	O	O
 nos	notre	DET	O	O	O
@@ -166,12 +168,12 @@ expression	expression	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 d'	de	ADP	O	O	O
 apparence	apparence	NOUN	O	O	O
-si	si	SCONJ	O	O	O
+si	si	ADV	O	O	O
 effrayante	effrayant	ADJ	O	O	O
 que	que	SCONJ	O	O	O
 nous	nous	PRON	O	O	O
-étions	être	VERB	O	O	O
-glacés	glacer	VERB	O	O	O
+étions	être	AUX	O	O	O
+glacés	glacé	ADJ	O	O	O
 d'	de	ADP	O	O	O
 effroi	effroi	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -182,8 +184,8 @@ un	un	DET	O	O	O
 mouvement	mouvement	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
-–	–	NOUN	O	O	O
+«	«	PUNCT	O	O	O
+–	–	PUNCT	O	O	O
 Mais	mais	CCONJ	O	O	O
 je	je	PRON	O	O	O
 revins	revenir	VERB	O	O	O
@@ -192,8 +194,8 @@ promptement	promptement	ADV	O	O	O
 moi	moi	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
-–	–	NOUN	O	O	O
+«	«	PUNCT	O	O	O
+–	–	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 veux	vouloir	VERB	O	O	O
 tenter	tenter	VERB	O	O	O
@@ -203,13 +205,13 @@ en	en	PRON	O	O	O
 emparer	emparer	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
-dis	dire	ADP	O	O	O
--	-	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
+dis	dire	VERB	O	O	O
+-	-	PRON	O	O	O
 je	je	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
-Tacron	tacron	ADV	O	O	O
+Tacron	tacron	PROPN	O	O	O
 eut	avoir	VERB	O	O	O
 un	un	DET	O	O	O
 haussement	haussement	NOUN	O	O	O
@@ -217,38 +219,39 @@ d'	de	ADP	O	O	O
 épaules	épaule	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
-–	–	NOUN	O	O	O
+«	«	PUNCT	O	O	O
+–	–	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 vous	vous	PRON	O	O	O
 en	en	PRON	O	O	O
-défie	défie	NOUN	O	O	O
+défie	défier	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
-–	–	NOUN	O	O	O
+«	«	PUNCT	O	O	O
+
+–	–	PUNCT	O	O	O
 Avez	avoir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 peur	peur	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
-–	–	NOUN	O	O	O
-Moi	moi	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+–	–	PUNCT	O	O	O
+Moi	moi	PRON	O	O	O
 ?	?	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
-–	–	NOUN	O	O	O
+«	«	PUNCT	O	O	O
+–	–	PUNCT	O	O	O
 Alors	alors	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-aidez	aidez	NOUN	O	O	O
--	-	PUNCT	O	O	O
+aidez	aider	VERB	O	O	O
+-	-	PRON	O	O	O
 moi	moi	PRON	O	O	O
 et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
-dussé	dussé	NOUN	O	O	O
--	-	PUNCT	O	O	O
+dussé	dussé	ADJ	O	O	O
+-	-	PRON	O	O	O
 je	je	PRON	O	O	O
 y	y	PRON	O	O	O
 laisser	laisser	VERB	O	O	O
@@ -261,7 +264,8 @@ l'	le	DET	O	O	O
 impossible	impossible	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
+»	»	PUNCT	O	O	O
+
 Je	je	PRON	O	O	O
 communiquai	communiquer	VERB	O	O	O
 mon	mon	DET	O	O	O
@@ -276,25 +280,26 @@ acquiesça	acquiescer	VERB	O	O	O
 immédiatement	immédiatement	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 –	–	PUNCT	O	O	O
 Du	de	ADP	O	O	O
 reste	reste	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-dis	dire	ADP	O	O	O
--	-	PUNCT	O	O	O
+dis	dire	VERB	O	O	O
+-	-	PRON	O	O	O
 je	je	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 me	me	PRON	O	O	O
 réserve	réserve	VERB	O	O	O
 le	le	DET	O	O	O
-pire	pire	NOUN	O	O	O
-danger	danger	VERB	O	O	O
+pire	pire	ADJ	O	O	O
+danger	danger	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-»	»	PROPN	O	O	O
-«	«	PROPN	O	O	O
+»	»	PUNCT	O	O	O
+
+«	«	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 me	me	PRON	O	O	O
 munis	munir	VERB	O	O	O
@@ -324,8 +329,8 @@ fait	faire	VERB	O	O	O
 je	je	PRON	O	O	O
 fis	faire	VERB	O	O	O
 un	un	DET	O	O	O
-noeud	noeud	ADV	O	O	O
-coulant	coulant	NOUN	O	O	O
+noeud	noeud	NOUN	O	O	O
+coulant	coulant	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 me	me	PRON	O	O	O
 mis	mettre	VERB	O	O	O
@@ -356,7 +361,7 @@ la	le	DET	O	O	O
 lumière	lumière	NOUN	O	O	O
 du	de	ADP	O	O	O
 phare	phare	NOUN	O	O	O
-jaillit	jaillit	ADJ	O	O	O
+jaillit	jaillir	VERB	O	O	O
 plus	plus	ADV	O	O	O
 vive	vif	ADJ	O	O	O
 .	.	PUNCT	O	O	O
@@ -368,7 +373,7 @@ moi	moi	PRON	O	O	O
 un	un	DET	O	O	O
 mouvement	mouvement	NOUN	O	O	O
 de	de	ADP	O	O	O
-recul	recul	PROPN	O	O	O
+recul	recul	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 l'	le	DET	O	O	O
 animal	animal	NOUN	O	O	O
@@ -385,12 +390,12 @@ une	un	DET	O	O	O
 sorte	sorte	NOUN	O	O	O
 de	de	ADP	O	O	O
 cuir	cuir	NOUN	O	O	O
-mat	mat	NOUN	O	O	O
+mat	mat	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 sale	sale	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Ni	ni	DET	O	O	O
+Ni	ni	CCONJ	O	O	O
 le	le	DET	O	O	O
 cou	cou	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -402,9 +407,9 @@ tête	tête	NOUN	O	O	O
 que	que	PRON	O	O	O
 je	je	PRON	O	O	O
 voyais	voir	VERB	O	O	O
-distinctement	distinctemer	VERB	O	O	O
+distinctement	distinctement	ADV	O	O	O
 ne	ne	ADV	O	O	O
-bougeaient	bouger	ADV	O	O	O
+bougeaient	bouger	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 C'	ce	PRON	O	O	O
@@ -422,21 +427,21 @@ sous	sou	ADP	O	O	O
 le	le	DET	O	O	O
 nom	nom	NOUN	O	O	O
 de	de	ADP	O	O	O
-«	«	NUM	O	O	O
+«	«	PUNCT	O	O	O
 scelido	scelido	NOUN	O	O	O
--	-	PUNCT	O	O	O
-therium	therium	NOUN	O	O	O
+-	-	NOUN	O	O	O
+therium	therium	X	O	O	O
 »	»	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
-«	«	PROPN	O	O	O
-diplodocus	diplodocus	VERB	O	O	O
+«	«	PUNCT	O	O	O
+diplodocus	diplodocus	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 encore	encore	ADV	O	O	O
 de	de	ADP	O	O	O
-«	«	PROPN	O	O	O
-néomylodon	néomylodon	ADJ	O	O	O
+«	«	PUNCT	O	O	O
+néomylodon	néomylodon	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -444,14 +449,14 @@ Justement	justement	ADV	O	O	O
 son	son	DET	O	O	O
 cou	cou	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-quoique	quoique	PRON	O	O	O
-allongé	allongé	ADJ	O	O	O
+quoique	quoique	ADV	O	O	O
+allongé	allonger	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 formait	former	VERB	O	O	O
 à	à	ADP	O	O	O
 sa	son	DET	O	O	O
 partie	partie	NOUN	O	O	O
-antérieure	antérieur	VERB	O	O	O
+antérieure	antérieur	ADJ	O	O	O
 une	un	DET	O	O	O
 sorte	sorte	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -459,8 +464,8 @@ courbe	courbe	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 juste	juste	ADV	O	O	O
 au	au	ADP	O	O	O
--	-	PUNCT	O	O	O
-dessous	dessous	NOUN	O	O	O
+-	-	ADV	O	O	O
+dessous	dessous	ADV	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 tête	tête	NOUN	O	O	O
@@ -473,7 +478,7 @@ toute	tout	ADJ	O	O	O
 la	le	DET	O	O	O
 passion	passion	NOUN	O	O	O
 du	de	ADP	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 admettre	admettre	VERB	O	O	O
 ma	mon	DET	O	O	O
@@ -498,11 +503,11 @@ songeais	songer	VERB	O	O	O
 même	même	ADV	O	O	O
 pas	pas	ADV	O	O	O
 au	au	ADP	O	O	O
-danger	danger	VERB	O	O	O
+danger	danger	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 je	je	PRON	O	O	O
-l'	le	DET	O	O	O
-ignorais	ignorai	NOUN	O	O	O
+l'	le	PRON	O	O	O
+ignorais	ignorer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Je	je	PRON	O	O	O
@@ -516,13 +521,14 @@ j'	je	PRON	O	O	O
 ai	avoir	AUX	O	O	O
 parlé	parler	VERB	O	O	O
 le	le	DET	O	O	O
-noeud	noeud	ADV	O	O	O
-coulant	coulant	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+noeud	noeud	NOUN	O	O	O
+coulant	coulant	ADJ	O	O	O
+que	que	PRON	O	O	O
 j'	je	PRON	O	O	O
 assujottis	assujottis	VERB	O	O	O
 solidement	solidement	ADV	O	O	O
 ;	;	PUNCT	O	O	O
+
 au	au	ADP	O	O	O
 moindre	moindre	ADJ	O	O	O
 effort	effort	NOUN	O	O	O
@@ -532,7 +538,7 @@ se	se	PRON	O	O	O
 serrerait	serrer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Puis	pouvoir	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
@@ -542,13 +548,13 @@ précipititamment	précipititamment	ADV	O	O	O
 
 Tous	tout	ADJ	O	O	O
 m'	me	PRON	O	O	O
-avaient	avoir	VERB	O	O	O
+avaient	avoir	AUX	O	O	O
 compris	comprendre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Nous	nous	PRON	O	O	O
 nous	nous	PRON	O	O	O
-saisîmes	saisîme	ADJ	O	O	O
+saisîmes	saisir	VERB	O	O	O
 du	de	ADP	O	O	O
 cordage	cordage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -560,10 +566,10 @@ signal	signal	NOUN	O	O	O
 nous	nous	PRON	O	O	O
 tirâmes	tirer	VERB	O	O	O
 en	en	ADP	O	O	O
-haut	haut	ADJ	O	O	O
+haut	haut	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	ADJ	O	O	O
+«	«	PUNCT	O	O	O
 Nous	nous	PRON	O	O	O
 voulions	vouloir	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -587,7 +593,7 @@ un	un	DET	O	O	O
 grondement	grondement	NOUN	O	O	O
 sourd	sourd	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-sinistre	sinistre	ADV	O	O	O
+sinistre	sinistre	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
 un	un	DET	O	O	O
@@ -599,15 +605,16 @@ conque	conque	NOUN	O	O	O
 de	de	ADP	O	O	O
 bronze	bronze	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 et	et	CCONJ	O	O	O
 dressant	dresser	VERB	O	O	O
 le	le	DET	O	O	O
 cou	cou	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	PRON	O	O	O
-arc	arc	NOUN	O	O	O
--	-	PUNCT	O	O	O
-boutant	boutant	ADJ	O	O	O
+arc	arc	VERB	O	O	O
+-	-	VERB	O	O	O
+boutant	bouter	VERB	O	O	O
 sur	sur	ADP	O	O	O
 ses	son	DET	O	O	O
 pieds	pied	NOUN	O	O	O
@@ -623,7 +630,7 @@ Nous	nous	PRON	O	O	O
 nous	nous	PRON	O	O	O
 penchions	pencher	VERB	O	O	O
 en	en	ADP	O	O	O
-arrière	arrière	NOUN	O	O	O
+arrière	arrière	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 tirant	tirer	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -643,7 +650,7 @@ cou	cou	NOUN	O	O	O
 atténuerait	atténuer	VERB	O	O	O
 rapidement	rapidement	ADV	O	O	O
 sa	son	DET	O	O	O
-résistance	résistance	PROPN	O	O	O
+résistance	résistance	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 A	à	ADP	O	O	O
@@ -655,7 +662,7 @@ phare	phare	NOUN	O	O	O
 nous	nous	PRON	O	O	O
 voyions	voir	VERB	O	O	O
 maintenant	maintenant	ADV	O	O	O
-distinctement	distinctemer	VERB	O	O	O
+distinctement	distinctement	ADV	O	O	O
 sa	son	DET	O	O	O
 tête	tête	NOUN	O	O	O
 dans	dans	ADP	O	O	O
@@ -667,9 +674,10 @@ trace	trace	NOUN	O	O	O
 d'	de	ADP	O	O	O
 yeux	oeil	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 en	en	ADP	O	O	O
 une	un	DET	O	O	O
-seconde	second	ADJ	O	O	O
+seconde	seconde	NOUN	O	O	O
 je	je	PRON	O	O	O
 compris	comprendre	VERB	O	O	O
 cette	ce	DET	O	O	O
@@ -684,7 +692,7 @@ organes	organe	NOUN	O	O	O
 inutiles	inutile	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Mais	mais	CCONJ	O	O	O
 l'	le	DET	O	O	O
 animal	animal	NOUN	O	O	O
@@ -693,8 +701,9 @@ n'	ne	ADV	O	O	O
 ni	ni	CCONJ	O	O	O
 effrayé	effrayer	VERB	O	O	O
 ni	ni	CCONJ	O	O	O
-étourdi	étourdi	ADJ	O	O	O
+étourdi	étourdir	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 reculait	reculer	VERB	O	O	O
 toujours	toujours	ADV	O	O	O
@@ -712,6 +721,7 @@ nous	nous	PRON	O	O	O
 sentions	sentir	VERB	O	O	O
 attirés	attirer	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 nous	nous	PRON	O	O	O
 avions	avoir	AUX	O	O	O
 dépassé	dépasser	VERB	O	O	O
@@ -728,12 +738,13 @@ glissions	glisser	VERB	O	O	O
 nous	nous	PRON	O	O	O
 glissions	glisser	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 tel	tel	ADJ	O	O	O
 était	être	AUX	O	O	O
 notre	notre	DET	O	O	O
 entêtement	entêtement	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 nous	nous	PRON	O	O	O
 ne	ne	ADV	O	O	O
 voulions	vouloir	VERB	O	O	O
@@ -742,7 +753,7 @@ lâcher	lâcher	VERB	O	O	O
 prise	prise	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	ADJ	O	O	O
+«	«	PUNCT	O	O	O
 Nous	nous	PRON	O	O	O
 descendions	descendre	VERB	O	O	O
 maintenant	maintenant	ADV	O	O	O
@@ -753,7 +764,7 @@ vertigineuse	vertigineux	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
 un	un	DET	O	O	O
@@ -774,7 +785,7 @@ noire	noir	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 clapotante	clapotant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-peuplée	peuplée	NOUN	O	O	O
+peuplée	peupler	VERB	O	O	O
 d'	de	ADP	O	O	O
 êtres	être	NOUN	O	O	O
 fantastiques	fantastique	ADJ	O	O	O
@@ -782,46 +793,45 @@ qui	qui	PRON	O	O	O
 s'	se	PRON	O	O	O
 ébrouaient	ébrouer	VERB	O	O	O
 en	en	ADP	O	O	O
-soufflant	soufflant	NOUN	O	O	O
+soufflant	souffler	VERB	O	O	O
 et	et	CCONJ	O	O	O
 en	en	ADP	O	O	O
 bondissant	bondir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NUM	O	O	O
+«	«	PUNCT	O	O	O
 Encore	encore	ADV	O	O	O
 une	un	DET	O	O	O
 seconde	second	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 nous	nous	PRON	O	O	O
-étions	être	VERB	O	O	O
+étions	être	AUX	O	O	O
 précipités	précipiter	VERB	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 gouffre	gouffre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 –	–	PUNCT	O	O	O
-Lâchez	lâcher	ADP	O	O	O
+Lâchez	lâcher	VERB	O	O	O
 tout	tout	PRON	O	O	O
 !	!	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
-hurlai	hurlai	NOUN	O	O	O
--	-	PUNCT	O	O	O
+hurlai	hurler	VERB	O	O	O
+-	-	PRON	O	O	O
 je	je	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
-–	–	NOUN	O	O	O
+«	«	PUNCT	O	O	O
+–	–	PUNCT	O	O	O
 Et	et	CCONJ	O	O	O
 tombant	tomber	VERB	O	O	O
 en	en	ADP	O	O	O
-arrière	arrière	NOUN	O	O	O
+arrière	arrière	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
-demi	demi	NOUN	O	O	O
+demi	demi	ADV	O	O	O
 brisés	briser	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
@@ -841,17 +851,17 @@ précipiter	précipiter	VERB	O	O	O
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
 abîme	abîme	NOUN	O	O	O
-noir	noir	NOUN	O	O	O
+noir	noir	ADJ	O	O	O
 où	où	PRON	O	O	O
 son	son	DET	O	O	O
 corps	corps	NOUN	O	O	O
-disparut	disparut	ADJ	O	O	O
-tout	tout	ADJ	O	O	O
+disparut	disparaître	VERB	O	O	O
+tout	tout	ADV	O	O	O
 entier	entier	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	PROPN	O	O	O
-Etourdis	etourdis	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Etourdis	etourdis	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
 restâmes	rester	VERB	O	O	O
@@ -862,29 +872,28 @@ immobiles	immobile	ADJ	O	O	O
 mais	mais	CCONJ	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
-Tacron	tacron	ADV	O	O	O
+coup	coup	NOUN	O	O	O
+Tacron	tacron	PROPN	O	O	O
 se	se	PRON	O	O	O
-leva	leva	ADJ	O	O	O
+leva	lever	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 criant	crier	VERB	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
-tour	tour	NOUN	O	O	O
+tour	tour	ADV	O	O	O
 :	:	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 –	–	PUNCT	O	O	O
 Alerte	alerte	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 nous	nous	PRON	O	O	O
 allons	aller	VERB	O	O	O
 être	être	AUX	O	O	O
 poursuivis	poursuivre	VERB	O	O	O
 !	!	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	PROPN	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 sais	savoir	VERB	O	O	O
@@ -914,10 +923,11 @@ sur	sur	ADP	O	O	O
 moi	moi	PRON	O	O	O
 leurs	leur	DET	O	O	O
 étreintes	étreinte	NOUN	O	O	O
-visqueuses	visqueuse	NOUN	O	O	O
+visqueuses	visqueux	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 ignobles	ignoble	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
+
 je	je	PRON	O	O	O
 courus	courir	VERB	O	O	O
 au	au	ADP	O	O	O
@@ -936,8 +946,8 @@ les	le	DET	O	O	O
 échelles	échelle	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	VERB	O	O	O
-Tacron	tacron	ADV	O	O	O
+«	«	PUNCT	O	O	O
+Tacron	tacron	PROPN	O	O	O
 avait	avoir	AUX	O	O	O
 saisi	saisir	VERB	O	O	O
 le	le	DET	O	O	O
@@ -956,7 +966,7 @@ route	route	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 en	en	ADP	O	O	O
-vain	vain	NOUN	O	O	O
+vain	vain	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Nous	nous	PRON	O	O	O
@@ -981,11 +991,11 @@ homme	homme	NOUN	O	O	O
 je	je	PRON	O	O	O
 m'	me	PRON	O	O	O
 y	y	PRON	O	O	O
-élançai	élançai	NOUN	O	O	O
+élançai	élancer	VERB	O	O	O
 ...	...	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
-autres	autre	ADJ	O	O	O
+autres	autre	PRON	O	O	O
 derrière	derrière	ADP	O	O	O
 moi	moi	PRON	O	O	O
 .	.	PUNCT	O	O	O
@@ -995,8 +1005,8 @@ y	y	PRON	O	O	O
 avait	avoir	VERB	O	O	O
 là	là	ADV	O	O	O
 ce	ce	DET	O	O	O
-vague	vague	NOUN	O	O	O
-instinct	instinct	ADJ	O	O	O
+vague	vague	ADJ	O	O	O
+instinct	instinct	NOUN	O	O	O
 que	que	SCONJ	O	O	O
 ces	ce	DET	O	O	O
 êtres	être	NOUN	O	O	O
@@ -1014,7 +1024,7 @@ pourtant	pourtant	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 ils	il	PRON	O	O	O
 nous	nous	PRON	O	O	O
-poursuivaient	poursuivre	ADV	O	O	O
+poursuivaient	poursuivre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 ce	ce	PRON	O	O	O
 n'	ne	ADV	O	O	O
@@ -1032,23 +1042,23 @@ leurs	leur	DET	O	O	O
 corps	corps	NOUN	O	O	O
 froids	froid	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-mouillés	mouiller	VERB	O	O	O
+mouillés	mouiller	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Nous	nous	PRON	O	O	O
 courions	courir	VERB	O	O	O
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
-étroit	étroit	NOUN	O	O	O
-défilé	défilé	NUM	O	O	O
+étroit	étroit	ADJ	O	O	O
+défilé	défilé	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 sans	sans	ADP	O	O	O
 savoir	savoir	VERB	O	O	O
-où	où	PRON	O	O	O
+où	où	ADV	O	O	O
 nous	nous	PRON	O	O	O
 allions	allier	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-convaincus	convaincre	ADJ	O	O	O
+convaincus	convaincre	VERB	O	O	O
 que	que	SCONJ	O	O	O
 c'	ce	PRON	O	O	O
 était	être	AUX	O	O	O
@@ -1065,20 +1075,20 @@ quelque	quelque	DET	O	O	O
 gouffre	gouffre	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-«	«	PROPN	O	O	O
-Soudain	soudain	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Soudain	soudain	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 défilé	défilé	NOUN	O	O	O
 s'	se	PRON	O	O	O
-écarta	écarta	NOUN	O	O	O
+écarta	écarter	VERB	O	O	O
 brusquement	brusquement	ADV	O	O	O
 :	:	PUNCT	O	O	O
 était	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
 le	le	DET	O	O	O
-salut	salut	ADJ	O	O	O
+salut	salut	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 Au	au	ADP	O	O	O
@@ -1102,7 +1112,7 @@ de	de	ADP	O	O	O
 pierre	pierre	NOUN	O	O	O
 d'	de	ADP	O	O	O
 où	où	PRON	O	O	O
-toute	tout	ADJ	O	O	O
+toute	tout	DET	O	O	O
 évasion	évasion	NOUN	O	O	O
 était	être	AUX	O	O	O
 impossible	impossible	ADJ	O	O	O
@@ -1118,6 +1128,7 @@ tendu	tendre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 écoutant	écouter	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 défilé	défilé	NOUN	O	O	O
@@ -1126,6 +1137,7 @@ des	un	DET	O	O	O
 grondements	grondement	NOUN	O	O	O
 retentissaient	retentir	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 les	le	DET	O	O	O
 monstres	monstre	NOUN	O	O	O
 se	se	PRON	O	O	O
@@ -1147,7 +1159,7 @@ en	en	ADP	O	O	O
 hauteur	hauteur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Ces	ce	DET	O	O	O
 corps	corps	NOUN	O	O	O
 n'	ne	ADV	O	O	O
@@ -1155,6 +1167,7 @@ avaient	avoir	VERB	O	O	O
 aucune	aucun	DET	O	O	O
 solidité	solidité	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 c'	ce	PRON	O	O	O
 était	être	AUX	O	O	O
 comme	comme	ADP	O	O	O
@@ -1168,6 +1181,7 @@ toutes	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 formes	forme	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Et	et	CCONJ	O	O	O
 nous	nous	PRON	O	O	O
 vîmes	voir	VERB	O	O	O
@@ -1182,36 +1196,37 @@ balançant	balancer	VERB	O	O	O
 vers	vers	ADP	O	O	O
 nous	nous	PRON	O	O	O
 ...	...	PUNCT	O	O	O
+
 Nous	nous	PRON	O	O	O
-étions	être	VERB	O	O	O
-perdus	perdre	ADJ	O	O	O
+étions	être	AUX	O	O	O
+perdus	perdre	VERB	O	O	O
 ...	...	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
-quelle	quell	ADJ	O	O	O
+quelle	quel	DET	O	O	O
 mort	mort	NOUN	O	O	O
 épouvantable	épouvantable	ADJ	O	O	O
-allions	allion	NOUN	O	O	O
--	-	PUNCT	O	O	O
+allions	allier	VERB	O	O	O
+-	-	PRON	O	O	O
 nous	nous	PRON	O	O	O
 mourir	mourir	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 Tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 je	je	PRON	O	O	O
 m'	me	PRON	O	O	O
 écriai	écrier	VERB	O	O	O
 :	:	PUNCT	O	O	O
-«	«	NOUN	O	O	O
-–	–	NOUN	O	O	O
-Etes	ete	NOUN	O	O	O
--	-	PUNCT	O	O	O
+«	«	PUNCT	O	O	O
+–	–	PUNCT	O	O	O
+Etes	etes	AUX	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 prêts	prêt	ADJ	O	O	O
 à	à	ADP	O	O	O
-tout	tout	ADV	O	O	O
+tout	tout	PRON	O	O	O
 pour	pour	ADP	O	O	O
 échapper	échapper	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -1219,7 +1234,7 @@ ces	ce	DET	O	O	O
 monstres	monstre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 même	même	ADV	O	O	O
-en	en	ADP	O	O	O
+en	en	PRON	O	O	O
 risquer	risquer	VERB	O	O	O
 une	un	DET	O	O	O
 autre	autre	ADJ	O	O	O
@@ -1229,21 +1244,22 @@ presque	presque	ADV	O	O	O
 sûre	sûr	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
-–	–	NOUN	O	O	O
+«	«	PUNCT	O	O	O
+
+–	–	PUNCT	O	O	O
 Oui	oui	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-oui	oui	NOUN	O	O	O
+oui	oui	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
-»	»	X	O	O	O
+»	»	PUNCT	O	O	O
 crièrent	crier	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ils	il	PRON	O	O	O
 tous	tout	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NUM	O	O	O
+«	«	PUNCT	O	O	O
 Alors	alors	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
@@ -1261,7 +1277,7 @@ dynamite	dynamite	NOUN	O	O	O
 dont	dont	PRON	O	O	O
 je	je	PRON	O	O	O
 m'	me	PRON	O	O	O
-étais	être	VERB	O	O	O
+étais	être	AUX	O	O	O
 muni	munir	VERB	O	O	O
 à	à	ADP	O	O	O
 tout	tout	DET	O	O	O
@@ -1303,6 +1319,7 @@ un	un	DET	O	O	O
 éclatement	éclatement	NOUN	O	O	O
 formidable	formidable	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 je	je	PRON	O	O	O
 me	me	PRON	O	O	O
 sentis	sentir	VERB	O	O	O
@@ -1311,6 +1328,7 @@ en	en	ADP	O	O	O
 l'	le	DET	O	O	O
 air	air	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 puis	pouvoir	CCONJ	O	O	O
 je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
@@ -1318,6 +1336,7 @@ sais	savoir	VERB	O	O	O
 plus	plus	ADV	O	O	O
 rien	rien	PRON	O	O	O
 ...	...	PUNCT	O	O	O
+
 Jusqu'	jusque	ADP	O	O	O
 au	au	ADP	O	O	O
 moment	moment	NOUN	O	O	O
@@ -1335,8 +1354,9 @@ auprès	auprès	ADV	O	O	O
 de	de	ADP	O	O	O
 moi	moi	PRON	O	O	O
 l'	le	DET	O	O	O
-Américain	américain	PROPN	O	O	O
+Américain	américain	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 un	un	DET	O	O	O
 seul	seul	ADJ	O	O	O
 de	de	ADP	O	O	O
@@ -1346,8 +1366,9 @@ avait	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 tué	tuer	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 deux	deux	NUM	O	O	O
-autres	autre	ADJ	O	O	O
+autres	autre	PRON	O	O	O
 avaient	avoir	AUX	O	O	O
 reçu	recevoir	VERB	O	O	O
 des	un	DET	O	O	O
@@ -1356,10 +1377,10 @@ peu	peu	ADV	O	O	O
 graves	grave	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Comment	comment	ADV	O	O	O
-étions	être	VERB	O	O	O
--	-	PUNCT	O	O	O
+étions	être	AUX	O	O	O
+-	-	PRON	O	O	O
 nous	nous	PRON	O	O	O
 encore	encore	ADV	O	O	O
 vivants	vivant	ADJ	O	O	O
@@ -1405,7 +1426,7 @@ refermait	refermer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 non	non	ADV	O	O	O
 seulement	seulement	ADV	O	O	O
-écrasant	écrasant	ADV	O	O	O
+écrasant	écraser	VERB	O	O	O
 les	le	DET	O	O	O
 monstres	monstre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1420,12 +1441,12 @@ qui	qui	PRON	O	O	O
 suivaient	suivre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 Quant	quant	ADV	O	O	O
 à	à	ADP	O	O	O
 nous	nous	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-emportés	emporté	NOUN	O	O	O
+emportés	emporter	VERB	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 bloc	bloc	NOUN	O	O	O
@@ -1449,7 +1470,7 @@ de	de	ADP	O	O	O
 marche	marche	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 hasard	hasard	NOUN	O	O	O
@@ -1461,7 +1482,7 @@ le	le	DET	O	O	O
 phare	phare	NOUN	O	O	O
 n'	ne	ADV	O	O	O
 était	être	AUX	O	O	O
-point	poindre	VERB	O	O	O
+point	point	ADV	O	O	O
 brisé	briser	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1472,7 +1493,7 @@ soulevés	soulever	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 non	non	ADV	O	O	O
-projetés	projeter	ADJ	O	O	O
+projetés	projeter	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Nous	nous	PRON	O	O	O
@@ -1482,7 +1503,7 @@ chemin	chemin	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 nous	nous	PRON	O	O	O
 nous	nous	PRON	O	O	O
-hâtâmes	hâtâme	ADJ	O	O	O
+hâtâmes	hâter	VERB	O	O	O
 de	de	ADP	O	O	O
 regagner	regagner	VERB	O	O	O
 l'	le	DET	O	O	O
@@ -1491,9 +1512,9 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 caverne	caverne	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	PROPN	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 Mais	mais	CCONJ	O	O	O
 Calderousse	calderousse	PROPN	O	O	O
 avait	avoir	AUX	O	O	O
@@ -1509,11 +1530,11 @@ de	de	ADP	O	O	O
 quelques	quelque	DET	O	O	O
 heures	heure	NOUN	O	O	O
 ses	son	DET	O	O	O
-cheveux	cheveux	ADJ	O	O	O
+cheveux	cheveu	NOUN	O	O	O
 étaient	être	AUX	O	O	O
 devenus	devenir	VERB	O	O	O
 tout	tout	ADV	O	O	O
-blancs	blanc	NOUN	O	O	O
+blancs	blanc	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 Jamais	jamais	ADV	O	O	O

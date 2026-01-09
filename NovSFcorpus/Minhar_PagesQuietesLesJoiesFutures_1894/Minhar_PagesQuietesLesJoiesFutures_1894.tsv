@@ -10,8 +10,8 @@ de	de	ADP	O	O	O
 corpulence	corpulence	NOUN	O	O	O
 moyenne	moyen	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-blond	blond	NOUN	O	O	O
-roux	roux	NOUN	O	O	O
+blond	blond	ADJ	O	O	O
+roux	roux	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 yeux	oeil	NOUN	O	O	O
@@ -21,13 +21,13 @@ clairs	clair	ADJ	O	O	O
 
 Il	il	PRON	O	O	O
 se	se	PRON	O	O	O
-livre	livre	NOUN	O	O	O
+livre	livre	VERB	O	O	O
 peu	peu	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 lorsque	lorsque	SCONJ	O	O	O
 j'	je	PRON	O	O	O
-eus	avoir	AUX	O	O	O
+eus	avoir	VERB	O	O	O
 l'	le	DET	O	O	O
 honneur	honneur	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -37,7 +37,7 @@ présenté	présenter	VERB	O	O	O
 il	il	PRON	O	O	O
 ne	ne	ADV	O	O	O
 souffla	souffler	VERB	O	O	O
-mot	mot	PRON	O	O	O
+mot	mot	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 n'	ne	ADV	O	O	O
 ayant	avoir	VERB	O	O	O
@@ -64,7 +64,7 @@ certain	certain	ADJ	O	O	O
 nombre	nombre	NOUN	O	O	O
 d'	de	ADP	O	O	O
 entrevues	entrevue	NOUN	O	O	O
-silencieuses	silencieux	NOUN	O	O	O
+silencieuses	silencieux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 nous	nous	PRON	O	O	O
@@ -88,7 +88,7 @@ convier	convier	VERB	O	O	O
 visiter	visiter	VERB	O	O	O
 son	son	DET	O	O	O
 établissement	établissement	NOUN	O	O	O
-horticole	horticole	NOUN	O	O	O
+horticole	horticole	ADJ	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 île	île	NOUN	O	O	O
@@ -141,13 +141,14 @@ est	être	AUX	O	O	O
 un	un	DET	O	O	O
 autodidacte	autodidacte	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 s'	se	PRON	O	O	O
 est	être	AUX	O	O	O
 fait	faire	VERB	O	O	O
 lui	luire	PRON	O	O	O
--	-	PUNCT	O	O	O
-même	même	ADV	O	O	O
+-	-	PRON	O	O	O
+même	même	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 Dans	dans	ADP	O	O	O
@@ -175,8 +176,8 @@ Son	son	DET	O	O	O
 père	père	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
-énergique	énergique	NOUN	O	O	O
-bûcheron	bûcheron	ADJ	O	O	O
+énergique	énergique	ADJ	O	O	O
+bûcheron	bûcheron	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 lui	luire	PRON	O	O	O
 enseignait	enseigner	VERB	O	O	O
@@ -188,19 +189,20 @@ mieux	mieux	ADV	O	O	O
 que	que	SCONJ	O	O	O
 n'	ne	ADV	O	O	O
 y	y	PRON	O	O	O
-eût	avoir	ADP	O	O	O
-réussi	réussir	ADV	O	O	O
+eût	avoir	AUX	O	O	O
+réussi	réussir	VERB	O	O	O
 toute	tout	ADJ	O	O	O
 l'	le	DET	O	O	O
 éloquence	éloquence	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
-Carlyle	carlyle	NOUN	O	O	O
+Carlyle	carlyle	PROPN	O	O	O
 ;	;	PUNCT	O	O	O
+
 sa	son	DET	O	O	O
 mère	mère	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-nièce	nièce	VERB	O	O	O
+nièce	nièce	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 curé	curé	NOUN	O	O	O
@@ -214,24 +216,24 @@ la	le	DET	O	O	O
 traduction	traduction	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-Iliade	iliade	NOUN	O	O	O
+Iliade	iliade	PROPN	O	O	O
 par	par	ADP	O	O	O
 madame	monsieur	NOUN	O	O	O
 Dacier	dacier	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 lui	luire	PRON	O	O	O
-donnant	donnant	PROPN	O	O	O
+donnant	donner	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 dès	dès	ADP	O	O	O
 la	le	DET	O	O	O
-prime	prime	NOUN	O	O	O
+prime	prime	ADJ	O	O	O
 enfance	enfance	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 goût	goût	NOUN	O	O	O
 des	de	ADP	O	O	O
-larges	large	NOUN	O	O	O
-blessures	blessure	ADJ	O	O	O
+larges	large	ADJ	O	O	O
+blessures	blessure	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
 désir	désir	NOUN	O	O	O
@@ -249,14 +251,14 @@ arrivait	arriver	VERB	O	O	O
 Paris	paris	PROPN	O	O	O
 avec	avec	ADP	O	O	O
 trente	trente	NUM	O	O	O
-sous	sou	ADP	O	O	O
+sous	sou	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 poche	poche	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 une	un	DET	O	O	O
 indomptable	indomptable	ADJ	O	O	O
-volonté	volonter	VERB	O	O	O
+volonté	volonté	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 coeur	coeur	NOUN	O	O	O
@@ -264,13 +266,13 @@ coeur	coeur	NOUN	O	O	O
 
 A	à	ADP	O	O	O
 vingt	vingt	NUM	O	O	O
--	-	PUNCT	O	O	O
+-	-	NUM	O	O	O
 cinq	cinq	NUM	O	O	O
 ans	an	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 était	être	AUX	O	O	O
-docteur	docteur	VERB	O	O	O
+docteur	docteur	NOUN	O	O	O
 en	en	ADP	O	O	O
 médecine	médecine	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -285,7 +287,7 @@ l'	le	DET	O	O	O
 amitié	amitié	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-illustre	illustre	NOUN	O	O	O
+illustre	illustre	ADJ	O	O	O
 chirurgien	chirurgien	NOUN	O	O	O
 Ranmort	ranmort	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -299,8 +301,8 @@ son	son	DET	O	O	O
 meilleur	meilleur	ADJ	O	O	O
 élève	élève	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-l'	le	DET	O	O	O
-institua	institua	NOUN	O	O	O
+l'	le	PRON	O	O	O
+institua	instituer	VERB	O	O	O
 en	en	ADP	O	O	O
 mourant	mourir	VERB	O	O	O
 son	son	DET	O	O	O
@@ -332,7 +334,7 @@ une	un	DET	O	O	O
 gloire	gloire	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-humanité	humanité	PROPN	O	O	O
+humanité	humanité	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Abandonnant	abandonner	VERB	O	O	O
@@ -349,18 +351,18 @@ bouteille	bouteille	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
-marchant	marchant	ADJ	O	O	O
+marchant	marcher	VERB	O	O	O
 sur	sur	ADP	O	O	O
 la	le	DET	O	O	O
 trace	trace	NOUN	O	O	O
 des	de	ADP	O	O	O
 Paracelses	paracelse	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 doms	dom	NOUN	O	O	O
 Juni	juni	PROPN	O	O	O
--	-	PUNCT	O	O	O
-périens	périen	NOUN	O	O	O
+-	-	PROPN	O	O	O
+périens	périens	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 s'	se	PRON	O	O	O
@@ -380,7 +382,7 @@ paupières	paupière	NOUN	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 flamme	flamme	NOUN	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 creusets	creuset	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 voulant	vouloir	VERB	O	O	O
@@ -388,10 +390,10 @@ réaliser	réaliser	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 chimiquement	chimiquement	ADV	O	O	O
 ce	ce	DET	O	O	O
-polyèdre	polyèdre	VERB	O	O	O
+polyèdre	polyèdre	NOUN	O	O	O
 assez	assez	ADV	O	O	O
-compliqué	compliquer	VERB	O	O	O
-que	que	SCONJ	O	O	O
+compliqué	compliqué	ADJ	O	O	O
+que	que	PRON	O	O	O
 l'	le	PRON	O	O	O
 on	on	PRON	O	O	O
 appelle	appeler	VERB	O	O	O
@@ -404,12 +406,13 @@ ses	son	DET	O	O	O
 efforts	effort	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 ses	son	DET	O	O	O
-immenses	immense	NOUN	O	O	O
+immenses	immense	ADJ	O	O	O
 connaissances	connaissance	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
-échoua	échouer	PROPN	O	O	O
+échoua	échouer	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 l'	le	DET	O	O	O
 heure	heure	NOUN	O	O	O
 n'	ne	ADV	O	O	O
@@ -423,15 +426,16 @@ passée	passer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
-obtint	obtint	NOUN	O	O	O
-de	de	ADP	O	O	O
-curieuses	curieux	NOUN	O	O	O
-géodes	géode	ADJ	O	O	O
+obtint	obtenir	VERB	O	O	O
+de	de	DET	O	O	O
+curieuses	curieux	ADJ	O	O	O
+géodes	géode	NOUN	O	O	O
 en	en	ADP	O	O	O
 forme	forme	NOUN	O	O	O
 d'	de	ADP	O	O	O
 estomac	estomac	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
@@ -457,7 +461,7 @@ autre	autre	ADJ	O	O	O
 côté	côté	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Quand	quand	SCONJ	O	O	O
 un	un	DET	O	O	O
 jardinier	jardinier	NOUN	O	O	O
@@ -475,22 +479,23 @@ le	le	DET	O	O	O
 droguiste	droguiste	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
+»	»	PUNCT	O	O	O
+
 Cette	ce	DET	O	O	O
 vérité	vérité	NOUN	O	O	O
 de	de	ADP	O	O	O
 fait	fait	NOUN	O	O	O
-l'	le	DET	O	O	O
+l'	le	PRON	O	O	O
 éclaira	éclairer	VERB	O	O	O
 sur	sur	ADP	O	O	O
 la	le	DET	O	O	O
-véritable	véritable	NOUN	O	O	O
+véritable	véritable	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 définitive	définitif	ADJ	O	O	O
 voie	voie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Pour	pour	ADP	O	O	O
 obtenir	obtenir	VERB	O	O	O
 la	le	DET	O	O	O
@@ -501,8 +506,8 @@ faut	falloir	VERB	O	O	O
 la	le	DET	O	O	O
 vie	vie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
 Le	le	DET	O	O	O
 laboratoire	laboratoire	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -514,7 +519,8 @@ laboratoire	laboratoire	NOUN	O	O	O
 de	de	ADP	O	O	O
 physiologie	physiologie	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
-de	de	ADP	O	O	O
+
+de	de	DET	O	O	O
 nombreuses	nombreux	ADJ	O	O	O
 expériences	expérience	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -534,7 +540,7 @@ simples	simple	ADJ	O	O	O
 greffages	greffage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
-satis	sati	ADJ	O	O	O
+satis	satis	VERB	O	O	O
 accomplissait	accomplir	VERB	O	O	O
 un	un	DET	O	O	O
 chien	chien	NOUN	O	O	O
@@ -552,11 +558,11 @@ d'	de	ADP	O	O	O
 honneur	honneur	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 ses	son	DET	O	O	O
-vastes	vaste	NOUN	O	O	O
+vastes	vaste	ADJ	O	O	O
 collections	collection	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Sûr	sûr	DET	O	O	O
+Sûr	sûr	VERB	O	O	O
 du	de	ADP	O	O	O
 succès	succès	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -579,13 +585,13 @@ où	où	PRON	O	O	O
 il	il	PRON	O	O	O
 aménagea	aménager	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-suivant	suivre	VERB	O	O	O
+suivant	suivant	ADP	O	O	O
 ses	son	DET	O	O	O
-plans	plan	PROPN	O	O	O
+plans	plan	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
-superbes	superbe	NOUN	O	O	O
-établissements	établissement	ADJ	O	O	O
+superbes	superbe	ADJ	O	O	O
+établissements	établissement	NOUN	O	O	O
 qu'	que	PRON	O	O	O
 il	il	PRON	O	O	O
 me	me	PRON	O	O	O
@@ -595,7 +601,7 @@ de	de	ADP	O	O	O
 visiter	visiter	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-Etant	eter	VERB	O	O	O
+Etant	etant	AUX	O	O	O
 l'	le	DET	O	O	O
 un	un	PRON	O	O	O
 des	de	ADP	O	O	O
@@ -621,6 +627,7 @@ lui	luire	PRON	O	O	O
 étaient	être	AUX	O	O	O
 nécessaires	nécessaire	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 quelques	quelque	DET	O	O	O
 pourboires	pourboire	NOUN	O	O	O
 distribués	distribuer	VERB	O	O	O
@@ -633,7 +640,7 @@ et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 préfectures	préfecture	NOUN	O	O	O
 lui	luire	PRON	O	O	O
-valurent	valoir	ADV	O	O	O
+valurent	valoir	VERB	O	O	O
 la	le	DET	O	O	O
 neutralité	neutralité	NOUN	O	O	O
 bienveillante	bienveillant	ADJ	O	O	O
@@ -655,9 +662,11 @@ la	le	DET	O	O	O
 période	période	NOUN	O	O	O
 théorique	théorique	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 elle	lui	PRON	O	O	O
 existe	exister	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 elle	lui	PRON	O	O	O
 est	être	AUX	O	O	O
 devenue	devenir	VERB	O	O	O
@@ -682,7 +691,7 @@ des	un	DET	O	O	O
 de	de	ADP	O	O	O
 jardiniers	jardinier	NOUN	O	O	O
 bien	bien	ADV	O	O	O
-dressés	dresser	VERB	O	O	O
+dressés	dresser	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 C'	ce	PRON	O	O	O
@@ -698,7 +707,7 @@ y	y	PRON	O	O	O
 constate	constater	VERB	O	O	O
 le	le	DET	O	O	O
 premier	premier	ADJ	O	O	O
-pas	pas	ADV	O	O	O
+pas	pas	NOUN	O	O	O
 fait	faire	VERB	O	O	O
 vers	vers	ADP	O	O	O
 le	le	DET	O	O	O
@@ -738,7 +747,7 @@ cause	cause	NOUN	O	O	O
 ou	ou	CCONJ	O	O	O
 pour	pour	ADP	O	O	O
 une	un	DET	O	O	O
-autre	autre	PRON	O	O	O
+autre	autre	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
@@ -779,17 +788,17 @@ ces	ce	DET	O	O	O
 manchots	manchot	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 culs	cul	NOUN	O	O	O
--	-	PUNCT	O	O	O
-de	de	PROPN	O	O	O
--	-	PUNCT	O	O	O
-jatte	jatte	PROPN	O	O	O
+-	-	NOUN	O	O	O
+de	de	PRON	O	O	O
+-	-	NOUN	O	O	O
+jatte	jatte	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 etc.	etc.	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 dont	dont	PRON	O	O	O
 les	le	DET	O	O	O
 membres	membre	NOUN	O	O	O
-absents	absent	NOUN	O	O	O
+absents	absent	ADJ	O	O	O
 repoussent	repousser	VERB	O	O	O
 avec	avec	ADP	O	O	O
 une	un	DET	O	O	O
@@ -798,8 +807,8 @@ parfaitement	parfaitement	ADV	O	O	O
 appréciable	appréciable	ADJ	O	O	O
 sous	sou	ADP	O	O	O
 un	un	DET	O	O	O
-fort	fort	ADV	O	O	O
-grossissement	grossissement	ADJ	O	O	O
+fort	fort	ADJ	O	O	O
+grossissement	grossissement	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Jusqu'	jusque	ADP	O	O	O
@@ -814,11 +823,12 @@ dans	dans	ADP	O	O	O
 cette	ce	DET	O	O	O
 serre	serre	NOUN	O	O	O
 d'	de	ADP	O	O	O
-étrangers	étranger	ADJ	O	O	O
+étrangers	étranger	NOUN	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
 établissement	établissement	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 le	le	DET	O	O	O
 docteur	docteur	NOUN	O	O	O
 opère	opérer	VERB	O	O	O
@@ -872,7 +882,7 @@ le	le	DET	O	O	O
 suivant	suivant	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Comme	comme	SCONJ	O	O	O
+Comme	comme	ADP	O	O	O
 les	le	DET	O	O	O
 animaux	animal	NOUN	O	O	O
 les	le	DET	O	O	O
@@ -887,11 +897,11 @@ par	par	ADP	O	O	O
 dédoublement	dédoublement	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 mode	mode	NOUN	O	O	O
-si	si	SCONJ	O	O	O
-pratique	pratique	NOUN	O	O	O
+si	si	ADV	O	O	O
+pratique	pratique	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 si	si	SCONJ	O	O	O
-moral	moral	NOUN	O	O	O
+moral	moral	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 supprimant	supprimer	VERB	O	O	O
 les	le	DET	O	O	O
@@ -900,8 +910,8 @@ du	de	ADP	O	O	O
 procédé	procédé	NOUN	O	O	O
 actuel	actuel	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-si	si	SCONJ	O	O	O
-disgracieux	disgracieu	NOUN	O	O	O
+si	si	ADV	O	O	O
+disgracieux	disgracieux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 reproduction	reproduction	NOUN	O	O	O
@@ -910,7 +920,7 @@ inconvénients	inconvénient	NOUN	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 fois	fois	NOUN	O	O	O
-moraux	morau	NOUN	O	O	O
+moraux	moral	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 physiques	physique	ADJ	O	O	O
 sur	sur	ADP	O	O	O
@@ -936,7 +946,7 @@ coupe	coupe	VERB	O	O	O
 le	le	DET	O	O	O
 sujet	sujet	NOUN	O	O	O
 en	en	ADP	O	O	O
-deux	deux	NUM	O	O	O
+deux	deux	PRON	O	O	O
 et	et	CCONJ	O	O	O
 l'	le	PRON	O	O	O
 on	on	PRON	O	O	O
@@ -949,7 +959,7 @@ section	section	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 une	un	DET	O	O	O
 cuve	cuve	NOUN	O	O	O
-pleine	pleine	NOUN	O	O	O
+pleine	plein	ADJ	O	O	O
 du	de	ADP	O	O	O
 milieu	milieu	NOUN	O	O	O
 nutritif	nutritif	ADJ	O	O	O
@@ -973,6 +983,7 @@ la	le	DET	O	O	O
 partie	partie	NOUN	O	O	O
 symétrique	symétrique	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 on	on	PRON	O	O	O
 a	avoir	VERB	O	O	O
 deux	deux	NUM	O	O	O
@@ -995,7 +1006,7 @@ convaincre	convaincre	VERB	O	O	O
 par	par	ADP	O	O	O
 des	un	DET	O	O	O
 photographies	photographie	NOUN	O	O	O
-faites	fait	ADJ	O	O	O
+faites	faire	VERB	O	O	O
 antérieurement	antérieurement	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1011,7 +1022,7 @@ corps	corps	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 quelque	quelque	ADV	O	O	O
 petite	petit	ADJ	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 elle	lui	PRON	O	O	O
 soit	être	AUX	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1037,6 +1048,7 @@ depuis	depuis	ADP	O	O	O
 trois	trois	NUM	O	O	O
 jours	jour	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 le	le	DET	O	O	O
 mollet	mollet	NOUN	O	O	O
 est	être	AUX	O	O	O
@@ -1047,7 +1059,7 @@ l'	le	DET	O	O	O
 articulation	articulation	NOUN	O	O	O
 du	de	ADP	O	O	O
 genou	genou	NOUN	O	O	O
-commence	commenc	ADJ	O	O	O
+commence	commencer	VERB	O	O	O
 à	à	ADP	O	O	O
 se	se	PRON	O	O	O
 dessiner	dessiner	VERB	O	O	O
@@ -1063,13 +1075,13 @@ coupé	couper	VERB	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 veille	veille	NOUN	O	O	O
-a	avoir	AUX	O	O	O
+a	avoir	VERB	O	O	O
 déjà	déjà	ADV	O	O	O
 son	son	DET	O	O	O
 index	index	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 D'	de	ADP	O	O	O
 un	un	DET	O	O	O
 être	être	NOUN	O	O	O
@@ -1081,15 +1093,15 @@ mois	mois	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 j'	je	PRON	O	O	O
 en	en	PRON	O	O	O
-fais	fai	NOUN	O	O	O
-cent	cent	NUM	O	O	O
+fais	faire	VERB	O	O	O
+cent	cent	PRON	O	O	O
 et	et	CCONJ	O	O	O
 plus	plus	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-»	»	PROPN	O	O	O
+»	»	PUNCT	O	O	O
 déclare	déclarer	VERB	O	O	O
 mon	mon	DET	O	O	O
-docte	docte	NOUN	O	O	O
+docte	docte	ADJ	O	O	O
 ami	ami	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1147,13 +1159,14 @@ seul	seul	ADJ	O	O	O
 ne	ne	ADV	O	O	O
 peut	pouvoir	VERB	O	O	O
 fournir	fournir	VERB	O	O	O
-d'	de	DET	O	O	O
+d'	de	ADP	O	O	O
 êtres	être	NOUN	O	O	O
-humains	humain	ADV	O	O	O
+humains	humain	ADJ	O	O	O
 l'	le	DET	O	O	O
 univers	univers	NOUN	O	O	O
 entier	entier	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 plus	plus	ADV	O	O	O
 tard	tard	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1229,7 +1242,7 @@ amélioration	amélioration	NOUN	O	O	O
 Il	il	PRON	O	O	O
 lui	luire	PRON	O	O	O
 a	avoir	AUX	O	O	O
-suffi	suffire	ADV	O	O	O
+suffi	suffire	VERB	O	O	O
 d'	de	ADP	O	O	O
 appliquer	appliquer	VERB	O	O	O
 avec	avec	ADP	O	O	O
@@ -1239,7 +1252,7 @@ bouture	bouture	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
 écusson	écusson	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 nage	nage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 lui	luire	PRON	O	O	O
@@ -1255,8 +1268,8 @@ semis	semis	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
-les	le	DET	O	O	O
-fixer	fixer	NOUN	O	O	O
+les	le	PRON	O	O	O
+fixer	fixer	VERB	O	O	O
 de	de	ADP	O	O	O
 façon	façon	NOUN	O	O	O
 définitive	définitif	ADJ	O	O	O
@@ -1274,16 +1287,16 @@ savant	savant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 Isatis	isatis	PROPN	O	O	O
 rend	rendre	VERB	O	O	O
-pleine	pleine	NOUN	O	O	O
+pleine	plein	ADJ	O	O	O
 justice	justice	NOUN	O	O	O
 à	à	ADP	O	O	O
 ses	son	DET	O	O	O
 prédécesseurs	prédécesseur	NOUN	O	O	O
-Isidore	isidore	NOUN	O	O	O
+Isidore	isidore	PROPN	O	O	O
 Geoffroy	geoffroy	PROPN	O	O	O
 Saint	saint	PROPN	O	O	O
--	-	PUNCT	O	O	O
-Hilaire	hilaire	NOUN	O	O	O
+-	-	PROPN	O	O	O
+Hilaire	hilaire	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 aux	à	ADP	O	O	O
 zéphyrs	zéphyr	NOUN	O	O	O
@@ -1296,10 +1309,11 @@ Bert	bert	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 Brown	brown	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Séquard	séquard	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-etc.	etc.	ADV	O	O	O
+etc.	etc.	NUM	O	O	O
+
 Il	il	PRON	O	O	O
 se	se	PRON	O	O	O
 reconnaît	reconnaître	VERB	O	O	O
@@ -1323,12 +1337,12 @@ greffage	greffage	NOUN	O	O	O
 a	avoir	AUX	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
-prime	prime	NOUN	O	O	O
-abord	abord	ADV	O	O	O
+prime	prime	DET	O	O	O
+abord	abord	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 donné	donner	VERB	O	O	O
 les	le	DET	O	O	O
-meilleurs	meilleur	NOUN	O	O	O
+meilleurs	meilleur	ADJ	O	O	O
 résultats	résultat	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
@@ -1348,6 +1362,7 @@ de	de	ADP	O	O	O
 quelques	quelque	DET	O	O	O
 monstres	monstre	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 possède	posséder	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1369,8 +1384,8 @@ alcool	alcool	NOUN	O	O	O
 une	un	DET	O	O	O
 femme	femme	NOUN	O	O	O
 à	à	ADP	O	O	O
-douze	douze	NOUN	O	O	O
-mamelles	mamelle	ADJ	O	O	O
+douze	douze	NUM	O	O	O
+mamelles	mamelle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
 enfant	enfant	NOUN	O	O	O
@@ -1396,7 +1411,7 @@ nuances	nuance	NOUN	O	O	O
 Le	le	DET	O	O	O
 docteur	docteur	NOUN	O	O	O
 a	avoir	AUX	O	O	O
-fait	faire	VERB	O	O	O
+fait	faire	AUX	O	O	O
 succéder	succéder	VERB	O	O	O
 des	un	DET	O	O	O
 essais	essai	NOUN	O	O	O
@@ -1418,7 +1433,7 @@ de	de	ADP	O	O	O
 substance	substance	NOUN	O	O	O
 cérébrale	cérébral	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-jointe	joindre	ADJ	O	O	O
+jointe	joindre	VERB	O	O	O
 à	à	ADP	O	O	O
 une	un	DET	O	O	O
 culture	culture	NOUN	O	O	O
@@ -1433,23 +1448,24 @@ engrais	engrais	NOUN	O	O	O
 plus	plus	ADV	O	O	O
 ou	ou	CCONJ	O	O	O
 moins	moins	ADV	O	O	O
-actifs	actif	NOUN	O	O	O
+actifs	actif	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 double	double	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-triple	triple	DET	O	O	O
+triple	triple	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-décuple	décuple	NOUN	O	O	O
+décuple	décuple	VERB	O	O	O
 l'	le	DET	O	O	O
 intelligence	intelligence	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-la	le	DET	O	O	O
-diminue	diminue	NOUN	O	O	O
+la	le	PRON	O	O	O
+diminue	diminuer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-la	le	DET	O	O	O
-déforme	déforme	NOUN	O	O	O
+la	le	PRON	O	O	O
+déforme	déformer	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 joue	joue	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -1469,7 +1485,7 @@ actif	actif	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
 mystique	mystique	NOUN	O	O	O
-passif	passif	NOUN	O	O	O
+passif	passif	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 mage	mage	NOUN	O	O	O
@@ -1478,7 +1494,7 @@ l'	le	DET	O	O	O
 explorateur	explorateur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-écrivain	écrivain	PROPN	O	O	O
+écrivain	écrivain	NOUN	O	O	O
 de	de	ADP	O	O	O
 génie	génie	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1501,12 +1517,12 @@ dépenses	dépense	NOUN	O	O	O
 il	il	PRON	O	O	O
 s'	se	PRON	O	O	O
 est	être	AUX	O	O	O
-ouvert	ouvert	ADJ	O	O	O
+ouvert	ouvrir	VERB	O	O	O
 quelques	quelque	DET	O	O	O
 débouchés	débouché	NOUN	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
-étranger	étranger	VERB	O	O	O
+étranger	étranger	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1523,13 +1539,14 @@ nombre	nombre	NOUN	O	O	O
 de	de	ADP	O	O	O
 commandes	commande	NOUN	O	O	O
 soigneusement	soigneusement	ADV	O	O	O
-étiquetées	étiqueté	ADJ	O	O	O
+étiquetées	étiqueter	VERB	O	O	O
 et	et	CCONJ	O	O	O
-prêtes	prête	NOUN	O	O	O
+prêtes	prêt	ADJ	O	O	O
 à	à	ADP	O	O	O
 être	être	AUX	O	O	O
 expédiées	expédier	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 y	y	PRON	O	O	O
 a	avoir	VERB	O	O	O
@@ -1545,17 +1562,17 @@ Russie	russie	PROPN	O	O	O
 un	un	DET	O	O	O
 président	président	NOUN	O	O	O
 de	de	ADP	O	O	O
-République	république	PROPN	O	O	O
+République	république	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 l'	le	DET	O	O	O
-Amérique	amérique	NOUN	O	O	O
+Amérique	amérique	PROPN	O	O	O
 du	de	ADP	O	O	O
 Sud	sud	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 un	un	DET	O	O	O
 grand	grand	ADJ	O	O	O
-poète	poète	ADJ	O	O	O
+poète	poète	NOUN	O	O	O
 national	national	ADJ	O	O	O
 pour	pour	ADP	O	O	O
 la	le	DET	O	O	O
@@ -1577,14 +1594,14 @@ gavage	gavage	NOUN	O	O	O
 des	de	ADP	O	O	O
 poulets	poulet	NOUN	O	O	O
 du	de	ADP	O	O	O
-jardin	jardin	PROPN	O	O	O
+jardin	jardin	NOUN	O	O	O
 d'	de	ADP	O	O	O
 Acclimatation	acclimatation	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Chaque	chaque	DET	O	O	O
 sujet	sujet	NOUN	O	O	O
-avale	aval	ADJ	O	O	O
+avale	avaler	VERB	O	O	O
 l'	le	DET	O	O	O
 extrémité	extrémité	NOUN	O	O	O
 d'	de	ADP	O	O	O
@@ -1596,11 +1613,11 @@ dont	dont	PRON	O	O	O
 l'	le	DET	O	O	O
 autre	autre	ADJ	O	O	O
 bout	bout	NOUN	O	O	O
-plonge	plonge	NOUN	O	O	O
+plonge	plonger	VERB	O	O	O
 dans	dans	ADP	O	O	O
 une	un	DET	O	O	O
-immense	immense	NOUN	O	O	O
-marmite	marmit	ADJ	O	O	O
+immense	immense	ADJ	O	O	O
+marmite	marmite	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
@@ -1645,7 +1662,7 @@ est	être	AUX	O	O	O
 uniforme	uniforme	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Un	un	DET	O	O	O
 homme	homme	NOUN	O	O	O
 d'	de	ADP	O	O	O
@@ -1670,10 +1687,10 @@ imbécile	imbécile	NOUN	O	O	O
 
 Il	il	PRON	O	O	O
 serait	être	AUX	O	O	O
-malhonnête	malhonnête	VERB	O	O	O
+malhonnête	malhonnête	ADJ	O	O	O
 de	de	ADP	O	O	O
 le	le	PRON	O	O	O
-faire	faire	VERB	O	O	O
+faire	faire	AUX	O	O	O
 payer	payer	VERB	O	O	O
 davantage	davantage	ADV	O	O	O
 à	à	ADP	O	O	O
@@ -1682,4 +1699,5 @@ clients	client	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 »	»	PUNCT	O	O	O
+
 

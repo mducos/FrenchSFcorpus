@@ -7,6 +7,7 @@ longtemps	longtemps	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 1	1	NUM	O	O	O
+
 Un	un	DET	O	O	O
 matin	matin	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -17,12 +18,11 @@ au	au	ADP	O	O	O
 monde	monde	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 Comment	comment	ADV	O	O	O
 l'	le	PRON	O	O	O
 appeler	appeler	VERB	O	O	O
 ?	?	PUNCT	O	O	O
-
 fit	faire	VERB	O	O	O
 le	le	DET	O	O	O
 père	père	NOUN	O	O	O
@@ -31,29 +31,28 @@ père	père	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 To	to	PROPN	O	O	O
 !	!	PUNCT	O	O	O
-
 répondit	répondre	VERB	O	O	O
 la	le	DET	O	O	O
 mère	mère	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	PRON	O	O	O
+—	—	PUNCT	O	O	O
 Ça	cela	PRON	O	O	O
 va	aller	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-To	to	PRON	O	O	O
+To	to	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
 un	un	DET	O	O	O
 nom	nom	NOUN	O	O	O
 court	court	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Perdrons	perdron	NOUN	O	O	O
+Perdrons	perdre	VERB	O	O	O
 pas	pas	ADV	O	O	O
-temps	temps	ADV	O	O	O
+temps	temps	NOUN	O	O	O
 à	à	ADP	O	O	O
-le	le	DET	O	O	O
+le	le	PRON	O	O	O
 prononcer	prononcer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -61,18 +60,19 @@ Et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
 enfant	enfant	NOUN	O	O	O
 s'	se	PRON	O	O	O
-appela	appeler	PRON	O	O	O
+appela	appeler	VERB	O	O	O
 To	to	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 2	2	NUM	O	O	O
+
 Le	le	DET	O	O	O
 lendemain	lendemain	NOUN	O	O	O
 de	de	ADP	O	O	O
 sa	son	DET	O	O	O
 naissance	naissance	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-To	to	PRON	O	O	O
+To	to	PROPN	O	O	O
 fut	être	AUX	O	O	O
 mis	mettre	VERB	O	O	O
 par	par	ADP	O	O	O
@@ -126,6 +126,7 @@ années	année	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 3	3	NUM	O	O	O
+
 —	—	PUNCT	O	O	O
 Mon	mon	DET	O	O	O
 fils	fils	NOUN	O	O	O
@@ -141,12 +142,12 @@ du	de	ADP	O	O	O
 septième	septième	ADJ	O	O	O
 mois	mois	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-te	te	VERB	O	O	O
+te	te	PRON	O	O	O
 voilà	voilà	VERB	O	O	O
 à	à	ADP	O	O	O
 même	même	ADV	O	O	O
 d'	de	ADP	O	O	O
-étudier	étudier	NOUN	O	O	O
+étudier	étudier	VERB	O	O	O
 et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
 faire	faire	VERB	O	O	O
@@ -159,12 +160,12 @@ vie	vie	NOUN	O	O	O
 
 Étudie	étudie	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-apprends	apprend	ADJ	O	O	O
+apprends	apprendre	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-Souviens	souvien	NOUN	O	O	O
--	-	PUNCT	O	O	O
-toi	toi	NOUN	O	O	O
+Souviens	souvenir	VERB	O	O	O
+-	-	PRON	O	O	O
+toi	toi	PRON	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
 temps	temps	NOUN	O	O	O
@@ -177,7 +178,7 @@ et	et	CCONJ	O	O	O
 que	que	SCONJ	O	O	O
 l'	le	DET	O	O	O
 avenir	avenir	NOUN	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
 homme	homme	NOUN	O	O	O
@@ -198,10 +199,10 @@ mon	mon	DET	O	O	O
 fils	fils	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
-te	te	VERB	O	O	O
+te	te	PRON	O	O	O
 dorlo	dorlo	VERB	O	O	O
--	-	PUNCT	O	O	O
-terai	terai	NOUN	O	O	O
+-	-	ADV	O	O	O
+terai	terer	VERB	O	O	O
 demain	demain	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 si	si	SCONJ	O	O	O
@@ -217,9 +218,10 @@ Bourse	bourse	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 4	4	NUM	O	O	O
+
 Et	et	CCONJ	O	O	O
-To	to	ADP	O	O	O
-étudia	étudier	PROPN	O	O	O
+To	to	PROPN	O	O	O
+étudia	étudier	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 apprit	apprendre	VERB	O	O	O
 frénétiquement	frénétiquement	ADV	O	O	O
@@ -233,10 +235,10 @@ jour	jour	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ne	ne	ADV	O	O	O
 mangeant	manger	VERB	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 des	un	DET	O	O	O
-aliments	aliment	NOUN	O	O	O
-condensés	condenser	VERB	O	O	O
+aliments	aliment	NOUN	B-NOV	O	O
+condensés	condenser	VERB	I-NOV	O	O
 ,	,	PUNCT	O	O	O
 pour	pour	ADP	O	O	O
 perdre	perdre	VERB	O	O	O
@@ -272,13 +274,13 @@ la	le	DET	O	O	O
 fois	fois	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-A	a	NOUN	O	O	O
+A	à	ADP	O	O	O
 vingt	vingt	NUM	O	O	O
--	-	PUNCT	O	O	O
+-	-	NUM	O	O	O
 cinq	cinq	NUM	O	O	O
 ans	an	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-To	to	PRON	O	O	O
+To	to	PROPN	O	O	O
 fut	être	AUX	O	O	O
 déjà	déjà	ADV	O	O	O
 l'	le	DET	O	O	O
@@ -292,6 +294,7 @@ siècle	siècle	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 5	5	NUM	O	O	O
+
 Un	un	DET	O	O	O
 jour	jour	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -304,7 +307,7 @@ dépèches	dépèche	NOUN	O	O	O
 simultanément	simultanément	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
-pardon	pardon	PROPN	O	O	O
+pardon	pardon	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ombre	ombre	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -325,10 +328,11 @@ annuaire	annuaire	NOUN	O	O	O
 de	de	ADP	O	O	O
 sa	son	DET	O	O	O
 main	main	NOUN	O	O	O
-droite	droite	NOUN	O	O	O
+droite	droit	ADJ	O	O	O
 un	un	DET	O	O	O
 atlas	atlas	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 que	que	SCONJ	O	O	O
 l'	le	DET	O	O	O
 une	un	PRON	O	O	O
@@ -344,10 +348,12 @@ prononcé	prononcer	VERB	O	O	O
 au	au	ADP	O	O	O
 Sénat	sénat	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
 autre	autre	PRON	O	O	O
 ;	;	PUNCT	O	O	O
+
 le	le	DET	O	O	O
 chant	chant	NOUN	O	O	O
 d'	de	ADP	O	O	O
@@ -355,7 +361,7 @@ un	un	DET	O	O	O
 rossignol	rossignol	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-To	to	ADV	O	O	O
+To	to	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 son	son	DET	O	O	O
@@ -367,7 +373,7 @@ dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 rue	rue	NOUN	O	O	O
 une	un	DET	O	O	O
-adorable	adorable	NOUN	O	O	O
+adorable	adorable	ADJ	O	O	O
 jeune	jeune	ADJ	O	O	O
 fille	fille	NOUN	O	O	O
 qui	qui	PRON	O	O	O
@@ -376,8 +382,9 @@ passait	passer	VERB	O	O	O
 
 Coup	coup	NOUN	O	O	O
 de	de	ADP	O	O	O
-foudre	foudre	VERB	O	O	O
+foudre	foudre	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 Elle	lui	PRON	O	O	O
 était	être	AUX	O	O	O
 belle	bel	ADJ	O	O	O
@@ -387,6 +394,7 @@ belle	bel	ADJ	O	O	O
 etc.	etc.	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 etc.	etc.	ADV	O	O	O
+
 Bref	bref	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
@@ -409,23 +417,23 @@ cour	cour	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 6	6	NUM	O	O	O
-Oh	oh	NOUN	O	O	O
-!	!	PUNCT	O	O	O
 
+Oh	oh	INTJ	O	O	O
+!	!	PUNCT	O	O	O
 le	le	DET	O	O	O
 coeur	coeur	NOUN	O	O	O
 leur	son	PRON	O	O	O
-battait	battait	NOUN	O	O	O
+battait	battre	VERB	O	O	O
 à	à	ADP	O	O	O
 tous	tout	ADJ	O	O	O
 deux	deux	PRON	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Moi	moi	PROPN	O	O	O
+Moi	moi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 dit	dire	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
@@ -437,17 +445,16 @@ To	to	PROPN	O	O	O
 Et	et	CCONJ	O	O	O
 vous	vous	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-Mademoiselle	mademoiselle	PROPN	O	O	O
+Mademoiselle	mademoiselle	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
-
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Zi	zi	NOUN	O	O	O
+Zi	zi	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Moi	moi	PROPN	O	O	O
+Moi	moi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 j'	je	PRON	O	O	O
 ai	avoir	VERB	O	O	O
@@ -460,7 +467,7 @@ fortune	fortune	NOUN	O	O	O
 Et	et	CCONJ	O	O	O
 vous	vous	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-Mademoiselle	mademoiselle	PROPN	O	O	O
+Mademoiselle	mademoiselle	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -482,7 +489,7 @@ aime	aimer	VERB	O	O	O
 Et	et	CCONJ	O	O	O
 vous	vous	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-Mademoiselle	mademoiselle	PROPN	O	O	O
+Mademoiselle	mademoiselle	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -500,11 +507,12 @@ aussitôt	aussitôt	ADV	O	O	O
 mariés	marier	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Hop	hop	PROPN	O	O	O
+Hop	hop	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 7	7	NUM	O	O	O
-Furent	furent	PROPN	O	O	O
+
+Furent	être	VERB	O	O	O
 heureux	heureux	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -519,27 +527,27 @@ le	le	DET	O	O	O
 temps	temps	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-A	avoir	AUX	O	O	O
-peine	peine	NOUN	O	O	O
+A	à	ADP	O	O	O
+peine	peiner	ADV	O	O	O
 deux	deux	NUM	O	O	O
 jumeaux	jumeau	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
-To	to	PRON	O	O	O
+To	to	PROPN	O	O	O
 arriva	arriver	VERB	O	O	O
 à	à	ADP	O	O	O
 gagner	gagner	VERB	O	O	O
 des	un	DET	O	O	O
 sommes	somme	NOUN	O	O	O
-fabuleuses	fabuleuser	VERB	O	O	O
+fabuleuses	fabuleux	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Zi	zi	ADP	O	O	O
+Zi	zi	PROPN	O	O	O
 aussi	aussi	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
-To	to	PRON	O	O	O
+To	to	PROPN	O	O	O
 fondait	fondre	VERB	O	O	O
 en	en	ADP	O	O	O
 moyenne	moyenne	NOUN	O	O	O
@@ -555,11 +563,11 @@ Berlin	berlin	PROPN	O	O	O
 Constantinople	constantinople	PROPN	O	O	O
 ou	ou	CCONJ	O	O	O
 Santa	santa	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Fé	fé	PROPN	O	O	O
--	-	PUNCT	O	O	O
-de	de	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
+de	de	PROPN	O	O	O
+-	-	PROPN	O	O	O
 Bogota	bogota	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -575,33 +583,34 @@ une	un	DET	O	O	O
 faillite	faillite	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Colossalement	colossalement	NOUN	O	O	O
-riche	riche	PROPN	O	O	O
+Colossalement	colossalement	ADV	O	O	O
+riche	riche	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 8	8	NUM	O	O	O
+
 Il	il	PRON	O	O	O
 creusa	creuser	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 canaux	canal	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-découvrit	découvrit	ADJ	O	O	O
-des	de	ADP	O	O	O
+découvrit	découvrir	VERB	O	O	O
+des	un	DET	O	O	O
 mines	mine	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-dessécha	dessécha	ADJ	O	O	O
-des	de	ADP	O	O	O
+dessécha	dessécher	VERB	O	O	O
+des	un	DET	O	O	O
 mers	mer	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 reprisa	repriser	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 isthmes	isthme	NOUN	O	O	O
 percés	percer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 ralluma	rallumer	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 volcans	volcan	NOUN	O	O	O
-éteints	éteint	NOUN	O	O	O
+éteints	éteindre	VERB	O	O	O
 et	et	CCONJ	O	O	O
 ahurit	ahurir	VERB	O	O	O
 ses	son	DET	O	O	O
@@ -628,7 +637,7 @@ devait	devoir	VERB	O	O	O
 chauffer	chauffer	VERB	O	O	O
 toute	tout	ADJ	O	O	O
 la	le	DET	O	O	O
-Sicile	sicile	NOUN	O	O	O
+Sicile	sicile	PROPN	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
 aide	aide	NOUN	O	O	O
@@ -650,20 +659,20 @@ son	son	DET	O	O	O
 père	père	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-To	to	PRON	O	O	O
+To	to	PROPN	O	O	O
 fut	être	AUX	O	O	O
 digne	digne	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Te	te	NOUN	O	O	O
-pleurerai	pleurerai	ADJ	O	O	O
+Te	te	PRON	O	O	O
+pleurerai	pleurer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 va	aller	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 dit	dire	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
@@ -693,18 +702,19 @@ livres	livre	NOUN	O	O	O
 de	de	ADP	O	O	O
 comptabilité	comptabilité	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-DoIT	devoir	VERB	O	O	O
-To	to	PRON	O	O	O
-A	avoir	AUX	O	O	O
-PAPA	papa	NOUN	O	O	O
+DoIT	doit	X	O	O	O
+To	to	X	O	O	O
+A	avoir	DET	O	O	O
+PAPA	papa	PROPN	O	O	O
 :	:	PUNCT	O	O	O
-Larmes	larmes	PROPN	O	O	O
+Larmes	larme	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 regrets	regret	NOUN	O	O	O
 éternels	éternel	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 9	9	NUM	O	O	O
+
 Rentrant	rentrer	VERB	O	O	O
 chez	chez	ADP	O	O	O
 lui	luire	PRON	O	O	O
@@ -728,27 +738,27 @@ femme	femme	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Heu	heu	NOUN	O	O	O
+Heu	heu	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
 ...	...	PUNCT	O	O	O
-Devriez	devriez	PROPN	O	O	O
+Devriez	devoir	VERB	O	O	O
 savoir	savoir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 Monsieur	monsieur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-grogna	grogna	ADJ	O	O	O
+grogna	grogner	VERB	O	O	O
 To	to	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 que	que	SCONJ	O	O	O
 n'	ne	ADV	O	O	O
-ai	avoir	AUX	O	O	O
+ai	avoir	VERB	O	O	O
 trop	trop	ADV	O	O	O
 loisir	loisir	NOUN	O	O	O
 en	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 moment	moment	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Il	il	PRON	O	O	O
 s'	se	PRON	O	O	O
 interrompit	interrompre	VERB	O	O	O
@@ -765,14 +775,13 @@ table	table	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Ah	ah	PROPN	O	O	O
+Ah	ah	INTJ	O	O	O
 !	!	PUNCT	O	O	O
 
 mais	mais	CCONJ	O	O	O
 !	!	PUNCT	O	O	O
-
-Est	est	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Est	être	AUX	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
 que	que	SCONJ	O	O	O
 ...	...	PUNCT	O	O	O
@@ -780,7 +789,7 @@ que	que	SCONJ	O	O	O
 
 Un	un	DET	O	O	O
 troisième	troisième	ADJ	O	O	O
-apparut	apparut	NOUN	O	O	O
+apparut	apparaître	VERB	O	O	O
 derrière	derrière	ADP	O	O	O
 un	un	DET	O	O	O
 paravent	paravent	NOUN	O	O	O
@@ -789,10 +798,9 @@ paravent	paravent	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 Mais	mais	CCONJ	O	O	O
 !	!	PUNCT	O	O	O
-
 ...	...	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
-Pardon	pardon	PROPN	O	O	O
+Pardon	pardon	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 mon	mon	DET	O	O	O
 ami	ami	NOUN	O	O	O
@@ -803,8 +811,8 @@ bien	bien	ADV	O	O	O
 coupable	coupable	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
-sanglota	sanglota	NOUN	O	O	O
-Zi	zi	VERB	O	O	O
+sanglota	sangloter	VERB	O	O	O
+Zi	zi	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 se	se	PRON	O	O	O
@@ -825,17 +833,19 @@ plus	plus	ADV	O	O	O
 vite	vite	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 j'	je	PRON	O	O	O
-avais	avoir	VERB	O	O	O
+avais	avoir	AUX	O	O	O
 pensé	penser	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 C'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 bien	bien	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
-cria	cria	NOUN	O	O	O
-To	to	ADJ	O	O	O
+cria	crier	VERB	O	O	O
+To	to	PROPN	O	O	O
+
 .	.	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
@@ -855,6 +865,7 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 pièce	pièce	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Pas	pas	ADV	O	O	O
 le	le	DET	O	O	O
@@ -869,14 +880,14 @@ l'	le	DET	O	O	O
 autre	autre	PRON	O	O	O
 !	!	PUNCT	O	O	O
 
-annonça	annonça	NOUN	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+annonça	annoncer	VERB	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
-Vais	vais	PROPN	O	O	O
+Vais	aller	VERB	O	O	O
 venger	venger	VERB	O	O	O
 mon	mon	DET	O	O	O
 honneur	honneur	NOUN	O	O	O
@@ -884,7 +895,7 @@ en	en	ADP	O	O	O
 bloc	bloc	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Bougeons	bougeon	NOUN	O	O	O
+Bougeons	bouger	VERB	O	O	O
 plus	plus	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -906,6 +917,7 @@ ménages	ménage	NOUN	I-NOV	O	O
 .	.	PUNCT	O	O	O
 
 10	10	NUM	O	O	O
+
 Les	le	DET	O	O	O
 amants	amant	NOUN	O	O	O
 essayèrent	essayer	VERB	O	O	O
@@ -919,12 +931,12 @@ son	son	DET	O	O	O
 côté	côté	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 Monstres	monstre	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-rugit	rugit	NOUN	O	O	O
-To	to	PROPN	O	O	O
+rugit	rugir	VERB	O	O	O
+To	to	X	O	O	O
 ,	,	PUNCT	O	O	O
 allez	aller	VERB	O	O	O
 me	me	PRON	O	O	O
@@ -955,12 +967,12 @@ forcené	forcener	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 terrible	terrible	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-désespéré	désespérer	VERB	O	O	O
+désespéré	désespéré	ADJ	O	O	O
 en	en	ADP	O	O	O
 pensant	penser	VERB	O	O	O
 au	au	ADP	O	O	O
 temps	temps	NOUN	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 il	il	PRON	O	O	O
 allait	aller	VERB	O	O	O
 perdre	perdre	VERB	O	O	O
@@ -982,19 +994,20 @@ peloton	peloton	NOUN	O	O	O
 Cris	cris	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
-Sangs	sangs	PROPN	O	O	O
+Sangs	sang	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Râles	râle	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 11	11	NUM	O	O	O
+
 Il	il	PRON	O	O	O
 joua	jouer	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 pieds	pied	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 poings	poing	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1007,7 +1020,7 @@ Il	il	PRON	O	O	O
 mit	mettre	VERB	O	O	O
 une	un	DET	O	O	O
 demi	demi	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 heure	heure	NOUN	O	O	O
 à	à	ADP	O	O	O
 tuer	tuer	VERB	O	O	O
@@ -1029,7 +1042,7 @@ sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 tapis	tapis	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-To	to	PRON	O	O	O
+To	to	PROPN	O	O	O
 se	se	PRON	O	O	O
 mit	mettre	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -1064,17 +1077,18 @@ corps	corps	NOUN	O	O	O
 
 Il	il	PRON	O	O	O
 se	se	PRON	O	O	O
-fit	faire	VERB	O	O	O
+fit	faire	AUX	O	O	O
 attacher	attacher	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 garrotter	garrotter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-lier	lier	NOUN	O	O	O
+lier	lier	VERB	O	O	O
 sur	sur	ADP	O	O	O
 une	un	DET	O	O	O
 planche	planche	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
-Vainement	vainement	ADV	O	O	O
+
+Vainement	vainement	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
@@ -1090,13 +1104,14 @@ s'	se	PRON	O	O	O
 était	être	AUX	O	O	O
 détraqué	détraquer	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 avait	avoir	VERB	O	O	O
 la	le	DET	O	O	O
 danse	danse	NOUN	O	O	O
 de	de	ADP	O	O	O
 Saint	saint	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Guy	guy	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1106,7 +1121,7 @@ est	être	AUX	O	O	O
 bien	bien	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 dit	dire	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 vais	aller	VERB	O	O	O
@@ -1122,10 +1137,10 @@ maintenant	maintenant	ADV	O	O	O
 
 Et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
-voyant	voyant	ADV	O	O	O
+voyant	voir	VERB	O	O	O
 les	le	DET	O	O	O
 bonds	bond	NOUN	O	O	O
-désordonnés	désordonner	VERB	O	O	O
+désordonnés	désordonné	ADJ	O	O	O
 que	que	PRON	O	O	O
 faisaient	faire	VERB	O	O	O
 ses	son	DET	O	O	O
@@ -1139,11 +1154,12 @@ piano	piano	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 12	12	NUM	O	O	O
+
 Il	il	PRON	O	O	O
 tomba	tomber	VERB	O	O	O
 quelques	quelque	DET	O	O	O
 instants	instant	NOUN	O	O	O
-après	après	ADP	O	O	O
+après	après	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 paralysé	paralyser	VERB	O	O	O
 du	de	ADP	O	O	O
@@ -1152,7 +1168,7 @@ droit	droit	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Papa	papa	PROPN	O	O	O
+Papa	papa	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 lui	luire	PRON	O	O	O
 dit	dire	VERB	O	O	O
@@ -1164,7 +1180,7 @@ fils	fils	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ai	avoir	AUX	O	O	O
 consulté	consulter	VERB	O	O	O
-médec	médec	ADJ	O	O	O
+médec	médec	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 sur	sur	ADP	O	O	O
@@ -1173,31 +1189,32 @@ cas	cas	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Eh	eh	NOUN	O	O	O
+Eh	eh	INTJ	O	O	O
 bien	bien	ADV	O	O	O
 ?	?	PUNCT	O	O	O
 
-demanda	demander	ADV	O	O	O
-To	to	ADP	O	O	O
-anxieux	anxieux	ADJ	O	O	O
+demanda	demander	VERB	O	O	O
+To	to	PROPN	O	O	O
+anxieux	anxieux	ADV	O	O	O
+
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Comme	comme	SCONJ	O	O	O
-vais	vai	NOUN	O	O	O
+vais	aller	VERB	O	O	O
 côté	côté	NOUN	O	O	O
-Père	pèr	ADJ	O	O	O
--	-	PUNCT	O	O	O
+Père	père	PROPN	O	O	O
+-	-	PROPN	O	O	O
 Lach	lach	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 ,	,	PUNCT	O	O	O
-veux	veux	ADJ	O	O	O
--	-	PUNCT	O	O	O
-tu	taire	ADJ	O	O	O
-j.	j.	PROPN	O	O	O
-fasse	faire	AUX	O	O	O
-allum	allum	VERB	O	O	O
+veux	vouloir	VERB	O	O	O
+-	-	PRON	O	O	O
+tu	tu	PRON	O	O	O
+j.	j.	PRON	O	O	O
+fasse	faire	VERB	O	O	O
+allum	allum	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 un	un	DET	O	O	O
@@ -1206,36 +1223,33 @@ pour	pour	ADP	O	O	O
 ta	ton	DET	O	O	O
 crémat	crémat	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Fais	fais	PROPN	O	O	O
-allum	allum	VERB	O	O	O
+Fais	faire	VERB	O	O	O
+allum	allum	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 !	!	PUNCT	O	O	O
-
 mon	mon	DET	O	O	O
 enf	enf	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 !	!	PUNCT	O	O	O
-
 s'	se	PRON	O	O	O
 écria	écrier	VERB	O	O	O
-To	to	PRON	O	O	O
+To	to	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 flatté	flatter	VERB	O	O	O
 d'	de	ADP	O	O	O
 avoir	avoir	VERB	O	O	O
 un	un	DET	O	O	O
 fils	fils	NOUN	O	O	O
-si	si	SCONJ	O	O	O
+si	si	ADV	O	O	O
 actif	actif	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-si	si	SCONJ	O	O	O
-pressé	presser	VERB	O	O	O
+si	si	ADV	O	O	O
+pressé	pressé	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
@@ -1244,8 +1258,9 @@ expira	expirer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 13	13	NUM	O	O	O
+
 —	—	PUNCT	O	O	O
-Maman	maman	PROPN	O	O	O
+Maman	maman	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 dirent	dire	VERB	O	O	O
@@ -1258,7 +1273,7 @@ pap	pap	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 est	être	AUX	O	O	O
-mort	mort	ADJ	O	O	O
+mort	mourir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 n'	ne	ADV	O	O	O
 avons	avoir	AUX	O	O	O
@@ -1266,14 +1281,14 @@ jamais	jamais	ADV	O	O	O
 eu	avoir	VERB	O	O	O
 temps	temps	NOUN	O	O	O
 nous	nous	PRON	O	O	O
-faire	faire	VERB	O	O	O
-embras	embra	ADJ	O	O	O
+faire	faire	AUX	O	O	O
+embras	embrer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 C'	ce	PRON	O	O	O
-est	être	VERB	O	O	O
-juste	juste	ADV	O	O	O
+est	être	AUX	O	O	O
+juste	juste	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 réfléchit	réfléchir	VERB	O	O	O
@@ -1289,7 +1304,7 @@ Et	et	CCONJ	O	O	O
 rapidement	rapidement	ADV	O	O	O
 ils	il	PRON	O	O	O
 s'	se	PRON	O	O	O
-approchèrent	approcher	ADV	O	O	O
+approchèrent	approcher	VERB	O	O	O
 du	de	ADP	O	O	O
 cher	cher	ADJ	O	O	O
 défunt	défunt	NOUN	O	O	O
@@ -1322,12 +1337,13 @@ leur	son	DET	O	O	O
 visage	visage	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 se	se	PRON	O	O	O
-firent	faire	VERB	O	O	O
+firent	faire	AUX	O	O	O
 donner	donner	VERB	O	O	O
 un	un	DET	O	O	O
-baiser	baiser	VERB	O	O	O
+baiser	baiser	NOUN	O	O	O
 posthume	posthume	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-FIN	fin	NOUN	O	O	O
+FIN	fin	PROPN	O	O	O
+
 

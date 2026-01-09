@@ -1,31 +1,32 @@
 EN	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
--	-	PUNCT	O	O	O
-là	là	ADV	O	O	O
+-	-	NOUN	O	O	O
+là	là	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 femmes	femme	NOUN	O	O	O
 étaient	être	AUX	O	O	O
-heureuses	heureuser	VERB	O	O	O
+heureuses	heureux	ADJ	O	O	O
 (	(	PUNCT	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 elles	lui	PRON	O	O	O
 disaient	dire	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 )	)	PUNCT	O	O	O
+
 .	.	PUNCT	O	O	O
 
 Elles	lui	PRON	O	O	O
-volaient	voler	ADV	O	O	O
+volaient	voler	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
-jugeaient	juger	ADV	O	O	O
+jugeaient	juger	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
 portaient	porter	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 sacs	sac	NOUN	O	O	O
 de	de	ADP	O	O	O
 120	120	NUM	O	O	O
@@ -42,7 +43,7 @@ Sénat	sénat	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
 conduisaient	conduire	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 trains	train	NOUN	O	O	O
 express	express	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -54,14 +55,14 @@ Académie	académie	NOUN	O	O	O
 des	de	ADP	O	O	O
 Inscriptions	inscription	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-Belles	belles	PROPN	O	O	O
--	-	PUNCT	O	O	O
-Lettres	lettres	PROPN	O	O	O
+Belles	beau	NOUN	O	O	O
+-	-	NOUN	O	O	O
+Lettres	lettre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
 passaient	passer	VERB	O	O	O
 à	à	ADP	O	O	O
-tabac	tabac	NUM	O	O	O
+tabac	tabac	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
 allaient	aller	VERB	O	O	O
@@ -82,7 +83,7 @@ chiquaient	chiquer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
 écrivaient	écrire	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 ouvrages	ouvrage	NOUN	O	O	O
 d'	de	ADP	O	O	O
 économie	économie	NOUN	O	O	O
@@ -103,7 +104,7 @@ renoncé	renoncer	VERB	O	O	O
 aux	à	ADP	O	O	O
 jupes	jupe	NOUN	O	O	O
 de	de	ADP	O	O	O
-maman	maman	PROPN	O	O	O
+maman	maman	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 adopter	adopter	VERB	O	O	O
 le	le	DET	O	O	O
@@ -137,7 +138,8 @@ femmes	femme	NOUN	O	O	O
 avaient	avoir	AUX	O	O	O
 pris	prendre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-une	un	DET	O	O	O
+
+une	un	ADJ	O	O	O
 à	à	ADP	O	O	O
 une	un	DET	O	O	O
 ,	,	PUNCT	O	O	O
@@ -164,6 +166,7 @@ cette	ce	DET	O	O	O
 longue	long	ADJ	O	O	O
 guerre	guerre	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 En	en	ADP	O	O	O
 1927	1927	NUM	O	O	O
 ,	,	PUNCT	O	O	O
@@ -202,7 +205,7 @@ présidente	président	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 citoyenne	citoyen	NOUN	O	O	O
-Césarine	césarine	NOUN	O	O	O
+Césarine	césarine	PROPN	O	O	O
 Bourru	bourru	PROPN	O	O	O
 )	)	PUNCT	O	O	O
 avait	avoir	AUX	O	O	O
@@ -224,7 +227,7 @@ le	le	DET	O	O	O
 marquis	marquis	NOUN	O	O	O
 Séraphin	séraphin	PROPN	O	O	O
 des	de	ADP	O	O	O
-Angelures	angelure	NOUN	O	O	O
+Angelures	angelures	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
@@ -243,7 +246,7 @@ place	place	NOUN	O	O	O
 une	un	DET	O	O	O
 citoyenne	citoyen	NOUN	O	O	O
 du	de	ADP	O	O	O
-Syndicat	syndicat	PROPN	O	O	O
+Syndicat	syndicat	NOUN	O	O	O
 des	de	ADP	O	O	O
 Métaux	métal	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -253,26 +256,26 @@ jugement	jugement	NOUN	O	O	O
 comportait	comporter	VERB	O	O	O
 cet	ce	DET	O	O	O
 argument	argument	NOUN	O	O	O
-historique	historique	VERB	O	O	O
+historique	historique	ADJ	O	O	O
 :	:	PUNCT	O	O	O
-«	«	NOUN	O	O	O
-Attendu	attendre	ADJ	O	O	O
+«	«	PUNCT	O	O	O
+Attendu	attendre	VERB	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
 geste	geste	NOUN	O	O	O
 du	de	ADP	O	O	O
 citoyen	citoyen	NOUN	O	O	O
 des	de	ADP	O	O	O
-Angelures	angelure	NOUN	O	O	O
+Angelures	angelures	PROPN	O	O	O
 a	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 inspiré	inspirer	VERB	O	O	O
 par	par	ADP	O	O	O
 le	le	DET	O	O	O
-ridicule	ridicule	NOUN	O	O	O
+ridicule	ridicule	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-outrageant	outrager	VERB	O	O	O
-sentiment	sentiment	ADJ	O	O	O
+outrageant	outrageant	ADJ	O	O	O
+sentiment	sentiment	NOUN	O	O	O
 de	de	ADP	O	O	O
 galanterie	galanterie	NOUN	O	O	O
 par	par	ADP	O	O	O
@@ -280,7 +283,7 @@ quoi	quoi	PRON	O	O	O
 s'	se	PRON	O	O	O
 avérait	avérer	VERB	O	O	O
 (	(	PUNCT	O	O	O
-sic	sic	NOUN	O	O	O
+sic	sic	X	O	O	O
 )	)	PUNCT	O	O	O
 sous	sou	ADP	O	O	O
 le	le	DET	O	O	O
@@ -293,7 +296,7 @@ d'	de	ADP	O	O	O
 infériorité	infériorité	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 d'	de	ADP	O	O	O
-asservissement	asservissement	ADV	O	O	O
+asservissement	asservissement	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
@@ -301,15 +304,16 @@ femme	femme	NOUN	O	O	O
 etc.	etc.	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 etc.	etc.	ADV	O	O	O
-»	»	NOUN	O	O	O
+»	»	PUNCT	O	O	O
+
 En	en	ADP	O	O	O
 1934	1934	NUM	O	O	O
 ,	,	PUNCT	O	O	O
 cinq	cinq	NUM	O	O	O
 citoyennes	citoyen	NOUN	O	O	O
-devinrent	devenir	ADV	O	O	O
-«	«	PROPN	O	O	O
-fortes	fort	NOUN	O	O	O
+devinrent	devenir	VERB	O	O	O
+«	«	PUNCT	O	O	O
+fortes	fort	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 Halle	halle	NOUN	O	O	O
@@ -327,7 +331,7 @@ accordant	accorder	VERB	O	O	O
 à	à	ADP	O	O	O
 toutes	tout	ADJ	O	O	O
 les	le	DET	O	O	O
-citoyennes	citoyen	ADJ	O	O	O
+citoyennes	citoyen	NOUN	O	O	O
 le	le	DET	O	O	O
 droit	droit	NOUN	O	O	O
 au	au	ADP	O	O	O
@@ -370,7 +374,7 @@ le	le	DET	O	O	O
 vrai	vrai	ADJ	O	O	O
 14	14	NUM	O	O	O
 juillet	juillet	NOUN	O	O	O
-féministe	féministe	NOUN	O	O	O
+féministe	féministe	ADJ	O	O	O
 tomba	tomber	VERB	O	O	O
 le	le	DET	O	O	O
 9	9	NUM	O	O	O
@@ -380,8 +384,8 @@ septembre	septembre	NOUN	O	O	O
 
 Ce	ce	DET	O	O	O
 jour	jour	NOUN	O	O	O
--	-	PUNCT	O	O	O
-là	là	ADV	O	O	O
+-	-	NOUN	O	O	O
+là	là	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 Congrès	congrès	NOUN	O	O	O
@@ -397,7 +401,7 @@ République	république	NOUN	O	O	O
 la	le	DET	O	O	O
 citoyenne	citoyen	NOUN	O	O	O
 Christiane	christiane	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Mireille	mireille	PROPN	O	O	O
 Fromageot	fromageot	PROPN	O	O	O
 .	.	PUNCT	O	O	O
@@ -405,9 +409,9 @@ Fromageot	fromageot	PROPN	O	O	O
 La	le	DET	O	O	O
 présidente	président	NOUN	O	O	O
 Fromageot	fromageot	PROPN	O	O	O
-revêtit	revêtit	ADJ	O	O	O
+revêtit	revêtir	VERB	O	O	O
 l'	le	DET	O	O	O
-habit	habit	PROPN	O	O	O
+habit	habit	NOUN	O	O	O
 noir	noir	ADJ	O	O	O
 professionnel	professionnel	ADJ	O	O	O
 du	de	ADP	O	O	O
@@ -416,37 +420,47 @@ de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 Etat	etat	NOUN	O	O	O
 en	en	ADP	O	O	O
-disant	disant	NOUN	O	O	O
+disant	dire	VERB	O	O	O
 :	:	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
-«	«	ADJ	O	O	O
-Ah	ah	PUNCT	O	O	O
+«	«	PUNCT	O	O	O
+
+Ah	ah	INTJ	O	O	O
 !	!	PUNCT	O	O	O
 
 si	si	SCONJ	O	O	O
 ma	mon	DET	O	O	O
-pauvre	pauvre	NOUN	O	O	O
+pauvre	pauvre	ADJ	O	O	O
 mère	mère	NOUN	O	O	O
 me	me	PRON	O	O	O
 voyait	voir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
+
 elle	lui	PRON	O	O	O
 qui	qui	PRON	O	O	O
 en	en	PRON	O	O	O
 était	être	AUX	O	O	O
+
 encore	encore	ADV	O	O	O
+
 ,	,	PUNCT	O	O	O
+
 de	de	ADP	O	O	O
 son	son	DET	O	O	O
+
 temps	temps	NOUN	O	O	O
+
 ,	,	PUNCT	O	O	O
-à	à	ADP	O	O	O
+à	à	PUNCT	O	O	O
+
 la	le	DET	O	O	O
-jupe	jup	ADJ	O	O	O
-culotte	culott	ADJ	O	O	O
+jupe	jupe	NOUN	O	O	O
+culotte	culotte	NOUN	O	O	O
+
 !	!	PUNCT	O	O	O
 
 Comme	comme	SCONJ	O	O	O
+
 la	le	DET	O	O	O
 grande	grand	ADJ	O	O	O
 chancelière	chancelière	NOUN	O	O	O
@@ -455,56 +469,76 @@ la	le	DET	O	O	O
 Légion	légion	NOUN	O	O	O
 d'	de	ADP	O	O	O
 honneur	honneur	NOUN	O	O	O
+
 lui	luire	PRON	O	O	O
 apportait	apporter	VERB	O	O	O
 le	le	DET	O	O	O
 collier	collier	NOUN	O	O	O
 de	de	ADP	O	O	O
 grande	grand	ADJ	O	O	O
+
 -	-	PUNCT	O	O	O
+
 maîtresse	maîtresse	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-Ordre	ordre	PROPN	O	O	O
+Ordre	ordre	NOUN	O	O	O
+
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 présidente	président	NOUN	O	O	O
 Fromageot	fromageot	PROPN	O	O	O
-déclara	déclara	ADJ	O	O	O
+
+déclara	déclarer	VERB	O	O	O
 dignement	dignement	ADV	O	O	O
+
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Pas	pas	ADV	O	O	O
+
 de	de	ADP	O	O	O
 collier	collier	NOUN	O	O	O
+
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
+
 Le	le	DET	O	O	O
 collier	collier	NOUN	O	O	O
+
 a	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
+
 pendant	pendant	ADP	O	O	O
 trop	trop	ADV	O	O	O
 longtemps	longtemps	ADV	O	O	O
+
 le	le	DET	O	O	O
 signe	signe	NOUN	O	O	O
 de	de	ADP	O	O	O
+
 la	le	DET	O	O	O
 servitude	servitude	NOUN	O	O	O
 des	de	ADP	O	O	O
+
 femmes	femme	NOUN	O	O	O
+
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
+
 Ce	ce	DET	O	O	O
 mot	mot	NOUN	O	O	O
-a	avoir	AUX	O	O	O
+
+a	avoir	VERB	O	O	O
 d'	de	ADP	O	O	O
 ailleurs	ailleurs	ADV	O	O	O
+
 été	être	AUX	O	O	O
 immortalisé	immortaliser	VERB	O	O	O
 par	par	ADP	O	O	O
+
 le	le	DET	O	O	O
 tableau	tableau	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -518,18 +552,20 @@ Institut	institut	PROPN	O	O	O
 tableau	tableau	NOUN	O	O	O
 conservé	conserver	VERB	O	O	O
 au	au	ADP	O	O	O
-Panthéon	panthéon	PROPN	O	O	O
+Panthéon	panthéon	NOUN	O	O	O
+
 dont	dont	PRON	O	O	O
 le	le	DET	O	O	O
 fronton	fronton	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 revu	revoir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-corrigé	corrigé	NOUN	O	O	O
+corrigé	corriger	VERB	O	O	O
 et	et	CCONJ	O	O	O
-débarrassé	débarrassé	NOUN	O	O	O
+débarrassé	débarrasser	VERB	O	O	O
 de	de	ADP	O	O	O
 ses	son	DET	O	O	O
+
 La	le	DET	O	O	O
 dernière	dernier	ADJ	O	O	O
 midinette	midinette	NOUN	O	O	O
@@ -547,7 +583,7 @@ et	et	CCONJ	O	O	O
 condamnée	condamner	VERB	O	O	O
 pour	pour	ADP	O	O	O
 délit	délit	NOUN	O	O	O
-«	«	VERB	O	O	O
+«	«	PUNCT	O	O	O
 de	de	ADP	O	O	O
 port	port	NOUN	O	O	O
 d'	de	ADP	O	O	O
@@ -560,22 +596,23 @@ comportant	comporter	VERB	O	O	O
 une	un	DET	O	O	O
 jupe	jupe	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
-»	»	X	O	O	O
+»	»	PUNCT	O	O	O
 personnages	personnage	NOUN	O	O	O
-masculins	masculin	NOUN	O	O	O
+masculins	masculin	ADJ	O	O	O
+
 ,	,	PUNCT	O	O	O
 porte	porte	VERB	O	O	O
 la	le	DET	O	O	O
 fameuse	fameux	ADJ	O	O	O
-devise	devise	VERB	O	O	O
+devise	devise	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-AUX	aux	PROPN	O	O	O
+AUX	à	ADP	O	O	O
 GRANDES	grand	ADJ	O	O	O
 FEMMES	femme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-LA	la	PROPN	O	O	O
+LA	le	DET	O	O	O
 PATRIE	patrie	NOUN	O	O	O
-RECONNAISSANTE	reconnaissante	PROPN	O	O	O
+RECONNAISSANTE	reconnaissant	ADJ	O	O	O
 Naturellement	naturellement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 ce	ce	DET	O	O	O
@@ -587,17 +624,17 @@ féministe	féministe	ADJ	O	O	O
 avait	avoir	AUX	O	O	O
 transformé	transformer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-que	que	SCONJ	O	O	O
-dis	dire	SCONJ	O	O	O
--	-	PUNCT	O	O	O
+que	que	PRON	O	O	O
+dis	dire	VERB	O	O	O
+-	-	PRON	O	O	O
 je	je	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 cham	cham	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 bardé	barder	VERB	O	O	O
 la	le	DET	O	O	O
 vieille	vieux	ADJ	O	O	O
-Société	société	NOUN	O	O	O
+Société	société	PROPN	O	O	O
 française	français	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -621,7 +658,7 @@ intéressés	intéresser	VERB	O	O	O
 un	un	DET	O	O	O
 simple	simple	ADJ	O	O	O
 avis	avis	NOUN	O	O	O
-—	—	DET	O	O	O
+—	—	PUNCT	O	O	O
 des	un	DET	O	O	O
 formules	formule	NOUN	O	O	O
 laisser	laisser	VERB	O	O	O
@@ -637,8 +674,8 @@ de	de	ADP	O	O	O
 ce	ce	DET	O	O	O
 type	type	NOUN	O	O	O
 »	»	PUNCT	O	O	O
-désuet	désuet	VERB	O	O	O
-atteignaient	atteindre	ADV	O	O	O
+désuet	désuet	ADJ	O	O	O
+atteignaient	atteindre	VERB	O	O	O
 d'	de	ADP	O	O	O
 ailleurs	ailleurs	ADV	O	O	O
 un	un	DET	O	O	O
@@ -663,16 +700,16 @@ c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 en	en	ADP	O	O	O
 vain	vain	ADJ	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 on	on	PRON	O	O	O
-eût	avoir	PRON	O	O	O
+eût	avoir	AUX	O	O	O
 cherché	chercher	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 foule	foule	NOUN	O	O	O
 des	de	ADP	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 libérées	libérer	VERB	O	O	O
 »	»	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
@@ -690,15 +727,15 @@ seule	seul	ADJ	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
 femmes	femme	NOUN	O	O	O
-douces	douce	NOUN	O	O	O
+douces	doux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-effacées	effacée	NOUN	O	O	O
+effacées	effacé	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-gentilles	gentille	NOUN	O	O	O
+gentilles	gentil	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 dont	dont	PRON	O	O	O
-le	le	PRON	O	O	O
-sourire	sourire	VERB	O	O	O
+le	le	DET	O	O	O
+sourire	sourire	NOUN	O	O	O
 tendre	tendre	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
@@ -712,9 +749,9 @@ dentelles	dentelle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 etc.	etc.	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-avaient	avoir	AUX	O	O	O
-aimant	aimer	VERB	O	O	O
-éclairaient	éclairer	ADV	O	O	O
+avaient	avoir	VERB	O	O	O
+aimant	aimant	NOUN	O	O	O
+éclairaient	éclairer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 d'	de	DET	O	O	O
@@ -725,11 +762,12 @@ le	le	DET	O	O	O
 foyer	foyer	NOUN	O	O	O
 familial	familial	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
+
 Les	le	DET	O	O	O
 citoyennes	citoyen	NOUN	O	O	O
 de	de	ADP	O	O	O
 1958	1958	NUM	O	O	O
-avaient	avoir	AUX	O	O	O
+avaient	avoir	VERB	O	O	O
 toutes	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 ambitions	ambition	NOUN	O	O	O
@@ -748,25 +786,33 @@ du	de	ADP	O	O	O
 sexe	sexe	NOUN	O	O	O
 masculin	masculin	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-que	que	SCONJ	O	O	O
-dis	dire	ADP	O	O	O
+
+que	que	PRON	O	O	O
+dis	dire	VERB	O	O	O
 -	-	PUNCT	O	O	O
+
 je	je	PRON	O	O	O
+
 ?	?	PUNCT	O	O	O
 
 c'	ce	PRON	O	O	O
 était	être	AUX	O	O	O
+
 bien	bien	ADV	O	O	O
-pis	pis	NOUN	O	O	O
+pis	pis	ADV	O	O	O
 ,	,	PUNCT	O	O	O
+
 car	car	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
+
 sans	sans	ADP	O	O	O
-le	le	DET	O	O	O
-savoir	savoir	NOUN	O	O	O
+le	le	PRON	O	O	O
+savoir	savoir	VERB	O	O	O
+
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
 subissaient	subir	VERB	O	O	O
+
 la	le	DET	O	O	O
 loi	loi	NOUN	O	O	O
 la	le	DET	O	O	O
@@ -776,21 +822,26 @@ de	de	ADP	O	O	O
 leur	son	DET	O	O	O
 sexe	sexe	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
+
 celle	celui	PRON	O	O	O
 qui	qui	PRON	O	O	O
 veut	vouloir	VERB	O	O	O
+
 que	que	SCONJ	O	O	O
 la	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
+
 ne	ne	ADV	O	O	O
 se	se	PRON	O	O	O
 partage	partager	VERB	O	O	O
 pas	pas	ADV	O	O	O
+
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
 ordre	ordre	NOUN	O	O	O
 des	de	ADP	O	O	O
 sentiments	sentiment	NOUN	O	O	O
+
 et	et	CCONJ	O	O	O
 s'	se	PRON	O	O	O
 abandonne	abandonner	VERB	O	O	O
@@ -800,16 +851,21 @@ entière	entier	ADJ	O	O	O
 sans	sans	ADP	O	O	O
 restrictions	restriction	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
+
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
 élan	élan	NOUN	O	O	O
-—	—	NOUN	O	O	O
-convoilise	convoilise	PROPN	O	O	O
+
+—	—	PUNCT	O	O	O
+convoilise	convoilise	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 affection	affection	NOUN	O	O	O
+
 ,	,	PUNCT	O	O	O
 haine	haine	NOUN	O	O	O
+
 ...	...	PUNCT	O	O	O
+
 Le	le	DET	O	O	O
 mariage	mariage	NOUN	O	O	O
 avait	avoir	AUX	O	O	O
@@ -818,8 +874,11 @@ son	son	DET	O	O	O
 caractère	caractère	NOUN	O	O	O
 ancestral	ancestral	ADJ	O	O	O
 :	:	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	PUNCT	O	O	O
+
 était	être	AUX	O	O	O
 plus	plus	ADV	O	O	O
 que	que	SCONJ	O	O	O
@@ -832,13 +891,15 @@ deux	deux	NUM	O	O	O
 égaux	égal	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
-est	est	ADV	O	O	O
--	-	PUNCT	O	O	O
+est	est	CCONJ	O	O	O
+-	-	ADV	O	O	O
 à	à	ADV	O	O	O
--	-	PUNCT	O	O	O
-dire	dire	VERB	O	O	O
+-	-	ADV	O	O	O
+dire	dire	ADV	O	O	O
 rivaux	rival	ADJ	O	O	O
+
 ...	...	PUNCT	O	O	O
+
 Madame	monsieur	NOUN	O	O	O
 n'	ne	ADV	O	O	O
 était	être	AUX	O	O	O
@@ -854,7 +915,7 @@ allait	aller	VERB	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
 club	club	NOUN	O	O	O
-comme	comme	ADP	O	O	O
+comme	comme	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
 allait	aller	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -915,16 +976,16 @@ vraiment	vraiment	ADV	O	O	O
 moderne	moderne	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Inutile	inutile	ADJ	O	O	O
+Inutile	inutile	ADV	O	O	O
 de	de	ADP	O	O	O
 dire	dire	VERB	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 libérées	libérer	VERB	O	O	O
 »	»	PUNCT	O	O	O
-igno	igno	ADJ	O	O	O
--	-	PUNCT	O	O	O
+igno	igno	ADV	O	O	O
+-	-	NUM	O	O	O
 longtemps	longtemps	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
@@ -933,7 +994,7 @@ d'	de	ADP	O	O	O
 éventails	éventail	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
-fait	fait	NOUN	O	O	O
+fait	faire	VERB	O	O	O
 faillite	faillite	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -945,10 +1006,10 @@ s'	se	PRON	O	O	O
 étaient	être	AUX	O	O	O
 transformés	transformer	VERB	O	O	O
 en	en	ADP	O	O	O
-revues	revoir	ADJ	O	O	O
-politico	politico	NOUN	O	O	O
--	-	PUNCT	O	O	O
-économiques	économique	NOUN	O	O	O
+revues	revue	NOUN	O	O	O
+politico	politico	ADJ	O	O	O
+-	-	ADJ	O	O	O
+économiques	économique	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
@@ -960,24 +1021,25 @@ condamnée	condamner	VERB	O	O	O
 du	de	ADP	O	O	O
 chef	chef	NOUN	O	O	O
 de	de	ADP	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 port	port	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 costume	costume	NOUN	O	O	O
 dit	dire	VERB	O	O	O
-féminin	féminin	NOUN	O	O	O
+féminin	féminin	ADJ	O	O	O
 comportant	comporter	VERB	O	O	O
 une	un	DET	O	O	O
 jupe	jupe	NOUN	O	O	O
 »	»	PUNCT	O	O	O
+
 Le	le	DET	O	O	O
 talon	talon	NOUN	O	O	O
 haut	haut	ADJ	O	O	O
 n'	ne	ADV	O	O	O
 était	être	AUX	O	O	O
 plus	plus	ADV	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 un	un	DET	O	O	O
 souvenir	souvenir	NOUN	O	O	O
 :	:	PUNCT	O	O	O
@@ -1002,38 +1064,39 @@ de	de	ADP	O	O	O
 Cluny	cluny	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
 Les	le	DET	O	O	O
-quelques	quelque	DET	O	O	O
+quelques	quelque	ADJ	O	O	O
 mamans	maman	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 prétendaient	prétendre	VERB	O	O	O
 garder	garder	VERB	O	O	O
 leurs	leur	DET	O	O	O
 enfants	enfant	NOUN	O	O	O
-passaient	passaient	NOUN	O	O	O
+passaient	passer	VERB	O	O	O
 pour	pour	ADP	O	O	O
 des	un	DET	O	O	O
-originales	original	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+originales	original	ADJ	O	O	O
+que	que	PRON	O	O	O
 dans	dans	ADP	O	O	O
 les	le	DET	O	O	O
 rues	rue	NOUN	O	O	O
 les	le	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 apachesses	apachesse	NOUN	O	O	O
 »	»	PUNCT	O	O	O
-lapidaient	lapider	ADV	O	O	O
+lapidaient	lapider	VERB	O	O	O
 ...	...	PUNCT	O	O	O
-»	»	PROPN	O	O	O
+»	»	PUNCT	O	O	O
+
 Il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
 y	y	PRON	O	O	O
 avait	avoir	VERB	O	O	O
 plus	plus	ADV	O	O	O
-de	de	ADP	O	O	O
-«	«	PROPN	O	O	O
+de	de	DET	O	O	O
+«	«	PUNCT	O	O	O
 faibles	faible	ADJ	O	O	O
 femmes	femme	NOUN	O	O	O
 »	»	PUNCT	O	O	O
@@ -1048,7 +1111,7 @@ fortes	fort	ADJ	O	O	O
 Les	le	DET	O	O	O
 compartiments	compartiment	NOUN	O	O	O
 de	de	ADP	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 dames	dame	NOUN	O	O	O
 seules	seul	ADJ	O	O	O
 »	»	PUNCT	O	O	O
@@ -1068,18 +1131,19 @@ fer	fer	NOUN	O	O	O
 Ce	ce	DET	O	O	O
 mot	mot	NOUN	O	O	O
 de	de	ADP	O	O	O
-«	«	NOUN	O	O	O
-dame	dame	ADP	O	O	O
+«	«	PUNCT	O	O	O
+dame	dame	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 paraissait	paraître	VERB	O	O	O
 vieux	vieux	ADJ	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 jeu	jeu	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-rococo	rococo	ADJ	O	O	O
+rococo	rococo	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 pompier	pompier	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Et	et	CCONJ	O	O	O
 pourquoi	pourquoi	ADV	O	O	O
 les	le	DET	O	O	O
@@ -1103,7 +1167,7 @@ ces	ce	DET	O	O	O
 ridicules	ridicule	ADJ	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-jadis	jadi	NOUN	O	O	O
+jadis	jadis	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 avaient	avoir	AUX	O	O	O
 fait	faire	AUX	O	O	O
@@ -1111,7 +1175,7 @@ régner	régner	VERB	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 sexe	sexe	NOUN	O	O	O
-féminin	féminin	VERB	O	O	O
+féminin	féminin	ADJ	O	O	O
 une	un	DET	O	O	O
 invraisemblable	invraisemblable	ADJ	O	O	O
 tyrannie	tyrannie	NOUN	O	O	O
@@ -1123,16 +1187,16 @@ revanche	revanche	NOUN	O	O	O
 les	le	DET	O	O	O
 compagnies	compagnie	NOUN	O	O	O
 créèrent	créer	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 compartiments	compartiment	NOUN	O	O	O
 de	de	ADP	O	O	O
-«	«	NUM	O	O	O
+«	«	PUNCT	O	O	O
 messieurs	monsieur	NOUN	O	O	O
 seuls	seul	ADJ	O	O	O
 »	»	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
 
-Disons	dison	NOUN	O	O	O
+Disons	dire	VERB	O	O	O
 tout	tout	ADV	O	O	O
 de	de	ADP	O	O	O
 suite	suite	NOUN	O	O	O
@@ -1140,7 +1204,7 @@ qu'	que	SCONJ	O	O	O
 ils	il	PRON	O	O	O
 étaient	être	AUX	O	O	O
 toujours	toujours	ADV	O	O	O
-archicomplets	archicomplet	NOUN	O	O	O
+archicomplets	archicomplet	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
@@ -1150,7 +1214,7 @@ recherchaient	rechercher	VERB	O	O	O
 plus	plus	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
-autrefois	autrefoi	NOUN	O	O	O
+autrefois	autrefois	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 société	société	NOUN	O	O	O
@@ -1160,17 +1224,17 @@ femmes	femme	NOUN	O	O	O
 
 Il	il	PRON	O	O	O
 était	être	AUX	O	O	O
-loin	loin	ADV	O	O	O
+loin	loin	ADJ	O	O	O
 le	le	DET	O	O	O
 temps	temps	NOUN	O	O	O
 des	de	ADP	O	O	O
 flirts	flirt	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 billets	billet	NOUN	O	O	O
 doux	doux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 madrigaux	madrigal	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
@@ -1206,7 +1270,7 @@ d'	de	ADP	O	O	O
 Ève	ève	PROPN	O	O	O
 :	:	PUNCT	O	O	O
 ils	il	PRON	O	O	O
-préféraient	préférer	ADV	O	O	O
+préféraient	préférer	VERB	O	O	O
 rester	rester	VERB	O	O	O
 entre	entrer	ADP	O	O	O
 eux	lui	PRON	O	O	O
@@ -1214,10 +1278,10 @@ eux	lui	PRON	O	O	O
 loin	loin	ADV	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
-citoyennes	citoyen	ADJ	O	O	O
-encombrantes	encombrante	NOUN	O	O	O
+citoyennes	citoyen	NOUN	O	O	O
+encombrantes	encombrant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-bruyantes	bruyante	NOUN	O	O	O
+bruyantes	bruyant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1226,7 +1290,7 @@ en	en	ADP	O	O	O
 plus	plus	ADV	O	O	O
 souvent	souvent	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-fumaient	fumer	ADV	O	O	O
+fumaient	fumer	VERB	O	O	O
 comme	comme	ADP	O	O	O
 des	un	DET	O	O	O
 Turques	turc	NOUN	O	O	O
@@ -1242,8 +1306,8 @@ aussi	aussi	ADV	O	O	O
 des	un	DET	O	O	O
 compartiments	compartiment	NOUN	O	O	O
 de	de	ADP	O	O	O
-«	«	PROPN	O	O	O
-fumeuses	fumeuse	NOUN	O	O	O
+«	«	PUNCT	O	O	O
+fumeuses	fumeux	ADJ	O	O	O
 »	»	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1253,12 +1317,12 @@ voyait	voir	VERB	O	O	O
 rarement	rarement	ADV	O	O	O
 une	un	DET	O	O	O
 place	place	NOUN	O	O	O
-inoccupée	inoccupé	ADJ	O	O	O
+inoccupée	inoccuper	VERB	O	O	O
 et	et	CCONJ	O	O	O
 plus	plus	ADV	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
-voyageuse	voyageur	ADJ	O	O	O
+voyageuse	voyageur	NOUN	O	O	O
 ne	ne	ADV	O	O	O
 se	se	PRON	O	O	O
 gênait	gêner	VERB	O	O	O
@@ -1291,18 +1355,18 @@ féministe	féministe	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 La	le	DET	O	O	O
-vraie	vraie	NOUN	O	O	O
+vraie	vrai	ADJ	O	O	O
 politesse	politesse	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 citoyen	citoyen	NOUN	O	O	O
-envers	envers	VERB	O	O	O
+envers	envers	ADP	O	O	O
 une	un	DET	O	O	O
 citoyenne	citoyen	NOUN	O	O	O
 consistait	consister	VERB	O	O	O
 à	à	ADP	O	O	O
-la	le	DET	O	O	O
-bousculer	bousculer	PROPN	O	O	O
+la	le	PRON	O	O	O
+bousculer	bousculer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 tout	tout	ADV	O	O	O
@@ -1311,6 +1375,7 @@ comme	comme	ADP	O	O	O
 une	un	DET	O	O	O
 camarade	camarade	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Tenter	tenter	VERB	O	O	O
 de	de	ADP	O	O	O
 baiser	baiser	VERB	O	O	O
@@ -1325,6 +1390,7 @@ une	un	DET	O	O	O
 injure	injure	NOUN	O	O	O
 grave	grave	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 lui	luire	PRON	O	O	O
 offrir	offrir	VERB	O	O	O
 le	le	DET	O	O	O
@@ -1336,13 +1402,13 @@ dont	dont	PRON	O	O	O
 l'	le	DET	O	O	O
 auteur	auteur	NOUN	O	O	O
 était	être	AUX	O	O	O
-inévitablement	inévitablement	ADJ	O	O	O
+inévitablement	inévitablement	ADV	O	O	O
 conduit	conduire	VERB	O	O	O
 au	au	ADP	O	O	O
 panier	panier	NOUN	O	O	O
--	-	PUNCT	O	O	O
-à	à	ADP	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
+à	à	NOUN	O	O	O
+-	-	NOUN	O	O	O
 salade	salade	NOUN	O	O	O
 aérien	aérien	ADJ	O	O	O
 à	à	ADP	O	O	O
@@ -1358,9 +1424,8 @@ Et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 enfants	enfant	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
-
 demandez	demander	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1369,6 +1434,7 @@ vous	vous	PRON	O	O	O
 attendais	attendre	VERB	O	O	O
 là	là	ADV	O	O	O
 ...	...	PUNCT	O	O	O
+
 Ils	il	PRON	O	O	O
 devenaient	devenir	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -1403,7 +1469,7 @@ Etat	etat	NOUN	O	O	O
 où	où	PRON	O	O	O
 ils	il	PRON	O	O	O
 étaient	être	AUX	O	O	O
-élevés	élevé	ADJ	O	O	O
+élevés	élever	VERB	O	O	O
 selon	selon	ADP	O	O	O
 les	le	DET	O	O	O
 principes	principe	NOUN	O	O	O
@@ -1415,33 +1481,34 @@ officielle	officiel	ADJ	O	O	O
 
 Et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
-quelques	quelque	DET	O	O	O
+quelques	quelque	ADJ	O	O	O
 mamans	maman	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 prétendaient	prétendre	VERB	O	O	O
 garder	garder	VERB	O	O	O
 leurs	leur	DET	O	O	O
 enfants	enfant	NOUN	O	O	O
-passaient	passaient	NOUN	O	O	O
+passaient	passer	VERB	O	O	O
 pour	pour	ADP	O	O	O
 des	un	DET	O	O	O
-originales	original	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+originales	original	ADJ	O	O	O
+que	que	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
 les	le	DET	O	O	O
 rues	rue	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
-«	«	NUM	O	O	O
+«	«	PUNCT	O	O	O
 apachesses	apachesse	NOUN	O	O	O
-»	»	NOUN	O	O	O
-poursuivaient	poursuivre	ADV	O	O	O
+»	»	PUNCT	O	O	O
+poursuivaient	poursuivre	VERB	O	O	O
 à	à	ADP	O	O	O
 coups	coup	NOUN	O	O	O
 de	de	ADP	O	O	O
 pierres	pierre	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Or	or	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 vers	vers	ADP	O	O	O
@@ -1476,12 +1543,13 @@ Paris	paris	PROPN	O	O	O
 Elle	lui	PRON	O	O	O
 était	être	AUX	O	O	O
 ainsi	ainsi	ADV	O	O	O
-conçue	concevoir	ADJ	O	O	O
+conçue	concevoir	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 Je	je	PRON	O	O	O
 sais	savoir	VERB	O	O	O
-tout	tout	ADV	O	O	O
-aperçu	apercevoir	ADJ	O	O	O
+tout	tout	PRON	O	O	O
+aperçu	apercevoir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 cependant	cependant	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1502,15 +1570,14 @@ semblaient	sembler	VERB	O	O	O
 ne	ne	ADV	O	O	O
 pas	pas	ADV	O	O	O
 partager	partager	VERB	O	O	O
-LIGUE	ligue	PROPN	O	O	O
+LIGUE	ligue	NOUN	O	O	O
 DES	de	ADP	O	O	O
-«	«	NOUN	O	O	O
-NOUVELLES	nouvelles	PROPN	O	O	O
-FÉMINISTES	féministes	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+NOUVELLES	nouvelle	NOUN	O	O	O
+FÉMINISTES	féministe	ADJ	O	O	O
 »	»	PUNCT	O	O	O
 FEMMES	femme	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 La	le	DET	O	O	O
 liberté	liberté	NOUN	O	O	O
 nous	nous	PRON	O	O	O
@@ -1523,8 +1590,8 @@ ailleurs	ailleurs	ADV	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 une	un	DET	O	O	O
-fausse	faux	NOUN	O	O	O
-liberté	liberté	ADJ	O	O	O
+fausse	faux	ADJ	O	O	O
+liberté	liberté	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
 toutes	tout	ADJ	O	O	O
@@ -1539,12 +1606,12 @@ que	que	SCONJ	O	O	O
 nos	notre	DET	O	O	O
 mères	mère	NOUN	O	O	O
 étaient	être	AUX	O	O	O
-malheureuses	malheureuser	VERB	O	O	O
+malheureuses	malheureux	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
-L'	le	DET	O	O	O
-étaient	étaient	NOUN	O	O	O
--	-	PUNCT	O	O	O
+L'	le	PRON	O	O	O
+étaient	être	AUX	O	O	O
+-	-	PRON	O	O	O
 elles	lui	PRON	O	O	O
 ?	?	PUNCT	O	O	O
 
@@ -1552,11 +1619,10 @@ Non	non	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
 !	!	PUNCT	O	O	O
-
 !	!	PUNCT	O	O	O
 
 ELLES	lui	PRON	O	O	O
-ÉTAIENT	être	AUX	O	O	O
+ÉTAIENT	être	VERB	O	O	O
 AIMÉES	aimer	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -1564,43 +1630,45 @@ Nos	notre	DET	O	O	O
 mères	mère	NOUN	O	O	O
 étaient	être	AUX	O	O	O
 :	:	PUNCT	O	O	O
-ÉPOUSES	épouses	PROPN	O	O	O
+ÉPOUSES	épouse	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PRON	O	O	O
+—	—	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
-est	est	ADV	O	O	O
--	-	PUNCT	O	O	O
-à	à	ADV	O	O	O
--	-	PUNCT	O	O	O
-dire	dire	VERB	O	O	O
+est	est	CCONJ	O	O	O
+-	-	ADV	O	O	O
+à	à	ADP	O	O	O
+-	-	ADV	O	O	O
+dire	dire	ADV	O	O	O
 reines	reine	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 maison	maison	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 MÈRES	mère	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PROPN	O	O	O
+—	—	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
-est	est	ADV	O	O	O
--	-	PUNCT	O	O	O
+est	est	CCONJ	O	O	O
+-	-	ADV	O	O	O
 à	à	ADV	O	O	O
--	-	PUNCT	O	O	O
-dire	dire	VERB	O	O	O
+-	-	ADV	O	O	O
+dire	dire	ADV	O	O	O
 reines	reine	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 famille	famille	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 FEMMES	femme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PROPN	O	O	O
+—	—	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
-est	est	ADV	O	O	O
--	-	PUNCT	O	O	O
+est	est	CCONJ	O	O	O
+-	-	ADV	O	O	O
 à	à	ADV	O	O	O
--	-	PUNCT	O	O	O
-dire	dire	VERB	O	O	O
+-	-	ADV	O	O	O
+dire	dire	ADV	O	O	O
 reines	reine	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
@@ -1609,9 +1677,9 @@ homme	homme	NOUN	O	O	O
 
 Qu'	que	PRON	O	O	O
 a	avoir	AUX	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 on	on	PRON	O	O	O
 fait	faire	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -1621,11 +1689,11 @@ nous	nous	PRON	O	O	O
 Des	un	DET	O	O	O
 servantes	servante	NOUN	O	O	O
 de	de	ADP	O	O	O
-tous	tout	ADJ	O	O	O
+tous	tout	PRON	O	O	O
 alors	alors	ADV	O	O	O
 que	que	SCONJ	O	O	O
 nous	nous	PRON	O	O	O
-étions	être	VERB	O	O	O
+étions	être	AUX	O	O	O
 l'	le	DET	O	O	O
 esclave	esclave	NOUN	O	O	O
 d'	de	ADP	O	O	O
@@ -1642,8 +1710,9 @@ belles	bel	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 d'	de	ADP	O	O	O
 être	être	AUX	O	O	O
-bonnes	bonner	VERB	O	O	O
+bonnes	bon	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
+
 On	on	PRON	O	O	O
 exige	exiger	VERB	O	O	O
 aujourd'hui	aujourd'hui	ADV	O	O	O
@@ -1652,25 +1721,26 @@ nous	nous	PRON	O	O	O
 soyions	soyier	VERB	O	O	O
 laides	laid	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-méchantes	méchant	NOUN	O	O	O
+méchantes	méchant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 tout	tout	ADV	O	O	O
 au	au	ADP	O	O	O
 moins	moins	ADV	O	O	O
-quelconques	quelconquer	VERB	O	O	O
+quelconques	quelconque	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-neutres	neutre	NOUN	O	O	O
+neutres	neutre	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Notre	notre	DET	O	O	O
 liberté	liberté	NOUN	O	O	O
 nous	nous	PRON	O	O	O
-charge	charge	NOUN	O	O	O
+charge	charger	VERB	O	O	O
 de	de	ADP	O	O	O
 chaînes	chaîne	NOUN	O	O	O
 de	de	ADP	O	O	O
 fer	fer	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 En	en	ADP	O	O	O
 d'	de	DET	O	O	O
 autres	autre	ADJ	O	O	O
@@ -1678,9 +1748,9 @@ temps	temps	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
 n'	ne	ADV	O	O	O
-eussions	avoir	VERB	O	O	O
+eussions	avoir	AUX	O	O	O
 porté	porter	VERB	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 des	un	DET	O	O	O
 chaînes	chaîne	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1690,10 +1760,10 @@ fleurs	fleur	NOUN	O	O	O
 FEMMES	femme	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-QUE	que	SCONJ	O	O	O
-VOULONS	voulon	NOUN	O	O	O
--	-	PUNCT	O	O	O
-NOUS	nous	PROPN	O	O	O
+QUE	que	PRON	O	O	O
+VOULONS	vouloir	VERB	O	O	O
+-	-	PRON	O	O	O
+NOUS	nous	PRON	O	O	O
 ?	?	PUNCT	O	O	O
 
 Nous	nous	PRON	O	O	O
@@ -1705,7 +1775,7 @@ dominer	dominer	VERB	O	O	O
 
 Nous	nous	PRON	O	O	O
 voulons	vouloir	VERB	O	O	O
-plaire	plair	ADJ	O	O	O
+plaire	plaire	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
@@ -1714,17 +1784,17 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 Ligue	ligue	PROPN	O	O	O
 des	de	ADP	O	O	O
-«	«	PROPN	O	O	O
-Nouvelles	nouvelles	PROPN	O	O	O
-Féministes	féministes	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Nouvelles	nouveau	ADJ	O	O	O
+Féministes	féministe	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
-Rose	rose	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Rose	rose	PROPN	O	O	O
+-	-	PROPN	O	O	O
 Blanche	blanche	PROPN	O	O	O
--	-	PUNCT	O	O	O
-Marie	marie	NOUN	O	O	O
-FLEURY	fleury	ADV	O	O	O
+-	-	PROPN	O	O	O
+Marie	marie	PROPN	O	O	O
+FLEURY	fleury	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
@@ -1734,35 +1804,37 @@ la	le	DET	O	O	O
 paix	paix	NOUN	O	O	O
 lacérèrent	lacérer	VERB	O	O	O
 ces	ce	DET	O	O	O
-placards	placard	PRON	O	O	O
+placards	placard	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 un	un	DET	O	O	O
 peu	peu	ADV	O	O	O
-tardivement	tardivement	ADJ	O	O	O
+tardivement	tardivement	ADV	O	O	O
 ...	...	PUNCT	O	O	O
-Beaucoup	beaucoup	PRON	O	O	O
+
+Beaucoup	beaucoup	ADV	O	O	O
 de	de	ADP	O	O	O
 femmes	femme	NOUN	O	O	O
 les	le	PRON	O	O	O
-avaient	avoir	VERB	O	O	O
-lus	lire	ADV	O	O	O
+avaient	avoir	AUX	O	O	O
+lus	lire	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
-les	le	DET	O	O	O
-entendit	entendit	NOUN	O	O	O
+les	le	PRON	O	O	O
+entendit	entendre	VERB	O	O	O
 formuler	formuler	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 observations	observation	NOUN	O	O	O
 de	de	ADP	O	O	O
 ce	ce	DET	O	O	O
 genre	genre	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 C'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
-inouï	inouï	VERB	O	O	O
+inouï	inouï	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -1781,13 +1853,13 @@ dignité	dignité	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Plaire	plair	ADJ	O	O	O
+Plaire	plaire	VERB	O	O	O
 ?	?	PUNCT	O	O	O
 
-Est	est	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Est	être	AUX	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
-que	que	PRON	O	O	O
+que	que	SCONJ	O	O	O
 nous	nous	PRON	O	O	O
 n'	ne	ADV	O	O	O
 avons	avoir	AUX	O	O	O
@@ -1795,7 +1867,7 @@ pas	pas	ADV	O	O	O
 renoncé	renoncer	VERB	O	O	O
 à	à	ADP	O	O	O
 cette	ce	DET	O	O	O
-puérile	puérile	NOUN	O	O	O
+puérile	puéril	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 ridicule	ridicule	ADJ	O	O	O
 ambition	ambition	NOUN	O	O	O
@@ -1806,70 +1878,74 @@ Pour	pour	ADP	O	O	O
 qui	qui	PRON	O	O	O
 nous	nous	PRON	O	O	O
 prend	prendre	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 on	on	PRON	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Cette	ce	DET	O	O	O
-Rose	rose	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Rose	rose	PROPN	O	O	O
+-	-	PROPN	O	O	O
 Blanche	blanche	PROPN	O	O	O
+
 -	-	PUNCT	O	O	O
-Marie	marie	NOUN	O	O	O
+
+Marie	marie	PROPN	O	O	O
 Fleury	fleury	PROPN	O	O	O
 est	être	AUX	O	O	O
 une	un	DET	O	O	O
 toquée	toqué	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-Peut	pouvoir	VERB	O	O	O
--	-	PUNCT	O	O	O
+Peut	pouvoir	ADV	O	O	O
+-	-	ADV	O	O	O
 être	être	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 observant	observer	VERB	O	O	O
 bien	bien	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-eût	avoir	ADV	O	O	O
--	-	PUNCT	O	O	O
+eût	avoir	VERB	O	O	O
+-	-	PRON	O	O	O
 on	on	PRON	O	O	O
 l'	le	DET	O	O	O
 avis	avis	NOUN	O	O	O
 général	général	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
+
 Une	un	DET	O	O	O
 très	très	ADV	O	O	O
 vieille	vieux	ADJ	O	O	O
 dame	dame	NOUN	O	O	O
 eut	avoir	VERB	O	O	O
 un	un	DET	O	O	O
-sourire	sourire	VERB	O	O	O
+sourire	sourire	NOUN	O	O	O
 assez	assez	ADV	O	O	O
-mystérieux	mystérieux	NOUN	O	O	O
+mystérieux	mystérieux	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-murmura	murmura	ADJ	O	O	O
+murmura	murmurer	VERB	O	O	O
 :	:	PUNCT	O	O	O
-—	—	PRON	O	O	O
+
+—	—	PUNCT	O	O	O
 Y	y	PRON	O	O	O
 reviendront	revenir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 elles	lui	PRON	O	O	O
 ?	?	PUNCT	O	O	O
 
 Une	un	DET	O	O	O
 très	très	ADV	O	O	O
 jeune	jeune	ADJ	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 ingénieur	ingénieur	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 au	au	ADP	O	O	O
-doux	dou	NOUN	O	O	O
+doux	doux	ADJ	O	O	O
 visage	visage	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 aux	à	ADP	O	O	O
 yeux	oeil	NOUN	O	O	O
-rêveurs	rêveur	NOUN	O	O	O
+rêveurs	rêveur	ADJ	O	O	O
 relut	relire	VERB	O	O	O
 à	à	ADP	O	O	O
 mi	mi	NOUN	O	O	O
@@ -1878,20 +1954,21 @@ voix	voix	NOUN	O	O	O
 ces	ce	DET	O	O	O
 mots	mot	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
 l'	le	DET	O	O	O
 esclave	esclave	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 seul	seul	ADJ	O	O	O
-»	»	NOUN	O	O	O
+»	»	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
 elle	lui	PRON	O	O	O
 soupira	soupirer	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Quelques	quelque	DET	O	O	O
 jours	jour	NOUN	O	O	O
 après	après	ADV	O	O	O
@@ -1899,12 +1976,13 @@ après	après	ADV	O	O	O
 deuxième	deuxième	ADJ	O	O	O
 affiche	affiche	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-LIGUE	ligue	PROPN	O	O	O
+LIGUE	ligue	NOUN	O	O	O
 DES	de	ADP	O	O	O
-“	“	NOUN	O	O	O
+“	“	PUNCT	O	O	O
 NOUVELLES	nouvelle	NOUN	O	O	O
-FÉMINISTES	féministes	PROPN	O	O	O
-”	”	NUM	O	O	O
+FÉMINISTES	féministe	NOUN	O	O	O
+”	”	PUNCT	O	O	O
+
 Femmes	femme	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -1927,38 +2005,40 @@ réunion	réunion	NOUN	O	O	O
 organisée	organiser	VERB	O	O	O
 au	au	ADP	O	O	O
 Gigantic	gigantic	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Palace	palace	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 boulevard	boulevard	NOUN	O	O	O
 du	de	ADP	O	O	O
-9	9	NUM	O	O	O
--	-	PUNCT	O	O	O
+9	9	NOUN	O	O	O
+-	-	NOUN	O	O	O
 Septembre	septembre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Discours	discours	NOUN	O	O	O
 de	de	ADP	O	O	O
-Rose	rose	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Rose	rose	PROPN	O	O	O
+-	-	PROPN	O	O	O
 Blanche	blanche	PROPN	O	O	O
--	-	PUNCT	O	O	O
-Marie	marie	NOUN	O	O	O
+-	-	PROPN	O	O	O
+Marie	marie	PROPN	O	O	O
 Fleury	fleury	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 Présidente	président	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 Ligue	ligue	PROPN	O	O	O
+
 Cette	ce	DET	O	O	O
 réunion	réunion	NOUN	O	O	O
 fut	être	AUX	O	O	O
-épique	épique	VERB	O	O	O
+épique	épique	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
+
 Des	un	DET	O	O	O
 milliers	millier	NOUN	O	O	O
 de	de	ADP	O	O	O
-citoyennes	citoyen	ADJ	O	O	O
+citoyennes	citoyen	NOUN	O	O	O
 avaient	avoir	AUX	O	O	O
 envahi	envahir	VERB	O	O	O
 la	le	DET	O	O	O
@@ -1970,11 +2050,11 @@ résolution	résolution	NOUN	O	O	O
 de	de	ADP	O	O	O
 siffler	siffler	VERB	O	O	O
 cette	ce	DET	O	O	O
-Rose	rose	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Rose	rose	PROPN	O	O	O
+-	-	PROPN	O	O	O
 Blanche	blanche	PROPN	O	O	O
--	-	PUNCT	O	O	O
-Marie	marie	NOUN	O	O	O
+-	-	PROPN	O	O	O
+Marie	marie	PROPN	O	O	O
 Fleury	fleury	PROPN	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1982,13 +2062,14 @@ vraiment	vraiment	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 abusait	abuser	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Elles	lui	PRON	O	O	O
 étaient	être	AUX	O	O	O
 venues	venir	VERB	O	O	O
 aussi	aussi	ADV	O	O	O
 —	—	PUNCT	O	O	O
-ultime	ultime	NOUN	O	O	O
-reste	reste	VERB	O	O	O
+ultime	ultime	ADJ	O	O	O
+reste	reste	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 antique	antique	ADJ	O	O	O
@@ -1997,7 +2078,7 @@ des	de	ADP	O	O	O
 filles	fille	NOUN	O	O	O
 d'	de	ADP	O	O	O
 Eve	eve	PROPN	O	O	O
-—	—	PROPN	O	O	O
+—	—	PUNCT	O	O	O
 pour	pour	ADP	O	O	O
 voir	voir	VERB	O	O	O
 les	le	DET	O	O	O
@@ -2006,13 +2087,13 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 présidente	président	NOUN	O	O	O
 des	de	ADP	O	O	O
-«	«	PROPN	O	O	O
-Nouvelles	nouvelles	PROPN	O	O	O
-Féministes	féministes	PROPN	O	O	O
-»	»	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Nouvelles	nouveau	ADJ	O	O	O
+Féministes	féministe	NOUN	O	O	O
+»	»	PUNCT	O	O	O
 :	:	PUNCT	O	O	O
 sans	sans	ADP	O	O	O
-nul	nul	ADJ	O	O	O
+nul	nul	DET	O	O	O
 doute	doute	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
@@ -2022,8 +2103,8 @@ ressembler	ressembler	VERB	O	O	O
 ces	ce	DET	O	O	O
 poupées	poupée	NOUN	O	O	O
 aux	à	ADP	O	O	O
-cheveux	cheveux	ADJ	O	O	O
-ondulés	ondulé	NOUN	O	O	O
+cheveux	cheveu	NOUN	O	O	O
+ondulés	onduler	ADJ	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
@@ -2031,9 +2112,9 @@ d'	de	DET	O	O	O
 autres	autre	ADJ	O	O	O
 temps	temps	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-ridi	ridi	NOUN	O	O	O
--	-	PUNCT	O	O	O
-culisaient	culisaient	NOUN	O	O	O
+ridi	ridi	VERB	O	O	O
+-	-	NOUN	O	O	O
+culisaient	culisaier	VERB	O	O	O
 le	le	DET	O	O	O
 sexe	sexe	NOUN	O	O	O
 féminin	féminin	ADJ	O	O	O
@@ -2056,11 +2137,11 @@ effet	effet	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 très	très	ADV	O	O	O
 jolie	joli	ADJ	O	O	O
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 sens	sens	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 les	le	DET	O	O	O
 siècles	siècle	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -2070,13 +2151,13 @@ de	de	ADP	O	O	O
 mauvais	mauvais	ADJ	O	O	O
 goût	goût	NOUN	O	O	O
 masculin	masculin	ADJ	O	O	O
-donnaient	donnaient	NOUN	O	O	O
+donnaient	donner	VERB	O	O	O
 à	à	ADP	O	O	O
 ce	ce	DET	O	O	O
 mot	mot	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Cyniquement	cyniquement	NOUN	O	O	O
+Cyniquement	cyniquement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 avait	avoir	AUX	O	O	O
@@ -2084,7 +2165,7 @@ revêtu	revêtir	VERB	O	O	O
 une	un	DET	O	O	O
 robe	robe	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-oui	oui	NOUN	O	O	O
+oui	oui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 une	un	DET	O	O	O
 robe	robe	NOUN	O	O	O
@@ -2093,16 +2174,16 @@ décolletée	décolleter	VERB	O	O	O
 encore	encore	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
-Décidée	décidée	NOUN	O	O	O
+Décidée	décider	VERB	O	O	O
 à	à	ADP	O	O	O
-tout	tout	ADV	O	O	O
+tout	tout	PRON	O	O	O
 braver	braver	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 portait	porter	VERB	O	O	O
 même	même	ADV	O	O	O
-des	de	ADP	O	O	O
-bijoux	bijou	PROPN	O	O	O
+des	un	DET	O	O	O
+bijoux	bijou	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
 Des	un	DET	O	O	O
 bijoux	bijou	NOUN	O	O	O
@@ -2111,11 +2192,11 @@ bijoux	bijou	NOUN	O	O	O
 Et	et	CCONJ	O	O	O
 elle	lui	PRON	O	O	O
 était	être	AUX	O	O	O
-juchée	juchée	PROPN	O	O	O
+juchée	jucher	VERB	O	O	O
 sur	sur	ADP	O	O	O
 des	un	DET	O	O	O
 talons	talon	NOUN	O	O	O
-dits	dire	ADJ	O	O	O
+dits	dire	VERB	O	O	O
 «	«	PUNCT	O	O	O
 Louis	louis	PROPN	O	O	O
 XV	xv	ADJ	O	O	O
@@ -2133,31 +2214,31 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 salle	salle	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Elles	lui	PRON	O	O	O
-devinrent	devenir	ADV	O	O	O
-formidables	formidable	PRON	O	O	O
+devinrent	devenir	VERB	O	O	O
+formidables	formidable	ADJ	O	O	O
 quand	quand	SCONJ	O	O	O
 une	un	DET	O	O	O
 douzaine	douzaine	NOUN	O	O	O
 de	de	ADP	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 nouvelles	nouveau	ADJ	O	O	O
 féministes	féministe	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 enjuponnées	enjuponner	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-parées	parée	NOUN	O	O	O
+parées	parer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 voire	voire	CCONJ	O	O	O
-pou	pou	PROPN	O	O	O
--	-	PUNCT	O	O	O
+pou	pou	VERB	O	O	O
+-	-	VERB	O	O	O
 drerisées	dreriser	VERB	O	O	O
 —	—	PUNCT	O	O	O
 horreur	horreur	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
-prirent	prendre	ADV	O	O	O
+prirent	prendre	VERB	O	O	O
 place	place	NOUN	O	O	O
 au	au	ADP	O	O	O
 bureau	bureau	NOUN	O	O	O
@@ -2173,24 +2254,26 @@ trouvaient	trouver	VERB	O	O	O
 très	très	ADV	O	O	O
 amusant	amusant	ADJ	O	O	O
 ce	ce	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 carnaval	carnaval	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
 
 Beaucoup	beaucoup	PRON	O	O	O
-sifflaient	siffler	ADV	O	O	O
+sifflaient	siffler	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Cependant	cependant	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
 monsieur	monsieur	NOUN	O	O	O
 lança	lancer	VERB	O	O	O
-ce	ce	PRON	O	O	O
+ce	ce	DET	O	O	O
 cri	cri	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Vive	vive	PROPN	O	O	O
+Vive	vivre	VERB	O	O	O
 la	le	DET	O	O	O
 citoyenne	citoyen	NOUN	O	O	O
 Fleury	fleury	PROPN	O	O	O
@@ -2202,19 +2285,19 @@ charmante	charmant	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
-malheureux	malheureux	ADJ	O	O	O
+malheureux	malheureux	PRON	O	O	O
 fut	être	AUX	O	O	O
 passé	passer	VERB	O	O	O
 à	à	ADP	O	O	O
 tabac	tabac	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 sorti	sortir	VERB	O	O	O
-»	»	VERB	O	O	O
+»	»	PUNCT	O	O	O
 par	par	ADP	O	O	O
 quelques	quelque	DET	O	O	O
-«	«	NOUN	O	O	O
-libérées	libérer	VERB	O	O	O
+«	«	PUNCT	O	O	O
+libérées	libéré	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 évidemment	évidemment	ADV	O	O	O
 très	très	ADV	O	O	O
@@ -2231,11 +2314,12 @@ se	se	PRON	O	O	O
 faire	faire	AUX	O	O	O
 entendre	entendre	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Des	un	DET	O	O	O
 bribes	bribe	NOUN	O	O	O
 de	de	ADP	O	O	O
-phrases	phrase	ADJ	O	O	O
-parvenaient	parvenaient	NOUN	O	O	O
+phrases	phrase	NOUN	O	O	O
+parvenaient	parvenir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 seules	seul	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2243,6 +2327,7 @@ au	au	ADP	O	O	O
 public	public	NOUN	O	O	O
 houleux	houleux	ADJ	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
 La	le	DET	O	O	O
@@ -2250,37 +2335,41 @@ place	place	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 au	au	ADP	O	O	O
 foyer	foyer	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Notre	notre	DET	O	O	O
-vrai	vrai	PROPN	O	O	O
+vrai	vrai	ADJ	O	O	O
 but	but	NOUN	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 d'	de	ADP	O	O	O
 être	être	AUX	O	O	O
 choisies	choisir	VERB	O	O	O
 et	et	CCONJ	O	O	O
 aimées	aimer	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Nous	nous	PRON	O	O	O
 vivons	vivre	VERB	O	O	O
 en	en	ADP	O	O	O
-dehors	dehors	ADP	O	O	O
+dehors	dehors	ADV	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 loi	loi	NOUN	O	O	O
 naturelle	naturel	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 est	être	AUX	O	O	O
-temps	temps	ADV	O	O	O
+temps	temp	ADJ	O	O	O
 de	de	ADP	O	O	O
 nous	nous	PRON	O	O	O
 révolter	révolter	VERB	O	O	O
 ...	...	PUNCT	O	O	O
-Lassée	lassée	PROPN	O	O	O
+
+Lassée	lasser	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 citoyenne	citoyen	NOUN	O	O	O
@@ -2291,7 +2380,7 @@ tut	taire	VERB	O	O	O
 
 Et	et	CCONJ	O	O	O
 comme	comme	SCONJ	O	O	O
-le	le	PRON	O	O	O
+le	le	DET	O	O	O
 charivari	charivari	NOUN	O	O	O
 grandissait	grandir	VERB	O	O	O
 encore	encore	ADV	O	O	O
@@ -2300,7 +2389,7 @@ elle	lui	PRON	O	O	O
 fit	faire	VERB	O	O	O
 cette	ce	DET	O	O	O
 chose	chose	NOUN	O	O	O
-inouïe	inouï	VERB	O	O	O
+inouïe	inouï	ADJ	O	O	O
 :	:	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 tira	tirer	VERB	O	O	O
@@ -2322,8 +2411,9 @@ et	et	CCONJ	O	O	O
 se	se	PRON	O	O	O
 regarda	regarder	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-complaisamment	complaisamment	NOUN	O	O	O
+complaisamment	complaisamment	ADV	O	O	O
 ;	;	PUNCT	O	O	O
+
 elle	lui	PRON	O	O	O
 prit	prendre	VERB	O	O	O
 une	un	DET	O	O	O
@@ -2346,15 +2436,15 @@ le	le	DET	O	O	O
 visage	visage	NOUN	O	O	O
 devant	devant	ADP	O	O	O
 les	le	DET	O	O	O
-10.000	10.000	NUM	O	O	O
-libérées	libéré	NOUN	O	O	O
+10.000	10.000	PRON	O	O	O
+libérées	libérer	VERB	O	O	O
 qui	qui	PRON	O	O	O
-la	le	DET	O	O	O
-conspuaient	conspuer	ADV	O	O	O
+la	le	PRON	O	O	O
+conspuaient	conspuer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Puis	pouvoir	CCONJ	O	O	O
-—	—	PRON	O	O	O
+—	—	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 incroyable	incroyable	ADJ	O	O	O
@@ -2368,8 +2458,8 @@ un	un	DET	O	O	O
 de	de	ADP	O	O	O
 plumes	plume	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-l'	le	DET	O	O	O
-agita	agita	NOUN	O	O	O
+l'	le	PRON	O	O	O
+agita	agiter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 avec	avec	ADP	O	O	O
 ces	ce	DET	O	O	O
@@ -2403,7 +2493,6 @@ A	à	ADP	O	O	O
 l'	le	DET	O	O	O
 eau	eau	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
 eau	eau	NOUN	O	O	O
@@ -2413,9 +2502,10 @@ crièrent	crier	VERB	O	O	O
 quelques	quelque	DET	O	O	O
 enragées	enragé	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 La	le	DET	O	O	O
-malheureuse	malheureuse	NOUN	O	O	O
-citoyenne	citoyen	ADJ	O	O	O
+malheureuse	malheureux	ADJ	O	O	O
+citoyenne	citoyen	NOUN	O	O	O
 Fleury	fleury	PROPN	O	O	O
 allait	aller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2425,8 +2515,8 @@ périr	périr	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 quand	quand	SCONJ	O	O	O
 les	le	DET	O	O	O
-robustes	robuste	NOUN	O	O	O
-gardiennes	gardien	ADJ	O	O	O
+robustes	robuste	ADJ	O	O	O
+gardiennes	gardien	NOUN	O	O	O
 des	de	ADP	O	O	O
 brigades	brigade	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -2436,17 +2526,18 @@ fort	fort	ADV	O	O	O
 à	à	ADP	O	O	O
 propos	propos	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 La	le	DET	O	O	O
 présidente	président	NOUN	O	O	O
 des	de	ADP	O	O	O
-«	«	PROPN	O	O	O
-Nouvelles	nouvelles	PROPN	O	O	O
-Féministes	féministes	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Nouvelles	nouveau	ADJ	O	O	O
+Féministes	féministe	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 fut	être	AUX	O	O	O
 dégagée	dégager	VERB	O	O	O
 et	et	CCONJ	O	O	O
-conduite	conduite	NOUN	O	O	O
+conduite	conduire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 sans	sans	ADP	O	O	O
 trop	trop	ADV	O	O	O
@@ -2468,16 +2559,16 @@ cette	ce	DET	O	O	O
 première	premier	ADJ	O	O	O
 manifestation	manifestation	NOUN	O	O	O
 du	de	ADP	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 féminisme	féminisme	NOUN	O	O	O
-»	»	PROPN	O	O	O
+»	»	PUNCT	O	O	O
 était	être	AUX	O	O	O
 un	un	DET	O	O	O
 succès	succès	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Personne	personne	NOUN	O	O	O
+Personne	personne	PRON	O	O	O
 n'	ne	ADV	O	O	O
 en	en	PRON	O	O	O
 doutait	douter	VERB	O	O	O
@@ -2494,14 +2585,15 @@ les	le	DET	O	O	O
 femmes	femme	NOUN	O	O	O
 étaient	être	AUX	O	O	O
 devenues	devenir	VERB	O	O	O
-gardiennes	gardien	ADJ	O	O	O
+gardiennes	gardien	NOUN	O	O	O
 de	de	ADP	O	O	O
 musées	musée	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 elles	lui	PRON	O	O	O
 surveillaient	surveiller	VERB	O	O	O
 la	le	DET	O	O	O
-Vénus	vénus	PROPN	O	O	O
+Vénus	vénus	NOUN	O	O	O
 de	de	ADP	O	O	O
 Milo	milo	PROPN	O	O	O
 et	et	CCONJ	O	O	O
@@ -2513,7 +2605,7 @@ Ingres	ingres	PROPN	O	O	O
 
 Il	il	PRON	O	O	O
 en	en	PRON	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 ainsi	ainsi	ADV	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
@@ -2526,6 +2618,7 @@ philosophiques	philosophique	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 sociales	social	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
+
 Leurs	leur	DET	O	O	O
 débuts	début	NOUN	O	O	O
 sont	être	AUX	O	O	O
@@ -2542,7 +2635,7 @@ décisives	décisif	ADJ	O	O	O
 
 Mais	mais	CCONJ	O	O	O
 les	le	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 impondérables	impondérable	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 ont	avoir	AUX	O	O	O
@@ -2594,12 +2687,13 @@ est	être	AUX	O	O	O
 en	en	ADP	O	O	O
 marche	marche	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 La	le	DET	O	O	O
 victoire	victoire	NOUN	O	O	O
 n'	ne	ADV	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 plus	plus	ADV	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 une	un	DET	O	O	O
 question	question	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -2612,7 +2706,7 @@ persévérance	persévérance	NOUN	O	O	O
 La	le	DET	O	O	O
 citoyenne	citoyen	NOUN	O	O	O
 Fleury	fleury	PROPN	O	O	O
-persévéra	persévéra	ADJ	O	O	O
+persévéra	persévérer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Une	un	DET	O	O	O
@@ -2625,8 +2719,8 @@ grappes	grappe	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 des	un	DET	O	O	O
 adhérentes	adhérent	NOUN	O	O	O
-lui	lui	ADJ	O	O	O
-vinrent	venir	ADV	O	O	O
+lui	luire	PRON	O	O	O
+vinrent	venir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
@@ -2666,7 +2760,7 @@ la	le	DET	O	O	O
 colonelle	colonel	NOUN	O	O	O
 George	george	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-commandant	commandant	NOUN	O	O	O
+commandant	commander	VERB	O	O	O
 la	le	DET	O	O	O
 garde	garde	NOUN	O	O	O
 républicaine	républicain	ADJ	O	O	O
@@ -2689,8 +2783,8 @@ Samuel	samuel	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Comédie	comédie	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Comédie	comédie	PROPN	O	O	O
+-	-	PROPN	O	O	O
 Française	française	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
@@ -2698,18 +2792,18 @@ bien	bien	ADV	O	O	O
 d'	de	DET	O	O	O
 autres	autre	ADJ	O	O	O
 «	«	PUNCT	O	O	O
-SPACE	O	O	O
-libérées	libéré	NOUN	O	O	O
-SPACE	O	O	O
+
+libérées	libérer	VERB	O	O	O
+
 »	»	PUNCT	O	O	O
 notoires	notoire	ADJ	O	O	O
 se	se	PRON	O	O	O
 convertirent	convertir	VERB	O	O	O
 au	au	ADP	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 féminisme	féminisme	NOUN	O	O	O
-SPACE	O	O	O
+ 	 	SPACE	O	O	O
 »	»	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -2718,7 +2812,7 @@ prouvèrent	prouver	VERB	O	O	O
 leur	son	DET	O	O	O
 foi	foi	NOUN	O	O	O
 en	en	ADP	O	O	O
-arborant	arborant	NOUN	O	O	O
+arborant	arborer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 tout	tout	ADV	O	O	O
 au	au	ADP	O	O	O
@@ -2727,12 +2821,13 @@ chez	chez	ADP	O	O	O
 elles	lui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
-«	«	NOUN	O	O	O
-jupe	jupe	VERB	O	O	O
-SPACE	O	O	O
+«	«	PUNCT	O	O	O
+jupe	jupe	NOUN	O	O	O
+ 	 	SPACE	O	O	O
 »	»	PUNCT	O	O	O
 symbolique	symbolique	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
+
 Annie	annie	PROPN	O	O	O
 Samuel	samuel	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2750,6 +2845,7 @@ sur	sur	ADP	O	O	O
 la	le	DET	O	O	O
 scène	scène	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Les	le	DET	O	O	O
 salons	salon	NOUN	O	O	O
 rouvrirent	rouvrir	VERB	O	O	O
@@ -2764,7 +2860,7 @@ rien	rien	PRON	O	O	O
 n'	ne	ADV	O	O	O
 était	être	AUX	O	O	O
 plus	plus	ADV	O	O	O
-féodal	féodal	VERB	O	O	O
+féodal	féodal	ADJ	O	O	O
 qu'	que	SCONJ	O	O	O
 un	un	DET	O	O	O
 salon	salon	NOUN	O	O	O
@@ -2772,25 +2868,25 @@ salon	salon	NOUN	O	O	O
 
 Qu'	que	PRON	O	O	O
 appelait	appeler	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 on	on	PRON	O	O	O
 ainsi	ainsi	ADV	O	O	O
 au	au	ADP	O	O	O
-moyen	moyen	NOUN	O	O	O
-âge	âg	ADJ	O	O	O
+moyen	moyen	ADJ	O	O	O
+âge	âge	NOUN	O	O	O
 masculin	masculin	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
 local	local	NOUN	O	O	O
-prétentieusement	prétentieusement	ADJ	O	O	O
+prétentieusement	prétentieusement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 ridiculement	ridiculement	ADV	O	O	O
 orné	orner	VERB	O	O	O
 d'	de	ADP	O	O	O
 objets	objet	NOUN	O	O	O
 d'	de	ADP	O	O	O
-art	art	PROPN	O	O	O
+art	art	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 tableaux	tableau	NOUN	O	O	O
@@ -2803,6 +2899,7 @@ fleurs	fleur	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
+
 Quoi	quoi	PRON	O	O	O
 de	de	ADP	O	O	O
 plus	plus	ADV	O	O	O
@@ -2815,6 +2912,7 @@ fleurs	fleur	NOUN	O	O	O
 Je	je	PRON	O	O	O
 sais	savoir	VERB	O	O	O
 tout	tout	ADV	O	O	O
+
 Dans	dans	ADP	O	O	O
 ce	ce	DET	O	O	O
 local	local	NOUN	O	O	O
@@ -2830,14 +2928,14 @@ des	un	DET	O	O	O
 malheureuses	malheureux	ADJ	O	O	O
 créatures	créature	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-vêtues	vêtir	ADJ	O	O	O
+vêtues	vêtir	VERB	O	O	O
 de	de	ADP	O	O	O
 tissus	tissu	NOUN	O	O	O
 précieux	précieux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 maquillées	maquiller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-décolletées	décolleter	VERB	O	O	O
+décolletées	décolletée	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 recevaient	recevoir	VERB	O	O	O
 les	le	DET	O	O	O
@@ -2864,26 +2962,27 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Là	là	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-soi	soi	DET	O	O	O
--	-	PUNCT	O	O	O
+soi	soi	ADV	O	O	O
+-	-	NOUN	O	O	O
 disant	dire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 régnait	régner	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-A	a	NOUN	O	O	O
-vrai	vrai	ADV	O	O	O
-dire	dire	VERB	O	O	O
+A	à	ADP	O	O	O
+vrai	vrai	ADJ	O	O	O
+dire	dire	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 y	y	PRON	O	O	O
 était	être	AUX	O	O	O
 humiliée	humilier	VERB	O	O	O
 par	par	ADP	O	O	O
-toutes	tout	ADJ	O	O	O
+toutes	tout	DET	O	O	O
 sortes	sorte	NOUN	O	O	O
 de	de	ADP	O	O	O
 compliments	compliment	NOUN	O	O	O
@@ -2898,10 +2997,11 @@ désirs	désir	NOUN	O	O	O
 Elle	lui	PRON	O	O	O
 y	y	PRON	O	O	O
 était	être	AUX	O	O	O
-femme	femme	VERB	O	O	O
+femme	femme	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
-—	—	PRON	O	O	O
-insupportablement	insupportablemer	VERB	O	O	O
+
+—	—	PUNCT	O	O	O
+insupportablement	insupportablement	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
 La	le	DET	O	O	O
@@ -2927,7 +3027,7 @@ ateliers	atelier	NOUN	O	O	O
 Et	et	CCONJ	O	O	O
 voilà	voilà	VERB	O	O	O
 —	—	PUNCT	O	O	O
-ô	ô	X	O	O	O
+ô	ô	INTJ	O	O	O
 surprise	surprise	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -2946,18 +3046,19 @@ salons	salon	NOUN	O	O	O
 où	où	PRON	O	O	O
 leurs	leur	DET	O	O	O
 mères	mère	NOUN	O	O	O
-avaient	avoir	VERB	O	O	O
+avaient	avoir	AUX	O	O	O
 tant	tant	ADV	O	O	O
 souffert	souffrir	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Des	un	DET	O	O	O
 statues	statue	NOUN	O	O	O
-représentant	représentant	NOUN	O	O	O
+représentant	représenter	VERB	O	O	O
 Vénus	vénus	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 Psyché	psyché	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 tableaux	tableau	NOUN	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
@@ -2965,13 +3066,13 @@ manière	manière	NOUN	O	O	O
 de	de	ADP	O	O	O
 Watteau	watteau	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 vases	vase	NOUN	O	O	O
 aux	à	ADP	O	O	O
 formes	forme	NOUN	O	O	O
 voluptueuses	voluptueux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-reparurent	reparurent	NOUN	O	O	O
+reparurent	reparaître	VERB	O	O	O
 dans	dans	ADP	O	O	O
 ces	ce	DET	O	O	O
 décors	décor	NOUN	O	O	O
@@ -2984,10 +3085,10 @@ mode	mode	NOUN	O	O	O
 Les	le	DET	O	O	O
 fleurs	fleur	NOUN	O	O	O
 elles	lui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 mêmes	même	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 l'	le	PRON	O	O	O
 on	on	PRON	O	O	O
 croyait	croire	VERB	O	O	O
@@ -3003,6 +3104,7 @@ nouveau	nouveau	ADJ	O	O	O
 Elles	lui	PRON	O	O	O
 embaumaient	embaumer	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Quel	quel	DET	O	O	O
 scandale	scandale	NOUN	O	O	O
 !	!	PUNCT	O	O	O
@@ -3010,16 +3112,16 @@ scandale	scandale	NOUN	O	O	O
 Un	un	DET	O	O	O
 très	très	ADV	O	O	O
 jeune	jeune	ADJ	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 ingénieur	ingénieur	NOUN	O	O	O
-»	»	PROPN	O	O	O
+»	»	PUNCT	O	O	O
 rêva	rêver	VERB	O	O	O
 devant	devant	ADP	O	O	O
 l'	le	DET	O	O	O
 affiche	affiche	NOUN	O	O	O
 des	de	ADP	O	O	O
 Nouvelles	nouveau	ADJ	O	O	O
-Féministes	féministes	PROPN	O	O	O
+Féministes	féministe	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 relut	relire	VERB	O	O	O
 quelques	quelque	DET	O	O	O
@@ -3030,8 +3132,9 @@ mi	mi	NOUN	O	O	O
 voix	voix	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-soupira	soupira	ADJ	O	O	O
+soupira	soupirer	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Ces	ce	DET	O	O	O
 fleurs	fleur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -3040,7 +3143,7 @@ fleurs	fleur	NOUN	O	O	O
 n'	ne	ADV	O	O	O
 étaient	être	AUX	O	O	O
 pas	pas	ADV	O	O	O
-féministes	féminister	VERB	O	O	O
+féministes	féministe	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Ou	ou	CCONJ	O	O	O
@@ -3051,7 +3154,7 @@ moins	moins	ADV	O	O	O
 elles	lui	PRON	O	O	O
 ne	ne	ADV	O	O	O
 l'	le	PRON	O	O	O
-étaient	être	VERB	O	O	O
+étaient	être	AUX	O	O	O
 que	que	ADV	O	O	O
 selon	selon	ADP	O	O	O
 la	le	DET	O	O	O
@@ -3062,7 +3165,7 @@ puisqu'	puisque	SCONJ	O	O	O
 elles	lui	PRON	O	O	O
 aussi	aussi	ADV	O	O	O
 voulaient	vouloir	VERB	O	O	O
-plaire	plair	ADJ	O	O	O
+plaire	plaire	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 En	en	ADP	O	O	O
@@ -3080,6 +3183,7 @@ antique	antique	ADJ	O	O	O
 foyer	foyer	NOUN	O	O	O
 familial	familial	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
+
 Elles	lui	PRON	O	O	O
 vivaient	vivre	VERB	O	O	O
 le	le	DET	O	O	O
@@ -3089,8 +3193,8 @@ dans	dans	ADP	O	O	O
 leur	son	DET	O	O	O
 intérieur	intérieur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-portaient	portaient	NOUN	O	O	O
-des	de	ADP	O	O	O
+portaient	porter	VERB	O	O	O
+des	un	DET	O	O	O
 robes	robe	NOUN	O	O	O
 de	de	ADP	O	O	O
 chambre	chambre	NOUN	O	O	O
@@ -3100,10 +3204,10 @@ dentelles	dentelle	NOUN	O	O	O
 accompagnaient	accompagner	VERB	O	O	O
 leur	son	DET	O	O	O
 mari	mari	NOUN	O	O	O
-—	—	DET	O	O	O
+—	—	PUNCT	O	O	O
 toujours	toujours	ADV	O	O	O
 le	le	DET	O	O	O
-même	même	ADV	O	O	O
+même	même	ADJ	O	O	O
 —	—	PUNCT	O	O	O
 en	en	ADP	O	O	O
 plein	plein	ADJ	O	O	O
@@ -3112,7 +3216,7 @@ jour	jour	NOUN	O	O	O
 sans	sans	ADP	O	O	O
 se	se	PRON	O	O	O
 soucier	soucier	VERB	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 sarcasmes	sarcasme	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
@@ -3125,7 +3229,7 @@ des	un	DET	O	O	O
 plaisanteries	plaisanterie	NOUN	O	O	O
 au	au	ADP	O	O	O
 gros	gros	ADJ	O	O	O
-sel	sel	ADJ	O	O	O
+sel	sel	NOUN	O	O	O
 des	de	ADP	O	O	O
 caricaturistes	caricaturiste	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -3134,7 +3238,7 @@ des	de	ADP	O	O	O
 hommes	homme	NOUN	O	O	O
 d'	de	ADP	O	O	O
 esprit	esprit	NOUN	O	O	O
-»	»	NOUN	O	O	O
+»	»	PUNCT	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 presse	presse	NOUN	O	O	O
@@ -3143,7 +3247,7 @@ et	et	CCONJ	O	O	O
 prudhommesque	prudhommesque	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Un	un	DET	O	O	O
+Un	un	PRON	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
 maris	mari	NOUN	O	O	O
@@ -3151,8 +3255,8 @@ inamovibles	inamovible	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 citoyen	citoyen	NOUN	O	O	O
-Constant	conster	VERB	O	O	O
-Tranquille	tranquille	PROPN	O	O	O
+Constant	constant	PROPN	O	O	O
+Tranquille	tranquille	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	PRON	O	O	O
 illustra	illustrer	VERB	O	O	O
@@ -3172,19 +3276,20 @@ sa	son	DET	O	O	O
 femme	femme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 vice	vice	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 présidente	président	NOUN	O	O	O
 du	de	ADP	O	O	O
 Conseil	conseil	NOUN	O	O	O
 d'	de	ADP	O	O	O
 État	état	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Ma	mon	DET	O	O	O
 chérie	chéri	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-apporte	apporte	NOUN	O	O	O
--	-	PUNCT	O	O	O
+apporte	apporter	VERB	O	O	O
+-	-	PRON	O	O	O
 moi	moi	PRON	O	O	O
 donc	donc	ADV	O	O	O
 mes	mon	DET	O	O	O
@@ -3194,23 +3299,24 @@ pantoufles	pantoufle	NOUN	O	O	O
 La	le	DET	O	O	O
 citoyenne	citoyen	NOUN	O	O	O
 Fleury	fleury	PROPN	O	O	O
-déclara	déclara	ADJ	O	O	O
+déclara	déclarer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 lorsque	lorsque	SCONJ	O	O	O
 ce	ce	DET	O	O	O
 mot	mot	NOUN	O	O	O
-historique	historique	NOUN	O	O	O
+historique	historique	ADJ	O	O	O
 lui	luire	PRON	O	O	O
 fut	être	AUX	O	O	O
 rapporté	rapporter	VERB	O	O	O
 :	:	PUNCT	O	O	O
-—	—	PRON	O	O	O
+
+—	—	PUNCT	O	O	O
 Que	que	SCONJ	O	O	O
 tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 maris	mari	NOUN	O	O	O
-osent	oser	ADV	O	O	O
-en	en	ADP	O	O	O
+osent	oser	VERB	O	O	O
+en	en	PRON	O	O	O
 dire	dire	VERB	O	O	O
 autant	autant	ADV	O	O	O
 à	à	ADP	O	O	O
@@ -3233,7 +3339,7 @@ y	y	PRON	O	O	O
 aura	avoir	VERB	O	O	O
 plus	plus	ADV	O	O	O
 de	de	ADP	O	O	O
-vrai	vrai	DET	O	O	O
+vrai	vrai	ADJ	O	O	O
 bonheur	bonheur	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 tout	tout	ADJ	O	O	O
@@ -3251,7 +3357,7 @@ en	en	ADP	O	O	O
 plus	plus	ADV	O	O	O
 nombreuses	nombreux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-décidèrent	décider	ADV	O	O	O
+décidèrent	décider	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 malgré	malgré	ADP	O	O	O
 les	le	DET	O	O	O
@@ -3270,16 +3376,16 @@ scandale	scandale	NOUN	O	O	O
 d'	de	ADP	O	O	O
 élever	élever	VERB	O	O	O
 elles	lui	PRON	O	O	O
--	-	PUNCT	O	O	O
-mêmes	même	ADJ	O	O	O
+-	-	PRON	O	O	O
+mêmes	même	PRON	O	O	O
 leurs	leur	DET	O	O	O
 enfants	enfant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Nouveau	nouveau	ADJ	O	O	O
-Féminisme	féminisme	PROPN	O	O	O
+Féminisme	féminisme	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 avait	avoir	AUX	O	O	O
 codifié	codifier	VERB	O	O	O
@@ -3289,8 +3395,10 @@ et	et	CCONJ	O	O	O
 son	son	DET	O	O	O
 programme	programme	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 1	1	NUM	O	O	O
-°	degré	NOUN	O	O	O
+
+°	°	PUNCT	O	O	O
 La	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
 n'	ne	ADV	O	O	O
@@ -3308,8 +3416,10 @@ est	être	AUX	O	O	O
 autre	autre	ADJ	O	O	O
 »	»	PUNCT	O	O	O
 ;	;	PUNCT	O	O	O
+
 2	2	NUM	O	O	O
-°	degré	NOUN	O	O	O
+
+°	°	PUNCT	O	O	O
 Tout	tout	ADJ	O	O	O
 ce	ce	PRON	O	O	O
 qui	qui	PRON	O	O	O
@@ -3319,8 +3429,10 @@ femme	femme	NOUN	O	O	O
 est	être	AUX	O	O	O
 féministe	féministe	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 3	3	NUM	O	O	O
-°	degré	NOUN	O	O	O
+
+°	°	PUNCT	O	O	O
 Tout	tout	ADJ	O	O	O
 l'	le	DET	O	O	O
 effort	effort	NOUN	O	O	O
@@ -3334,7 +3446,7 @@ astronomes	astronome	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 juges	juge	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-militaires	militaire	ADJ	O	O	O
+militaires	militaire	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 etc.	etc.	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -3343,10 +3455,10 @@ etc.	etc.	ADV	O	O	O
 est	être	AUX	O	O	O
 moins	moins	ADV	O	O	O
 utile	utile	ADJ	O	O	O
-523	523	NUM	O	O	O
+523	523	PRON	O	O	O
 et	et	CCONJ	O	O	O
 moins	moins	ADV	O	O	O
-beau	beau	NOUN	O	O	O
+beau	beau	ADJ	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
 geste	geste	NOUN	O	O	O
@@ -3361,8 +3473,9 @@ sein	sein	NOUN	O	O	O
 son	son	DET	O	O	O
 enfant	enfant	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 4	4	NUM	O	O	O
-°	degré	NOUN	O	O	O
+°	°	PUNCT	O	O	O
 Le	le	DET	O	O	O
 mariage	mariage	NOUN	O	O	O
 est	être	AUX	O	O	O
@@ -3373,14 +3486,17 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 le	le	DET	O	O	O
 foyer	foyer	NOUN	O	O	O
 est	être	AUX	O	O	O
 son	son	DET	O	O	O
-royaume	royaume	PROPN	O	O	O
+royaume	royaume	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 5	5	NUM	O	O	O
-°	degré	NOUN	O	O	O
+
+°	°	PUNCT	O	O	O
 La	le	DET	O	O	O
 coquetterie	coquetterie	NOUN	O	O	O
 n'	ne	ADV	O	O	O
@@ -3393,11 +3509,11 @@ un	un	DET	O	O	O
 devoir	devoir	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Plaire	plaire	NOUN	O	O	O
+Plaire	plaire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-aimer	aimer	NOUN	O	O	O
+aimer	aimer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-consoler	consoler	NOUN	O	O	O
+consoler	consoler	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 telle	tel	ADJ	O	O	O
 est	être	AUX	O	O	O
@@ -3405,8 +3521,9 @@ notre	notre	DET	O	O	O
 mission	mission	NOUN	O	O	O
 suprême	suprême	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 6	6	NUM	O	O	O
-°	degré	NOUN	O	O	O
+°	°	PUNCT	O	O	O
 Toutes	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 religions	religion	NOUN	O	O	O
@@ -3420,6 +3537,7 @@ et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
 charme	charme	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Seule	seul	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
@@ -3431,8 +3549,10 @@ enlaidi	enlaidir	VERB	O	O	O
 notre	notre	DET	O	O	O
 sexe	sexe	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 7	7	NUM	O	O	O
-°	degré	NOUN	O	O	O
+
+°	°	PUNCT	O	O	O
 L'	le	DET	O	O	O
 accomplissement	accomplissement	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -3442,17 +3562,18 @@ devoirs	devoir	NOUN	O	O	O
 nous	nous	PRON	O	O	O
 rend	rendre	VERB	O	O	O
 plus	plus	ADV	O	O	O
-heureuses	heureux	NOUN	O	O	O
+heureuses	heureux	ADJ	O	O	O
 que	que	SCONJ	O	O	O
 l'	le	DET	O	O	O
 exercice	exercice	NOUN	O	O	O
 de	de	ADP	O	O	O
 nos	notre	DET	O	O	O
-vains	vain	NOUN	O	O	O
+vains	vain	ADJ	O	O	O
 droits	droit	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 8	8	NUM	O	O	O
-°	degré	NOUN	O	O	O
+°	°	PUNCT	O	O	O
 Les	le	DET	O	O	O
 mains	main	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -3469,15 +3590,17 @@ monde	monde	NOUN	O	O	O
 n'	ne	ADV	O	O	O
 étaient	être	AUX	O	O	O
 ni	ni	CCONJ	O	O	O
-calleuses	calleuse	NOUN	O	O	O
+calleuses	calleux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 ni	ni	CCONJ	O	O	O
 tachées	tacher	VERB	O	O	O
 d'	de	ADP	O	O	O
 encre	encre	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 9	9	NUM	O	O	O
-°	degré	NOUN	O	O	O
+
+°	°	PUNCT	O	O	O
 Chez	chez	ADP	O	O	O
 la	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
@@ -3491,30 +3614,32 @@ ordres	ordre	NOUN	O	O	O
 du	de	ADP	O	O	O
 coeur	coeur	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 10	10	NUM	O	O	O
-°	degré	NOUN	O	O	O
-Rivaliser	rivaliser	NOUN	O	O	O
+
+°	°	PUNCT	O	O	O
+Rivaliser	rivaliser	VERB	O	O	O
 avec	avec	ADP	O	O	O
 l'	le	DET	O	O	O
 homme	homme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
-déchoir	déchoir	NOUN	O	O	O
+déchoir	déchoir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
 sait	savoir	VERB	O	O	O
 avec	avec	ADP	O	O	O
 quelle	quel	DET	O	O	O
-foudroyante	foudroyante	NOUN	O	O	O
-rapidité	rapiditer	VERB	O	O	O
+foudroyante	foudroyant	ADJ	O	O	O
+rapidité	rapidité	NOUN	O	O	O
 le	le	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 féminisme	féminisme	NOUN	O	O	O
 »	»	PUNCT	O	O	O
-triompha	triompha	ADJ	O	O	O
+triompha	triompher	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Dès	dès	ADP	O	O	O
@@ -3522,28 +3647,29 @@ Dès	dès	ADP	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 «	«	PUNCT	O	O	O
-députées	députer	VERB	O	O	O
+députées	député	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 quittèrent	quitter	VERB	O	O	O
-solennellement	solennellement	ADJ	O	O	O
+solennellement	solennellement	ADV	O	O	O
 et	et	CCONJ	O	O	O
 définitivement	définitivement	ADV	O	O	O
 l'	le	DET	O	O	O
 hémicycle	hémicycle	NOUN	O	O	O
 aux	à	ADP	O	O	O
-cris	cri	PROPN	O	O	O
+cris	cri	NOUN	O	O	O
 mille	mille	NUM	O	O	O
 fois	fois	NOUN	O	O	O
 répétés	répéter	VERB	O	O	O
 de	de	ADP	O	O	O
 :	:	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
-Retournez	retournez	PROPN	O	O	O
+Retournez	retourner	VERB	O	O	O
 vite	vite	ADV	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 maison	maison	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 La	le	DET	O	O	O
 soupe	soupe	NOUN	O	O	O
 est	être	AUX	O	O	O
@@ -3555,7 +3681,7 @@ brûler	brûler	VERB	O	O	O
 
 Des	un	DET	O	O	O
 magistrates	magistrate	NOUN	O	O	O
-refusèrent	refuser	ADV	O	O	O
+refusèrent	refuser	VERB	O	O	O
 de	de	ADP	O	O	O
 siéger	siéger	VERB	O	O	O
 sous	sou	ADP	O	O	O
@@ -3571,11 +3697,12 @@ pour	pour	ADP	O	O	O
 écumer	écumer	VERB	O	O	O
 le	le	DET	O	O	O
 pot	pot	NOUN	O	O	O
--	-	PUNCT	O	O	O
-au	au	ADP	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
+au	au	NOUN	O	O	O
+-	-	NOUN	O	O	O
 feu	feu	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 la	le	DET	O	O	O
 colonelle	colonel	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -3593,11 +3720,12 @@ son	son	DET	O	O	O
 petit	petit	ADJ	O	O	O
 dernier	dernier	ADJ	O	O	O
 au	au	ADP	O	O	O
-jardin	jardin	PROPN	O	O	O
+jardin	jardin	NOUN	O	O	O
 du	de	ADP	O	O	O
 Luxembourg	luxembourg	PROPN	O	O	O
 ;	;	PUNCT	O	O	O
-Coralie	coralie	NOUN	O	O	O
+
+Coralie	coralie	PROPN	O	O	O
 Mitouflet	mitouflet	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
@@ -3606,7 +3734,7 @@ Institut	institut	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 exposa	exposer	VERB	O	O	O
 au	au	ADP	O	O	O
-Salon	salon	PROPN	O	O	O
+Salon	salon	NOUN	O	O	O
 un	un	DET	O	O	O
 tableau	tableau	NOUN	O	O	O
 intitulé	intituler	VERB	O	O	O
@@ -3628,7 +3756,7 @@ avec	avec	ADP	O	O	O
 éclat	éclat	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
-fit	faire	VERB	O	O	O
+fit	faire	AUX	O	O	O
 photographier	photographier	VERB	O	O	O
 en	en	ADP	O	O	O
 train	train	NOUN	O	O	O

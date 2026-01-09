@@ -10,16 +10,16 @@ Sciences	science	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 Arts	art	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-Belles	belles	PROPN	O	O	O
--	-	PUNCT	O	O	O
-Lettres	lettres	PROPN	O	O	O
+Belles	bel	ADJ	O	O	O
+-	-	NOUN	O	O	O
+Lettres	lettre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 Secrétaire	secrétaire	NOUN	O	O	O
 perpétuel	perpétuel	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Société	société	PROPN	O	O	O
+Société	société	NOUN	O	O	O
 universelle	universel	ADJ	O	O	O
 astronomique	astronomique	ADJ	O	O	O
 fin	fin	NOUN	O	O	O
@@ -65,13 +65,13 @@ propose	proposer	VERB	O	O	O
 d'	de	ADP	O	O	O
 y	y	PRON	O	O	O
 aller	aller	VERB	O	O	O
-incognito	incognito	PRON	O	O	O
+incognito	incognito	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Le	le	DET	O	O	O
-vieil	vieux	NOUN	O	O	O
-aérostat	aérostat	ADJ	O	O	O
+vieil	vieux	ADJ	O	O	O
+aérostat	aérostat	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 a	avoir	AUX	O	O	O
 déjà	déjà	ADV	O	O	O
@@ -105,8 +105,8 @@ poids	poids	NOUN	O	O	O
 de	de	ADP	O	O	O
 deux	deux	NUM	O	O	O
 et	et	CCONJ	O	O	O
-peut	pouvoir	VERB	O	O	O
--	-	PUNCT	O	O	O
+peut	pouvoir	ADV	O	O	O
+-	-	ADV	O	O	O
 être	être	ADV	O	O	O
 même	même	ADV	O	O	O
 de	de	ADP	O	O	O
@@ -124,7 +124,7 @@ intentions	intention	NOUN	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
 domestique	domestique	NOUN	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 lui	luire	PRON	O	O	O
 donne	donne	VERB	O	O	O
@@ -134,7 +134,7 @@ de	de	ADP	O	O	O
 se	se	PRON	O	O	O
 préparer	préparer	VERB	O	O	O
 à	à	ADP	O	O	O
-l'	le	DET	O	O	O
+l'	le	PRON	O	O	O
 accompagner	accompagner	VERB	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
@@ -173,7 +173,7 @@ paquets	paquet	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 s'	se	PRON	O	O	O
-endort	endort	NOUN	O	O	O
+endort	endormir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 sans	sans	ADP	O	O	O
 avoir	avoir	VERB	O	O	O
@@ -207,12 +207,12 @@ aussi	aussi	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Au	au	ADP	O	O	O
-lever	lever	VERB	O	O	O
+lever	lever	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 aurore	aurore	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-suivant	suivre	VERB	O	O	O
+suivant	suivant	ADP	O	O	O
 un	un	DET	O	O	O
 procédé	procédé	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -227,7 +227,7 @@ par	par	ADP	O	O	O
 son	son	DET	O	O	O
 domestique	domestique	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-remplit	remplit	NOUN	O	O	O
+remplit	remplir	VERB	O	O	O
 de	de	ADP	O	O	O
 gaz	gaz	NOUN	O	O	O
 le	le	DET	O	O	O
@@ -247,7 +247,7 @@ En	en	ADP	O	O	O
 route	route	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 la	le	DET	O	O	O
-Lune	lune	NOUN	O	O	O
+Lune	lune	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -255,7 +255,7 @@ Le	le	DET	O	O	O
 ballon	ballon	NOUN	O	O	O
 l'	le	DET	O	O	O
 Intrépide	intrépide	NOUN	O	O	O
-traverse	travers	ADJ	O	O	O
+traverse	traverser	VERB	O	O	O
 un	un	DET	O	O	O
 nuage	nuage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -265,7 +265,7 @@ s'	se	PRON	O	O	O
 éloigne	éloigner	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
-Lune	lune	NOUN	O	O	O
+Lune	lune	PROPN	O	O	O
 se	se	PRON	O	O	O
 rapproche	rapprocher	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -273,9 +273,9 @@ courage	courage	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
-a	avoir	AUX	O	O	O
-mal	mal	ADV	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
+a	avoir	VERB	O	O	O
+mal	mal	NOUN	O	O	O
 au	au	ADP	O	O	O
 coeur	coeur	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -324,7 +324,7 @@ vers	vers	ADP	O	O	O
 la	le	DET	O	O	O
 surface	surface	NOUN	O	O	O
 légèrement	légèrement	ADV	O	O	O
-accidentée	accidenter	VERB	O	O	O
+accidentée	accidenté	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 Lune	lune	PROPN	O	O	O
@@ -339,7 +339,7 @@ et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
 son	son	DET	O	O	O
 domestique	domestique	NOUN	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 Lune	lune	PROPN	O	O	O
@@ -350,7 +350,7 @@ une	un	DET	O	O	O
 chance	chance	NOUN	O	O	O
 des	de	ADP	O	O	O
 plus	plus	ADV	O	O	O
-heureuses	heureux	NOUN	O	O	O
+heureuses	heureux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 vêtements	vêtement	NOUN	O	O	O
@@ -366,12 +366,12 @@ la	le	DET	O	O	O
 pointe	pointe	NOUN	O	O	O
 aiguë	aigu	ADJ	O	O	O
 du	de	ADP	O	O	O
-rocher	rocher	PROPN	O	O	O
+rocher	rocher	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 lequel	lequel	PRON	O	O	O
 il	il	PRON	O	O	O
 était	être	AUX	O	O	O
-tombé	tomber	ADJ	O	O	O
+tombé	tomber	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 lors	lors	ADV	O	O	O
 de	de	ADP	O	O	O
@@ -387,8 +387,8 @@ le	le	DET	O	O	O
 digne	digne	ADJ	O	O	O
 Président	président	NOUN	O	O	O
 était	être	AUX	O	O	O
-passablement	passablemer	VERB	O	O	O
-lourd	lourd	PROPN	O	O	O
+passablement	passablement	ADV	O	O	O
+lourd	lourd	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
 étoffe	étoffe	NOUN	O	O	O
@@ -404,7 +404,7 @@ pas	pas	ADV	O	O	O
 à	à	ADP	O	O	O
 se	se	PRON	O	O	O
 trouver	trouver	VERB	O	O	O
-désembroché	désembroché	NOUN	O	O	O
+désembroché	désembrocher	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -415,7 +415,7 @@ et	et	CCONJ	O	O	O
 sans	sans	ADP	O	O	O
 se	se	PRON	O	O	O
 préoccuper	préoccuper	VERB	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 avaries	avarie	NOUN	O	O	O
 de	de	ADP	O	O	O
 sa	son	DET	O	O	O
@@ -426,14 +426,14 @@ d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 sensation	sensation	NOUN	O	O	O
 douloureuse	douloureux	ADJ	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 il	il	PRON	O	O	O
 éprouve	éprouver	VERB	O	O	O
 dans	dans	ADP	O	O	O
 un	un	DET	O	O	O
 certain	certain	ADJ	O	O	O
 endroit	endroit	NOUN	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 il	il	PRON	O	O	O
 est	être	AUX	O	O	O
 inutile	inutile	ADJ	O	O	O
@@ -441,15 +441,15 @@ de	de	ADP	O	O	O
 nommer	nommer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 notre	notre	DET	O	O	O
-courageux	courageux	PROPN	O	O	O
-explorateur	explorateur	ADJ	O	O	O
+courageux	courageux	ADJ	O	O	O
+explorateur	explorateur	NOUN	O	O	O
 se	se	PRON	O	O	O
 met	mettre	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 recherche	recherche	NOUN	O	O	O
 de	de	ADP	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 qui	qui	PRON	O	O	O
 a	avoir	AUX	O	O	O
 totalement	totalement	ADV	O	O	O
@@ -457,14 +457,14 @@ disparu	disparaître	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Entendant	entendre	VERB	O	O	O
-de	de	ADP	O	O	O
-sourds	sourd	NOUN	O	O	O
-gémissements	gémissement	ADJ	O	O	O
+de	de	DET	O	O	O
+sourds	sourd	ADJ	O	O	O
+gémissements	gémissement	NOUN	O	O	O
 sortir	sortir	VERB	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
-étroite	étroite	NOUN	O	O	O
-crevasse	crever	VERB	O	O	O
+étroite	étroit	ADJ	O	O	O
+crevasse	crevasse	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
@@ -472,7 +472,7 @@ se	se	PRON	O	O	O
 met	mettre	VERB	O	O	O
 à	à	ADP	O	O	O
 plat	plat	ADJ	O	O	O
-ventre	ventre	VERB	O	O	O
+ventre	ventre	NOUN	O	O	O
 au	au	ADP	O	O	O
 bord	bord	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -485,8 +485,8 @@ au	au	ADP	O	O	O
 fond	fond	NOUN	O	O	O
 le	le	DET	O	O	O
 malheureux	malheureux	ADJ	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
-couché	couché	ADJ	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
+couché	coucher	VERB	O	O	O
 et	et	CCONJ	O	O	O
 à	à	ADP	O	O	O
 moitié	moitié	NOUN	O	O	O
@@ -505,10 +505,10 @@ peu	peu	ADV	O	O	O
 profonde	profond	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 s'	se	PRON	O	O	O
 étant	être	AUX	O	O	O
-aperçu	apercevoir	ADJ	O	O	O
+aperçu	apercevoir	VERB	O	O	O
 qu'	que	SCONJ	O	O	O
 un	un	DET	O	O	O
 faible	faible	ADJ	O	O	O
@@ -528,7 +528,7 @@ et	et	CCONJ	O	O	O
 avait	avoir	AUX	O	O	O
 découvert	découvrir	VERB	O	O	O
 un	un	DET	O	O	O
-étroit	étroit	NOUN	O	O	O
+étroit	étroit	ADJ	O	O	O
 passage	passage	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 lequel	lequel	PRON	O	O	O
@@ -536,7 +536,7 @@ il	il	PRON	O	O	O
 s'	se	PRON	O	O	O
 engagea	engager	VERB	O	O	O
 en	en	ADP	O	O	O
-rampant	rampant	NOUN	O	O	O
+rampant	ramper	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Malheureusement	malheureusement	ADV	O	O	O
@@ -552,7 +552,7 @@ plus	plus	ADV	O	O	O
 en	en	ADP	O	O	O
 plus	plus	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-si	si	SCONJ	O	O	O
+si	si	ADV	O	O	O
 bien	bien	ADV	O	O	O
 que	que	SCONJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -566,10 +566,10 @@ l'	le	DET	O	O	O
 ouverture	ouverture	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-infortuné	infortuné	NOUN	O	O	O
+infortuné	infortuné	ADJ	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 ne	ne	ADV	O	O	O
-put	pouvoir	ADV	O	O	O
+put	pouvoir	VERB	O	O	O
 qu'	que	ADV	O	O	O
 avec	avec	ADP	O	O	O
 bien	bien	ADV	O	O	O
@@ -591,6 +591,7 @@ de	de	ADP	O	O	O
 son	son	DET	O	O	O
 corps	corps	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 le	le	DET	O	O	O
 reste	reste	NOUN	O	O	O
@@ -616,14 +617,14 @@ parvient	parvenir	VERB	O	O	O
 arracher	arracher	VERB	O	O	O
 de	de	ADP	O	O	O
 ce	ce	DET	O	O	O
-terrier	terrier	VERB	O	O	O
+terrier	terrier	NOUN	O	O	O
 son	son	DET	O	O	O
-malheureux	malheureux	NOUN	O	O	O
-domestique	domestique	ADJ	O	O	O
+malheureux	malheureux	ADJ	O	O	O
+domestique	domestique	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Joie	joie	PRON	O	O	O
-délirante	délirante	NOUN	O	O	O
+Joie	joie	NOUN	O	O	O
+délirante	délirant	ADJ	O	O	O
 de	de	ADP	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
@@ -634,7 +635,7 @@ contrairement	contrairement	ADV	O	O	O
 l'	le	DET	O	O	O
 opinion	opinion	NOUN	O	O	O
 généralement	généralement	ADV	O	O	O
-admise	admis	ADJ	O	O	O
+admise	admettre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 croit	croire	VERB	O	O	O
 avoir	avoir	AUX	O	O	O
@@ -644,19 +645,19 @@ l'	le	DET	O	O	O
 eau	eau	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
-Lune	lune	NOUN	O	O	O
+Lune	lune	PROPN	O	O	O
 au	au	ADP	O	O	O
 fond	fond	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 espèce	espèce	NOUN	O	O	O
 de	de	ADP	O	O	O
-citerne	citern	ADJ	O	O	O
+citerne	citerne	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 laquelle	lequel	PRON	O	O	O
-Papavoine	papavoine	PRON	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 était	être	AUX	O	O	O
-tombé	tomber	ADJ	O	O	O
+tombé	tomber	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -681,10 +682,10 @@ Papavoine	papavoine	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 que	que	SCONJ	O	O	O
 cette	ce	DET	O	O	O
-prétendue	prétendu	NOUN	O	O	O
+prétendue	prétendre	ADJ	O	O	O
 eau	eau	NOUN	O	O	O
 n'	ne	ADV	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 que	que	ADV	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
@@ -704,8 +705,8 @@ de	de	ADP	O	O	O
 moules	moule	NOUN	B-NOV	O	O
 gigantesques	gigantesque	ADJ	I-NOV	O	O
 ,	,	PUNCT	O	O	O
-en	en	ADP	O	O	O
-prennent	prennent	NOUN	O	O	O
+en	en	PRON	O	O	O
+prennent	prendre	VERB	O	O	O
 chacun	chacun	PRON	O	O	O
 une	un	DET	O	O	O
 et	et	CCONJ	O	O	O
@@ -716,13 +717,13 @@ où	où	PRON	O	O	O
 ils	il	PRON	O	O	O
 puissent	pouvoir	VERB	O	O	O
 les	le	PRON	O	O	O
-faire	faire	VERB	O	O	O
-cuire	cuir	ADJ	O	O	O
+faire	faire	AUX	O	O	O
+cuire	cuire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 car	car	CCONJ	O	O	O
 la	le	DET	O	O	O
 nuit	nuit	NOUN	O	O	O
-arrive	arriv	ADJ	O	O	O
+arrive	arriver	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 Terre	terre	NOUN	O	O	O
@@ -731,10 +732,10 @@ lève	lever	VERB	O	O	O
 et	et	CCONJ	O	O	O
 leurs	leur	DET	O	O	O
 estomacs	estomac	NOUN	O	O	O
-vides	vider	VERB	O	O	O
+vides	vide	ADJ	O	O	O
 depuis	depuis	ADP	O	O	O
 longtemps	longtemps	ADV	O	O	O
-commencent	commencer	ADV	O	O	O
+commencent	commencer	VERB	O	O	O
 à	à	ADP	O	O	O
 crier	crier	VERB	O	O	O
 famine	famine	NOUN	O	O	O
@@ -743,7 +744,7 @@ famine	famine	NOUN	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 ayant	avoir	AUX	O	O	O
-aperçu	apercevoir	ADJ	O	O	O
+aperçu	apercevoir	VERB	O	O	O
 une	un	DET	O	O	O
 espèce	espèce	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -775,12 +776,12 @@ intention	intention	NOUN	O	O	O
 d'	de	ADP	O	O	O
 y	y	PRON	O	O	O
 aller	aller	VERB	O	O	O
-souper	souper	VERB	O	O	O
+souper	souper	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 coucher	coucher	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 beaucoup	beaucoup	ADV	O	O	O
@@ -797,7 +798,7 @@ le	le	PRON	O	O	O
 laisse	laisse	VERB	O	O	O
 bientôt	bientôt	ADV	O	O	O
 en	en	ADP	O	O	O
-arrière	arrière	NOUN	O	O	O
+arrière	arrière	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 car	car	CCONJ	O	O	O
 M.	m.	NOUN	O	O	O
@@ -805,7 +806,7 @@ Baboulifiche	baboulifiche	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 essoufflé	essouffler	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-tout	tout	PRON	O	O	O
+tout	tout	ADV	O	O	O
 en	en	ADP	O	O	O
 nage	nage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -822,12 +823,12 @@ moule	moule	NOUN	O	O	O
 à	à	ADP	O	O	O
 terre	terre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-c'	ce	PRON	O	O	O
+c'	ce	ADV	O	O	O
 est	est	ADV	O	O	O
--	-	PUNCT	O	O	O
+-	-	ADV	O	O	O
 à	à	ADV	O	O	O
--	-	PUNCT	O	O	O
-dire	dire	VERB	O	O	O
+-	-	ADV	O	O	O
+dire	dire	ADV	O	O	O
 à	à	ADP	O	O	O
 Lune	lune	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -851,16 +852,16 @@ la	le	DET	O	O	O
 moule	moule	NOUN	O	O	O
 s'	se	PRON	O	O	O
 entr'	entr'	VERB	O	O	O
-ouvre	ouvre	NOUN	O	O	O
+ouvre	ouvrir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 une	un	DET	O	O	O
 bête	bête	NOUN	O	O	O
 hideuse	hideux	ADJ	O	O	O
-en	en	ADP	O	O	O
-sort	sort	NOUN	O	O	O
+en	en	PRON	O	O	O
+sort	sortir	VERB	O	O	O
 et	et	CCONJ	O	O	O
 s'	se	PRON	O	O	O
-élance	élance	NOUN	O	O	O
+élance	élancer	VERB	O	O	O
 vers	vers	ADP	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
@@ -884,16 +885,16 @@ très	très	ADV	O	O	O
 grandes	grand	ADJ	O	O	O
 dispositions	disposition	NOUN	O	O	O
 à	à	ADP	O	O	O
-fuir	fuir	NOUN	O	O	O
+fuir	fuir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Pendant	pendant	ADP	O	O	O
 que	que	SCONJ	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
-court	court	ADJ	O	O	O
+court	courir	VERB	O	O	O
 à	à	ADP	O	O	O
-toutes	tout	ADJ	O	O	O
+toutes	tout	DET	O	O	O
 jambes	jambe	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 aller	aller	VERB	O	O	O
@@ -904,8 +905,8 @@ les	le	DET	O	O	O
 ruines	ruine	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 son	son	DET	O	O	O
-malheureux	malheureux	NOUN	O	O	O
-domestique	domestique	ADJ	O	O	O
+malheureux	malheureux	ADJ	O	O	O
+domestique	domestique	NOUN	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 est	être	AUX	O	O	O
 de	de	ADP	O	O	O
@@ -943,7 +944,7 @@ côté	côté	NOUN	O	O	O
 lorsque	lorsque	SCONJ	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 il	il	PRON	O	O	O
 se	se	PRON	O	O	O
 sentit	sentir	VERB	O	O	O
@@ -969,7 +970,7 @@ lui	luire	PRON	O	O	O
 Avec	avec	ADP	O	O	O
 une	un	DET	O	O	O
 peine	peine	NOUN	O	O	O
-inouïe	inouï	VERB	O	O	O
+inouïe	inouï	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
@@ -977,10 +978,10 @@ parvient	parvenir	VERB	O	O	O
 enfin	enfin	ADV	O	O	O
 à	à	ADP	O	O	O
 retirer	retirer	VERB	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 de	de	ADP	O	O	O
 sa	son	DET	O	O	O
-cruelle	cruelle	NOUN	O	O	O
+cruelle	cruel	ADJ	O	O	O
 situation	situation	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -993,20 +994,20 @@ valet	valet	NOUN	O	O	O
 essaient	essayer	VERB	O	O	O
 ensuite	ensuite	ADV	O	O	O
 d'	de	ADP	O	O	O
-extraire	extraire	NOUN	O	O	O
+extraire	extraire	VERB	O	O	O
 de	de	ADP	O	O	O
 sa	son	DET	O	O	O
-coquille	coquill	ADJ	O	O	O
+coquille	coquille	NOUN	O	O	O
 la	le	DET	O	O	O
 bête	bête	NOUN	O	O	O
-enragée	enrager	VERB	O	O	O
+enragée	enragé	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 une	un	DET	O	O	O
 patte	patte	NOUN	O	O	O
 de	de	ADP	O	O	O
 celle	celui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ci	ci	PRON	O	O	O
 casse	casser	VERB	O	O	O
 et	et	CCONJ	O	O	O
@@ -1029,7 +1030,7 @@ feu	feu	NOUN	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 et	et	CCONJ	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 embrochent	embrocher	VERB	O	O	O
 la	le	DET	O	O	O
 bête	bête	NOUN	O	O	O
@@ -1037,13 +1038,13 @@ et	et	CCONJ	O	O	O
 se	se	PRON	O	O	O
 complaisent	complaire	VERB	O	O	O
 à	à	ADP	O	O	O
-la	le	DET	O	O	O
+la	le	PRON	O	O	O
 voir	voir	VERB	O	O	O
-griller	griller	ADJ	O	O	O
+griller	griller	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Après	après	ADP	O	O	O
-souper	souper	VERB	O	O	O
+souper	souper	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 avant	avant	ADP	O	O	O
 de	de	ADP	O	O	O
@@ -1054,7 +1055,7 @@ sommeil	sommeil	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
-juge	juge	NOUN	O	O	O
+juge	juger	VERB	O	O	O
 prudent	prudent	ADJ	O	O	O
 d'	de	ADP	O	O	O
 aller	aller	VERB	O	O	O
@@ -1074,7 +1075,7 @@ Il	il	PRON	O	O	O
 sort	sortir	VERB	O	O	O
 donc	donc	ADV	O	O	O
 avec	avec	ADP	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 se	se	PRON	O	O	O
 trouve	trouver	VERB	O	O	O
@@ -1094,7 +1095,7 @@ eux	lui	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Frayeur	frayeur	PROPN	O	O	O
+Frayeur	frayeur	NOUN	O	O	O
 générale	général	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -1107,14 +1108,14 @@ la	le	DET	O	O	O
 baïonnette	baïonnette	NOUN	O	O	O
 avec	avec	ADP	O	O	O
 son	son	DET	O	O	O
-parapluie	paraplui	ADJ	O	O	O
+parapluie	parapluie	NOUN	O	O	O
 tandis	tandis	ADV	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
-pauvre	pauvre	NOUN	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+pauvre	pauvre	ADJ	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 tout	tout	ADV	O	O	O
-tremblant	trembler	VERB	O	O	O
+tremblant	tremblant	ADJ	O	O	O
 se	se	PRON	O	O	O
 cache	cache	VERB	O	O	O
 derrière	derrière	ADP	O	O	O
@@ -1122,7 +1123,7 @@ son	son	DET	O	O	O
 maître	maître	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Prenant	prenant	NOUN	O	O	O
+Prenant	prendre	VERB	O	O	O
 courageusement	courageusement	ADV	O	O	O
 leurs	leur	DET	O	O	O
 jambes	jambe	NOUN	O	O	O
@@ -1137,7 +1138,7 @@ Papavoine	papavoine	PROPN	O	O	O
 avaient	avoir	AUX	O	O	O
 cherché	chercher	VERB	O	O	O
 leur	son	DET	O	O	O
-salut	salut	VERB	O	O	O
+salut	salut	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 fuite	fuite	NOUN	O	O	O
@@ -1147,7 +1148,7 @@ tous	tout	ADJ	O	O	O
 leurs	leur	DET	O	O	O
 efforts	effort	NOUN	O	O	O
 furent	être	AUX	O	O	O
-inutiles	inutiler	VERB	O	O	O
+inutiles	inutile	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 De	de	ADP	O	O	O
@@ -1155,30 +1156,30 @@ tous	tout	DET	O	O	O
 côtés	côté	NOUN	O	O	O
 ils	il	PRON	O	O	O
 rencontraient	rencontrer	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 légions	légion	NOUN	O	O	O
 de	de	ADP	O	O	O
 bêtes	bête	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 toutes	tout	ADJ	O	O	O
 plus	plus	ADV	O	O	O
-affreuses	affreux	NOUN	O	O	O
+affreuses	affreux	ADJ	O	O	O
 les	le	DET	O	O	O
-unes	une	NOUN	O	O	O
+unes	une	ADJ	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
-autres	autre	ADJ	O	O	O
+autres	autre	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 qui	qui	PRON	O	O	O
 semblaient	sembler	VERB	O	O	O
 les	le	PRON	O	O	O
 regarder	regarder	VERB	O	O	O
 avec	avec	ADP	O	O	O
-convoitise	convoitise	VERB	O	O	O
+convoitise	convoitise	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Croyant	croyant	NOUN	O	O	O
+Croyant	croire	VERB	O	O	O
 bien	bien	ADV	O	O	O
 leur	son	DET	O	O	O
 dernière	dernier	ADJ	O	O	O
@@ -1194,8 +1195,8 @@ fléchir	fléchir	VERB	O	O	O
 sous	sou	ADP	O	O	O
 lui	luire	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-tombe	tombe	NOUN	O	O	O
-assis	assis	ADJ	O	O	O
+tombe	tombe	VERB	O	O	O
+assis	asseoir	VERB	O	O	O
 et	et	CCONJ	O	O	O
 se	se	PRON	O	O	O
 cache	cache	VERB	O	O	O
@@ -1268,7 +1269,7 @@ ne	ne	ADV	O	O	O
 pas	pas	ADV	O	O	O
 voir	voir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 vient	venir	VERB	O	O	O
 se	se	PRON	O	O	O
 réfugier	réfugier	VERB	O	O	O
@@ -1281,7 +1282,7 @@ reproche	reproche	VERB	O	O	O
 de	de	ADP	O	O	O
 l'	le	PRON	O	O	O
 avoir	avoir	AUX	O	O	O
-stupidement	stupidemer	VERB	O	O	O
+stupidement	stupidement	ADV	O	O	O
 entraîné	entraîner	VERB	O	O	O
 dans	dans	ADP	O	O	O
 ce	ce	DET	O	O	O
@@ -1290,21 +1291,23 @@ voyage	voyage	NOUN	O	O	O
 où	où	PRON	O	O	O
 ils	il	PRON	O	O	O
 vont	aller	VERB	O	O	O
+
 tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
-deux	deux	NUM	O	O	O
+deux	deux	PRON	O	O	O
 trouver	trouver	VERB	O	O	O
 la	le	DET	O	O	O
 mort	mort	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 servir	servir	VERB	O	O	O
 de	de	ADP	O	O	O
-dîner	dîner	VERB	O	O	O
+dîner	dîner	NOUN	O	O	O
 à	à	ADP	O	O	O
 de	de	DET	O	O	O
-sales	sale	NOUN	O	O	O
-bêtes	bête	ADJ	O	O	O
+sales	sale	ADJ	O	O	O
+bêtes	bête	NOUN	O	O	O
 inconnues	inconnu	ADJ	O	O	O
+
 .	.	PUNCT	O	O	O
 
 Au	au	ADP	O	O	O
@@ -1314,7 +1317,7 @@ quelques	quelque	DET	O	O	O
 minutes	minute	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 lui	luire	PRON	O	O	O
-parurent	paraître	ADV	O	O	O
+parurent	paraître	VERB	O	O	O
 fort	fort	ADV	O	O	O
 longues	long	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1327,7 +1330,7 @@ n'	ne	ADV	O	O	O
 était	être	AUX	O	O	O
 pas	pas	ADV	O	O	O
 encore	encore	ADV	O	O	O
-dévoré	dévorer	ADJ	O	O	O
+dévoré	dévorer	VERB	O	O	O
 et	et	CCONJ	O	O	O
 que	que	SCONJ	O	O	O
 rien	rien	PRON	O	O	O
@@ -1373,22 +1376,22 @@ Papavoine	papavoine	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 moitié	moitié	NOUN	O	O	O
-mort	mort	NOUN	O	O	O
+mort	mort	ADJ	O	O	O
 de	de	ADP	O	O	O
 peur	peur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
-courageux	courageux	PROPN	O	O	O
+courageux	courageux	ADJ	O	O	O
 Président	président	NOUN	O	O	O
 s'	se	PRON	O	O	O
 en	en	PRON	O	O	O
-fut	être	AUX	O	O	O
+fut	être	VERB	O	O	O
 observer	observer	VERB	O	O	O
 de	de	ADP	O	O	O
 plus	plus	ADV	O	O	O
 près	près	ADV	O	O	O
 ces	ce	DET	O	O	O
-hideux	hideu	NOUN	O	O	O
+hideux	hideux	ADJ	O	O	O
 animaux	animal	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 son	son	DET	O	O	O
@@ -1401,7 +1404,7 @@ ils	il	PRON	O	O	O
 étaient	être	AUX	O	O	O
 tous	tout	ADJ	O	O	O
 parfaitement	parfaitement	ADV	O	O	O
-pétrifiés	pétrifier	ADJ	O	O	O
+pétrifiés	pétrifier	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -1410,18 +1413,18 @@ Baboulifiche	baboulifiche	PROPN	O	O	O
 le	le	PRON	O	O	O
 fut	être	AUX	O	O	O
 lui	luire	PRON	O	O	O
--	-	PUNCT	O	O	O
-même	même	ADV	O	O	O
+-	-	PRON	O	O	O
+même	même	PRON	O	O	O
 pendant	pendant	ADP	O	O	O
 quelques	quelque	DET	O	O	O
 moments	moment	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-tant	tant	ADV	O	O	O
+tant	tant	SCONJ	O	O	O
 sa	son	DET	O	O	O
 découverte	découverte	NOUN	O	O	O
 lui	luire	PRON	O	O	O
-parut	paraître	PROPN	O	O	O
-bizarre	bizarre	PROPN	O	O	O
+parut	paraître	VERB	O	O	O
+bizarre	bizarre	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1449,9 +1452,9 @@ oiseau	oiseau	NOUN	O	O	O
 en	en	ADP	O	O	O
 s'	se	PRON	O	O	O
 écriant	écrier	VERB	O	O	O
-joyeusement	joyeusement	NOUN	O	O	O
+joyeusement	joyeusement	ADV	O	O	O
 :	:	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 Sac	sac	NOUN	O	O	O
 à	à	ADP	O	O	O
 papier	papier	NOUN	O	O	O
@@ -1462,8 +1465,8 @@ nous	nous	PRON	O	O	O
 sommes	être	AUX	O	O	O
 sauvés	sauver	VERB	O	O	O
 !	!	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 Encouragé	encourager	VERB	O	O	O
 par	par	ADP	O	O	O
@@ -1498,25 +1501,25 @@ suite	suite	NOUN	O	O	O
 de	de	ADP	O	O	O
 cet	ce	DET	O	O	O
 exercice	exercice	NOUN	O	O	O
-équestre	équestre	ADV	O	O	O
+équestre	équestre	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 maître	maître	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
 serviteur	serviteur	NOUN	O	O	O
-regagnèrent	regagnèrent	NOUN	O	O	O
+regagnèrent	regagner	VERB	O	O	O
 leur	son	DET	O	O	O
 logis	logis	NOUN	O	O	O
 où	où	PRON	O	O	O
 ils	il	PRON	O	O	O
 passèrent	passer	VERB	O	O	O
-paisiblement	paisiblement	NOUN	O	O	O
+paisiblement	paisiblement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 un	un	DET	O	O	O
 peu	peu	ADV	O	O	O
-durement	duremer	VERB	O	O	O
+durement	durement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 reste	reste	NOUN	O	O	O
@@ -1552,13 +1555,13 @@ et	et	CCONJ	O	O	O
 une	un	DET	O	O	O
 femme	femme	NOUN	O	B-NOV	O
 lunaires	lunaire	ADJ	I-NOV	I-NOV	O
-couchés	couché	ADJ	O	O	O
+couchés	coucher	VERB	O	O	O
 au	au	ADP	O	O	O
 pied	pied	NOUN	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
-superbe	superbe	NOUN	O	O	O
-colonne	colonn	ADJ	O	O	O
+superbe	superbe	ADJ	O	O	O
+colonne	colonne	NOUN	O	O	O
 incrustée	incruster	VERB	O	O	O
 d'	de	ADP	O	O	O
 or	or	NOUN	O	O	O
@@ -1572,7 +1575,7 @@ précieuses	précieux	ADJ	O	O	O
 Grand	grand	ADJ	O	O	O
 fut	être	AUX	O	O	O
 d'	de	ADP	O	O	O
-abord	abord	ADV	O	O	O
+abord	abord	NOUN	O	O	O
 l'	le	DET	O	O	O
 émoi	émoi	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1592,7 +1595,7 @@ personnages	personnage	NOUN	O	O	O
 pétrifiés	pétrifier	VERB	O	O	O
 et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	ADJ	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 conclut	conclure	VERB	O	O	O
@@ -1601,14 +1604,14 @@ ce	ce	DET	O	O	O
 fait	fait	NOUN	O	O	O
 qu'	que	SCONJ	O	O	O
 une	un	DET	O	O	O
-mer	mer	ADJ	O	O	O
-pétrifiante	pétrifiante	NOUN	O	O	O
+mer	mer	NOUN	B-NOV	O	O
+pétrifiante	pétrifiant	ADJ	O	O	O
 avait	avoir	AUX	O	O	O
 dû	devoir	VERB	O	O	O
-envahir	envahir	ADJ	O	O	O
-subitement	subitement	NOUN	O	O	O
+envahir	envahir	VERB	O	O	O
+subitement	subitement	ADV	O	O	O
 ces	ce	DET	O	O	O
-terrains	terrain	ADV	O	O	O
+terrains	terrain	NOUN	O	O	O
 peu	peu	ADV	O	O	O
 élevés	élevé	ADJ	O	O	O
 .	.	PUNCT	O	O	O
@@ -1620,8 +1623,8 @@ craignant	craindre	VERB	O	O	O
 d'	de	ADP	O	O	O
 être	être	AUX	O	O	O
 eux	lui	PRON	O	O	O
--	-	PUNCT	O	O	O
-mêmes	même	ADJ	O	O	O
+-	-	PRON	O	O	O
+mêmes	même	ADV	O	O	O
 victimes	victime	NOUN	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
@@ -1632,7 +1635,7 @@ nos	notre	DET	O	O	O
 deux	deux	NUM	O	O	O
 explorateurs	explorateur	NOUN	O	O	O
 se	se	PRON	O	O	O
-hâtèrent	hâtèrent	NOUN	O	O	O
+hâtèrent	hâter	VERB	O	O	O
 de	de	ADP	O	O	O
 se	se	PRON	O	O	O
 diriger	diriger	VERB	O	O	O
@@ -1648,9 +1651,9 @@ le	le	DET	O	O	O
 temps	temps	NOUN	O	O	O
 de	de	ADP	O	O	O
 détacher	détacher	VERB	O	O	O
-quelques	quelque	ADJ	O	O	O
--	-	PUNCT	O	O	O
-unes	une	ADJ	O	O	O
+quelques	quelque	DET	O	O	O
+-	-	NOUN	O	O	O
+unes	un	PRON	O	O	O
 des	de	ADP	O	O	O
 pierres	pierre	NOUN	O	O	O
 précieuses	précieux	ADJ	O	O	O
@@ -1666,9 +1669,9 @@ plateaux	plateau	NOUN	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 et	et	CCONJ	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
-éprouvent	éprouver	ADV	O	O	O
-de	de	ADP	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
+éprouvent	éprouver	VERB	O	O	O
+de	de	DET	O	O	O
 grandes	grand	ADJ	O	O	O
 difficultés	difficulté	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1685,7 +1688,7 @@ mal	mal	NOUN	O	O	O
 gravir	gravir	VERB	O	O	O
 ces	ce	DET	O	O	O
 pentes	pente	NOUN	O	O	O
-escarpées	escarper	VERB	O	O	O
+escarpées	escarpé	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Après	après	ADP	O	O	O
@@ -1716,7 +1719,7 @@ de	de	ADP	O	O	O
 fatigue	fatigue	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	PRON	O	O	O
-assied	asseoir	INTJ	O	O	O
+assied	asseoir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 sans	sans	ADP	O	O	O
 y	y	PRON	O	O	O
@@ -1732,7 +1735,7 @@ tortue	tortue	NOUN	O	O	O
 pendant	pendant	ADP	O	O	O
 que	que	SCONJ	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
-admire	admire	NOUN	O	O	O
+admire	admirer	VERB	O	O	O
 les	le	DET	O	O	O
 fleurs	fleur	NOUN	B-NOV	O	O
 lunaires	lunaire	ADJ	I-NOV	O	O
@@ -1744,14 +1747,14 @@ de	de	ADP	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 ayant	avoir	AUX	O	O	O
-remué	remué	NOUN	O	O	O
+remué	remuer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 celui	celui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ci	ci	PRON	O	O	O
 se	se	PRON	O	O	O
 releva	relever	VERB	O	O	O
-prestement	prestement	ADJ	O	O	O
+prestement	prestement	ADV	O	O	O
 et	et	CCONJ	O	O	O
 se	se	PRON	O	O	O
 remit	remettre	VERB	O	O	O
@@ -1778,7 +1781,7 @@ véritable	véritable	ADJ	O	O	O
 essaim	essaim	NOUN	O	O	O
 d'	de	ADP	O	O	O
 araignées	araignée	NOUN	O	O	O
-volantes	volant	NOUN	O	O	O
+volantes	volante	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 se	se	PRON	O	O	O
@@ -1798,16 +1801,16 @@ parapluie	parapluie	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
-parvient	parvient	NOUN	O	O	O
+parvient	parvenir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 après	après	ADP	O	O	O
 un	un	DET	O	O	O
 combat	combat	NOUN	O	O	O
-acharné	acharné	NOUN	O	O	O
+acharné	acharné	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 débarrasser	débarrasser	VERB	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 énorme	énorme	ADJ	O	O	O
@@ -1823,7 +1826,7 @@ dos	dos	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
-deux	deux	NUM	O	O	O
+deux	deux	PRON	O	O	O
 se	se	PRON	O	O	O
 hâtent	hâter	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -1831,12 +1834,12 @@ quitter	quitter	VERB	O	O	O
 ces	ce	DET	O	O	O
 parages	parage	NOUN	O	O	O
 mal	mal	ADV	O	O	O
-habités	habiter	VERB	O	O	O
+habités	habité	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Après	après	ADP	O	O	O
 avoir	avoir	AUX	O	O	O
-marché	marché	NOUN	O	O	O
+marché	marcher	VERB	O	O	O
 pendant	pendant	ADP	O	O	O
 quelque	quelque	DET	O	O	O
 temps	temps	NOUN	O	O	O
@@ -1847,14 +1850,14 @@ autant	autant	ADV	O	O	O
 que	que	SCONJ	O	O	O
 possible	possible	ADJ	O	O	O
 le	le	DET	O	O	O
-dangereux	dangereux	PROPN	O	O	O
+dangereux	dangereux	ADJ	O	O	O
 voisinage	voisinage	NOUN	O	O	O
 de	de	ADP	O	O	O
 volcans	volcan	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 leur	son	PRON	O	O	O
-lançaient	lançaient	NOUN	O	O	O
-des	de	ADP	O	O	O
+lançaient	lancer	VERB	O	O	O
+des	un	DET	O	O	O
 pierres	pierre	NOUN	O	O	O
 énormes	énorme	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1864,7 +1867,7 @@ voyageurs	voyageur	NOUN	O	O	O
 aperçoivent	apercevoir	VERB	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 un	un	DET	O	O	O
 astronome	astronome	NOUN	O	O	O
 lunaire	lunaire	ADJ	O	O	O
@@ -1873,7 +1876,7 @@ train	train	NOUN	O	O	O
 d'	de	ADP	O	O	O
 étudier	étudier	VERB	O	O	O
 la	le	DET	O	O	O
-Terre	terre	NOUN	O	O	O
+Terre	terre	PROPN	O	O	O
 avec	avec	ADP	O	O	O
 un	un	DET	O	O	O
 télescope	télescope	NOUN	O	O	O
@@ -1907,8 +1910,8 @@ s'	se	PRON	O	O	O
 en	en	PRON	O	O	O
 servir	servir	VERB	O	O	O
 lui	luire	PRON	O	O	O
--	-	PUNCT	O	O	O
-même	même	ADV	O	O	O
+-	-	PRON	O	O	O
+même	même	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 afin	afin	ADV	O	O	O
 d'	de	ADP	O	O	O
@@ -1943,7 +1946,7 @@ les	le	DET	O	O	O
 confrères	confrère	NOUN	O	O	O
 de	de	ADP	O	O	O
 celui	celui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ci	ci	PRON	O	O	O
 se	se	PRON	O	O	O
 hâtent	hâter	VERB	O	O	O
@@ -1959,37 +1962,38 @@ les	le	DET	O	O	O
 étrangers	étranger	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Mh	mh	PROPN	O	O	O
+Mh	mh	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 D'	de	ADP	O	O	O
-Oth	oth	NOUN	O	O	O
+Oth	oth	PROPN	O	O	O
 0	0	NUM	O	O	O
+-	-	NOUN	O	O	O
+2=10	2=10	NOUN	O	O	O
+R	r	PROPN	O	O	O
+u	u	PROPN	O	O	O
+Xi	xi	PROPN	O	O	O
+
 -	-	PUNCT	O	O	O
-2=10	2=10	NUM	O	O	O
-R	r	NOUN	O	O	O
-u	u	ADP	O	O	O
-Xi	xi	NUM	O	O	O
-SPACE	O	O	O
+
+M	m	PROPN	O	O	O
+
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
-M	m	NOUN	O	O	O
-SPACE	O	O	O
+
+IK	ik	PROPN	O	O	O
+
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
-IK	ik	NOUN	O	O	O
-SPACE	O	O	O
--	-	PUNCT	O	O	O
-SPACE	O	O	O
+
 Q2	q2	NOUN	O	O	O
-V	v	ADJ	O	O	O
+V	v	NOUN	O	O	O
 +	plus	ADP	O	O	O
 2	2	NUM	O	O	O
 K	k	NOUN	O	O	O
-SPACE	O	O	O
+
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
-u	u	ADP	O	O	O
+
+u	u	PUNCT	O	O	O
+
 Ayant	avoir	AUX	O	O	O
 bientôt	bientôt	ADV	O	O	O
 reconnu	reconnaître	VERB	O	O	O
@@ -1997,7 +2001,7 @@ que	que	SCONJ	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 et	et	CCONJ	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 ne	ne	ADV	O	O	O
 sont	être	AUX	O	O	O
 pas	pas	ADV	O	O	O
@@ -2005,7 +2009,7 @@ dangereux	dangereux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 Lunaires	lunaire	NOUN	O	O	O
-les	le	DET	O	O	O
+les	le	PRON	O	O	O
 invitent	inviter	VERB	O	O	O
 à	à	ADP	O	O	O
 aller	aller	VERB	O	O	O
@@ -2016,7 +2020,7 @@ observatoires	observatoire	NOUN	O	O	O
 où	où	PRON	O	O	O
 ils	il	PRON	O	O	O
 les	le	PRON	O	O	O
-font	faire	VERB	O	O	O
+font	faire	AUX	O	O	O
 assister	assister	VERB	O	O	O
 à	à	ADP	O	O	O
 un	un	DET	O	O	O
@@ -2024,6 +2028,7 @@ cours	cours	NOUN	O	O	O
 d'	de	ADP	O	O	O
 astronomie	astronomie	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 pendant	pendant	ADP	O	O	O
 lequel	lequel	PRON	O	O	O
 un	un	PRON	O	O	O
@@ -2034,7 +2039,7 @@ ayant	avoir	AUX	O	O	O
 commis	commettre	VERB	O	O	O
 une	un	DET	O	O	O
 énorme	énorme	ADJ	O	O	O
-sottise	sottis	ADJ	O	O	O
+sottise	sottise	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
@@ -2054,7 +2059,7 @@ poitrine	poitrine	NOUN	O	O	O
 les	le	DET	O	O	O
 insignes	insigne	NOUN	O	O	O
 du	de	ADP	O	O	O
-Poireau	poireau	PROPN	O	O	O
+Poireau	poireau	NOUN	O	O	O
 mal	mal	ADV	O	O	O
 venu	venir	VERB	O	O	O
 .	.	PUNCT	O	O	O
@@ -2075,8 +2080,8 @@ Baboulifiche	baboulifiche	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 sont	être	AUX	O	O	O
-horriblement	horriblemer	VERB	O	O	O
-effrayés	effrayé	ADJ	O	O	O
+horriblement	horriblement	ADV	O	O	O
+effrayés	effrayer	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 vue	vue	NOUN	O	O	O
@@ -2110,7 +2115,7 @@ lunaire	lunaire	ADJ	I-NOV	O	O
 qui	qui	PRON	O	O	O
 s'	se	PRON	O	O	O
 en	en	PRON	O	O	O
-empare	empar	ADJ	O	O	O
+empare	emparer	VERB	O	O	O
 et	et	CCONJ	O	O	O
 se	se	PRON	O	O	O
 promène	promener	VERB	O	O	O
@@ -2136,7 +2141,7 @@ voient	voir	VERB	O	O	O
 arriver	arriver	VERB	O	O	O
 sur	sur	ADP	O	O	O
 eux	lui	PRON	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 soldats	soldat	NOUN	B-NOV	O	O
 aériens	aérien	ADJ	I-NOV	O	O
 lunaires	lunaire	ADJ	I-NOV	O	O
@@ -2150,7 +2155,7 @@ voltigeurs	voltigeur	NOUN	O	O	O
 d'	de	ADP	O	O	O
 élite	élite	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-munis	munir	ADJ	O	O	O
+munis	munir	VERB	O	O	O
 d'	de	ADP	O	O	O
 ailes	aile	NOUN	O	O	O
 mises	mettre	VERB	O	O	O
@@ -2168,12 +2173,12 @@ portent	porter	VERB	O	O	O
 leur	son	DET	O	O	O
 ceinture	ceinture	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-effraient	effrayer	ADV	O	O	O
+effraient	effrayer	VERB	O	O	O
 tellement	tellement	ADV	O	O	O
 le	le	DET	O	O	O
 malheureux	malheureux	ADJ	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
-qu'	que	PRON	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
+qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 tombe	tombe	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -2182,22 +2187,21 @@ en	en	ADP	O	O	O
 s'	se	PRON	O	O	O
 écriant	écrier	VERB	O	O	O
 :	:	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
-O	o	NOUN	O	O	O
+O	o	INTJ	O	O	O
 mon	mon	DET	O	O	O
 maître	maître	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 dans	dans	ADP	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 quel	quel	DET	O	O	O
 chien	chien	NOUN	O	O	O
 de	de	ADP	O	O	O
 pays	pays	NOUN	O	O	O
 m'	me	PRON	O	O	O
 avez	avoir	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 conduit	conduire	VERB	O	O	O
 !	!	PUNCT	O	O	O
@@ -2208,15 +2212,15 @@ y	y	PRON	O	O	O
 rencontrons	rencontrer	VERB	O	O	O
 à	à	ADP	O	O	O
 chaque	chaque	DET	O	O	O
-pas	pas	ADV	O	O	O
-que	que	SCONJ	O	O	O
+pas	pas	NOUN	O	O	O
+que	que	ADV	O	O	O
 des	un	DET	O	O	O
 dangers	danger	NOUN	O	O	O
 successifs	successif	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 des	un	DET	O	O	O
-«	«	NOUN	O	O	O
-émotions	émotion	ADJ	O	O	O
+«	«	PUNCT	O	O	O
+émotions	émotion	NOUN	O	O	O
 épouvantables	épouvantable	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -2229,16 +2233,16 @@ un	un	DET	O	O	O
 tas	tas	NOUN	O	O	O
 de	de	ADP	O	O	O
 voleurs	voleur	NOUN	O	O	O
-ailés	ailer	VERB	O	O	O
+ailés	ailé	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-terriblement	terriblement	NOUN	O	O	O
-armés	armé	ADJ	O	O	O
+terriblement	terriblement	ADV	O	O	O
+armés	armer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Grâce	grâce	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-«	«	NUM	O	O	O
+«	«	PUNCT	O	O	O
 messieurs	monsieur	NOUN	O	O	O
 les	le	DET	O	O	O
 voleurs	voleur	NOUN	O	O	O
@@ -2247,20 +2251,20 @@ ne	ne	ADV	O	O	O
 nous	nous	PRON	O	O	O
 faites	faire	VERB	O	O	O
 pas	pas	ADV	O	O	O
-de	de	ADP	O	O	O
+de	de	DET	O	O	O
 mal	mal	NOUN	O	O	O
 !	!	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
-—	—	DET	O	O	O
+—	—	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 totalement	totalement	ADV	O	O	O
-abruti	abrutir	VERB	O	O	O
+abruti	abruti	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 reste	reste	VERB	O	O	O
-étalé	étaler	ADJ	O	O	O
+étalé	étaler	VERB	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 sol	sol	NOUN	O	O	O
@@ -2283,12 +2287,12 @@ combien	combien	ADV	O	O	O
 son	son	DET	O	O	O
 silence	silence	NOUN	O	O	O
 est	être	AUX	O	O	O
-éloquent	éloquent	ADV	O	O	O
+éloquent	éloquent	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
 lanciers	lancier	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 voltigeurs	voltigeur	NOUN	O	O	O
 ayant	avoir	AUX	O	O	O
 passé	passer	VERB	O	O	O
@@ -2297,6 +2301,7 @@ leur	son	PRON	O	O	O
 faire	faire	VERB	O	O	O
 aucun	aucun	DET	O	O	O
 mal	mal	NOUN	O	O	O
+
 ,	,	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
@@ -2353,20 +2358,20 @@ comment	comment	ADV	O	O	O
 à	à	ADP	O	O	O
 ce	ce	DET	O	O	O
 nouveau	nouveau	ADJ	O	O	O
-danger	danger	VERB	O	O	O
+danger	danger	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ils	il	PRON	O	O	O
 imaginent	imaginer	VERB	O	O	O
 d'	de	ADP	O	O	O
-enfourcher	enfourcher	NOUN	O	O	O
-d'	de	ADP	O	O	O
-énormes	énorme	NOUN	B-NOV	O	O
-chauves	chauve	ADJ	I-NOV	O	O
--	-	PUNCT	I-NOV	O	O
-souris	souris	ADJ	I-NOV	O	O
+enfourcher	enfourcher	VERB	O	O	O
+d'	de	DET	O	O	O
+énormes	énorme	ADJ	B-NOV	O	O
+chauves	chauve	NOUN	I-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+souris	souris	NOUN	I-NOV	O	O
 qui	qui	PRON	O	O	O
 les	le	PRON	O	O	O
-entraînent	entraînent	NOUN	O	O	O
+entraînent	entraîner	VERB	O	O	O
 hors	hors	ADP	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
@@ -2375,7 +2380,7 @@ et	et	CCONJ	O	O	O
 s'	se	PRON	O	O	O
 envolent	envoler	VERB	O	O	O
 en	en	ADP	O	O	O
-les	le	DET	O	O	O
+les	le	PRON	O	O	O
 emportant	emporter	VERB	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
@@ -2404,7 +2409,7 @@ dos	dos	NOUN	O	O	O
 des	de	ADP	O	O	O
 chauves	chauve	NOUN	B-NOV	O	O
 -	-	NOUN	I-NOV	O	O
-souris	souris	ADJ	I-NOV	O	O
+souris	souris	NOUN	I-NOV	O	O
 lunaires	lunaire	ADJ	I-NOV	O	O
 .	.	PUNCT	O	O	O
 
@@ -2412,17 +2417,17 @@ Malheureusement	malheureusement	ADV	O	O	O
 pour	pour	ADP	O	O	O
 nos	notre	DET	O	O	O
 pauvres	pauvre	ADJ	O	O	O
-voyageurs	voyageur	ADJ	O	O	O
+voyageurs	voyageur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 chauves	chauve	NOUN	O	O	O
--	-	PUNCT	O	O	O
-souris	souris	ADJ	O	O	O
+-	-	NOUN	O	O	O
+souris	souris	NOUN	O	O	O
 attirées	attirer	VERB	O	O	O
 par	par	ADP	O	O	O
 la	le	DET	O	O	O
-vive	vive	NOUN	O	O	O
-clarté	clarté	ADJ	O	O	O
+vive	vif	ADJ	O	O	O
+clarté	clarté	NOUN	O	O	O
 des	de	ADP	O	O	O
 astres	astre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2432,12 +2437,12 @@ rapidement	rapidement	ADV	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 flamboyante	flamboyant	ADJ	O	O	O
-comète	comèt	ADJ	O	O	O
+comète	comète	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 commence	commencer	VERB	O	O	O
 à	à	ADP	O	O	O
-les	le	DET	O	O	O
-chauffer	chauffer	NOUN	O	O	O
+les	le	PRON	O	O	O
+chauffer	chauffer	VERB	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 manière	manière	NOUN	O	O	O
@@ -2445,19 +2450,19 @@ terrible	terrible	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 fait	faire	VERB	O	O	O
 les	le	DET	O	O	O
 voeux	voeu	NOUN	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-ardents	ardent	NOUN	O	O	O
+ardents	ardent	ADJ	O	O	O
 pour	pour	ADP	O	O	O
 que	que	SCONJ	O	O	O
 sa	son	DET	O	O	O
 monture	monture	NOUN	O	O	O
-le	le	DET	O	O	O
-ramène	ramène	NOUN	O	O	O
+le	le	PRON	O	O	O
+ramène	ramener	VERB	O	O	O
 enfin	enfin	ADV	O	O	O
 sur	sur	ADP	O	O	O
 son	son	DET	O	O	O
@@ -2467,8 +2472,8 @@ natal	natal	ADJ	O	O	O
 
 Les	le	DET	O	O	O
 chauves	chauve	NOUN	O	O	O
--	-	PUNCT	O	O	O
-souris	sourire	VERB	O	O	O
+-	-	NOUN	O	O	O
+souris	souris	NOUN	O	O	O
 s'	se	PRON	O	O	O
 étant	être	AUX	O	O	O
 trop	trop	ADV	O	O	O
@@ -2478,7 +2483,7 @@ la	le	DET	O	O	O
 queue	queue	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Comète	comète	NOUN	O	O	O
+Comète	comète	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 nos	notre	DET	O	O	O
 voyageurs	voyageur	NOUN	O	O	O
@@ -2486,8 +2491,8 @@ sont	être	AUX	O	O	O
 entraînés	entraîner	VERB	O	O	O
 par	par	ADP	O	O	O
 celle	celui	PRON	O	O	O
--	-	PUNCT	O	O	O
-ci	ci	NOUN	O	O	O
+-	-	PRON	O	O	O
+ci	ci	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 avec	avec	ADP	O	O	O
 une	un	DET	O	O	O
@@ -2497,23 +2502,23 @@ au	au	ADP	O	O	O
 milieu	milieu	NOUN	O	O	O
 des	de	ADP	O	O	O
 nuages	nuage	NOUN	O	O	O
-phosphorescents	phosphorescent	NOUN	O	O	O
+phosphorescents	phosphorescent	ADJ	O	O	O
 qui	qui	PRON	O	O	O
 composent	composer	VERB	O	O	O
 l'	le	DET	O	O	O
 énorme	énorme	ADJ	O	O	O
-traînée	traîner	ADJ	O	O	O
+traînée	traînée	NOUN	O	O	O
 lumineuse	lumineux	ADJ	O	O	O
 de	de	ADP	O	O	O
 cet	ce	DET	O	O	O
 astre	astre	NOUN	O	O	O
-vagabond	vagabond	VERB	O	O	O
+vagabond	vagabond	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Par	par	ADP	O	O	O
 bonheur	bonheur	NOUN	O	O	O
 la	le	DET	O	O	O
-Comète	comète	NOUN	O	O	O
+Comète	comète	PROPN	O	O	O
 passe	passer	VERB	O	O	O
 tout	tout	ADV	O	O	O
 près	près	ADV	O	O	O
@@ -2529,8 +2534,8 @@ commençait	commencer	VERB	O	O	O
 fondre	fondre	VERB	O	O	O
 et	et	CCONJ	O	O	O
 à	à	ADP	O	O	O
-étouffer	étouffer	NOUN	O	O	O
-passablement	passablemer	VERB	O	O	O
+étouffer	étouffer	VERB	O	O	O
+passablement	passablement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 ainsi	ainsi	ADV	O	O	O
 que	que	SCONJ	O	O	O
@@ -2544,13 +2549,13 @@ une	un	DET	O	O	O
 force	force	NOUN	O	O	O
 irrésistible	irrésistible	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-crac	crac	PROPN	O	O	O
+crac	crac	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 nos	notre	DET	O	O	O
 deux	deux	NUM	O	O	O
 explorateurs	explorateur	NOUN	O	O	O
@@ -2579,7 +2584,7 @@ la	le	DET	O	O	O
 queue	queue	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Comète	comète	NOUN	O	O	O
+Comète	comète	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -2592,12 +2597,12 @@ sol	sol	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 s'	se	PRON	O	O	O
-écrie	écrie	NOUN	O	O	O
+écrie	écrier	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Aïe	aïe	PROPN	O	O	O
 !	!	PUNCT	O	O	O
-
 ...	...	PUNCT	O	O	O
 je	je	PRON	O	O	O
 suis	être	AUX	O	O	O
@@ -2605,10 +2610,9 @@ mort	mourir	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Moi	moi	VERB	O	O	O
+Moi	moi	PRON	O	O	O
 aussi	aussi	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 répond	répondre	VERB	O	O	O
 lugubrement	lugubrement	ADV	O	O	O
 M.	m.	NOUN	O	O	O
@@ -2621,13 +2625,13 @@ restés	rester	VERB	O	O	O
 très	très	ADV	O	O	O
 longtemps	longtemps	ADV	O	O	O
 ainsi	ainsi	ADV	O	O	O
-étendus	étendre	VERB	O	O	O
+étendus	étendu	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 sans	sans	ADP	O	O	O
 oser	oser	VERB	O	O	O
 remuer	remuer	VERB	O	O	O
 ni	ni	CCONJ	O	O	O
-bouger	bouger	ADV	O	O	O
+bouger	bouger	VERB	O	O	O
 pieds	pied	NOUN	O	O	O
 ni	ni	CCONJ	O	O	O
 pattes	patte	NOUN	O	O	O
@@ -2635,7 +2639,7 @@ pattes	patte	NOUN	O	O	O
 nos	notre	DET	O	O	O
 deux	deux	NUM	O	O	O
 voyageurs	voyageur	NOUN	O	O	O
-commencèrent	commencèrent	NOUN	O	O	O
+commencèrent	commencer	VERB	O	O	O
 à	à	ADP	O	O	O
 ressentir	ressentir	VERB	O	O	O
 des	un	DET	O	O	O
@@ -2650,32 +2654,33 @@ Papavoine	papavoine	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 fort	fort	ADV	O	O	O
 peu	peu	ADV	O	O	O
-endurant	endurer	VERB	O	O	O
+endurant	endurant	ADJ	O	O	O
 sur	sur	ADP	O	O	O
 cet	ce	DET	O	O	O
 article	article	NOUN	O	O	O
--	-	PUNCT	O	O	O
-là	là	ADV	O	O	O
+-	-	NOUN	O	O	O
+là	là	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	PRON	O	O	O
 écria	écrier	VERB	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Mais	mais	CCONJ	O	O	O
-fricassée	fricasser	ADJ	O	O	O
+fricassée	fricasser	VERB	O	O	O
 de	de	ADP	O	O	O
 poulet	poulet	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 je	je	PRON	O	O	O
-crève	crève	NOUN	O	O	O
+crève	crever	VERB	O	O	O
 de	de	ADP	O	O	O
 faim	faim	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2688,16 +2693,16 @@ je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 suis	être	AUX	O	O	O
 pas	pas	ADV	O	O	O
-mort	mort	ADJ	O	O	O
+mort	mourir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Ni	ni	PROPN	O	O	O
+Ni	ni	CCONJ	O	O	O
 moi	moi	PRON	O	O	O
 non	non	ADV	O	O	O
 plus	plus	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-soupire	soupire	NOUN	O	O	O
+soupire	soupirer	VERB	O	O	O
 alors	alors	ADV	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
@@ -2742,8 +2747,8 @@ ils	il	PRON	O	O	O
 se	se	PRON	O	O	O
 trouvaient	trouver	VERB	O	O	O
 sans	sans	ADP	O	O	O
-le	le	DET	O	O	O
-savoir	savoir	NOUN	O	O	O
+le	le	PRON	O	O	O
+savoir	savoir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -2752,7 +2757,7 @@ dans	dans	ADP	O	O	O
 une	un	DET	O	O	O
 vaste	vaste	ADJ	O	O	O
 plaine	plaine	NOUN	O	O	O
-parsemée	parsemer	ADJ	O	O	O
+parsemée	parsemer	VERB	O	O	O
 d'	de	ADP	O	O	O
 édifices	édifice	NOUN	O	O	O
 pyramidaux	pyramidal	ADJ	O	O	O
@@ -2761,16 +2766,16 @@ ils	il	PRON	O	O	O
 aperçoivent	apercevoir	VERB	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 des	un	DET	O	O	O
 papillons	papillon	NOUN	B-NOV	O	O
 et	et	CCONJ	O	O	O
-d'	de	ADP	O	O	O
-énormes	énorme	NOUN	O	O	O
-chenilles	chenille	ADJ	O	O	O
-à	à	ADP	I-NOV	O	O
-face	face	NOUN	I-NOV	O	O
-humaine	humaine	NOUN	I-NOV	O	O
+d'	de	DET	O	O	O
+énormes	énorme	ADJ	O	O	O
+chenilles	chenille	NOUN	O	B-NOV	O
+à	à	ADP	I-NOV	I-NOV	O
+face	face	NOUN	I-NOV	I-NOV	O
+humaine	humain	ADJ	I-NOV	I-NOV	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 train	train	NOUN	O	O	O
@@ -2784,8 +2789,8 @@ arbre	arbre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ce	ce	PRON	O	O	O
 qui	qui	PRON	O	O	O
-les	le	DET	O	O	O
-comble	comble	NOUN	O	O	O
+les	le	PRON	O	O	O
+comble	comble	VERB	O	O	O
 tous	tout	ADJ	O	O	O
 deux	deux	PRON	O	O	O
 d'	de	ADP	O	O	O
@@ -2809,7 +2814,7 @@ pour	pour	ADP	O	O	O
 ce	ce	DET	O	O	O
 genre	genre	NOUN	O	O	O
 d'	de	ADP	O	O	O
-aliment	aliment	ADV	O	O	O
+aliment	aliment	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 En	en	ADP	O	O	O
@@ -2823,23 +2828,23 @@ Académie	académie	NOUN	O	O	O
 des	de	ADP	O	O	O
 Sciences	science	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-Arts	arts	PROPN	O	O	O
+Arts	art	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-Belles	belles	PROPN	O	O	O
--	-	PUNCT	O	O	O
-Lettres	lettres	PROPN	O	O	O
+Belles	bel	ADJ	O	O	O
+-	-	NOUN	O	O	O
+Lettres	lettre	NOUN	O	O	O
 de	de	ADP	O	O	O
 Fresney	fresney	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 le	le	PROPN	O	O	O
--	-	VERB	O	O	O
+-	-	PROPN	O	O	O
 Puceux	puceux	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Ba	ba	PROPN	O	O	O
--	-	PUNCT	O	O	O
-boulifiche	boulifiche	NOUN	O	O	O
-devine	devine	NOUN	O	O	O
+-	-	PROPN	O	O	O
+boulifiche	boulifiche	PROPN	O	O	O
+devine	deviner	VERB	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
 édifices	édifice	NOUN	O	O	O
@@ -2850,7 +2855,7 @@ qu'	que	PRON	O	O	O
 ils	il	PRON	O	O	O
 entrevoient	entrevoir	VERB	O	O	O
 de	de	ADP	O	O	O
-tous	tout	ADJ	O	O	O
+tous	tout	DET	O	O	O
 côtés	côté	NOUN	O	O	O
 doivent	devoir	VERB	O	O	O
 être	être	AUX	O	O	O
@@ -2881,12 +2886,12 @@ oeufs	oeuf	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ainsi	ainsi	ADV	O	O	O
 que	que	SCONJ	O	O	O
-d'	de	ADP	O	O	O
-énormes	énorme	NOUN	O	O	O
+d'	de	DET	O	O	O
+énormes	énorme	ADJ	O	O	O
 chrysalides	chrysalide	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	ADJ	O	O	O
 explorateur	explorateur	NOUN	O	O	O
 explique	expliquer	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -2895,7 +2900,7 @@ Papavoine	papavoine	PROPN	O	O	O
 qui	qui	PRON	O	O	O
 n'	ne	ADV	O	O	O
 ose	ose	VERB	O	O	O
-guère	guère	NOUN	O	O	O
+guère	guère	ADV	O	O	O
 en	en	PRON	O	O	O
 croire	croire	VERB	O	O	O
 son	son	DET	O	O	O
@@ -2912,12 +2917,12 @@ les	le	DET	O	O	O
 habitants	habitant	NOUN	O	O	O
 de	de	ADP	O	O	O
 cette	ce	DET	O	O	O
-singulière	singulière	NOUN	O	O	O
-contrée	contrer	ADJ	O	O	O
-commencent	commencer	ADV	O	O	O
+singulière	singulier	ADJ	O	O	O
+contrée	contrée	NOUN	O	O	O
+commencent	commencer	VERB	O	O	O
 par	par	ADP	O	O	O
 être	être	AUX	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 oeufs	oeuf	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 puis	pouvoir	CCONJ	O	O	O
@@ -2932,7 +2937,7 @@ se	se	PRON	O	O	O
 transforment	transformer	VERB	O	O	O
 enfin	enfin	ADV	O	O	O
 en	en	ADP	O	O	O
-magnifiques	magnifique	PROPN	O	O	O
+magnifiques	magnifique	ADJ	O	O	O
 papillons	papillon	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -2954,24 +2959,24 @@ d'	de	ADP	O	O	O
 un	un	PRON	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
-beaux	beau	NOUN	O	O	O
+beaux	beal	ADJ	O	O	O
 papillons	papillon	NOUN	B-NOV	O	O
 à	à	ADP	I-NOV	O	O
 face	face	NOUN	I-NOV	O	O
-humaine	humaine	NOUN	I-NOV	O	O
+humaine	humain	ADJ	I-NOV	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 prenant	prendre	VERB	O	O	O
 en	en	ADP	O	O	O
-pitié	pitier	VERB	O	O	O
+pitié	pitié	NOUN	O	O	O
 leur	son	DET	O	O	O
 démarche	démarche	NOUN	O	O	O
 lourde	lourd	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-fatiguée	fatiguer	VERB	O	O	O
+fatiguée	fatigué	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-leur	son	DET	O	O	O
-montre	montre	NOUN	O	O	O
+leur	son	PRON	O	O	O
+montre	montre	VERB	O	O	O
 comment	comment	ADV	O	O	O
 il	il	PRON	O	O	O
 faut	falloir	VERB	O	O	O
@@ -2984,7 +2989,7 @@ M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
-essaient	essayer	ADV	O	O	O
+essaient	essayer	VERB	O	O	O
 d'	de	ADP	O	O	O
 imiter	imiter	VERB	O	O	O
 ses	son	DET	O	O	O
@@ -2999,10 +3004,10 @@ efforts	effort	NOUN	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 et	et	CCONJ	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 ne	ne	ADV	O	O	O
 réussissent	réussir	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 à	à	ADP	O	O	O
 se	se	PRON	O	O	O
 mettre	mettre	VERB	O	O	O
@@ -3015,13 +3020,13 @@ allonger	allonger	VERB	O	O	O
 de	de	ADP	O	O	O
 tout	tout	ADJ	O	O	O
 leur	son	DET	O	O	O
-long	long	ADJ	O	O	O
+long	long	NOUN	O	O	O
 par	par	ADP	O	O	O
 terre	terre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-c'	ce	PRON	O	O	O
+c'	ce	ADV	O	O	O
 est	est	ADV	O	O	O
--	-	PUNCT	O	O	O
+-	-	ADV	O	O	O
 à	à	ADV	O	O	O
 -	-	ADV	O	O	O
 dire	dire	ADV	O	O	O
@@ -3030,13 +3035,13 @@ Saturne	saturne	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 ce	ce	PRON	O	O	O
 qui	qui	PRON	O	O	O
-fait	faire	VERB	O	O	O
+fait	faire	AUX	O	O	O
 se	se	PRON	O	O	O
 tordre	tordre	VERB	O	O	O
 de	de	ADP	O	O	O
 rire	rire	VERB	O	O	O
 le	le	DET	O	O	O
-Saturnien	saturnien	PROPN	B-NOV	O	O
+Saturnien	saturnien	NOUN	B-NOV	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 s'	se	PRON	O	O	O
@@ -3053,7 +3058,7 @@ frictionne	frictionner	VERB	O	O	O
 un	un	DET	O	O	O
 peu	peu	ADV	O	O	O
 plus	plus	ADV	O	O	O
-bas	bas	ADJ	O	O	O
+bas	bas	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Malheureusement	malheureusement	ADV	O	O	O
@@ -3063,14 +3068,15 @@ exercice	exercice	NOUN	O	O	O
 n'	ne	ADV	O	O	O
 a	avoir	AUX	O	O	O
 fait	faire	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 augmenter	augmenter	VERB	O	O	O
 leur	son	DET	O	O	O
 appétit	appétit	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 aussi	aussi	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-voyant	voyant	ADV	O	O	O
+voyant	voir	VERB	O	O	O
 des	un	DET	O	O	O
 Saturniens	saturnien	NOUN	B-NOV	O	O
 en	en	ADP	O	O	O
@@ -3079,7 +3085,7 @@ de	de	ADP	O	O	O
 dévorer	dévorer	VERB	O	O	O
 de	de	DET	O	O	O
 belles	bel	ADJ	O	O	O
-feuilles	feuille	ADJ	O	O	O
+feuilles	feuille	NOUN	O	O	O
 vertes	vert	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
@@ -3102,7 +3108,7 @@ régal	régal	NOUN	O	O	O
 offrant	offrir	VERB	O	O	O
 peu	peu	ADV	O	O	O
 d'	de	ADP	O	O	O
-attrait	attrer	VERB	O	O	O
+attrait	attrait	NOUN	O	O	O
 à	à	ADP	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -3111,7 +3117,7 @@ infortuné	infortuné	NOUN	O	O	O
 finit	finir	VERB	O	O	O
 par	par	ADP	O	O	O
 s'	se	PRON	O	O	O
-assoupir	assoupir	ADJ	O	O	O
+assoupir	assoupir	VERB	O	O	O
 sans	sans	ADP	O	O	O
 s'	se	PRON	O	O	O
 apercevoir	apercevoir	VERB	O	O	O
@@ -3119,7 +3125,7 @@ qu'	que	SCONJ	O	O	O
 une	un	DET	O	O	O
 armée	armée	NOUN	O	O	O
 de	de	ADP	O	O	O
-grosses	grosse	NOUN	O	O	O
+grosses	gros	ADJ	O	O	O
 fourmis	fourmi	NOUN	O	O	O
 vient	venir	VERB	O	O	O
 l'	le	PRON	O	O	O
@@ -3128,7 +3134,7 @@ par	par	ADP	O	O	O
 derrière	derrière	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Interrompu	interrompu	PROPN	O	O	O
+Interrompu	interrompre	VERB	O	O	O
 dans	dans	ADP	O	O	O
 son	son	DET	O	O	O
 repas	repas	NOUN	O	O	O
@@ -3138,12 +3144,12 @@ gémissements	gémissement	NOUN	O	O	O
 poussés	pousser	VERB	O	O	O
 par	par	ADP	O	O	O
 le	le	DET	O	O	O
-malheureux	malheureux	NOUN	O	O	O
+malheureux	malheureux	ADJ	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 moitié	moitié	NOUN	O	O	O
-enseveli	enseveli	NOUN	O	O	O
+enseveli	ensevelir	VERB	O	O	O
 sous	sou	ADP	O	O	O
 un	un	DET	O	O	O
 monceau	monceau	NOUN	O	O	O
@@ -3151,22 +3157,22 @@ de	de	ADP	O	O	O
 fourmis	fourmi	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 le	le	PRON	O	O	O
-mordent	mordent	NOUN	O	O	O
+mordent	mordre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 parvient	parvenir	VERB	O	O	O
 à	à	ADP	O	O	O
-le	le	DET	O	O	O
-dégager	dégager	NOUN	O	O	O
+le	le	PRON	O	O	O
+dégager	dégager	VERB	O	O	O
 en	en	ADP	O	O	O
 écrasant	écraser	VERB	O	O	O
 et	et	CCONJ	O	O	O
 en	en	ADP	O	O	O
 chassant	chasser	VERB	O	O	O
 ces	ce	DET	O	O	O
-vils	vil	NOUN	O	O	O
-insectes	insecte	ADJ	O	O	O
+vils	vil	ADJ	O	O	O
+insectes	insecte	NOUN	O	O	O
 à	à	ADP	O	O	O
 grands	grand	ADJ	O	O	O
 coups	coup	NOUN	O	O	O
@@ -3175,35 +3181,34 @@ branches	branche	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
-hélas	héler	PRON	O	O	O
+hélas	héler	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
 dans	dans	ADP	O	O	O
 quel	quel	DET	O	O	O
-pitoyable	pitoyable	NOUN	O	O	O
+pitoyable	pitoyable	ADJ	O	O	O
 état	état	NOUN	O	O	O
 se	se	PRON	O	O	O
 trouve	trouver	VERB	O	O	O
 le	le	DET	O	O	O
-pauvre	pauvre	NOUN	O	O	O
+pauvre	pauvre	ADJ	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Oh	oh	PROPN	O	O	O
+Oh	oh	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
 bien	bien	ADV	O	O	O
 non	non	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 alors	alors	ADV	O	O	O
-!	!	PUNCT	O	O	O
 
+!	!	PUNCT	O	O	O
 s'	se	PRON	O	O	O
-écrie	écrie	NOUN	O	O	O
+écrie	écrier	VERB	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
 est	être	AUX	O	O	O
@@ -3220,18 +3225,18 @@ sorte	sorte	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 Un	un	DET	O	O	O
 charitable	charitable	NOUN	O	O	O
-Saturnien	saturnien	PROPN	B-NOV	O	O
+Saturnien	saturnien	X	B-NOV	O	O
 ,	,	PUNCT	O	O	O
 témoin	témoin	NOUN	O	O	O
 de	de	ADP	O	O	O
 cet	ce	DET	O	O	O
 accident	accident	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-vole	vole	NOUN	O	O	O
+vole	vole	VERB	O	O	O
 au	au	ADP	O	O	O
 secours	secours	NOUN	O	O	O
 de	de	ADP	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 lui	luire	PRON	O	O	O
 apporte	apporter	VERB	O	O	O
@@ -3246,8 +3251,8 @@ fraîche	frais	ADJ	O	O	O
 Après	après	ADP	O	O	O
 quoi	quoi	PRON	O	O	O
 l'	le	DET	O	O	O
-aimable	aimable	NOUN	O	O	O
-Saturnien	saturnien	PROPN	B-NOV	O	O
+aimable	aimable	ADJ	O	O	O
+Saturnien	saturnien	NOUN	B-NOV	O	O
 offre	offrir	VERB	O	O	O
 l'	le	DET	O	O	O
 hospitalité	hospitalité	NOUN	O	O	O
@@ -3257,7 +3262,7 @@ deux	deux	NUM	O	O	O
 voyageurs	voyageur	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
-voyant	voyant	ADV	O	O	O
+voyant	voir	VERB	O	O	O
 qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 ne	ne	ADV	O	O	O
@@ -3268,7 +3273,7 @@ langage	langage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 les	le	PRON	O	O	O
-pousse	pouss	ADJ	O	O	O
+pousse	pousse	VERB	O	O	O
 doucement	doucement	ADV	O	O	O
 vers	vers	ADP	O	O	O
 son	son	DET	O	O	O
@@ -3283,8 +3288,8 @@ une	un	DET	O	O	O
 colline	colline	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 une	un	DET	O	O	O
-large	large	NOUN	O	O	O
-bande	band	ADJ	O	O	O
+large	large	ADJ	O	O	O
+bande	bande	NOUN	O	O	O
 lumineuse	lumineux	ADJ	O	O	O
 s'	se	PRON	O	O	O
 offre	offrir	VERB	O	O	O
@@ -3294,16 +3299,16 @@ regards	regard	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Fricassée	fricassée	PROPN	O	O	O
+Fricassée	fricassée	NOUN	O	O	O
 de	de	ADP	O	O	O
 poulet	poulet	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 Qu'	que	PRON	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
-que	que	PRON	O	O	O
+que	que	SCONJ	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 encore	encore	ADV	O	O	O
@@ -3312,8 +3317,8 @@ cela	celer	PRON	O	O	O
 ?	?	PUNCT	O	O	O
 
 s'	se	PRON	O	O	O
-écrie	écrie	NOUN	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+écrie	écrier	VERB	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 inquiet	inquiet	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -3321,7 +3326,7 @@ inquiet	inquiet	ADJ	O	O	O
 Je	je	PRON	O	O	O
 suppose	supposer	VERB	O	O	O
 que	que	SCONJ	O	O	O
-ce	ce	DET	O	O	O
+ce	ce	PRON	O	O	O
 pourrait	pouvoir	VERB	O	O	O
 bien	bien	ADV	O	O	O
 être	être	AUX	O	O	O
@@ -3332,26 +3337,26 @@ Saturne	saturne	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 hasarde	hasarder	VERB	O	O	O
 le	le	DET	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	ADJ	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Ça	ça	PROPN	O	O	O
+Ça	cela	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
 anneau	anneau	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-Ah	ah	PUNCT	O	O	O
+Ah	ah	INTJ	O	O	O
 !	!	PUNCT	O	O	O
 
 non	non	ADV	O	O	O
 alors	alors	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
-A	avoir	AUX	O	O	O
+A	à	ADP	O	O	O
 vue	vue	NOUN	O	O	O
 de	de	ADP	O	O	O
 nez	nez	NOUN	O	O	O
@@ -3361,11 +3366,11 @@ n'	ne	ADV	O	O	O
 y	y	PRON	O	O	O
 ressemble	ressembler	VERB	O	O	O
 pourtant	pourtant	ADV	O	O	O
-guère	guèr	ADJ	O	O	O
+guère	guère	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 répond	répondre	VERB	O	O	O
 l'	le	DET	O	O	O
-incrédule	incrédule	NOUN	O	O	O
+incrédule	incrédule	ADJ	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -3377,7 +3382,7 @@ logis	logis	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 bon	bon	ADJ	O	O	O
-Saturnien	saturnien	PROPN	B-NOV	O	O
+Saturnien	saturnien	NOUN	B-NOV	O	O
 s'	se	PRON	O	O	O
 empresse	empresser	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -3385,7 +3390,7 @@ panser	panser	VERB	O	O	O
 les	le	DET	O	O	O
 plaies	plaie	NOUN	O	O	O
 du	de	ADP	O	O	O
-pauvre	pauvre	NOUN	O	O	O
+pauvre	pauvre	ADJ	O	O	O
 Papavoine	papavoine	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 tandis	tandis	ADV	O	O	O
@@ -3412,9 +3417,9 @@ endommagées	endommager	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-De	de	ADP	O	O	O
-larges	large	NOUN	O	O	O
-ailes	aile	ADJ	O	O	O
+De	de	DET	O	O	O
+larges	large	ADJ	O	O	O
+ailes	aile	NOUN	O	O	O
 de	de	ADP	O	O	O
 papillons	papillon	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -3433,8 +3438,8 @@ clouées	clouer	VERB	O	O	O
 au	au	ADP	O	O	O
 mur	mur	NOUN	O	O	O
 au	au	ADP	O	O	O
--	-	PUNCT	O	O	O
-dessus	dessus	NOUN	O	O	O
+-	-	NOUN	O	O	O
+dessus	dessus	ADV	O	O	O
 de	de	ADP	O	O	O
 leurs	leur	DET	O	O	O
 têtes	tête	NOUN	O	O	O
@@ -3445,7 +3450,7 @@ inscription	inscription	NOUN	O	O	O
 indiquant	indiquer	VERB	O	O	O
 en	en	ADP	O	O	O
 langue	langue	NOUN	O	O	O
-saturnienne	saturnienne	VERB	O	O	O
+saturnienne	saturnien	ADJ	B-NOV	O	O
 les	le	DET	O	O	O
 noms	nom	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -3458,7 +3463,7 @@ propriétaires	propriétaire	NOUN	O	O	O
 défunts	défunt	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Quoique	quoiqu	ADJ	O	O	O
+Quoique	quoique	ADV	O	O	O
 un	un	DET	O	O	O
 peu	peu	ADV	O	O	O
 désenflé	désenfler	VERB	O	O	O
@@ -3475,8 +3480,8 @@ fièvre	fièvre	NOUN	O	O	O
 provoquée	provoquer	VERB	O	O	O
 par	par	ADP	O	O	O
 les	le	DET	O	O	O
-cuisantes	cuisante	NOUN	O	O	O
-morsures	morsure	ADJ	O	O	O
+cuisantes	cuisant	ADJ	O	O	O
+morsures	morsure	NOUN	O	O	O
 des	de	ADP	O	O	O
 fourmis	fourmi	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -3485,7 +3490,7 @@ qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 fait	faire	VERB	O	O	O
 trop	trop	ADV	O	O	O
-chaud	chaud	PROPN	O	O	O
+chaud	chaud	ADJ	O	O	O
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
 intérieur	intérieur	NOUN	O	O	O
@@ -3503,8 +3508,8 @@ air	air	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Babou	babou	PROPN	O	O	O
--	-	PUNCT	O	O	O
-lifiche	lifiche	NOUN	O	O	O
+-	-	PROPN	O	O	O
+lifiche	lifiche	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 ému	émouvoir	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -3518,10 +3523,11 @@ laisser	laisser	VERB	O	O	O
 sortir	sortir	VERB	O	O	O
 seul	seul	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-l'	le	DET	O	O	O
-accompagne	accompagne	NOUN	O	O	O
-dehors	dehors	ADP	O	O	O
+l'	le	PRON	O	O	O
+accompagne	accompagner	VERB	O	O	O
+dehors	dehors	ADV	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 mal	mal	ADV	O	O	O
 lui	luire	PRON	O	O	O
@@ -3536,8 +3542,8 @@ fort	fort	ADV	O	O	O
 mauvaise	mauvais	ADJ	O	O	O
 humeur	humeur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-l'	le	DET	O	O	O
-accable	accable	NOUN	O	O	O
+l'	le	PRON	O	O	O
+accable	accabler	VERB	O	O	O
 des	de	ADP	O	O	O
 plus	plus	ADV	O	O	O
 sanglants	sanglant	ADJ	O	O	O
@@ -3551,8 +3557,8 @@ toutes	tout	ADJ	O	O	O
 leurs	leur	DET	O	O	O
 mésaventures	mésaventure	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-l'	le	DET	O	O	O
-accuse	accuse	NOUN	O	O	O
+l'	le	PRON	O	O	O
+accuse	accuser	VERB	O	O	O
 de	de	ADP	O	O	O
 manquer	manquer	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -3584,7 +3590,7 @@ raisonnable	raisonnable	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 le	le	PRON	O	O	O
-mène	mène	NOUN	O	O	O
+mène	mener	VERB	O	O	O
 au	au	ADP	O	O	O
 contraire	contraire	NOUN	O	O	O
 dans	dans	ADP	O	O	O
@@ -3592,20 +3598,20 @@ un	un	DET	O	O	O
 pays	pays	NOUN	O	O	O
 où	où	PRON	O	O	O
 il	il	PRON	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 à	à	ADP	O	O	O
 moitié	moitié	NOUN	O	O	O
-dévoré	dévoré	NOUN	O	O	O
+dévoré	dévorer	VERB	O	O	O
 par	par	ADP	O	O	O
 les	le	DET	O	O	O
 fourmis	fourmi	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-impassible	impassible	NOUN	O	O	O
+impassible	impassible	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 laisse	laisse	VERB	O	O	O
 passer	passer	VERB	O	O	O
@@ -3616,7 +3622,7 @@ mot	mot	NOUN	O	O	O
 dire	dire	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-Voyant	voyant	ADV	O	O	O
+Voyant	voir	VERB	O	O	O
 que	que	SCONJ	O	O	O
 son	son	DET	O	O	O
 maître	maître	NOUN	O	O	O
@@ -3660,11 +3666,11 @@ souffrances	souffrance	NOUN	O	O	O
 
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
-l'	le	DET	O	O	O
-imite	imite	NOUN	O	O	O
+l'	le	PRON	O	O	O
+imite	imiter	VERB	O	O	O
 et	et	CCONJ	O	O	O
 tous	tout	ADJ	O	O	O
-deux	deux	NUM	O	O	O
+deux	deux	PRON	O	O	O
 s'	se	PRON	O	O	O
 endorment	endormir	VERB	O	O	O
 profondément	profondément	ADV	O	O	O
@@ -3674,9 +3680,9 @@ qu'	que	SCONJ	O	O	O
 une	un	DET	O	O	O
 multitude	multitude	NOUN	O	O	O
 de	de	ADP	O	O	O
-gros	gros	ADJ	O	O	O
-lézards	lézard	ADJ	O	O	O
-ailés	ailé	NOUN	O	O	O
+gros	gros	ADJ	B-NOV	O	O
+lézards	lézard	NOUN	I-NOV	O	O
+ailés	ailé	ADJ	I-NOV	O	O
 se	se	PRON	O	O	O
 précipite	précipiter	VERB	O	O	O
 sur	sur	ADP	O	O	O
@@ -3694,7 +3700,7 @@ reste	reste	VERB	O	O	O
 plus	plus	ADV	O	O	O
 du	de	ADP	O	O	O
 malheureux	malheureux	ADJ	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
 que	que	SCONJ	O	O	O
 la	le	DET	O	O	O
 casquette	casquette	NOUN	O	O	O
@@ -3706,7 +3712,7 @@ visage	visage	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 une	un	DET	O	O	O
 jambe	jambe	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 les	le	DET	O	O	O
 lézards	lézard	NOUN	O	O	O
 se	se	PRON	O	O	O
@@ -3716,18 +3722,18 @@ les	le	DET	O	O	O
 airs	air	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 lui	luire	PRON	O	O	O
--	-	PUNCT	O	O	O
-même	même	ADV	O	O	O
+-	-	PRON	O	O	O
+même	même	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 ne	ne	ADV	O	O	O
 possède	posséder	VERB	O	O	O
 plus	plus	ADV	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 la	le	DET	O	O	O
 tête	tête	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -3763,10 +3769,10 @@ réveille	réveiller	VERB	O	O	O
 en	en	ADP	O	O	O
 sursaut	sursaut	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-jette	jette	NOUN	O	O	O
+jette	jeter	VERB	O	O	O
 un	un	DET	O	O	O
 regard	regard	NOUN	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	ADJ	O	O	O
 autour	autour	ADV	O	O	O
 de	de	ADP	O	O	O
 lui	luire	PRON	O	O	O
@@ -3789,8 +3795,8 @@ clin	clin	NOUN	O	O	O
 d'	de	ADP	O	O	O
 oeil	oeil	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-en	en	ADP	O	O	O
-saisit	saisit	NOUN	O	O	O
+en	en	PRON	O	O	O
+saisit	saisir	VERB	O	O	O
 toute	tout	ADJ	O	O	O
 la	le	DET	O	O	O
 gravité	gravité	NOUN	O	O	O
@@ -3803,12 +3809,12 @@ queue	queue	NOUN	O	O	O
 un	un	PRON	O	O	O
 de	de	ADP	O	O	O
 ses	son	DET	O	O	O
-féroces	féroce	NOUN	O	O	O
-assaillants	assaillant	ADJ	O	O	O
+féroces	féroce	ADJ	O	O	O
+assaillants	assaillant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	PRON	O	O	O
-en	en	ADP	O	O	O
-sert	sert	NOUN	O	O	O
+en	en	PRON	O	O	O
+sert	servir	VERB	O	O	O
 comme	comme	ADP	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
@@ -3816,27 +3822,27 @@ massue	massue	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 combattre	combattre	VERB	O	O	O
 les	le	DET	O	O	O
-autres	autre	ADJ	O	O	O
+autres	autre	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 Continuant	continuer	VERB	O	O	O
 avec	avec	ADP	O	O	O
-énergie	énergie	VERB	O	O	O
+énergie	énergie	NOUN	O	O	O
 sa	son	DET	O	O	O
 lutte	lutte	NOUN	O	O	O
-acharnée	acharné	NOUN	O	O	O
+acharnée	acharné	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Baboulifiche	baboulifiche	PROPN	O	O	O
 se	se	PRON	O	O	O
-livre	livre	NOUN	O	O	O
+livre	livre	VERB	O	O	O
 à	à	ADP	O	O	O
 une	un	DET	O	O	O
 série	série	NOUN	O	O	O
 de	de	ADP	O	O	O
 gestes	geste	NOUN	O	O	O
-désespérés	désespérer	VERB	O	O	O
-si	si	SCONJ	O	O	O
+désespérés	désespéré	ADJ	O	O	O
+si	si	ADV	O	O	O
 violents	violent	ADJ	O	O	O
 que	que	SCONJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -3861,7 +3867,7 @@ son	son	DET	O	O	O
 verre	verre	NOUN	O	O	O
 d'	de	ADP	O	O	O
 eau	eau	NOUN	O	O	O
-sucrée	sucrer	VERB	O	O	O
+sucrée	sucrer	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 tous	tout	ADJ	O	O	O
 ses	son	DET	O	O	O
@@ -3873,7 +3879,7 @@ que	que	SCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
-furieux	furieux	NOUN	O	O	O
+furieux	furieux	ADJ	O	O	O
 tour	tour	NOUN	O	O	O
 de	de	ADP	O	O	O
 reins	rein	NOUN	O	O	O
@@ -3886,13 +3892,13 @@ qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 occupe	occuper	VERB	O	O	O
 une	un	DET	O	O	O
-si	si	SCONJ	O	O	O
+si	si	ADV	O	O	O
 vigoureuse	vigoureux	ADJ	O	O	O
 secousse	secousse	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 que	que	SCONJ	O	O	O
 celui	celui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ci	ci	PRON	O	O	O
 fait	faire	VERB	O	O	O
 la	le	DET	O	O	O
@@ -3905,13 +3911,13 @@ fracas	fracas	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-A	a	NOUN	O	O	O
+A	à	ADP	O	O	O
 ce	ce	DET	O	O	O
 bruit	bruit	NOUN	O	O	O
 formidable	formidable	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-Papavoine	papavoine	NOUN	O	O	O
-accourt	accourt	ADJ	O	O	O
+Papavoine	papavoine	PROPN	O	O	O
+accourt	accourir	VERB	O	O	O
 un	un	DET	O	O	O
 flambeau	flambeau	NOUN	O	O	O
 à	à	ADP	O	O	O
@@ -3919,18 +3925,19 @@ la	le	DET	O	O	O
 main	main	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 s'	se	PRON	O	O	O
-écrie	écrie	NOUN	O	O	O
+écrie	écrier	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Fricassée	fricassée	PROPN	O	O	O
+Fricassée	fricassée	NOUN	O	O	O
 de	de	ADP	O	O	O
 poulet	poulet	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
-que	que	PRON	O	O	O
+que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
 feu	feu	NOUN	O	O	O
 est	être	VERB	O	O	O
@@ -3940,7 +3947,7 @@ maison	maison	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Non	non	ADV	O	O	O
+Non	non	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 répond	répondre	VERB	O	O	O
@@ -3985,7 +3992,6 @@ journal	journal	NOUN	O	O	O
 
 Non	non	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 seulement	seulement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
@@ -3993,8 +3999,8 @@ viens	venir	VERB	O	O	O
 d'	de	ADP	O	O	O
 avoir	avoir	VERB	O	O	O
 un	un	DET	O	O	O
-fichu	fichu	NOUN	O	O	O
-cauchemar	cauchemar	ADJ	O	O	O
+fichu	fichu	ADJ	O	O	O
+cauchemar	cauchemar	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
@@ -4013,7 +4019,7 @@ servir	servir	VERB	O	O	O
 une	un	DET	O	O	O
 infusion	infusion	NOUN	O	O	O
 de	de	ADP	O	O	O
-violettes	violette	PRON	O	O	O
+violettes	violette	NOUN	O	O	O
 largement	largement	ADV	O	O	O
 additionnée	additionner	VERB	O	O	O
 d'	de	ADP	O	O	O
@@ -4021,21 +4027,21 @@ eau	eau	NOUN	O	O	O
 de	de	ADP	O	O	O
 fleurs	fleur	NOUN	O	O	O
 d'	de	ADP	O	O	O
-oranger	oranger	VERB	O	O	O
-quadruple	quadruple	ADV	O	O	O
+oranger	oranger	NOUN	O	O	O
+quadruple	quadruple	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 pour	pour	ADP	O	O	O
 essayer	essayer	VERB	O	O	O
 de	de	ADP	O	O	O
 rendre	rendre	VERB	O	O	O
 le	le	DET	O	O	O
-calme	calme	PROPN	O	O	O
+calme	calme	NOUN	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
 système	système	NOUN	O	O	O
 nerveux	nerveux	ADJ	O	O	O
 abominablement	abominablement	ADV	O	O	O
-surexcité	surexcité	NOUN	O	O	O
+surexcité	surexciter	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 

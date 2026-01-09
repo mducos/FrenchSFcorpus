@@ -73,55 +73,43 @@ def find_novum_spans(tokens, novums_lemma, max_gap=4):
 # 3. Génération du fichier .bio
 # -----------------------------------------------------------
 
-def write_bio(tokens, spans, bio_path, n_cols=3):
+def write_bio_sentence(tokens, spans, f, n_cols=3):
     """
     spans = liste (start, end, text)
     tokens = tokens spaCy enrichis (text, lemma, pos, start, end)
     Génère n colonnes BIO pour gérer les chevauchements.
     """
 
-    # initialisation des colonnes BIO
     bio_labels = [["O"] * len(tokens) for _ in range(n_cols)]
 
     for start, end, novum_text in spans:
         novum_lemmas = [tok.lemma_.lower() for tok in nlp(novum_text)]
 
-        matched_indices = []
+        matched = []
         t_idx = 0
 
-        for j, tok in enumerate(tokens):
+        for i, tok in enumerate(tokens):
             if t_idx >= len(novum_lemmas):
                 break
-            if (
-                tok["lemma"].lower() == novum_lemmas[t_idx]
-                and tok["start"] >= start
-                and tok["end"] <= end
-            ):
-                matched_indices.append(j)
+            if tok["lemma"] == novum_lemmas[t_idx]:
+                matched.append(i)
                 t_idx += 1
 
-        if not matched_indices:
+        if not matched:
             continue
 
-        # recherche d'une colonne libre
         for col in range(n_cols):
-            if all(bio_labels[col][i] == "O" for i in matched_indices):
-                bio_labels[col][matched_indices[0]] = "B-NOV"
-                for idx in matched_indices[1:]:
-                    bio_labels[col][idx] = "I-NOV"
+            if all(bio_labels[col][i] == "O" for i in matched):
+                bio_labels[col][matched[0]] = "B-NOV"
+                for i in matched[1:]:
+                    bio_labels[col][i] = "I-NOV"
                 break
-        # sinon : novum ignoré (plus de colonnes disponibles mais ce cas n'arrive pas dans le corpus)
 
-    # écriture du fichier
-    with open(bio_path, "w", encoding="utf-8") as f:
-        for i, tok in enumerate(tokens):
-            labels = "\t".join(bio_labels[col][i] for col in range(n_cols))
-            f.write(
-                f"{tok['text']}\t{tok['lemma']}\t{tok['pos']}\t{labels}\n"
-            )
-            if tok["text"] in {".", "!", "?"}:
-                f.write("\n")
-        f.write("\n")
+    for i, tok in enumerate(tokens):
+        labels = "\t".join(bio_labels[col][i] for col in range(n_cols))
+        f.write(f"{tok['text']}\t{tok['lemma']}\t{tok['pos']}\t{labels}\n")
+
+    f.write("\n")
 
 
 # chargement de spaCy FR avec lemmatisation
@@ -166,13 +154,17 @@ for dirname in os.listdir("NovSFcorpus"):
             # chargement du texte original
             raw_text = Path(TEXT_FILE).read_text(encoding="utf-8")
 
-            # tokenisation + lemmatisation
-            tokens = tokenize(raw_text)
+            sentences = raw_text.split("\n")
 
-            # recherche des novums par lemmes
-            spans = find_novum_spans(tokens, NOVUMS_LEMMA)
+            with open(BIO_FILE, "w", encoding="utf-8") as f_out:
+                for sentence in sentences:
+                    if not sentence.strip():
+                        f_out.write("\n")
+                        continue
 
-            # génération du fichier .bio
-            write_bio(tokens, spans, BIO_FILE)
+                    tokens = tokenize(sentence)
+                    spans = find_novum_spans(tokens, NOVUMS_LEMMA)
+
+                    write_bio_sentence(tokens, spans, f_out)
 
             print(f"Génération du fichier : {title}.tsv")

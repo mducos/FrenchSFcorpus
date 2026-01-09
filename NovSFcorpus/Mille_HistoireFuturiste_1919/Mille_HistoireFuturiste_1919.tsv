@@ -21,34 +21,35 @@ extérieurs	extérieur	ADJ	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 affection	affection	NOUN	O	O	O
-passionnée	passionner	VERB	O	O	O
+passionnée	passionner	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 lui	luire	PRON	O	O	O
 dit	dire	VERB	O	O	O
 tendrement	tendrement	ADV	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Tu	tu	ADV	O	O	O
+Tu	tu	PRON	O	O	O
 m'	me	PRON	O	O	O
 aimeras	aimer	VERB	O	O	O
 toujours	toujours	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 n'	ne	ADV	O	O	O
-est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+est	être	VERB	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
 pas	pas	ADV	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Mais	mais	CCONJ	O	O	O
-oui	oui	ADV	O	O	O
+oui	oui	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
-oui	oui	NOUN	O	O	O
+oui	oui	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
-affirma	affirma	NOUN	O	O	O
+affirma	affirmer	VERB	O	O	O
 M.	m.	NOUN	O	O	O
 Leblanc	leblanc	PROPN	O	O	O
 .	.	PUNCT	O	O	O
@@ -63,15 +64,15 @@ toujours	toujours	ADV	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Ah	ah	PRON	O	O	O
+Ah	ah	INTJ	O	O	O
 !	!	PUNCT	O	O	O
 
 si	si	SCONJ	O	O	O
 -	-	PUNCT	O	O	O
-li	li	ADV	O	O	O
+li	li	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-tu	tu	AUX	O	O	O
-exagères	exagère	NOUN	O	O	O
+tu	tu	PRON	O	O	O
+exagères	exagérer	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 Toujours	toujours	ADV	O	O	O
@@ -88,8 +89,8 @@ toujours	toujours	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
-peut	pouvoir	VERB	O	O	O
--	-	PUNCT	O	O	O
+peut	pouvoir	ADV	O	O	O
+-	-	ADV	O	O	O
 être	être	ADV	O	O	O
 trop	trop	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -99,31 +100,31 @@ fin	fin	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Là	là	ADV	O	O	O
--	-	PUNCT	O	O	O
-dessus	dessus	PROPN	O	O	O
+-	-	ADV	O	O	O
+dessus	dessus	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 Mme	mme	NOUN	O	O	O
 Juliette	juliette	PROPN	O	O	O
 Leblanc	leblanc	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-âme	âm	ADJ	O	O	O
-envahie	envahie	NOUN	O	O	O
+âme	âme	NOUN	O	O	O
+envahie	envahir	VERB	O	O	O
 du	de	ADP	O	O	O
 plus	plus	ADV	O	O	O
 amer	amer	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 du	de	ADP	O	O	O
 plus	plus	ADV	O	O	O
-légitime	légitime	NOUN	O	O	O
+légitime	légitime	ADJ	O	O	O
 désespoir	désespoir	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	PRON	O	O	O
 en	en	PRON	O	O	O
-fut	être	AUX	O	O	O
+fut	être	VERB	O	O	O
 chercher	chercher	VERB	O	O	O
 son	son	DET	O	O	O
-revolver	revolver	VERB	O	O	O
+revolver	revolver	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Ayant	avoir	VERB	O	O	O
@@ -133,14 +134,14 @@ perfectionnée	perfectionner	VERB	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 temple	temple	NOUN	O	O	O
-droit	droit	NOUN	O	O	O
+droit	droit	ADJ	O	O	O
 de	de	ADP	O	O	O
 M.	m.	NOUN	O	O	O
 Leblanc	leblanc	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 lui	luire	PRON	O	O	O
-fit	faire	VERB	O	O	O
+fit	faire	AUX	O	O	O
 sauter	sauter	VERB	O	O	O
 la	le	DET	O	O	O
 cervelle	cervelle	NOUN	O	O	O
@@ -152,10 +153,11 @@ qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
 en	en	PRON	O	O	O
-faut	faut	NOUN	O	O	O
+faut	falloir	VERB	O	O	O
 pour	pour	ADP	O	O	O
-l'	le	DET	O	O	O
-écrire	écrire	NOUN	O	O	O
+l'	le	PRON	O	O	O
+écrire	écrire	VERB	O	O	O
+
 .	.	PUNCT	O	O	O
 
 Je	je	PRON	O	O	O
@@ -177,7 +179,7 @@ d'	de	ADP	O	O	O
 accusalion	accusalion	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Car	car	NOUN	O	O	O
+Car	car	CCONJ	O	O	O
 Mme	mme	NOUN	O	O	O
 Leblanc	leblanc	PROPN	O	O	O
 passa	passer	VERB	O	O	O
@@ -196,8 +198,8 @@ ailleurs	ailleurs	ADV	O	O	O
 ainsi	ainsi	ADV	O	O	O
 qu'	que	SCONJ	O	O	O
 on	on	PRON	O	O	O
-le	le	DET	O	O	O
-dût	dût	NOUN	O	O	O
+le	le	PRON	O	O	O
+dût	devoir	VERB	O	O	O
 penser	penser	VERB	O	O	O
 :	:	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
@@ -207,11 +209,11 @@ sans	sans	ADP	O	O	O
 que	que	SCONJ	O	O	O
 la	le	DET	O	O	O
 défense	défense	NOUN	O	O	O
-eût	eût	ADJ	O	O	O
+eût	avoir	VERB	O	O	O
 à	à	ADP	O	O	O
 se	se	PRON	O	O	O
 donner	donner	VERB	O	O	O
-grand'peine	grand'pein	ADJ	O	O	O
+grand'peine	grand'peine	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
@@ -219,7 +221,7 @@ jury	jury	NOUN	O	O	O
 n'	ne	ADV	O	O	O
 ayant	avoir	AUX	O	O	O
 affecté	affecter	VERB	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 pour	pour	ADP	O	O	O
 la	le	DET	O	O	O
 forme	forme	NOUN	O	O	O
@@ -229,6 +231,7 @@ retirer	retirer	VERB	O	O	O
 pour	pour	ADP	O	O	O
 délibérer	délibérer	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 sa	son	DET	O	O	O
 conviction	conviction	NOUN	O	O	O
 était	être	AUX	O	O	O
@@ -241,10 +244,10 @@ débats	débat	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Si	si	SCONJ	O	O	O
-quelque	quelque	SCONJ	O	O	O
+quelque	quelque	DET	O	O	O
 hésitation	hésitation	NOUN	O	O	O
 se	se	PRON	O	O	O
-fût	être	VERB	O	O	O
+fût	être	AUX	O	O	O
 ,	,	PUNCT	O	O	O
 par	par	ADP	O	O	O
 impossible	impossible	NOUN	O	O	O
@@ -252,8 +255,8 @@ impossible	impossible	NOUN	O	O	O
 manifestée	manifester	VERB	O	O	O
 chez	chez	ADP	O	O	O
 quelques	quelque	DET	O	O	O
--	-	PUNCT	O	O	O
-uns	un	NOUN	O	O	O
+-	-	PROPN	O	O	O
+uns	un	PRON	O	O	O
 de	de	ADP	O	O	O
 ses	son	DET	O	O	O
 membres	membre	NOUN	O	O	O
@@ -268,12 +271,12 @@ l'	le	DET	O	O	O
 avocat	avocat	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-accusée	accuser	VERB	O	O	O
+accusée	accusé	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-eût	avoir	ADP	O	O	O
-suffi	suffire	DET	O	O	O
+eût	avoir	AUX	O	O	O
+suffi	suffire	VERB	O	O	O
 à	à	ADP	O	O	O
-la	le	DET	O	O	O
+la	le	PRON	O	O	O
 dissiper	dissiper	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -285,7 +288,7 @@ autre	autre	ADJ	O	O	O
 que	que	SCONJ	O	O	O
 la	le	DET	O	O	O
 copie	copie	NOUN	O	O	O
-authentifiée	authentifier	ADJ	O	O	O
+authentifiée	authentifier	VERB	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 acte	acte	NOUN	O	O	O
@@ -293,8 +296,8 @@ de	de	ADP	O	O	O
 mariage	mariage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ap	ap	NOUN	O	O	O
--	-	PUNCT	O	O	O
-purée	purer	VERB	O	O	O
+-	-	NOUN	O	O	O
+purée	purée	NOUN	O	O	O
 du	de	ADP	O	O	O
 contrat	contrat	NOUN	O	O	O
 signé	signer	VERB	O	O	O
@@ -303,13 +306,14 @@ devant	devant	ADP	O	O	O
 M	m	NOUN	O	O	O
 °	degré	NOUN	O	O	O
 Pommier	pommier	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Lapron	lapron	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-notaire	notair	ADJ	O	O	O
+notaire	notaire	NOUN	O	O	O
 à	à	ADP	O	O	O
 Paris	paris	PROPN	O	O	O
 ;	;	PUNCT	O	O	O
+
 Mme	mme	NOUN	O	O	O
 Leblanc	leblanc	PROPN	O	O	O
 était	être	AUX	O	O	O
@@ -354,7 +358,7 @@ ailleurs	ailleurs	ADV	O	O	O
 qui	qui	PRON	O	O	O
 attachaient	attacher	VERB	O	O	O
 encore	encore	ADV	O	O	O
-quelque	quelque	ADV	O	O	O
+quelque	quelque	DET	O	O	O
 importance	importance	NOUN	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
@@ -364,6 +368,7 @@ des	de	ADP	O	O	O
 justes	juste	ADJ	O	O	O
 noces	noce	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 Mme	mme	NOUN	O	O	O
 Leblanc	leblanc	PROPN	O	O	O
 était	être	AUX	O	O	O
@@ -385,8 +390,8 @@ le	le	DET	O	O	O
 droit	droit	NOUN	O	O	O
 imprescriptible	imprescriptible	ADJ	O	O	O
 de	de	ADP	O	O	O
-le	le	DET	O	O	O
-supprimer	supprimer	NOUN	O	O	O
+le	le	PRON	O	O	O
+supprimer	supprimer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
@@ -400,7 +405,7 @@ inattendue	inattendu	ADJ	O	O	O
 de	de	ADP	O	O	O
 M.	m.	NOUN	O	O	O
 Leblanc	leblanc	PROPN	O	O	O
-jeta	jeter	PROPN	O	O	O
+jeta	jeter	VERB	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 plus	plus	ADV	O	O	O
@@ -423,7 +428,7 @@ lui	luire	PRON	O	O	O
 
 Elle	lui	PRON	O	O	O
 se	se	PRON	O	O	O
-sentit	sentit	ADJ	O	O	O
+sentit	sentir	VERB	O	O	O
 lésée	léser	VERB	O	O	O
 dans	dans	ADP	O	O	O
 ses	son	DET	O	O	O
@@ -441,7 +446,7 @@ justesse	justesse	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 décision	décision	NOUN	O	O	O
-prise	pris	ADJ	O	O	O
+prise	prendre	VERB	O	O	O
 par	par	ADP	O	O	O
 le	le	DET	O	O	O
 jury	jury	NOUN	O	O	O
@@ -462,7 +467,7 @@ que	que	SCONJ	O	O	O
 son	son	DET	O	O	O
 premier	premier	ADJ	O	O	O
 devoir	devoir	NOUN	O	O	O
-était	être	AUX	O	O	O
+était	être	VERB	O	O	O
 de	de	ADP	O	O	O
 tuer	tuer	VERB	O	O	O
 Mme	mme	NOUN	O	O	O
@@ -482,7 +487,7 @@ est	être	VERB	O	O	O
 pourquoi	pourquoi	ADV	O	O	O
 Mme	mme	NOUN	O	O	O
 Leblanc	leblanc	PROPN	O	O	O
-mourut	mourir	PROPN	O	O	O
+mourut	mourir	VERB	O	O	O
 comme	comme	SCONJ	O	O	O
 il	il	PRON	O	O	O
 faut	falloir	VERB	O	O	O
@@ -499,7 +504,7 @@ Le	le	DET	O	O	O
 motif	motif	NOUN	O	O	O
 noble	noble	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-désintéressé	désintéresser	VERB	O	O	O
+désintéressé	désintéressé	ADJ	O	O	O
 de	de	ADP	O	O	O
 cette	ce	DET	O	O	O
 exécution	exécution	NOUN	O	O	O
@@ -521,10 +526,10 @@ celle	celui	PRON	O	O	O
 qu'	que	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 auparavant	auparavant	ADV	O	O	O
-manifestée	manifester	ADJ	O	O	O
+manifestée	manifester	VERB	O	O	O
 sa	son	DET	O	O	O
 victime	victime	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 Mme	mme	NOUN	O	O	O
 Legris	legris	PROPN	O	O	O
 se	se	PRON	O	O	O
@@ -555,13 +560,14 @@ débats	débat	NOUN	O	O	O
 une	un	DET	O	O	O
 objection	objection	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Le	le	DET	O	O	O
 droit	droit	NOUN	O	O	O
 personnel	personnel	ADJ	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-accusée	accuser	VERB	O	O	O
+accusée	accusé	NOUN	O	O	O
 à	à	ADP	O	O	O
 suivre	suivre	VERB	O	O	O
 les	le	DET	O	O	O
@@ -572,7 +578,7 @@ coeur	coeur	NOUN	O	O	O
 généreux	généreux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 dit	dire	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 est	être	AUX	O	O	O
@@ -581,7 +587,7 @@ incontestable	incontestable	ADJ	O	O	O
 
 Mais	mais	CCONJ	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 permis	permettre	VERB	O	O	O
 d'	de	ADP	O	O	O
@@ -606,13 +612,14 @@ par	par	ADP	O	O	O
 le	le	DET	O	O	O
 jury	jury	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 et	et	CCONJ	O	O	O
 n'	ne	ADV	O	O	O
 y	y	PRON	O	O	O
 a	avoir	VERB	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 pas	pas	ADV	O	O	O
 dans	dans	ADP	O	O	O
@@ -642,7 +649,7 @@ La	le	DET	O	O	O
 question	question	NOUN	O	O	O
 ainsi	ainsi	ADV	O	O	O
 posée	poser	VERB	O	O	O
-parut	parut	ADJ	O	O	O
+parut	paraître	VERB	O	O	O
 délicate	délicat	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -653,7 +660,7 @@ du	de	ADP	O	O	O
 jury	jury	NOUN	O	O	O
 s'	se	PRON	O	O	O
 étant	être	AUX	O	O	O
-élevé	élevé	ADJ	O	O	O
+élevé	élever	VERB	O	O	O
 avec	avec	ADP	O	O	O
 vigueur	vigueur	NOUN	O	O	O
 contre	contre	ADP	O	O	O
@@ -661,12 +668,12 @@ une	un	DET	O	O	O
 condamnation	condamnation	NOUN	O	O	O
 qu'	que	PRON	O	O	O
 on	on	PRON	O	O	O
-eût	avoir	PRON	O	O	O
+eût	avoir	AUX	O	O	O
 pu	pouvoir	VERB	O	O	O
 croire	croire	VERB	O	O	O
 dictée	dicter	VERB	O	O	O
 par	par	ADP	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 motifs	motif	NOUN	O	O	O
 de	de	ADP	O	O	O
 rancune	rancune	NOUN	O	O	O
@@ -686,7 +693,7 @@ eut	avoir	VERB	O	O	O
 quelque	quelque	DET	O	O	O
 peine	peine	NOUN	O	O	O
 à	à	ADP	O	O	O
-fuir	fuir	NOUN	O	O	O
+fuir	fuir	VERB	O	O	O
 la	le	DET	O	O	O
 foule	foule	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -716,12 +723,13 @@ irrésolution	irrésolution	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 la	le	DET	O	O	O
 décision	décision	NOUN	O	O	O
-l'	le	DET	O	O	O
-aborda	aborda	NOUN	O	O	O
+l'	le	PRON	O	O	O
+aborda	aborder	VERB	O	O	O
 fort	fort	ADV	O	O	O
 courtoisement	courtoisement	ADV	O	O	O
 :	:	PUNCT	O	O	O
-—	—	PRON	O	O	O
+
+—	—	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 n'	ne	ADV	O	O	O
 ai	avoir	VERB	O	O	O
@@ -732,18 +740,21 @@ d'	de	ADP	O	O	O
 être	être	AUX	O	O	O
 connu	connaître	VERB	O	O	O
 de	de	ADP	O	O	O
-vous	vous	PROPN	O	O	O
+vous	vous	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 madame	monsieur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-fit	fit	NOUN	O	O	O
+fit	faire	VERB	O	O	O
 -	-	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
+
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 le	le	DET	O	O	O
 fait	fait	NOUN	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 que	que	SCONJ	O	O	O
 je	je	PRON	O	O	O
 nourrissais	nourrir	VERB	O	O	O
@@ -781,8 +792,8 @@ mes	mon	DET	O	O	O
 excuses	excuse	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-Ce	ce	DET	O	O	O
-disant	disant	NOUN	O	O	O
+Ce	ce	PRON	O	O	O
+disant	dire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 lui	luire	PRON	O	O	O
@@ -796,7 +807,7 @@ poignard	poignard	NOUN	O	O	O
 fort	fort	ADV	O	O	O
 proprement	proprement	ADV	O	O	O
 al	al	ADJ	O	O	O
--	-	PUNCT	O	O	O
+-	-	ADJ	O	O	O
 guisé	guiser	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
@@ -827,13 +838,14 @@ le	le	DET	O	O	O
 jeune	jeune	ADJ	O	O	O
 homme	homme	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 ce	ce	DET	O	O	O
 poignard	poignard	NOUN	O	O	O
 vaut	valoir	VERB	O	O	O
 mieux	mieux	ADV	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
-glaive	glaiv	ADJ	O	O	O
+glaive	glaive	NOUN	O	O	O
 émoussé	émousser	VERB	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
@@ -845,7 +857,7 @@ se	se	PRON	O	O	O
 laissa	laisser	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 sans	sans	ADP	O	O	O
-résistance	résistance	PROPN	O	O	O
+résistance	résistance	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 arrêter	arrêter	VERB	O	O	O
 et	et	CCONJ	O	O	O
@@ -859,11 +871,11 @@ préfecture	préfecture	NOUN	O	O	O
 
 Devant	devant	ADP	O	O	O
 les	le	DET	O	O	O
-douze	douze	NOUN	O	O	O
-concitoyens	concitoyen	ADJ	O	O	O
+douze	douze	NUM	O	O	O
+concitoyens	concitoyen	NOUN	O	O	O
 qui	qui	PRON	O	O	O
-le	le	DET	O	O	O
-jugèrent	jugèrent	NOUN	O	O	O
+le	le	PRON	O	O	O
+jugèrent	juger	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 son	son	DET	O	O	O
 attitude	attitude	NOUN	O	O	O
@@ -872,7 +884,7 @@ tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 fois	fois	NOUN	O	O	O
-mâle	mâle	NOUN	O	O	O
+mâle	mâle	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 débonnaire	débonnaire	ADJ	O	O	O
 .	.	PUNCT	O	O	O
@@ -883,7 +895,7 @@ la	le	DET	O	O	O
 mort	mort	NOUN	O	O	O
 à	à	ADP	O	O	O
 grands	grand	ADJ	O	O	O
-cris	cri	VERB	O	O	O
+cris	cri	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 disant	dire	VERB	O	O	O
 que	que	SCONJ	O	O	O
@@ -891,9 +903,9 @@ l'	le	DET	O	O	O
 existence	existence	NOUN	O	O	O
 ne	ne	ADV	O	O	O
 lui	luire	PRON	O	O	O
-était	être	AUX	O	O	O
+était	être	VERB	O	O	O
 plus	plus	ADV	O	O	O
-rien	rien	PRON	O	O	O
+rien	rien	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 puisqu'	puisque	SCONJ	O	O	O
 il	il	PRON	O	O	O
@@ -908,27 +920,27 @@ amour	amour	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 jamais	jamais	ADV	O	O	O
-dérobé	dérobé	ADJ	O	O	O
+dérobé	dérober	VERB	O	O	O
 à	à	ADP	O	O	O
 ses	son	DET	O	O	O
 étreintes	étreinte	NOUN	O	O	O
 par	par	ADP	O	O	O
 la	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
-inconsidérée	inconsidérer	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+inconsidérée	inconsidéré	ADJ	O	O	O
+qu'	que	PRON	O	O	O
 il	il	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 eu	avoir	VERB	O	O	O
 le	le	DET	O	O	O
 malheur	malheur	NOUN	O	O	O
 de	de	ADP	O	O	O
-châtier	châtier	NOUN	O	O	O
+châtier	châtier	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Cette	ce	DET	O	O	O
 attitude	attitude	NOUN	O	O	O
-mandroite	mandroite	NOUN	O	O	O
+mandroite	mandroit	ADJ	O	O	O
 ayant	avoir	AUX	O	O	O
 jeté	jeter	VERB	O	O	O
 le	le	DET	O	O	O
@@ -979,7 +991,7 @@ envoyer	envoyer	VERB	O	O	O
 au	au	ADP	O	O	O
 bagne	bagne	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-ou	ou	CCONJ	O	O	O
+ou	ou	PRON	O	O	O
 l'	le	PRON	O	O	O
 on	on	PRON	O	O	O
 vit	voir	VERB	O	O	O
@@ -992,22 +1004,22 @@ qui	qui	PRON	O	O	O
 ne	ne	ADV	O	O	O
 veut	vouloir	VERB	O	O	O
 plus	plus	ADV	O	O	O
-vivre	vivr	ADJ	O	O	O
+vivre	vivre	VERB	O	O	O
 du	de	ADP	O	O	O
-tout	tout	NOUN	O	O	O
+tout	tout	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
 jurés	juré	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-saisis	saisir	ADJ	O	O	O
+saisis	saisir	VERB	O	O	O
 de	de	ADP	O	O	O
 remords	remords	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-signèrent	signèrent	ADJ	O	O	O
+signèrent	signer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 séance	séance	NOUN	O	O	O
-tenante	tenant	ADJ	O	O	O
+tenante	tenant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 son	son	DET	O	O	O
 recours	recours	NOUN	O	O	O
@@ -1026,13 +1038,13 @@ de	de	ADP	O	O	O
 satisfaire	satisfaire	VERB	O	O	O
 leur	son	DET	O	O	O
 désir	désir	NOUN	O	O	O
-si	si	SCONJ	O	O	O
+si	si	ADV	O	O	O
 naturel	naturel	ADJ	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-bref	bref	ADV	O	O	O
-délai	délai	ADJ	O	O	O
+bref	bref	ADJ	O	O	O
+délai	délai	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
@@ -1041,15 +1053,15 @@ rimes	rime	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	SCONJ	O	O	O
 on	on	PRON	O	O	O
-put	pouvoir	PRON	O	O	O
+put	pouvoir	VERB	O	O	O
 déjà	déjà	ADV	O	O	O
-le	le	DET	O	O	O
-prévoir	prévoir	NOUN	O	O	O
+le	le	PRON	O	O	O
+prévoir	prévoir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 ne	ne	ADV	O	O	O
 s'	se	PRON	O	O	O
 arrêtèrent	arrêter	VERB	O	O	O
-point	poindre	VERB	O	O	O
+point	point	ADV	O	O	O
 là	là	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1102,13 +1114,13 @@ avoir	avoir	AUX	O	O	O
 trompé	tromper	VERB	O	O	O
 par	par	ADP	O	O	O
 ce	ce	DET	O	O	O
-vil	vil	NOUN	O	O	O
+vil	vil	ADJ	O	O	O
 séducteur	séducteur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Puis	pouvoir	CCONJ	O	O	O
 lui	luire	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 même	même	ADV	O	O	O
 succomba	succomber	VERB	O	O	O
 sous	sou	ADP	O	O	O
@@ -1124,16 +1136,16 @@ victime	victime	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 l'	le	PRON	O	O	O
-assomma	assomma	NOUN	O	O	O
+assomma	assommer	VERB	O	O	O
 fort	fort	ADV	O	O	O
-congrûment	congrûmer	VERB	O	O	O
+congrûment	congrûment	ADV	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
 aide	aide	NOUN	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 canne	canne	NOUN	O	O	O
-plombée	plombée	PROPN	O	O	O
+plombée	plomber	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Alors	alors	ADV	O	O	O
@@ -1146,19 +1158,19 @@ en	en	ADP	O	O	O
 deux	deux	NUM	O	O	O
 parties	party	NOUN	O	O	O
 également	également	ADV	O	O	O
-convaincues	convaincue	NOUN	O	O	O
+convaincues	convaincre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 également	également	ADV	O	O	O
-farouches	farouche	NOUN	O	O	O
+farouches	farouche	ADJ	O	O	O
 :	:	PUNCT	O	O	O
 l'	le	DET	O	O	O
-un	un	DET	O	O	O
-demeurant	demeurant	NOUN	O	O	O
-persuadé	persuader	ADJ	O	O	O
+un	un	PRON	O	O	O
+demeurant	demeurer	VERB	O	O	O
+persuadé	persuader	VERB	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
 jury	jury	NOUN	O	O	O
-avait	avoir	AUX	O	O	O
+avait	avoir	VERB	O	O	O
 bien	bien	ADV	O	O	O
 raison	raison	NOUN	O	O	O
 d'	de	ADP	O	O	O
@@ -1168,9 +1180,10 @@ d'	de	ADP	O	O	O
 acquitter	acquitter	VERB	O	O	O
 toujours	toujours	ADV	O	O	O
 ;	;	PUNCT	O	O	O
+
 l'	le	DET	O	O	O
-autre	autre	ADJ	O	O	O
-déclarant	déclarant	NOUN	O	O	O
+autre	autre	PRON	O	O	O
+déclarant	déclarer	VERB	O	O	O
 qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 commençait	commencer	VERB	O	O	O
@@ -1179,8 +1192,8 @@ n'	ne	ADV	O	O	O
 en	en	PRON	O	O	O
 avoir	avoir	VERB	O	O	O
 par	par	ADP	O	O	O
--	-	PUNCT	O	O	O
-dessus	dessus	NOUN	O	O	O
+-	-	ADP	O	O	O
+dessus	dessus	ADP	O	O	O
 la	le	DET	O	O	O
 tête	tête	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1188,7 +1201,7 @@ voir	voir	VERB	O	O	O
 le	le	DET	O	O	O
 jury	jury	NOUN	O	O	O
 acquitter	acquitter	VERB	O	O	O
-perpétuellement	perpétuellement	ADJ	O	O	O
+perpétuellement	perpétuellement	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Ce	ce	PRON	O	O	O
@@ -1217,11 +1230,11 @@ la	le	DET	O	O	O
 passion	passion	NOUN	O	O	O
 la	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-sincère	sincère	NOUN	O	O	O
+sincère	sincère	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 qui	qui	PRON	O	O	O
-furent	être	VERB	O	O	O
+furent	être	AUX	O	O	O
 ,	,	PUNCT	O	O	O
 ainsi	ainsi	ADV	O	O	O
 qu'	que	SCONJ	O	O	O
@@ -1251,26 +1264,27 @@ leur	son	DET	O	O	O
 tour	tour	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ces	ce	DET	O	O	O
-moindres	moindre	NOUN	O	O	O
+moindres	moindre	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 légitimes	légitime	ADJ	O	O	O
 massacres	massacre	NOUN	O	O	O
 s'	se	PRON	O	O	O
-épandirent	épandre	ADV	O	O	O
+épandirent	épandre	VERB	O	O	O
 sur	sur	ADP	O	O	O
 toute	tout	ADJ	O	O	O
 la	le	DET	O	O	O
 France	france	PROPN	O	O	O
 ;	;	PUNCT	O	O	O
+
 et	et	CCONJ	O	O	O
 pendant	pendant	ADP	O	O	O
 un	un	DET	O	O	O
 temps	temps	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 là	là	ADV	O	O	O
 les	le	DET	O	O	O
 jurys	jury	NOUN	O	O	O
-continuaient	continuaient	ADJ	O	O	O
+continuaient	continuer	VERB	O	O	O
 d'	de	ADP	O	O	O
 acquitter	acquitter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1291,7 +1305,7 @@ acquittement	acquittement	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 est	être	AUX	O	O	O
 le	le	DET	O	O	O
-devoir	devoir	VERB	O	O	O
+devoir	devoir	NOUN	O	O	O
 le	le	DET	O	O	O
 principe	principe	NOUN	O	O	O
 initial	initial	ADJ	O	O	O
@@ -1322,20 +1336,20 @@ sur	sur	ADP	O	O	O
 tout	tout	ADJ	O	O	O
 l'	le	DET	O	O	O
 étendue	étendue	NOUN	O	O	O
-sanglante	sanglante	NOUN	O	O	O
+sanglante	sanglant	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-dévastée	dévastée	NOUN	O	O	O
+dévastée	dévaster	VERB	O	O	O
 du	de	ADP	O	O	O
 territoire	territoire	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 France	france	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-que	que	SCONJ	O	O	O
-douze	douze	PROPN	O	O	O
-jurés	jurer	PROPN	O	O	O
+que	que	ADV	O	O	O
+douze	douze	NUM	O	O	O
+jurés	juré	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-douze	douze	NOUN	O	O	O
+douze	douze	PRON	O	O	O
 seulement	seulement	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1371,7 +1385,7 @@ grenier	grenier	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
-autres	autre	ADJ	O	O	O
+autres	autre	PRON	O	O	O
 se	se	PRON	O	O	O
 regardèrent	regarder	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1379,8 +1393,9 @@ surpris	surprendre	VERB	O	O	O
 et	et	CCONJ	O	O	O
 choqués	choquer	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
-leur	son	DET	O	O	O
+leur	son	PRON	O	O	O
 fallut	falloir	VERB	O	O	O
 se	se	PRON	O	O	O
 dissoudre	dissoudre	VERB	O	O	O
@@ -1402,7 +1417,7 @@ sorte	sorte	NOUN	O	O	O
 que	que	SCONJ	O	O	O
 la	le	DET	O	O	O
 disparition	disparition	NOUN	O	O	O
-pratiquement	pratiquemer	VERB	O	O	O
+pratiquement	pratiquement	ADV	O	O	O
 totale	total	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
@@ -1425,9 +1440,9 @@ par	par	ADP	O	O	O
 M.	m.	NOUN	O	O	O
 Orosha	orosha	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-genti	genti	ADJ	O	O	O
--	-	PUNCT	O	O	O
-leman	leman	ADJ	O	O	O
+genti	genti	NOUN	O	O	O
+-	-	NOUN	O	O	O
+leman	leman	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 d'	de	ADP	O	O	O
 origine	origine	NOUN	O	O	O
@@ -1443,7 +1458,7 @@ université	université	NOUN	O	O	O
 d'	de	ADP	O	O	O
 Honolulu	honolulu	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-îles	île	PRON	O	O	O
+îles	île	NOUN	O	O	O
 Hawaii	hawaii	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1457,8 +1472,8 @@ disparition	disparition	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 dit	dire	VERB	O	O	O
 l'	le	DET	O	O	O
-éminent	éminent	ADV	O	O	O
-spécialiste	spécialiste	ADJ	O	O	O
+éminent	éminent	ADJ	O	O	O
+spécialiste	spécialiste	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
@@ -1486,10 +1501,11 @@ chez	chez	ADP	O	O	O
 les	le	DET	O	O	O
 habitants	habitant	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 l'	le	DET	O	O	O
 enquête	enquête	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 j'	je	PRON	O	O	O
 ai	avoir	AUX	O	O	O
 faite	faire	VERB	O	O	O
@@ -1519,7 +1535,7 @@ phénomène	phénomène	NOUN	O	O	O
 elle	lui	PRON	O	O	O
 est	être	AUX	O	O	O
 telle	tel	ADJ	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 je	je	PRON	O	O	O
 viens	venir	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -1547,10 +1563,10 @@ par	par	ADP	O	O	O
 l'	le	DET	O	O	O
 immigration	immigration	NOUN	O	O	O
 d'	de	ADP	O	O	O
-Italiens	italiens	PROPN	O	O	O
+Italiens	italien	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 d'	de	ADP	O	O	O
-Espagnols	espagnols	PROPN	O	O	O
+Espagnols	espagnol	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 d'	de	ADP	O	O	O
 Allemands	allemand	NOUN	O	O	O
@@ -1561,7 +1577,7 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 république	république	NOUN	O	O	O
 d'	de	ADP	O	O	O
-Andorre	andorre	NOUN	O	O	O
+Andorre	andorre	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 

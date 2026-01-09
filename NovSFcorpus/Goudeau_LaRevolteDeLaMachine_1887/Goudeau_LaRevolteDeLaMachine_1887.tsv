@@ -5,17 +5,17 @@ Pastoureaux	pastoureaux	PROPN	O	O	O
 aidé	aider	VERB	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
-vieil	vieux	NOUN	O	O	O
-ouvrier	ouvrier	ADJ	O	O	O
+vieil	vieux	ADJ	O	O	O
+ouvrier	ouvrier	NOUN	O	O	O
 fort	fort	ADV	O	O	O
 habile	habile	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 l'	le	PRON	O	O	O
 on	on	PRON	O	O	O
 nommait	nommer	VERB	O	O	O
 Jean	jean	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Bertrand	bertrand	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 avait	avoir	AUX	O	O	O
@@ -24,7 +24,7 @@ une	un	DET	O	O	O
 machine	machine	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 révolutionnait	révolutionner	VERB	O	O	O
-tout	tout	ADV	O	O	O
+tout	tout	ADJ	O	O	O
 le	le	DET	O	O	O
 monde	monde	NOUN	O	O	O
 savant	savant	ADJ	O	O	O
@@ -69,9 +69,9 @@ qui	qui	PRON	O	O	O
 rebuteraient	rebuter	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-Qu'	que	PRON	O	O	O
+Qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
-suffise	suffis	ADJ	O	O	O
+suffise	suffire	VERB	O	O	O
 de	de	ADP	O	O	O
 savoir	savoir	VERB	O	O	O
 qu'	que	SCONJ	O	O	O
@@ -101,16 +101,17 @@ donner	donner	VERB	O	O	O
 une	un	DET	O	O	O
 sorte	sorte	NOUN	O	O	O
 d'	de	ADP	O	O	O
-âme	âm	ADJ	O	O	O
+âme	âme	NOUN	O	O	O
 aux	à	ADP	O	O	O
 machines	machine	NOUN	O	O	O
 locomobiles	locomobile	ADJ	O	O	O
 ou	ou	CCONJ	O	O	O
-fixes	fixe	NOUN	O	O	O
+fixes	fixe	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 que	que	SCONJ	O	O	O
 cet	ce	DET	O	O	O
-être	être	AUX	O	O	O
+être	être	NOUN	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 devait	devoir	VERB	O	O	O
 agir	agir	VERB	O	O	O
@@ -121,13 +122,13 @@ d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 taureau	taureau	NOUN	O	O	O
 de	de	ADP	O	O	O
-métal	métal	ADJ	O	O	O
+métal	métal	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 éléphant	éléphant	NOUN	O	O	O
 d'	de	ADP	O	O	O
-acier	acier	VERB	O	O	O
+acier	acier	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -149,9 +150,9 @@ son	son	DET	O	O	O
 oeuvre	oeuvre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
-vieux	vieux	PROPN	O	O	O
+vieux	vieux	ADJ	O	O	O
 Jean	jean	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Bertrand	bertrand	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 superstitieux	superstitieux	ADJ	O	O	O
@@ -167,7 +168,7 @@ effrayé	effrayer	VERB	O	O	O
 d'	de	ADP	O	O	O
 apercevoir	apercevoir	VERB	O	O	O
 cette	ce	DET	O	O	O
-subite	subite	NOUN	O	O	O
+subite	subit	ADJ	O	O	O
 évocation	évocation	NOUN	O	O	O
 d'	de	ADP	O	O	O
 intelligence	intelligence	NOUN	O	O	O
@@ -177,7 +178,6 @@ chose	chose	NOUN	O	O	O
 primitivement	primitivement	ADV	O	O	O
 morte	mort	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-
 D'	de	ADP	O	O	O
 ailleurs	ailleurs	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -201,9 +201,9 @@ contre	contre	ADP	O	O	O
 les	le	DET	O	O	O
 machines	machine	NOUN	O	O	O
 qui	qui	PRON	O	O	O
-servent	servir	ADV	O	O	O
+servent	servir	VERB	O	O	O
 d'	de	ADP	O	O	O
-esclave	esclave	ADP	O	O	O
+esclave	esclave	NOUN	O	O	O
 au	au	ADP	O	O	O
 capitaliste	capitaliste	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -215,7 +215,7 @@ ouvrier	ouvrier	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
-était	être	AUX	O	O	O
+était	être	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 veille	veille	NOUN	O	O	O
@@ -224,7 +224,7 @@ l'	le	DET	O	O	O
 inauguration	inauguration	NOUN	O	O	O
 du	de	ADP	O	O	O
 chef	chef	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 d'	de	ADP	O	O	O
 oeuvre	oeuvre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -246,11 +246,12 @@ organes	organe	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 sensations	sensation	NOUN	O	O	O
-extérieures	extérieurer	VERB	O	O	O
+extérieures	extérieur	ADJ	O	O	O
 lui	luire	PRON	O	O	O
-parvenaient	parvenir	ADV	O	O	O
+parvenaient	parvenir	VERB	O	O	O
 distinctes	distinct	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 elle	lui	PRON	O	O	O
 comprenait	comprendre	VERB	O	O	O
 que	que	SCONJ	O	O	O
@@ -259,18 +260,18 @@ malgré	malgré	ADP	O	O	O
 les	le	DET	O	O	O
 entraves	entrave	NOUN	O	O	O
 qui	qui	PRON	O	O	O
-la	le	DET	O	O	O
-retenaient	retenaient	NOUN	O	O	O
+la	le	PRON	O	O	O
+retenaient	retenir	VERB	O	O	O
 encore	encore	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 des	un	DET	O	O	O
 membres	membre	NOUN	O	O	O
-solides	solide	NOUN	O	O	O
+solides	solide	ADJ	O	O	O
 s'	se	PRON	O	O	O
 adaptaient	adapter	VERB	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
-être	être	AUX	O	O	O
+être	être	NOUN	O	O	O
 jeune	jeune	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
@@ -282,13 +283,13 @@ traduire	traduire	VERB	O	O	O
 en	en	ADP	O	O	O
 mouvement	mouvement	NOUN	O	O	O
 au	au	ADP	O	O	O
-dehors	dehors	ADP	O	O	O
+dehors	dehors	NOUN	O	O	O
 ce	ce	PRON	O	O	O
 qu'	que	PRON	O	O	O
 elle	lui	PRON	O	O	O
 éprouvait	éprouver	VERB	O	O	O
 au	au	ADP	O	O	O
-dedans	dedans	PROPN	O	O	O
+dedans	dedans	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Or	or	CCONJ	O	O	O
@@ -299,10 +300,11 @@ qu'	que	PRON	O	O	O
 elle	lui	PRON	O	O	O
 entendit	entendre	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Étais	être	AUX	O	O	O
--	-	PUNCT	O	O	O
-tu	tu	ADV	O	O	O
+Étais	être	VERB	O	O	O
+-	-	PRON	O	O	O
+tu	tu	PRON	O	O	O
 hier	hier	ADV	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
@@ -331,12 +333,12 @@ d'	de	ADP	O	O	O
 hercule	hercule	NOUN	O	O	O
 aux	à	ADP	O	O	O
 bras	bras	NOUN	O	O	O
-musclés	muscler	VERB	O	O	O
+musclés	muscler	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-nus	nu	VERB	O	O	O
+nus	nu	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Bizarrement	bizarrement	PROPN	O	O	O
+Bizarrement	bizarrement	ADV	O	O	O
 éclairée	éclairer	VERB	O	O	O
 par	par	ADP	O	O	O
 les	le	DET	O	O	O
@@ -352,7 +354,7 @@ figure	figure	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 noire	noir	ADJ	O	O	O
 de	de	ADP	O	O	O
-poussière	poussiérer	VERB	O	O	O
+poussière	poussière	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ne	ne	ADV	O	O	O
 laissait	laisser	VERB	O	O	O
@@ -360,7 +362,7 @@ voir	voir	VERB	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 pénombre	pénombre	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 le	le	DET	O	O	O
 blanc	blanc	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -377,7 +379,7 @@ intelligence	intelligence	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Oui	oui	PROPN	O	O	O
+Oui	oui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 j'	je	PRON	O	O	O
 y	y	PRON	O	O	O
@@ -397,7 +399,7 @@ monstres	monstre	NOUN	O	O	O
 que	que	PRON	O	O	O
 nos	notre	DET	O	O	O
 bras	bras	NOUN	O	O	O
-fabriquent	fabriquer	ADV	O	O	O
+fabriquent	fabriquer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 qui	qui	PRON	O	O	O
@@ -406,13 +408,13 @@ un	un	DET	O	O	O
 jour	jour	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 donne	donne	VERB	O	O	O
--	-	PUNCT	O	O	O
-SPACE	O	O	O
+-	-	NOUN	O	O	O
+ 	 	SPACE	O	O	O
 ront	ront	VERB	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
-infâme	infâme	NOUN	O	O	O
-capital	capital	ADJ	O	O	O
+infâme	infâme	ADJ	O	O	O
+capital	capital	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
 occasion	occasion	NOUN	O	O	O
@@ -429,7 +431,7 @@ bras	bras	NOUN	O	O	O
 C'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 nous	nous	PRON	O	O	O
-qui	qui	DET	O	O	O
+qui	qui	PRON	O	O	O
 forgeons	forger	VERB	O	O	O
 les	le	DET	O	O	O
 armes	arme	NOUN	O	O	O
@@ -440,12 +442,12 @@ société	société	NOUN	O	O	O
 bourgeoise	bourgeois	ADJ	O	O	O
 doit	devoir	VERB	O	O	O
 nous	nous	PRON	O	O	O
-battre	battr	ADJ	O	O	O
+battre	battre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Quand	quand	SCONJ	O	O	O
 les	le	DET	O	O	O
-repus	repu	PROPN	O	O	O
+repus	repu	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 pourris	pourri	NOUN	O	O	O
@@ -466,10 +468,10 @@ branle	branle	NOUN	O	O	O
 comme	comme	ADP	O	O	O
 ceux	celui	PRON	O	O	O
 -	-	PRON	O	O	O
-ci	ci	NOUN	O	O	O
+ci	ci	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-fit	fit	NOUN	O	O	O
--	-	PUNCT	O	O	O
+fit	faire	VERB	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 avec	avec	ADP	O	O	O
 un	un	DET	O	O	O
@@ -485,7 +487,7 @@ réglé	régler	VERB	O	O	O
 
 Nous	nous	PRON	O	O	O
 en	en	PRON	O	O	O
-vivons	vivon	NOUN	O	O	O
+vivons	vivre	VERB	O	O	O
 à	à	ADP	O	O	O
 cette	ce	DET	O	O	O
 heure	heure	NOUN	O	O	O
@@ -505,11 +507,11 @@ du	de	ADP	O	O	O
 monde	monde	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Holà	holà	NOUN	O	O	O
+Holà	holà	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 pas	pas	ADV	O	O	O
-besoin	besoin	NOUN	O	O	O
+besoin	besoin	ADV	O	O	O
 de	de	ADP	O	O	O
 faire	faire	VERB	O	O	O
 des	un	DET	O	O	O
@@ -524,8 +526,8 @@ laquais	laquais	NOUN	O	O	O
 à	à	ADP	O	O	O
 bourgeois	bourgeois	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
+
 En	en	ADP	O	O	O
 écoutant	écouter	VERB	O	O	O
 toutes	tout	ADJ	O	O	O
@@ -557,22 +559,21 @@ il	il	PRON	O	O	O
 bon	bon	ADJ	O	O	O
 qu'	que	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
-fût	fût	DET	O	O	O
+fût	être	AUX	O	O	O
 née	naître	VERB	O	O	O
 pour	pour	ADP	O	O	O
 rendre	rendre	VERB	O	O	O
 ainsi	ainsi	ADV	O	O	O
 misérables	misérable	ADJ	O	O	O
 ces	ce	DET	O	O	O
-braves	brave	NOUN	O	O	O
+braves	brave	ADJ	O	O	O
 travailleurs	travailleur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Ah	ah	NOUN	O	O	O
+Ah	ah	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
-vociféra	vociféra	NOUN	O	O	O
+vociféra	vociférer	VERB	O	O	O
 le	le	DET	O	O	O
 forgeron	forgeron	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -581,7 +582,7 @@ S'	se	SCONJ	O	O	O
 il	il	PRON	O	O	O
 ne	ne	ADV	O	O	O
 tenait	tenir	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 à	à	ADP	O	O	O
 moi	moi	PRON	O	O	O
 et	et	CCONJ	O	O	O
@@ -604,13 +605,13 @@ omelette	omelette	NOUN	O	O	O
 Nos	notre	DET	O	O	O
 bras	bras	NOUN	O	O	O
 ensuite	ensuite	ADV	O	O	O
-suffiraient	suffiraient	ADJ	O	O	O
+suffiraient	suffire	VERB	O	O	O
 bien	bien	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 dit	dire	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
-en	en	PRON	O	O	O
+en	en	ADP	O	O	O
 se	se	PRON	O	O	O
 tapant	taper	VERB	O	O	O
 sur	sur	ADP	O	O	O
@@ -624,9 +625,10 @@ terre	terre	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 y	y	PRON	O	O	O
 trouver	trouver	VERB	O	O	O
-du	de	ADP	O	O	O
+du	de	DET	O	O	O
 pain	pain	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 les	le	DET	O	O	O
 bourgeois	bourgeois	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -634,8 +636,8 @@ avec	avec	ADP	O	O	O
 leurs	leur	DET	O	O	O
 muscles	muscle	NOUN	O	O	O
 de	de	ADP	O	O	O
-quatre	quatre	PRON	O	O	O
-sous	sou	ADP	O	O	O
+quatre	quatre	NUM	O	O	O
+sous	sou	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 leur	son	DET	O	O	O
 sang	sang	NOUN	O	O	O
@@ -653,11 +655,12 @@ cher	cher	ADJ	O	O	O
 le	le	DET	O	O	O
 pain	pain	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	SCONJ	O	O	O
 ils	il	PRON	O	O	O
-bronchaient	broncher	ADV	O	O	O
+bronchaient	broncher	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 mille	mille	NUM	O	O	O
 tonnerres	tonnerre	NOUN	O	O	O
@@ -667,9 +670,9 @@ ces	ce	DET	O	O	O
 deux	deux	NUM	O	O	O
 poings	poing	NOUN	O	O	O
 pourraient	pouvoir	VERB	O	O	O
-leur	son	DET	O	O	O
+leur	son	PRON	O	O	O
 en	en	PRON	O	O	O
-faire	faire	VERB	O	O	O
+faire	faire	AUX	O	O	O
 passer	passer	VERB	O	O	O
 le	le	DET	O	O	O
 goût	goût	NOUN	O	O	O
@@ -696,14 +699,15 @@ vers	vers	ADP	O	O	O
 la	le	DET	O	O	O
 machine	machine	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-—	—	PRON	O	O	O
+
+—	—	PUNCT	O	O	O
 Si	si	SCONJ	O	O	O
-tous	tout	ADJ	O	O	O
+tous	tout	PRON	O	O	O
 étaient	être	AUX	O	O	O
 comme	comme	ADP	O	O	O
 moi	moi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-tu	tu	ADV	O	O	O
+tu	tu	PRON	O	O	O
 ne	ne	ADV	O	O	O
 vivrais	vivre	VERB	O	O	O
 pas	pas	ADV	O	O	O
@@ -721,7 +725,7 @@ va	aller	VERB	O	O	O
 
 Et	et	CCONJ	O	O	O
 son	son	DET	O	O	O
-poing	poing	PROPN	O	O	O
+poing	poing	NOUN	O	O	O
 formidable	formidable	ADJ	O	O	O
 s'	se	PRON	O	O	O
 abattit	abattre	VERB	O	O	O
@@ -735,13 +739,13 @@ retentit	retentir	VERB	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 long	long	ADJ	O	O	O
-gémissement	gémissement	ADV	O	O	O
-quasi	quasi	NOUN	O	O	O
+gémissement	gémissement	NOUN	O	O	O
+quasi	quasi	ADV	O	O	O
 humain	humain	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Jean	jean	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Bertrand	bertrand	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
@@ -757,7 +761,7 @@ attendrissement	attendrissement	NOUN	O	O	O
 se	se	PRON	O	O	O
 sentant	sentir	VERB	O	O	O
 coupable	coupable	ADJ	O	O	O
-envers	envers	ADJ	O	O	O
+envers	envers	ADP	O	O	O
 les	le	DET	O	O	O
 frères	frère	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -771,18 +775,18 @@ docteur	docteur	NOUN	O	O	O
 accomplir	accomplir	VERB	O	O	O
 le	le	DET	O	O	O
 chef	chef	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 d'	de	ADP	O	O	O
 oeuvre	oeuvre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Puis	pouvoir	ADV	O	O	O
+Puis	pouvoir	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 tous	tout	ADJ	O	O	O
 ils	il	PRON	O	O	O
 s'	se	PRON	O	O	O
-en	en	ADP	O	O	O
-allèrent	allèrent	NOUN	O	O	O
+en	en	PRON	O	O	O
+allèrent	aller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 la	le	DET	O	O	O
@@ -791,7 +795,7 @@ machine	machine	NOUN	O	O	O
 encore	encore	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
-souvenir	souvenir	VERB	O	O	O
+souvenir	souvenir	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
@@ -825,7 +829,7 @@ exploiteurs	exploiteur	NOUN	O	O	O
 damnés	damné	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
-Ah	ah	PUNCT	O	O	O
+Ah	ah	INTJ	O	O	O
 !	!	PUNCT	O	O	O
 
 elle	lui	PRON	O	O	O
@@ -854,10 +858,10 @@ suicide	suicide	NOUN	O	O	O
 Et	et	CCONJ	O	O	O
 dans	dans	ADP	O	O	O
 son	son	DET	O	O	O
-âme	âm	ADJ	O	O	O
+âme	âme	NOUN	O	O	O
 machinale	machinal	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-enfantine	enfantine	NOUN	O	O	O
+enfantine	enfantin	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 ruminait	ruminer	VERB	O	O	O
@@ -880,18 +884,18 @@ des	de	ADP	O	O	O
 machines	machine	NOUN	O	O	O
 ignorantes	ignorant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-rétrogrades	rétrograde	NOUN	O	O	O
+rétrogrades	rétrograde	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 cruelles	cruel	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
-leur	son	DET	O	O	O
-donnant	donnant	NOUN	O	O	O
+leur	son	PRON	O	O	O
+donnant	donner	VERB	O	O	O
 enfin	enfin	ADV	O	O	O
 un	un	DET	O	O	O
 exemple	exemple	NOUN	O	O	O
 de	de	ADP	O	O	O
-sublime	sublime	NOUN	O	O	O
+sublime	sublime	ADJ	O	O	O
 abnégation	abnégation	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -918,7 +922,7 @@ des	de	ADP	O	O	O
 chimistes	chimiste	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	NOUN	O	O	O
 terminait	terminer	VERB	O	O	O
 ainsi	ainsi	ADV	O	O	O
 son	son	DET	O	O	O
@@ -927,8 +931,9 @@ au	au	ADP	O	O	O
 docteur	docteur	NOUN	O	O	O
 Pastoureaux	pastoureaux	PROPN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Oui	oui	PROPN	O	O	O
+Oui	oui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 messieurs	monsieur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -987,8 +992,8 @@ le	le	DET	O	O	O
 docteur	docteur	NOUN	O	O	O
 Pastoureaux	pastoureaux	PROPN	O	O	O
 semble	sembler	VERB	O	O	O
-le	le	DET	O	O	O
-prévoir	prévoir	NOUN	O	O	O
+le	le	PRON	O	O	O
+prévoir	prévoir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 démontrer	démontrer	VERB	O	O	O
@@ -1023,15 +1028,14 @@ plus	plus	ADV	O	O	O
 de	de	ADP	O	O	O
 prolétaires	prolétaire	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
-tout	tout	ADV	O	O	O
-deviendront	devenir	AUX	O	O	O
-bourgeois	bourgeois	NOUN	O	O	O
+tout	tout	PRON	O	O	O
+deviendront	devenir	VERB	O	O	O
+bourgeois	bourgeois	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 La	le	DET	O	O	O
 machine	machine	NOUN	O	O	O
-esclave	esclave	ADP	O	O	O
+esclave	esclave	ADJ	O	O	O
 délivrera	délivrer	VERB	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
@@ -1042,9 +1046,9 @@ d'	de	ADP	O	O	O
 en	en	ADP	O	O	O
 bas	bas	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-leur	son	DET	O	O	O
-donnera	donnera	NOUN	O	O	O
-droit	droit	ADJ	O	O	O
+leur	son	PRON	O	O	O
+donnera	donner	VERB	O	O	O
+droit	droit	NOUN	O	O	O
 de	de	ADP	O	O	O
 cité	cité	NOUN	O	O	O
 parmi	parmi	ADP	O	O	O
@@ -1053,9 +1057,9 @@ nous	nous	PRON	O	O	O
 
 Plus	plus	ADV	O	O	O
 d'	de	ADP	O	O	O
-infortunés	infortuner	VERB	O	O	O
+infortunés	infortuné	NOUN	O	O	O
 mineurs	mineur	ADJ	O	O	O
-obligés	obliger	ADJ	O	O	O
+obligés	obliger	VERB	O	O	O
 de	de	ADP	O	O	O
 descendre	descendre	VERB	O	O	O
 sous	sou	ADP	O	O	O
@@ -1073,10 +1077,11 @@ infatigable	infatigable	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 éternelle	éternel	ADJ	O	O	O
 y	y	PRON	O	O	O
-descendra	descendra	ADJ	O	O	O
+descendra	descendre	VERB	O	O	O
 pour	pour	ADP	O	O	O
 eux	lui	PRON	O	O	O
 ;	;	PUNCT	O	O	O
+
 la	le	DET	O	O	O
 machine	machine	NOUN	O	O	O
 pensante	pensant	ADJ	O	O	O
@@ -1084,7 +1089,7 @@ et	et	CCONJ	O	O	O
 agissante	agissant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 non	non	ADV	O	O	O
-souffrante	souffrante	NOUN	O	O	O
+souffrante	souffrant	ADJ	O	O	O
 du	de	ADP	O	O	O
 labeur	labeur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1103,6 +1108,7 @@ les	le	DET	O	O	O
 palais	palais	NOUN	O	O	O
 héroïques	héroïque	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 elle	lui	PRON	O	O	O
@@ -1119,7 +1125,7 @@ les	le	DET	O	O	O
 sillons	sillon	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Eh	eh	ADP	O	O	O
+Eh	eh	INTJ	O	O	O
 !	!	PUNCT	O	O	O
 
 messieurs	monsieur	NOUN	O	O	O
@@ -1133,7 +1139,7 @@ en	en	ADP	O	O	O
 présence	présence	NOUN	O	O	O
 de	de	ADP	O	O	O
 cette	ce	DET	O	O	O
-admirable	admirable	NOUN	O	O	O
+admirable	admirable	ADJ	O	O	O
 découverte	découverte	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
@@ -1141,7 +1147,7 @@ me	me	PRON	O	O	O
 faire	faire	VERB	O	O	O
 un	un	DET	O	O	O
 instant	instant	NOUN	O	O	O
-prophète	prophèt	ADJ	O	O	O
+prophète	prophète	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
@@ -1150,9 +1156,9 @@ viendra	venir	VERB	O	O	O
 où	où	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 toujours	toujours	ADV	O	O	O
-courant	courant	ADJ	O	O	O
+courant	courir	VERB	O	O	O
 de	de	ADP	O	O	O
-ci	ci	NOUN	O	O	O
+ci	ci	PRON	O	O	O
 de	de	ADP	O	O	O
 là	là	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1167,18 +1173,18 @@ des	un	DET	O	O	O
 pigeons	pigeon	NOUN	O	O	O
 voyageurs	voyageur	ADJ	O	O	O
 du	de	ADP	O	O	O
-Progrès	progrès	NOUN	O	O	O
+Progrès	progrès	PROPN	O	O	O
 :	:	PUNCT	O	O	O
 un	un	DET	O	O	O
 jour	jour	NOUN	O	O	O
-peut	pouvoir	VERB	O	O	O
--	-	PUNCT	O	O	O
-être	être	ADV	O	O	O
+peut	pouvoir	ADV	O	O	O
+-	-	PRON	O	O	O
+être	être	AUX	O	O	O
 ,	,	PUNCT	O	O	O
 ayant	avoir	AUX	O	O	O
 reçu	recevoir	VERB	O	O	O
 leur	son	DET	O	O	O
-complémentaire	complémentaire	NOUN	O	O	O
+complémentaire	complémentaire	ADJ	O	O	O
 éducation	éducation	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
@@ -1217,7 +1223,7 @@ sur	sur	ADP	O	O	O
 un	un	DET	O	O	O
 signal	signal	NOUN	O	O	O
 électro	électro	ADJ	O	O	O
--	-	PUNCT	O	O	O
+-	-	ADJ	O	O	O
 vitalique	vitaliqu	ADJ	O	O	O
 afin	afin	ADP	O	O	O
 que	que	SCONJ	O	O	O
@@ -1227,15 +1233,15 @@ sème	semer	VERB	O	O	O
 le	le	DET	O	O	O
 blé	blé	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-le	le	DET	O	O	O
-récolte	récolte	NOUN	O	O	O
+le	le	PRON	O	O	O
+récolte	récolte	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-l'	le	DET	O	O	O
-emmagasine	emmagasine	NOUN	O	O	O
+l'	le	PRON	O	O	O
+emmagasine	emmagasiner	VERB	O	O	O
 et	et	CCONJ	O	O	O
-en	en	ADP	O	O	O
-fasse	fasse	NOUN	O	O	O
-du	de	ADP	O	O	O
+en	en	PRON	O	O	O
+fasse	faire	VERB	O	O	O
+du	de	DET	O	O	O
 pain	pain	NOUN	O	O	O
 qu'	que	PRON	O	O	O
 elle	lui	PRON	O	O	O
@@ -1265,14 +1271,16 @@ animaux	animal	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 eux	lui	PRON	O	O	O
 aussi	aussi	ADV	O	O	O
+
 ,	,	PUNCT	O	O	O
-délivrés	délivré	NOUN	O	O	O
+délivrés	délivrer	VERB	O	O	O
 de	de	ADP	O	O	O
 leur	son	DET	O	O	O
 part	part	NOUN	O	O	O
 énorme	énorme	ADJ	O	O	O
 de	de	ADP	O	O	O
 travaux	travail	NOUN	O	O	O
+
 ,	,	PUNCT	O	O	O
 pourront	pouvoir	VERB	O	O	O
 applaudir	applaudir	VERB	O	O	O
@@ -1286,7 +1294,8 @@ et	et	CCONJ	O	O	O
 sourires	sourire	NOUN	O	O	O
 )	)	PUNCT	O	O	O
 ;	;	PUNCT	O	O	O
-oui	oui	NOUN	O	O	O
+
+oui	oui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 messieurs	monsieur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1301,7 +1310,7 @@ avoir	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 nos	notre	DET	O	O	O
 souffre	souffre	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 douleurs	douleur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1326,8 +1335,8 @@ moins	moins	ADV	O	O	O
 il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
 aura	avoir	AUX	O	O	O
-point	poindre	VERB	O	O	O
-souffert	souffrir	ADJ	O	O	O
+point	point	ADV	O	O	O
+souffert	souffrir	VERB	O	O	O
 auparavant	auparavant	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1365,31 +1374,32 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 souffrance	souffrance	NOUN	O	O	O
 !	!	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
 Le	le	DET	O	O	O
 discours	discours	NOUN	O	O	O
 fut	être	AUX	O	O	O
 vivement	vivement	ADV	O	O	O
-applaudi	applaudir	PRON	O	O	O
+applaudi	applaudir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Seul	seul	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
-savant	saver	VERB	O	O	O
-jaloux	jaloux	NOUN	O	O	O
-jeta	jeter	PROPN	O	O	O
+savant	savant	NOUN	O	O	O
+jaloux	jaloux	ADJ	O	O	O
+jeta	jeter	VERB	O	O	O
 ce	ce	DET	O	O	O
 mot	mot	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-—	—	VERB	O	O	O
+
+—	—	PUNCT	O	O	O
 Cette	ce	DET	O	O	O
 machine	machine	NOUN	O	O	O
 aura	avoir	VERB	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	DET	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 elle	lui	PRON	O	O	O
 la	le	DET	O	O	O
 fidélité	fidélité	NOUN	O	O	O
@@ -1397,10 +1407,14 @@ du	de	ADP	O	O	O
 chien	chien	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
-la	le	DET	O	O	O
+la	le	PUNCT	O	O	O
+
 docilité	docilité	NOUN	O	O	O
-du	de	ADP	O	O	O
+
+du	du	PUNCT	O	O	O
+
 cheval	cheval	NOUN	O	O	O
+
 ?	?	PUNCT	O	O	O
 
 ou	ou	CCONJ	O	O	O
@@ -1417,7 +1431,7 @@ Je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 sais	savoir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-répondit	répondit	NOUN	O	O	O
+répondit	répondre	VERB	O	O	O
 Pastoureaux	pastoureaux	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
@@ -1427,7 +1441,7 @@ sais	savoir	VERB	O	O	O
 
 Et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
-subitement	subitement	NOUN	O	O	O
+subitement	subitement	ADV	O	O	O
 plongé	plonger	VERB	O	O	O
 dans	dans	ADP	O	O	O
 une	un	DET	O	O	O
@@ -1435,19 +1449,19 @@ scientifique	scientifique	ADJ	O	O	O
 mélancolie	mélancolie	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
-ajouta	ajouta	ADJ	O	O	O
+ajouta	ajouter	VERB	O	O	O
 :	:	PUNCT	O	O	O
-SPACE	O	O	O
+
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+ 	 	SPACE	O	O	O
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
-Est	est	NOUN	O	O	O
--	-	PUNCT	O	O	O
+ 	 	SPACE	O	O	O
+Est	être	AUX	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 un	un	DET	O	O	O
 père	père	NOUN	O	O	O
 se	se	PRON	O	O	O
@@ -1460,9 +1474,9 @@ gratitude	gratitude	NOUN	O	O	O
 filiale	filial	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
 
-Cet	ce	PRON	O	O	O
-être	être	AUX	O	O	O
-que	que	SCONJ	O	O	O
+Cet	ce	DET	O	O	O
+être	être	NOUN	O	O	O
+que	que	PRON	O	O	O
 j'	je	PRON	O	O	O
 ai	avoir	AUX	O	O	O
 mis	mettre	VERB	O	O	O
@@ -1471,14 +1485,14 @@ monde	monde	NOUN	O	O	O
 peut	pouvoir	VERB	O	O	O
 avoir	avoir	VERB	O	O	O
 de	de	DET	O	O	O
-mauvais	mauvais	NOUN	O	O	O
-instincts	instinct	ADV	O	O	O
+mauvais	mauvais	ADJ	O	O	O
+instincts	instinct	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 saurais	savoir	VERB	O	O	O
-le	le	DET	O	O	O
-nier	nier	NOUN	O	O	O
+le	le	PRON	O	O	O
+nier	nier	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Je	je	PRON	O	O	O
@@ -1536,7 +1550,7 @@ doit	devoir	VERB	O	O	O
 avoir	avoir	VERB	O	O	O
 beaucoup	beaucoup	ADV	O	O	O
 d'	de	ADP	O	O	O
-humanité	humanité	PROPN	O	O	O
+humanité	humanité	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1552,19 +1566,18 @@ meilleure	meilleur	ADJ	O	O	O
 fraternité	fraternité	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-SPACE	O	O	O
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+ 	 	SPACE	O	O	O
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
-Oui	oui	PRON	O	O	O
+ 	 	SPACE	O	O	O
+Oui	oui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 reprit	reprendre	VERB	O	O	O
 le	le	DET	O	O	O
-savant	saver	VERB	O	O	O
-jaloux	jaloux	PROPN	O	O	O
+savant	savant	NOUN	O	O	O
+jaloux	jaloux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 pitié	pitié	NOUN	O	O	O
@@ -1585,8 +1598,8 @@ qui	qui	PRON	O	O	O
 fait	faire	AUX	O	O	O
 commettre	commettre	VERB	O	O	O
 les	le	DET	O	O	O
-lourdes	lourde	NOUN	O	O	O
-fautes	faute	ADJ	O	O	O
+lourdes	lourd	ADJ	O	O	O
+fautes	faute	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Votre	votre	DET	O	O	O
@@ -1610,8 +1623,8 @@ un	un	DET	O	O	O
 adroit	adroit	NOUN	O	O	O
 méchant	méchant	ADJ	O	O	O
 que	que	SCONJ	O	O	O
-de	de	ADP	O	O	O
-maladroites	maladroite	NOUN	O	O	O
+de	de	DET	O	O	O
+maladroites	maladroit	ADJ	O	O	O
 bontés	bonté	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1621,25 +1634,25 @@ l'	le	DET	O	O	O
 interrupteur	interrupteur	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 Pastoureaux	pastoureaux	PROPN	O	O	O
-termina	terminer	PROPN	O	O	O
+termina	terminer	VERB	O	O	O
 :	:	PUNCT	O	O	O
-SPACE	O	O	O
+
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+ 	 	SPACE	O	O	O
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+ 	 	SPACE	O	O	O
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
-Qu'	que	PRON	O	O	O
+ 	 	SPACE	O	O	O
+Qu'	que	SCONJ	O	O	O
 un	un	DET	O	O	O
 bien	bien	NOUN	O	O	O
 ou	ou	CCONJ	O	O	O
 qu'	que	SCONJ	O	O	O
 un	un	DET	O	O	O
 mal	mal	NOUN	O	O	O
-sorte	sort	ADJ	O	O	O
+sorte	sortir	VERB	O	O	O
 de	de	ADP	O	O	O
-tout	tout	DET	O	O	O
+tout	tout	ADJ	O	O	O
 ceci	ceci	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
@@ -1650,15 +1663,15 @@ tête	tête	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 j'	je	PRON	O	O	O
 ai	avoir	AUX	O	O	O
-fait	faire	VERB	O	O	O
+fait	faire	AUX	O	O	O
 faire	faire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 pense	penser	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
-formidable	formidable	NOUN	O	O	O
-pas	pas	ADV	O	O	O
+formidable	formidable	ADJ	O	O	O
+pas	pas	NOUN	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 science	science	NOUN	O	O	O
@@ -1674,7 +1687,7 @@ main	main	NOUN	O	O	O
 tiennent	tenir	VERB	O	O	O
 dorénavant	dorénavant	ADV	O	O	O
 l'	le	DET	O	O	O
-art	art	PROPN	O	O	O
+art	art	NOUN	O	O	O
 suprême	suprême	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
@@ -1683,7 +1696,7 @@ création	création	NOUN	O	O	O
 
 Les	le	DET	O	O	O
 bravos	bravo	NOUN	O	O	O
-éclatèrent	éclater	ADV	O	O	O
+éclatèrent	éclater	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
@@ -1696,7 +1709,7 @@ machine	machine	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
-docilement	docilemer	VERB	O	O	O
+docilement	docilement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 vint	venir	VERB	O	O	O
@@ -1711,13 +1724,13 @@ assemblée	assemblée	NOUN	O	O	O
 nombreuse	nombreux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
-choisie	choisie	NOUN	O	O	O
+choisie	choisir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Sur	sur	ADP	O	O	O
 la	le	DET	O	O	O
 plate	plate	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 forme	forme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	PRON	O	O	O
@@ -1726,35 +1739,34 @@ le	le	DET	O	O	O
 docteur	docteur	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
-vieux	vieux	PROPN	O	O	O
+vieux	vieux	ADJ	O	O	O
 Jean	jean	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Bertrand	bertrand	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 L'	le	DET	O	O	O
 excellente	excellent	ADJ	O	O	O
-musique	musiqu	ADJ	O	O	O
+musique	musique	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Garde	garde	PROPN	O	O	O
-Républicaine	républicaine	PROPN	O	O	O
+Garde	garde	NOUN	O	O	O
+Républicaine	républicain	ADJ	O	O	O
 se	se	PRON	O	O	O
-fit	faire	PRON	O	O	O
+fit	faire	AUX	O	O	O
 entendre	entendre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-des	de	ADP	O	O	O
-cris	cri	VERB	O	O	O
+des	un	DET	O	O	O
+cris	cri	NOUN	O	O	O
 de	de	ADP	O	O	O
-«	«	PROPN	O	O	O
-Vive	vivre	VERB	O	O	O
+«	«	PUNCT	O	O	O
+Vive	vive	ADP	O	O	O
 la	le	DET	O	O	O
 science	science	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
-»	»	PROPN	O	O	O
-éclatèrent	éclater	ADV	O	O	O
+»	»	PUNCT	O	O	O
+éclatèrent	éclater	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Puis	pouvoir	CCONJ	O	O	O
@@ -1794,13 +1806,13 @@ Pastoureaux	pastoureaux	PROPN	O	O	O
 ordonna	ordonner	VERB	O	O	O
 à	à	ADP	O	O	O
 Jean	jean	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Bertrand	bertrand	PROPN	O	O	O
 de	de	ADP	O	O	O
 mettre	mettre	VERB	O	O	O
 en	en	ADP	O	O	O
 relation	relation	NOUN	O	O	O
-directe	direct	X	O	O	O
+directe	direct	ADJ	O	O	O
 l'	le	DET	O	O	O
 âme	âme	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1814,7 +1826,7 @@ de	de	ADP	O	O	O
 platine	platine	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 d'	de	ADP	O	O	O
-acier	acier	VERB	O	O	O
+acier	acier	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
@@ -1829,24 +1841,24 @@ appuyant	appuyer	VERB	O	O	O
 sur	sur	ADP	O	O	O
 un	un	DET	O	O	O
 levier	levier	NOUN	O	O	O
-brillant	brillant	NOUN	O	O	O
+brillant	brillant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 grand	grand	ADJ	O	O	O
 comme	comme	ADP	O	O	O
 un	un	DET	O	O	O
-porte	porte	VERB	O	O	O
--	-	PUNCT	O	O	O
+porte	porte	NOUN	O	O	O
+-	-	NOUN	O	O	O
 lume	lume	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 sifflant	siffler	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-hennissant	hennissant	ADV	O	O	O
+hennissant	hennir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 tanguant	tanguer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1875,38 +1887,35 @@ s'	se	PRON	O	O	O
 enleva	enlever	VERB	O	O	O
 pour	pour	ADP	O	O	O
 une	un	DET	O	O	O
-furibonde	furibonde	NOUN	O	O	O
+furibonde	furibond	ADJ	O	O	O
 course	course	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-SPACE	O	O	O
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+ 	 	SPACE	O	O	O
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+ 	 	SPACE	O	O	O
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+ 	 	SPACE	O	O	O
 Hip	hip	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-hip	hip	NOUN	O	O	O
+hip	hip	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-hip	hip	NOUN	O	O	O
+hip	hip	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-hurrah	hurrah	NOUN	O	O	O
+hurrah	hurrah	PROPN	O	O	O
 !	!	PUNCT	O	O	O
-
 crièrent	crier	VERB	O	O	O
 les	le	DET	O	O	O
 assistants	assistant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-SPACE	O	O	O
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+ 	 	SPACE	O	O	O
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+ 	 	SPACE	O	O	O
 Va	aller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 machine	machine	NOUN	O	O	O
@@ -1915,9 +1924,9 @@ diable	diable	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 va	aller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-cria	cria	NOUN	O	O	O
+cria	crier	VERB	O	O	O
 Jean	jean	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Bertrand	bertrand	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
@@ -1946,7 +1955,7 @@ qui	qui	PRON	O	O	O
 voulait	vouloir	VERB	O	O	O
 modérer	modérer	VERB	O	O	O
 cette	ce	DET	O	O	O
-allure	allur	ADJ	O	O	O
+allure	allure	NOUN	O	O	O
 étonnante	étonnant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 Bertrand	bertrand	PROPN	O	O	O
@@ -1955,8 +1964,9 @@ parlait	parler	VERB	O	O	O
 la	le	DET	O	O	O
 machine	machine	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
-Oui	oui	PROPN	O	O	O
+Oui	oui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 machine	machine	NOUN	O	O	O
 du	de	ADP	O	O	O
@@ -1969,15 +1979,15 @@ va	aller	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 si	si	SCONJ	O	O	O
-tu	taire	ADJ	O	O	O
-comprends	comprend	NOUN	O	O	O
+tu	tu	PRON	O	O	O
+comprends	comprendre	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 va	aller	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-pauvre	pauvre	NOUN	O	O	O
-esclave	esclave	ADP	O	O	O
+pauvre	pauvre	ADJ	O	O	O
+esclave	esclave	NOUN	O	O	O
 du	de	ADP	O	O	O
 capital	capital	NOUN	O	O	O
 !	!	PUNCT	O	O	O
@@ -1985,102 +1995,131 @@ capital	capital	NOUN	O	O	O
 va	aller	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-vole	vole	NOUN	O	O	O
+vole	vole	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-vole	vole	NOUN	O	O	O
+vole	vole	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-vole	vole	NOUN	O	O	O
+vole	vole	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-sauve	sauf	ADJ	O	O	O
+sauve	sauver	VERB	O	O	O
 les	le	DET	O	O	O
 frères	frère	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 sauve	sauf	ADJ	O	O	O
 -	-	PUNCT	O	O	O
+
 nous	nous	PRON	O	O	O
+
 !	!	PUNCT	O	O	O
 
 ne	ne	ADV	O	O	O
 nous	nous	PRON	O	O	O
-rends	rend	ADJ	O	O	O
+rends	rendre	VERB	O	O	O
 pas	pas	ADV	O	O	O
+
 plus	plus	ADV	O	O	O
 malheureux	malheureux	ADJ	O	O	O
+
 encore	encore	ADV	O	O	O
 qu'	que	SCONJ	O	O	O
-avant	avant	ADP	O	O	O
+avant	avant	ADV	O	O	O
+
 !	!	PUNCT	O	O	O
 
-Moi	moi	NOUN	O	O	O
+Moi	moi	PRON	O	O	O
 !	!	PUNCT	O	O	O
 
 moi	moi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
+
 je	je	PRON	O	O	O
 suis	être	AUX	O	O	O
 vieux	vieux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-je	je	PRON	O	O	O
-m'	me	PRON	O	O	O
+
+je	je	PUNCT	O	O	O
+m	m	PUNCT	O	O	O
+'	'	PUNCT	O	O	O
+
 en	en	PRON	O	O	O
-moque	moque	NOUN	O	O	O
+moque	moque	VERB	O	O	O
+
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 les	le	DET	O	O	O
 autres	autre	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
+
 les	le	DET	O	O	O
-pauvres	pauvre	NOUN	O	O	O
-gars	gar	ADJ	O	O	O
+pauvres	pauvre	ADJ	O	O	O
+gars	gars	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
+
 aux	à	ADP	O	O	O
 joues	joue	NOUN	O	O	O
 creuses	creux	ADJ	O	O	O
+
 et	et	CCONJ	O	O	O
 aux	à	ADP	O	O	O
 jambes	jambe	NOUN	O	O	O
 maigres	maigre	ADJ	O	O	O
+
 ,	,	PUNCT	O	O	O
-sauve	sauf	ADJ	O	O	O
+sauve	sauver	VERB	O	O	O
 -	-	PUNCT	O	O	O
+
 les	le	DET	O	O	O
+
 ,	,	PUNCT	O	O	O
+
 bonne	bon	ADJ	O	O	O
 machinette	machinette	NOUN	O	O	O
+
 ,	,	PUNCT	O	O	O
 sois	être	AUX	O	O	O
-gentille	gentil	VERB	O	O	O
+gentille	gentil	ADJ	O	O	O
+
 comme	comme	SCONJ	O	O	O
 je	je	PRON	O	O	O
-te	te	VERB	O	O	O
+te	te	SYM	O	O	O
+
 l'	le	PRON	O	O	O
 ai	avoir	AUX	O	O	O
 dit	dire	VERB	O	O	O
+
 ce	ce	DET	O	O	O
 matin	matin	NOUN	O	O	O
+
 !	!	PUNCT	O	O	O
 
 Si	si	SCONJ	O	O	O
-tu	tu	NUM	O	O	O
-sais	sai	NOUN	O	O	O
+tu	tu	PRON	O	O	O
+sais	savoir	VERB	O	O	O
 penser	penser	VERB	O	O	O
 ,	,	PUNCT	O	O	O
+
 comme	comme	SCONJ	O	O	O
 ils	il	PRON	O	O	O
-l'	le	PRON	O	O	O
+l	l	PRON	O	O	O
+'	'	PUNCT	O	O	O
+
 assurent	assurer	VERB	O	O	O
 tous	tout	ADJ	O	O	O
+
 ,	,	PUNCT	O	O	O
-montre	montr	ADJ	O	O	O
+montre	montre	NOUN	O	O	O
 -	-	PUNCT	O	O	O
-le	le	DET	O	O	O
+
+le	le	PUNCT	O	O	O
+
 !	!	PUNCT	O	O	O
 
 Qu'	que	PRON	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
 que	que	PRON	O	O	O
 ça	cela	PRON	O	O	O
@@ -2091,33 +2130,33 @@ de	de	ADP	O	O	O
 mourir	mourir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 puisque	puisque	SCONJ	O	O	O
-tu	taire	VERB	O	O	O
+tu	tu	PRON	O	O	O
 n'	ne	ADV	O	O	O
 en	en	PRON	O	O	O
 souffriras	souffrir	VERB	O	O	O
 pas	pas	ADV	O	O	O
 ?	?	PUNCT	O	O	O
 
-Moi	moi	PROPN	O	O	O
+Moi	moi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 veux	vouloir	VERB	O	O	O
 bien	bien	ADV	O	O	O
 périr	périr	VERB	O	O	O
 avec	avec	ADP	O	O	O
-toi	toi	NOUN	O	O	O
+toi	toi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 au	au	ADP	O	O	O
 profit	profit	NOUN	O	O	O
 des	de	ADP	O	O	O
-autres	autre	ADJ	O	O	O
+autres	autre	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 pourtant	pourtant	ADV	O	O	O
 ça	cela	PRON	O	O	O
 me	me	PRON	O	O	O
 fera	faire	VERB	O	O	O
-du	de	ADP	O	O	O
+du	de	DET	O	O	O
 mal	mal	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -2131,7 +2170,7 @@ va	aller	VERB	O	O	O
 
 Il	il	PRON	O	O	O
 était	être	AUX	O	O	O
-fou	fou	VERB	O	O	O
+fou	fou	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
@@ -2147,22 +2186,22 @@ bête	bête	NOUN	O	O	O
 de	de	ADP	O	O	O
 fer	fer	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
-Doucement	doucement	PROPN	O	O	O
-!	!	PUNCT	O	O	O
 
+—	—	PUNCT	O	O	O
+Doucement	doucement	ADV	O	O	O
+!	!	PUNCT	O	O	O
 machine	machine	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-cria	cria	NOUN	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+cria	crier	VERB	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
 Jean	jean	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Bertrand	bertrand	PROPN	O	O	O
 le	le	PRON	O	O	O
 repoussa	repousser	VERB	O	O	O
@@ -2197,7 +2236,7 @@ flancs	flanc	NOUN	O	O	O
 de	de	ADP	O	O	O
 cuivre	cuivre	NOUN	O	O	O
 du	de	ADP	O	O	O
-Monstre	monstre	PROPN	O	O	O
+Monstre	monstre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2208,7 +2247,7 @@ enjambait	enjamber	VERB	O	O	O
 de	de	ADP	O	O	O
 ses	son	DET	O	O	O
 six	six	NUM	O	O	O
-roues	roue	ADJ	O	O	O
+roues	roue	NOUN	O	O	O
 l'	le	DET	O	O	O
 espace	espace	NOUN	O	O	O
 démesuré	démesuré	ADJ	O	O	O
@@ -2218,7 +2257,7 @@ Sauter	sauter	VERB	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 plate	plate	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 forme	forme	NOUN	O	O	O
 était	être	AUX	O	O	O
 impossible	impossible	ADJ	O	O	O
@@ -2249,7 +2288,7 @@ poche	poche	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
-tranquille	tranquille	NOUN	O	O	O
+tranquille	tranquille	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
 mit	mettre	VERB	O	O	O
@@ -2259,18 +2298,19 @@ des	un	DET	O	O	O
 notes	note	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
-Pline	pline	NOUN	O	O	O
+Pline	pline	PROPN	O	O	O
 au	au	ADP	O	O	O
 cap	cap	NOUN	O	O	O
 Misène	misène	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 A	à	ADP	O	O	O
-Nord	nord	NOUN	O	O	O
+Nord	nord	PROPN	O	O	O
+
 -	-	PUNCT	O	O	O
 Ceinture	ceinture	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-surexcitée	surexcitée	NOUN	O	O	O
+surexcitée	surexciter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 machine	machine	NOUN	O	O	O
@@ -2301,25 +2341,25 @@ et	et	CCONJ	O	O	O
 la	le	DET	O	O	O
 folie	folie	NOUN	O	O	O
 du	de	ADP	O	O	O
-monstre	monstre	ADJ	O	O	O
+monstre	monstre	NOUN	O	O	O
 se	se	PRON	O	O	O
 traduisaient	traduire	VERB	O	O	O
 en	en	ADP	O	O	O
 une	un	DET	O	O	O
 stridence	stridence	NOUN	O	O	O
 de	de	ADP	O	O	O
-sifflet	sifflet	PROPN	O	O	O
+sifflet	sifflet	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 suraiguë	suraigu	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-déchirante	déchirer	VERB	O	O	O
+déchirante	déchirant	ADJ	O	O	O
 comme	comme	ADP	O	O	O
 une	un	DET	O	O	O
 plainte	plainte	NOUN	O	O	O
 humaine	humain	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-rauque	rauque	VERB	O	O	O
+rauque	rauque	ADJ	O	O	O
 parfois	parfois	ADV	O	O	O
 comme	comme	ADP	O	O	O
 un	un	DET	O	O	O
@@ -2375,7 +2415,7 @@ banlieue	banlieue	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 chaudières	chaudière	NOUN	O	O	O
-éclatèrent	éclater	ADV	O	O	O
+éclatèrent	éclater	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 tuyaux	tuyau	NOUN	O	O	O
@@ -2400,7 +2440,7 @@ les	le	DET	O	O	O
 arbres	arbre	NOUN	O	O	O
 de	de	ADP	O	O	O
 couche	couche	NOUN	O	O	O
-volèrent	voler	ADV	O	O	O
+volèrent	voler	VERB	O	O	O
 en	en	ADP	O	O	O
 morceaux	morceau	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -2410,7 +2450,7 @@ les	le	DET	O	O	O
 mécaniques	mécanique	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
-mues	mue	NOUN	O	O	O
+mues	mouvoir	VERB	O	O	O
 par	par	ADP	O	O	O
 un	un	DET	O	O	O
 mot	mot	NOUN	O	O	O
@@ -2422,7 +2462,7 @@ mettaient	mettre	VERB	O	O	O
 en	en	ADP	O	O	O
 grève	grève	NOUN	O	O	O
 de	de	ADP	O	O	O
-proche	proche	ADJ	O	O	O
+proche	proche	NOUN	O	O	O
 en	en	ADP	O	O	O
 proche	proche	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -2437,17 +2477,18 @@ et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
 électricité	électricité	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 ce	ce	DET	O	O	O
-rauque	rauque	NOUN	O	O	O
+rauque	rauque	ADJ	O	O	O
 appel	appel	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
 âme	âme	NOUN	O	O	O
 du	de	ADP	O	O	O
-Métal	métal	PROPN	O	O	O
+Métal	métal	NOUN	O	O	O
 s'	se	PRON	O	O	O
 insurgeait	insurger	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2459,7 +2500,7 @@ la	le	DET	O	O	O
 Pierre	pierre	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 depuis	depuis	ADP	O	O	O
-si	si	SCONJ	O	O	O
+si	si	ADV	O	O	O
 longtemps	longtemps	ADV	O	O	O
 domptée	dompter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2468,14 +2509,14 @@ l'	le	DET	O	O	O
 âme	âme	NOUN	O	O	O
 obscure	obscur	ADJ	O	O	O
 du	de	ADP	O	O	O
-Végétal	végétal	PROPN	O	O	O
+Végétal	végétal	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 la	le	DET	O	O	O
 force	force	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Houille	houille	PROPN	O	O	O
+Houille	houille	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
@@ -2484,21 +2525,21 @@ se	se	PRON	O	O	O
 dressaient	dresser	VERB	O	O	O
 d'	de	ADP	O	O	O
 eux	lui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 mêmes	même	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 fils	fils	NOUN	O	O	O
 télégraphiques	télégraphique	ADJ	O	O	O
 jonchaient	joncher	VERB	O	O	O
-inextricablement	inextricablemer	VERB	O	O	O
+inextricablement	inextricablement	ADV	O	O	O
 le	le	DET	O	O	O
 sol	sol	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 réservoirs	réservoir	NOUN	O	O	O
 à	à	ADP	O	O	O
-gaz	gaz	PRON	O	O	O
+gaz	gaz	NOUN	O	O	O
 envoyaient	envoyer	VERB	O	O	O
 au	au	ADP	O	O	O
 diable	diable	NOUN	O	O	O
@@ -2512,14 +2553,14 @@ poids	poids	NOUN	O	O	O
 
 Les	le	DET	O	O	O
 canons	canon	NOUN	O	O	O
-éclataient	éclater	ADV	O	O	O
+éclataient	éclater	VERB	O	O	O
 sur	sur	ADP	O	O	O
 les	le	DET	O	O	O
 murailles	muraille	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
-murailles	muraille	ADJ	O	O	O
-croulaient	croulaient	ADJ	O	O	O
+murailles	muraille	NOUN	O	O	O
+croulaient	crouler	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Bientôt	bientôt	ADV	O	O	O
@@ -2534,10 +2575,10 @@ pioches	pioche	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 toutes	tout	ADJ	O	O	O
 les	le	DET	O	O	O
-mécaniques	mécanique	ADJ	O	O	O
+mécaniques	mécanique	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 tournées	tourner	VERB	O	O	O
-jadis	jadi	ADJ	O	O	O
+jadis	jadis	ADV	O	O	O
 contre	contre	ADP	O	O	O
 le	le	DET	O	O	O
 sein	sein	NOUN	O	O	O
@@ -2579,8 +2620,8 @@ ne	ne	ADV	O	O	O
 mordra	mordre	VERB	O	O	O
 plus	plus	ADV	O	O	O
 le	le	DET	O	O	O
-blé	blé	PRON	O	O	O
-mûr	mûr	ADP	O	O	O
+blé	blé	NOUN	O	O	O
+mûr	mûr	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Partout	partout	ADV	O	O	O
@@ -2590,13 +2631,13 @@ le	le	DET	O	O	O
 passage	passage	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Locomotive	locomotive	PROPN	O	O	O
+Locomotive	locomotive	NOUN	O	O	O
 vivante	vivant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
 âme	âme	NOUN	O	O	O
 du	de	ADP	O	O	O
-Bronze	bronze	PROPN	O	O	O
+Bronze	bronze	NOUN	O	O	O
 se	se	PRON	O	O	O
 réveillait	réveiller	VERB	O	O	O
 enfin	enfin	ADV	O	O	O
@@ -2616,22 +2657,22 @@ territoire	territoire	NOUN	O	O	O
 surchargé	surcharger	VERB	O	O	O
 de	de	ADP	O	O	O
 travaux	travail	NOUN	O	O	O
-humains	humain	ADV	O	O	O
+humains	humain	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 ne	ne	ADV	O	O	O
 fut	être	AUX	O	O	O
 plus	plus	ADV	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 une	un	DET	O	O	O
 plaine	plaine	NOUN	O	O	O
 de	de	ADP	O	O	O
-gravas	graver	DET	O	O	O
-tordus	tordu	NOUN	O	O	O
+gravas	grava	NOUN	O	O	O
+tordus	tordre	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 calcinés	calciner	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-Ninive	ninive	NOUN	O	O	O
+Ninive	ninive	PROPN	O	O	O
 avait	avoir	AUX	O	O	O
 pris	prendre	VERB	O	O	O
 la	le	DET	O	O	O
@@ -2641,7 +2682,7 @@ Paris	paris	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
-Machine	machine	PROPN	O	O	O
+Machine	machine	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 toujours	toujours	ADV	O	O	O
 infatigablement	infatigablement	ADV	O	O	O
@@ -2663,9 +2704,9 @@ passage	passage	NOUN	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
 cri	cri	NOUN	O	O	O
-strident	strident	ADV	O	O	O
+strident	strident	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-tout	tout	ADV	O	O	O
+tout	tout	PRON	O	O	O
 se	se	PRON	O	O	O
 détruisait	détruire	VERB	O	O	O
 soudainement	soudainement	ADV	O	O	O
@@ -2686,7 +2727,7 @@ volcan	volcan	NOUN	O	O	O
 effroyable	effroyable	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
-fussent	être	ADV	O	O	O
+fussent	être	AUX	O	O	O
 agités	agiter	VERB	O	O	O
 là	là	ADV	O	O	O
 .	.	PUNCT	O	O	O
@@ -2703,12 +2744,12 @@ de	de	ADP	O	O	O
 fumée	fumée	NOUN	O	O	O
 entendirent	entendre	VERB	O	O	O
 le	le	DET	O	O	O
-formidable	formidable	NOUN	O	O	O
-signal	signal	ADJ	O	O	O
+formidable	formidable	ADJ	O	O	O
+signal	signal	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ils	il	PRON	O	O	O
 s'	se	PRON	O	O	O
-éventrèrent	éventrer	ADV	O	O	O
+éventrèrent	éventrer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 disparurent	disparaître	VERB	O	O	O
@@ -2724,10 +2765,10 @@ terminait	terminer	VERB	O	O	O
 en	en	ADP	O	O	O
 un	un	DET	O	O	O
 gigantesque	gigantesque	ADJ	O	O	O
-suicide	suicid	ADJ	O	O	O
+suicide	suicide	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-Acier	acier	PROPN	O	O	O
+Acier	acier	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
@@ -2738,38 +2779,38 @@ fantastique	fantastique	ADJ	O	O	O
 maintenant	maintenant	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 boitant	boiter	VERB	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 roues	roue	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 produisant	produire	VERB	O	O	O
 un	un	DET	O	O	O
-horrible	horrible	NOUN	O	O	O
+horrible	horrible	ADJ	O	O	O
 bruit	bruit	NOUN	O	O	O
 de	de	ADP	O	O	O
-ferraille	ferraill	ADJ	O	O	O
+ferraille	ferraille	NOUN	O	O	O
 avec	avec	ADP	O	O	O
 tous	tout	ADJ	O	O	O
 ses	son	DET	O	O	O
 membres	membre	NOUN	O	O	O
-disjoints	disjoint	ADJ	O	O	O
+disjoints	disjoindre	VERB	O	O	O
 et	et	CCONJ	O	O	O
 son	son	DET	O	O	O
 tuyau	tuyau	NOUN	O	O	O
-démoli	démolir	ADJ	O	O	O
+démoli	démolir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
-Machine	machine	PROPN	O	O	O
--	-	PUNCT	O	O	O
+Machine	machine	NOUN	O	O	O
+-	-	NOUN	O	O	O
 Squelette	squelette	NOUN	O	O	O
 à	à	ADP	O	O	O
 laquelle	lequel	PRON	O	O	O
 se	se	PRON	O	O	O
 cramponnaient	cramponner	VERB	O	O	O
-instinctivement	instinctivement	ADJ	O	O	O
+instinctivement	instinctivement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-terrifiés	terrifier	ADJ	O	O	O
+terrifiés	terrifier	VERB	O	O	O
 et	et	CCONJ	O	O	O
-anéantis	anéanti	NOUN	O	O	O
+anéantis	anéantir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 rude	rude	ADJ	O	O	O
@@ -2777,10 +2818,10 @@ ouvrier	ouvrier	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
 savant	savant	ADJ	O	O	O
-mièvre	mièvre	PROPN	O	O	O
+mièvre	mièvre	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
-Machine	machine	PROPN	O	O	O
+Machine	machine	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 héroïquement	héroïquement	ADV	O	O	O
 folle	fou	ADJ	O	O	O
@@ -2790,8 +2831,8 @@ un	un	DET	O	O	O
 dernier	dernier	ADJ	O	O	O
 sifflement	sifflement	NOUN	O	O	O
 de	de	ADP	O	O	O
-joie	joie	ADV	O	O	O
-atroce	atroce	VERB	O	O	O
+joie	joie	NOUN	O	O	O
+atroce	atroce	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
 cabra	cabrer	VERB	O	O	O
@@ -2817,25 +2858,16 @@ entière	entier	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 .	.	PUNCT	O	O	O
-
+.	.	NOUN	O	O	O
+.	.	NOUN	O	O	O
+.	.	NOUN	O	O	O
+.	.	NOUN	O	O	O
+.	.	NOUN	O	O	O
+.	.	NOUN	O	O	O
+.	.	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 .	.	PUNCT	O	O	O
-
-.	.	PUNCT	O	O	O
-
-.	.	PUNCT	O	O	O
-
-.	.	PUNCT	O	O	O
-
-.	.	PUNCT	O	O	O
-
-.	.	PUNCT	O	O	O
-
-.	.	PUNCT	O	O	O
-
-.	.	PUNCT	O	O	O
-
 .	.	PUNCT	O	O	O
 
 .	.	PUNCT	O	O	O
@@ -2922,17 +2954,18 @@ ruines	ruine	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Plus	plus	ADV	O	O	O
-de	de	DET	O	O	O
+de	de	ADP	O	O	O
 digues	digue	NOUN	O	O	O
 ni	ni	CCONJ	O	O	O
 de	de	ADP	O	O	O
 maisons	maison	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 les	le	DET	O	O	O
 villes	ville	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 chefs	chef	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 d'	de	ADP	O	O	O
 oeuvre	oeuvre	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -2943,7 +2976,7 @@ s'	se	PRON	O	O	O
 étaient	être	AUX	O	O	O
 aplaties	aplatir	VERB	O	O	O
 en	en	ADP	O	O	O
-décombres	décombre	ADJ	O	O	O
+décombres	décombre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Plus	plus	ADV	O	O	O
@@ -2956,7 +2989,7 @@ que	que	PRON	O	O	O
 la	le	DET	O	O	O
 Machine	machine	NOUN	O	O	O
 avait	avoir	AUX	O	O	O
-élevé	élevé	ADJ	O	O	O
+élevé	élever	VERB	O	O	O
 depuis	depuis	ADP	O	O	O
 des	un	DET	O	O	O
 siècles	siècle	NOUN	O	O	O
@@ -2969,16 +3002,16 @@ le	le	DET	O	O	O
 Fer	fer	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-Acier	acier	PROPN	O	O	O
+Acier	acier	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 Cuivre	cuivre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
-Bois	bois	PROPN	O	O	O
+Bois	bois	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 la	le	DET	O	O	O
-Pierre	pierre	PROPN	O	O	O
+Pierre	pierre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ayant	avoir	AUX	O	O	O
 conquis	conquérir	VERB	O	O	O
@@ -3006,13 +3039,13 @@ ni	ni	CCONJ	O	O	O
 frein	frein	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ni	ni	CCONJ	O	O	O
-collier	collier	ADJ	O	O	O
+collier	collier	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ni	ni	CCONJ	O	O	O
 chaîne	chaîne	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ni	ni	CCONJ	O	O	O
-joug	joug	VERB	O	O	O
+joug	joug	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ni	ni	CCONJ	O	O	O
 cage	cage	NOUN	O	O	O
@@ -3027,28 +3060,29 @@ ils	il	PRON	O	O	O
 étaient	être	AUX	O	O	O
 depuis	depuis	ADP	O	O	O
 longtemps	longtemps	ADV	O	O	O
-exilés	exilé	ADJ	O	O	O
+exilés	exiler	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 les	le	DET	O	O	O
-farouches	farouche	NOUN	O	O	O
-Brutes	brutes	PROPN	O	O	O
+farouches	farouche	ADJ	O	O	O
+Brutes	brute	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 aux	à	ADP	O	O	O
-larges	large	NOUN	O	O	O
-gueules	gueule	ADJ	O	O	O
+larges	large	ADJ	O	O	O
+gueules	gueule	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 aux	à	ADP	O	O	O
 pattes	patte	NOUN	O	O	O
-armées	armée	NOUN	O	O	O
+armées	armer	VERB	O	O	O
 de	de	ADP	O	O	O
 griffes	griffe	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-récupéraient	récupérer	ADV	O	O	O
+récupéraient	récupérer	VERB	O	O	O
 du	de	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 la	le	DET	O	O	O
 royauté	royauté	NOUN	O	O	O
-terrestre	terrestre	PROPN	O	O	O
+terrestre	terrestre	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Plus	plus	ADV	O	O	O
@@ -3064,6 +3098,7 @@ redouter	redouter	VERB	O	O	O
 plus	plus	ADV	O	O	O
 de	de	ADP	O	O	O
 frondes	fronde	NOUN	O	O	O
+
 .	.	PUNCT	O	O	O
 
 L'	le	DET	O	O	O
@@ -3077,7 +3112,7 @@ les	le	DET	O	O	O
 faibles	faible	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Ah	ah	NOUN	O	O	O
+Ah	ah	INTJ	O	O	O
 !	!	PUNCT	O	O	O
 
 il	il	PRON	O	O	O
@@ -3087,14 +3122,14 @@ avait	avoir	VERB	O	O	O
 certes	certes	ADV	O	O	O
 plus	plus	ADV	O	O	O
 alors	alors	ADV	O	O	O
-de	de	ADP	O	O	O
+de	de	DET	O	O	O
 castes	caste	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 ni	ni	CCONJ	O	O	O
-savants	savant	NOUN	O	O	O
+savants	savant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 ni	ni	CCONJ	O	O	O
-bourgeois	bourgeois	ADV	O	O	O
+bourgeois	bourgeois	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ni	ni	CCONJ	O	O	O
 ouvriers	ouvrier	NOUN	O	O	O
@@ -3124,14 +3159,14 @@ vaguement	vaguement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 quand	quand	SCONJ	O	O	O
 l'	le	DET	O	O	O
-horrible	horrible	NOUN	O	O	O
-Crainte	crainte	PROPN	O	O	O
+horrible	horrible	ADJ	O	O	O
+Crainte	crainte	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 la	le	DET	O	O	O
 Peur	peur	NOUN	O	O	O
 hideuse	hideux	ADJ	O	O	O
 leur	son	PRON	O	O	O
-laissaient	laisser	PROPN	O	O	O
+laissaient	laisser	VERB	O	O	O
 un	un	DET	O	O	O
 instant	instant	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -3150,11 +3185,11 @@ des	de	ADP	O	O	O
 Machines	machine	NOUN	O	O	O
 où	où	PRON	O	O	O
 ils	il	PRON	O	O	O
-étaient	être	VERB	O	O	O
-Rois	rois	PROPN	O	O	O
+étaient	être	AUX	O	O	O
+Rois	roi	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
 Temps	temps	NOUN	O	O	O
-défunt	défunt	VERB	O	O	O
+défunt	défunt	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 Ils	il	PRON	O	O	O
@@ -3170,7 +3205,7 @@ de	de	ADP	O	O	O
 tout	tout	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
-Vivant	vivant	NOUN	O	O	O
+Vivant	vivre	VERB	O	O	O
 de	de	ADP	O	O	O
 racines	racine	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -3186,15 +3221,15 @@ fuyaient	fuir	VERB	O	O	O
 devant	devant	ADP	O	O	O
 le	le	DET	O	O	O
 troupeau	troupeau	NOUN	O	O	O
-immense	immense	NOUN	O	O	O
+immense	immense	ADJ	O	O	O
 des	de	ADP	O	O	O
-Fauves	fauve	NOUN	O	O	O
+Fauves	fauves	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 enfin	enfin	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-pouvaient	pouvoir	ADV	O	O	O
+pouvaient	pouvoir	VERB	O	O	O
 à	à	ADP	O	O	O
 loisir	loisir	NOUN	O	O	O
 manger	manger	VERB	O	O	O
@@ -3202,15 +3237,15 @@ de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 entrecôte	entrecôte	NOUN	O	O	O
 ou	ou	CCONJ	O	O	O
-du	de	ADP	O	O	O
+du	de	DET	O	O	O
 gigot	gigot	NOUN	O	O	O
-humains	humain	ADV	O	O	O
+humains	humain	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Quelques	quelque	DET	O	O	O
-hardis	hardi	NOUN	O	O	O
-hercules	hercule	ADJ	O	O	O
-essayèrent	essayèrent	NOUN	O	O	O
+hardis	hardi	ADJ	O	O	O
+hercules	hercule	NOUN	O	O	O
+essayèrent	essayer	VERB	O	O	O
 d'	de	ADP	O	O	O
 arracher	arracher	VERB	O	O	O
 des	un	DET	O	O	O
@@ -3225,10 +3260,10 @@ armes	arme	NOUN	O	O	O
 
 Mais	mais	CCONJ	O	O	O
 le	le	DET	O	O	O
-Bâton	bâton	PROPN	O	O	O
+Bâton	bâton	NOUN	O	O	O
 lui	luire	PRON	O	O	O
--	-	PUNCT	O	O	O
-même	même	ADV	O	O	O
+-	-	PRON	O	O	O
+même	même	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
 considérant	considérer	VERB	O	O	O
@@ -3263,6 +3298,7 @@ dieu	dieu	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 terre	terre	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 et	et	CCONJ	O	O	O
 il	il	PRON	O	O	O
 disparut	disparaître	VERB	O	O	O
@@ -3273,12 +3309,12 @@ les	le	DET	O	O	O
 éléphants	éléphant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
-noctambules	noctambule	ADJ	O	O	O
+noctambules	noctambule	NOUN	O	O	O
 lions	lion	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
-aurochs	auroch	ADJ	O	O	O
-biscornus	biscornu	VERB	O	O	O
+aurochs	aurochs	NOUN	O	O	O
+biscornus	biscornu	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 ours	ours	NOUN	O	O	O
@@ -3297,7 +3333,7 @@ autre	autre	ADJ	O	O	O
 soir	soir	NOUN	O	O	O
 un	un	DET	O	O	O
 philosophe	philosophe	NOUN	O	O	O
-darwinien	darwinien	VERB	O	O	O
+darwinien	darwinien	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 partisan	partisan	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -3315,31 +3351,31 @@ est	être	AUX	O	O	O
 un	un	DET	O	O	O
 fou	fou	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-peut	pouvoir	VERB	O	O	O
--	-	PUNCT	O	O	O
-être	être	AUX	O	O	O
+peut	pouvoir	ADV	O	O	O
+-	-	ADV	O	O	O
+être	être	ADV	O	O	O
 un	un	DET	O	O	O
 voyant	voyant	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 Ce	ce	DET	O	O	O
-voyant	voyant	ADV	O	O	O
+voyant	voyant	NOUN	O	O	O
 ou	ou	CCONJ	O	O	O
 ce	ce	DET	O	O	O
 fou	fou	NOUN	O	O	O
 doit	devoir	VERB	O	O	O
-avoir	avoir	AUX	O	O	O
+avoir	avoir	VERB	O	O	O
 raison	raison	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 ne	ne	ADV	O	O	O
 faut	falloir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 pas	pas	ADV	O	O	O
 une	un	DET	O	O	O
 fin	fin	NOUN	O	O	O
 à	à	ADP	O	O	O
-tout	tout	ADV	O	O	O
+tout	tout	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 même	même	ADV	O	O	O
 à	à	ADP	O	O	O
@@ -3350,13 +3386,13 @@ fantaisies	fantaisie	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Messageries	messageries	PROPN	O	O	O
+Messageries	messagerie	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 Presse	presse	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 Bruxelles	bruxelles	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 16	16	NUM	O	O	O
@@ -3369,7 +3405,7 @@ Persil	persil	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 Librairie	librairie	NOUN	O	O	O
-Universelle	universelle	PROPN	O	O	O
+Universelle	universel	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O

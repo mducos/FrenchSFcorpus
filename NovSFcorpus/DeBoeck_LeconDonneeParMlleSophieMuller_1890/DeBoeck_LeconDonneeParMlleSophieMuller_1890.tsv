@@ -1,5 +1,6 @@
 VARIA	varia	PROPN	O	O	O
-Leçon	leçon	PROPN	O	O	O
+
+Leçon	leçon	NOUN	O	O	O
 donnée	donner	VERB	O	O	O
 par	par	ADP	O	O	O
 Mlle	mlle	NOUN	O	O	O
@@ -24,7 +25,7 @@ an	an	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 (	(	PUNCT	O	O	O
-Traduit	traduit	PROPN	O	O	O
+Traduit	traduire	VERB	O	O	O
 du	de	ADP	O	O	O
 volapuk	volapuk	NOUN	O	O	O
 par	par	ADP	O	O	O
@@ -34,6 +35,7 @@ Boeck	boeck	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 )	)	PUNCT	O	O	O
+
 Mesdames	madame	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 Messieurs	monsieur	NOUN	O	O	O
@@ -75,8 +77,8 @@ s'	se	PRON	O	O	O
 fait	faire	AUX	O	O	O
 remarquer	remarquer	VERB	O	O	O
 dans	dans	ADP	O	O	O
-un	un	DET	O	O	O
-des	un	DET	O	O	O
+un	un	PRON	O	O	O
+des	de	ADP	O	O	O
 nombreux	nombreux	ADJ	O	O	O
 ballons	ballon	NOUN	O	O	O
 qui	qui	PRON	O	O	O
@@ -123,6 +125,7 @@ un	un	DET	O	O	O
 profond	profond	ADJ	O	O	O
 sommeil	sommeil	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 ce	ce	DET	O	O	O
 matin	matin	NOUN	O	O	O
 il	il	PRON	O	O	O
@@ -137,17 +140,18 @@ qu'	que	SCONJ	O	O	O
 on	on	PRON	O	O	O
 lui	luire	PRON	O	O	O
 donnât	donner	VERB	O	O	O
-du	de	ADP	O	O	O
+du	de	DET	O	O	O
 poisson	poisson	NOUN	O	O	O
-salé	salé	ADP	O	O	O
+salé	saler	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 se	se	PRON	O	O	O
 plaignait	plaindre	VERB	O	O	O
 de	de	ADP	O	O	O
 ressentir	ressentir	VERB	O	O	O
 un	un	DET	O	O	O
-violent	violent	NOUN	O	O	O
+violent	violent	ADJ	O	O	O
 mal	mal	NOUN	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
@@ -186,7 +190,7 @@ rapports	rapport	NOUN	O	O	O
 avec	avec	ADP	O	O	O
 ceux	celui	PRON	O	O	O
 des	de	ADP	O	O	O
-psychoses	psychose	ADJ	O	O	O
+psychoses	psychose	NOUN	O	O	O
 ordinaires	ordinaire	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -211,14 +215,15 @@ il	il	PRON	O	O	O
 est	être	AUX	O	O	O
 atteint	atteindre	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 ce	ce	DET	O	O	O
 désir	désir	NOUN	O	O	O
 bizarre	bizarre	ADJ	O	O	O
 de	de	ADP	O	O	O
 manger	manger	VERB	O	O	O
-du	de	ADP	O	O	O
+du	de	DET	O	O	O
 poisson	poisson	NOUN	O	O	O
-salé	salé	ADV	O	O	O
+salé	saler	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 ces	ce	DET	O	O	O
 intempérances	intempérance	NOUN	O	O	O
@@ -233,7 +238,7 @@ avec	avec	ADP	O	O	O
 le	le	DET	O	O	O
 milieu	milieu	NOUN	O	O	O
 social	social	ADJ	O	O	O
-auquel	auquel	NOUN	O	O	O
+auquel	auquel	PRON	O	O	O
 paraît	paraître	VERB	O	O	O
 appartenir	appartenir	VERB	O	O	O
 le	le	DET	O	O	O
@@ -251,7 +256,7 @@ bulbaire	bulbaire	ADJ	O	O	O
 Il	il	PRON	O	O	O
 y	y	PRON	O	O	O
 a	avoir	VERB	O	O	O
-quelque	quelque	ADV	O	O	O
+quelque	quelque	DET	O	O	O
 cent	cent	NUM	O	O	O
 ans	an	NOUN	O	O	O
 encore	encore	ADV	O	O	O
@@ -368,7 +373,7 @@ que	que	PRON	O	O	O
 nous	nous	PRON	O	O	O
 en	en	PRON	O	O	O
 avons	avoir	AUX	O	O	O
-obtenues	obtenir	ADJ	O	O	O
+obtenues	obtenir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Comme	comme	SCONJ	O	O	O
@@ -387,11 +392,12 @@ subi	subir	VERB	O	O	O
 d'	de	DET	O	O	O
 altérations	altération	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 les	le	DET	O	O	O
 fibres	fibre	NOUN	O	O	O
 nerveuses	nerveux	ADJ	O	O	O
 sont	être	AUX	O	O	O
-répandues	répandre	ADJ	O	O	O
+répandues	répandre	VERB	O	O	O
 en	en	ADP	O	O	O
 nombre	nombre	NOUN	O	O	O
 normal	normal	ADJ	O	O	O
@@ -410,11 +416,12 @@ l'	le	DET	O	O	O
 ,	,	PUNCT	O	O	O
 ainsi	ainsi	ADV	O	O	O
 que	que	SCONJ	O	O	O
-le	le	DET	O	O	O
-prouvent	prouver	ADV	O	O	O
+le	le	PRON	O	O	O
+prouvent	prouver	VERB	O	O	O
 les	le	DET	O	O	O
 préparations	préparation	NOUN	O	O	O
 suivantes	suivant	ADJ	O	O	O
+
 ,	,	PUNCT	O	O	O
 n'	ne	ADV	O	O	O
 y	y	PRON	O	O	O
@@ -441,7 +448,7 @@ amentine	amentine	NOUN	B-NOV	O	O
 Je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 vous	vous	PRON	O	O	O
-fatiguerai	fatiguerai	ADJ	O	O	O
+fatiguerai	fatiguer	VERB	O	O	O
 pas	pas	ADV	O	O	O
 plus	plus	ADV	O	O	O
 longtemps	longtemps	ADV	O	O	O
@@ -450,6 +457,7 @@ tous	tout	ADJ	O	O	O
 ces	ce	DET	O	O	O
 détails	détail	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 me	me	PRON	O	O	O
@@ -473,8 +481,9 @@ ni	ni	CCONJ	O	O	O
 d'	de	ADP	O	O	O
 autopsychotoxine	autopsychotoxine	NOUN	B-NOV	O	O
 ;	;	PUNCT	O	O	O
-comme	comme	ADP	O	O	O
-d'	de	DET	O	O	O
+
+comme	comme	SCONJ	O	O	O
+d'	de	ADP	O	O	O
 autre	autre	ADJ	O	O	O
 part	part	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -491,24 +500,24 @@ moindre	moindre	ADJ	O	O	O
 trace	trace	NOUN	O	O	O
 des	de	ADP	O	O	O
 poisons	poison	NOUN	O	O	O
-ordinairement	ordinairement	AUX	O	O	O
-employés	employé	NOUN	O	O	O
+ordinairement	ordinairement	ADV	O	O	O
+employés	employer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 restais	rester	VERB	O	O	O
 hésitante	hésitant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-incertaine	incertaine	NOUN	O	O	O
+incertaine	incertain	ADJ	O	O	O
 du	de	ADP	O	O	O
-diagnostic	diagnostic	PROPN	O	O	O
+diagnostic	diagnostic	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 lorsque	lorsque	SCONJ	O	O	O
 je	je	PRON	O	O	O
 me	me	PRON	O	O	O
 suis	être	AUX	O	O	O
 rappelée	rappeler	VERB	O	O	O
-avoir	avoir	VERB	O	O	O
-lu	lire	PROPN	O	O	O
+avoir	avoir	AUX	O	O	O
+lu	lire	VERB	O	O	O
 dans	dans	ADP	O	O	O
 un	un	DET	O	O	O
 ouvrage	ouvrage	NOUN	O	O	O
@@ -528,7 +537,7 @@ tout	tout	ADV	O	O	O
 semblable	semblable	ADJ	O	O	O
 à	à	ADP	O	O	O
 celle	celui	PRON	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 présente	présente	VERB	O	O	O
 notre	notre	DET	O	O	O
 malade	malade	NOUN	O	O	O
@@ -570,19 +579,23 @@ de	de	ADP	O	O	O
 cet	ce	DET	O	O	O
 interrogatoire	interrogatoire	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 le	le	DET	O	O	O
 malade	malade	NOUN	O	O	O
 prétend	prétendre	VERB	O	O	O
 (	(	PUNCT	O	O	O
+
 1	1	NUM	O	O	O
+
 )	)	PUNCT	O	O	O
-Traduit	traduit	PROPN	O	O	O
+
+Traduit	traduire	VERB	O	O	O
 du	de	ADP	O	O	O
 psycho	psycho	NOUN	O	O	O
--	-	PUNCT	O	O	O
-traumatisch	traumatisch	NOUN	O	O	O
--	-	PUNCT	O	O	O
-neurotisches	neurotischer	VERB	O	O	O
+-	-	NOUN	O	O	O
+traumatisch	traumatisch	ADJ	O	O	O
+-	-	PRON	O	O	O
+neurotisches	neurotische	NOUN	O	O	O
 Centralblatt	centralblatt	PROPN	O	O	O
 publié	publier	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -593,7 +606,7 @@ raoût	raoût	NOUN	O	O	O
 offert	offrir	VERB	O	O	O
 par	par	ADP	O	O	O
 la	le	DET	O	O	O
-Société	société	PROPN	O	O	O
+Société	société	NOUN	O	O	O
 de	de	ADP	O	O	O
 psychiatrie	psychiatrie	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -609,7 +622,7 @@ et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
 psychiatrie	psychiatrie	NOUN	O	O	O
 du	de	ADP	O	O	O
-X	x	NOUN	O	O	O
+X	x	ADJ	O	O	O
 °	degré	NOUN	O	O	O
 congrès	congrès	NOUN	O	O	O
 international	international	ADJ	O	O	O
@@ -619,7 +632,7 @@ le	le	DET	O	O	O
 août	août	NOUN	O	O	O
 1890	1890	NUM	O	O	O
 ,	,	PUNCT	O	O	O
-emprunte	emprunte	NOUN	O	O	O
+emprunte	emprunter	VERB	O	O	O
 au	au	ADP	O	O	O
 journal	journal	NOUN	O	O	O
 la	le	DET	O	O	O
@@ -649,7 +662,7 @@ Cependant	cependant	ADV	O	O	O
 nous	nous	PRON	O	O	O
 remarquions	remarquer	VERB	O	O	O
 que	que	SCONJ	O	O	O
-tout	tout	PRON	O	O	O
+tout	tout	ADV	O	O	O
 en	en	ADP	O	O	O
 nous	nous	PRON	O	O	O
 affirmant	affirmer	VERB	O	O	O
@@ -663,11 +676,12 @@ embarras	embarras	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-anxiété	anxiété	PROPN	O	O	O
+anxiété	anxiété	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 aussi	aussi	ADV	O	O	O
-avons	avoir	VERB	O	O	O
--	-	PUNCT	O	O	O
+avons	avoir	AUX	O	O	O
+-	-	PRON	O	O	O
 nous	nous	PRON	O	O	O
 examiné	examiner	VERB	O	O	O
 les	le	DET	O	O	O
@@ -679,6 +693,7 @@ qui	qui	PRON	O	O	O
 nous	nous	PRON	O	O	O
 restaient	rester	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 nous	nous	PRON	O	O	O
 y	y	PRON	O	O	O
 avons	avoir	AUX	O	O	O
@@ -712,7 +727,7 @@ téléphone	téléphone	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
 avait	avoir	AUX	O	O	O
-fait	faire	VERB	O	O	O
+fait	faire	AUX	O	O	O
 savoir	savoir	VERB	O	O	O
 qu'	que	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
@@ -734,10 +749,11 @@ rougeâtre	rougeâtre	ADJ	O	O	O
 portant	porter	VERB	O	O	O
 pour	pour	ADP	O	O	O
 inscription	inscription	NOUN	O	O	O
-«	«	NUM	O	O	O
+«	«	PUNCT	O	O	O
 Walportsheim	walportsheim	PROPN	O	O	O
 »	»	PUNCT	O	O	O
 ;	;	PUNCT	O	O	O
+
 à	à	ADP	O	O	O
 côté	côté	NOUN	O	O	O
 du	de	ADP	O	O	O
@@ -751,17 +767,17 @@ moitié	moitié	NOUN	O	O	O
 rempli	remplir	VERB	O	O	O
 du	de	ADP	O	O	O
 même	même	ADJ	O	O	O
-liquide	liquide	ADJ	O	O	O
+liquide	liquide	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Vous	vous	PRON	O	O	O
 avez	avoir	AUX	O	O	O
-tous	tout	DET	O	O	O
+tous	tout	ADJ	O	O	O
 entendu	entendre	VERB	O	O	O
 parler	parler	VERB	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 fouilles	fouille	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 l'	le	PRON	O	O	O
 on	on	PRON	O	O	O
 exécute	exécuter	VERB	O	O	O
@@ -779,11 +795,12 @@ les	le	DET	O	O	O
 environs	environ	NOUN	O	O	O
 du	de	ADP	O	O	O
 Julius	julius	PROPN	O	O	O
-hôpital	hôpital	ADJ	O	O	O
+hôpital	hôpital	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
-est	être	VERB	O	O	O
-des	un	DET	O	O	O
+est	être	AUX	O	O	O
+des	de	ADP	O	O	O
 plus	plus	ADV	O	O	O
 probables	probable	ADJ	O	O	O
 que	que	SCONJ	O	O	O
@@ -792,14 +809,14 @@ malheureux	malheureux	ADJ	O	O	O
 jeune	jeune	ADJ	O	O	O
 homme	homme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-étudiant	étudiant	ADV	O	O	O
+étudiant	étudier	VERB	O	O	O
 du	de	ADP	O	O	O
 reste	reste	NOUN	O	O	O
 comme	comme	ADP	O	O	O
 vous	vous	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 y	y	PRON	O	O	O
-aura	avoir	VERB	O	O	O
+aura	avoir	AUX	O	O	O
 trouvé	trouver	VERB	O	O	O
 ce	ce	DET	O	O	O
 tonneau	tonneau	NOUN	O	O	O
@@ -813,14 +830,14 @@ contenu	contenu	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 C'	ce	PRON	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 ainsi	ainsi	ADV	O	O	O
 que	que	SCONJ	O	O	O
 j'	je	PRON	O	O	O
 ai	avoir	AUX	O	O	O
 eu	avoir	VERB	O	O	O
 l'	le	DET	O	O	O
-heureuse	heureux	NOUN	O	O	O
+heureuse	heureux	ADJ	O	O	O
 occasion	occasion	NOUN	O	O	O
 de	de	ADP	O	O	O
 pouvoir	pouvoir	VERB	O	O	O
@@ -836,6 +853,7 @@ l'	le	DET	O	O	O
 alcool	alcool	NOUN	O	O	O
 éthylique	éthylique	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 j'	je	PRON	O	O	O
 aurai	avoir	VERB	O	O	O
 soin	soin	NOUN	O	O	O
@@ -863,8 +881,8 @@ internationale	international	ADJ	O	O	O
 
 Je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
-veux	veux	ADJ	O	O	O
-point	point	NOUN	O	O	O
+veux	vouloir	VERB	O	O	O
+point	point	ADV	O	O	O
 laisser	laisser	VERB	O	O	O
 échapper	échapper	VERB	O	O	O
 l'	le	DET	O	O	O
@@ -879,8 +897,8 @@ rapide	rapide	ADJ	O	O	O
 sur	sur	ADP	O	O	O
 cette	ce	DET	O	O	O
 époque	époque	NOUN	O	O	O
-si	si	SCONJ	O	O	O
-pleine	pleine	NOUN	O	O	O
+si	si	ADV	O	O	O
+pleine	plein	ADJ	O	O	O
 d'	de	ADP	O	O	O
 intérêt	intérêt	NOUN	O	O	O
 où	où	PRON	O	O	O
@@ -914,7 +932,7 @@ de	de	ADP	O	O	O
 théobromine	théobromine	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
-salsepareille	salsepareille	PROPN	O	O	O
+salsepareille	salsepareille	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 où	où	PRON	O	O	O
 vous	vous	PRON	O	O	O
@@ -928,7 +946,7 @@ lorsque	lorsque	SCONJ	O	O	O
 vous	vous	PRON	O	O	O
 vous	vous	PRON	O	O	O
 trouvez	trouver	VERB	O	O	O
-quelque	quelque	ADV	O	O	O
+quelque	quelque	ADP	O	O	O
 peu	peu	ADV	O	O	O
 neurasthéniques	neurasthénique	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -965,11 +983,12 @@ un	un	DET	O	O	O
 peu	peu	ADV	O	O	O
 civilisés	civilisé	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 ces	ce	DET	O	O	O
 établissements	établissement	NOUN	O	O	O
-construits	construire	ADJ	O	O	O
+construits	construire	VERB	O	O	O
 les	le	DET	O	O	O
-uns	un	NOUN	O	O	O
+uns	un	PRON	O	O	O
 avec	avec	ADP	O	O	O
 tout	tout	ADJ	O	O	O
 le	le	DET	O	O	O
@@ -977,7 +996,7 @@ confort	confort	NOUN	O	O	O
 possible	possible	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
-autres	autre	NOUN	O	O	O
+autres	autre	PRON	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 installation	installation	NOUN	O	O	O
@@ -1046,14 +1065,14 @@ Schnaps	schnaps	PROPN	O	O	O
 les	le	PRON	O	O	O
 appellent	appeler	VERB	O	O	O
 liqueurs	liqueur	NOUN	O	O	O
-divines	divine	NOUN	O	O	O
+divines	divin	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-les	le	DET	O	O	O
-dénomment	dénomment	NOUN	O	O	O
+les	le	PRON	O	O	O
+dénomment	dénommer	VERB	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
 nobles	noble	ADJ	O	O	O
-liquides	liquide	ADJ	O	O	O
+liquides	liquide	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 nature	nature	NOUN	O	O	O
@@ -1072,7 +1091,7 @@ de	de	ADP	O	O	O
 céréales	céréale	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
-houblon	houblon	PROPN	O	O	O
+houblon	houblon	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 colchique	colchique	NOUN	O	O	O
@@ -1085,6 +1104,7 @@ pommes	pomme	NOUN	O	O	O
 de	de	ADP	O	O	O
 terre	terre	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 on	on	PRON	O	O	O
 aurait	avoir	AUX	O	O	O
 même	même	ADV	O	O	O
@@ -1111,7 +1131,7 @@ cercles	cercle	NOUN	O	O	O
 scientifiques	scientifique	ADJ	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-réputés	réputé	NOUN	O	O	O
+réputés	réputé	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Au	au	ADP	O	O	O
@@ -1139,7 +1159,7 @@ discutées	discuter	VERB	O	O	O
 les	le	DET	O	O	O
 idées	idée	NOUN	O	O	O
 de	de	ADP	O	O	O
-Kahlbaum	kahlbaum	NOUN	O	O	O
+Kahlbaum	kahlbaum	PROPN	O	O	O
 sur	sur	ADP	O	O	O
 l'	le	DET	O	O	O
 usage	usage	NOUN	O	O	O
@@ -1175,6 +1195,7 @@ l'	le	DET	O	O	O
 intoxication	intoxication	NOUN	O	O	O
 alcoolique	alcoolique	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 malgré	malgré	ADP	O	O	O
 tous	tout	ADJ	O	O	O
 leurs	leur	DET	O	O	O
@@ -1184,7 +1205,7 @@ le	le	DET	O	O	O
 poison	poison	NOUN	O	O	O
 est	être	AUX	O	O	O
 resté	rester	VERB	O	O	O
-vainqueur	vainqueur	NOUN	O	O	O
+vainqueur	vainqueur	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Seule	seul	ADJ	O	O	O
@@ -1192,12 +1213,12 @@ la	le	DET	O	O	O
 société	société	NOUN	O	O	O
 antialcoolique	antialcoolique	ADJ	O	O	O
 a	avoir	AUX	O	O	O
-réussi	réussir	ADV	O	O	O
+réussi	réussir	VERB	O	O	O
 peu	peu	ADV	O	O	O
 à	à	ADP	O	O	O
-peu	peu	ADV	O	O	O
+peu	peu	ADP	O	O	O
 à	à	ADP	O	O	O
-vaincre	vaincre	PROPN	O	O	O
+vaincre	vaincre	VERB	O	O	O
 l'	le	DET	O	O	O
 ennemi	ennemi	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1211,8 +1232,8 @@ des	un	DET	O	O	O
 mesures	mesure	NOUN	O	O	O
 internationales	international	ADJ	O	O	O
 pour	pour	ADP	O	O	O
-le	le	DET	O	O	O
-dompter	dompter	NOUN	O	O	O
+le	le	PRON	O	O	O
+dompter	dompter	VERB	O	O	O
 et	et	CCONJ	O	O	O
 à	à	ADP	O	O	O
 faire	faire	AUX	O	O	O
@@ -1220,7 +1241,7 @@ voter	voter	VERB	O	O	O
 par	par	ADP	O	O	O
 les	le	DET	O	O	O
 parlements	parlement	NOUN	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 lois	loi	NOUN	O	O	O
 draconiennes	draconien	ADJ	O	O	O
 contre	contre	ADP	O	O	O
@@ -1238,7 +1259,7 @@ Cependant	cependant	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 ce	ce	PRON	O	O	O
 n'	ne	ADV	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 que	que	ADV	O	O	O
 dans	dans	ADP	O	O	O
 les	le	DET	O	O	O
@@ -1257,6 +1278,7 @@ de	de	ADP	O	O	O
 sa	son	DET	O	O	O
 faveur	faveur	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 ses	son	DET	O	O	O
 préparations	préparation	NOUN	O	O	O
 sont	être	AUX	O	O	O
@@ -1265,7 +1287,7 @@ peu	peu	ADV	O	O	O
 peu	peu	ADV	O	O	O
 remplacées	remplacer	VERB	O	O	O
 par	par	ADP	O	O	O
-du	de	ADP	O	O	O
+du	de	DET	O	O	O
 vin	vin	NOUN	O	O	O
 de	de	ADP	O	O	O
 palme	palme	NOUN	O	O	O
@@ -1276,11 +1298,12 @@ eau	eau	NOUN	O	O	O
 de	de	ADP	O	O	O
 Seltz	seltz	PROPN	O	O	O
 ;	;	PUNCT	O	O	O
+
 ces	ce	DET	O	O	O
 dernières	dernier	ADJ	O	O	O
 elles	lui	PRON	O	O	O
--	-	PUNCT	O	O	O
-mêmes	même	ADJ	O	O	O
+-	-	PRON	O	O	O
+mêmes	même	PRON	O	O	O
 disparaissent	disparaître	VERB	O	O	O
 vers	vers	ADP	O	O	O
 l'	le	DET	O	O	O
@@ -1298,15 +1321,15 @@ sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 passé	passé	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-revenons	revenon	NOUN	O	O	O
--	-	PUNCT	O	O	O
-en	en	ADP	O	O	O
+revenons	revenir	VERB	O	O	O
+-	-	PRON	O	O	O
+en	en	PRON	O	O	O
 à	à	ADP	O	O	O
 notre	notre	DET	O	O	O
 malade	malade	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-demandons	demandon	NOUN	O	O	O
--	-	PUNCT	O	O	O
+demandons	demander	VERB	O	O	O
+-	-	PRON	O	O	O
 nous	nous	PRON	O	O	O
 quel	quel	DET	O	O	O
 traitement	traitement	NOUN	O	O	O
@@ -1327,7 +1350,7 @@ comme	comme	ADP	O	O	O
 traitement	traitement	NOUN	O	O	O
 actif	actif	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 d'	de	ADP	O	O	O
 exécution	exécution	NOUN	B-NOV	O	O
 par	par	ADP	I-NOV	O	O
@@ -1376,9 +1399,10 @@ des	un	DET	O	O	O
 impulsions	impulsion	NOUN	O	O	O
 ancestrales	ancestral	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 cependant	cependant	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-remarquons	remarquon	NOUN	O	O	O
+remarquons	remarquer	VERB	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
 patient	patient	NOUN	O	O	O
@@ -1392,17 +1416,18 @@ de	de	ADP	O	O	O
 dégénérescence	dégénérescence	NOUN	O	O	O
 épileptique	épileptique	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 aussi	aussi	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 suis	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 je	je	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 somme	somme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 peu	peu	ADV	O	O	O
-partisan	partisan	NOUN	O	O	O
+partisan	partisan	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 castration	castration	NOUN	O	O	O
@@ -1424,6 +1449,7 @@ châtrer	châtrer	VERB	O	O	O
 les	le	DET	O	O	O
 aliénés	aliéné	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 pour	pour	ADP	O	O	O
 appliquer	appliquer	VERB	O	O	O
@@ -1456,7 +1482,7 @@ produits	produire	VERB	O	O	O
 par	par	ADP	O	O	O
 la	le	DET	O	O	O
 psy	psy	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 chaîne	chaîne	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
@@ -1465,7 +1491,7 @@ autopsychotoxine	autopsychotoxine	NOUN	B-NOV	O	O
 
 Mon	mon	DET	O	O	O
 avis	avis	NOUN	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 d'	de	ADP	O	O	O
 appliquer	appliquer	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -1478,13 +1504,13 @@ et	et	CCONJ	O	O	O
 lorsqu'	lorsque	SCONJ	O	O	O
 il	il	PRON	O	O	O
 sera	être	AUX	O	O	O
-convalescent	convalescer	VERB	O	O	O
+convalescent	convalescent	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 lui	luire	PRON	O	O	O
 administrer	administrer	VERB	O	O	O
-de	de	ADP	O	O	O
-fortes	fort	NOUN	O	O	O
+de	de	DET	O	O	O
+fortes	fort	ADJ	O	O	O
 doses	dose	NOUN	O	O	O
 de	de	ADP	O	O	O
 suggestion	suggestion	NOUN	O	O	O
@@ -1519,7 +1545,7 @@ traitement	traitement	NOUN	O	O	O
 que	que	PRON	O	O	O
 nous	nous	PRON	O	O	O
 lui	luire	PRON	O	O	O
-appliquons	appliquon	NOUN	O	O	O
+appliquons	appliquer	VERB	O	O	O
 une	un	DET	O	O	O
 enquête	enquête	NOUN	O	O	O
 judiciaire	judiciaire	ADJ	O	O	O
@@ -1528,7 +1554,7 @@ judiciaire	judiciaire	ADJ	O	O	O
 Quoiqu'	quoique	SCONJ	O	O	O
 il	il	PRON	O	O	O
 en	en	PRON	O	O	O
-soit	être	CCONJ	O	O	O
+soit	être	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 maintiendrai	maintenir	VERB	O	O	O
@@ -1542,42 +1568,41 @@ d'	de	ADP	O	O	O
 devant	devant	ADP	O	O	O
 vous	vous	PRON	O	O	O
 et	et	CCONJ	O	O	O
-en	en	ADP	O	O	O
-appellerai	appeler	PROPN	O	O	O
+en	en	PRON	O	O	O
+appellerai	appeler	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	SCONJ	O	O	O
 il	il	PRON	O	O	O
-le	le	DET	O	O	O
-faut	faut	NOUN	O	O	O
+le	le	PRON	O	O	O
+faut	falloir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 nos	notre	DET	O	O	O
 plus	plus	ADV	O	O	O
-hautes	haute	NOUN	O	O	O
-cours	courir	VERB	O	O	O
+hautes	haut	ADJ	O	O	O
+cours	cours	NOUN	O	O	O
 d'	de	ADP	O	O	O
 anthropologie	anthropologie	NOUN	O	O	O
 criminelle	criminel	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-soyez	être	PROPN	O	O	O
--	-	PUNCT	O	O	O
-en	en	ADP	O	O	O
-convaincus	convaincre	PROPN	O	O	O
+soyez	être	VERB	O	O	O
+-	-	PRON	O	O	O
+en	en	PRON	O	O	O
+convaincus	convaincre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 mesdames	madame	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 messieurs	monsieur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
 En	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 moment	moment	NOUN	O	O	O
 précisément	précisément	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 mon	mon	DET	O	O	O
-assistant	assister	VERB	O	O	O
+assistant	assistant	NOUN	O	O	O
 me	me	PRON	O	O	O
-fait	fait	NOUN	O	O	O
+fait	faire	AUX	O	O	O
 savoir	savoir	VERB	O	O	O
 que	que	SCONJ	O	O	O
 mon	mon	DET	O	O	O
@@ -1586,7 +1611,7 @@ vient	venir	VERB	O	O	O
 d'	de	ADP	O	O	O
 avouer	avouer	VERB	O	O	O
 avoir	avoir	AUX	O	O	O
-bu	boire	DET	O	O	O
+bu	boire	VERB	O	O	O
 une	un	DET	O	O	O
 quantité	quantité	NOUN	O	O	O
 notable	notable	ADJ	O	O	O
@@ -1594,19 +1619,20 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 boisson	boisson	NOUN	O	O	O
 rougeâtre	rougeâtre	ADJ	O	O	O
-trouvée	trouver	ADJ	O	O	O
+trouvée	trouver	VERB	O	O	O
 chez	chez	ADP	O	O	O
 lui	luire	PRON	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 il	il	PRON	O	O	O
 prétend	prétendre	VERB	O	O	O
-énergiquement	énergiquemer	VERB	O	O	O
+énergiquement	énergiquement	ADV	O	O	O
 ne	ne	ADV	O	O	O
 l'	le	PRON	O	O	O
 avoir	avoir	AUX	O	O	O
 fait	faire	VERB	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 dans	dans	ADP	O	O	O
 un	un	DET	O	O	O
 but	but	NOUN	O	O	O
@@ -1641,7 +1667,7 @@ son	son	DET	O	O	O
 traitement	traitement	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Pourvu	pourvoir	ADV	O	O	O
+Pourvu	pourvoir	VERB	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
 juges	juge	NOUN	O	O	O
@@ -1652,10 +1678,10 @@ l'	le	DET	O	O	O
 indice	indice	NOUN	O	O	O
 de	de	ADP	O	O	O
 tendances	tendance	NOUN	O	O	O
-autovivisectionnistes	autovivisectionniste	NOUN	O	O	O
+autovivisectionnistes	autovivisectionniste	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Espérons	espéron	NOUN	O	O	O
+Espérons	espérer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 tant	tant	ADV	O	O	O
 dans	dans	ADP	O	O	O
@@ -1673,7 +1699,7 @@ continuera	continuer	VERB	O	O	O
 observer	observer	VERB	O	O	O
 sa	son	DET	O	O	O
 conduite	conduite	NOUN	O	O	O
-future	future	NOUN	O	O	O
+future	futur	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 que	que	SCONJ	O	O	O
 notre	notre	DET	O	O	O
@@ -1701,7 +1727,7 @@ si	si	ADV	O	O	O
 intéressant	intéressant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
-crains	crain	ADJ	O	O	O
+crains	craindre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 mesdames	madame	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -1712,7 +1738,7 @@ vous	vous	PRON	O	O	O
 ne	ne	ADV	O	O	O
 prêtiez	prêter	VERB	O	O	O
 plus	plus	ADV	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 peu	peu	ADV	O	O	O
 d'	de	ADP	O	O	O
 attention	attention	NOUN	O	O	O
@@ -1720,8 +1746,8 @@ attention	attention	NOUN	O	O	O
 l'	le	DET	O	O	O
 examen	examen	NOUN	O	O	O
 des	de	ADP	O	O	O
-psychoses	psychose	ADJ	O	O	O
-vulgaires	vulgaire	NOUN	O	O	O
+psychoses	psychose	NOUN	O	O	O
+vulgaires	vulgaire	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 J'	je	PRON	O	O	O
@@ -1729,7 +1755,7 @@ ose	ose	VERB	O	O	O
 espérer	espérer	VERB	O	O	O
 que	que	SCONJ	O	O	O
 vous	vous	PRON	O	O	O
-aurez	avoir	VERB	O	O	O
+aurez	avoir	AUX	O	O	O
 tiré	tirer	VERB	O	O	O
 quelque	quelque	DET	O	O	O
 profit	profit	NOUN	O	O	O

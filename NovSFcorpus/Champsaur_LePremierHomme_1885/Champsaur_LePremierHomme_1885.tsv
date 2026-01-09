@@ -2,6 +2,7 @@ I	i	NOUN	O	O	O
 LE	le	DET	O	O	O
 PREMIER	premier	ADJ	O	O	O
 HOMME	homme	NOUN	O	O	O
+
 C'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 au	au	ADP	O	O	O
@@ -11,7 +12,7 @@ de	de	ADP	O	O	O
 Leipsig	leipsig	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
-Quels	quel	ADJ	O	O	O
+Quels	quel	DET	O	O	O
 types	type	NOUN	O	O	O
 extraordinaires	extraordinaire	ADJ	O	O	O
 !	!	PUNCT	O	O	O
@@ -65,6 +66,7 @@ des	de	ADP	O	O	O
 .	.	PUNCT	O	O	O
 
 )	)	PUNCT	O	O	O
+
 L'	le	DET	O	O	O
 autre	autre	PRON	O	O	O
 ,	,	PUNCT	O	O	O
@@ -96,10 +98,10 @@ tic	tic	NOUN	O	O	O
 
 Lorsque	lorsque	SCONJ	O	O	O
 la	le	DET	O	O	O
-houille	houille	PROPN	O	O	O
+houille	houille	NOUN	O	O	O
 était	être	AUX	O	O	O
 devenue	devenir	VERB	O	O	O
-diamant	diamant	ADV	O	O	O
+diamant	diamant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 s'	se	PRON	O	O	O
@@ -129,7 +131,7 @@ ces	ce	DET	O	O	O
 corps	corps	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 représentaient	représenter	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 millions	million	NOUN	O	O	O
 de	de	ADP	O	O	O
 consciences	conscience	NOUN	O	O	O
@@ -149,7 +151,7 @@ jours	jour	NOUN	O	O	O
 Isaac	isaac	PROPN	O	O	O
 Gombrich	gombrich	PROPN	O	O	O
 était	être	AUX	O	O	O
-absent	absent	ADV	O	O	O
+absent	absent	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -157,8 +159,8 @@ corrigeait	corriger	VERB	O	O	O
 les	le	DET	O	O	O
 épreuves	épreuve	NOUN	O	O	O
 du	de	ADP	O	O	O
-douzième	douzième	NOUN	O	O	O
-volume	volum	ADJ	O	O	O
+douzième	douzième	ADJ	O	O	O
+volume	volume	NOUN	O	O	O
 de	de	ADP	O	O	O
 son	son	DET	O	O	O
 grand	grand	ADJ	O	O	O
@@ -195,7 +197,7 @@ la	le	DET	O	O	O
 page	page	NOUN	O	O	O
 1063	1063	NUM	O	O	O
 du	de	ADP	O	O	O
-onzième	onzième	NOUN	O	O	O
+onzième	onzième	ADJ	O	O	O
 volume	volume	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
@@ -206,8 +208,8 @@ une	un	DET	O	O	O
 coquille	coquille	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
-trentième	trentième	NOUN	O	O	O
-paragraphe	paragraph	ADJ	O	O	O
+trentième	trentième	ADJ	O	O	O
+paragraphe	paragraphe	NOUN	O	O	O
 de	de	ADP	O	O	O
 son	son	DET	O	O	O
 article	article	NOUN	O	O	O
@@ -227,8 +229,8 @@ chose	chose	NOUN	O	O	O
 
 Depuis	depuis	ADP	O	O	O
 cinquante	cinquante	NUM	O	O	O
--	-	PUNCT	O	O	O
-neuf	neuf	VERB	O	O	O
+-	-	NUM	O	O	O
+neuf	neuf	NUM	O	O	O
 ans	an	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 vers	vers	ADP	O	O	O
@@ -238,8 +240,8 @@ de	de	ADP	O	O	O
 mars	mars	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
-vieux	vieux	PROPN	O	O	O
-savant	saver	VERB	O	O	O
+vieux	vieux	ADJ	O	O	O
+savant	savant	NOUN	O	O	O
 allemand	allemand	ADJ	O	O	O
 semblait	sembler	VERB	O	O	O
 aimer	aimer	VERB	O	O	O
@@ -258,7 +260,7 @@ plis	pli	NOUN	O	O	O
 de	de	ADP	O	O	O
 sa	son	DET	O	O	O
 houppelande	houppelande	NOUN	O	O	O
-usée	user	ADJ	O	O	O
+usée	user	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 marquée	marquer	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -279,7 +281,7 @@ rouges	rouge	ADJ	O	O	O
 des	de	ADP	O	O	O
 vertèbres	vertèbre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 os	os	NOUN	O	O	O
 iliaques	iliaque	ADJ	O	O	O
 .	.	PUNCT	O	O	O
@@ -288,14 +290,14 @@ Une	un	DET	O	O	O
 fois	fois	NOUN	O	O	O
 même	même	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-Isaac	isaac	NOUN	O	O	O
+Isaac	isaac	PROPN	O	O	O
 Gombrich	gombrich	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 travers	travers	NOUN	O	O	O
 ses	son	DET	O	O	O
 lunettes	lunette	NOUN	O	O	O
-rondes	ronde	NOUN	O	O	O
+rondes	rond	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 branches	branche	NOUN	O	O	O
@@ -322,12 +324,12 @@ doute	doute	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ou	ou	CCONJ	O	O	O
 d'	de	ADP	O	O	O
-enfant	enfant	PROPN	O	O	O
+enfant	enfant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Que	que	PRON	O	O	O
 pouvait	pouvoir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 en	en	PRON	O	O	O
 faire	faire	VERB	O	O	O
@@ -344,24 +346,25 @@ restait	rester	VERB	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
 détritus	détritus	NOUN	O	O	O
-humains	humain	ADV	O	O	O
+humains	humain	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Quoi	quoi	PRON	O	O	O
+Quoi	quoi	ADV	O	O	O
 qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 en	en	PRON	O	O	O
-soit	être	SYM	O	O	O
+soit	être	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 Cornélius	cornélius	PROPN	O	O	O
 Schweiger	schweiger	PROPN	O	O	O
 ;	;	PUNCT	O	O	O
+
 au	au	ADP	O	O	O
 milieu	milieu	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 tas	tas	NOUN	O	O	O
-désordonné	désordonner	VERB	O	O	O
+désordonné	désordonné	ADJ	O	O	O
 de	de	ADP	O	O	O
 fourneaux	fourneau	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -371,13 +374,13 @@ alambics	alambic	NOUN	O	O	O
 d'	de	ADP	O	O	O
 éprouvettes	éprouvette	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-de	de	DET	O	O	O
+de	de	ADP	O	O	O
 piles	pile	NOUN	O	O	O
 du	de	ADP	O	O	O
-nommé	nommer	PROPN	O	O	O
+nommé	nommer	ADJ	O	O	O
 Bunsen	bunsen	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-de	de	DET	O	O	O
+de	de	ADP	O	O	O
 bobines	bobine	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
@@ -419,7 +422,7 @@ ignares	ignare	NOUN	O	O	O
 Lui	luire	PRON	O	O	O
 est	être	AUX	O	O	O
 autrement	autrement	ADV	O	O	O
-fort	fort	ADV	O	O	O
+fort	fort	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 a	avoir	AUX	O	O	O
@@ -431,16 +434,16 @@ corps	corps	NOUN	O	O	O
 humain	humain	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
-liquide	liquide	ADJ	O	O	O
+liquide	liquide	NOUN	O	O	O
 incolore	incolore	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-inodore	inodore	ADV	O	O	O
+inodore	inodore	ADJ	O	O	O
 comme	comme	ADP	O	O	O
 l'	le	DET	O	O	O
 eau	eau	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-aqua	aqua	PROPN	O	O	O
-communis	communis	PROPN	O	O	O
+aqua	aqua	X	O	O	O
+communis	communis	X	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 latin	latin	NOUN	O	O	O
@@ -450,14 +453,14 @@ Il	il	PRON	O	O	O
 en	en	PRON	O	O	O
 a	avoir	AUX	O	O	O
 préparé	préparer	VERB	O	O	O
-mille	mille	NUM	O	O	O
+mille	mille	DET	O	O	O
 cent	cent	NUM	O	O	O
-quarante	quarante	PROPN	O	O	O
--	-	PUNCT	O	O	O
+quarante	quarante	NUM	O	O	O
+-	-	NUM	O	O	O
 deux	deux	NUM	O	O	O
 pintes	pinte	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-plus	plus	ADV	O	O	O
+plus	plus	ADP	O	O	O
 une	un	DET	O	O	O
 fraction	fraction	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -469,21 +472,21 @@ triste	triste	ADJ	O	O	O
 cependant	cependant	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
-Telle	tel	ADJ	O	O	O
+Telle	telle	NOUN	O	O	O
 substance	substance	NOUN	O	O	O
 dissout	dissoudre	VERB	O	O	O
 la	le	DET	O	O	O
 corne	corne	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 celle	celui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ci	ci	PRON	O	O	O
 la	le	DET	O	O	O
 chair	chair	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 celle	celui	PRON	O	O	O
--	-	PUNCT	O	O	O
-là	là	ADV	O	O	O
+-	-	PRON	O	O	O
+là	là	PRON	O	O	O
 le	le	DET	O	O	O
 phosphate	phosphate	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -500,7 +503,7 @@ substances	substance	NOUN	O	O	O
 en	en	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 ajouté	ajouter	VERB	O	O	O
-de	de	ADP	O	O	O
+de	de	DET	O	O	O
 nouvelles	nouveau	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
@@ -515,22 +518,23 @@ problèmes	problème	NOUN	O	O	O
 le	le	DET	O	O	O
 plus	plus	ADV	O	O	O
 grand	grand	ADJ	O	O	O
-peut	pouvoir	VERB	O	O	O
--	-	PUNCT	O	O	O
+peut	pouvoir	ADV	O	O	O
+-	-	ADV	O	O	O
 être	être	AUX	O	O	O
 .	.	PUNCT	O	O	O
 
-Inutiles	inutile	NOUN	O	O	O
+Inutiles	inutile	ADJ	O	O	O
 les	le	DET	O	O	O
 catacombes	catacombe	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-inutiles	inutiler	VERB	O	O	O
+inutiles	inutile	ADJ	O	O	O
 les	le	DET	O	O	O
 cimetières	cimetière	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-inutile	inutile	VERB	O	O	O
+inutile	inutile	ADJ	O	O	O
 l'	le	DET	O	O	O
 incinération	incinération	NOUN	O	O	O
+
 !	!	PUNCT	O	O	O
 
 L'	le	DET	O	O	O
@@ -541,20 +545,20 @@ dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
 homme	homme	NOUN	O	O	O
 j'	je	PRON	O	O	O
-entends	entend	ADJ	O	O	O
+entends	entendre	VERB	O	O	O
 la	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 serait	être	AUX	O	O	O
-dissous	dissoudre	PRON	O	O	O
+dissous	dissoudre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 liquéfié	liquéfier	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-Mérite	mérite	NOUN	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Mérite	mérite	VERB	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 tant	tant	ADV	O	O	O
 ?	?	PUNCT	O	O	O
@@ -563,14 +567,14 @@ Cornélius	cornélius	PROPN	O	O	O
 Schweiger	schweiger	PROPN	O	O	O
 avait	avoir	AUX	O	O	O
 bien	bien	ADV	O	O	O
-souffert	souffrir	ADJ	O	O	O
-autrefois	autrefoi	ADJ	O	O	O
+souffert	souffrir	VERB	O	O	O
+autrefois	autrefois	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Pourquoi	pourquoi	ADV	O	O	O
 ne	ne	ADV	O	O	O
 garderait	garder	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 pas	pas	ADV	O	O	O
 son	son	DET	O	O	O
@@ -595,7 +599,7 @@ Fulton	fulton	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 il	il	PRON	O	O	O
 peut	pouvoir	VERB	O	O	O
-tout	tout	ADV	O	O	O
+tout	tout	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
@@ -603,7 +607,7 @@ cuve	cuve	NOUN	O	O	O
 est	être	AUX	O	O	O
 là	là	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-pleine	pleine	NOUN	O	O	O
+pleine	plein	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 il	il	PRON	O	O	O
@@ -619,13 +623,13 @@ formule	formule	NOUN	O	O	O
 Alors	alors	ADV	O	O	O
 des	un	DET	O	O	O
 idées	idée	NOUN	O	O	O
-inaccoutumées	inaccoutumer	VERB	O	O	O
-traversent	traverser	ADV	O	O	O
+inaccoutumées	inaccoutumé	ADJ	O	O	O
+traversent	traverser	VERB	O	O	O
 le	le	DET	O	O	O
 cerveau	cerveau	NOUN	O	O	O
 du	de	ADP	O	O	O
 vieux	vieux	ADJ	O	O	O
-savant	savant	ADJ	O	O	O
+savant	savant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Pour	pour	ADP	O	O	O
@@ -651,11 +655,11 @@ Le	le	DET	O	O	O
 ciel	ciel	NOUN	O	O	O
 était	être	AUX	O	O	O
 bleu	bleu	ADJ	O	O	O
-pâle	pâle	NOUN	O	O	O
+pâle	pâle	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 feuilles	feuille	NOUN	O	O	O
-avaient	avoir	AUX	O	O	O
+avaient	avoir	VERB	O	O	O
 des	un	DET	O	O	O
 frissonnements	frissonnement	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -687,9 +691,9 @@ chimique	chimique	ADJ	I-NOV	O	O
 une	un	DET	O	O	O
 sorte	sorte	NOUN	O	O	O
 d'	de	ADP	O	O	O
-orgue	orgue	PRON	O	O	O
+orgue	orgue	NOUN	O	O	O
 jouant	jouer	VERB	O	O	O
-automatiquement	automatiquemer	VERB	O	O	O
+automatiquement	automatiquement	ADV	O	O	O
 les	le	DET	O	O	O
 airs	air	NOUN	O	O	O
 qu'	que	PRON	O	O	O
@@ -720,22 +724,23 @@ nature	nature	NOUN	O	O	O
 
 Le	le	DET	O	O	O
 grand	grand	ADJ	O	O	O
-Tout	tout	ADJ	B-NOV	O	O
-inintelligent	inintelligent	NOUN	I-NOV	O	O
+Tout	tout	NOUN	B-NOV	O	O
+inintelligent	inintelligent	ADJ	I-NOV	O	O
 sommeillait	sommeiller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-tranquille	tranquille	NOUN	O	O	O
+tranquille	tranquille	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 sous	sou	ADP	O	O	O
 la	le	DET	O	O	O
 loi	loi	NOUN	O	O	O
 immuable	immuable	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 Cornélius	cornélius	PROPN	O	O	O
 Schweiger	schweiger	PROPN	O	O	O
 regarde	regarder	VERB	O	O	O
 au	au	ADP	O	O	O
-dehors	dehors	ADP	O	O	O
+dehors	dehors	NOUN	O	O	O
 pendant	pendant	ADP	O	O	O
 quelques	quelque	DET	O	O	O
 minutes	minute	NOUN	O	O	O
@@ -773,25 +778,25 @@ Weber	weber	PROPN	O	O	O
 
 Cornélius	cornélius	PROPN	O	O	O
 Schweiger	schweiger	PROPN	O	O	O
-écoute	écout	ADJ	O	O	O
-debout	debout	ADJ	O	O	O
+écoute	écoute	VERB	O	O	O
+debout	debout	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Tout	tout	ADJ	O	O	O
 son	son	DET	O	O	O
-être	être	AUX	O	O	O
+être	être	NOUN	O	O	O
 est	être	AUX	O	O	O
 envahi	envahir	VERB	O	O	O
 par	par	ADP	O	O	O
 une	un	DET	O	O	O
 tendresse	tendresse	NOUN	O	O	O
-immense	immense	NOUN	O	O	O
+immense	immense	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 globules	globule	NOUN	O	O	O
 sanguins	sanguin	ADJ	O	O	O
-battent	battre	ADV	O	O	O
+battent	battre	VERB	O	O	O
 plus	plus	ADV	O	O	O
 fortement	fortement	ADV	O	O	O
 à	à	ADP	O	O	O
@@ -820,7 +825,7 @@ plaintive	plaintif	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Elle	lui	PRON	O	O	O
-avait	avoir	AUX	O	O	O
+avait	avoir	VERB	O	O	O
 des	un	DET	O	O	O
 pleurs	pleur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -842,7 +847,7 @@ se	se	PRON	O	O	O
 dissolvait	dissoudre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
-fait	fait	NOUN	O	O	O
+fait	faire	VERB	O	O	O
 dans	dans	ADP	O	O	O
 un	un	DET	O	O	O
 verre	verre	NOUN	O	O	O
@@ -859,7 +864,7 @@ ne	ne	ADV	O	O	O
 se	se	PRON	O	O	O
 sentait	sentir	VERB	O	O	O
 pas	pas	ADV	O	O	O
-fondre	fondr	ADJ	O	O	O
+fondre	fondre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
@@ -879,7 +884,7 @@ Les	le	DET	O	O	O
 chairs	chair	NOUN	O	O	O
 s'	se	PRON	O	O	O
 en	en	PRON	O	O	O
-allaient	allaient	NOUN	O	O	O
+allaient	aller	VERB	O	O	O
 par	par	ADP	O	O	O
 plaques	plaque	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -893,7 +898,7 @@ os	os	NOUN	O	O	O
 s'	se	PRON	O	O	O
 amollis	amollir	VERB	O	O	O
 -	-	PUNCT	O	O	O
-saient	saient	ADV	O	O	O
+saient	saier	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Enfin	enfin	ADV	O	O	O
@@ -908,7 +913,7 @@ en	en	ADP	O	O	O
 question	question	NOUN	O	O	O
 plus	plus	ADV	O	O	O
 haut	haut	ADJ	O	O	O
-retentit	retentit	ADJ	O	O	O
+retentit	retentir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -916,7 +921,7 @@ y	y	PRON	O	O	O
 eut	avoir	VERB	O	O	O
 alors	alors	ADV	O	O	O
 une	un	DET	O	O	O
-seconde	second	ADJ	O	O	O
+seconde	seconde	NOUN	O	O	O
 d'	de	ADP	O	O	O
 intermède	intermède	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -926,7 +931,7 @@ Schweiger	schweiger	PROPN	O	O	O
 n'	ne	ADV	O	O	O
 avait	avoir	VERB	O	O	O
 plus	plus	ADV	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 une	un	DET	O	O	O
 notion	notion	NOUN	O	O	O
 vague	vague	ADJ	O	O	O
@@ -958,7 +963,7 @@ Cornélius	cornélius	PROPN	O	O	O
 Schweiger	schweiger	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-auquel	auquel	NOUN	O	O	O
+auquel	auquel	PRON	O	O	O
 il	il	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 donné	donner	VERB	O	O	O
@@ -971,12 +976,12 @@ Pan	pan	PROPN	O	O	O
 C'	ce	PRON	O	O	O
 était	être	AUX	O	O	O
 d'	de	ADP	O	O	O
-abord	abord	ADV	O	O	O
+abord	abord	NOUN	O	O	O
 une	un	DET	O	O	O
 mélodie	mélodie	NOUN	O	O	O
-douce	doux	VERB	O	O	O
+douce	doux	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-suave	suave	NOUN	O	O	O
+suave	suave	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 quelque	quelque	DET	O	O	O
 chose	chose	NOUN	O	O	O
@@ -1000,13 +1005,14 @@ grave	grave	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 poignante	poignant	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 elle	lui	PRON	O	O	O
 avait	avoir	VERB	O	O	O
 des	un	DET	O	O	O
 appels	appel	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-des	de	ADP	O	O	O
-cris	cri	VERB	O	O	O
+des	un	DET	O	O	O
+cris	cri	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 des	un	DET	O	O	O
 colères	colère	NOUN	O	O	O
@@ -1043,12 +1049,12 @@ allait	aller	VERB	O	O	O
 de	de	ADP	O	O	O
 son	son	DET	O	O	O
 corps	corps	NOUN	O	O	O
-aminci	amincir	ADJ	O	O	O
+aminci	amincir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
@@ -1062,17 +1068,17 @@ eau	eau	NOUN	O	O	O
 toujours	toujours	ADV	O	O	O
 transparente	transparent	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 de	de	DET	O	O	O
 petits	petit	ADJ	O	O	O
 granules	granule	NOUN	O	O	O
-flottants	flottant	NOUN	O	O	O
+flottants	flottant	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Cornélius	cornélius	PROPN	O	O	O
 Schweiger	schweiger	PROPN	O	O	O
 était	être	AUX	O	O	O
-dissous	dissoudre	ADJ	O	O	O
+dissous	dissoudre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
@@ -1097,17 +1103,17 @@ son	son	DET	O	O	O
 hymne	hymne	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Toc	toc	ADV	O	O	O
+Toc	toc	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-Toc	toc	X	O	O	O
+Toc	toc	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 La	le	DET	O	O	O
 porte	porte	NOUN	O	O	O
 du	de	ADP	O	O	O
 laboratoire	laboratoire	NOUN	O	O	O
-grince	grince	NOUN	O	O	O
+grince	grincer	VERB	O	O	O
 et	et	CCONJ	O	O	O
 tourne	tourne	VERB	O	O	O
 lentement	lentement	ADV	O	O	O
@@ -1124,8 +1130,8 @@ se	se	PRON	O	O	O
 rit	rire	VERB	O	O	O
 à	à	ADP	O	O	O
 lui	luire	PRON	O	O	O
--	-	PUNCT	O	O	O
-même	même	ADV	O	O	O
+-	-	PRON	O	O	O
+même	même	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -1135,16 +1141,16 @@ les	le	DET	O	O	O
 épreuves	épreuve	NOUN	O	O	O
 de	de	ADP	O	O	O
 son	son	DET	O	O	O
-douzième	douzième	NOUN	O	O	O
+douzième	douzième	ADJ	O	O	O
 volume	volume	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-lu	lire	PROPN	O	O	O
+lu	lire	VERB	O	O	O
 une	un	DET	O	O	O
 étude	étude	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-éminent	éminent	ADV	O	O	O
+éminent	éminent	ADJ	O	O	O
 Karl	karl	PROPN	O	O	O
 Stranzer	stranzer	PROPN	O	O	O
 sur	sur	ADP	O	O	O
@@ -1152,7 +1158,7 @@ la	le	DET	O	O	O
 cristallographie	cristallographie	NOUN	B-NOV	O	O
 transcendante	transcendant	ADJ	I-NOV	O	O
 et	et	CCONJ	O	O	O
-Isaac	isaac	NOUN	O	O	O
+Isaac	isaac	PROPN	O	O	O
 Gombrich	gombrich	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1168,7 +1174,7 @@ reconnu	reconnaître	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
-où	où	PRON	O	O	O
+où	où	ADV	O	O	O
 est	être	VERB	O	O	O
 donc	donc	ADV	O	O	O
 Cornélius	cornélius	PROPN	O	O	O
@@ -1180,20 +1186,20 @@ Tout	tout	ADV	O	O	O
 l'	le	DET	O	O	O
 heure	heure	NOUN	O	O	O
 le	le	DET	O	O	O
-rebb	rebb	PROPN	O	O	O
+rebb	rebb	NOUN	O	O	O
 Joseph	joseph	PROPN	O	O	O
 Mànus	mànus	PROPN	O	O	O
 lui	luire	PRON	O	O	O
 demanda	demander	VERB	O	O	O
 de	de	ADP	O	O	O
 ses	son	DET	O	O	O
-nouvelles	nouveau	ADJ	O	O	O
+nouvelles	nouvelle	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Que	que	PRON	O	O	O
 s'	se	PRON	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 passé	passer	VERB	O	O	O
 ?	?	PUNCT	O	O	O
@@ -1205,36 +1211,36 @@ cuve	cuve	NOUN	O	O	O
 
 Elle	lui	PRON	O	O	O
 est	être	AUX	O	O	O
-pleine	pleine	NOUN	O	O	O
+pleine	plein	ADJ	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 eau	eau	NOUN	O	O	O
 un	un	DET	O	O	O
 peu	peu	ADV	O	O	O
-chargée	charger	VERB	O	O	O
+chargée	charger	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Qu'	que	PRON	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
 que	que	PRON	O	O	O
 cela	celer	PRON	O	O	O
 peut	pouvoir	VERB	O	O	O
-être	être	AUX	O	O	O
+être	être	VERB	O	O	O
 ?	?	PUNCT	O	O	O
-
 Pas	pas	ADV	O	O	O
-d'	de	ADP	O	O	O
+d'	de	DET	O	O	O
 odeur	odeur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Isaac	isaac	NOUN	O	O	O
+Isaac	isaac	PROPN	O	O	O
 Gombrich	gombrich	PROPN	O	O	O
-trempe	tremp	ADJ	O	O	O
+trempe	trempe	VERB	O	O	O
 son	son	DET	O	O	O
 doigt	doigt	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 aussitôt	aussitôt	ADV	O	O	O
 le	le	DET	O	O	O
 doigt	doigt	NOUN	O	O	O
@@ -1260,6 +1266,7 @@ plonge	plonger	VERB	O	O	O
 sa	son	DET	O	O	O
 main	main	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 la	le	DET	O	O	O
 main	main	NOUN	O	O	O
 se	se	PRON	O	O	O
@@ -1270,8 +1277,8 @@ doigt	doigt	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
-vieux	vieux	PROPN	O	O	O
-cristallographe	cristallograph	ADJ	O	O	O
+vieux	vieux	ADJ	O	O	O
+cristallographe	cristallographe	NOUN	B-NOV	O	O
 est	être	AUX	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
@@ -1281,7 +1288,7 @@ du	de	ADP	O	O	O
 désir	désir	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-inconnu	inconnu	VERB	O	O	O
+inconnu	inconnu	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -1293,6 +1300,7 @@ dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 liquide	liquide	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 le	le	DET	O	O	O
 bras	bras	NOUN	O	O	O
 se	se	PRON	O	O	O
@@ -1309,27 +1317,28 @@ Schweiger	schweiger	PROPN	O	O	O
 Le	le	DET	O	O	O
 docteur	docteur	NOUN	O	O	O
 aurait	avoir	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 découvert	découvrir	VERB	O	O	O
 quelque	quelque	DET	O	O	O
 chose	chose	NOUN	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 lui	luire	PRON	O	O	O
 ne	ne	ADV	O	O	O
 saurait	savoir	VERB	O	O	O
 expliquer	expliquer	VERB	O	O	O
 ?	?	PUNCT	O	O	O
 
-Isaac	isaac	NOUN	O	O	O
+Isaac	isaac	PROPN	O	O	O
 Gombrich	gombrich	PROPN	O	O	O
 a	avoir	AUX	O	O	O
-tout	tout	DET	O	O	O
-étudié	étudié	NOUN	O	O	O
+tout	tout	PRON	O	O	O
+étudié	étudier	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-tout	tout	DET	O	O	O
-sondé	sondé	NOUN	O	O	O
+tout	tout	ADJ	O	O	O
+sondé	sonder	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 sait	savoir	VERB	O	O	O
 les	le	DET	O	O	O
@@ -1338,6 +1347,7 @@ et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 effets	effet	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 saura	savoir	VERB	O	O	O
 ceci	ceci	PRON	O	O	O
@@ -1354,7 +1364,7 @@ pas	pas	ADV	O	O	O
 l'	le	PRON	O	O	O
 abîmer	abîmer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-pénètre	pénètr	ADJ	O	O	O
+pénètre	pénétrer	VERB	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 cuve	cuve	NOUN	O	O	O
@@ -1376,6 +1386,7 @@ appuie	appuyer	VERB	O	O	O
 aux	à	ADP	O	O	O
 bords	bord	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 les	le	DET	O	O	O
 jambes	jambe	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -1435,7 +1446,7 @@ derrière	derrière	ADP	O	O	O
 ses	son	DET	O	O	O
 lunettes	lunette	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-regardent	regarder	ADV	O	O	O
+regardent	regarder	VERB	O	O	O
 fixement	fixement	ADV	O	O	O
 la	le	DET	O	O	O
 surface	surface	NOUN	O	O	O
@@ -1447,9 +1458,11 @@ eau	eau	NOUN	O	O	O
 Ils	il	PRON	O	O	O
 cherchent	chercher	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 pas	pas	ADV	O	O	O
 de	de	DET	O	O	O
 solution	solution	NOUN	O	O	O
+
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -1466,24 +1479,24 @@ secret	secret	NOUN	O	O	O
 
 Un	un	DET	O	O	O
 grand	grand	ADJ	O	O	O
-cri	cri	AUX	O	O	O
+cri	cri	NOUN	O	O	O
 s'	se	PRON	O	O	O
 échappe	échapper	VERB	O	O	O
 de	de	ADP	O	O	O
 sa	son	DET	O	O	O
 bouche	bouche	NOUN	O	O	O
-violette	violette	NOUN	O	O	O
+violette	violet	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 sa	son	DET	O	O	O
 main	main	NOUN	O	O	O
 s'	se	PRON	O	O	O
 entr'	entr'	VERB	O	O	O
-ouvre	ouvre	NOUN	O	O	O
+ouvre	ouvrir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
 torse	torse	NOUN	O	O	O
-tombe	tomb	ADJ	O	O	O
+tombe	tombe	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Au	au	ADP	O	O	O
@@ -1508,7 +1521,7 @@ jaunâtre	jaunâtre	ADJ	O	O	O
 Deux	deux	NUM	O	O	O
 mois	mois	NOUN	O	O	O
 s'	se	PRON	O	O	O
-écoulent	écouler	ADV	O	O	O
+écoulent	écouler	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
@@ -1523,7 +1536,7 @@ le	le	DET	O	O	O
 treizième	treizième	ADJ	O	O	O
 volume	volume	NOUN	O	O	O
 du	de	ADP	O	O	O
-fameux	fameu	NOUN	O	O	O
+fameux	fameux	ADJ	O	O	O
 ouvrage	ouvrage	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 Traité	traité	NOUN	O	O	O
@@ -1540,8 +1553,8 @@ Friedrich	friedrich	PROPN	O	O	O
 Rumdoff	rumdoff	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
-célèbre	célèbre	NOUN	O	O	O
-adversaire	adversair	ADJ	O	O	O
+célèbre	célèbre	ADJ	O	O	O
+adversaire	adversaire	NOUN	O	O	O
 de	de	ADP	O	O	O
 Cornélius	cornélius	PROPN	O	O	O
 Schweiger	schweiger	PROPN	O	O	O
@@ -1580,6 +1593,7 @@ en	en	ADP	O	O	O
 un	un	DET	O	O	O
 seul	seul	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
@@ -1595,6 +1609,7 @@ allemande	allemand	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 )	)	PUNCT	O	O	O
+
 Donc	donc	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
@@ -1656,14 +1671,14 @@ Hartmann	hartmann	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 Friedrich	friedrich	PROPN	O	O	O
 Rumdoff	rumdoff	PROPN	O	O	O
-pénètrent	pénétrer	ADV	O	O	O
+pénètrent	pénétrer	VERB	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 laboratoire	laboratoire	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Jamais	jamais	ADV	O	O	O
-profane	profane	VERB	O	O	O
+profane	profane	ADJ	O	O	O
 n'	ne	ADV	O	O	O
 y	y	PRON	O	O	O
 était	être	AUX	O	O	O
@@ -1700,7 +1715,7 @@ la	le	DET	O	O	O
 cuve	cuve	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
-splendide	splendide	VERB	O	O	O
+splendide	splendide	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Tout	tout	ADJ	O	O	O
@@ -1718,9 +1733,9 @@ bleues	bleu	ADJ	O	O	O
 Ce	ce	PRON	O	O	O
 n'	ne	ADV	O	O	O
 étaient	être	AUX	O	O	O
-que	que	SCONJ	O	O	O
-cristaux	cristal	ADJ	O	O	O
-éblouissants	éblouissant	NOUN	O	O	O
+que	que	ADV	O	O	O
+cristaux	cristal	NOUN	O	O	O
+éblouissants	éblouissant	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 A	à	ADP	O	O	O
@@ -1730,17 +1745,17 @@ un	un	PRON	O	O	O
 accrochées	accrocher	VERB	O	O	O
 les	le	DET	O	O	O
 lunettes	lunette	NOUN	O	O	O
-rondes	ronde	NOUN	O	O	O
+rondes	rond	ADJ	O	O	O
 à	à	ADP	O	O	O
 branches	branche	NOUN	O	O	O
 d'	de	ADP	O	O	O
 or	or	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Friedrich	friedrich	NOUN	O	O	O
-Rum	rum	ADJ	O	O	O
--	-	PUNCT	O	O	O
-doff	doff	NOUN	O	O	O
+Friedrich	friedrich	PROPN	O	O	O
+Rum	rum	PROPN	O	O	O
+-	-	PROPN	O	O	O
+doff	doff	PROPN	O	O	O
 ressemble	ressembler	VERB	O	O	O
 à	à	ADP	O	O	O
 un	un	DET	O	O	O
@@ -1751,7 +1766,7 @@ interrogation	interrogation	NOUN	O	O	O
 
 La	le	DET	O	O	O
 tête	tête	NOUN	O	O	O
-penchée	pencher	ADJ	O	O	O
+penchée	pencher	VERB	O	O	O
 sur	sur	ADP	O	O	O
 la	le	DET	O	O	O
 poitrine	poitrine	NOUN	O	O	O
@@ -1761,15 +1776,16 @@ un	un	DET	O	O	O
 geste	geste	NOUN	O	O	O
 il	il	PRON	O	O	O
 renvoie	renvoyer	VERB	O	O	O
-mann	mann	ADJ	O	O	O
+mann	mann	PROPN	O	O	O
 et	et	CCONJ	O	O	O
-rêve	rêve	NOUN	O	O	O
+rêve	rêve	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Samuel	samuel	PROPN	O	O	O
-Hart	hart	NOUN	O	O	O
+Hart	hart	PROPN	O	O	O
+
 -	-	PUNCT	O	O	O
-SPACE	O	O	O
+
 Il	il	PRON	O	O	O
 est	être	AUX	O	O	O
 illustre	illustre	ADJ	O	O	O
@@ -1800,7 +1816,7 @@ un	un	PRON	O	O	O
 des	de	ADP	O	O	O
 cristaux	cristal	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-le	le	DET	O	O	O
+le	le	PRON	O	O	O
 soumet	soumettre	VERB	O	O	O
 à	à	ADP	O	O	O
 mille	mille	NUM	O	O	O
@@ -1813,16 +1829,16 @@ perdue	perdre	VERB	O	O	O
 
 Il	il	PRON	O	O	O
 feuillette	feuilleter	VERB	O	O	O
-des	de	ADP	O	O	O
-in	in	PROPN	O	O	O
--	-	PUNCT	O	O	O
-folio	folio	PROPN	O	O	O
+des	un	DET	O	O	O
+in	in	NOUN	O	O	O
+-	-	NOUN	O	O	O
+folio	folio	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-travaille	travaille	NOUN	O	O	O
+travaille	travailler	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-cherche	cherche	NOUN	O	O	O
+cherche	cherche	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-cherche	cherche	NOUN	O	O	O
+cherche	cherche	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Enfin	enfin	ADV	O	O	O
@@ -1844,7 +1860,7 @@ Rumdoff	rumdoff	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 saisit	saisir	VERB	O	O	O
-tout	tout	ADV	O	O	O
+tout	tout	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 peu	peu	ADV	O	O	O
@@ -1856,12 +1872,13 @@ Schweiger	schweiger	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 Isaac	isaac	PROPN	O	O	O
 Gombrich	gombrich	PROPN	O	O	O
-sont	être	AUX	O	O	O
+sont	être	VERB	O	O	O
 là	là	ADV	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 cuve	cuve	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 l'	le	DET	O	O	O
 eau	eau	NOUN	O	O	O
 s'	se	PRON	O	O	O
@@ -1875,8 +1892,8 @@ se	se	PRON	O	O	O
 sont	être	AUX	O	O	O
 transformés	transformer	VERB	O	O	O
 en	en	ADP	O	O	O
-cristaux	cristal	ADJ	O	O	O
-étranges	étrange	NOUN	O	O	O
+cristaux	cristal	NOUN	O	O	O
+étranges	étrange	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Comment	comment	ADV	O	O	O
@@ -1885,16 +1902,16 @@ deux	deux	NUM	O	O	O
 savants	savant	NOUN	O	O	O
 se	se	PRON	O	O	O
 sont	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ils	il	PRON	O	O	O
-liquéfiés	liquéfier	ADJ	O	O	O
+liquéfiés	liquéfier	VERB	O	O	O
 et	et	CCONJ	O	O	O
 cristallisés	cristalliser	VERB	O	O	O
 ?	?	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
-l'	le	DET	O	O	O
-ignore	ignore	NOUN	O	O	O
+l'	le	PRON	O	O	O
+ignore	ignorer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 lui	luire	PRON	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1940,7 +1957,7 @@ a	avoir	AUX	O	O	O
 trouvé	trouver	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-Soit	soit	ADV	O	O	O
+Soit	être	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -1951,20 +1968,21 @@ grande	grand	ADJ	O	O	O
 oeuvre	oeuvre	NOUN	O	O	O
 par	par	ADP	O	O	O
 une	un	DET	O	O	O
-autre	autre	ADJ	O	O	O
+autre	autre	PRON	O	O	O
 plus	plus	ADV	O	O	O
-sublime	sublime	NOUN	O	O	O
+sublime	sublime	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 reconstituera	reconstituer	VERB	O	O	O
 Cornélius	cornélius	PROPN	O	O	O
-Schweiger	schweiger	VERB	O	O	O
+Schweiger	schweiger	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 Isaac	isaac	PROPN	O	O	O
 Gombrich	gombrich	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-leur	son	DET	O	O	O
+leur	son	PRON	O	O	O
 demandera	demander	VERB	O	O	O
 la	le	DET	O	O	O
 formule	formule	NOUN	O	O	O
@@ -1973,7 +1991,7 @@ dissolvant	dissolvant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Pendant	pendant	ADP	O	O	O
-neuf	neuf	ADJ	O	O	O
+neuf	neuf	NUM	O	O	O
 mois	mois	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 depuis	depuis	ADP	O	O	O
@@ -2016,7 +2034,7 @@ Noël	noël	PROPN	O	O	O
 quand	quand	SCONJ	O	O	O
 Samuel	samuel	PROPN	O	O	O
 Hartmann	hartmann	PROPN	O	O	O
-revint	revenir	PROPN	O	O	O
+revint	revenir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
 oeuvre	oeuvre	NOUN	O	O	O
@@ -2044,6 +2062,7 @@ dans	dans	ADP	O	O	O
 une	un	DET	O	O	O
 équation	équation	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 mal	mal	ADV	O	O	O
@@ -2056,18 +2075,18 @@ n'	ne	ADV	O	O	O
 avait	avoir	AUX	O	O	O
 pu	pouvoir	VERB	O	O	O
 saisir	saisir	VERB	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 l'	le	DET	O	O	O
-âme	âme	NOUN	O	O	O
-négative	négatif	ADJ	O	O	O
+âme	âme	NOUN	B-NOV	O	O
+négative	négatif	ADJ	I-NOV	O	O
 des	de	ADP	O	O	O
 deux	deux	NUM	O	O	O
 savants	savant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 L'	le	DET	O	O	O
-âme	âme	NOUN	O	O	O
-positive	positif	ADJ	O	O	O
+âme	âme	NOUN	B-NOV	O	O
+positive	positif	ADJ	I-NOV	O	O
 lui	luire	PRON	O	O	O
 était	être	AUX	O	O	O
 échappée	échapper	VERB	O	O	O

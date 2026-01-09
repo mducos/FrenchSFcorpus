@@ -7,7 +7,7 @@ ne	ne	ADV	O	O	O
 sont	être	AUX	O	O	O
 que	que	ADV	O	O	O
 trop	trop	ADV	O	O	O
-confirmés	confirmer	ADJ	O	O	O
+confirmés	confirmer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Voici	voici	VERB	O	O	O
@@ -19,7 +19,7 @@ correspondant	correspondant	NOUN	O	O	O
 spécial	spécial	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 seul	seul	ADJ	O	O	O
-survivant	survivre	VERB	O	O	O
+survivant	survivant	NOUN	O	O	O
 du	de	ADP	O	O	O
 désastre	désastre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -30,7 +30,7 @@ tel	tel	ADJ	O	O	O
 quel	quel	ADJ	O	O	O
 son	son	DET	O	O	O
 récit	récit	NOUN	O	O	O
-télégraphié	télégraphier	ADJ	O	O	O
+télégraphié	télégraphier	VERB	O	O	O
 au	au	ADP	O	O	O
 vol	vol	NOUN	O	O	O
 :	:	PUNCT	O	O	O
@@ -42,7 +42,8 @@ novembre	novembre	NOUN	O	O	O
 7	7	NUM	O	O	O
 p.	p.	NOUN	O	O	O
 m.	m.	NOUN	O	O	O
-Quelle	quell	ADJ	O	O	O
+
+Quelle	quel	DET	O	O	O
 journée	journée	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -54,7 +55,7 @@ fin	fin	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
-procédons	procédon	ADJ	O	O	O
+procédons	procéder	VERB	O	O	O
 par	par	ADP	O	O	O
 ordre	ordre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -63,8 +64,8 @@ le	le	DET	O	O	O
 début	début	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Midi	midi	VERB	O	O	O
-juste	juste	ADV	O	O	O
+Midi	midi	PROPN	O	O	O
+juste	juste	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -75,6 +76,7 @@ est	être	AUX	O	O	O
 son	son	DET	O	O	O
 poste	poste	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 nous	nous	PRON	O	O	O
 nous	nous	PRON	O	O	O
 installons	installer	VERB	O	O	O
@@ -88,24 +90,25 @@ rédaction	rédaction	NOUN	O	O	O
 Un	un	DET	O	O	O
 coup	coup	NOUN	O	O	O
 de	de	ADP	O	O	O
-sifflet	sifflet	PROPN	O	O	O
+sifflet	sifflet	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 la	le	DET	O	O	O
-locomotive	locomotif	ADJ	O	O	O
+locomotive	locomotive	NOUN	O	O	O
 s'	se	PRON	O	O	O
-ébranle	ébranle	NOUN	O	O	O
+ébranle	ébranler	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 le	le	DET	O	O	O
 train	train	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 journal	journal	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 rail	rail	NOUN	O	O	O
--	-	PUNCT	O	O	O
-newspaper	newspaper	VERB	O	O	O
-»	»	PROPN	O	O	O
+-	-	NOUN	O	O	O
+newspaper	newspaper	NOUN	O	O	O
+»	»	PUNCT	O	O	O
 se	se	PRON	O	O	O
 met	mettre	VERB	O	O	O
 en	en	ADP	O	O	O
@@ -121,6 +124,7 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 gare	gare	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 on	on	PRON	O	O	O
 file	file	VERB	O	O	O
 plus	plus	ADV	O	O	O
@@ -131,36 +135,37 @@ du	de	ADP	O	O	O
 tunnel	tunnel	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-nel	nel	ADJ	O	O	O
+nel	nel	PROPN	O	O	O
 creusé	creuser	VERB	O	O	O
 sous	sou	ADP	O	O	O
 les	le	DET	O	O	O
 faubourg	faubourg	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 enfin	enfin	ADV	O	O	O
 nous	nous	PRON	O	O	O
 roulons	rouler	VERB	O	O	O
 en	en	ADP	O	O	O
-pleine	pleine	NOUN	O	O	O
-vitesse	vitesse	VERB	O	O	O
+pleine	plein	ADJ	O	O	O
+vitesse	vitesse	NOUN	O	O	O
 à	à	ADP	O	O	O
-travers	travers	NOUN	O	O	O
-champs	champ	ADV	O	O	O
+travers	traver	ADJ	O	O	O
+champs	champ	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Journée	journée	NOUN	O	O	O
 d'	de	ADP	O	O	O
-hiver	hiver	VERB	O	O	O
+hiver	hiver	NOUN	O	O	O
 splendide	splendide	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
-peu	peu	ADV	O	O	O
+peu	peu	NOUN	O	O	O
 de	de	ADP	O	O	O
 nuée	nuée	NOUN	O	O	O
 noire	noir	ADJ	O	O	O
 seulement	seulement	ADV	O	O	O
-raye	ray	ADJ	O	O	O
+raye	rayer	VERB	O	O	O
 le	le	DET	O	O	O
 ciel	ciel	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -223,20 +228,20 @@ donné	donner	VERB	O	O	O
 par	par	ADP	O	O	O
 le	le	DET	O	O	O
 rédacteur	rédacteur	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 chef	chef	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-Bob	bob	VERB	O	O	O
--	-	PUNCT	O	O	O
+Bob	bob	PROPN	O	O	O
+-	-	PROPN	O	O	O
 Edwards	edwards	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-avisé	avisé	NOUN	O	O	O
-créateur	créateur	ADJ	O	O	O
+avisé	avisé	ADJ	O	O	O
+créateur	créateur	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 Express	express	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Times	times	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -244,16 +249,16 @@ Les	le	DET	O	O	O
 appareils	appareil	NOUN	O	O	O
 typographiques	typographique	ADJ	O	O	O
 sont	être	AUX	O	O	O
-mus	mouvoir	ADV	O	O	O
+mus	mouvoir	VERB	O	O	O
 à	à	ADP	O	O	O
 volonté	volonté	NOUN	O	O	O
 par	par	ADP	O	O	O
 un	un	DET	O	O	O
 engrenage	engrenage	NOUN	O	O	O
 intérieur	intérieur	ADJ	O	O	O
-adjoint	adjoint	ADJ	O	O	O
+adjoint	adjoindre	VERB	O	O	O
 aux	à	ADP	O	O	O
-roues	roue	ADJ	O	O	O
+roues	roue	NOUN	O	O	O
 des	de	ADP	O	O	O
 véhicules	véhicule	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -269,28 +274,28 @@ Edwards	edwards	PROPN	O	O	O
 
 Les	le	DET	O	O	O
 ateliers	atelier	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 wagons	wagon	NOUN	O	O	O
 retentissent	retentir	VERB	O	O	O
 aussitôt	aussitôt	ADV	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
-assourdissant	assourdissant	NOUN	O	O	O
+assourdissant	assourdissant	ADJ	O	O	O
 fracas	fracas	NOUN	O	O	O
 d'	de	ADP	O	O	O
 usine	usine	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 au	au	ADP	O	O	O
 battement	battement	NOUN	O	O	O
-ferraille	ferraill	ADJ	O	O	O
-des	un	DET	O	O	O
+ferraille	ferraille	NOUN	O	O	O
+des	de	ADP	O	O	O
 presses	presse	NOUN	O	O	O
 rotatives	rotatif	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 aux	à	ADP	O	O	O
 grincements	grincement	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-cliquetis	cliqueti	ADJ	O	O	O
+cliquetis	cliquetis	NOUN	O	O	O
 des	de	ADP	O	O	O
 milliers	millier	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -298,7 +303,7 @@ griffes	griffe	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 pattes	patte	NOUN	O	O	O
 d'	de	ADP	O	O	O
-acier	acier	VERB	O	O	O
+acier	acier	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 dévident	dévider	VERB	O	O	O
 le	le	DET	O	O	O
@@ -316,8 +321,8 @@ encrage	encrage	NOUN	O	O	O
 des	de	ADP	O	O	O
 rouleaux	rouleau	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-le	le	DET	O	O	O
-promènent	promènent	NOUN	O	O	O
+le	le	PRON	O	O	O
+promènent	promener	VERB	O	O	O
 par	par	ADP	O	O	O
 les	le	DET	O	O	O
 engins	engin	NOUN	O	O	O
@@ -328,11 +333,11 @@ découper	découper	VERB	O	O	O
 brocher	brocher	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
-plier	plier	PROPN	O	O	O
+plier	plier	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-l'	le	DET	O	O	O
-emmagasinent	emmagasinent	NOUN	O	O	O
+l'	le	PRON	O	O	O
+emmagasinent	emmagasiner	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 enfin	enfin	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -356,29 +361,29 @@ voie	voie	NOUN	O	O	O
 Hurrah	hurrah	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
-tout	tout	DET	O	O	O
+tout	tout	PRON	O	O	O
 va	aller	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-«	«	VERB	O	O	O
+«	«	PUNCT	O	O	O
 Le	le	DET	O	O	O
 train	train	NOUN	O	O	O
-imprime	imprim	ADJ	O	O	O
-luimême	luimêm	ADJ	O	O	O
+imprime	imprimer	VERB	O	O	O
+luimême	luimême	PRON	O	O	O
 !	!	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
 L'	le	DET	O	O	O
 automatisme	automatisme	NOUN	O	O	O
 se	se	PRON	O	O	O
-fait	faire	AUX	O	O	O
+fait	faire	VERB	O	O	O
 publiciste	publicist	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 L'	le	DET	O	O	O
 invention	invention	NOUN	O	O	O
 d'	de	ADP	O	O	O
-Edwards	edward	NOUN	O	O	O
+Edwards	edwards	PROPN	O	O	O
 fonctionne	fonctionner	VERB	O	O	O
 prodigieuse	prodigieux	ADJ	O	O	O
 et	et	CCONJ	O	O	O
@@ -398,7 +403,8 @@ excédents	excédent	NOUN	O	O	O
 de	de	ADP	O	O	O
 force	force	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
-Midi	midi	NOUN	O	O	O
+
+Midi	midi	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 quart	quart	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -407,7 +413,7 @@ quart	quart	NOUN	O	O	O
 Autre	autre	ADJ	O	O	O
 coup	coup	NOUN	O	O	O
 de	de	ADP	O	O	O
-sifflet	sifflet	PRON	O	O	O
+sifflet	sifflet	NOUN	O	O	O
 annonçant	annoncer	VERB	O	O	O
 le	le	DET	O	O	O
 premier	premier	ADJ	O	O	O
@@ -417,7 +423,7 @@ vendeurs	vendeur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 En	en	ADP	O	O	O
-avant	avant	ADP	O	O	O
+avant	avant	NOUN	O	O	O
 du	de	ADP	O	O	O
 train	train	NOUN	O	O	O
 tourne	tourne	VERB	O	O	O
@@ -425,17 +431,16 @@ un	un	DET	O	O	O
 disque	disque	NOUN	O	O	O
 marqué	marquer	VERB	O	O	O
 d'	de	ADP	O	O	O
-énormes	énorme	NOUN	O	O	O
+énormes	énorme	ADJ	O	O	O
 chiffres	chiffre	NOUN	O	O	O
 noirs	noir	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	ADP	O	O	O
+«	«	PUNCT	O	O	O
 Dix	dix	NUM	O	O	O
-mille	mille	PROPN	O	O	O
+mille	mille	PRON	O	O	O
 !	!	PUNCT	O	O	O
-
-»	»	X	O	O	O
+»	»	PUNCT	O	O	O
 avertit	avertir	VERB	O	O	O
 la	le	DET	O	O	O
 vigie	vigie	NOUN	O	O	O
@@ -445,7 +450,7 @@ L'	le	DET	O	O	O
 employé	employé	NOUN	O	O	O
 du	de	ADP	O	O	O
 compteur	compteur	NOUN	O	O	O
-manoeuvre	manoeuvre	NOUN	O	O	O
+manoeuvre	manoeuvre	VERB	O	O	O
 dix	dix	NUM	O	O	O
 fois	fois	NOUN	O	O	O
 le	le	DET	O	O	O
@@ -471,19 +476,20 @@ devant	devant	ADP	O	O	O
 l'	le	DET	O	O	O
 équipe	équipe	NOUN	O	O	O
 de	de	ADP	O	O	O
-«	«	NUM	O	O	O
+«	«	PUNCT	O	O	O
 camelots	camelot	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
 Nous	nous	PRON	O	O	O
 entendons	entendre	VERB	O	O	O
 leurs	leur	DET	O	O	O
 vivats	vivat	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 nous	nous	PRON	O	O	O
-les	le	DET	O	O	O
-voyons	voyon	NOUN	O	O	O
+les	le	PRON	O	O	O
+voyons	voir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 déjà	déjà	ADV	O	O	O
 dans	dans	ADP	O	O	O
@@ -492,20 +498,20 @@ lointain	lointain	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	PRON	O	O	O
 emparant	emparer	VERB	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 liasses	liasse	NOUN	O	O	O
 qu'	que	PRON	O	O	O
 ils	il	PRON	O	O	O
 vont	aller	VERB	O	O	O
 répartir	répartir	VERB	O	O	O
 en	en	ADP	O	O	O
-hâte	hâter	VERB	O	O	O
+hâte	hâte	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 district	district	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Même	même	ADV	O	O	O
+Même	même	ADJ	O	O	O
 jeu	jeu	NOUN	O	O	O
 de	de	ADP	O	O	O
 cinq	cinq	PRON	O	O	O
@@ -513,32 +519,33 @@ en	en	ADP	O	O	O
 cinq	cinq	NUM	O	O	O
 minutes	minute	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 même	même	ADJ	O	O	O
 chute	chute	NOUN	O	O	O
 de	de	ADP	O	O	O
 feuilles	feuille	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
-«	«	PUNCT	O	O	O
-Dix	dix	PROPN	O	O	O
-,	,	PUNCT	O	O	O
-vingt	vingt	PROPN	O	O	O
-,	,	PUNCT	O	O	O
-trente	trent	ADJ	O	O	O
-,	,	PUNCT	O	O	O
-cinquante	cinquante	NUM	O	O	O
-mille	mille	NOUN	O	O	O
-!	!	PUNCT	O	O	O
 
+«	«	PUNCT	O	O	O
+Dix	dix	NUM	O	O	O
+,	,	PUNCT	O	O	O
+vingt	vingt	NUM	O	O	O
+,	,	PUNCT	O	O	O
+trente	trente	NUM	O	O	O
+,	,	PUNCT	O	O	O
+cinquante	cinquante	DET	O	O	O
+mille	mille	PRON	O	O	O
+!	!	PUNCT	O	O	O
 »	»	PUNCT	O	O	O
-hèle	hèl	ADJ	O	O	O
+hèle	héler	VERB	O	O	O
 la	le	DET	O	O	O
 vigie	vigie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
-effréné	effréné	NOUN	O	O	O
-roulement	roulement	ADV	O	O	O
+effréné	effréné	ADJ	O	O	O
+roulement	roulement	NOUN	O	O	O
 des	de	ADP	O	O	O
 rotatives	rotative	NOUN	O	O	O
 poursuit	poursuivre	VERB	O	O	O
@@ -553,7 +560,7 @@ consommation	consommation	NOUN	O	O	O
 miracle	miracle	NOUN	O	O	O
 industriel	industriel	ADJ	O	O	O
 brillamment	brillamment	ADV	O	O	O
-acclamé	acclamer	ADJ	O	O	O
+acclamé	acclamer	VERB	O	O	O
 par	par	ADP	O	O	O
 les	le	DET	O	O	O
 curieux	curieux	ADJ	O	O	O
@@ -584,11 +591,11 @@ entrons	entrer	VERB	O	O	O
 en	en	ADP	O	O	O
 pays	pays	NOUN	O	O	O
 plus	plus	ADV	O	O	O
-perdus	perdu	NOUN	O	O	O
+perdus	perdre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 C'	ce	PRON	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 résumé	résumé	NOUN	O	O	O
@@ -598,7 +605,7 @@ triomphal	triomphal	ADJ	O	O	O
 
 L'	le	DET	O	O	O
 Express	express	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Times	times	PROPN	O	O	O
 affirme	affirmer	VERB	O	O	O
 le	le	DET	O	O	O
@@ -612,11 +619,11 @@ Désormais	désormais	ADV	O	O	O
 le	le	DET	O	O	O
 parcours	parcours	NOUN	O	O	O
 n'	ne	ADV	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 plus	plus	ADV	O	O	O
 une	un	DET	O	O	O
-stéri	stéri	PROPN	O	O	O
--	-	PUNCT	O	O	O
+stéri	stéri	NOUN	O	O	O
+-	-	NOUN	O	O	O
 perte	perte	NOUN	O	O	O
 de	de	ADP	O	O	O
 temps	temps	NOUN	O	O	O
@@ -640,8 +647,8 @@ par	par	ADP	O	O	O
 la	le	DET	O	O	O
 charrue	charrue	NOUN	O	O	O
 typo	typo	ADJ	O	O	O
--	-	PUNCT	O	O	O
-locomotrice	locomotrice	NOUN	O	O	O
+-	-	ADJ	O	O	O
+locomotrice	locomoteur	ADJ	O	O	O
 du	de	ADP	O	O	O
 journalisme	journalisme	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -652,17 +659,16 @@ d'	de	ADP	O	O	O
 apologie	apologie	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-«	«	VERB	O	O	O
+«	«	PUNCT	O	O	O
 Seconde	second	ADJ	O	O	O
 édition	édition	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
 jette	jeter	VERB	O	O	O
 la	le	DET	O	O	O
 voix	voix	NOUN	O	O	O
 d'	de	ADP	O	O	O
-Edwards	edward	NOUN	O	O	O
+Edwards	edwards	PROPN	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 tube	tube	NOUN	O	O	O
@@ -683,10 +689,10 @@ la	le	DET	O	O	O
 dernière	dernier	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 ravissante	ravissant	ADJ	O	O	O
-trouvaille	trouvaill	ADJ	O	O	O
+trouvaille	trouvaille	NOUN	O	O	O
 de	de	ADP	O	O	O
 notre	notre	DET	O	O	O
-glorieux	glorieu	NOUN	O	O	O
+glorieux	glorieux	ADJ	O	O	O
 Édison	édison	PROPN	O	O	O
 :	:	PUNCT	O	O	O
 un	un	DET	O	O	O
@@ -694,9 +700,9 @@ frôlement	frôlement	NOUN	O	O	O
 de	de	ADP	O	O	O
 palettes	palette	NOUN	O	O	O
 de	de	ADP	O	O	O
-métal	métal	PROPN	O	O	O
+métal	métal	NOUN	O	O	O
 le	le	DET	O	O	O
-long	long	NOUN	O	O	O
+long	long	ADV	O	O	O
 des	de	ADP	O	O	O
 fils	fils	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -705,7 +711,7 @@ ligne	ligne	NOUN	O	O	O
 dont	dont	PRON	O	O	O
 l'	le	DET	O	O	O
 Express	express	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Times	times	PROPN	O	O	O
 en	en	ADP	O	O	O
 communication	communication	NOUN	O	O	O
@@ -715,7 +721,7 @@ le	le	DET	O	O	O
 réseau	réseau	NOUN	O	O	O
 du	de	ADP	O	O	O
 téléphonographisme	téléphonographisme	NOUN	O	O	O
-universel	universel	VERB	O	O	O
+universel	universel	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
@@ -727,9 +733,9 @@ sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 bureau	bureau	NOUN	O	O	O
 de	de	ADP	O	O	O
-Rob	rob	NOUN	O	O	O
--	-	PUNCT	O	O	O
-Edwards	edward	NOUN	O	O	O
+Rob	rob	PROPN	O	O	O
+-	-	PROPN	O	O	O
+Edwards	edwards	PROPN	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 par	par	ADP	O	O	O
@@ -748,7 +754,7 @@ jour	jour	NOUN	O	O	O
 
 Ou	ou	CCONJ	O	O	O
 enlève	enlever	VERB	O	O	O
-prestissimo	prestissimo	VERB	O	O	O
+prestissimo	prestissimo	NOUN	O	O	O
 cette	ce	DET	O	O	O
 corvée	corvée	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -758,22 +764,22 @@ d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 ligne	ligne	NOUN	O	O	O
 immédiatement	immédiatement	ADV	O	O	O
-«	«	ADP	O	O	O
-pianoty	pianoty	NOUN	O	O	O
--	-	PUNCT	O	O	O
+«	«	PUNCT	O	O	O
+pianoty	pianoty	ADJ	O	O	O
+-	-	ADJ	O	O	O
 pée	pée	NOUN	O	O	O
-»	»	PROPN	O	O	O
+»	»	PUNCT	O	O	O
 par	par	ADP	O	O	O
 les	le	DET	O	O	O
 claviers	clavier	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 compositeurs	compositeur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 dernières	dernier	ADJ	O	O	O
-nouvelles	nouveau	ADJ	O	O	O
+nouvelles	nouvelle	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 envahissent	envahir	VERB	O	O	O
 les	le	DET	O	O	O
@@ -786,7 +792,7 @@ des	de	ADP	O	O	O
 presses	presse	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 les	le	DET	O	O	O
-«	«	NUM	O	O	O
+«	«	PUNCT	O	O	O
 blocs	bloc	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 de	de	ADP	O	O	O
@@ -798,27 +804,27 @@ enfournent	enfourner	VERB	O	O	O
 dans	dans	ADP	O	O	O
 un	un	DET	O	O	O
 creuset	creuset	NOUN	O	O	O
-surmontant	surmontant	ADJ	O	O	O
+surmontant	surmonter	VERB	O	O	O
 le	le	DET	O	O	O
 brasier	brasier	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-locomotive	locomotif	ADJ	O	O	O
+locomotive	locomotive	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-passent	passer	ADV	O	O	O
-liquéfiés	liquéfier	ADJ	O	O	O
+passent	passer	VERB	O	O	O
+liquéfiés	liquéfier	VERB	O	O	O
 par	par	ADP	O	O	O
 un	un	DET	O	O	O
 moule	moule	NOUN	O	O	O
 qui	qui	PRON	O	O	O
-les	le	DET	O	O	O
-divise	divise	NOUN	O	O	O
+les	le	PRON	O	O	O
+divise	diviser	VERB	O	O	O
 en	en	ADP	O	O	O
 caractères	caractère	NOUN	O	O	O
-neufs	neuf	PROPN	O	O	O
+neufs	neuf	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Merveille	merveille	PROPN	O	O	O
+Merveille	merveille	NOUN	O	O	O
 de	de	ADP	O	O	O
 hâte	hâte	NOUN	O	O	O
 à	à	ADP	O	O	O
@@ -828,9 +834,9 @@ prix	prix	NOUN	O	O	O
 
 la	le	DET	O	O	O
 Crampton	crampton	PROPN	O	O	O
-retrempe	retrempe	X	O	O	O
+retrempe	retrempe	VERB	O	O	O
 elle	lui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 même	même	ADV	O	O	O
 ces	ce	DET	O	O	O
 empreintes	empreinte	NOUN	O	O	O
@@ -849,14 +855,14 @@ papier	papier	NOUN	O	O	O
 
 Ce	ce	PRON	O	O	O
 n'	ne	ADV	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 pas	pas	ADV	O	O	O
 qu'	que	SCONJ	O	O	O
 on	on	PRON	O	O	O
 soit	être	AUX	O	O	O
 ladite	ledit	DET	O	O	O
 histoire	histoire	NOUN	O	O	O
-mérite	mérite	NOUN	O	O	O
+mérite	mérite	VERB	O	O	O
 un	un	DET	O	O	O
 pareil	pareil	ADJ	O	O	O
 luxe	luxe	NOUN	O	O	O
@@ -867,10 +873,10 @@ publicité	publicité	NOUN	O	O	O
 Vraiment	vraiment	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
-poli	polir	VERB	O	O	O
--	-	PUNCT	O	O	O
+poli	poli	NOUN	O	O	O
+-	-	NOUN	O	O	O
 tiquage	tiquage	NOUN	O	O	O
-courant	courir	VERB	O	O	O
+courant	courant	ADJ	O	O	O
 s'	se	PRON	O	O	O
 attarde	attarder	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -880,53 +886,54 @@ dont	dont	PRON	O	O	O
 ne	ne	ADV	O	O	O
 s'	se	PRON	O	O	O
 amuse	amuser	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 une	un	DET	O	O	O
 très	très	ADV	O	O	O
 jeune	jeune	ADJ	O	O	O
 badauderie	badauderie	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 et	et	CCONJ	O	O	O
 prétendu	prétendre	ADJ	O	O	O
 mouvement	mouvement	NOUN	O	O	O
 social	social	ADJ	O	O	O
-ressasse	ressass	ADJ	O	O	O
+ressasse	ressasser	VERB	O	O	O
 que	que	SCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 régulièrement	régulièrement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
 indigence	indigence	NOUN	O	O	O
-frissonne	frissonn	ADJ	O	O	O
+frissonne	frissonner	VERB	O	O	O
 et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
 or	or	NOUN	O	O	O
 s'	se	PRON	O	O	O
-amuse	amuse	NOUN	O	O	O
+amuse	amuser	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-De	de	ADP	O	O	O
+De	de	DET	O	O	O
 telles	tel	ADJ	O	O	O
 rengaines	rengaine	NOUN	O	O	O
 s'	se	PRON	O	O	O
 omettraient	omettre	VERB	O	O	O
 sans	sans	ADP	O	O	O
-inconvénient	inconvénient	ADV	O	O	O
+inconvénient	inconvénient	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 n'	ne	ADV	O	O	O
 était	être	AUX	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 leur	son	DET	O	O	O
 universalité	universalité	NOUN	O	O	O
 d'	de	ADP	O	O	O
 édifica	édifica	NOUN	O	O	O
 -	-	PUNCT	O	O	O
-fournit	fournit	ADJ	O	O	O
+fournit	fournir	VERB	O	O	O
 aux	à	ADP	O	O	O
 sociétés	société	NOUN	O	O	O
 un	un	DET	O	O	O
-heureux	heureux	NOUN	O	O	O
-semblant	sembler	VERB	O	O	O
+heureux	heureux	ADJ	O	O	O
+semblant	semblant	NOUN	O	O	O
 d'	de	ADP	O	O	O
 intérêts	intérêt	NOUN	O	O	O
 collectifs	collectif	ADJ	O	O	O
@@ -934,8 +941,8 @@ collectifs	collectif	ADJ	O	O	O
 
 Aussi	aussi	ADV	O	O	O
 n'	ne	ADV	O	O	O
-est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+est	être	VERB	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 plus	plus	ADV	O	O	O
 que	que	SCONJ	O	O	O
@@ -949,7 +956,7 @@ gazettisme	gazettisme	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 ne	ne	ADV	O	O	O
 goûter	goûter	VERB	O	O	O
-guère	guère	NOUN	O	O	O
+guère	guère	ADV	O	O	O
 ces	ce	DET	O	O	O
 notations	notation	NOUN	O	O	O
 d'	de	ADP	O	O	O
@@ -971,13 +978,13 @@ Jack	jack	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 pein	pein	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 turleureuses	turleureuse	NOUN	O	O	O
 prouesses	prouesse	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-aveuglant	aveuglant	NOUN	O	O	O
-coloriste	colorist	ADJ	O	O	O
+aveuglant	aveuglant	ADJ	O	O	O
+coloriste	coloriste	NOUN	O	O	O
 X	x	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
@@ -987,37 +994,37 @@ et	et	CCONJ	O	O	O
 diamants	diamant	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-jolie	jolie	NOUN	O	O	O
+jolie	joli	ADJ	O	O	O
 petite	petit	ADJ	O	O	O
-danseuse	danseur	PROPN	O	O	O
-Z	z	ADV	O	O	O
+danseuse	danseur	NOUN	O	O	O
+Z	z	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
-etc.	etc.	ADV	O	O	O
+etc.	etc.	X	O	O	O
 ,	,	PUNCT	O	O	O
-etc.	etc.	ADV	O	O	O
+etc.	etc.	NUM	O	O	O
 ,	,	PUNCT	O	O	O
 autant	autant	ADV	O	O	O
 de	de	ADP	O	O	O
 turpitudes	turpitude	NOUN	O	O	O
 qu'	que	PRON	O	O	O
-Edwards	edwards	DET	O	O	O
+Edwards	edwards	PROPN	O	O	O
 reproduit	reproduire	VERB	O	O	O
 avec	avec	ADP	O	O	O
 une	un	DET	O	O	O
 gravité	gravité	NOUN	O	O	O
-toute	tout	ADJ	O	O	O
+toute	toute	ADV	O	O	O
 commerciale	commercial	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 nous	nous	PRON	O	O	O
 gribouillons	gribouiller	VERB	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 bout	bout	NOUN	O	O	O
 de	de	ADP	O	O	O
-plume	plum	ADJ	O	O	O
-distraite	distraire	VERB	O	O	O
+plume	plume	NOUN	O	O	O
+distraite	distrait	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
 coin	coin	NOUN	O	O	O
@@ -1025,7 +1032,7 @@ de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 oeil	oeil	NOUN	O	O	O
 égaré	égarer	VERB	O	O	O
-dehors	dehors	ADP	O	O	O
+dehors	dehors	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Du	de	ADP	O	O	O
@@ -1037,7 +1044,7 @@ s'	se	PRON	O	O	O
 attriste	attrister	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 entièrement	entièrement	ADV	O	O	O
-gagné	gagner	ADJ	O	O	O
+gagné	gagner	VERB	O	O	O
 par	par	ADP	O	O	O
 la	le	DET	O	O	O
 nuée	nuée	NOUN	O	O	O
@@ -1048,17 +1055,20 @@ tout	tout	ADV	O	O	O
 l'	le	DET	O	O	O
 heure	heure	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 couve	couver	VERB	O	O	O
 une	un	DET	O	O	O
 tempête	tempête	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 quelques	quelque	DET	O	O	O
 flocons	flocon	NOUN	O	O	O
 de	de	ADP	O	O	O
 neige	neige	NOUN	O	O	O
-papillonnent	papillonner	ADV	O	O	O
+papillonnent	papillonner	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 on	on	PRON	O	O	O
 est	être	AUX	O	O	O
 serré	serrer	VERB	O	O	O
@@ -1066,6 +1076,7 @@ d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 angoisse	angoisse	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 toujours	toujours	ADV	O	O	O
 plus	plus	ADV	O	O	O
 rapide	rapide	ADJ	O	O	O
@@ -1079,7 +1090,7 @@ d'	de	ADP	O	O	O
 aller	aller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 semble	sembler	VERB	O	O	O
-fuir	fuir	NUM	O	O	O
+fuir	fuir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 lorsqu'	lorsque	SCONJ	O	O	O
 un	un	DET	O	O	O
@@ -1087,12 +1098,13 @@ notable	notable	ADJ	O	O	O
 incident	incident	NOUN	O	O	O
 surgit	surgir	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 Des	un	DET	O	O	O
 nuées	nuée	NOUN	O	O	O
 d'	de	ADP	O	O	O
-or	or	CCONJ	O	O	O
-rouge	rouge	NOUN	O	O	O
-couvrent	couvrir	ADV	O	O	O
+or	or	NOUN	O	O	O
+rouge	rouge	ADJ	O	O	O
+couvrent	couvrir	VERB	O	O	O
 tout	tout	ADJ	O	O	O
 l'	le	DET	O	O	O
 ouest	ouest	NOUN	O	O	O
@@ -1100,23 +1112,22 @@ ouest	ouest	NOUN	O	O	O
 
 Il	il	PRON	O	O	O
 flambe	flamber	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 lieues	lieue	NOUN	O	O	O
 de	de	ADP	O	O	O
 forêts	forêt	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Aux	à	ADP	O	O	O
 estampes	estampe	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
 vocifère	vociférer	VERB	O	O	O
 le	le	DET	O	O	O
 tube	tube	NOUN	O	O	O
 d'	de	ADP	O	O	O
-Edwards	edward	NOUN	O	O	O
+Edwards	edwards	PROPN	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 wagon	wagon	NOUN	O	O	O
@@ -1129,8 +1140,8 @@ les	le	DET	O	O	O
 croquis	croquis	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Eifarémeut	eifarémeut	VERB	O	O	O
-Edwards	edward	ADJ	O	O	O
+Eifarémeut	eifarémeut	PROPN	O	O	O
+Edwards	edwards	PROPN	O	O	O
 nous	nous	PRON	O	O	O
 dicte	dicter	VERB	O	O	O
 aussi	aussi	ADV	O	O	O
@@ -1139,30 +1150,30 @@ entêtes	entête	NOUN	O	O	O
 à	à	ADP	O	O	O
 sensation	sensation	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 suites	suite	NOUN	O	O	O
 de	de	ADP	O	O	O
-haletants	haletant	NOUN	O	O	O
-télégrammes	télégramme	ADJ	O	O	O
+haletants	haletant	ADJ	O	O	O
+télégrammes	télégramme	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 Blackhumbugland	blackhumbugland	PROPN	O	O	O
 en	en	ADP	O	O	O
 feu	feu	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Désastre	désastre	PROPN	O	O	O
+Désastre	désastre	NOUN	O	O	O
 énorme	énorme	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-flamboiement	flamboiement	ADV	O	O	O
+flamboiement	flamboiement	NOUN	O	O	O
 général	général	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Villages	village	NOUN	O	O	O
-calcinés	calciner	ADJ	O	O	O
+calcinés	calciner	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -1171,7 +1182,7 @@ Fuite	fuite	NOUN	O	O	O
 des	de	ADP	O	O	O
 bêtes	bête	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-gens	gen	ADJ	O	O	O
+gens	gens	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 Terrible	terrible	ADJ	O	O	O
@@ -1184,7 +1195,7 @@ reptiles	reptile	NOUN	O	O	O
 
 —	—	PUNCT	O	O	O
 Tableaux	tableau	NOUN	O	O	O
-navrants	navrant	NOUN	O	O	O
+navrants	navrant	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 (	(	PUNCT	O	O	O
@@ -1207,7 +1218,8 @@ autres	autre	ADJ	O	O	O
 éditions	édition	NOUN	O	O	O
 )	)	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
-»	»	X	O	O	O
+
+»	»	PUNCT	O	O	O
 Nous	nous	PRON	O	O	O
 bâclons	bâcler	VERB	O	O	O
 les	le	DET	O	O	O
@@ -1240,23 +1252,23 @@ frémir	frémir	VERB	O	O	O
 d'	de	ADP	O	O	O
 une	un	DET	O	O	O
 terreur	terreur	NOUN	O	O	O
-illustrée	illustré	ADJ	O	O	O
+illustrée	illustrer	VERB	O	O	O
 et	et	CCONJ	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 à	à	ADP	O	O	O
 suivre	suivre	VERB	O	O	O
 .	.	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
 Ce	ce	PRON	O	O	O
 qui	qui	PRON	O	O	O
 fait	faire	VERB	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
 fil	fil	NOUN	O	O	O
-continu	continu	NOUN	O	O	O
+continu	continu	ADJ	O	O	O
 nous	nous	PRON	O	O	O
-crible	cribl	ADJ	O	O	O
+crible	crible	VERB	O	O	O
 de	de	ADP	O	O	O
 dépêches	dépêche	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -1265,7 +1277,7 @@ Les	le	DET	O	O	O
 commandes	commande	NOUN	O	O	O
 ruissellent	ruisseler	VERB	O	O	O
 :	:	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Des	un	DET	O	O	O
 détails	détail	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1273,13 +1285,12 @@ encore	encore	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 encore	encore	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
-»	»	PROPN	O	O	O
+»	»	PUNCT	O	O	O
 insiste	insister	VERB	O	O	O
 la	le	DET	O	O	O
 voix	voix	NOUN	O	O	O
 au	au	ADP	O	O	O
-gros	gros	NOUN	O	O	O
+gros	gros	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Puis	pouvoir	CCONJ	O	O	O
@@ -1289,14 +1300,14 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 voie	voie	NOUN	O	O	O
 nous	nous	PRON	O	O	O
-rapproche	rapproche	NOUN	O	O	O
+rapproche	rapprocher	VERB	O	O	O
 du	de	ADP	O	O	O
 sinistre	sinistre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
-distingue	distingue	NOUN	O	O	O
-des	de	ADP	O	O	O
+distingue	distinguer	VERB	O	O	O
+des	un	DET	O	O	O
 flammes	flamme	NOUN	O	O	O
 parmi	parmi	ADP	O	O	O
 la	le	DET	O	O	O
@@ -1308,13 +1319,13 @@ drue	dru	ADJ	O	O	O
 Les	le	DET	O	O	O
 communiqués	communiqué	NOUN	O	O	O
 d'	de	ADP	O	O	O
-Edwards	edwards	PRON	O	O	O
-acquièrent	acquérir	ADV	O	O	O
+Edwards	edwards	PROPN	O	O	O
+acquièrent	acquérir	VERB	O	O	O
 une	un	DET	O	O	O
 netteté	netteté	NOUN	O	O	O
 locale	local	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-précise	préciser	VERB	O	O	O
+précise	précis	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 officielle	officiel	ADJ	O	O	O
 .	.	PUNCT	O	O	O
@@ -1326,14 +1337,14 @@ plus	plus	ADV	O	O	O
 en	en	ADP	O	O	O
 plus	plus	ADV	O	O	O
 saisissants	saisissant	ADJ	O	O	O
-reportages	reportage	ADJ	O	O	O
+reportages	reportage	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-«	«	NOUN	O	O	O
-Infâme	infâme	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Infâme	infâme	ADJ	O	O	O
 attentat	attentat	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-développons	développon	NOUN	O	O	O
--	-	PUNCT	O	O	O
+développons	développer	VERB	O	O	O
+-	-	PRON	O	O	O
 nous	nous	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1344,10 +1355,10 @@ incendiaires	incendiaire	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Bande	bande	PROPN	O	O	O
+Bande	bande	NOUN	O	O	O
 de	de	ADP	O	O	O
-dyna	dyna	NOUN	O	O	O
--	-	PUNCT	O	O	O
+dyna	dyna	PROPN	O	O	O
+-	-	PRON	O	O	O
 mistes	miste	NOUN	O	O	O
 conduite	conduire	VERB	O	O	O
 par	par	ADP	O	O	O
@@ -1368,7 +1379,8 @@ qui	qui	PRON	O	O	O
 suit	suivre	VERB	O	O	O
 )	)	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
-»	»	NOUN	O	O	O
+»	»	PUNCT	O	O	O
+
 L'	le	DET	O	O	O
 appareil	appareil	NOUN	O	O	O
 d'	de	ADP	O	O	O
@@ -1378,7 +1390,7 @@ en	en	ADP	O	O	O
 effet	effet	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
-livre	livre	NOUN	O	O	O
+livre	livre	VERB	O	O	O
 sans	sans	ADP	O	O	O
 retard	retard	NOUN	O	O	O
 la	le	DET	O	O	O
@@ -1387,20 +1399,20 @@ des	de	ADP	O	O	O
 chauffeurs	chauffeur	NOUN	O	O	O
 avec	avec	ADP	O	O	O
 des	un	DET	O	O	O
-à	à	NOUN	O	O	O
--	-	PUNCT	O	O	O
+à	à	ADP	O	O	O
+-	-	NUM	O	O	O
 peu	peu	ADV	O	O	O
--	-	PUNCT	O	O	O
+-	-	ADV	O	O	O
 près	près	ADV	O	O	O
 de	de	ADP	O	O	O
 signalements	signalement	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Edwards	edward	NOUN	O	O	O
+Edwards	edwards	PROPN	O	O	O
 compulse	compulser	VERB	O	O	O
 le	le	DET	O	O	O
-«	«	NOUN	O	O	O
-Panthéon	panthéon	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Panthéon	panthéon	NOUN	O	O	O
 photographique	photographique	ADJ	O	O	O
 des	de	ADP	O	O	O
 célébrités	célébrité	NOUN	O	O	O
@@ -1409,75 +1421,77 @@ d'	de	ADP	O	O	O
 où	où	PRON	O	O	O
 nos	notre	DET	O	O	O
 dessinateurs	dessinateur	NOUN	O	O	O
-improvisent	improvisent	ADJ	O	O	O
-d'	de	ADP	O	O	O
-approchantes	approchante	NOUN	O	O	O
-silhouettes	silhouette	ADJ	O	O	O
+improvisent	improviser	VERB	O	O	O
+d'	de	DET	O	O	O
+approchantes	approchant	ADJ	O	O	O
+silhouettes	silhouette	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Une	un	DET	O	O	O
 paire	paire	NOUN	O	O	O
 des	de	ADP	O	O	O
 insurgés	insurgé	NOUN	O	O	O
-affecte	affect	ADJ	O	O	O
+affecte	affecter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 justement	justement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 ressembler	ressembler	VERB	O	O	O
 aux	à	ADP	O	O	O
-éligibles	éligible	NOUN	O	O	O
+éligibles	éligible	ADJ	O	O	O
 Tom	tom	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 Jack	jack	PROPN	O	O	O
 ;	;	PUNCT	O	O	O
+
 un	un	DET	O	O	O
 troisième	troisième	ADJ	O	O	O
-gante	gante	NOUN	O	O	O
+gante	ger	VERB	O	O	O
 le	le	DET	O	O	O
 profil	profil	NOUN	O	O	O
 du	de	ADP	O	O	O
-violent	violent	NOUN	O	O	O
+violent	violent	ADJ	O	O	O
 barbouil	barbouil	NOUN	O	O	O
 -	-	PUNCT	O	O	O
 leur	son	DET	O	O	O
-X	x	NOUN	O	O	O
+X	x	PROPN	O	O	O
 ...	...	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 la	le	DET	O	O	O
 cheffesse	cheffesse	NOUN	O	O	O
-—	—	DET	O	O	O
+—	—	PUNCT	O	O	O
 une	un	DET	O	O	O
-amusante	amusante	NOUN	O	O	O
-détraquée	détraquer	VERB	O	O	O
+amusante	amusant	ADJ	O	O	O
+détraquée	détraqué	NOUN	O	O	O
 du	de	ADP	O	O	O
 meilleur	meilleur	ADJ	O	O	O
 monde	monde	NOUN	O	O	O
-—	—	DET	O	O	O
-incarne	incarne	NOUN	O	O	O
-rieusement	rieusemer	VERB	O	O	O
+—	—	PUNCT	O	O	O
+incarne	incarner	VERB	O	O	O
+rieusement	rieusement	ADV	O	O	O
 la	le	DET	O	O	O
 frimousse	frimousse	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-jolie	jolie	NOUN	O	O	O
-pirouetteuse	pirouetteus	ADJ	O	O	O
-Z	z	ADV	O	O	O
+jolie	joli	ADJ	O	O	O
+pirouetteuse	pirouetteuse	NOUN	O	O	O
+Z	z	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Notre	notre	DET	O	O	O
-deux	deux	NUM	O	O	O
-cent	cent	NUM	O	O	O
+deux	deux	DET	O	O	O
+cent	cent	DET	O	O	O
 trentième	trentième	ADJ	O	O	O
 tirage	tirage	NOUN	O	O	O
 réalise	réaliser	VERB	O	O	O
 ainsi	ainsi	ADV	O	O	O
 le	le	DET	O	O	O
-«	«	NOUN	O	O	O
-nec	nec	ADJ	O	O	O
+«	«	PUNCT	O	O	O
+nec	nec	NOUN	O	O	O
 plus	plus	ADV	O	O	O
-ultra	ultra	ADJ	O	O	O
-»	»	VERB	O	O	O
+ultra	ultra	ADV	O	O	O
+»	»	PUNCT	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 exactitude	exactitude	NOUN	O	O	O
@@ -1487,10 +1501,10 @@ Mais	mais	CCONJ	O	O	O
 les	le	DET	O	O	O
 choses	chose	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-édisonne	édisonne	NOUN	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+édisonne	édisonne	VERB	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 on	on	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 vont	aller	VERB	O	O	O
@@ -1503,7 +1517,7 @@ révolutionnaires	révolutionnaire	NOUN	O	O	O
 
 Le	le	DET	O	O	O
 bruit	bruit	NOUN	O	O	O
-court	court	ADJ	O	O	O
+court	courir	VERB	O	O	O
 qu'	que	SCONJ	O	O	O
 on	on	PRON	O	O	O
 est	être	VERB	O	O	O
@@ -1517,15 +1531,15 @@ se	se	PRON	O	O	O
 cacheraient	cacher	VERB	O	O	O
 à	à	ADP	O	O	O
 New	new	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Puffbristol	puffbristol	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
-Les	le	DET	O	O	O
-dépistera	dépistera	NOUN	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Les	le	PRON	O	O	O
+dépistera	dépister	VERB	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 on	on	PRON	O	O	O
 ?	?	PUNCT	O	O	O
 
@@ -1541,7 +1555,7 @@ On	on	PRON	O	O	O
 offre	offrir	VERB	O	O	O
 un	un	DET	O	O	O
 chiffre	chiffre	NOUN	O	O	O
-incalculé	incalculer	VERB	O	O	O
+incalculé	incalculé	ADJ	O	O	O
 de	de	ADP	O	O	O
 dollars	dollar	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -1560,7 +1574,7 @@ boni	boni	NOUN	O	O	O
 
 L'	le	DET	O	O	O
 Express	express	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Times	times	PROPN	O	O	O
 est	être	AUX	O	O	O
 de	de	ADP	O	O	O
@@ -1575,13 +1589,13 @@ prise	prise	NOUN	O	O	O
 Il	il	PRON	O	O	O
 faut	falloir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-coûte	coûter	VERB	O	O	O
+coûte	coûter	ADV	O	O	O
 que	que	SCONJ	O	O	O
 coûte	coûter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 atteindre	atteindre	VERB	O	O	O
 New	new	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Puff	puff	PROPN	O	O	O
 avant	avant	ADP	O	O	O
 les	le	DET	O	O	O
@@ -1596,22 +1610,21 @@ les	le	DET	O	O	O
 bandits	bandit	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
-inexorable	inexorable	NOUN	O	O	O
+inexorable	inexorable	ADJ	O	O	O
 éclat	éclat	NOUN	O	O	O
 de	de	ADP	O	O	O
 notoriété	notoriété	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	VERB	O	O	O
+«	«	PUNCT	O	O	O
 Plus	plus	ADV	O	O	O
 vite	vite	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
 hurle	hurler	VERB	O	O	O
-Rob	rob	NOUN	O	O	O
--	-	PUNCT	O	O	O
-Edwards	edward	NOUN	O	O	O
+Rob	rob	PROPN	O	O	O
+-	-	PROPN	O	O	O
+Edwards	edwards	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 tout	tout	ADV	O	O	O
 en	en	ADP	O	O	O
@@ -1625,7 +1638,7 @@ correspondance	correspondance	NOUN	O	O	O
 Et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
 Express	express	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Times	times	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 vomissant	vomir	VERB	O	O	O
@@ -1637,14 +1650,14 @@ feuilles	feuille	NOUN	O	O	O
 chaque	chaque	DET	O	O	O
 tournoiement	tournoiement	NOUN	O	O	O
 de	de	ADP	O	O	O
-roues	roue	ADJ	O	O	O
+roues	roue	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	PRON	O	O	O
-envole	envole	NOUN	O	O	O
-surhumain	surhumain	PROPN	O	O	O
+envole	envoler	VERB	O	O	O
+surhumain	surhumain	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 ou	ou	CCONJ	O	O	O
-surmachinal	surmachinal	NOUN	O	O	O
+surmachinal	surmachinal	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 long	long	NOUN	O	O	O
@@ -1666,6 +1679,7 @@ toujours	toujours	ADV	O	O	O
 plus	plus	ADV	O	O	O
 noir	noir	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
 15	15	PRON	O	O	O
@@ -1685,53 +1699,53 @@ les	le	DET	O	O	O
 réprouvés	réprouvé	NOUN	O	O	O
 de	de	ADP	O	O	O
 Puffris	puffris	PROPN	O	O	O
--	-	PUNCT	O	O	O
-tol	tol	NOUN	O	O	O
+-	-	PROPN	O	O	O
+tol	tol	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
 galop	galop	NOUN	O	O	O
 de	de	ADP	O	O	O
 démence	démence	NOUN	O	O	O
-qu'	que	SCONJ	O	O	O
-Edwards	edward	NOUN	O	O	O
-éperonne	éperonn	ADJ	O	O	O
+qu'	que	PRON	O	O	O
+Edwards	edwards	PROPN	O	O	O
+éperonne	éperonner	VERB	O	O	O
 de	de	ADP	O	O	O
 ses	son	DET	O	O	O
-cris	cri	PROPN	O	O	O
-fous	fou	NOUN	O	O	O
+cris	cri	NOUN	O	O	O
+fous	fou	ADJ	O	O	O
 :	:	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Plus	plus	ADV	O	O	O
 vite	vite	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 plus	plus	ADV	O	O	O
 vite	vite	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 plus	plus	ADV	O	O	O
 vite	vite	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 ...	...	PUNCT	O	O	O
-»	»	X	O	O	O
+»	»	PUNCT	O	O	O
+
 Nous	nous	PRON	O	O	O
 arrivons	arriver	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-New	new	PROPN	O	O	O
+New	new	X	O	O	O
+
 -	-	PUNCT	O	O	O
+
 Puff	puff	PROPN	O	O	O
 n'	ne	ADV	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 plus	plus	ADV	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 à	à	ADP	O	O	O
 dix	dix	NUM	O	O	O
-milles	mille	NOUN	O	O	O
+milles	mille	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 au	au	ADP	O	O	O
-creux	creux	PRON	O	O	O
+creux	creux	NOUN	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 puits	puits	NOUN	O	O	O
@@ -1773,6 +1787,7 @@ trombe	trombe	NOUN	O	O	O
 un	un	DET	O	O	O
 cyclone	cyclone	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 elle	lui	PRON	O	O	O
 nous	nous	PRON	O	O	O
 ouate	ouate	VERB	O	O	O
@@ -1780,20 +1795,21 @@ d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 linceul	linceul	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 la	le	DET	O	O	O
 Crampton	crampton	PROPN	O	O	O
-la	le	DET	O	O	O
-balaye	balaye	NOUN	O	O	O
+la	le	PRON	O	O	O
+balaye	balayer	VERB	O	O	O
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
-ouragan	ouragan	PROPN	O	O	O
+ouragan	ouragan	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 elle	lui	PRON	O	O	O
-la	le	DET	O	O	O
-plaque	plaque	NOUN	O	O	O
+la	le	PRON	O	O	O
+plaque	plaque	VERB	O	O	O
 en	en	ADP	O	O	O
-vernis	vernir	VERB	O	O	O
+vernis	vernis	NOUN	O	O	O
 de	de	ADP	O	O	O
 glace	glace	NOUN	O	O	O
 sur	sur	ADP	O	O	O
@@ -1803,11 +1819,11 @@ rails	rail	NOUN	O	O	O
 
 Le	le	DET	O	O	O
 train	train	NOUN	O	O	O
-patine	patin	ADJ	O	O	O
+patine	patine	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-d'	de	ADP	O	O	O
+d'	de	DET	O	O	O
 effroyables	effroyable	ADJ	O	O	O
-silences	silence	ADJ	O	O	O
+silences	silence	NOUN	O	O	O
 des	de	ADP	O	O	O
 rotatives	rotative	NOUN	O	O	O
 marquent	marquer	VERB	O	O	O
@@ -1819,7 +1835,7 @@ roues	roue	NOUN	O	O	O
 
 Tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	VERB	O	O	O
+coup	coup	NOUN	O	O	O
 un	un	DET	O	O	O
 choc	choc	NOUN	O	O	O
 atroce	atroce	ADJ	O	O	O
@@ -1828,11 +1844,12 @@ nous	nous	PRON	O	O	O
 avons	avoir	AUX	O	O	O
 déraillé	dérailler	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 nous	nous	PRON	O	O	O
 sautons	sauter	VERB	O	O	O
-d'	de	ADP	O	O	O
-horribles	horrible	NOUN	O	O	O
-heurts	heurt	ADJ	O	O	O
+d'	de	DET	O	O	O
+horribles	horrible	ADJ	O	O	O
+heurts	heurt	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 les	le	DET	O	O	O
 pointes	pointe	NOUN	O	O	O
@@ -1840,7 +1857,7 @@ des	de	ADP	O	O	O
 rocs	roc	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Excessif	excessif	PROPN	O	O	O
+Excessif	excessif	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 alors	alors	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1848,15 +1865,15 @@ de	de	ADP	O	O	O
 génie	génie	NOUN	O	O	O
 professionnel	professionnel	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-Rob	rob	NOUN	O	O	O
--	-	PUNCT	O	O	O
-Edwards	edward	NOUN	O	O	O
+Rob	rob	PROPN	O	O	O
+-	-	PROPN	O	O	O
+Edwards	edwards	PROPN	O	O	O
 ne	ne	ADV	O	O	O
 voit	voir	VERB	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 drame	drame	NOUN	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 une	un	DET	O	O	O
 source	source	NOUN	O	O	O
 spéciale	spécial	ADJ	O	O	O
@@ -1871,31 +1888,31 @@ le	le	DET	O	O	O
 fait	fait	NOUN	O	O	O
 divers	divers	ADJ	O	O	O
 chez	chez	ADP	O	O	O
-soi	soi	NOUN	O	O	O
+soi	soi	PRON	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
-«	«	VERB	O	O	O
+«	«	PUNCT	O	O	O
 Trois	trois	NUM	O	O	O
 centième	centième	ADJ	O	O	O
 édition	édition	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 redige	redige	VERB	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
-impassible	impassible	VERB	O	O	O
+impassible	impassible	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Imminent	imminent	NOUN	O	O	O
-péril	péril	VERB	O	O	O
+Imminent	imminent	ADJ	O	O	O
+péril	péril	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 Express	express	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Times	times	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -1914,10 +1931,10 @@ probable	probable	ADJ	O	O	O
 
 —	—	PUNCT	O	O	O
 Le	le	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 rail	rail	NOUN	O	O	O
--	-	PUNCT	O	O	O
-newspaper	newspaper	VERB	O	O	O
+-	-	NOUN	O	O	O
+newspaper	newspaper	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 va	aller	VERB	O	O	O
 s'	se	PRON	O	O	O
@@ -1930,6 +1947,7 @@ confiance	confiance	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 persévérance	persévérance	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Il	il	PRON	O	O	O
 ressuscitera	ressusciter	VERB	O	O	O
@@ -1938,6 +1956,7 @@ les	le	DET	O	O	O
 actionnaires	actionnaire	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
 »	»	PUNCT	O	O	O
+
 Je	je	PRON	O	O	O
 n'	ne	ADV	O	O	O
 eus	avoir	VERB	O	O	O
@@ -1951,7 +1970,7 @@ plus	plus	ADV	O	O	O
 long	long	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Affolé	affolé	PROPN	O	O	O
+Affolé	affoler	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 m'	me	PRON	O	O	O
@@ -1966,6 +1985,7 @@ amortit	amortir	VERB	O	O	O
 ma	mon	DET	O	O	O
 chute	chute	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 je	je	PRON	O	O	O
 me	me	PRON	O	O	O
 retrouvais	retrouver	VERB	O	O	O
@@ -1978,11 +1998,11 @@ gare	gare	NOUN	O	O	O
 de	de	ADP	O	O	O
 Snowtown	snowtown	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-sise	sis	ADJ	O	O	O
+sise	seoir	VERB	O	O	O
 à	à	ADP	O	O	O
 mi	mi	NOUN	O	O	O
--	-	PUNCT	O	O	O
-côte	côte	PROPN	O	O	O
+-	-	NOUN	O	O	O
+côte	côte	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Sous	sou	ADP	O	O	O
@@ -2000,7 +2020,7 @@ l'	le	DET	O	O	O
 entonnoir	entonnoir	NOUN	O	O	O
 de	de	ADP	O	O	O
 New	new	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Puff	puff	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -2010,7 +2030,7 @@ de	de	ADP	O	O	O
 bouts	bout	NOUN	O	O	O
 de	de	ADP	O	O	O
 papier	papier	NOUN	O	O	O
-floconnent	floconnent	NOUN	O	O	O
+floconnent	floconner	VERB	O	O	O
 éparpillés	éparpiller	VERB	O	O	O
 comme	comme	ADP	O	O	O
 un	un	DET	O	O	O
@@ -2025,8 +2045,8 @@ rafale	rafale	NOUN	O	O	O
 Je	je	PRON	O	O	O
 saisis	saisir	VERB	O	O	O
 quelques	quelque	DET	O	O	O
--	-	PUNCT	O	O	O
-uns	un	PROPN	O	O	O
+-	-	NOUN	O	O	O
+uns	un	PRON	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
 lambeaux	lambeau	NOUN	O	O	O
@@ -2036,28 +2056,28 @@ les	le	DET	O	O	O
 dernières	dernier	ADJ	O	O	O
 lignes	ligne	NOUN	O	O	O
 d'	de	ADP	O	O	O
-Edwards	edward	NOUN	O	O	O
+Edwards	edwards	PROPN	O	O	O
 :	:	PUNCT	O	O	O
 le	le	DET	O	O	O
-pâle	pâle	NOUN	O	O	O
-déchirant	déchirant	ADV	O	O	O
+pâle	pâle	ADJ	O	O	O
+déchirant	déchirant	ADJ	O	O	O
 —	—	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 déchiré	déchirer	VERB	O	O	O
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 Express	express	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Times	times	PROPN	O	O	O
 :	:	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Les	le	DET	O	O	O
 actionnaires	actionnaire	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
-lisais	lisai	ADJ	O	O	O
--	-	PUNCT	O	O	O
+lisais	lire	VERB	O	O	O
+-	-	PRON	O	O	O
 je	je	PRON	O	O	O
 au	au	ADP	O	O	O
 gaz	gaz	NOUN	O	O	O
@@ -2065,6 +2085,7 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 station	station	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Bénéfices	bénéfice	NOUN	O	O	O
 assurés	assurer	VERB	O	O	O
 !	!	PUNCT	O	O	O
@@ -2075,11 +2096,11 @@ certain	certain	ADJ	O	O	O
 
 ...	...	PUNCT	O	O	O
 Invention	invention	NOUN	O	O	O
-sublime	sublime	VERB	O	O	O
+sublime	sublime	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
-Devoir	devoir	VERB	O	O	O
+Devoir	devoir	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 patrie	patrie	NOUN	O	O	O
 !	!	PUNCT	O	O	O
@@ -2090,17 +2111,18 @@ nationale	national	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
-Cinquante	cinquante	NOUN	O	O	O
+Cinquante	cinquante	PRON	O	O	O
 pour	pour	ADP	O	O	O
 cent	cent	PRON	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
-etc	etc	X	O	O	O
-...	...	PUNCT	O	O	O
 etc	etc	ADV	O	O	O
 ...	...	PUNCT	O	O	O
-»	»	PROPN	O	O	O
+etc	etc	X	O	O	O
+...	...	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
+
 C'	ce	PRON	O	O	O
 était	être	AUX	O	O	O
 l'	le	DET	O	O	O
@@ -2110,27 +2132,28 @@ fonds	fonds	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-obstiné	obstiné	NOUN	O	O	O
-boniment	boniment	ADV	O	O	O
-«	«	PROPN	O	O	O
+obstiné	obstiné	ADJ	O	O	O
+boniment	boniment	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 in	in	X	O	O	O
-extremis	extremis	VERB	O	O	O
+extremis	extremis	X	O	O	O
 ...	...	PUNCT	O	O	O
-»	»	X	O	O	O
+»	»	PUNCT	O	O	O
+
 Survivront	survivre	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ils	il	PRON	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
 Est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 ce	ce	PRON	O	O	O
 leurs	leur	DET	O	O	O
-cris	cri	VERB	O	O	O
-que	que	SCONJ	O	O	O
+cris	cri	NOUN	O	O	O
+que	que	PRON	O	O	O
 j'	je	PRON	O	O	O
-entends	entend	ADJ	O	O	O
+entends	entendre	VERB	O	O	O
 monter	monter	VERB	O	O	O
 du	de	ADP	O	O	O
 gouffre	gouffre	NOUN	O	O	O
@@ -2138,7 +2161,7 @@ gouffre	gouffre	NOUN	O	O	O
 
 ...	...	PUNCT	O	O	O
 J'	je	PRON	O	O	O
-entre	entrer	ADP	O	O	O
+entre	entrer	VERB	O	O	O
 au	au	ADP	O	O	O
 bureau	bureau	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -2155,15 +2178,18 @@ hasard	hasard	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 exténué	exténuer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-halluciné	halluciné	ADJ	O	O	O
+halluciné	halluciner	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 demi	demi	NOUN	O	O	O
--	-	PUNCT	O	O	O
-mort	mort	NOUN	O	O	O
+-	-	NOUN	O	O	O
+mort	mort	ADJ	O	O	O
+
 ...	...	PUNCT	O	O	O
+
 La	le	DET	O	O	O
 suite	suite	NOUN	O	O	O
 à	à	ADP	O	O	O
 demain	demain	ADV	O	O	O
 ...	...	PUNCT	O	O	O
+
 

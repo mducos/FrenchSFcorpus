@@ -2,7 +2,8 @@ L'	le	DET	O	O	O
 AUTOMOBILISME	automobilisme	NOUN	O	O	O
 EN	en	ADP	O	O	O
 1950	1950	NUM	O	O	O
-Quelle	quell	ADJ	O	O	O
+
+Quelle	quel	DET	O	O	O
 belle	bel	ADJ	O	O	O
 journée	journée	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -43,8 +44,8 @@ l'	le	DET	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 région	région	NOUN	O	O	O
-nord	nord	ADJ	O	O	O
--	-	PUNCT	O	O	O
+nord	nord	NOUN	O	O	O
+-	-	NOUN	O	O	O
 ouest	ouest	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
@@ -55,21 +56,23 @@ production	production	NOUN	O	O	O
 de	de	ADP	O	O	O
 force	force	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PRON	O	O	O
+—	—	PUNCT	O	O	O
 on	on	PRON	O	O	O
 allait	aller	VERB	O	O	O
+
 être	être	AUX	O	O	O
 au	au	ADP	O	O	O
-beau	beau	NOUN	O	O	O
-fixe	fixe	VERB	O	O	O
+beau	beau	ADJ	O	O	O
+fixe	fixe	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 une	un	DET	O	O	O
 quinzaine	quinzaine	NOUN	O	O	O
+
 .	.	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
 j'	je	PRON	O	O	O
-étais	être	VERB	O	O	O
+étais	être	AUX	O	O	O
 fort	fort	ADV	O	O	O
 satisfait	satisfait	ADJ	O	O	O
 de	de	ADP	O	O	O
@@ -109,7 +112,7 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 vie	vie	NOUN	O	O	O
 intensive	intensif	ADJ	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 nous	nous	PRON	O	O	O
 menons	mener	VERB	O	O	O
 .	.	PUNCT	O	O	O
@@ -164,7 +167,7 @@ refuges	refuge	NOUN	O	O	O
 élevés	élevé	ADJ	O	O	O
 pour	pour	ADP	O	O	O
 véhicules	véhicule	NOUN	O	O	O
-stationnant	stationnant	ADJ	O	O	O
+stationnant	stationner	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
 la	le	DET	O	O	O
@@ -174,7 +177,7 @@ et	et	CCONJ	O	O	O
 se	se	PRON	O	O	O
 trouvait	trouver	VERB	O	O	O
 trop	trop	ADV	O	O	O
-étroite	étroite	ADV	O	O	O
+étroite	étroit	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 bien	bien	ADV	O	O	O
 que	que	SCONJ	O	O	O
@@ -182,7 +185,7 @@ fortement	fortement	ADV	O	O	O
 élargie	élargir	VERB	O	O	O
 aux	à	ADP	O	O	O
 dépens	dépens	NOUN	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 trottoirs	trottoir	NOUN	O	O	O
 presque	presque	ADV	O	O	O
 inutiles	inutile	ADJ	O	O	O
@@ -198,14 +201,14 @@ dire	dire	VERB	O	O	O
 plus	plus	ADV	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
-insupportables	insupportable	NOUN	O	O	O
-piétons	piéton	ADJ	O	O	O
+insupportables	insupportable	ADJ	O	O	O
+piétons	piéton	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 encombraient	encombrer	VERB	O	O	O
 les	le	DET	O	O	O
 rues	rue	NOUN	O	O	O
 de	de	ADP	O	O	O
-jadis	jadi	NOUN	O	O	O
+jadis	jadis	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 En	en	ADP	O	O	O
@@ -239,10 +242,10 @@ raison	raison	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 habitude	habitude	NOUN	O	O	O
-prise	prise	NOUN	O	O	O
+prise	prendre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
-réclame	réclame	NOUN	O	O	O
+réclame	réclame	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 d'	de	ADP	O	O	O
 arranger	arranger	VERB	O	O	O
@@ -265,21 +268,21 @@ de	de	ADP	O	O	O
 commerce	commerce	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 auto	auto	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 camions	camion	NOUN	O	O	O
 plus	plus	ADV	O	O	O
-lourds	lourd	NOUN	O	O	O
+lourds	lourd	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-élégants	élégant	NOUN	O	O	O
-auto	auto	ADJ	O	O	O
--	-	PUNCT	O	O	O
+élégants	élégant	ADJ	O	O	O
+auto	auto	NOUN	O	O	O
+-	-	NOUN	O	O	O
 cabs	cab	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 limousines	limousine	NOUN	O	O	O
 familiales	familial	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 auto	auto	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 fiacres	fiacre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 tricycles	tricycle	NOUN	O	O	O
@@ -292,10 +295,10 @@ et	et	CCONJ	O	O	O
 coquets	coquet	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 auto	auto	NOUN	O	O	O
--	-	PUNCT	O	O	O
-coupés	coupé	ADJ	O	O	O
+-	-	NOUN	O	O	O
+coupés	coupé	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-autocars	autocar	ADJ	O	O	O
+autocars	autocar	NOUN	O	O	O
 divers	divers	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -314,7 +317,7 @@ foi	foi	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 sans	sans	ADP	O	O	O
 ces	ce	DET	O	O	O
-infernales	infernale	NOUN	O	O	O
+infernales	infernal	ADJ	O	O	O
 obstructions	obstruction	NOUN	O	O	O
 aux	à	ADP	O	O	O
 carrefours	carrefour	NOUN	O	O	O
@@ -322,17 +325,17 @@ qu'	que	PRON	O	O	O
 on	on	PRON	O	O	O
 a	avoir	AUX	O	O	O
 tant	tant	ADV	O	O	O
-maudites	maudire	ADJ	O	O	O
-autrefois	autrefoi	NOUN	O	O	O
+maudites	maudire	VERB	O	O	O
+autrefois	autrefois	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 presque	presque	ADV	O	O	O
 sans	sans	ADP	O	O	O
 que	que	SCONJ	O	O	O
 l'	le	DET	O	O	O
-agent	agent	ADV	O	O	O
--	-	PUNCT	O	O	O
-disque	disqu	ADJ	O	O	O
+agent	agent	NOUN	O	O	O
+-	-	NOUN	O	O	O
+disque	disque	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 tricar	tricar	NOUN	O	O	O
@@ -344,11 +347,11 @@ chaussée	chaussée	NOUN	O	O	O
 tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 vingt	vingt	NUM	O	O	O
--	-	PUNCT	O	O	O
+-	-	NUM	O	O	O
 cinq	cinq	NUM	O	O	O
 mètres	mètre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-eût	avoir	ADP	O	O	O
+eût	avoir	VERB	O	O	O
 trop	trop	ADV	O	O	O
 souvent	souvent	ADV	O	O	O
 l'	le	DET	O	O	O
@@ -363,7 +366,7 @@ détonateur	détonateur	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 rappeler	rappeler	VERB	O	O	O
 quelque	quelque	DET	O	O	O
-wattman	wattman	ADJ	O	O	O
+wattman	wattman	NOUN	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
 ordre	ordre	NOUN	O	O	O
@@ -374,7 +377,7 @@ Et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 gens	gens	NOUN	O	O	O
 d'	de	ADP	O	O	O
-autrefois	autrefoi	NOUN	O	O	O
+autrefois	autrefois	ADV	O	O	O
 prétendaient	prétendre	VERB	O	O	O
 que	que	SCONJ	O	O	O
 l'	le	DET	O	O	O
@@ -384,10 +387,11 @@ un	un	DET	O	O	O
 sport	sport	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-fit	fit	NOUN	O	O	O
+fit	faire	VERB	O	O	O
 mon	mon	DET	O	O	O
 ami	ami	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 un	un	DET	O	O	O
 sport	sport	NOUN	O	O	O
 il	il	PRON	O	O	O
@@ -403,7 +407,7 @@ aviation	aviation	NOUN	O	O	O
 du	de	ADP	O	O	O
 temps	temps	NOUN	O	O	O
 des	de	ADP	O	O	O
-conquistadors	conquistador	ADV	O	O	O
+conquistadors	conquistador	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 route	route	NOUN	O	O	O
@@ -412,14 +416,15 @@ de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 atmosphère	atmosphère	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 mais	mais	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 aujourd'hui	aujourd'hui	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 ce	ce	PRON	O	O	O
 n'	ne	ADV	O	O	O
-est	être	VERB	O	O	O
-que	que	SCONJ	O	O	O
+est	être	AUX	O	O	O
+que	que	ADV	O	O	O
 l'	le	DET	O	O	O
 utilisation	utilisation	NOUN	O	O	O
 pratique	pratique	ADJ	O	O	O
@@ -442,18 +447,18 @@ boulevard	boulevard	NOUN	O	O	O
 Haussmann	haussmann	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
-Que	que	PRON	O	O	O
+Que	que	ADV	O	O	O
 de	de	ADP	O	O	O
 monde	monde	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-A	a	NOUN	O	O	O
+A	à	ADP	O	O	O
 mi	mi	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 hauteur	hauteur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
-uns	un	NOUN	O	O	O
+uns	un	PRON	O	O	O
 prenaient	prendre	VERB	O	O	O
 les	le	DET	O	O	O
 tubes	tube	NOUN	B-NOV	O	O
@@ -462,13 +467,13 @@ banlieusards	banlieusard	ADJ	I-NOV	O	O
 pour	pour	ADP	O	O	O
 Rouen	rouen	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-Tours	tour	NOUN	O	O	O
+Tours	tours	PROPN	O	O	O
 ou	ou	CCONJ	O	O	O
-Compiègne	compiègne	NOUN	O	O	O
+Compiègne	compiègne	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
-autres	autre	ADJ	O	O	O
-montaient	montaient	NOUN	O	O	O
+autres	autre	PRON	O	O	O
+montaient	monter	VERB	O	O	O
 jusqu'	jusque	ADP	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
@@ -482,21 +487,20 @@ de	de	ADP	O	O	O
 Normandie	normandie	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 des	de	ADP	O	O	O
-Vosges	vosge	NOUN	O	O	O
+Vosges	vosges	PROPN	O	O	O
 ou	ou	CCONJ	O	O	O
 du	de	ADP	O	O	O
-Midi	midi	NOUN	O	O	O
+Midi	midi	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Attention	attention	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
-fis	faire	DET	O	O	O
--	-	PUNCT	O	O	O
+fis	faire	VERB	O	O	O
+-	-	PRON	O	O	O
 je	je	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-tâchons	tâchon	NOUN	O	O	O
+tâchons	tâcher	VERB	O	O	O
 de	de	ADP	O	O	O
 ne	ne	ADV	O	O	O
 rien	rien	PRON	O	O	O
@@ -510,9 +514,9 @@ Il	il	PRON	O	O	O
 y	y	PRON	O	O	O
 a	avoir	VERB	O	O	O
 tant	tant	ADV	O	O	O
-de	de	DET	O	O	O
+de	de	ADP	O	O	O
 gens	gens	NOUN	O	O	O
-distraits	distrait	NOUN	O	O	O
+distraits	distrait	ADJ	O	O	O
 qui	qui	PRON	O	O	O
 peuvent	pouvoir	VERB	O	O	O
 laisser	laisser	VERB	O	O	O
@@ -531,7 +535,7 @@ donc	donc	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 des	un	DET	O	O	O
 gens	gens	NOUN	O	O	O
-distraits	distrait	NOUN	O	O	O
+distraits	distrait	ADJ	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 société	société	NOUN	O	O	O
@@ -545,8 +549,8 @@ en	en	PRON	O	O	O
 a	avoir	VERB	O	O	O
 plus	plus	ADV	O	O	O
 :	:	PUNCT	O	O	O
-tous	tout	DET	O	O	O
-écrasés	écrasé	NOUN	O	O	O
+tous	tout	ADJ	O	O	O
+écrasés	écraser	VERB	O	O	O
 avant	avant	ADP	O	O	O
 d'	de	ADP	O	O	O
 atteindre	atteindre	VERB	O	O	O
@@ -560,13 +564,13 @@ ans	an	NOUN	O	O	O
 Des	un	DET	O	O	O
 rêveurs	rêveur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 poètes	poète	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 les	le	DET	O	O	O
 derniers	dernier	ADJ	O	O	O
-supprimés	supprimé	NOUN	O	O	O
+supprimés	supprimer	VERB	O	O	O
 vers	vers	ADP	O	O	O
 1910	1910	NUM	O	O	O
 ou	ou	CCONJ	O	O	O
@@ -587,20 +591,22 @@ grandes	grand	ADJ	O	O	O
 villes	ville	NOUN	O	O	O
 congestionnées	congestionner	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Mais	mais	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 rassurez	rassurer	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 on	on	PRON	O	O	O
 fait	faire	VERB	O	O	O
 des	un	DET	O	O	O
-vers	vers	ADP	O	O	O
-tout	tout	PRON	O	O	O
+vers	vers	NOUN	O	O	O
+tout	tout	ADV	O	O	O
 de	de	ADP	O	O	O
 même	même	ADV	O	O	O
 ...	...	PUNCT	O	O	O
+
 Pas	pas	ADV	O	O	O
 de	de	ADP	O	O	O
 préoccupations	préoccupation	NOUN	O	O	O
@@ -623,7 +629,7 @@ habituel	habituel	ADJ	O	O	O
 :	:	PUNCT	O	O	O
 l'	le	DET	O	O	O
 auto	auto	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 puce	puce	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	SCONJ	O	O	O
@@ -634,20 +640,21 @@ dit	dire	VERB	O	O	O
 l'	le	DET	O	O	O
 une	un	PRON	O	O	O
 de	de	ADP	O	O	O
-Sévigné	sévigné	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Sévigné	sévigné	PROPN	O	O	O
+-	-	PROPN	O	O	O
 Pontoise	pontoise	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-autre	autre	PRON	O	O	O
+autre	autre	NOUN	O	O	O
 de	de	ADP	O	O	O
 Condorcet	condorcet	PROPN	O	O	O
--	-	PUNCT	O	O	O
-l'	le	PRON	O	O	O
+-	-	PROPN	O	O	O
+l'	le	DET	O	O	O
 Isle	isle	PROPN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PROPN	O	O	O
 Adam	adam	PROPN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Ils	il	PRON	O	O	O
 prendront	prendre	VERB	O	O	O
 l'	le	DET	O	O	O
@@ -656,10 +663,10 @@ de	de	ADP	O	O	O
 huit	huit	NUM	O	O	O
 heures	heure	NOUN	O	O	O
 trente	trente	NUM	O	O	O
--	-	PUNCT	O	O	O
+-	-	NUM	O	O	O
 cinq	cinq	NUM	O	O	O
 et	et	CCONJ	O	O	O
-seront	être	AUX	O	O	O
+seront	être	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 villa	villa	NOUN	O	O	O
@@ -667,13 +674,14 @@ vers	vers	ADP	O	O	O
 dix	dix	NUM	O	O	O
 heures	heure	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Nous	nous	PRON	O	O	O
 roulions	rouler	VERB	O	O	O
 depuis	depuis	ADP	O	O	O
 longtemps	longtemps	ADV	O	O	O
 en	en	ADP	O	O	O
-pleine	pleine	NOUN	O	O	O
-campagne	campagn	ADJ	O	O	O
+pleine	plein	ADJ	O	O	O
+campagne	campagne	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 la	le	DET	O	O	O
 route	route	NOUN	O	O	O
@@ -682,7 +690,7 @@ caoutchoutée	caoutchouter	VERB	O	O	O
 derrière	derrière	ADP	O	O	O
 bien	bien	ADV	O	O	O
 d'	de	DET	O	O	O
-autres	autre	ADJ	O	O	O
+autres	autre	PRON	O	O	O
 qui	qui	PRON	O	O	O
 s'	se	PRON	O	O	O
 en	en	PRON	O	O	O
@@ -714,11 +722,11 @@ Nous	nous	PRON	O	O	O
 croisions	croiser	VERB	O	O	O
 des	un	DET	O	O	O
 auto	auto	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 cars	car	NOUN	O	O	O
 de	de	ADP	O	O	O
 maraîchers	maraîcher	NOUN	O	O	O
-apportant	apportant	ADJ	O	O	O
+apportant	apporter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 très	très	ADV	O	O	O
@@ -728,7 +736,7 @@ parfois	parfois	ADV	O	O	O
 leurs	leur	DET	O	O	O
 légumes	légume	NOUN	O	O	O
 aux	à	ADP	O	O	O
-Halles	halles	PROPN	O	O	O
+Halles	halle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 des	un	DET	O	O	O
 autos	auto	NOUN	O	O	O
@@ -745,8 +753,8 @@ campagne	campagne	NOUN	O	O	O
 un	un	DET	O	O	O
 long	long	ADJ	O	O	O
 auto	auto	NOUN	O	O	O
--	-	PUNCT	O	O	O
-car	car	CCONJ	O	O	O
+-	-	NOUN	O	O	O
+car	car	NOUN	O	O	O
 à	à	ADP	O	O	O
 cinquante	cinquante	NUM	O	O	O
 places	place	NOUN	O	O	O
@@ -786,7 +794,7 @@ et	et	CCONJ	O	O	O
 combien	combien	ADV	O	O	O
 de	de	ADP	O	O	O
 limousines	limousine	NOUN	O	O	O
-chargées	chargée	NOUN	O	O	O
+chargées	charger	VERB	O	O	O
 de	de	ADP	O	O	O
 familles	famille	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -799,7 +807,7 @@ mère	mère	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 enfants	enfant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-gendres	gendre	ADJ	O	O	O
+gendres	gendre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 brus	bru	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -807,7 +815,8 @@ cousins	cousin	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 cousines	cousin	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-etc.	etc.	ADV	O	O	O
+etc.	etc.	NUM	O	O	O
+
 Je	je	PRON	O	O	O
 vois	voir	VERB	O	O	O
 encore	encore	ADV	O	O	O
@@ -837,23 +846,25 @@ sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 capot	capot	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Plus	plus	ADV	O	O	O
 loin	loin	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
-vrai	vrai	ADP	O	O	O
+vrai	vrai	ADJ	O	O	O
 train	train	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-douze	douze	NOUN	O	O	O
+douze	douze	NUM	O	O	O
 auto	auto	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 camions	camion	NOUN	O	O	O
-chargés	charger	ADJ	O	O	O
+chargés	charger	VERB	O	O	O
 de	de	ADP	O	O	O
 sacs	sac	NOUN	O	O	O
 de	de	ADP	O	O	O
-farine	farine	PROPN	O	O	O
+farine	farine	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 puis	pouvoir	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
@@ -864,9 +875,9 @@ de	de	ADP	O	O	O
 marché	marché	NOUN	O	O	O
 franc	franc	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-de	de	ADP	O	O	O
+de	de	DET	O	O	O
 gros	gros	ADJ	O	O	O
-fermiers	fermier	ADJ	O	O	O
+fermiers	fermier	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 leurs	leur	DET	O	O	O
 petits	petit	ADJ	O	O	O
@@ -887,13 +898,13 @@ vaches	vache	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 un	un	DET	O	O	O
 auto	auto	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 fardier	fardier	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Puis	pouvoir	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
-installés	installé	ADJ	O	O	O
+installés	installer	VERB	O	O	O
 sur	sur	ADP	O	O	O
 un	un	DET	O	O	O
 côté	côté	NOUN	O	O	O
@@ -915,11 +926,11 @@ cinq	cinq	NUM	O	O	O
 ou	ou	CCONJ	O	O	O
 six	six	NUM	O	O	O
 auto	auto	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 roulottes	roulotte	NOUN	O	O	O
 ou	ou	CCONJ	O	O	O
-house	hous	ADJ	O	O	O
--	-	PUNCT	O	O	O
+house	house	NOUN	O	O	O
+-	-	NOUN	O	O	O
 cars	car	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
@@ -939,7 +950,7 @@ charmant	charmant	ADJ	O	O	O
 :	:	PUNCT	O	O	O
 les	le	DET	O	O	O
 cuisines	cuisine	NOUN	O	O	O
-fument	fumer	ADV	O	O	O
+fument	fumer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 dames	dame	NOUN	O	O	O
@@ -957,6 +968,7 @@ des	un	DET	O	O	O
 enfants	enfant	NOUN	O	O	O
 jouent	jouer	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 demain	demain	ADV	O	O	O
@@ -967,8 +979,8 @@ monde	monde	NOUN	O	O	O
 campera	camper	VERB	O	O	O
 à	à	ADP	O	O	O
 deux	deux	NUM	O	O	O
-cents	cent	NOUN	O	O	O
-kilomètres	kilomètre	ADJ	O	O	O
+cents	cent	DET	O	O	O
+kilomètres	kilomètre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
 quelque	quelque	DET	O	O	O
@@ -976,11 +988,12 @@ autre	autre	ADJ	O	O	O
 joli	joli	ADJ	O	O	O
 site	site	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 Enfin	enfin	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 nuit	nuit	NOUN	O	O	O
-vient	venir	ADV	O	O	O
+vient	venir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
 arrivons	arriver	VERB	O	O	O
@@ -992,8 +1005,9 @@ de	de	ADP	O	O	O
 Cherbourg	cherbourg	PROPN	O	O	O
 passe	passer	VERB	O	O	O
 en	en	ADP	O	O	O
-viaduc	viaduc	VERB	O	O	O
+viaduc	viaduc	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 nous	nous	PRON	O	O	O
 entendons	entendre	VERB	O	O	O
 ronfler	ronfler	VERB	O	O	O
@@ -1006,7 +1020,7 @@ intérieur	intérieur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 En	en	ADP	O	O	O
-haut	haut	ADJ	O	O	O
+haut	haut	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 quelques	quelque	DET	O	O	O
 dirigeables	dirigeable	NOUN	O	O	O
@@ -1022,13 +1036,14 @@ les	le	DET	O	O	O
 stations	station	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 la	le	DET	O	O	O
-côte	côte	PROPN	O	O	O
+côte	côte	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 la	le	DET	O	O	O
-mer	mer	ADJ	O	O	O
-brille	brill	ADJ	O	O	O
+mer	mer	NOUN	O	O	O
+brille	briller	VERB	O	O	O
 en	en	ADP	O	O	O
-avant	avant	ADV	O	O	O
+avant	avant	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Voici	voici	VERB	O	O	O
@@ -1058,4 +1073,5 @@ pour	pour	ADP	O	O	O
 quelques	quelque	DET	O	O	O
 jours	jour	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
+
 

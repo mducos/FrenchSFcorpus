@@ -3,7 +3,7 @@ n'	ne	ADV	O	O	O
 est	être	AUX	O	O	O
 question	question	NOUN	O	O	O
 actuellement	actuellement	ADV	O	O	O
-que	que	SCONJ	O	O	O
+que	que	ADV	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 invention	invention	NOUN	O	O	O
@@ -35,14 +35,14 @@ dans	dans	ADP	O	O	O
 une	un	DET	O	O	O
 zone	zone	NOUN	O	O	O
 de	de	ADP	O	O	O
-rayonnement	rayonnemer	VERB	O	O	O
+rayonnement	rayonnement	NOUN	O	O	O
 encore	encore	ADV	O	O	O
 restreinte	restreindre	ADJ	O	O	O
 mais	mais	CCONJ	O	O	O
 susceptible	susceptible	ADJ	O	O	O
 de	de	ADP	O	O	O
 devenir	devenir	VERB	O	O	O
-considérable	considérable	NOUN	O	O	O
+considérable	considérable	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 M.	m.	NOUN	O	O	O
@@ -51,12 +51,12 @@ Matthews	matthews	PROPN	O	O	O
 affirme	affirmer	VERB	O	O	O
 avoir	avoir	AUX	O	O	O
 découvert	découvrir	VERB	O	O	O
-—	—	DET	O	O	O
+—	—	PUNCT	O	O	O
 ce	ce	PRON	O	O	O
 sont	être	AUX	O	O	O
 ses	son	DET	O	O	O
 propres	propre	ADJ	O	O	O
-paroles	parole	ADJ	O	O	O
+paroles	parole	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 un	un	DET	O	O	O
 rayon	rayon	NOUN	B-NOV	O	O
@@ -74,14 +74,14 @@ de	de	ADP	O	O	O
 vie	vie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 puis	pouvoir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-ajoute	ajoute	NOUN	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+ajoute	ajouter	VERB	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 mettre	mettre	VERB	O	O	O
@@ -108,8 +108,8 @@ et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 métaux	métal	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+»	»	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
 Un	un	PRON	O	O	O
 de	de	ADP	O	O	O
 nos	notre	DET	O	O	O
@@ -128,10 +128,10 @@ Il	il	PRON	O	O	O
 a	avoir	AUX	O	O	O
 vu	voir	VERB	O	O	O
 le	le	DET	O	O	O
-fameux	fameu	NOUN	O	O	O
-rayon	rayon	VERB	O	O	O
+fameux	fameux	ADJ	O	O	O
+rayon	rayon	NOUN	O	O	O
 tuer	tuer	VERB	O	O	O
-net	net	NOUN	O	O	O
+net	net	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 distance	distance	NOUN	O	O	O
@@ -143,7 +143,7 @@ souris	souris	NOUN	O	O	O
 Puis	pouvoir	CCONJ	O	O	O
 le	le	DET	O	O	O
 même	même	ADJ	O	O	O
-rayon	rayon	VERB	O	O	O
+rayon	rayon	NOUN	O	O	O
 arrêter	arrêter	VERB	O	O	O
 un	un	DET	O	O	O
 moteur	moteur	NOUN	O	O	O
@@ -171,9 +171,10 @@ sceptiques	sceptique	ADJ	O	O	O
 Cependant	cependant	ADV	O	O	O
 M.	m.	NOUN	O	O	O
 Grindell	grindell	PROPN	O	O	O
-Matthews	matthews	X	O	O	O
+Matthews	matthews	PROPN	O	O	O
 ajoute	ajouter	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 C'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -182,7 +183,7 @@ rayon	rayon	NOUN	O	O	O
 lumineux	lumineux	ADJ	O	O	O
 le	le	DET	O	O	O
 long	long	ADJ	O	O	O
-duquel	duquel	NOUN	O	O	O
+duquel	duquel	PRON	O	O	O
 circule	circuler	VERB	O	O	O
 un	un	DET	O	O	O
 courant	courant	NOUN	O	O	O
@@ -205,11 +206,12 @@ d'	de	ADP	O	O	O
 armée	armée	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 etc.	etc.	ADV	O	O	O
-Quoi	quoi	PRON	O	O	O
+
+Quoi	quoi	ADV	O	O	O
 qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 en	en	PRON	O	O	O
-soit	être	CCONJ	O	O	O
+soit	être	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 on	on	PRON	O	O	O
 peut	pouvoir	VERB	O	O	O
@@ -231,10 +233,10 @@ ne	ne	ADV	O	O	O
 se	se	PRON	O	O	O
 passe	passer	VERB	O	O	O
 pas	pas	ADV	O	O	O
-de	de	DET	O	O	O
+de	de	ADP	O	O	O
 jour	jour	NOUN	O	O	O
 que	que	SCONJ	O	O	O
-quelqu'	quelque	SCONJ	O	O	O
+quelqu'	quelque	DET	O	O	O
 un	un	PRON	O	O	O
 n'	ne	ADV	O	O	O
 apporte	apporter	VERB	O	O	O
@@ -242,10 +244,11 @@ un	un	DET	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 perfectionnement	perfectionnement	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 On	on	PRON	O	O	O
 tue	taire	VERB	O	O	O
 son	son	DET	O	O	O
-semblable	semblable	ADJ	O	O	O
+semblable	semblable	NOUN	O	O	O
 avec	avec	ADP	O	O	O
 une	un	DET	O	O	O
 facilité	facilité	NOUN	O	O	O
@@ -261,14 +264,14 @@ inventeurs	inventeur	NOUN	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
 procédés	procédé	NOUN	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 de	de	ADP	O	O	O
 rendre	rendre	VERB	O	O	O
 la	le	DET	O	O	O
 guerre	guerre	NOUN	O	O	O
 impossible	impossible	ADJ	O	O	O
 en	en	ADP	O	O	O
-la	le	DET	O	O	O
+la	le	PRON	O	O	O
 faisant	faire	VERB	O	O	O
 plus	plus	ADV	O	O	O
 effroyable	effroyable	ADJ	O	O	O
@@ -285,7 +288,7 @@ maître	maître	NOUN	O	O	O
 Anatole	anatole	PROPN	O	O	O
 France	france	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+«	«	PUNCT	O	O	O
 agir	agir	VERB	O	O	O
 ainsi	ainsi	ADV	O	O	O
 avec	avec	ADP	O	O	O
@@ -293,7 +296,7 @@ les	le	DET	O	O	O
 hommes	homme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 mettre	mettre	VERB	O	O	O
 une	un	DET	O	O	O
 boîte	boîte	NOUN	O	O	O
@@ -316,16 +319,17 @@ se	se	PRON	O	O	O
 brûler	brûler	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-»	»	NOUN	O	O	O
+»	»	PUNCT	O	O	O
+
 À	à	ADP	O	O	O
-peine	peine	NOUN	O	O	O
+peine	peiner	ADV	O	O	O
 M.	m.	NOUN	O	O	O
 Grindell	grindell	PROPN	O	O	O
 Matthews	matthews	PROPN	O	O	O
-a	avoir	X	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+a	avoir	AUX	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 fait	faire	VERB	O	O	O
 part	part	NOUN	O	O	O
@@ -343,19 +347,19 @@ aussitôt	aussitôt	ADV	O	O	O
 la	le	DET	O	O	O
 Presse	presse	NOUN	O	O	O
 s'	se	PRON	O	O	O
-en	en	ADP	O	O	O
-empare	empar	ADJ	O	O	O
+en	en	PRON	O	O	O
+empare	emparer	VERB	O	O	O
 et	et	CCONJ	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
 inventeurs	inventeur	NOUN	O	O	O
-réclament	réclamer	ADV	O	O	O
+réclament	réclamer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Tandis	tandis	ADV	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
-uns	un	NOUN	O	O	O
+uns	un	PRON	O	O	O
 déclarent	déclarer	VERB	O	O	O
 que	que	SCONJ	O	O	O
 cette	ce	DET	O	O	O
@@ -365,13 +369,13 @@ impossible	impossible	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 qu	qu	SCONJ	O	O	O
 '	'	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 un	un	DET	O	O	O
 rayon	rayon	NOUN	O	O	O
 lumineux	lumineux	ADJ	O	O	O
 le	le	DET	O	O	O
-long	long	ADJ	O	O	O
-duquel	duquel	NOUN	O	O	O
+long	long	ADV	O	O	O
+duquel	duquel	PRON	O	O	O
 circule	circuler	VERB	O	O	O
 un	un	DET	O	O	O
 courant	courant	NOUN	O	O	O
@@ -392,7 +396,7 @@ sens	sens	NOUN	O	O	O
 commun	commun	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 d'	de	DET	O	O	O
-autres	autre	ADJ	O	O	O
+autres	autre	PRON	O	O	O
 prétendent	prétendre	VERB	O	O	O
 que	que	SCONJ	O	O	O
 cette	ce	DET	O	O	O
@@ -408,8 +412,8 @@ a	avoir	VERB	O	O	O
 belle	bel	ADJ	O	O	O
 lurette	lurette	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-affirment	affirment	NOUN	O	O	O
--	-	PUNCT	O	O	O
+affirment	affirmer	VERB	O	O	O
+-	-	PRON	O	O	O
 ils	il	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 qu'	que	SCONJ	O	O	O
@@ -434,7 +438,7 @@ lumière	lumière	NOUN	O	O	O
 de	de	ADP	O	O	O
 rayons	rayon	NOUN	O	O	O
 chauds	chaud	ADJ	O	O	O
-projetés	projeter	ADJ	O	O	O
+projetés	projeter	VERB	O	O	O
 au	au	ADP	O	O	O
 loin	loin	ADV	O	O	O
 .	.	PUNCT	O	O	O
@@ -446,7 +450,7 @@ Parolini	parolini	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 Valoriz	valoriz	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-Peyvel	peyvel	ADJ	O	O	O
+Peyvel	peyvel	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 Garbarini	garbarini	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -458,7 +462,7 @@ Caldine	caldine	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 etc.	etc.	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-prétendent	prétendre	ADV	O	O	O
+prétendent	prétendre	VERB	O	O	O
 chacun	chacun	PRON	O	O	O
 avoir	avoir	AUX	O	O	O
 réalisé	réaliser	VERB	O	O	O
@@ -509,11 +513,11 @@ l'	le	DET	O	O	O
 imagination	imagination	NOUN	O	O	O
 des	de	ADP	O	O	O
 romanciers	romancier	NOUN	O	O	O
-dépasse	dépasser	ADP	O	O	O
+dépasse	dépasser	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 bien	bien	ADV	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 années	année	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
@@ -553,7 +557,7 @@ et	et	CCONJ	O	O	O
 depuis	depuis	ADP	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-minces	mince	NOUN	O	O	O
+minces	mince	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
 trouvent	trouver	VERB	O	O	O
@@ -591,14 +595,14 @@ Adam	adam	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 fabriquant	fabriquer	VERB	O	O	O
 l'	le	DET	O	O	O
-Éve	éve	NOUN	O	O	O
-future	future	NOUN	O	O	O
+Éve	éve	PROPN	O	O	O
+future	futur	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 femme	femme	NOUN	B-NOV	O	O
 artificielle	artificiel	ADJ	I-NOV	O	O
 ,	,	PUNCT	O	O	O
-héroïne	héroïne	PROPN	O	O	O
+héroïne	héroïne	NOUN	O	O	O
 mécanique	mécanique	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 pourtant	pourtant	ADV	O	O	O
@@ -622,7 +626,7 @@ jour	jour	NOUN	O	O	O
 à	à	ADP	O	O	O
 faire	faire	VERB	O	O	O
 artificiellement	artificiellement	ADV	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 êtres	être	NOUN	O	O	O
 vivants	vivant	ADJ	O	O	O
 .	.	PUNCT	O	O	O
@@ -643,13 +647,13 @@ y	y	PRON	O	O	O
 songe	songer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-Car	car	NOUN	O	O	O
+Car	car	CCONJ	O	O	O
 l'	le	DET	O	O	O
 idée	idée	NOUN	O	O	O
 première	premier	ADJ	O	O	O
 n'	ne	ADV	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 elle	lui	PRON	O	O	O
 pas	pas	ADV	O	O	O
 la	le	DET	O	O	O
@@ -669,7 +673,7 @@ hommes	homme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 on	on	PRON	O	O	O
 sait	savoir	VERB	O	O	O
-quel	quel	ADJ	O	O	O
+quel	quel	DET	O	O	O
 rapide	rapide	ADJ	O	O	O
 chemin	chemin	NOUN	O	O	O
 elle	lui	PRON	O	O	O
@@ -677,8 +681,8 @@ peut	pouvoir	VERB	O	O	O
 parcourir	parcourir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-Edgar	edgar	NOUN	O	O	O
-Poe	poe	ADV	O	O	O
+Edgar	edgar	PROPN	O	O	O
+Poe	poe	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 Balzac	balzac	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -686,12 +690,12 @@ Jules	jules	PROPN	O	O	O
 Verne	verne	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 H.	h.	PROPN	O	O	O
--	-	PUNCT	O	O	O
-G.	g.	X	O	O	O
+-	-	PROPN	O	O	O
+G.	g.	PROPN	O	O	O
 Wells	wells	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 Danrit	danrit	PROPN	O	O	O
-furent	être	VERB	O	O	O
+furent	être	AUX	O	O	O
 les	le	DET	O	O	O
 véritables	véritable	ADJ	O	O	O
 inventeurs	inventeur	NOUN	O	O	O
@@ -704,15 +708,15 @@ contemporaines	contemporain	ADJ	O	O	O
 
 Jules	jules	PROPN	O	O	O
 Verne	verne	PROPN	O	O	O
-imagina	imaginer	PROPN	O	O	O
+imagina	imaginer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 par	par	ADP	O	O	O
 exemple	exemple	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
-sous	sou	ADP	O	O	O
--	-	PUNCT	O	O	O
-marin	marin	ADJ	O	O	O
+sous	sou	NOUN	O	O	O
+-	-	NOUN	O	O	O
+marin	marin	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 ballon	ballon	NOUN	O	O	O
@@ -738,8 +742,8 @@ que	que	SCONJ	O	O	O
 dans	dans	ADP	O	O	O
 cette	ce	DET	O	O	O
 même	même	ADJ	O	O	O
-Éve	éve	NUM	O	O	O
-future	future	NOUN	O	O	O
+Éve	éve	PROPN	O	O	O
+future	futur	ADJ	O	O	O
 dont	dont	PRON	O	O	O
 je	je	PRON	O	O	O
 parlais	parler	VERB	O	O	O
@@ -753,8 +757,8 @@ prévoyait	prévoir	VERB	O	O	O
 le	le	DET	O	O	O
 cinématographe	cinématographe	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+H.	h.	PROPN	O	O	O
 
-H.	h.	NOUN	O	O	O
 -	-	PUNCT	O	O	O
 G.	g.	PROPN	O	O	O
 Wells	wells	PROPN	O	O	O
@@ -767,7 +771,7 @@ Guerre	guerre	NOUN	O	O	O
 des	de	ADP	O	O	O
 mondes	monde	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-parle	parle	NOUN	O	O	O
+parle	parler	VERB	O	O	O
 tout	tout	ADV	O	O	O
 simplement	simplement	ADV	O	O	O
 d'	de	ADP	O	O	O
@@ -781,21 +785,22 @@ par	par	ADP	O	O	O
 les	le	DET	O	O	O
 Martiens	martien	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-capable	capable	NOUN	O	O	O
+capable	capable	ADJ	O	O	O
 de	de	ADP	O	O	O
-tout	tout	DET	O	O	O
+tout	tout	PRON	O	O	O
 détruire	détruire	VERB	O	O	O
 sur	sur	ADP	O	O	O
 son	son	DET	O	O	O
 passage	passage	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-H.	h.	NOUN	O	O	O
+H.	h.	PROPN	O	O	O
+
 -	-	PUNCT	O	O	O
-G.	g.	X	O	O	O
+G.	g.	PROPN	O	O	O
 Wells	wells	PROPN	O	O	O
 est	être	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 donc	donc	ADV	O	O	O
 le	le	DET	O	O	O
@@ -804,14 +809,14 @@ inventeur	inventeur	NOUN	O	O	O
 du	de	ADP	O	O	O
 rayon	rayon	NOUN	B-NOV	O	O
 qui	qui	PRON	I-NOV	O	O
-tue	taire	ADJ	I-NOV	O	O
+tue	taire	VERB	I-NOV	O	O
 ?	?	PUNCT	O	O	O
 
 Ce	ce	DET	O	O	O
-fervent	fervent	NOUN	O	O	O
-pacifiste	pacifiste	VERB	O	O	O
+fervent	fervent	ADJ	O	O	O
+pacifiste	pacifiste	NOUN	O	O	O
 aurait	avoir	AUX	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 imaginé	imaginer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -866,7 +871,7 @@ ni	ni	CCONJ	O	O	O
 même	même	ADV	O	O	O
 de	de	ADP	O	O	O
 rayons	rayon	NOUN	O	O	O
-—	—	NOUN	O	O	O
+—	—	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 avec	avec	ADP	O	O	O
 des	un	DET	O	O	O
@@ -899,18 +904,17 @@ la	le	DET	O	O	O
 Nature	nature	NOUN	O	O	O
 se	se	PRON	O	O	O
 révoltera	révolter	VERB	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 elle	lui	PRON	O	O	O
 ?	?	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 ,	,	PUNCT	O	O	O
 hélas	héler	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
 tenté	tenter	VERB	O	O	O
 de	de	ADP	O	O	O
 le	le	PRON	O	O	O
@@ -933,7 +937,7 @@ ils	il	PRON	O	O	O
 se	se	PRON	O	O	O
 détruisent	détruire	VERB	O	O	O
 eux	lui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 mêmes	même	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 jusqu'	jusque	ADP	O	O	O

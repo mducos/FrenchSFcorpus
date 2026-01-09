@@ -1,5 +1,5 @@
-I	i	NOUN	O	O	O
-ENCORE	encore	ADV	O	O	O
+I	i	PRON	O	O	O
+ENCORE	encore	VERB	O	O	O
 LA	le	DET	O	O	O
 FIN	fin	NOUN	O	O	O
 DU	de	ADP	O	O	O
@@ -29,7 +29,7 @@ désagréable	désagréable	ADJ	O	O	O
 
 C'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
-`	`	VERB	O	O	O
+`	`	ADP	O	O	O
 une	un	DET	O	O	O
 alarmiste	alarmiste	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -116,7 +116,7 @@ Il	il	PRON	O	O	O
 se	se	PRON	O	O	O
 prend	prendre	VERB	O	O	O
 au	au	ADP	O	O	O
-sérieux	sérieux	ADJ	O	O	O
+sérieux	sérieux	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 entend	entendre	VERB	O	O	O
 qu'	que	SCONJ	O	O	O
@@ -129,12 +129,12 @@ prenne	prendre	VERB	O	O	O
 Au	au	ADP	O	O	O
 dernier	dernier	ADJ	O	O	O
 rendez	rendez	NOUN	O	O	O
--	-	PUNCT	O	O	O
-vous	vous	PRON	O	O	O
+-	-	NOUN	O	O	O
+vous	vou	NOUN	O	O	O
 scientifique	scientifique	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-Royale	royale	NOUN	O	O	O
+Royale	royal	ADJ	O	O	O
 Institution	institution	NOUN	O	O	O
 de	de	ADP	O	O	O
 Londres	londres	PROPN	O	O	O
@@ -154,10 +154,10 @@ est	être	AUX	O	O	O
 la	le	DET	O	O	O
 vérité	vérité	NOUN	O	O	O
 navrante	navrant	ADJ	O	O	O
-que	que	SCONJ	O	O	O
+que	que	PRON	O	O	O
 le	le	DET	O	O	O
 monde	monde	NOUN	O	O	O
-finira	finira	ADJ	O	O	O
+finira	finir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
@@ -165,7 +165,7 @@ ne	ne	ADV	O	O	O
 nous	nous	PRON	O	O	O
 pressons	presser	VERB	O	O	O
 pas	pas	ADV	O	O	O
-de	de	DET	O	O	O
+de	de	ADP	O	O	O
 nous	nous	PRON	O	O	O
 désoler	désoler	VERB	O	O	O
 .	.	PUNCT	O	O	O
@@ -197,7 +197,7 @@ années	année	NOUN	O	O	O
 L'	le	DET	O	O	O
 excellent	excellent	ADJ	O	O	O
 Thompson	thompson	PROPN	O	O	O
-esquire	esquir	ADJ	O	O	O
+esquire	esquire	VERB	O	O	O
 a	avoir	VERB	O	O	O
 ses	son	DET	O	O	O
 raisons	raison	NOUN	O	O	O
@@ -207,23 +207,24 @@ en	en	PRON	O	O	O
 convaincu	convaincre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-Tenez	tenez	NOUN	O	O	O
--	-	PUNCT	O	O	O
+Tenez	tenir	VERB	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 absolument	absolument	ADV	O	O	O
 à	à	ADP	O	O	O
-les	le	DET	O	O	O
+les	le	PRON	O	O	O
 connaître	connaître	VERB	O	O	O
 ?	?	PUNCT	O	O	O
 
-Essayez	essayez	PROPN	O	O	O
+Essayez	essayer	VERB	O	O	O
 de	de	ADP	O	O	O
 comprendre	comprendre	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 Il	il	PRON	O	O	O
 estime	estime	VERB	O	O	O
 avec	avec	ADP	O	O	O
-Helmholtz	helmholtz	NOUN	O	O	O
+Helmholtz	helmholtz	PROPN	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
 soleil	soleil	NOUN	O	O	O
@@ -237,11 +238,11 @@ de	de	ADP	O	O	O
 se	se	PRON	O	O	O
 refroidir	refroidir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-c'	ce	PRON	O	O	O
-est	est	ADV	O	O	O
--	-	PUNCT	O	O	O
-à	à	ADV	O	O	O
--	-	PUNCT	O	O	O
+c'	ce	ADP	O	O	O
+est	est	CCONJ	O	O	O
+-	-	ADV	O	O	O
+à	à	ADP	O	O	O
+-	-	ADV	O	O	O
 dire	dire	ADV	O	O	O
 de	de	ADP	O	O	O
 se	se	PRON	O	O	O
@@ -283,7 +284,7 @@ solaire	solaire	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 ajoute	ajouter	VERB	O	O	O
 le	le	DET	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	NOUN	O	O	O
 M.	m.	NOUN	O	O	O
 Thompson	thompson	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -306,25 +307,25 @@ de	de	ADP	O	O	O
 millions	million	NOUN	O	O	O
 de	de	ADP	O	O	O
 chevaux	cheval	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 vapeur	vapeur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 soit	soit	ADV	O	O	O
 environ	environ	ADV	O	O	O
 78,000	78,000	NUM	O	O	O
 chevaux	cheval	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 vapeur	vapeur	NOUN	O	O	O
 par	par	ADP	O	O	O
 mètre	mètre	NOUN	O	O	O
-carré	carré	X	O	O	O
+carré	carré	NOUN	O	O	O
 superficiel	superficiel	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 photosphère	photosphère	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Si	si	SCONJ	O	O	O
+Si	si	ADV	O	O	O
 énormes	énorme	ADJ	O	O	O
 que	que	PRON	O	O	O
 nous	nous	PRON	O	O	O
@@ -338,7 +339,7 @@ dynamique	dynamique	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 chaleur	chaleur	NOUN	O	O	O
-montre	montr	ADJ	O	O	O
+montre	montre	VERB	O	O	O
 qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 doit	devoir	VERB	O	O	O
@@ -380,18 +381,17 @@ se	se	PRON	O	O	O
 raccourcit	raccourcir	VERB	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
-centième	centième	NOUN	O	O	O
+centième	centième	ADJ	O	O	O
 environ	environ	ADV	O	O	O
 en	en	ADP	O	O	O
-deux	deux	NUM	O	O	O
-mille	mille	NUM	O	O	O
+deux	deux	DET	O	O	O
+mille	mille	DET	O	O	O
 ans	an	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Ah	ah	PUNCT	O	O	O
+Ah	ah	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
-zut	zut	NOUN	O	O	O
+zut	zut	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 Je	je	PRON	O	O	O
@@ -399,11 +399,11 @@ lâche	lâche	VERB	O	O	O
 l'	le	DET	O	O	O
 excellent	excellent	ADJ	O	O	O
 Thompson	thompson	PROPN	O	O	O
-esquire	esquir	ADJ	O	O	O
+esquire	esquire	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 devient	devenir	VERB	O	O	O
-rasant	raser	VERB	O	O	O
+rasant	rasant	ADJ	O	O	O
 avec	avec	ADP	O	O	O
 ses	son	DET	O	O	O
 calculs	calcul	NOUN	O	O	O
@@ -412,7 +412,7 @@ calculs	calcul	NOUN	O	O	O
 Je	je	PRON	O	O	O
 m'	me	PRON	O	O	O
 en	en	PRON	O	O	O
-tiens	tien	NOUN	O	O	O
+tiens	tenir	VERB	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
 total	total	NOUN	O	O	O
@@ -426,13 +426,13 @@ années	année	NOUN	O	O	O
 
 Ce	ce	DET	O	O	O
 chiffre	chiffre	NOUN	O	O	O
-colossal	colossal	ADV	O	O	O
+colossal	colossal	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 vous	vous	PRON	O	O	O
-le	le	DET	O	O	O
-cache	cache	NOUN	O	O	O
+le	le	PRON	O	O	O
+cache	cache	VERB	O	O	O
 pas	pas	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 m'	me	PRON	O	O	O
@@ -448,25 +448,26 @@ mis	mettre	VERB	O	O	O
 à	à	ADP	O	O	O
 penser	penser	VERB	O	O	O
 :	:	PUNCT	O	O	O
-—	—	CCONJ	O	O	O
+
+—	—	PUNCT	O	O	O
 Avant	avant	ADP	O	O	O
 d'	de	ADP	O	O	O
 arriver	arriver	VERB	O	O	O
 à	à	ADP	O	O	O
 ce	ce	DET	O	O	O
-suprême	suprême	NOUN	O	O	O
-débarcadère	débarcadèr	ADJ	O	O	O
+suprême	suprême	ADJ	O	O	O
+débarcadère	débarcadère	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 par	par	ADP	O	O	O
 quelles	quel	DET	O	O	O
 étapes	étape	NOUN	O	O	O
 la	le	DET	O	O	O
-pauvre	pauvre	NOUN	O	O	O
+pauvre	pauvre	ADJ	O	O	O
 humanité	humanité	NOUN	O	O	O
-aura	avoir	VERB	O	O	O
--	-	PUNCT	O	O	O
-t	t	NOUN	O	O	O
--	-	PUNCT	O	O	O
+aura	avoir	AUX	O	O	O
+-	-	PRON	O	O	O
+t	t	PRON	O	O	O
+-	-	PRON	O	O	O
 elle	lui	PRON	O	O	O
 passé	passer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -474,11 +475,13 @@ mon	mon	DET	O	O	O
 Dieu	dieu	PROPN	O	O	O
 ?	?	PUNCT	O	O	O
 
-Quelles	quel	DET	O	O	O
+Quelles	quelle	ADJ	O	O	O
 pourront	pouvoir	VERB	O	O	O
 bien	bien	ADV	O	O	O
+
 être	être	AUX	O	O	O
 ,	,	PUNCT	O	O	O
+
 pendant	pendant	ADP	O	O	O
 ces	ce	DET	O	O	O
 dix	dix	NUM	O	O	O
@@ -489,7 +492,7 @@ qui	qui	PRON	O	O	O
 lui	luire	PRON	O	O	O
 restent	rester	VERB	O	O	O
 à	à	ADP	O	O	O
-vivre	vivre	NOUN	O	O	O
+vivre	vivre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 évolutions	évolution	NOUN	O	O	O
@@ -511,7 +514,7 @@ arts	art	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
-voilà	voilà	VERB	O	O	O
+voilà	voilà	PRON	O	O	O
 que	que	SCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 m'	me	PRON	O	O	O
@@ -538,7 +541,7 @@ faisais	faire	VERB	O	O	O
 des	un	DET	O	O	O
 réponses	réponse	NOUN	O	O	O
 bien	bien	ADV	O	O	O
-étranges	étrange	NOUN	O	O	O
+étranges	étrange	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 par	par	ADP	O	O	O
 ma	mon	DET	O	O	O
@@ -548,12 +551,12 @@ foi	foi	NOUN	O	O	O
 La	le	DET	O	O	O
 politique	politique	NOUN	O	O	O
 d'	de	ADP	O	O	O
-abord	abord	ADV	O	O	O
+abord	abord	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Combien	combien	ADV	O	O	O
-croyez	croire	ADJ	O	O	O
--	-	PUNCT	O	O	O
+croyez	croire	VERB	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 qu'	que	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
@@ -562,12 +565,12 @@ engendré	engendrer	VERB	O	O	O
 d'	de	ADP	O	O	O
 ici	ici	ADV	O	O	O
 là	là	ADV	O	O	O
-de	de	ADP	O	O	O
+de	de	DET	O	O	O
 révolutions	révolution	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 Combien	combien	ADV	O	O	O
-de	de	DET	O	O	O
+de	de	ADP	O	O	O
 guerres	guerre	NOUN	O	O	O
 civiles	civil	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
@@ -584,7 +587,7 @@ démolis	démolir	VERB	O	O	O
 Combien	combien	ADV	O	O	O
 de	de	ADP	O	O	O
 problèmes	problème	NOUN	O	O	O
-soidisant	soidiser	VERB	O	O	O
+soidisant	soidisant	ADV	O	O	O
 résolus	résoudre	VERB	O	O	O
 la	le	DET	O	O	O
 veille	veille	NOUN	O	O	O
@@ -602,8 +605,8 @@ sang	sang	NOUN	O	O	O
 versé	verser	VERB	O	O	O
 et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
-querelles	querelle	DET	O	O	O
-stériles	stérile	NOUN	O	O	O
+querelles	querelle	NOUN	O	O	O
+stériles	stérile	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
 
 Combien	combien	ADV	O	O	O
@@ -626,7 +629,7 @@ grands	grand	ADJ	O	O	O
 mots	mot	NOUN	O	O	O
 pris	prendre	VERB	O	O	O
 pour	pour	ADP	O	O	O
-de	de	ADP	O	O	O
+de	de	DET	O	O	O
 grands	grand	ADJ	O	O	O
 remèdes	remède	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
@@ -644,8 +647,8 @@ peuple	peuple	NOUN	O	O	O
 
 Combien	combien	ADV	O	O	O
 de	de	ADP	O	O	O
-souverains	souverain	ADJ	O	O	O
-morts	mort	NOUN	O	O	O
+souverains	souverain	NOUN	O	O	O
+morts	mort	ADJ	O	O	O
 en	en	ADP	O	O	O
 exil	exil	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
@@ -653,11 +656,11 @@ exil	exil	NOUN	O	O	O
 O	o	NOUN	O	O	O
 Pénélope	pénélope	PROPN	O	O	O
 aux	à	ADP	O	O	O
-perpétuels	perpétuel	NOUN	O	O	O
-recommencements	recommencement	ADJ	O	O	O
+perpétuels	perpétuel	ADJ	O	O	O
+recommencements	recommencement	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-O	o	NOUN	O	O	O
+O	o	ADJ	O	O	O
 écureuil	écureuil	NOUN	O	O	O
 humain	humain	ADJ	O	O	O
 tournant	tourner	VERB	O	O	O
@@ -674,7 +677,7 @@ rotation	rotation	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 place	place	NOUN	O	O	O
 pour	pour	ADP	O	O	O
-du	de	ADP	O	O	O
+du	de	DET	O	O	O
 progrès	progrès	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -686,11 +689,14 @@ les	le	DET	O	O	O
 lettres	lettre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Quelles	quel	DET	O	O	O
+Quelles	quelle	ADJ	O	O	O
 pourront	pouvoir	VERB	O	O	O
 bien	bien	ADV	O	O	O
+
 être	être	AUX	O	O	O
+
 ,	,	PUNCT	O	O	O
+
 dans	dans	ADP	O	O	O
 cinq	cinq	NUM	O	O	O
 millions	million	NOUN	O	O	O
@@ -724,7 +730,7 @@ romans	roman	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 Nous	nous	PRON	O	O	O
-sommes	être	AUX	O	O	O
+sommes	être	VERB	O	O	O
 déjà	déjà	ADV	O	O	O
 au	au	ADP	O	O	O
 bout	bout	NOUN	O	O	O
@@ -736,24 +742,23 @@ et	et	CCONJ	O	O	O
 depuis	depuis	ADP	O	O	O
 longtemps	longtemps	ADV	O	O	O
 .	.	PUNCT	O	O	O
-
-Tout	tout	ADV	O	O	O
+Tout	tout	PRON	O	O	O
 a	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 dit	dire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-tout	tout	ADV	O	O	O
+tout	tout	PRON	O	O	O
 a	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 fait	faire	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-Tout	tout	ADV	O	O	O
+Tout	tout	PRON	O	O	O
 a	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 redit	redire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-tout	tout	ADV	O	O	O
+tout	tout	PRON	O	O	O
 a	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 refait	refaire	VERB	O	O	O
@@ -784,24 +789,24 @@ en	en	PRON	O	O	O
 aura	avoir	AUX	O	O	O
 passé	passer	VERB	O	O	O
 par	par	ADP	O	O	O
-là	là	NOUN	O	O	O
--	-	PUNCT	O	O	O
-dessus	dessus	NOUN	O	O	O
-des	de	ADP	O	O	O
+là	là	ADV	O	O	O
+-	-	ADV	O	O	O
+dessus	dessus	ADV	O	O	O
+des	un	DET	O	O	O
 centaines	centaine	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 centaines	centaine	NOUN	O	O	O
 de	de	ADP	O	O	O
-mille	mille	NOUN	O	O	O
+mille	mille	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
 me	me	PRON	O	O	O
 demande	demande	VERB	O	O	O
 où	où	ADV	O	O	O
 un	un	DET	O	O	O
-infortuné	infortuné	NOUN	O	O	O
-vaudevilliste	vaudevillist	ADJ	O	O	O
+infortuné	infortuné	ADJ	O	O	O
+vaudevilliste	vaudevilliste	NOUN	O	O	O
 pourra	pouvoir	VERB	O	O	O
 aller	aller	VERB	O	O	O
 chercher	chercher	VERB	O	O	O
@@ -809,7 +814,7 @@ un	un	DET	O	O	O
 prétexte	prétexte	NOUN	O	O	O
 inédit	inédit	ADJ	O	O	O
 pour	pour	ADP	O	O	O
-marier	marier	ADJ	O	O	O
+marier	marier	VERB	O	O	O
 Joséphine	joséphine	PROPN	O	O	O
 avec	avec	ADP	O	O	O
 Albert	albert	PROPN	O	O	O
@@ -819,9 +824,9 @@ Je	je	PRON	O	O	O
 me	me	PRON	O	O	O
 demande	demande	VERB	O	O	O
 encore	encore	ADV	O	O	O
-où	où	PRON	O	O	O
+où	où	ADV	O	O	O
 les	le	DET	O	O	O
-Ohnet	ohnet	PROPN	O	O	O
+Ohnet	ohnet	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 Dumas	dumas	PROPN	O	O	O
@@ -833,11 +838,11 @@ qui	qui	PRON	O	O	O
 ne	ne	ADV	O	O	O
 soient	être	AUX	O	O	O
 pas	pas	ADV	O	O	O
-rabâchage	rabâchage	ADV	O	O	O
+rabâchage	rabâchage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 où	où	PRON	O	O	O
 les	le	DET	O	O	O
-Dennery	dennery	PROPN	O	O	O
+Dennery	dennery	NOUN	O	O	O
 prendront	prendre	VERB	O	O	O
 l'	le	DET	O	O	O
 accessoire	accessoire	NOUN	O	O	O
@@ -845,7 +850,7 @@ professionnel	professionnel	ADJ	O	O	O
 qui	qui	PRON	O	O	O
 remplacera	remplacer	VERB	O	O	O
 la	le	DET	O	O	O
-croix	croix	PROPN	O	O	O
+croix	croix	NOUN	O	O	O
 de	de	ADP	O	O	O
 ma	mon	DET	O	O	O
 mère	mère	NOUN	O	O	O
@@ -855,7 +860,7 @@ Et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 livres	livre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-juste	juste	ADV	O	O	O
+juste	juste	ADJ	O	O	O
 ciel	ciel	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -863,7 +868,7 @@ Dans	dans	ADP	O	O	O
 quelle	quel	DET	O	O	O
 bibliothèque	bibliothèque	NOUN	O	O	O
 pourrait	pouvoir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 on	on	PRON	O	O	O
 les	le	PRON	O	O	O
 loger	loger	VERB	O	O	O
@@ -920,28 +925,27 @@ augmenter	augmenter	VERB	O	O	O
 toujours	toujours	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
-SPACE	O	O	O
-Auquel	auquel	NOUN	O	O	O
+Auquel	auquel	ADP	O	O	O
 cas	cas	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 on	on	PRON	O	O	O
 sera	être	AUX	O	O	O
 bien	bien	ADV	O	O	O
-obligé	obliger	ADJ	O	O	O
+obligé	obliger	VERB	O	O	O
 de	de	ADP	O	O	O
 prendre	prendre	VERB	O	O	O
 des	un	DET	O	O	O
 mesures	mesure	NOUN	O	O	O
 coercitives	coercitif	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-répressives	répressive	NOUN	O	O	O
+répressives	répressif	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 De	de	ADP	O	O	O
 même	même	ADV	O	O	O
 qu'	que	SCONJ	O	O	O
 à	à	ADP	O	O	O
-présent	présent	NOUN	O	O	O
+présent	présent	ADV	O	O	O
 les	le	DET	O	O	O
 préfets	préfet	NOUN	O	O	O
 sont	être	AUX	O	O	O
@@ -956,12 +960,12 @@ arrêté	arrêté	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 l'	le	DET	O	O	O
 é	é	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 chenillage	chenillage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 vous	vous	PRON	O	O	O
 verrez	voir	VERB	O	O	O
-—	—	DET	O	O	O
+—	—	PUNCT	O	O	O
 ou	ou	CCONJ	O	O	O
 plutôt	plutôt	ADV	O	O	O
 ce	ce	PRON	O	O	O
@@ -971,7 +975,7 @@ autres	autre	ADJ	O	O	O
 qui	qui	PRON	O	O	O
 le	le	PRON	O	O	O
 verront	voir	VERB	O	O	O
-—	—	VERB	O	O	O
+—	—	PUNCT	O	O	O
 que	que	SCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
@@ -1002,16 +1006,16 @@ dans	dans	ADP	O	O	O
 cette	ce	DET	O	O	O
 catégorie	catégorie	NOUN	O	O	O
 seront	être	AUX	O	O	O
-compris	compris	ADJ	O	O	O
+compris	comprendre	VERB	O	O	O
 les	le	DET	O	O	O
 neuf	neuf	NUM	O	O	O
 cent	cent	NUM	O	O	O
 quatre	quatre	NUM	O	O	O
--	-	PUNCT	O	O	O
-vingt	vingt	NOUN	O	O	O
--	-	PUNCT	O	O	O
-dix	dix	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NUM	O	O	O
+vingt	vingt	NUM	O	O	O
+-	-	NUM	O	O	O
+dix	dix	NUM	O	O	O
+-	-	NUM	O	O	O
 neuf	neuf	NUM	O	O	O
 centièmes	centième	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1053,7 +1057,7 @@ un	un	DET	O	O	O
 coup	coup	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Ouf	ouf	DET	O	O	O
+Ouf	ouf	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 Quel	quel	DET	O	O	O
@@ -1076,18 +1080,18 @@ de	de	ADP	O	O	O
 l'	le	DET	O	O	O
 excellent	excellent	ADJ	O	O	O
 Thompson	thompson	PROPN	O	O	O
-esquire	esquir	ADJ	O	O	O
+esquire	esquire	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Allez	aller	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 y	y	PRON	O	O	O
 vous	vous	PRON	O	O	O
-même	même	ADV	O	O	O
+même	même	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
-Lancez	lancez	PROPN	O	O	O
--	-	PUNCT	O	O	O
+Lancez	lancer	VERB	O	O	O
+-	-	PRON	O	O	O
 vous	vous	PRON	O	O	O
 à	à	ADP	O	O	O
 travers	travers	NOUN	O	O	O
@@ -1105,14 +1109,14 @@ notre	notre	DET	O	O	O
 vieille	vieux	ADJ	O	O	O
 terre	terre	NOUN	O	O	O
 déjà	déjà	ADV	O	O	O
-si	si	SCONJ	O	O	O
+si	si	ADV	O	O	O
 usée	user	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 notre	notre	DET	O	O	O
 race	race	NOUN	O	O	O
 déjà	déjà	ADV	O	O	O
-abâtardie	abâtardie	NOUN	O	O	O
+abâtardie	abâtardir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Je	je	PRON	O	O	O

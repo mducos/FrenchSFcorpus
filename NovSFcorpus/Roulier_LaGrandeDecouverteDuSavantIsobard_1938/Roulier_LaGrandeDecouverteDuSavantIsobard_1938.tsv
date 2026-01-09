@@ -5,9 +5,9 @@ création	création	NOUN	O	O	O
 de	de	ADP	O	O	O
 nouvelles	nouveau	ADJ	O	O	O
 stations	station	NOUN	O	O	O
-météorologiques	météorologiquer	VERB	O	O	O
+météorologiques	météorologique	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-spécialement	spécialemer	VERB	O	O	O
+spécialement	spécialement	ADV	O	O	O
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
 Ouest	ouest	PROPN	O	O	O
@@ -31,6 +31,7 @@ télégraphie	télégraphie	NOUN	O	O	O
 sans	sans	ADP	O	O	O
 fil	fil	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 grâce	grâce	NOUN	O	O	O
 aux	aux	DET	O	O	O
 communications	communication	NOUN	O	O	O
@@ -46,6 +47,7 @@ des	un	DET	O	O	O
 distances	distance	NOUN	O	O	O
 fantastiques	fantastique	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 grâce	grâce	NOUN	O	O	O
 aux	aux	DET	O	O	O
 cartes	carte	NOUN	O	O	O
@@ -65,20 +67,20 @@ on	on	PRON	O	O	O
 était	être	AUX	O	O	O
 arrivé	arriver	VERB	O	O	O
 à	à	ADP	O	O	O
-prédire	prédir	ADJ	O	O	O
+prédire	prédire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 avec	avec	ADP	O	O	O
 un	un	DET	O	O	O
 très	très	ADV	O	O	O
 haut	haut	ADJ	O	O	O
-degré	degré	PROPN	O	O	O
+degré	degré	NOUN	O	O	O
 de	de	ADP	O	O	O
 probabilité	probabilité	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 temps	temps	NOUN	O	O	O
 vingt	vingt	NUM	O	O	O
--	-	PUNCT	O	O	O
+-	-	NUM	O	O	O
 quatre	quatre	NUM	O	O	O
 heures	heure	NOUN	O	O	O
 à	à	ADP	O	O	O
@@ -90,7 +92,7 @@ M.	m.	NOUN	O	O	O
 Isobard	isobard	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	ADJ	O	O	O
 astronome	astronome	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
@@ -126,7 +128,7 @@ d'	de	ADP	O	O	O
 études	étude	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
-patientes	patient	NOUN	O	O	O
+patientes	patient	ADJ	O	O	O
 observations	observation	NOUN	O	O	O
 personnelles	personnel	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -147,7 +149,7 @@ c'	ce	PRON	O	O	O
 est	être	VERB	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	NOUN	O	O	O
 avait	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 mis	mettre	VERB	O	O	O
@@ -159,8 +161,8 @@ sa	son	DET	O	O	O
 découverte	découverte	NOUN	O	O	O
 par	par	ADP	O	O	O
 les	le	DET	O	O	O
-remarquables	remarquable	NOUN	O	O	O
-travaux	traval	ADJ	O	O	O
+remarquables	remarquable	ADJ	O	O	O
+travaux	travail	NOUN	O	O	O
 de	de	ADP	O	O	O
 M.	m.	NOUN	O	O	O
 Guilbert	guilbert	PROPN	O	O	O
@@ -200,8 +202,8 @@ sur	sur	ADP	O	O	O
 la	le	DET	O	O	O
 notion	notion	NOUN	O	O	O
 du	de	ADP	O	O	O
-«	«	PROPN	O	O	O
-Vent	vent	ADV	O	O	O
+«	«	PUNCT	O	O	O
+Vent	vent	NOUN	O	O	O
 normal	normal	ADJ	O	O	O
 »	»	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
@@ -211,9 +213,9 @@ est	être	AUX	O	O	O
 en	en	ADP	O	O	O
 poussant	pousser	VERB	O	O	O
 plus	plus	ADV	O	O	O
-avant	avant	ADP	O	O	O
+avant	avant	ADV	O	O	O
 le	le	DET	O	O	O
-sillon	sillon	ADP	O	O	O
+sillon	sillon	NOUN	O	O	O
 creusé	creuser	VERB	O	O	O
 par	par	ADP	O	O	O
 M.	m.	NOUN	O	O	O
@@ -222,14 +224,14 @@ que	que	SCONJ	O	O	O
 notre	notre	DET	O	O	O
 désormais	désormais	ADV	O	O	O
 célèbre	célèbre	ADJ	O	O	O
-météorologiste	météorologist	ADJ	O	O	O
-en	en	ADP	O	O	O
+météorologiste	météorologiste	NOUN	O	O	O
+en	en	PRON	O	O	O
 arriva	arriver	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
-«	«	NOUN	O	O	O
-certitude	certitude	VERB	O	O	O
-absolue	absolu	VERB	O	O	O
+«	«	PUNCT	O	O	O
+certitude	certitude	NOUN	O	O	O
+absolue	absolu	ADJ	O	O	O
 »	»	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
@@ -264,7 +266,7 @@ se	se	PRON	O	O	O
 faisait	faire	VERB	O	O	O
 fort	fort	ADV	O	O	O
 de	de	ADP	O	O	O
-prédire	prédir	ADJ	B-NOV	O	O
+prédire	prédire	VERB	B-NOV	O	O
 le	le	DET	I-NOV	O	O
 temps	temps	NOUN	I-NOV	O	O
 ,	,	PUNCT	O	O	O
@@ -285,7 +287,7 @@ de	de	ADP	O	O	O
 M.	m.	NOUN	O	O	O
 Isobard	isobard	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-reproduit	reproduit	NOUN	O	O	O
+reproduit	reproduire	VERB	O	O	O
 par	par	ADP	O	O	O
 tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
@@ -308,7 +310,7 @@ nombre	nombre	NOUN	O	O	O
 ce	ce	PRON	O	O	O
 n'	ne	ADV	O	O	O
 était	être	AUX	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 un	un	DET	O	O	O
 Major	major	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -316,8 +318,11 @@ plus	plus	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
 prophète	prophète	NOUN	O	O	O
-dont	dont	PRON	O	O	O
+
+dont	dont	PROPN	O	O	O
+
 les	le	DET	O	O	O
+
 vaticinations	vaticination	NOUN	O	O	O
 nuageuses	nuageux	ADJ	O	O	O
 (	(	PUNCT	O	O	O
@@ -347,22 +352,22 @@ suivre	suivre	VERB	O	O	O
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
 oubli	oubli	NOUN	O	O	O
-celui	celui	ADJ	O	O	O
+celui	celui	PRON	O	O	O
 de	de	ADP	O	O	O
 ses	son	DET	O	O	O
-innombrables	innombrable	NOUN	O	O	O
-devanciers	devancier	ADJ	O	O	O
+innombrables	innombrable	ADJ	O	O	O
+devanciers	devancier	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Pour	pour	ADP	O	O	O
 d'	de	DET	O	O	O
-autres	autre	ADJ	O	O	O
+autres	autre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
-solide	solide	NOUN	O	O	O
+solide	solide	ADJ	O	O	O
 réputation	réputation	NOUN	O	O	O
 du	de	ADP	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	ADJ	O	O	O
 Isobard	isobard	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
@@ -389,8 +394,8 @@ découverte	découverte	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 si	si	SCONJ	O	O	O
 le	le	DET	O	O	O
-distingué	distingué	NOUN	O	O	O
-météorologiste	météorologist	ADJ	O	O	O
+distingué	distingué	ADJ	O	O	O
+météorologiste	météorologiste	NOUN	O	O	O
 avait	avoir	AUX	O	O	O
 cru	croire	VERB	O	O	O
 bon	bon	ADJ	O	O	O
@@ -398,9 +403,9 @@ de	de	ADP	O	O	O
 faire	faire	AUX	O	O	O
 connaître	connaître	VERB	O	O	O
 le	le	DET	O	O	O
-merveilleux	merveilleux	NOUN	O	O	O
+merveilleux	merveilleux	ADJ	O	O	O
 résultat	résultat	NOUN	O	O	O
-auquel	auquel	ADJ	O	O	O
+auquel	auquel	PRON	O	O	O
 il	il	PRON	O	O	O
 était	être	AUX	O	O	O
 arrivé	arriver	VERB	O	O	O
@@ -425,7 +430,7 @@ tout	tout	ADV	O	O	O
 le	le	DET	O	O	O
 moins	moins	ADV	O	O	O
 lui	luire	PRON	O	O	O
-faire	faire	AUX	O	O	O
+faire	faire	VERB	O	O	O
 crédit	crédit	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -441,9 +446,9 @@ mon	mon	DET	O	O	O
 avis	avis	NOUN	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-avisés	aviser	VERB	O	O	O
+avisés	avisé	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-attendaient	attendaient	NOUN	O	O	O
+attendaient	attendre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 avant	avant	ADP	O	O	O
 de	de	ADP	O	O	O
@@ -457,11 +462,11 @@ l'	le	DET	O	O	O
 oeuvre	oeuvre	NOUN	O	O	O
 le	le	DET	O	O	O
 nouveau	nouveau	ADJ	O	O	O
-prophète	prophèt	ADJ	O	O	O
+prophète	prophète	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Celui	celui	PROPN	O	O	O
--	-	PUNCT	O	O	O
+Celui	celui	PRON	O	O	O
+-	-	PRON	O	O	O
 ci	ci	PRON	O	O	O
 ne	ne	ADV	O	O	O
 tarda	tarder	VERB	O	O	O
@@ -488,10 +493,10 @@ du	de	ADP	O	O	O
 31	31	NUM	O	O	O
 mai	mai	NOUN	O	O	O
 du	de	ADP	O	O	O
-Bulletin	bulletin	PROPN	O	O	O
+Bulletin	bulletin	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
-fit	faire	VERB	O	O	O
+fit	faire	AUX	O	O	O
 connaître	connaître	VERB	O	O	O
 le	le	DET	O	O	O
 temps	temps	NOUN	O	O	O
@@ -507,7 +512,7 @@ jour	jour	NOUN	O	O	O
 du	de	ADP	O	O	O
 1er	premier	ADJ	O	O	O
 au	au	ADP	O	O	O
-30	30	NUM	O	O	O
+30	30	PRON	O	O	O
 !	!	PUNCT	O	O	O
 
 Pour	pour	ADP	O	O	O
@@ -524,8 +529,8 @@ pluie	pluie	NOUN	O	O	O
 
 Ce	ce	DET	O	O	O
 jour	jour	NOUN	O	O	O
--	-	PUNCT	O	O	O
-là	là	ADV	O	O	O
+-	-	NOUN	O	O	O
+là	là	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 effet	effet	NOUN	O	O	O
@@ -539,14 +544,14 @@ faire	faire	AUX	O	O	O
 croire	croire	VERB	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
-Créateur	créateur	PROPN	O	O	O
+Créateur	créateur	NOUN	O	O	O
 avait	avoir	AUX	O	O	O
 oublié	oublier	VERB	O	O	O
 la	le	DET	O	O	O
 promesse	promesse	NOUN	O	O	O
 faite	faire	VERB	O	O	O
 à	à	ADP	O	O	O
-Noé	noé	ADV	O	O	O
+Noé	noé	PROPN	O	O	O
 au	au	ADP	O	O	O
 sortir	sortir	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -579,7 +584,7 @@ est	être	VERB	O	O	O
 besoin	besoin	NOUN	O	O	O
 d'	de	ADP	O	O	O
 être	être	AUX	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	ADJ	O	O	O
 pour	pour	ADP	O	O	O
 en	en	PRON	O	O	O
 faire	faire	VERB	O	O	O
@@ -603,6 +608,7 @@ réunis	réunir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 hier	hier	ADV	O	O	O
 ;	;	PUNCT	O	O	O
+
 il	il	PRON	O	O	O
 suffisait	suffire	VERB	O	O	O
 d'	de	ADP	O	O	O
@@ -614,7 +620,7 @@ yeux	oeil	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 Encore	encore	ADV	O	O	O
 fallait	falloir	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 savoir	savoir	VERB	O	O	O
 qu'	que	SCONJ	O	O	O
@@ -631,9 +637,9 @@ du	de	ADP	O	O	O
 prophète	prophète	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Celui	celui	NOUN	O	O	O
--	-	PUNCT	O	O	O
-ci	ci	NOUN	O	O	O
+Celui	celui	PRON	O	O	O
+-	-	PRON	O	O	O
+ci	ci	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 avait	avoir	AUX	O	O	O
@@ -661,16 +667,18 @@ levèrent	lever	VERB	O	O	O
 les	le	DET	O	O	O
 épaules	épaule	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-—	—	PRON	O	O	O
+
+—	—	PUNCT	O	O	O
 C'	ce	PRON	O	O	O
 était	être	AUX	O	O	O
 à	à	ADP	O	O	O
 prévoir	prévoir	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
-dirent	dirent	NOUN	O	O	O
--	-	PUNCT	O	O	O
+dirent	dire	VERB	O	O	O
+-	-	PRON	O	O	O
 ils	il	PRON	O	O	O
+
 .	.	PUNCT	O	O	O
 
 Pour	pour	ADP	O	O	O
@@ -679,12 +687,12 @@ le	le	DET	O	O	O
 ,	,	PUNCT	O	O	O
 Isobard	isobard	PROPN	O	O	O
 certifiait	certifier	VERB	O	O	O
-qu'	que	PRON	O	O	O
+qu'	que	SCONJ	O	O	O
 on	on	PRON	O	O	O
-aurait	avoir	AUX	O	O	O
+aurait	avoir	VERB	O	O	O
 le	le	DET	O	O	O
-beau	beau	NOUN	O	O	O
-temps	temps	ADV	O	O	O
+beau	beau	ADJ	O	O	O
+temps	temps	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Sa	son	DET	O	O	O
@@ -726,24 +734,24 @@ jour	jour	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 quelques	quelque	DET	O	O	O
 paysans	paysan	NOUN	O	O	O
-avisés	aviser	VERB	O	O	O
+avisés	avisé	ADJ	O	O	O
 ou	ou	CCONJ	O	O	O
 simplement	simplement	ADV	O	O	O
 plus	plus	ADV	O	O	O
 crédules	crédule	ADJ	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
-autres	autre	ADJ	O	O	O
+autres	autre	PRON	O	O	O
 avaient	avoir	AUX	O	O	O
 résolu	résoudre	VERB	O	O	O
 de	de	ADP	O	O	O
 tirer	tirer	VERB	O	O	O
-parti	partir	VERB	O	O	O
+parti	parti	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 découverte	découverte	NOUN	O	O	O
 du	de	ADP	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 effectuer	effectuer	VERB	O	O	O
 la	le	DET	O	O	O
@@ -773,9 +781,9 @@ intempestives	intempestif	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 jamais	jamais	ADV	O	O	O
-foin	foin	ADV	O	O	O
+foin	foin	NOUN	O	O	O
 plus	plus	ADV	O	O	O
-parfumé	parfumer	VERB	O	O	O
+parfumé	parfumer	ADJ	O	O	O
 ne	ne	ADV	O	O	O
 s'	se	PRON	O	O	O
 entassa	entasser	VERB	O	O	O
@@ -787,7 +795,7 @@ granges	grange	NOUN	O	O	O
 Les	le	DET	O	O	O
 quatrième	quatrième	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-cinquième	cinquième	VERB	O	O	O
+cinquième	cinquième	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 sixième	sixième	ADJ	O	O	O
 jours	jour	NOUN	O	O	O
@@ -798,14 +806,14 @@ les	le	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 prévus	prévoir	VERB	O	O	O
 le	le	DET	O	O	O
-fameux	fameu	NOUN	O	O	O
-météorologiste	météorologist	ADJ	O	O	O
+fameux	fameux	ADJ	O	O	O
+météorologiste	météorologiste	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
 railleurs	railleur	NOUN	O	O	O
 impénitents	impénitent	ADJ	O	O	O
-parlèrent	parler	ADV	O	O	O
+parlèrent	parler	VERB	O	O	O
 bien	bien	ADV	O	O	O
 encore	encore	ADV	O	O	O
 de	de	ADP	O	O	O
@@ -813,32 +821,33 @@ hasard	hasard	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 coïncidences	coïncidence	NOUN	O	O	O
-curieuses	curieux	NOUN	O	O	O
+curieuses	curieux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 on	on	PRON	O	O	O
 les	le	PRON	O	O	O
-sentait	sentait	NOUN	O	O	O
-ébranlés	ébranler	ADJ	O	O	O
+sentait	sentir	VERB	O	O	O
+ébranlés	ébranler	VERB	O	O	O
 eux	lui	PRON	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 mêmes	même	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 discutant	discuter	VERB	O	O	O
 par	par	ADP	O	O	O
 amour	amour	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 propre	propre	ADJ	O	O	O
 plus	plus	ADV	O	O	O
 que	que	SCONJ	O	O	O
 par	par	ADP	O	O	O
 conviction	conviction	NOUN	O	O	O
 …	…	PUNCT	O	O	O
+
 Le	le	DET	O	O	O
 nombre	nombre	NOUN	O	O	O
 des	de	ADP	O	O	O
 croyants	croyant	NOUN	O	O	O
-augmentait	augmenter	ADP	O	O	O
+augmentait	augmenter	VERB	O	O	O
 chaque	chaque	DET	O	O	O
 jour	jour	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -868,7 +877,7 @@ trouvé	trouver	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
-savant	saver	VERB	O	O	O
+savant	savant	NOUN	O	O	O
 fut	être	AUX	O	O	O
 porté	porter	VERB	O	O	O
 aux	à	ADP	O	O	O
@@ -893,11 +902,12 @@ les	le	DET	O	O	O
 offres	offre	NOUN	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-tentantes	tenter	VERB	O	O	O
+tentantes	tentant	ADJ	O	O	O
 afin	afin	ADV	O	O	O
 d'	de	ADP	O	O	O
 obtenir	obtenir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
+
 chacun	chacun	PRON	O	O	O
 pour	pour	ADP	O	O	O
 lui	luire	PRON	O	O	O
@@ -941,7 +951,7 @@ Les	le	DET	O	O	O
 paysans	paysan	NOUN	O	O	O
 par	par	ADP	O	O	O
 milliers	millier	NOUN	O	O	O
-envahissaient	envahir	ADV	O	O	O
+envahissaient	envahir	VERB	O	O	O
 le	le	DET	O	O	O
 modeste	modeste	ADJ	O	O	O
 appartement	appartement	NOUN	O	O	O
@@ -953,21 +963,21 @@ Isobard	isobard	PROPN	O	O	O
 réclamant	réclamer	VERB	O	O	O
 à	à	ADP	O	O	O
 grands	grand	ADJ	O	O	O
-cris	cri	VERB	O	O	O
+cris	cri	NOUN	O	O	O
 le	le	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Tableau	tableau	NOUN	O	O	O
 météorologique	météorologique	ADJ	O	O	O
 »	»	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 leur	son	PRON	O	O	O
-permettrait	permettrait	NOUN	O	O	O
+permettrait	permettre	VERB	O	O	O
 de	de	ADP	O	O	O
 travailler	travailler	VERB	O	O	O
 dans	dans	ADP	O	O	O
 les	le	DET	O	O	O
-meilleures	meilleur	NOUN	O	O	O
+meilleures	meilleur	ADJ	O	O	O
 conditions	condition	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -998,7 +1008,7 @@ Et	et	CCONJ	O	O	O
 s'	se	SCONJ	O	O	O
 il	il	PRON	O	O	O
 l'	le	PRON	O	O	O
-eût	eût	NOUN	O	O	O
+eût	avoir	AUX	O	O	O
 voulu	vouloir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 Isobard	isobard	PROPN	O	O	O
@@ -1036,7 +1046,7 @@ sa	son	DET	O	O	O
 découverte	découverte	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 avait	avoir	AUX	O	O	O
-été	être	AUX	O	O	O
+été	être	VERB	O	O	O
 de	de	ADP	O	O	O
 se	se	PRON	O	O	O
 rendre	rendre	VERB	O	O	O
@@ -1053,7 +1063,7 @@ fait	fait	NOUN	O	O	O
 au	au	ADP	O	O	O
 début	début	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-tout	tout	DET	O	O	O
+tout	tout	PRON	O	O	O
 semblait	sembler	VERB	O	O	O
 devoir	devoir	VERB	O	O	O
 aller	aller	VERB	O	O	O
@@ -1080,20 +1090,22 @@ favorisé	favoriser	VERB	O	O	O
 d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 soleil	soleil	NOUN	O	O	O
-splendide	splendide	VERB	O	O	O
+splendide	splendide	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
+
 une	un	DET	O	O	O
 fête	fête	NOUN	O	O	O
 de	de	ADP	O	O	O
 gymnastique	gymnastique	NOUN	O	O	O
 réussit	réussir	VERB	O	O	O
 au	au	ADP	O	O	O
--	-	PUNCT	O	O	O
+-	-	ADV	O	O	O
 delà	delà	ADV	O	O	O
 de	de	ADP	O	O	O
 toute	tout	DET	O	O	O
 prévision	prévision	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 les	le	DET	O	O	O
 voyageurs	voyageur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1101,7 +1113,7 @@ promeneurs	promeneur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ascensionnistes	ascensionniste	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-jubilaient	jubiler	ADV	O	O	O
+jubilaient	jubiler	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
@@ -1133,8 +1145,8 @@ d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 million	million	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-produit	produit	NOUN	O	O	O
-des	de	ADP	O	O	O
+produit	produire	VERB	O	O	O
+des	un	DET	O	O	O
 abonnements	abonnement	NOUN	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
@@ -1158,7 +1170,7 @@ et	et	CCONJ	O	O	O
 dont	dont	PRON	O	O	O
 il	il	PRON	O	O	O
 abandonnait	abandonner	VERB	O	O	O
-généreusement	généreusemer	VERB	O	O	O
+généreusement	généreusement	ADV	O	O	O
 le	le	DET	O	O	O
 produit	produit	NOUN	O	O	O
 aux	à	ADP	O	O	O
@@ -1187,11 +1199,11 @@ déjà	déjà	ADV	O	O	O
 des	un	DET	O	O	O
 plaintes	plainte	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-timides	timide	NOUN	O	O	O
+timides	timide	ADJ	O	O	O
 encore	encore	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
-firent	faire	VERB	O	O	O
+firent	faire	AUX	O	O	O
 entendre	entendre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1208,32 +1220,32 @@ plus	plus	ADV	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
 instruments	instrument	NOUN	O	O	O
-devenus	devenu	ADJ	O	O	O
+devenus	devenir	VERB	O	O	O
 inutiles	inutile	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Seuls	seul	ADV	O	O	O
+Seuls	seul	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 quelques	quelque	DET	O	O	O
 rares	rare	ADJ	O	O	O
 aviateurs	aviateur	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-aéronautes	aéronaute	ADJ	O	O	O
-en	en	ADP	O	O	O
-emplettaient	emplettaient	NOUN	O	O	O
+aéronautes	aéronaute	NOUN	O	O	O
+en	en	PRON	O	O	O
+emplettaient	emplettaier	VERB	O	O	O
 encore	encore	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 parce	parce	SCONJ	O	O	O
 que	que	SCONJ	O	O	O
 ces	ce	DET	O	O	O
 gens	gens	NOUN	O	O	O
--	-	PUNCT	O	O	O
-là	là	ADV	O	O	O
+-	-	NOUN	O	O	O
+là	là	ADP	O	O	O
 tiennent	tenir	VERB	O	O	O
 beaucoup	beaucoup	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
-général	général	NOUN	O	O	O
+général	général	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 pouvoir	pouvoir	VERB	O	O	O
@@ -1252,8 +1264,9 @@ hauteur	hauteur	NOUN	O	O	O
 ils	il	PRON	O	O	O
 se	se	PRON	O	O	O
 sont	être	AUX	O	O	O
-élevés	élevé	ADJ	O	O	O
+élevés	élever	VERB	O	O	O
 …	…	PUNCT	O	O	O
+
 Les	le	DET	O	O	O
 vendeurs	vendeur	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1262,7 +1275,7 @@ ne	ne	ADV	O	O	O
 tardèrent	tarder	VERB	O	O	O
 pas	pas	ADV	O	O	O
 à	à	ADP	O	O	O
-joindre	joindre	NOUN	O	O	O
+joindre	joindre	VERB	O	O	O
 leurs	leur	DET	O	O	O
 récriminations	récrimination	NOUN	O	O	O
 à	à	ADP	O	O	O
@@ -1293,7 +1306,7 @@ allait	aller	VERB	O	O	O
 faire	faire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 s'	se	PRON	O	O	O
-abstenaient	abstenir	ADV	O	O	O
+abstenaient	abstenir	VERB	O	O	O
 de	de	ADP	O	O	O
 sortir	sortir	VERB	O	O	O
 quand	quand	SCONJ	O	O	O
@@ -1309,7 +1322,7 @@ le	le	DET	O	O	O
 cas	cas	NOUN	O	O	O
 contraire	contraire	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-laissaient	laissaient	NOUN	O	O	O
+laissaient	laisser	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 maison	maison	NOUN	O	O	O
@@ -1329,7 +1342,7 @@ aux	à	ADP	O	O	O
 besoins	besoin	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 tous	tout	ADJ	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 les	le	DET	O	O	O
 amants	amant	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1351,7 +1364,7 @@ assaut	assaut	NOUN	O	O	O
 des	de	ADP	O	O	O
 glaciers	glacier	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 forêts	forêt	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 des	de	ADP	O	O	O
@@ -1360,21 +1373,22 @@ monts	mont	NOUN	O	O	O
 
 Ce	ce	PRON	O	O	O
 fut	être	AUX	O	O	O
-pis	pis	PRON	O	O	O
+pis	pis	ADV	O	O	O
 au	au	ADP	O	O	O
 second	second	ADJ	O	O	O
 mois	mois	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 comme	comme	SCONJ	O	O	O
 on	on	PRON	O	O	O
 n'	ne	ADV	O	O	O
 annonçait	annoncer	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 un	un	DET	O	O	O
 seul	seul	ADJ	O	O	O
 dimanche	dimanche	NOUN	O	O	O
 de	de	ADP	O	O	O
-beau	beau	NOUN	O	O	O
+beau	beau	ADJ	O	O	O
 en	en	ADP	O	O	O
 juillet	juillet	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1401,12 +1415,12 @@ de	de	ADP	O	O	O
 ce	ce	DET	O	O	O
 mois	mois	NOUN	O	O	O
 furent	être	AUX	O	O	O
-toutes	tout	DET	O	O	O
+toutes	tout	ADJ	O	O	O
 fixées	fixer	VERB	O	O	O
 à	à	ADP	O	O	O
 ce	ce	DET	O	O	O
 dimanche	dimanche	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 là	là	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1414,7 +1428,7 @@ Ventes	vente	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 kermesses	kermesse	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-tirs	tir	VERB	O	O	O
+tirs	tir	NOUN	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 cible	cible	NOUN	O	O	O
@@ -1485,9 +1499,9 @@ faute	faute	NOUN	O	O	O
 
 Et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
-pauvre	pauvre	VERB	O	O	O
+pauvre	pauvre	ADJ	O	O	O
 Isobard	isobard	PROPN	O	O	O
-commença	commencer	PROPN	O	O	O
+commença	commencer	VERB	O	O	O
 de	de	ADP	O	O	O
 se	se	PRON	O	O	O
 demander	demander	VERB	O	O	O
@@ -1495,7 +1509,7 @@ s'	se	SCONJ	O	O	O
 il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
 avait	avoir	AUX	O	O	O
-point	poindre	VERB	O	O	O
+point	point	ADV	O	O	O
 commis	commettre	VERB	O	O	O
 une	un	DET	O	O	O
 faute	faute	NOUN	O	O	O
@@ -1504,12 +1518,13 @@ publiant	publier	VERB	O	O	O
 sa	son	DET	O	O	O
 découverte	découverte	NOUN	O	O	O
 …	…	PUNCT	O	O	O
+
 Il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
 était	être	AUX	O	O	O
 d'	de	ADP	O	O	O
 ailleurs	ailleurs	ADV	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	ADV	O	O	O
 au	au	ADP	O	O	O
 début	début	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1523,8 +1538,8 @@ peu	peu	ADV	O	O	O
 après	après	ADP	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
-«	«	NOUN	O	O	O
-Jeunesses	jeunesses	PROPN	O	O	O
+«	«	PUNCT	O	O	O
+Jeunesses	jeunesse	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 de	de	ADP	O	O	O
 deux	deux	NUM	O	O	O
@@ -1533,9 +1548,9 @@ voisins	voisin	ADJ	O	O	O
 s'	se	PRON	O	O	O
 étaient	être	AUX	O	O	O
 livré	livrer	VERB	O	O	O
-des	de	ADP	O	O	O
-batailles	bataille	ADJ	O	O	O
-homériques	homérique	NOUN	O	O	O
+des	un	DET	O	O	O
+batailles	bataille	NOUN	O	O	O
+homériques	homérique	ADJ	O	O	O
 parce	parce	SCONJ	O	O	O
 que	que	SCONJ	O	O	O
 ni	ni	CCONJ	O	O	O
@@ -1550,6 +1565,7 @@ renvoyer	renvoyer	VERB	O	O	O
 son	son	DET	O	O	O
 bal	bal	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
 autorités	autorité	NOUN	O	O	O
@@ -1573,13 +1589,13 @@ foire	foire	NOUN	O	O	O
 mensuelle	mensuel	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-que	que	PRON	O	O	O
+que	que	SCONJ	O	O	O
 la	le	DET	O	O	O
-Société	société	PROPN	O	O	O
+Société	société	NOUN	O	O	O
 des	de	ADP	O	O	O
 hôteliers	hôtelier	NOUN	O	O	O
-l'	le	DET	O	O	O
-accusait	accusait	NOUN	O	O	O
+l'	le	PRON	O	O	O
+accusait	accuser	VERB	O	O	O
 d'	de	ADP	O	O	O
 éloigner	éloigner	VERB	O	O	O
 la	le	DET	O	O	O
@@ -1593,11 +1609,12 @@ de	de	ADP	O	O	O
 pluie	pluie	NOUN	O	O	O
 au	au	ADP	O	O	O
 plus	plus	ADV	O	O	O
-fort	fort	ADV	O	O	O
+fort	fort	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 saison	saison	NOUN	O	O	O
 …	…	PUNCT	O	O	O
+
 Mais	mais	CCONJ	O	O	O
 ce	ce	PRON	O	O	O
 fut	être	AUX	O	O	O
@@ -1611,7 +1628,7 @@ terre	terre	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 semblait	sembler	VERB	O	O	O
--	-	PUNCT	O	O	O
+-	-	PRON	O	O	O
 il	il	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 devaient	devoir	VERB	O	O	O
@@ -1628,7 +1645,7 @@ savant	savant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 que	que	SCONJ	O	O	O
 se	se	PRON	O	O	O
-produisirent	produire	ADV	O	O	O
+produisirent	produire	VERB	O	O	O
 les	le	DET	O	O	O
 troubles	trouble	NOUN	O	O	O
 les	le	DET	O	O	O
@@ -1636,7 +1653,7 @@ plus	plus	ADV	O	O	O
 graves	grave	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-Une	un	DET	O	O	O
+Une	un	PRON	O	O	O
 des	de	ADP	O	O	O
 conséquences	conséquence	NOUN	O	O	O
 pour	pour	ADP	O	O	O
@@ -1664,12 +1681,12 @@ ouvriers	ouvrier	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Ceux	celui	PRON	O	O	O
--	-	PUNCT	O	O	O
-ci	ci	NOUN	O	O	O
+-	-	PRON	O	O	O
+ci	ci	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-demandés	demandé	NOUN	O	O	O
+demandés	demander	VERB	O	O	O
 de	de	ADP	O	O	O
-tous	tout	ADJ	O	O	O
+tous	tout	DET	O	O	O
 côtés	côté	NOUN	O	O	O
 quand	quand	SCONJ	O	O	O
 Isobard	isobard	PROPN	O	O	O
@@ -1680,7 +1697,7 @@ de	de	ADP	O	O	O
 clair	clair	ADJ	O	O	O
 soleil	soleil	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-haussèrent	hausser	ADV	O	O	O
+haussèrent	hausser	VERB	O	O	O
 sans	sans	ADP	O	O	O
 mesure	mesure	NOUN	O	O	O
 leurs	leur	DET	O	O	O
@@ -1699,7 +1716,7 @@ conclure	conclure	VERB	O	O	O
 des	un	DET	O	O	O
 engagements	engagement	NOUN	O	O	O
 à	à	ADP	O	O	O
-80	80	PRON	O	O	O
+80	80	NUM	O	O	O
 et	et	CCONJ	O	O	O
 100	100	NUM	O	O	O
 francs	franc	NOUN	O	O	O
@@ -1713,7 +1730,7 @@ des	de	ADP	O	O	O
 à	à	ADP	O	O	O
 30	30	NUM	O	O	O
 francs	franc	NOUN	O	O	O
-payés	payer	ADJ	O	O	O
+payés	payer	VERB	O	O	O
 en	en	ADP	O	O	O
 temps	temps	NOUN	O	O	O
 ordinaire	ordinaire	ADJ	O	O	O
@@ -1729,6 +1746,7 @@ pas	pas	ADV	O	O	O
 précisément	précisément	ADV	O	O	O
 enchantés	enchanter	VERB	O	O	O
 ;	;	PUNCT	O	O	O
+
 cependant	cependant	ADV	O	O	O
 ils	il	PRON	O	O	O
 auraient	avoir	AUX	O	O	O
@@ -1739,7 +1757,7 @@ de	de	ADP	O	O	O
 peine	peine	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 cet	ce	DET	O	O	O
-inconvénient	inconvénient	ADV	O	O	O
+inconvénient	inconvénient	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 raison	raison	NOUN	O	O	O
@@ -1751,7 +1769,7 @@ grand	grand	ADJ	O	O	O
 météorologiste	météorologiste	NOUN	O	O	O
 leur	son	PRON	O	O	O
 avait	avoir	AUX	O	O	O
-rendus	rendu	NOUN	O	O	O
+rendus	rendre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 si	si	SCONJ	O	O	O
 un	un	DET	O	O	O
@@ -1769,7 +1787,7 @@ août	août	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 M.	m.	NOUN	O	O	O
 Isobard	isobard	PROPN	O	O	O
-annonça	annoncer	NUM	O	O	O
+annonça	annoncer	VERB	O	O	O
 pour	pour	ADP	O	O	O
 le	le	DET	O	O	O
 13	13	NUM	O	O	O
@@ -1777,7 +1795,7 @@ une	un	DET	O	O	O
 forte	fort	ADJ	O	O	O
 chute	chute	NOUN	O	O	O
 de	de	ADP	O	O	O
-grêle	grêle	ADJ	O	O	O
+grêle	grêle	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Grand	grand	ADJ	O	O	O
@@ -1811,7 +1829,7 @@ mal	mal	ADV	O	O	O
 mûrs	mûr	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
-seconds	second	NOUN	O	O	O
+seconds	second	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 réduits	réduire	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -1832,17 +1850,17 @@ tantôt	tantôt	CCONJ	O	O	O
 sans	sans	ADP	O	O	O
 doute	doute	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-verraient	verraient	NOUN	O	O	O
+verraient	voir	VERB	O	O	O
 leur	son	DET	O	O	O
 récolte	récolte	NOUN	O	O	O
-anéantie	anéantir	ADJ	O	O	O
+anéantie	anéantir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-passèrent	passer	ADV	O	O	O
-douze	douze	PROPN	O	O	O
+passèrent	passer	VERB	O	O	O
+douze	douze	NUM	O	O	O
 jours	jour	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-douze	douze	NOUN	O	O	O
-nuits	nuit	ADJ	O	O	O
+douze	douze	NUM	O	O	O
+nuits	nuit	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 une	un	DET	O	O	O
 angoisse	angoisse	NOUN	O	O	O
@@ -1855,7 +1873,7 @@ qu'	que	PRON	O	O	O
 ils	il	PRON	O	O	O
 purent	pouvoir	VERB	O	O	O
 faire	faire	VERB	O	O	O
-fut	être	AUX	O	O	O
+fut	être	VERB	O	O	O
 de	de	ADP	O	O	O
 tenir	tenir	VERB	O	O	O
 prêts	prêt	ADJ	O	O	O
@@ -1863,13 +1881,13 @@ les	le	DET	O	O	O
 canons	canon	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 fusées	fusée	NOUN	O	O	O
-grêlifuges	grêlifuge	NOUN	O	O	O
+grêlifuges	grêlifuge	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 d'	de	ADP	O	O	O
 implorer	implorer	VERB	O	O	O
 le	le	DET	O	O	O
 ciel	ciel	NOUN	O	O	O
-qu'	que	PRON	O	O	O
+qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 éloignât	éloigner	VERB	O	O	O
 le	le	DET	O	O	O
@@ -1901,7 +1919,7 @@ un	un	DET	O	O	O
 vent	vent	NOUN	O	O	O
 furieux	furieux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-hacha	hacher	PROPN	O	O	O
+hacha	hacher	VERB	O	O	O
 les	le	DET	O	O	O
 récoltes	récolte	NOUN	O	O	O
 sous	sou	ADP	O	O	O
@@ -1909,8 +1927,9 @@ les	le	DET	O	O	O
 yeux	oeil	NOUN	O	O	O
 des	de	ADP	O	O	O
 propriétaires	propriétaire	NOUN	O	O	O
-désespérés	désespérer	VERB	O	O	O
+désespérés	désespéré	ADJ	O	O	O
 …	…	PUNCT	O	O	O
+
 Une	un	DET	O	O	O
 clameur	clameur	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1924,7 +1943,7 @@ du	de	ADP	O	O	O
 pays	pays	NOUN	O	O	O
 contre	contre	ADP	O	O	O
 le	le	DET	O	O	O
-malheureux	malheureux	NOUN	O	O	O
+malheureux	malheureux	ADJ	O	O	O
 Isobard	isobard	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
@@ -1948,7 +1967,7 @@ on	on	PRON	O	O	O
 ne	ne	ADV	O	O	O
 voulait	vouloir	VERB	O	O	O
 pas	pas	ADV	O	O	O
-le	le	DET	O	O	O
+le	le	PRON	O	O	O
 savoir	savoir	VERB	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
@@ -1961,7 +1980,7 @@ navré	navrer	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
 demandait	demander	VERB	O	O	O
-s'	se	PRON	O	O	O
+s'	se	SCONJ	O	O	O
 il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
 allait	aller	VERB	O	O	O
@@ -1979,8 +1998,8 @@ les	le	DET	O	O	O
 conséquences	conséquence	NOUN	O	O	O
 en	en	PRON	O	O	O
 étaient	être	AUX	O	O	O
-si	si	SCONJ	O	O	O
-différentes	différent	PRON	O	O	O
+si	si	ADV	O	O	O
+différentes	différent	ADJ	O	O	O
 de	de	ADP	O	O	O
 ce	ce	PRON	O	O	O
 qu'	que	PRON	O	O	O
@@ -2013,9 +2032,10 @@ de	de	ADP	O	O	O
 ses	son	DET	O	O	O
 perplexités	perplexité	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 Dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
-«	«	NOUN	O	O	O
+«	«	PUNCT	O	O	O
 Tableau	tableau	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 du	de	ADP	O	O	O
@@ -2026,14 +2046,14 @@ août	août	NOUN	O	O	O
 Isobard	isobard	PROPN	O	O	O
 avait	avoir	AUX	O	O	O
 indiqué	indiquer	VERB	O	O	O
-«	«	NOUN	O	O	O
-pluie	plui	ADJ	O	O	O
+«	«	PUNCT	O	O	O
+pluie	pluie	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 pour	pour	ADP	O	O	O
 la	le	DET	O	O	O
 journée	journée	NOUN	O	O	O
 du	de	ADP	O	O	O
-20	20	NUM	O	O	O
+20	20	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 Or	or	CCONJ	O	O	O
@@ -2042,18 +2062,18 @@ il	il	PRON	O	O	O
 fit	faire	VERB	O	O	O
 ce	ce	DET	O	O	O
 jour	jour	NOUN	O	O	O
--	-	PUNCT	O	O	O
+-	-	NOUN	O	O	O
 là	là	ADV	O	O	O
 un	un	DET	O	O	O
 temps	temps	NOUN	O	O	O
-superbe	superbe	VERB	O	O	O
+superbe	superbe	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
 tremblement	tremblement	NOUN	O	O	O
 de	de	ADP	O	O	O
 terre	terre	NOUN	O	O	O
-qu'	que	SCONJ	O	O	O
+qu'	que	PRON	O	O	O
 il	il	PRON	O	O	O
 n'	ne	ADV	O	O	O
 avait	avoir	AUX	O	O	O
@@ -2064,8 +2084,8 @@ dérangé	déranger	VERB	O	O	O
 les	le	DET	O	O	O
 calculs	calcul	NOUN	O	O	O
 du	de	ADP	O	O	O
-célèbre	célèbre	NOUN	O	O	O
-météorologiste	météorologist	ADJ	O	O	O
+célèbre	célèbre	ADJ	O	O	O
+météorologiste	météorologiste	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 causé	causer	VERB	O	O	O
 l'	le	DET	O	O	O
@@ -2074,7 +2094,7 @@ dans	dans	ADP	O	O	O
 laquelle	lequel	PRON	O	O	O
 il	il	PRON	O	O	O
 était	être	AUX	O	O	O
-tombé	tomber	ADJ	O	O	O
+tombé	tomber	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -2092,7 +2112,7 @@ celui	celui	PRON	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 non	non	ADV	O	O	O
-content	content	ADV	O	O	O
+content	content	ADJ	O	O	O
 d'	de	ADP	O	O	O
 apporter	apporter	VERB	O	O	O
 le	le	DET	O	O	O
@@ -2104,8 +2124,8 @@ monde	monde	NOUN	O	O	O
 se	se	PRON	O	O	O
 permettait	permettre	VERB	O	O	O
 de	de	ADP	O	O	O
-le	le	DET	O	O	O
-tromper	tromper	NOUN	O	O	O
+le	le	PRON	O	O	O
+tromper	tromper	VERB	O	O	O
 par	par	ADP	O	O	O
 de	de	DET	O	O	O
 fausses	faux	ADJ	O	O	O
@@ -2118,8 +2138,8 @@ en	en	ADP	O	O	O
 délire	délire	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 proférant	proférer	VERB	O	O	O
-des	de	ADP	O	O	O
-cris	cri	PROPN	O	O	O
+des	un	DET	O	O	O
+cris	cri	NOUN	O	O	O
 de	de	ADP	O	O	O
 mort	mort	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2127,15 +2147,15 @@ assiégea	assiéger	VERB	O	O	O
 la	le	DET	O	O	O
 demeure	demeure	NOUN	O	O	O
 du	de	ADP	O	O	O
-malheureux	malheureux	NOUN	O	O	O
-savant	savant	ADJ	O	O	O
+malheureux	malheureux	ADJ	O	O	O
+savant	savant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
 police	police	NOUN	O	O	O
-dut	devoir	ADV	O	O	O
-l'	le	DET	O	O	O
-arracher	arracher	NOUN	O	O	O
+dut	devoir	VERB	O	O	O
+l'	le	PRON	O	O	O
+arracher	arracher	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 fureur	fureur	NOUN	O	O	O
@@ -2151,7 +2171,7 @@ jour	jour	NOUN	O	O	O
 Isobard	isobard	PROPN	O	O	O
 cessa	cesser	VERB	O	O	O
 de	de	ADP	O	O	O
-prédire	prédir	ADJ	B-NOV	O	O
+prédire	prédire	VERB	B-NOV	O	O
 le	le	DET	I-NOV	O	O
 temps	temps	NOUN	I-NOV	O	O
 .	.	PUNCT	O	O	O
@@ -2162,7 +2182,7 @@ compris	comprendre	VERB	O	O	O
 qu'	que	SCONJ	O	O	O
 il	il	PRON	O	O	O
 est	être	AUX	O	O	O
-infiniment	infinimer	VERB	O	O	O
+infiniment	infiniment	ADV	O	O	O
 préférable	préférable	ADJ	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
