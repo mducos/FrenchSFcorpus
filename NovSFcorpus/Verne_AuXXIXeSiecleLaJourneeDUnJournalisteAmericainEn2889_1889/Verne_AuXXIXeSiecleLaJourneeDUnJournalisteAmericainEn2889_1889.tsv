@@ -108,14 +108,14 @@ par	par	ADP	O	O	O
 des	un	DET	O	O	O
 milliers	millier	NOUN	O	O	O
 d'	de	ADP	O	O	O
-aéro	aéro	NOUN	O	O	O
--	-	NOUN	O	O	O
-cars	car	NOUN	O	O	O
+aéro	aéro	NOUN	B-NOV	B-NOV	O
+-	-	NOUN	I-NOV	I-NOV	O
+cars	car	NOUN	I-NOV	O	O
 et	et	CCONJ	O	O	O
 d'	de	ADP	O	O	O
 aéro	aéro	NOUN	O	O	O
 -	-	NOUN	O	O	O
-omnibus	omnibus	NOUN	O	O	O
+omnibus	omnibus	NOUN	O	I-NOV	O
 .	.	PUNCT	O	O	O
 
 Auprès	auprès	ADV	O	O	O
@@ -4914,9 +4914,9 @@ monsieur	monsieur	NOUN	O	O	O
 
 demanda	demander	VERB	O	O	O
 l'	le	DET	O	O	O
-aéro	aéro	NOUN	O	O	O
--	-	NOUN	O	O	O
-coachman	coachman	NOUN	O	O	O
+aéro	aéro	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+coachman	coachman	NOUN	I-NOV	O	O
 .	.	PUNCT	O	O	O
 
 –	–	PUNCT	O	O	O
@@ -4946,9 +4946,9 @@ Niagara	niagara	PROPN	O	O	O
 »	»	PUNCT	O	O	O
 
 L'	le	DET	O	O	O
-aéro	aéro	NOUN	O	O	O
--	-	NOUN	O	O	O
-car	car	PROPN	O	O	O
+aéro	aéro	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+car	car	PROPN	I-NOV	O	O
 ,	,	PUNCT	O	O	O
 machine	machine	NOUN	O	O	O
 admirable	admirable	ADJ	O	O	O
@@ -5084,9 +5084,9 @@ City	city	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 où	où	PRON	O	O	O
 son	son	DET	O	O	O
-aéro	aéro	NOUN	O	O	O
--	-	NOUN	O	O	O
-car	car	CCONJ	O	O	O
+aéro	aéro	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+car	car	CCONJ	I-NOV	O	O
 le	le	PRON	O	O	O
 déposa	déposer	VERB	O	O	O
 vers	vers	ADP	O	O	O
