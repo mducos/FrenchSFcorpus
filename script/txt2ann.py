@@ -98,8 +98,9 @@ for dirname in os.listdir("NovSFcorpus"):
             with open(TITLE2NOVUM_FILE, "r", encoding="utf-8") as f:
                 title2novum = json.load(f)
 
+            # récupération des novum en excluant les novum type 4
             novums = title2novum[title]
-            novums = [x[0] for x in novums]
+            novums = [x[0] for x in novums if x[1] != 4]
             NOVUMS_LEMMA = []
             NOVUMS_POS = []
 
