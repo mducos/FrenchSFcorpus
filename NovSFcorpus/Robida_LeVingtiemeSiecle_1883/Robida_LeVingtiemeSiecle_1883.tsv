@@ -74,8 +74,8 @@ VINGTIÈME	vingtième	ADJ	O	O	O
 SIÈCLE	siècle	NOUN	O	O	O
 
 L'	le	DET	O	O	O
-aéronef	aéronef	NOUN	O	O	O
-omnibus	omnibus	NOUN	O	O	O
+aéronef	aéronef	NOUN	B-NOV	O	O
+omnibus	omnibus	NOUN	I-NOV	O	O
 B	b	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
@@ -130,11 +130,11 @@ d'	de	ADP	O	O	O
 un	un	DET	O	O	O
 train	train	NOUN	O	O	O
 du	de	ADP	O	O	O
-Tube	tube	PROPN	B-NOV	O	O
--	-	PROPN	O	O	O
-de	de	PROPN	O	O	O
--	-	PROPN	O	O	O
-Bretagne	bretagne	PROPN	O	O	O
+Tube	tube	PROPN	B-NOV	B-NOV	O
+-	-	PROPN	O	I-NOV	O
+de	de	PROPN	O	I-NOV	O
+-	-	PROPN	O	I-NOV	O
+Bretagne	bretagne	PROPN	O	I-NOV	O
 avait	avoir	AUX	O	O	O
 rapidement	rapidement	ADV	O	O	O
 mis	mettre	VERB	O	O	O
@@ -938,9 +938,9 @@ plus	plus	ADV	O	O	O
 amusant	amusant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-aéronef	aéronef	NOUN	O	O	O
+aéronef	aéronef	NOUN	B-NOV	O	O
 -	-	NOUN	O	O	O
-omnibus	omnibus	NOUN	O	O	O
+omnibus	omnibus	NOUN	I-NOV	O	O
 
 ...	...	PUNCT	O	O	O
 
@@ -3114,7 +3114,6 @@ de	de	ADP	O	O	O
 Plougadec	plougadec	PROPN	O	O	O
 à	à	ADP	O	O	O
 ?	?	PUNCT	O	O	O
-
 ...	...	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -3291,10 +3290,8 @@ et	et	CCONJ	O	O	O
 grand	grand	ADJ	O	O	O
 
 -	-	PUNCT	O	O	O
-
 papa	papa	PROPN	O	O	O
 ...	...	PUNCT	O	O	O
-
 vous	vous	PRON	O	O	O
 ne	ne	ADV	O	O	O
 l'	le	PRON	O	O	O
@@ -3303,9 +3300,7 @@ pas	pas	ADV	O	O	O
 connu	connaître	VERB	O	O	O
 grand	grand	ADJ	O	O	O
 -	-	NOUN	O	O	O
-
-papa	papa	PROPN	O	O	O
-
+papa	papa	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
@@ -3316,55 +3311,42 @@ vous	vous	PRON	O	O	O
 trop	trop	ADV	O	O	O
 jeunes	jeune	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
-
 grand	grand	ADJ	O	O	O
 -	-	NOUN	O	O	O
 papa	papa	NOUN	O	O	O
 me	me	PRON	O	O	O
 disait	dire	VERB	O	O	O
-
 qu'	que	SCONJ	O	O	O
 avec	avec	ADP	O	O	O
 les	le	DET	O	O	O
-
 diligences	diligence	NOUN	O	O	O
-
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 fallait	falloir	VERB	O	O	O
 quatre	quatre	NUM	O	O	O
 jours	jour	NOUN	O	O	O
-
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
-
 et	et	CCONJ	O	O	O
 maintenant	maintenant	ADV	O	O	O
-
 le	le	DET	O	O	O
 tube	tube	NOUN	B-NOV	O	O
-
 vous	vous	PRON	O	O	O
 jette	jeter	VERB	O	O	O
 en	en	ADP	O	O	O
-
 trois	trois	NUM	O	O	O
 quarts	quart	NOUN	O	O	O
 d'	de	ADP	O	O	O
 heure	heure	NOUN	O	O	O
-
 du	de	ADP	O	O	O
 fond	fond	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 Bretagne	bretagne	PROPN	O	O	O
-
 à	à	ADP	O	O	O
 Paris	paris	PROPN	O	O	O
-
 !	!	PUNCT	O	O	O
-
 ...	...	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -3372,63 +3354,46 @@ Trois	trois	NUM	O	O	O
 quarts	quart	NOUN	O	O	O
 d'	de	ADP	O	O	O
 heure	heure	NOUN	O	O	O
-
 de	de	ADP	O	O	O
 tube	tube	NOUN	B-NOV	O	O
-
 ,	,	PUNCT	O	O	O
-
 par	par	ADP	O	O	O
 train	train	NOUN	O	O	O
 omnibus	omnibus	NOUN	O	O	O
-
 !	!	PUNCT	O	O	O
 
 dit	dire	VERB	O	O	O
 Barnabette	barnabette	PROPN	O	O	O
-
 en	en	ADP	O	O	O
 riant	rire	VERB	O	O	O
-
 ;	;	PUNCT	O	O	O
 
 l'	le	DET	O	O	O
-express	express	PROPN	O	O	O
+express	express	NOUN	O	O	O
 met	mettre	VERB	O	O	O
-
 vingt	vingt	NUM	O	O	O
-
--	-	PUNCT	O	O	O
+-	-	NUM	O	O	O
 huit	huit	NUM	O	O	O
 minutes	minute	NOUN	O	O	O
-
 !	!	PUNCT	O	O	O
 
 le	le	DET	O	O	O
 temps	temps	NOUN	O	O	O
-
 de	de	ADP	O	O	O
 s'	se	PRON	O	O	O
 embarquer	embarquer	VERB	O	O	O
-
 à	à	ADP	O	O	O
 Brest	brest	PROPN	O	O	O
-
 ;	;	PUNCT	O	O	O
-
 et	et	CCONJ	O	O	O
 vlan	vlan	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 l'	le	DET	O	O	O
 électricité	électricité	NOUN	O	O	O
-
 et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
 air	air	NOUN	O	O	O
-
-comprimé	comprimé	PUNCT	O	O	O
-
+comprimé	comprimer	VERB	O	O	O
 vous	vous	PRON	O	O	O
 lancent	lancer	VERB	O	O	O
 dans	dans	ADP	O	O	O
@@ -3457,7 +3422,6 @@ collet	collet	NOUN	O	O	O
 de	de	ADP	O	O	O
 sa	son	DET	O	O	O
 redingote	redingote	NOUN	O	O	O
-
 .	.	PUNCT	O	O	O
 
 M.	m.	NOUN	O	O	O
@@ -3497,7 +3461,6 @@ savez	savoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
 pourquoi	pourquoi	ADV	O	O	O
 ?	?	PUNCT	O	O	O
-
 ...	...	PUNCT	O	O	O
 
 C'	ce	PRON	O	O	O
@@ -3517,10 +3480,10 @@ et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
 invention	invention	NOUN	O	O	O
 des	de	ADP	O	O	O
-tubes	tube	NOUN	B-NOV	O	O
-électriques	électrique	ADJ	O	O	O
-et	et	CCONJ	O	O	O
-pneumatiques	pneumatique	ADJ	O	O	O
+tubes	tube	NOUN	B-NOV	B-NOV	B-NOV
+électriques	électrique	ADJ	O	I-NOV	O
+et	et	CCONJ	O	I-NOV	O
+pneumatiques	pneumatique	ADJ	O	I-NOV	I-NOV
 venant	venir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 vers	vers	ADP	O	O	O
@@ -3535,9 +3498,7 @@ ferrées	ferré	ADJ	O	O	O
 l'	le	PRON	O	O	O
 a	avoir	AUX	O	O	O
 ruiné	ruiner	VERB	O	O	O
-
 complètement	complètement	ADV	O	O	O
-
 ...	...	PUNCT	O	O	O
 
 le	le	DET	O	O	O
@@ -3553,7 +3514,6 @@ parti	parti	NOUN	O	O	O
 de	de	ADP	O	O	O
 cette	ce	DET	O	O	O
 catastrophe	catastrophe	NOUN	O	O	O
-
 et	et	CCONJ	O	O	O
 il	il	PRON	O	O	O
 poursuit	poursuivre	VERB	O	O	O
@@ -3571,7 +3531,6 @@ cause	cause	NOUN	O	O	O
 de	de	ADP	O	O	O
 ses	son	DET	O	O	O
 malheurs	malheur	NOUN	O	O	O
-
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -10054,9 +10013,9 @@ matin	matin	NOUN	O	O	O
 
 «	«	PUNCT	O	O	O
 Le	le	DET	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-asiatique	asiatique	ADJ	O	O	O
-continental	continental	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+asiatique	asiatique	ADJ	O	I-NOV	O
+continental	continental	ADJ	O	I-NOV	O
 a	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 coupé	couper	VERB	O	O	O
@@ -15106,9 +15065,9 @@ des	un	DET	O	O	O
 tuyaux	tuyau	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 des	un	DET	O	O	O
-tubes	tube	NOUN	B-NOV	O	O
-à	à	ADP	O	O	O
-vent	vent	NOUN	O	O	O
+tubes	tube	NOUN	B-NOV	B-NOV	O
+à	à	ADP	O	I-NOV	O
+vent	vent	NOUN	O	I-NOV	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 courants	courant	NOUN	O	O	O
@@ -15878,10 +15837,10 @@ modernes	moderne	ADJ	O	O	O
 L'	le	DET	O	O	O
 inventeur	inventeur	NOUN	O	O	O
 des	de	ADP	O	O	O
-tubes	tube	NOUN	B-NOV	O	O
-électriques	électrique	ADJ	O	O	O
-et	et	CCONJ	O	O	O
-pneumatiques	pneumatique	ADJ	O	O	O
+tubes	tube	NOUN	B-NOV	B-NOV	B-NOV
+électriques	électrique	ADJ	O	I-NOV	O
+et	et	CCONJ	O	I-NOV	O
+pneumatiques	pneumatique	ADJ	O	I-NOV	I-NOV
 est	être	AUX	O	O	O
 à	à	ADP	O	O	O
 côté	côté	NOUN	O	O	O
@@ -17685,7 +17644,7 @@ les	le	DET	O	O	O
 maisons	maison	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-aube	aube	NOUN	O	O	O
+aube	aube	PROPN	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 nuit	nuit	NOUN	O	O	O
@@ -17697,7 +17656,7 @@ la	le	DET	O	O	O
 nuit	nuit	NOUN	O	O	O
 à	à	ADP	O	O	O
 l'	le	DET	O	O	O
-aube	aube	NOUN	O	O	O
+aube	aube	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 qui	qui	PRON	O	O	O
@@ -17710,7 +17669,6 @@ migraines	migraine	NOUN	O	O	O
 nos	notre	DET	O	O	O
 pères	père	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
-
 tout	tout	ADJ	O	O	O
 le	le	DET	O	O	O
 transport	transport	NOUN	O	O	O
@@ -17740,15 +17698,15 @@ ou	ou	CCONJ	O	O	O
 objets	objet	NOUN	O	O	O
 quelconques	quelconque	ADJ	O	O	O
 le	le	DET	O	O	O
-collecteur	collecteur	NOUN	O	O	O
--	-	PUNCT	O	O	O
-commercial	commercial	ADJ	O	O	O
--	-	PUNCT	O	O	O
-tube	tube	NOUN	B-NOV	O	O
--	-	ADJ	O	O	O
-souterrain	souterrain	ADJ	O	O	O
--	-	PUNCT	O	O	O
-pneumatique	pneumatique	ADJ	O	O	O
+collecteur	collecteur	NOUN	O	B-NOV	O
+-	-	NOUN	O	I-NOV	O
+commercial	commercial	ADJ	O	I-NOV	O
+-	-	PUNCT	O	I-NOV	O
+tube	tube	NOUN	B-NOV	I-NOV	O
+-	-	NOUN	O	I-NOV	O
+souterrain	souterrain	ADJ	O	I-NOV	O
+-	-	ADJ	O	I-NOV	O
+pneumatique	pneumatique	ADJ	O	I-NOV	O
 les	le	PRON	O	O	O
 distribue	distribuer	VERB	O	O	O
 sans	sans	ADP	O	O	O
@@ -19398,8 +19356,8 @@ ces	ce	DET	O	O	O
 mots	mot	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-téléphonique	téléphonique	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+téléphonique	téléphonique	ADJ	O	I-NOV	O
 :	:	PUNCT	O	O	O
 
 «	«	PUNCT	O	O	O
@@ -30373,9 +30331,9 @@ la	le	DET	O	O	O
 station	station	NOUN	O	O	O
 centrale	central	ADJ	O	O	O
 des	de	ADP	O	O	O
-aéronefs	aéronef	NOUN	O	O	O
+aéronefs	aéronef	NOUN	B-NOV	O	O
 -	-	NOUN	O	O	O
-omnibus	omnibus	NOUN	O	O	O
+omnibus	omnibus	NOUN	I-NOV	O	O
 .	.	PUNCT	O	O	O
 
 A	à	ADP	O	O	O
@@ -30657,9 +30615,9 @@ Dame	dame	PROPN	O	O	O
 les	le	DET	O	O	O
 arches	arche	NOUN	O	O	O
 des	de	ADP	O	O	O
-Tubes	tube	NOUN	B-NOV	O	O
-du	de	ADP	O	O	O
-midi	midi	NOUN	O	O	O
+Tubes	tube	NOUN	B-NOV	B-NOV	O
+du	de	ADP	O	I-NOV	O
+midi	midi	NOUN	O	I-NOV	O
 s'	se	PRON	O	O	O
 alignant	aligner	VERB	O	O	O
 au	au	ADP	O	O	O
@@ -40915,8 +40873,8 @@ des	un	DET	O	O	O
 sorbets	sorbet	NOUN	O	O	O
 arrivés	arriver	VERB	O	O	O
 par	par	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-pneumatique	pneumatique	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+pneumatique	pneumatique	ADJ	O	I-NOV	O
 ,	,	PUNCT	O	O	O
 Hélène	hélène	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -60638,9 +60596,9 @@ avait	avoir	VERB	O	O	O
 son	son	DET	O	O	O
 carnet	carnet	NOUN	O	O	O
 de	de	ADP	O	O	O
-timbres	timbre	NOUN	O	O	O
--	-	NOUN	O	O	O
-tubes	tube	NOUN	B-NOV	O	O
+timbres	timbre	NOUN	O	B-NOV	O
+-	-	NOUN	O	I-NOV	O
+tubes	tube	NOUN	B-NOV	I-NOV	O
 qui	qui	PRON	O	O	O
 servent	servir	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -61204,9 +61162,9 @@ Nous	nous	PRON	O	O	O
 pourrons	pouvoir	VERB	O	O	O
 reprendre	reprendre	VERB	O	O	O
 le	le	DET	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-de	de	ADP	O	O	O
-midi	midi	NOUN	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+de	de	ADP	O	I-NOV	O
+midi	midi	NOUN	O	I-NOV	O
 55	55	NUM	O	O	O
 à	à	ADP	O	O	O
 Madrid	madrid	PROPN	O	O	O
@@ -62311,8 +62269,8 @@ par	par	ADP	O	O	O
 train	train	NOUN	O	O	O
 spécial	spécial	ADJ	O	O	O
 du	de	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-transméditerranéen	transméditerranéen	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+transméditerranéen	transméditerranéen	ADJ	O	I-NOV	O
 ,	,	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
 arrivons	arriver	VERB	O	O	O
@@ -63264,8 +63222,8 @@ aurais	avoir	AUX	O	O	O
 pu	pouvoir	VERB	O	O	O
 prendre	prendre	VERB	O	O	O
 le	le	DET	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-maritime	maritime	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+maritime	maritime	ADJ	O	I-NOV	O
 pour	pour	ADP	O	O	O
 New	new	PROPN	O	O	O
 -	-	PROPN	O	O	O
@@ -63277,8 +63235,8 @@ république	république	NOUN	O	O	O
 Argentine	argentine	PROPN	O	O	O
 par	par	ADP	O	O	O
 les	le	DET	O	O	O
-tubes	tube	NOUN	B-NOV	O	O
-terriens	terrien	ADJ	O	O	O
+tubes	tube	NOUN	B-NOV	B-NOV	O
+terriens	terrien	ADJ	O	I-NOV	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 j'	je	PRON	O	O	O
@@ -70441,9 +70399,9 @@ maraude	maraude	NOUN	O	O	O
 du	de	ADP	O	O	O
 côté	côté	NOUN	O	O	O
 du	de	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-de	de	ADP	O	O	O
-Tombouctou	tombouctou	PROPN	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+de	de	ADP	O	I-NOV	O
+Tombouctou	tombouctou	PROPN	O	I-NOV	O
 ...	...	PUNCT	O	O	O
 
 Avant	avant	ADP	O	O	O
@@ -78566,9 +78524,9 @@ de	de	ADP	O	O	O
 place	place	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 des	de	ADP	O	O	O
-aéronefs	aéronef	NOUN	O	O	O
+aéronefs	aéronef	NOUN	B-NOV	O	O
 -	-	NOUN	O	O	O
-omnibus	omnibus	NOUN	O	O	O
+omnibus	omnibus	NOUN	I-NOV	O	O
 serrés	serrer	VERB	O	O	O
 les	le	DET	O	O	O
 uns	un	PRON	O	O	O
@@ -80406,10 +80364,10 @@ plate	plate	NOUN	O	O	O
 -	-	NOUN	O	O	O
 forme	forme	NOUN	O	O	O
 du	de	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-franco	franco	ADJ	O	O	O
--	-	ADJ	O	O	O
-anglais	anglais	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+franco	franco	ADJ	O	I-NOV	O
+-	-	ADJ	O	I-NOV	O
+anglais	anglais	ADJ	O	I-NOV	O
 ,	,	PUNCT	O	O	O
 ainsi	ainsi	ADV	O	O	O
 qu'	que	SCONJ	O	O	O
@@ -87699,8 +87657,8 @@ par	par	ADP	O	O	O
 train	train	NOUN	O	O	O
 spécial	spécial	ADJ	O	O	O
 du	de	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-méditerranéen	méditerranéen	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+méditerranéen	méditerranéen	ADJ	O	I-NOV	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -92414,8 +92372,8 @@ rendant	rendre	VERB	O	O	O
 en	en	ADP	O	O	O
 aérocab	aérocab	NOUN	B-NOV	O	O
 au	au	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-méditerranéen	méditerranéen	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+méditerranéen	méditerranéen	ADJ	O	I-NOV	O
 ,	,	PUNCT	O	O	O
 Hélène	hélène	PROPN	O	O	O
 perçut	percevoir	VERB	O	O	O
@@ -98805,8 +98763,8 @@ INVASION	invasion	NOUN	O	O	O
 AMÉRICAINE	américain	ADJ	O	O	O
 PAR	par	ADP	O	O	O
 LE	le	DET	O	O	O
-TUBE	tube	NOUN	B-NOV	O	O
-TRANSATLANTIQUE	transatlantique	ADJ	O	O	O
+TUBE	tube	NOUN	B-NOV	B-NOV	O
+TRANSATLANTIQUE	transatlantique	ADJ	O	I-NOV	O
 JETÉ	jeter	VERB	O	O	O
 ENTRE	entrer	ADP	O	O	O
 BREST	brest	NOUN	O	O	O
@@ -100455,9 +100413,9 @@ risquer	risquer	VERB	O	O	O
 dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
 immense	immense	ADJ	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-de	de	ADP	O	O	O
-fer	fer	NOUN	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+de	de	ADP	O	I-NOV	O
+fer	fer	NOUN	O	I-NOV	O
 que	que	PRON	O	O	O
 nous	nous	PRON	O	O	O
 avons	avoir	AUX	O	O	O
@@ -101309,8 +101267,8 @@ presse	presse	NOUN	O	O	O
 faisaient	faire	AUX	O	O	O
 monter	monter	VERB	O	O	O
 les	le	DET	O	O	O
-Tubes	tube	NOUN	B-NOV	O	O
-transatlantiques	transatlantique	ADJ	O	O	O
+Tubes	tube	NOUN	B-NOV	B-NOV	O
+transatlantiques	transatlantique	ADJ	O	I-NOV	O
 à	à	ADP	O	O	O
 11,742	11,742	NUM	O	O	O
 francs	franc	NOUN	O	O	O
@@ -103700,8 +103658,8 @@ moins	moins	ADV	O	O	O
 grande	grand	ADJ	O	O	O
 affaire	affaire	NOUN	O	O	O
 du	de	ADP	O	O	O
-Tube	tube	NOUN	B-NOV	O	O
-transatlantique	transatlantique	ADJ	O	O	O
+Tube	tube	NOUN	B-NOV	B-NOV	O
+transatlantique	transatlantique	ADJ	O	I-NOV	O
 ,	,	PUNCT	O	O	O
 plus	plus	ADP	O	O	O
 les	le	DET	O	O	O
@@ -105007,8 +104965,8 @@ affaire	affaire	NOUN	O	O	O
 
 —	—	PUNCT	O	O	O
 Du	de	ADP	O	O	O
-Tube	tube	NOUN	B-NOV	O	O
-transatlantique	transatlantique	ADJ	O	O	O
+Tube	tube	NOUN	B-NOV	B-NOV	O
+transatlantique	transatlantique	ADJ	O	I-NOV	O
 ou	ou	CCONJ	O	O	O
 du	de	ADP	O	O	O
 Parc	parc	NOUN	O	O	O
@@ -107344,9 +107302,9 @@ travaux	travail	NOUN	O	O	O
 Mécanicien	mécanicien	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 au	au	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-de	de	ADP	O	O	O
-Brest	brest	PROPN	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+de	de	ADP	O	I-NOV	O
+Brest	brest	PROPN	O	I-NOV	O
 !	!	PUNCT	O	O	O
 »	»	PUNCT	O	O	O
 
@@ -107372,8 +107330,8 @@ Brest	brest	PROPN	O	O	O
 l'	le	DET	O	O	O
 embranchement	embranchement	NOUN	O	O	O
 du	de	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-transatlantique	transatlantique	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+transatlantique	transatlantique	ADJ	O	I-NOV	O
 .	.	PUNCT	O	O	O
 
 L'	le	DET	O	O	O
@@ -107415,9 +107373,9 @@ pressé	pressé	ADJ	O	O	O
 
 L'	le	DET	O	O	O
 immense	immense	ADJ	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-de	de	ADP	O	O	O
-fer	fer	NOUN	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+de	de	ADP	O	I-NOV	O
+fer	fer	NOUN	O	I-NOV	O
 du	de	ADP	O	O	O
 tunnel	tunnel	NOUN	O	O	O
 transatlantique	transatlantique	ADJ	O	O	O
@@ -108493,8 +108451,8 @@ agissait	agir	VERB	O	O	O
 pourtant	pourtant	ADV	O	O	O
 plus	plus	ADV	O	O	O
 du	de	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-transatlantique	transatlantique	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+transatlantique	transatlantique	ADJ	O	I-NOV	O
 ;	;	PUNCT	O	O	O
 
 la	le	DET	O	O	O
@@ -109497,8 +109455,8 @@ des	de	ADP	O	O	O
 postes	poste	NOUN	O	O	O
 par	par	ADP	O	O	O
 le	le	DET	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-pneumatique	pneumatique	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+pneumatique	pneumatique	ADJ	O	I-NOV	O
 .	.	PUNCT	O	O	O
 
 Une	un	DET	O	O	O
@@ -112757,9 +112715,9 @@ elle	lui	PRON	O	O	O
 
 «	«	PUNCT	O	O	O
 Au	au	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-de	de	ADP	O	O	O
-Londres	londres	PROPN	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+de	de	ADP	O	I-NOV	O
+Londres	londres	PROPN	O	I-NOV	O
 !	!	PUNCT	O	O	O
 
 dit	dire	VERB	O	O	O
@@ -116508,8 +116466,8 @@ là	là	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-côtier	côtier	ADJ	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+côtier	côtier	ADJ	O	I-NOV	O
 fait	faire	AUX	O	O	O
 communiquer	communiquer	VERB	O	O	O
 les	le	DET	O	O	O
@@ -116530,8 +116488,8 @@ au	au	ADP	O	O	O
 nord	nord	NOUN	O	O	O
 avec	avec	ADP	O	O	O
 les	le	DET	O	O	O
-tubes	tube	NOUN	B-NOV	O	O
-belges	belge	ADJ	O	O	O
+tubes	tube	NOUN	B-NOV	B-NOV	O
+belges	belge	ADJ	O	I-NOV	O
 et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
 le	le	PRON	O	O	O
@@ -127735,11 +127693,11 @@ colossales	colossal	ADJ	O	O	O
 qui	qui	PRON	O	O	O
 soutiennent	soutenir	VERB	O	O	O
 le	le	DET	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-de	de	ADP	O	O	O
-Téhéran	téhéran	PROPN	O	O	O
--	-	PROPN	O	O	O
-Calcutta	calcutta	PROPN	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+de	de	ADP	O	I-NOV	O
+Téhéran	téhéran	PROPN	O	I-NOV	O
+-	-	PROPN	O	I-NOV	O
+Calcutta	calcutta	PROPN	O	I-NOV	O
 se	se	PRON	O	O	O
 dessinaient	dessiner	VERB	O	O	O
 vaguement	vaguement	ADV	O	O	O
@@ -135478,9 +135436,9 @@ une	un	DET	O	O	O
 opération	opération	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-de	de	ADP	O	O	O
-Panama	panama	PROPN	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+de	de	ADP	O	I-NOV	O
+Panama	panama	PROPN	O	I-NOV	O
 ,	,	PUNCT	O	O	O
 disait	dire	VERB	O	O	O
 -	-	PRON	O	O	O
@@ -136900,24 +136858,16 @@ eau	eau	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-
 Soixante	soixante	NUM	O	O	O
-
--	-	PUNCT	O	O	O
-
+-	-	NUM	O	O	O
 quinze	quinze	NUM	O	O	O
-
 centimètres	centimètre	NOUN	O	O	O
-
 ,	,	PUNCT	O	O	O
-
 répondit	répondre	VERB	O	O	O
-
-le	le	PUNCT	O	O	O
-
+le	le	DET	O	O	O
 matelot	matelot	NOUN	O	O	O
 de	de	ADP	O	O	O
-bâbord	bâbord	PROPN	O	O	O
+bâbord	bâbord	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -137083,9 +137033,7 @@ si	si	ADV	O	O	O
 peu	peu	ADV	O	O	O
 d'	de	ADP	O	O	O
 eau	eau	NOUN	O	O	O
-
 .	.	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
 
 Deux	deux	NUM	O	O	O
@@ -137223,7 +137171,6 @@ demanda	demander	VERB	O	O	O
 Hélène	hélène	PROPN	O	O	O
 au	au	ADP	O	O	O
 capitaine	capitaine	NOUN	O	O	O
-
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -137283,7 +137230,6 @@ en	en	PRON	O	O	O
 a	avoir	AUX	O	O	O
 éloignés	éloigner	VERB	O	O	O
 .	.	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
 
 Philippe	philippe	PROPN	O	O	O
@@ -137415,9 +137361,9 @@ cinq	cinq	NUM	O	O	O
 mille	mille	NUM	O	O	O
 actions	action	NOUN	O	O	O
 du	de	ADP	O	O	O
-tube	tube	NOUN	B-NOV	O	O
-de	de	ADP	O	O	O
-Panama	panama	PROPN	O	O	O
+tube	tube	NOUN	B-NOV	B-NOV	O
+de	de	ADP	O	I-NOV	O
+Panama	panama	PROPN	O	I-NOV	O
 qui	qui	PRON	O	O	O
 baissent	baisser	VERB	O	O	O
 peut	pouvoir	ADV	O	O	O
@@ -137606,12 +137552,12 @@ Les	le	DET	O	O	O
 canaux	canal	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
-tubes	tube	NOUN	B-NOV	O	O
-terriens	terrien	ADJ	O	O	O
+tubes	tube	NOUN	B-NOV	B-NOV	B-NOV
+terriens	terrien	ADJ	O	I-NOV	O
 ou	ou	CCONJ	O	O	O
-sous	sou	ADJ	O	O	O
--	-	NOUN	O	O	O
-marins	marin	ADJ	O	O	O
+sous	sou	ADJ	O	O	I-NOV
+-	-	NOUN	O	O	I-NOV
+marins	marin	ADJ	O	O	I-NOV
 ne	ne	ADV	O	O	O
 sont	être	AUX	O	O	O
 rien	rien	PRON	O	O	O
@@ -138729,13 +138675,11 @@ continent	continent	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
-
 Superbe	superbe	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 merveilleux	merveilleux	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 gigantesque	gigantesque	ADJ	O	O	O
-
 !	!	PUNCT	O	O	O
 
 Je	je	PRON	O	O	O
@@ -138745,141 +138689,102 @@ mes	mon	DET	O	O	O
 autres	autre	ADJ	O	O	O
 entreprises	entreprise	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-
 le	le	DET	O	O	O
 Parc	parc	NOUN	O	O	O
 européen	européen	ADJ	O	O	O
 est	être	AUX	O	O	O
 terminé	terminer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
-
 le	le	DET	O	O	O
-Tube	tube	NOUN	B-NOV	O	O
-transatlantique	transatlantique	ADJ	O	O	O
+Tube	tube	NOUN	B-NOV	B-NOV	O
+transatlantique	transatlantique	ADJ	O	I-NOV	O
 marche	marche	VERB	O	O	O
 tout	tout	ADV	O	O	O
 seul	seul	ADJ	O	O	O
-
 et	et	CCONJ	O	O	O
 l'	le	DET	O	O	O
 idée	idée	NOUN	O	O	O
 de	de	ADP	O	O	O
-
 la	le	DET	O	O	O
 transformation	transformation	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 France	france	PROPN	O	O	O
-
 en	en	ADP	O	O	O
 société	société	NOUN	O	O	O
-
-financière	financière	PUNCT	O	O	O
-
+financière	financier	ADJ	O	O	O
 a	avoir	AUX	O	O	O
 fait	faire	VERB	O	O	O
-
 un	un	DET	O	O	O
 grand	grand	ADJ	O	O	O
 pas	pas	NOUN	O	O	O
-
-dans	dans	ADV	O	O	O
-
+dans	dans	ADP	O	O	O
 l'	le	DET	O	O	O
 esprit	esprit	NOUN	O	O	O
 public	public	ADJ	O	O	O
-
 ,	,	PUNCT	O	O	O
-
 je	je	PRON	O	O	O
 puis	pouvoir	VERB	O	O	O
 donc	donc	ADV	O	O	O
-
 m'	me	PRON	O	O	O
 occuper	occuper	VERB	O	O	O
-
-d'	de	DET	O	O	O
+d'	de	ADP	O	O	O
 autre	autre	ADJ	O	O	O
 chose	chose	NOUN	O	O	O
-
 ...	...	PUNCT	O	O	O
 
 Reste	reste	VERB	O	O	O
 à	à	ADP	O	O	O
 Taïti	taïti	PROPN	O	O	O
-
 ;	;	PUNCT	O	O	O
-
 je	je	PRON	O	O	O
 vais	aller	VERB	O	O	O
 acheter	acheter	VERB	O	O	O
-
 une	un	DET	O	O	O
 demi	demi	NOUN	O	O	O
-
--	-	PUNCT	O	O	O
-
+-	-	NOUN	O	O	O
 douzaine	douzaine	NOUN	O	O	O
-
 de	de	ADP	O	O	O
 navires	navire	NOUN	O	O	O
-
 et	et	CCONJ	O	O	O
 t'	te	PRON	O	O	O
 envoyer	envoyer	VERB	O	O	O
-
 une	un	DET	O	O	O
 commission	commission	NOUN	O	O	O
 d'	de	ADP	O	O	O
 études	étude	NOUN	O	O	O
-
 composée	composer	VERB	O	O	O
-
 d'	de	ADP	O	O	O
 ingénieurs	ingénieur	NOUN	O	O	O
-
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 marins	marin	NOUN	O	O	O
-
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
 géographes	géographe	NOUN	O	O	O
-
 ;	;	PUNCT	O	O	O
-
 cette	ce	DET	O	O	O
 commission	commission	NOUN	O	O	O
-
-parcourra	parcourir	PROPN	O	O	O
-
-la	le	PUNCT	O	O	O
-
-Polynésie	polynésie	NOUN	O	O	O
-
+parcourra	parcourir	VERB	O	O	O
+la	le	DET	O	O	O
+Polynésie	polynésie	PROPN	O	O	O
 sous	sou	ADP	O	O	O
 ta	ton	DET	O	O	O
-
 direction	direction	NOUN	O	O	O
-
 ,	,	PUNCT	O	O	O
 opèrera	opèrerer	VERB	O	O	O
-
 des	un	DET	O	O	O
 sondages	sondage	NOUN	O	O	O
-
 ,	,	PUNCT	O	O	O
 lèvera	lever	VERB	O	O	O
 des	un	DET	O	O	O
 cartes	carte	NOUN	O	O	O
-
 ,	,	PUNCT	O	O	O
 pointera	pointer	VERB	O	O	O
 jusqu'	jusque	ADP	O	O	O
 aux	à	ADP	O	O	O
 moindres	moindre	ADJ	O	O	O
 îlots	îlot	NOUN	O	O	O
-
 et	et	CCONJ	O	O	O
 nous	nous	PRON	O	O	O
 établira	établir	VERB	O	O	O
@@ -138887,14 +138792,12 @@ un	un	DET	O	O	O
 projet	projet	NOUN	O	O	O
 de	de	ADP	O	O	O
 continent	continent	NOUN	O	O	O
-
 ...	...	PUNCT	O	O	O
 
 Quant	quant	ADV	O	O	O
 au	au	DET	O	O	O
 côté	côté	NOUN	O	O	O
 financier	financier	ADJ	O	O	O
-
 ,	,	PUNCT	O	O	O
 c'	ce	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -138910,7 +138813,6 @@ première	premier	ADJ	O	O	O
 d'	de	ADP	O	O	O
 actions	action	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
@@ -139345,19 +139247,16 @@ de	de	ADP	O	O	O
 10,000	10,000	NUM	O	O	O
 fr	fr	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
 chacune	chacun	PRON	O	O	O
 1,000	1,000	NUM	O	O	O
 fr	fr	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
 en	en	ADP	O	O	O
 souscrivant	souscrire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 9,000	9,000	NUM	O	O	O
 fr	fr	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 répartition	répartition	NOUN	O	O	O
