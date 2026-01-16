@@ -197,7 +197,7 @@ journaux	journal	NOUN	O	O	O
 de	de	ADP	O	O	O
 Londres	londres	PROPN	O	O	O
 le	le	DET	O	O	O
-compte	compte	NOUN	B-NOV	O	O
+compte	compte	NOUN	O	O	O
 rendu	rendre	VERB	O	O	O
 in	in	X	O	O	O
 extenso	extenso	X	O	O	O
@@ -210,7 +210,7 @@ avait	avoir	AUX	O	O	O
 présenté	présenter	VERB	O	O	O
 l'	le	DET	O	O	O
 avant	avant	ADV	O	O	O
--	-	NOUN	I-NOV	O	O
+-	-	NOUN	O	O	O
 veille	veille	NOUN	O	O	O
 au	au	ADP	O	O	O
 grand	grand	ADJ	O	O	O
@@ -222,11 +222,11 @@ Hygiène	hygiène	NOUN	O	O	O
 sur	sur	ADP	O	O	O
 un	un	DET	O	O	O
 «	«	PUNCT	O	O	O
-compte	compte	NOUN	O	O	O
--	-	NOUN	O	O	O
-globules	globule	NOUN	I-NOV	O	O
-du	de	ADP	O	O	O
-sang	sang	NOUN	O	O	O
+compte	compte	NOUN	B-NOV	B-NOV	O
+-	-	NOUN	I-NOV	I-NOV	O
+globules	globule	NOUN	I-NOV	I-NOV	O
+du	de	ADP	O	I-NOV	O
+sang	sang	NOUN	O	I-NOV	O
 »	»	PUNCT	O	O	O
 dont	dont	PRON	O	O	O
 il	il	PRON	O	O	O

@@ -31,26 +31,22 @@ def tokenize(text):
 # 2. Détection des novums lemmatisés dans le texte
 # -----------------------------------------------------------
 
-def find_novum_spans(tokens, novums_lemma, max_gap=4):
+def find_novum_spans(tokens, novums_lemma, max_gap=2):
     spans = []
-
-    # mettre les novums sous forme de listes de lemmes
     novum_lemmas = [novum.lower().split() for novum in novums_lemma]
 
     for target in novum_lemmas:
         target_len = len(target)
         i = 0
         while i < len(tokens):
-            t_idx = 0  # index dans le novum
-            span_start = None
-            span_end = None
+            t_idx = 0
             gap_count = 0
+            matched_indices = []
             j = i
+
             while j < len(tokens) and t_idx < target_len:
-                if tokens[j]["lemma"].lower() == target[t_idx]:
-                    if span_start is None:
-                        span_start = tokens[j]["start"]
-                    span_end = tokens[j]["end"]
+                if tokens[j]["lemma"] == target[t_idx]:
+                    matched_indices.append(j)
                     t_idx += 1
                     gap_count = 0
                 else:
@@ -60,13 +56,13 @@ def find_novum_spans(tokens, novums_lemma, max_gap=4):
                 j += 1
 
             if t_idx == target_len:
-                # on a trouvé le novum
-                spans.append((span_start, span_end, " ".join(target)))
-                i = j  # avancer après la fin du novum trouvé
+                spans.append(matched_indices)
+                i = j
             else:
                 i += 1
 
     return spans
+
 
 
 # -----------------------------------------------------------
@@ -74,34 +70,13 @@ def find_novum_spans(tokens, novums_lemma, max_gap=4):
 # -----------------------------------------------------------
 
 def write_bio_sentence(tokens, spans, f, n_cols=3):
-    """
-    spans = liste (start, end, text)
-    tokens = tokens spaCy enrichis (text, lemma, pos, start, end)
-    Génère n colonnes BIO pour gérer les chevauchements.
-    """
-
     bio_labels = [["O"] * len(tokens) for _ in range(n_cols)]
 
-    for start, end, novum_text in spans:
-        novum_lemmas = [tok.lemma_.lower() for tok in nlp(novum_text)]
-
-        matched = []
-        t_idx = 0
-
-        for i, tok in enumerate(tokens):
-            if t_idx >= len(novum_lemmas):
-                break
-            if tok["lemma"] == novum_lemmas[t_idx]:
-                matched.append(i)
-                t_idx += 1
-
-        if not matched:
-            continue
-
+    for matched_indices in spans:
         for col in range(n_cols):
-            if all(bio_labels[col][i] == "O" for i in matched):
-                bio_labels[col][matched[0]] = "B-NOV"
-                for i in matched[1:]:
+            if all(bio_labels[col][i] == "O" for i in matched_indices):
+                bio_labels[col][matched_indices[0]] = "B-NOV"
+                for i in matched_indices[1:]:
                     bio_labels[col][i] = "I-NOV"
                 break
 
@@ -110,6 +85,7 @@ def write_bio_sentence(tokens, spans, f, n_cols=3):
         f.write(f"{tok['text']}\t{tok['lemma']}\t{tok['pos']}\t{labels}\n")
 
     f.write("\n")
+
 
 
 # chargement de spaCy FR avec lemmatisation

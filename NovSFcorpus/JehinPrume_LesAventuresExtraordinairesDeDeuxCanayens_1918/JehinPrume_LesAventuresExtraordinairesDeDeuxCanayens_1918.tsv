@@ -16410,12 +16410,12 @@ les	le	DET	O	O	O
 noms	nom	NOUN	O	O	O
 de	de	ADP	O	O	O
 “	“	PUNCT	O	O	O
-Légium	légium	NOUN	B-NOV	O	O
+Légium	légium	PROPN	B-NOV	O	O
 '	'	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
 “	“	PUNCT	O	O	O
-Pcpuléum	pcpuléum	PROPN	O	O	O
+Populéum	populéum	PROPN	B-NOV	O	O
 "	"	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
@@ -21375,8 +21375,9 @@ Feuillet	feuillet	NOUN	O	O	O
 
 )	)	PUNCT	O	O	O
 
-Auto	auto	NOUN	O	O	O
-aérien	aérien	ADJ	O	O	O
+Auto	auto	ADJ	B-NOV	O	O
+-	-	ADJ	I-NOV	O	O
+aérien	aérien	ADJ	I-NOV	O	O
 “	“	PUNCT	O	O	O
 Le	le	DET	O	O	O
 Wawaron	wawaron	PROPN	B-NOV	O	O
@@ -21445,9 +21446,9 @@ Dieu	dieu	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 L'	le	DET	O	O	O
-Auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-Aérien	aérien	NOUN	O	O	O
+Auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+Aérien	aérien	NOUN	I-NOV	O	O
 ,	,	PUNCT	O	O	O
 détaché	détacher	VERB	O	O	O
 tout	tout	ADV	O	O	O
@@ -21986,7 +21987,7 @@ lorsqu'	lorsque	SCONJ	O	O	O
 beau	beau	ADJ	O	O	O
 soir	soir	NOUN	O	O	O
 le	le	DET	O	O	O
-Wawaron	wawaron	PROPN	B-NOV	B-NOV	O
+Wawaron	wawaron	PROPN	B-NOV	O	O
 ”	”	PUNCT	O	O	O
 passa	passer	VERB	O	O	O
 tout	tout	PRON	O	O	O
@@ -22030,7 +22031,7 @@ mots	mot	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 ‘	‘	PUNCT	O	O	O
 Le	le	DET	O	O	O
-Wawaron	wawaron	PROPN	O	O	O
+Wawaron	wawaron	PROPN	B-NOV	O	O
 ,	,	PUNCT	O	O	O
 P.	p.	PROPN	O	O	O
 R.	r.	PROPN	O	O	O
@@ -22334,9 +22335,9 @@ un	un	DET	O	O	O
 tel	tel	ADJ	O	O	O
 nom	nom	NOUN	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	ADJ	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	ADJ	I-NOV	O	O
 devait	devoir	VERB	O	O	O
 être	être	AUX	O	O	O
 un	un	DET	O	O	O
@@ -22371,9 +22372,9 @@ nom	nom	NOUN	O	O	O
 donner	donner	VERB	O	O	O
 à	à	ADP	O	O	O
 un	un	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	ADJ	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	ADJ	I-NOV	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 que	que	PRON	O	O	O
@@ -28902,9 +28903,9 @@ et	et	CCONJ	O	O	O
 sans	sans	ADP	O	O	O
 que	que	SCONJ	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	ADJ	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	ADJ	I-NOV	O	O
 soit	être	AUX	O	O	O
 vu	voir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -29948,7 +29949,7 @@ simplement	simplement	ADV	O	O	O
 le	le	DET	O	O	O
 pacifique	pacifique	ADJ	O	O	O
 “	“	PUNCT	O	O	O
-Wawaron	wawaron	PROPN	B-NOV	B-NOV	O
+Wawaron	wawaron	PROPN	B-NOV	O	O
 '	'	PUNCT	O	O	O
 ”	”	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
@@ -29982,7 +29983,7 @@ lecteurs	lecteur	NOUN	O	O	O
 c'	ce	PRON	O	O	O
 était	être	AUX	O	O	O
 le	le	DET	O	O	O
-Wawaron	wawaron	NOUN	O	O	O
+Wawaron	wawaron	NOUN	B-NOV	O	O
 portant	porter	VERB	O	O	O
 sur	sur	ADP	O	O	O
 son	son	DET	O	O	O
@@ -30077,9 +30078,9 @@ pouvaient	pouvoir	VERB	O	O	O
 parfaitement	parfaitement	ADV	O	O	O
 distinguer	distinguer	VERB	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	ADJ	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	ADJ	I-NOV	O	O
 et	et	CCONJ	O	O	O
 Son	son	DET	O	O	O
 nom	nom	NOUN	O	O	O
@@ -30396,9 +30397,9 @@ Espace	espace	NOUN	O	O	O
 
 =	=	VERB	O	O	O
 vw	vw	NOUN	O	O	O
-Auto	auto	ADJ	O	O	O
--	-	ADJ	O	O	O
-aérien	aérien	ADJ	O	O	O
+Auto	auto	ADJ	B-NOV	O	O
+-	-	ADJ	I-NOV	O	O
+aérien	aérien	ADJ	I-NOV	O	O
 “	“	PUNCT	O	O	O
 Le	le	DET	O	O	O
 Wawaron	wawaron	PROPN	B-NOV	O	O
@@ -30414,9 +30415,9 @@ l'	le	DET	O	O	O
 équipage	équipage	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	NOUN	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	NOUN	I-NOV	O	O
 impérial	impérial	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
@@ -30504,7 +30505,7 @@ il	il	PRON	O	O	O
 existait	exister	VERB	O	O	O
 ce	ce	DET	O	O	O
 “	“	PUNCT	O	O	O
-Wawaron	wawaron	PROPN	B-NOV	B-NOV	O
+Wawaron	wawaron	PROPN	B-NOV	O	O
 ”	”	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
@@ -30536,7 +30537,7 @@ perfectionnés	perfectionner	ADJ	O	O	O
 que	que	SCONJ	O	O	O
 le	le	DET	O	O	O
 “	“	PUNCT	O	O	O
-Wawaron	wawaron	PROPN	O	O	O
+Wawaron	wawaron	PROPN	B-NOV	O	O
 ''	''	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -30861,9 +30862,9 @@ le	le	DET	O	O	O
 pont	pont	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	NOUN	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	NOUN	I-NOV	O	O
 .	.	PUNCT	O	O	O
 
 sourde	sourd	ADJ	O	O	O
@@ -34961,9 +34962,9 @@ l'	le	DET	O	O	O
 avant	avant	NOUN	O	O	O
 de	de	ADP	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	NOUN	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	NOUN	I-NOV	O	O
 ,	,	PUNCT	O	O	O
 templez	templer	VERB	O	O	O
 deux	deux	NUM	O	O	O
@@ -36232,9 +36233,9 @@ Etat	etat	NOUN	O	O	O
 A	à	ADP	O	O	O
 bord	bord	NOUN	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	ADJ	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	ADJ	I-NOV	O	O
 Impérial	impérial	ADJ	O	O	O
 ‘	‘	PUNCT	O	O	O
 Le	le	DET	O	O	O
@@ -37307,9 +37308,9 @@ huit	huit	NUM	O	O	O
 jours	jour	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-Auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-Aérien	aérien	NOUN	O	O	O
+Auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+Aérien	aérien	NOUN	I-NOV	O	O
 mperiual	mperiual	ADJ	O	O	O
 “	“	PUNCT	O	O	O
 Le	le	DET	O	O	O
@@ -38320,9 +38321,9 @@ se	se	PRON	O	O	O
 doutant	douter	VERB	O	O	O
 que	que	SCONJ	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	NOUN	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	NOUN	I-NOV	O	O
 ne	ne	ADV	O	O	O
 manquerait	manquer	VERB	O	O	O
 pas	pas	ADV	O	O	O
@@ -42148,9 +42149,9 @@ en	en	ADP	O	O	O
 faisant	faire	AUX	O	O	O
 évoluer	évoluer	VERB	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	NOUN	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	NOUN	I-NOV	O	O
 dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 direction	direction	NOUN	O	O	O
@@ -42198,9 +42199,9 @@ Wawaron	wawaron	PROPN	B-NOV	O	O
 
 Lorsque	lorsque	SCONJ	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	ADJ	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	ADJ	I-NOV	O	O
 fut	être	AUX	O	O	O
 à	à	ADP	O	O	O
 environ	environ	ADV	O	O	O
@@ -43368,9 +43369,9 @@ lendemain	lendemain	NOUN	O	O	O
 matin	matin	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	ADJ	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	ADJ	I-NOV	O	O
 planait	planer	VERB	O	O	O
 au	au	ADP	O	O	O
 -	-	ADV	O	O	O
@@ -44774,9 +44775,9 @@ Wawaron	wawaron	PROPN	B-NOV	O	O
 
 De	de	ADP	O	O	O
 l'	le	DET	O	O	O
-auto	auto	NOUN	O	O	O
--	-	NOUN	O	O	O
-aérien	aérien	NOUN	O	O	O
+auto	auto	NOUN	B-NOV	O	O
+-	-	NOUN	I-NOV	O	O
+aérien	aérien	NOUN	I-NOV	O	O
 ils	il	PRON	O	O	O
 ne	ne	ADV	O	O	O
 trouvèrent	trouver	VERB	O	O	O
@@ -44858,7 +44859,7 @@ vrai	vrai	ADJ	O	O	O
 qu'	que	SCONJ	O	O	O
 avec	avec	ADP	O	O	O
 le	le	DET	O	O	O
-Wawaron	wawaron	NOUN	B-NOV	B-NOV	O
+Wawaron	wawaron	NOUN	B-NOV	O	O
 nous	nous	PRON	O	O	O
 perdons	perdre	VERB	O	O	O
 beaucoup	beaucoup	ADV	O	O	O
@@ -44917,7 +44918,7 @@ secret	secret	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 comme	comme	ADP	O	O	O
 le	le	DET	O	O	O
-Wawaron	wawaron	NOUN	O	O	O
+Wawaron	wawaron	NOUN	B-NOV	O	O
 bouleversera	bouleverser	VERB	O	O	O
 le	le	DET	O	O	O
 monde	monde	NOUN	O	O	O
@@ -46640,7 +46641,7 @@ des	un	DET	O	O	O
 cigares	cigare	NOUN	O	O	O
 ‘	‘	PUNCT	O	O	O
 Le	le	DET	O	O	O
-Wawaron	wawaron	PROPN	B-NOV	B-NOV	O
+Wawaron	wawaron	PROPN	B-NOV	O	O
 ''	''	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
 des	un	DET	O	O	O
@@ -46660,7 +46661,7 @@ des	un	DET	O	O	O
 corsets	corset	NOUN	O	O	O
 ‘	‘	PUNCT	O	O	O
 Le	le	DET	O	O	O
-Wawaron	wawaron	PROPN	O	O	O
+Wawaron	wawaron	PROPN	B-NOV	O	O
 '	'	PUNCT	O	O	O
 ”	”	PUNCT	O	O	O
 '	'	PUNCT	O	O	O
@@ -48308,7 +48309,7 @@ chambre	chambre	NOUN	O	O	O
 des	de	ADP	O	O	O
 machines	machine	NOUN	O	O	O
 du	de	ADP	O	O	O
-Wawaron	wawaron	PROPN	B-NOV	B-NOV	O
+Wawaron	wawaron	PROPN	B-NOV	O	O
 une	un	DET	O	O	O
 caisse	caisse	NOUN	O	O	O
 neue	neue	NOUN	O	O	O
@@ -48345,7 +48346,7 @@ tout	tout	ADJ	O	O	O
 le	le	DET	O	O	O
 secret	secret	NOUN	O	O	O
 du	de	ADP	O	O	O
-Wawaron	wawaron	PROPN	O	O	O
+Wawaron	wawaron	PROPN	B-NOV	O	O
 ,	,	PUNCT	O	O	O
 secret	secret	NOUN	O	O	O
 que	que	PRON	O	O	O
