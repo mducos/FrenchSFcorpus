@@ -1,11 +1,12 @@
 import os
 import spacy
 import re
+from pathlib import Path
 
 # charger le modèle spaCy
 nlp = spacy.load("fr_dep_news_trf")
 
-corpus2 = "NovSFcorpus"
+corpus2 = "data/SFcorpus"
 
 def clean_text(text):
     # remplacement des retours ligne par un espace
@@ -26,7 +27,37 @@ def clean_text(text):
     # séparation des mots avec tirets
     text = re.sub(r"\-"," - ",text)
 
+    text = re.sub(r"'","' ",text)
+
     return text
+
+def merge_lines(file_path: str):
+    path = Path(file_path)
+    lines = path.read_text(encoding="utf-8").splitlines()
+
+    merged = []
+
+    for line in lines:
+        stripped = line.lstrip()
+
+        # commence par une minuscule
+        starts_lower = stripped[:1].islower()
+
+        # commence par de la ponctuation (guillemets, …, ponctuation Unicode incluse)
+        starts_punct = bool(re.match(r"[\"'«»“”‘’.,;:!?…()\[\]{}-]", stripped))
+
+        # la ligne précédente ne se termine pas par une ponctuation forte
+        prev_no_strong_punct = (
+            merged
+            and not re.search(r"[.!?…]$", merged[-1].rstrip())
+        )
+
+        if merged and (starts_punct or (starts_lower and prev_no_strong_punct)):
+            merged[-1] = merged[-1].rstrip() + " " + stripped
+        else:
+            merged.append(line)
+
+    return "\n".join(merged)
 
 for folder_name in os.listdir(corpus2):
     folder_path = os.path.join(corpus2, folder_name)
@@ -47,6 +78,7 @@ for folder_name in os.listdir(corpus2):
         text = f.read()
 
     text = clean_text(text)
+    text = merge_lines(text)
 
     # segmentation en phrases avec spaCy
     doc = nlp(text)
