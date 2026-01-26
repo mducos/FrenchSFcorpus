@@ -1,13 +1,16 @@
 Il	il	PRON	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 est	être	AUX	O	O	O
 question	question	NOUN	O	O	O
 actuellement	actuellement	ADV	O	O	O
 que	que	ADV	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	PUNCT	O	O	O
 invention	invention	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	PUNCT	O	O	O
 un	un	DET	O	O	O
 ingénieur	ingénieur	NOUN	O	O	O
 anglais	anglais	ADJ	O	O	O
@@ -18,7 +21,7 @@ Matthews	matthews	PROPN	O	O	O
 :	:	PUNCT	O	O	O
 le	le	DET	O	O	O
 rayon	rayon	NOUN	B-NOV	B-NOV	O
-thermique	thermique	ADJ	I-NOV	O	O
+thermique	thermique	ADJ	I-NOV	I-NOV	O
 qui	qui	PRON	O	I-NOV	O
 tue	taire	VERB	O	I-NOV	O
 à	à	ADP	O	O	O
@@ -108,8 +111,8 @@ et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 métaux	métal	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-»	»	PUNCT	O	O	O
 
+»	»	PUNCT	O	O	O
 Un	un	PRON	O	O	O
 de	de	ADP	O	O	O
 nos	notre	DET	O	O	O
@@ -131,7 +134,7 @@ le	le	DET	O	O	O
 fameux	fameux	ADJ	O	O	O
 rayon	rayon	NOUN	O	O	O
 tuer	tuer	VERB	O	O	O
-net	net	ADJ	O	O	O
+net	net	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 distance	distance	NOUN	O	O	O
@@ -156,7 +159,8 @@ du	de	ADP	O	O	O
 vaste	vaste	ADJ	O	O	O
 laboratoire	laboratoire	NOUN	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	PUNCT	O	O	O
 ingénieur	ingénieur	NOUN	O	O	O
 anglais	anglais	ADJ	O	O	O
 .	.	PUNCT	O	O	O
@@ -174,21 +178,22 @@ Grindell	grindell	PROPN	O	O	O
 Matthews	matthews	PROPN	O	O	O
 ajoute	ajouter	VERB	O	O	O
 :	:	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
-C'	ce	PRON	O	O	O
+C	c	PRON	O	O	O
+'	'	PRON	O	O	O
 est	être	AUX	O	O	O
 un	un	DET	O	O	O
 rayon	rayon	NOUN	O	O	O
 lumineux	lumineux	ADJ	O	O	O
 le	le	DET	O	O	O
-long	long	ADJ	O	O	O
+long	long	ADV	O	O	O
 duquel	duquel	PRON	O	O	O
 circule	circuler	VERB	O	O	O
 un	un	DET	O	O	O
 courant	courant	NOUN	O	O	O
 électrique	électrique	ADJ	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 intensité	intensité	NOUN	O	O	O
 constante	constant	ADJ	O	O	O
 et	et	CCONJ	O	O	O
@@ -202,13 +207,14 @@ pourrais	pouvoir	VERB	O	O	O
 balayer	balayer	VERB	O	O	O
 des	un	DET	O	O	O
 corps	corps	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 armée	armée	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-etc.	etc.	ADV	O	O	O
-
+etc.	etc.	PUNCT	O	O	O
 Quoi	quoi	ADV	O	O	O
-qu'	que	SCONJ	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 il	il	PRON	O	O	O
 en	en	PRON	O	O	O
 soit	être	VERB	O	O	O
@@ -233,18 +239,19 @@ ne	ne	ADV	O	O	O
 se	se	PRON	O	O	O
 passe	passer	VERB	O	O	O
 pas	pas	ADV	O	O	O
-de	de	ADP	O	O	O
+de	de	DET	O	O	O
 jour	jour	NOUN	O	O	O
 que	que	SCONJ	O	O	O
-quelqu'	quelque	DET	O	O	O
+quelqu	quelqu	DET	O	O	O
+'	'	DET	O	O	O
 un	un	PRON	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	PRON	O	O	O
 apporte	apporter	VERB	O	O	O
 un	un	DET	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 perfectionnement	perfectionnement	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-
 On	on	PRON	O	O	O
 tue	taire	VERB	O	O	O
 son	son	DET	O	O	O
@@ -295,17 +302,20 @@ avec	avec	ADP	O	O	O
 les	le	DET	O	O	O
 hommes	homme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-c'	ce	PRON	O	O	O
+c	c	PRON	O	O	O
+'	'	PRON	O	O	O
 est	être	VERB	O	O	O
 mettre	mettre	VERB	O	O	O
 une	un	DET	O	O	O
 boîte	boîte	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 allumettes	allumette	NOUN	O	O	O
 entre	entrer	ADP	O	O	O
 les	le	DET	O	O	O
 mains	main	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 un	un	DET	O	O	O
 enfant	enfant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -320,7 +330,6 @@ brûler	brûler	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 »	»	PUNCT	O	O	O
-
 À	à	ADP	O	O	O
 peine	peiner	ADV	O	O	O
 M.	m.	NOUN	O	O	O
@@ -346,7 +355,8 @@ tout	tout	ADV	O	O	O
 aussitôt	aussitôt	ADV	O	O	O
 la	le	DET	O	O	O
 Presse	presse	NOUN	O	O	O
-s'	se	PRON	O	O	O
+s	s	PRON	O	O	O
+'	'	PRON	O	O	O
 en	en	PRON	O	O	O
 empare	emparer	VERB	O	O	O
 et	et	CCONJ	O	O	O
@@ -368,7 +378,7 @@ est	être	AUX	O	O	O
 impossible	impossible	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 qu	qu	SCONJ	O	O	O
-'	'	PUNCT	O	O	O
+'	'	SCONJ	O	O	O
 «	«	PUNCT	O	O	O
 un	un	DET	O	O	O
 rayon	rayon	NOUN	O	O	O
@@ -380,7 +390,8 @@ circule	circuler	VERB	O	O	O
 un	un	DET	O	O	O
 courant	courant	NOUN	O	O	O
 électrique	électrique	ADJ	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 intensité	intensité	NOUN	O	O	O
 constante	constant	ADJ	O	O	O
 et	et	CCONJ	O	O	O
@@ -388,14 +399,16 @@ maniable	maniable	ADJ	O	O	O
 à	à	ADP	O	O	O
 volonté	volonté	NOUN	O	O	O
 »	»	PUNCT	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 a	avoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
 le	le	DET	O	O	O
 sens	sens	NOUN	O	O	O
 commun	commun	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-d'	de	DET	O	O	O
+d	d	DET	O	O	O
+'	'	PUNCT	O	O	O
 autres	autre	PRON	O	O	O
 prétendent	prétendre	VERB	O	O	O
 que	que	SCONJ	O	O	O
@@ -416,7 +429,8 @@ affirment	affirmer	VERB	O	O	O
 -	-	PRON	O	O	O
 ils	il	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-qu'	que	SCONJ	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 ils	il	PRON	O	O	O
 ont	avoir	AUX	O	O	O
 trouvé	trouver	VERB	O	O	O
@@ -509,7 +523,8 @@ faut	falloir	VERB	O	O	O
 aussi	aussi	ADV	O	O	O
 constater	constater	VERB	O	O	O
 que	que	SCONJ	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 imagination	imagination	NOUN	O	O	O
 des	de	ADP	O	O	O
 romanciers	romancier	NOUN	O	O	O
@@ -526,7 +541,8 @@ des	de	ADP	O	O	O
 inventeurs	inventeur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-S'	se	SCONJ	O	O	O
+S	s	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 il	il	PRON	O	O	O
 était	être	AUX	O	O	O
 loisible	loisible	ADJ	O	O	O
@@ -549,7 +565,8 @@ toutes	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 inventions	invention	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-jusqu'	jusque	ADP	O	O	O
+jusqu	jusqu	ADP	O	O	O
+'	'	ADP	O	O	O
 aux	à	ADP	O	O	O
 plus	plus	ADV	O	O	O
 célèbres	célèbre	ADJ	O	O	O
@@ -564,7 +581,8 @@ trouvent	trouver	VERB	O	O	O
 en	en	ADP	O	O	O
 substance	substance	NOUN	O	O	O
 dans	dans	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 oeuvre	oeuvre	NOUN	O	O	O
 des	de	ADP	O	O	O
 littérateurs	littérateur	NOUN	O	O	O
@@ -575,27 +593,32 @@ ne	ne	ADV	O	O	O
 me	me	PRON	O	O	O
 dites	dire	VERB	O	O	O
 pas	pas	ADV	O	O	O
-qu'	que	SCONJ	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	PUNCT	O	O	O
 il	il	PRON	O	O	O
 y	y	PRON	O	O	O
 a	avoir	VERB	O	O	O
 fort	fort	ADV	O	O	O
 loin	loin	ADV	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 imagination	imagination	NOUN	O	O	O
 littéraire	littéraire	ADJ	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 un	un	DET	O	O	O
 Villiers	villiers	PROPN	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 Isle	isle	PROPN	O	O	O
 Adam	adam	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 fabriquant	fabriquer	VERB	O	O	O
-l'	le	DET	O	O	O
-Éve	éve	PROPN	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
+Éve	éve	NOUN	O	O	O
 future	futur	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
@@ -607,7 +630,8 @@ mécanique	mécanique	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 pourtant	pourtant	ADV	O	O	O
 humaine	humain	ADJ	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 un	un	DET	O	O	O
 roman	roman	NOUN	O	O	O
 fameux	fameux	ADJ	O	O	O
@@ -615,7 +639,8 @@ fameux	fameux	ADJ	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 création	création	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 un	un	DET	O	O	O
 chimiste	chimiste	NOUN	O	O	O
 génial	génial	ADJ	O	O	O
@@ -632,7 +657,8 @@ vivants	vivant	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 y	y	PRON	O	O	O
 a	avoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
@@ -648,10 +674,12 @@ songe	songer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Car	car	CCONJ	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 idée	idée	NOUN	O	O	O
 première	premier	ADJ	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 est	être	AUX	O	O	O
 -	-	PRON	O	O	O
 elle	lui	PRON	O	O	O
@@ -662,7 +690,8 @@ essentielle	essentiel	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
-lorsqu'	lorsque	SCONJ	O	O	O
+lorsqu	lorsqu	SCONJ	O	O	O
+'	'	PUNCT	O	O	O
 une	un	DET	O	O	O
 idée	idée	NOUN	O	O	O
 est	être	AUX	O	O	O
@@ -735,7 +764,8 @@ Jean	jean	PROPN	O	O	O
 Lecoq	lecoq	PROPN	O	O	O
 me	me	PRON	O	O	O
 rappelait	rappeler	VERB	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 autre	autre	ADJ	O	O	O
 jour	jour	NOUN	O	O	O
 que	que	SCONJ	O	O	O
@@ -749,7 +779,8 @@ je	je	PRON	O	O	O
 parlais	parler	VERB	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	ADP	O	O	O
 heure	heure	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 Villiers	villiers	PROPN	O	O	O
@@ -757,8 +788,8 @@ prévoyait	prévoir	VERB	O	O	O
 le	le	DET	O	O	O
 cinématographe	cinématographe	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-H.	h.	PROPN	O	O	O
 
+H.	h.	NOUN	O	O	O
 -	-	PUNCT	O	O	O
 G.	g.	PROPN	O	O	O
 Wells	wells	PROPN	O	O	O
@@ -774,7 +805,8 @@ mondes	monde	NOUN	O	O	O
 parle	parler	VERB	O	O	O
 tout	tout	ADV	O	O	O
 simplement	simplement	ADV	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 un	un	DET	O	O	O
 rayon	rayon	NOUN	B-NOV	O	O
 électrique	électrique	ADJ	I-NOV	O	O
@@ -794,8 +826,7 @@ son	son	DET	O	O	O
 passage	passage	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-H.	h.	PROPN	O	O	O
-
+H.	h.	NOUN	O	O	O
 -	-	PUNCT	O	O	O
 G.	g.	PROPN	O	O	O
 Wells	wells	PROPN	O	O	O
@@ -840,7 +871,8 @@ de	de	ADP	O	O	O
 mettre	mettre	VERB	O	O	O
 fin	fin	NOUN	O	O	O
 à	à	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 humanité	humanité	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
@@ -862,7 +894,8 @@ se	se	PRON	O	O	O
 fera	faire	VERB	O	O	O
 pas	pas	ADV	O	O	O
 à	à	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 aide	aide	NOUN	O	O	O
 de	de	ADP	O	O	O
 canons	canon	NOUN	O	O	O
@@ -879,7 +912,8 @@ microbes	microbe	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
-s'	se	PRON	O	O	O
+s	s	PRON	O	O	O
+'	'	PRON	O	O	O
 enverra	envoyer	VERB	O	O	O
 des	un	DET	O	O	O
 épidémies	épidémie	NOUN	O	O	O
@@ -915,6 +949,7 @@ est	être	AUX	O	O	O
 ,	,	PUNCT	O	O	O
 hélas	héler	INTJ	O	O	O
 !	!	PUNCT	O	O	O
+
 tenté	tenter	VERB	O	O	O
 de	de	ADP	O	O	O
 le	le	PRON	O	O	O
@@ -932,7 +967,8 @@ assez	assez	ADV	O	O	O
 de	de	ADP	O	O	O
 science	science	NOUN	O	O	O
 pour	pour	ADP	O	O	O
-qu'	que	SCONJ	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 ils	il	PRON	O	O	O
 se	se	PRON	O	O	O
 détruisent	détruire	VERB	O	O	O
@@ -940,7 +976,8 @@ eux	lui	PRON	O	O	O
 -	-	PRON	O	O	O
 mêmes	même	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-jusqu'	jusque	ADP	O	O	O
+jusqu	jusqu	ADP	O	O	O
+'	'	ADP	O	O	O
 au	au	ADP	O	O	O
 dernier	dernier	ADJ	O	O	O
 .	.	PUNCT	O	O	O
@@ -948,17 +985,18 @@ dernier	dernier	ADJ	O	O	O
 Ainsi	ainsi	ADV	O	O	O
 se	se	PRON	O	O	O
 terminerait	terminer	VERB	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 histoire	histoire	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 boîte	boîte	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	PUNCT	O	O	O
 allumettes	allumette	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 du	de	ADP	O	O	O
 petit	petit	ADJ	O	O	O
 enfant	enfant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
 

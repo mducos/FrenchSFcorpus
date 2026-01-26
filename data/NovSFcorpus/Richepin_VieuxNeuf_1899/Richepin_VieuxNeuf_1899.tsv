@@ -1,6 +1,7 @@
 —	—	PUNCT	O	O	O
 Quoi	quoi	PRON	O	O	O
 !	!	PUNCT	O	O	O
+
 Le	le	DET	O	O	O
 téléphone	téléphone	NOUN	O	O	O
 !	!	PUNCT	O	O	O
@@ -27,7 +28,6 @@ ne	ne	ADV	O	O	O
 peut	pouvoir	VERB	O	O	O
 plus	plus	ADV	O	O	O
 sérieux	sérieux	ADJ	O	O	O
-
 .	.	PUNCT	O	O	O
 
 Je	je	PRON	O	O	O
@@ -97,10 +97,12 @@ supposer	supposer	VERB	O	O	O
 —	—	PUNCT	O	O	O
 Bah	bah	INTJ	O	O	O
 !	!	PUNCT	O	O	O
+
 je	je	PRON	O	O	O
 le	le	PRON	O	O	O
 vois	voir	VERB	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 ici	ici	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 votre	votre	DET	O	O	O
@@ -123,9 +125,11 @@ de	de	ADP	O	O	O
 force	force	NOUN	O	O	O
 des	un	DET	O	O	O
 sens	sens	NOUN	O	O	O
-qu'	que	PRON	O	O	O
+qu	que	PRON	O	O	O
+'	'	PRON	O	O	O
 elle	lui	PRON	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 a	avoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
 !	!	PUNCT	O	O	O
@@ -148,7 +152,8 @@ texte	texte	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 Volontiers	volontier	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-s'	se	SCONJ	O	O	O
+s	s	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 il	il	PRON	O	O	O
 est	être	VERB	O	O	O
 dans	dans	ADP	O	O	O
@@ -164,7 +169,7 @@ entendre	entendre	VERB	O	O	O
 Il	il	PRON	O	O	O
 est	être	AUX	O	O	O
 en	en	ADP	O	O	O
-grec	grec	ADJ	O	O	O
+grec	grec	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 simplement	simplement	ADV	O	O	O
 .	.	PUNCT	O	O	O
@@ -173,12 +178,14 @@ Un	un	DET	O	O	O
 grec	grec	NOUN	O	O	O
 byzantin	byzantin	ADJ	O	O	O
 teinté	teinter	VERB	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 arménianismes	arménianisme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 très	très	ADV	O	O	O
 fleuri	fleuri	ADJ	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 images	image	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
@@ -204,11 +211,13 @@ première	premier	ADJ	O	O	O
 vue	vue	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-J'	je	PRON	O	O	O
+J	j	PRON	O	O	O
+'	'	PRON	O	O	O
 en	en	PRON	O	O	O
 ai	avoir	AUX	O	O	O
 fait	faire	VERB	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 ailleurs	ailleurs	ADV	O	O	O
 une	un	DET	O	O	O
 traduction	traduction	NOUN	O	O	O
@@ -253,14 +262,16 @@ in	in	NOUN	O	O	O
 -	-	NOUN	O	O	O
 folio	folio	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-l'	le	PRON	O	O	O
+l	l	PRON	O	O	O
+'	'	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 posé	poser	VERB	O	O	O
 devant	devant	ADP	O	O	O
 moi	moi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
-l'	le	PRON	O	O	O
+l	l	PRON	O	O	O
+'	'	PRON	O	O	O
 ouvrant	ouvrir	VERB	O	O	O
 à	à	ADP	O	O	O
 une	un	DET	O	O	O
@@ -283,15 +294,16 @@ même	même	ADJ	O	O	O
 temps	temps	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
-m'	me	PRON	O	O	O
+m	m	PRON	O	O	O
+'	'	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 dit	dire	VERB	O	O	O
 :	:	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
 Le	le	DET	O	O	O
 livre	livre	NOUN	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 a	avoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
 grand	grand	ADJ	O	O	O
@@ -305,7 +317,8 @@ chapitre	chapitre	NOUN	O	O	O
 spécial	spécial	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-C'	ce	PRON	O	O	O
+C	c	PRON	O	O	O
+'	'	PRON	O	O	O
 est	être	AUX	O	O	O
 le	le	DET	O	O	O
 recueil	recueil	NOUN	O	O	O
@@ -336,7 +349,8 @@ les	le	DET	O	O	O
 Turcs	turc	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-L'	le	DET	O	O	O
+L	l	DET	O	O	O
+'	'	DET	O	O	O
 histoire	histoire	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
@@ -350,7 +364,8 @@ longue	long	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 banale	banal	ADJ	O	O	O
 histoire	histoire	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 amour	amour	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 quelque	quelque	DET	O	O	O
@@ -360,7 +375,8 @@ un	un	DET	O	O	O
 roman	roman	NOUN	O	O	O
 -	-	NOUN	O	O	O
 feuilleton	feuilleton	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 alors	alors	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -381,7 +397,8 @@ le	le	DET	O	O	O
 fameux	fameux	ADJ	O	O	O
 chapitre	chapitre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 abord	abord	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
@@ -399,7 +416,8 @@ sa	son	DET	O	O	O
 traduction	traduction	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 après	après	ADP	O	O	O
-m'	me	PRON	O	O	O
+m	m	PRON	O	O	O
+'	'	PRON	O	O	O
 être	être	AUX	O	O	O
 assuré	assurer	VERB	O	O	O
 très	très	ADV	O	O	O
@@ -414,7 +432,8 @@ Cette	ce	DET	O	O	O
 traduction	traduction	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 dont	dont	PRON	O	O	O
-j'	je	PRON	O	O	O
+j	j	PRON	O	O	O
+'	'	PUNCT	O	O	O
 ai	avoir	AUX	O	O	O
 pris	prendre	VERB	O	O	O
 copie	copie	NOUN	O	O	O
@@ -422,7 +441,7 @@ copie	copie	NOUN	O	O	O
 est	être	AUX	O	O	O
 imprimée	imprimer	VERB	O	O	O
 ci	ci	ADV	O	O	O
--	-	ADV	O	O	O
+-	-	PRON	O	O	O
 dessous	dessous	ADV	O	O	O
 pour	pour	ADP	O	O	O
 la	le	DET	O	O	O
@@ -433,9 +452,11 @@ et	et	CCONJ	O	O	O
 a	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 faite	faire	VERB	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 après	après	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 in	in	NOUN	O	O	O
 -	-	NOUN	O	O	O
 folio	folio	NOUN	O	O	O
@@ -461,7 +482,8 @@ blancs	blanc	ADJ	O	O	O
 comme	comme	ADP	O	O	O
 du	de	DET	O	O	O
 lait	lait	NOUN	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 était	être	AUX	O	O	O
 pas	pas	ADV	O	O	O
 une	un	DET	O	O	O
@@ -469,17 +491,18 @@ princesse	princesse	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ainsi	ainsi	ADV	O	O	O
 que	que	SCONJ	O	O	O
-l'	le	PRON	O	O	O
+l	l	PRON	O	O	O
+'	'	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 cru	croire	VERB	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 abord	abord	NOUN	O	O	O
 le	le	DET	O	O	O
 trop	trop	ADV	O	O	O
 enthousiaste	enthousiaste	ADJ	O	O	O
 Polydamas	polydamas	PROPN	O	O	O
 ;	;	PUNCT	O	O	O
-
 mais	mais	CCONJ	O	O	O
 elle	lui	PRON	O	O	O
 était	être	AUX	O	O	O
@@ -495,7 +518,8 @@ illustre	illustre	ADJ	O	O	O
 il	il	PRON	O	O	O
 fut	être	AUX	O	O	O
 obligé	obliger	VERB	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 en	en	PRON	O	O	O
 convenir	convenir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -517,7 +541,8 @@ unique	unique	ADJ	O	O	O
 en	en	ADP	O	O	O
 effet	effet	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 un	un	DET	O	O	O
 homme	homme	NOUN	O	O	O
 qui	qui	PRON	O	O	O
@@ -532,8 +557,9 @@ les	le	DET	O	O	O
 destinées	destinée	NOUN	O	O	O
 mêmes	même	ADV	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
-Empire	empire	PROPN	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
+Empire	empire	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 qui	qui	PRON	O	O	O
 aurait	avoir	AUX	O	O	O
@@ -578,7 +604,8 @@ fait	faire	VERB	O	O	O
 comme	comme	ADP	O	O	O
 si	si	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 avait	avoir	AUX	O	O	O
 attendu	attendre	VERB	O	O	O
 pour	pour	ADP	O	O	O
@@ -595,7 +622,8 @@ père	père	NOUN	O	O	O
 était	être	AUX	O	O	O
 assurée	assurer	VERB	O	O	O
 contre	contre	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 ingrat	ingrat	ADJ	O	O	O
 oubli	oubli	NOUN	O	O	O
 des	de	ADP	O	O	O
@@ -610,23 +638,28 @@ Polydamas	polydamas	PROPN	O	O	O
 arrivèrent	arriver	VERB	O	O	O
 -	-	PRON	O	O	O
 elles	lui	PRON	O	O	O
-jusqu'	jusque	ADP	O	O	O
+jusqu	jusqu	ADP	O	O	O
+'	'	ADP	O	O	O
 au	au	ADP	O	O	O
 couvent	couvent	NOUN	O	O	O
 des	de	ADP	O	O	O
 moines	moine	NOUN	O	O	O
 blancs	blanc	ADJ	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 île	île	NOUN	O	O	O
 noire	noir	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-c'	ce	PRON	O	O	O
+c	c	PRON	O	O	O
+'	'	PRON	O	O	O
 est	être	AUX	O	O	O
 ce	ce	PRON	O	O	O
-qu'	que	PRON	O	O	O
+qu	que	PRON	O	O	O
+'	'	PRON	O	O	O
 il	il	PRON	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 est	être	AUX	O	O	O
 point	point	ADV	O	O	O
 permis	permettre	VERB	O	O	O
@@ -663,7 +696,8 @@ tablettes	tablette	NOUN	O	O	O
 de	de	ADP	O	O	O
 Polydamas	polydamas	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-c'	ce	PRON	O	O	O
+c	c	PRON	O	O	O
+'	'	PRON	O	O	O
 est	être	VERB	O	O	O
 de	de	ADP	O	O	O
 quoi	quoi	PRON	O	O	O
@@ -678,7 +712,8 @@ les	le	DET	O	O	O
 moines	moine	NOUN	O	O	O
 blancs	blanc	ADJ	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 île	île	NOUN	O	O	O
 noire	noir	ADJ	O	O	O
 sont	être	AUX	O	O	O
@@ -687,10 +722,12 @@ les	le	DET	O	O	O
 moines	moine	NOUN	O	O	O
 noirs	noir	ADJ	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 île	île	NOUN	O	O	O
 blanche	blanc	ADJ	O	O	O
 .	.	PUNCT	O	O	O
+
 Et	et	CCONJ	O	O	O
 donc	donc	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -701,7 +738,8 @@ dite	dire	VERB	O	O	O
 comme	comme	SCONJ	O	O	O
 il	il	PRON	O	O	O
 faut	falloir	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 elle	lui	PRON	O	O	O
 soit	être	AUX	O	O	O
 dite	dire	VERB	O	O	O
@@ -733,11 +771,13 @@ présenta	présenter	VERB	O	O	O
 au	au	ADP	O	O	O
 palais	palais	NOUN	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 empereur	empereur	NOUN	O	O	O
 en	en	ADP	O	O	O
 affirmant	affirmer	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 il	il	PRON	O	O	O
 possédait	posséder	VERB	O	O	O
 un	un	DET	O	O	O
@@ -745,7 +785,8 @@ secret	secret	NOUN	O	O	O
 capable	capable	ADJ	O	O	O
 de	de	ADP	O	O	O
 sauver	sauver	VERB	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 empire	empire	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -766,11 +807,13 @@ demandèrent	demander	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 exigea	exiger	VERB	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 être	être	AUX	O	O	O
 conduit	conduire	VERB	O	O	O
 devant	devant	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 autocrator	autocrator	NOUN	O	O	O
 en	en	ADP	O	O	O
 personne	personne	NOUN	O	O	O
@@ -782,13 +825,13 @@ y	y	PRON	O	O	O
 fut	être	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
-s'	se	PRON	O	O	O
+s	s	PRON	O	O	O
+'	'	PRON	O	O	O
 exprima	exprimer	VERB	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 sorte	sorte	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
 Constantin	constantin	PROPN	O	O	O
 Paléologue	paléologue	PROPN	O	O	O
@@ -806,7 +849,8 @@ même	même	ADV	O	O	O
 de	de	ADP	O	O	O
 voir	voir	VERB	O	O	O
 et	et	CCONJ	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 entendre	entendre	VERB	O	O	O
 ce	ce	PRON	O	O	O
 que	que	PRON	O	O	O
@@ -826,11 +870,13 @@ tu	tu	PRON	O	O	O
 ?	?	PUNCT	O	O	O
 
 objecta	objecter	VERB	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 empereur	empereur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-D'	de	ADP	O	O	O
+D	d	ADP	O	O	O
+'	'	ADP	O	O	O
 après	après	ADP	O	O	O
 les	le	DET	O	O	O
 renseignements	renseignement	NOUN	O	O	O
@@ -850,16 +896,18 @@ en	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 moment	moment	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-est	être	AUX	O	O	O
+est	être	VERB	O	O	O
 à	à	ADP	O	O	O
 treize	treize	NUM	O	O	O
 cents	cent	DET	O	O	O
 stades	stade	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 ici	ici	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 autre	autre	ADJ	O	O	O
 côté	côté	NOUN	O	O	O
 du	de	ADP	O	O	O
@@ -871,8 +919,8 @@ Fût	être	VERB	O	O	O
 -	-	PRON	O	O	O
 il	il	PRON	O	O	O
 à	à	ADP	O	O	O
-treize	treize	DET	O	O	O
-mille	mille	DET	O	O	O
+treize	treize	NUM	O	O	O
+mille	mille	NUM	O	O	O
 stades	stade	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 encore	encore	ADV	O	O	O
@@ -880,7 +928,8 @@ plus	plus	ADV	O	O	O
 loin	loin	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 reprit	reprendre	VERB	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
@@ -892,15 +941,18 @@ même	même	ADV	O	O	O
 de	de	ADP	O	O	O
 voir	voir	VERB	O	O	O
 et	et	CCONJ	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 entendre	entendre	VERB	O	O	O
 ce	ce	PRON	O	O	O
-qu'	que	PRON	O	O	O
+qu	que	PRON	O	O	O
+'	'	PRON	O	O	O
 il	il	PRON	O	O	O
 fait	faire	VERB	O	O	O
 et	et	CCONJ	O	O	O
 ce	ce	PRON	O	O	O
-qu'	que	PRON	O	O	O
+qu	que	PRON	O	O	O
+'	'	PRON	O	O	O
 il	il	PRON	O	O	O
 dit	dire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -912,7 +964,8 @@ tes	ton	DET	O	O	O
 yeux	oeil	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
-l'	le	PRON	O	O	O
+l	l	PRON	O	O	O
+'	'	PRON	O	O	O
 entendre	entendre	VERB	O	O	O
 avec	avec	ADP	O	O	O
 tes	ton	DET	O	O	O
@@ -923,7 +976,8 @@ Constantin	constantin	PROPN	O	O	O
 Paléologue	paléologue	PROPN	O	O	O
 Dracosès	dracosès	PROPN	O	O	O
 pensa	penser	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 il	il	PRON	O	O	O
 avait	avoir	VERB	O	O	O
 devant	devant	ADP	O	O	O
@@ -940,9 +994,9 @@ pensa	penser	VERB	O	O	O
 pas	pas	ADV	O	O	O
 longtemps	longtemps	ADV	O	O	O
 ;	;	PUNCT	O	O	O
-
 car	car	CCONJ	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
 avait	avoir	VERB	O	O	O
 une	un	DET	O	O	O
@@ -956,7 +1010,8 @@ tenait	tenir	VERB	O	O	O
 des	un	DET	O	O	O
 discours	discours	NOUN	O	O	O
 où	où	PRON	O	O	O
-s'	se	PRON	O	O	O
+s	s	PRON	O	O	O
+'	'	PRON	O	O	O
 épanouissait	épanouir	VERB	O	O	O
 la	le	DET	O	O	O
 sagesse	sagesse	NOUN	O	O	O
@@ -979,7 +1034,8 @@ donnera	donner	VERB	O	O	O
 ce	ce	PRON	O	O	O
 que	que	PRON	O	O	O
 je	je	PRON	O	O	O
-t'	te	PRON	O	O	O
+t	t	PRON	O	O	O
+'	'	PRON	O	O	O
 offre	offrir	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1002,7 +1058,8 @@ assistais	assister	VERB	O	O	O
 ses	son	DET	O	O	O
 conseils	conseil	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 es	être	AUX	O	O	O
 -	-	PRON	O	O	O
 tu	tu	PRON	O	O	O
@@ -1011,7 +1068,8 @@ son	son	DET	O	O	O
 maître	maître	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
-L'	le	DET	O	O	O
+L	l	DET	O	O	O
+'	'	DET	O	O	O
 Empereur	empereur	NOUN	O	O	O
 céda	céder	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1026,7 +1084,8 @@ bientôt	bientôt	ADV	O	O	O
 la	le	DET	O	O	O
 demeure	demeure	NOUN	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 laquelle	lequel	PRON	O	O	O
@@ -1054,11 +1113,11 @@ lait	lait	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 qui	qui	PRON	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
 dit	dire	VERB	O	O	O
 :	:	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
 Le	le	DET	O	O	O
 mât	mât	NOUN	B-NOV	O	O
@@ -1084,26 +1143,30 @@ chambre	chambre	NOUN	B-NOV	O	O
 des	de	ADP	I-NOV	O	O
 ténèbres	ténèbre	NOUN	I-NOV	O	O
 est	être	AUX	O	O	O
-close	clos	ADJ	O	O	O
+close	clore	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-L'	le	DET	O	O	O
+L	l	DET	O	O	O
+'	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
 demanda	demander	VERB	O	O	O
 à	à	ADP	O	O	O
 Constantin	constantin	PROPN	O	O	O
-s'	se	SCONJ	O	O	O
+s	s	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 il	il	PRON	O	O	O
 avait	avoir	VERB	O	O	O
 peur	peur	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 entrer	entrer	VERB	O	O	O
 dans	dans	ADP	O	O	O
 cette	ce	DET	O	O	O
 chambre	chambre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 empereur	empereur	NOUN	O	O	O
 ayant	avoir	AUX	O	O	O
 affirmé	affirmer	VERB	O	O	O
@@ -1125,7 +1188,8 @@ absolue	absolu	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 un	un	DET	O	O	O
 silence	silence	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 abîme	abîme	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1141,13 +1205,13 @@ une	un	DET	O	O	O
 nappe	nappe	NOUN	O	O	O
 de	de	ADP	O	O	O
 lumière	lumière	NOUN	O	O	O
-s'	se	PRON	O	O	O
+s	s	PRON	O	O	O
+'	'	PRON	O	O	O
 épandit	épandre	VERB	O	O	O
 comme	comme	ADP	O	O	O
 une	un	DET	O	O	O
 cataracte	cataracte	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
-
 et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
@@ -1177,7 +1241,7 @@ tumulte	tumulte	NOUN	O	O	O
 Il	il	PRON	O	O	O
 sauta	sauter	VERB	O	O	O
 en	en	ADP	O	O	O
-arrière	arrière	ADV	O	O	O
+arrière	arrière	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 main	main	NOUN	O	O	O
@@ -1194,7 +1258,8 @@ prêt	prêt	ADJ	O	O	O
 défendre	défendre	VERB	O	O	O
 sa	son	DET	O	O	O
 vie	vie	NOUN	O	O	O
-qu'	que	PRON	O	O	O
+qu	que	PRON	O	O	O
+'	'	PRON	O	O	O
 il	il	PRON	O	O	O
 croyait	croire	VERB	O	O	O
 menacée	menacer	VERB	O	O	O
@@ -1206,7 +1271,8 @@ Rassure	rassurer	VERB	O	O	O
 toi	toi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 dit	dire	VERB	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1214,14 +1280,16 @@ Ce	ce	DET	O	O	O
 camp	camp	NOUN	O	O	O
 est	être	AUX	O	O	O
 à	à	ADP	O	O	O
-treize	treize	DET	O	O	O
+treize	treize	NUM	O	O	O
 cents	cent	DET	O	O	O
 stades	stade	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 ici	ici	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 autre	autre	ADJ	O	O	O
 côté	côté	NOUN	O	O	O
 du	de	ADP	O	O	O
@@ -1235,9 +1303,12 @@ donc	donc	ADV	O	O	O
 le	le	DET	O	O	O
 diable	diable	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
-s'	se	PRON	O	O	O
+
+s	s	PRON	O	O	O
+'	'	PRON	O	O	O
 écria	écrier	VERB	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 empereur	empereur	NOUN	O	O	O
 terrifié	terrifier	VERB	O	O	O
 .	.	PUNCT	O	O	O
@@ -1246,11 +1317,13 @@ terrifié	terrifier	VERB	O	O	O
 Non	non	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 répliqua	répliquer	VERB	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-C'	ce	PRON	O	O	O
+C	c	PRON	O	O	O
+'	'	PRON	O	O	O
 est	être	AUX	O	O	O
 ,	,	PUNCT	O	O	O
 au	au	ADP	O	O	O
@@ -1264,7 +1337,8 @@ Dieu	dieu	PROPN	O	O	O
 que	que	PRON	O	O	O
 je	je	PRON	O	O	O
 connais	connaître	VERB	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 art	art	NOUN	O	O	O
 de	de	ADP	O	O	O
 faire	faire	VERB	O	O	O
@@ -1284,7 +1358,6 @@ cosès	cosès	PROPN	O	O	O
 se	se	PRON	O	O	O
 dit	dire	VERB	O	O	O
 :	:	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
 Si	si	SCONJ	O	O	O
 cet	ce	DET	O	O	O
@@ -1311,7 +1384,8 @@ glaive	glaive	NOUN	O	O	O
 il	il	PRON	O	O	O
 en	en	PRON	O	O	O
 frappa	frapper	VERB	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 tomba	tomber	VERB	O	O	O
@@ -1325,13 +1399,15 @@ même	même	ADV	O	O	O
 la	le	DET	O	O	O
 demeure	demeure	NOUN	O	O	O
 de	de	ADP	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
 fut	être	AUX	O	O	O
 incendiée	incendier	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 rasée	raser	VERB	O	O	O
-jusqu'	jusque	ADP	O	O	O
+jusqu	jusqu	ADP	O	O	O
+'	'	ADP	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 dernière	dernier	ADJ	O	O	O
@@ -1356,7 +1432,8 @@ blancs	blanc	ADJ	O	O	O
 comme	comme	ADP	O	O	O
 du	de	DET	O	O	O
 lait	lait	NOUN	O	O	O
-s'	se	PRON	O	O	O
+s	s	PRON	O	O	O
+'	'	PRON	O	O	O
 était	être	AUX	O	O	O
 sauvée	sauver	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -1376,7 +1453,8 @@ jours	jour	NOUN	O	O	O
 plus	plus	ADV	O	O	O
 tard	tard	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 assaut	assaut	NOUN	O	O	O
 était	être	AUX	O	O	O
 livré	livrer	VERB	O	O	O
@@ -1405,14 +1483,14 @@ de	de	ADP	O	O	O
 Constantin	constantin	PROPN	O	O	O
 Paléologue	paléologue	PROPN	O	O	O
 Dracosès	dracosès	PROPN	O	O	O
-
 .	.	PUNCT	O	O	O
-»	»	PUNCT	O	O	O
 
+»	»	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
 Eh	eh	INTJ	O	O	O
 bien	bien	ADV	O	O	O
 !	!	PUNCT	O	O	O
+
 que	que	PRON	O	O	O
 pensez	penser	VERB	O	O	O
 -	-	PRON	O	O	O
@@ -1451,22 +1529,25 @@ coïncidence	coïncidence	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
 Toutefois	toutefois	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-l'	le	DET	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 imagination	imagination	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 un	un	DET	O	O	O
 romancier	romancier	NOUN	O	O	O
 est	être	AUX	O	O	O
 bien	bien	ADV	O	O	O
 capable	capable	ADJ	O	O	O
 ...	...	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
 Ta	ta	PROPN	O	O	O
 !	!	PUNCT	O	O	O
+
 ta	ton	PROPN	O	O	O
 !	!	PUNCT	O	O	O
-ta	ton	PRON	O	O	O
+
+ta	ton	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 Relisez	relire	VERB	O	O	O
@@ -1497,7 +1578,6 @@ et	et	CCONJ	O	O	O
 bien	bien	ADV	O	O	O
 claires	clair	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
-
 voyons	voir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
@@ -1518,7 +1598,8 @@ ténèbres	ténèbre	NOUN	I-NOV	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 y	y	PRON	O	O	O
 a	avoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
@@ -1534,10 +1615,12 @@ sapristi	sapristi	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
-n'	ne	ADV	O	O	O
+n	ne	ADV	O	O	O
+'	'	ADV	O	O	O
 y	y	PRON	O	O	O
 a	avoir	VERB	O	O	O
-qu'	que	ADV	O	O	O
+qu	qu	ADV	O	O	O
+'	'	ADV	O	O	O
 à	à	ADP	O	O	O
 lire	lire	VERB	O	O	O
 et	et	CCONJ	O	O	O
@@ -1546,7 +1629,8 @@ comprendre	comprendre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Notez	noter	VERB	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 ailleurs	ailleurs	ADV	O	O	O
 que	que	SCONJ	O	O	O
 ce	ce	DET	O	O	O
@@ -1561,7 +1645,8 @@ en	en	ADP	O	O	O
 somme	somme	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-J'	je	PRON	O	O	O
+J	j	PRON	O	O	O
+'	'	PRON	O	O	O
 ai	avoir	AUX	O	O	O
 avalé	avaler	VERB	O	O	O
 toutes	tout	ADJ	O	O	O
@@ -1576,16 +1661,18 @@ toutes	tout	ADJ	O	O	O
 Je	je	PRON	O	O	O
 vous	vous	PRON	O	O	O
 réponds	répondre	VERB	O	O	O
-qu'	que	SCONJ	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 il	il	PRON	O	O	O
 était	être	AUX	O	O	O
 hors	hors	ADP	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 état	état	NOUN	O	O	O
-d'	de	ADP	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 imaginer	imaginer	VERB	O	O	O
 ...	...	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
 Alors	alors	ADV	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1595,9 +1682,11 @@ quoi	quoi	PRON	O	O	O
 vous	vous	PRON	O	O	O
 supposez	supposer	VERB	O	O	O
 vraiment	vraiment	ADV	O	O	O
-qu'	que	SCONJ	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	SCONJ	O	O	O
 il	il	PRON	O	O	O
-s'	se	PRON	O	O	O
+s	s	PRON	O	O	O
+'	'	PRON	O	O	O
 agit	agir	VERB	O	O	O
 là	là	ADV	O	O	O
 du	de	ADP	O	O	O
@@ -1623,21 +1712,18 @@ fils	fils	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
-oui	oui	PROPN	O	O	O
+oui	oui	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
-oui	oui	PROPN	O	O	O
+oui	oui	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
 Cependant	cependant	ADV	O	O	O
 ...	...	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
 Enfin	enfin	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
 ...	...	PUNCT	O	O	O
-
-
