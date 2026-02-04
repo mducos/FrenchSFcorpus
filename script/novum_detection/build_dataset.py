@@ -48,6 +48,41 @@ def oversample_nov(sentences, factor=5):
     print(f"  → {nov_count} phrases avec NOV dupliquées {factor} fois")
     return result
 
+def oversample_org(sentences, factor=5):
+    """
+    Duplique les phrases contenant B-NOV un certain nombre de fois.
+    
+    Args:
+        sentences: liste de phrases
+        factor: nombre total de copies (5 = 1 originale + 4 duplicatas)
+    
+    Returns:
+        Liste de phrases avec duplication des phrases contenant NOV
+    """
+    result = []
+    nov_count = 0
+    
+    for sent in sentences:
+        # Vérifier si la phrase contient B-NOV
+        has_nov = False
+        for line in sent:
+            parts = line.split('\t')
+            if len(parts) >= 2 and parts[1].strip() == 'B-ORG':
+                has_nov = True
+                break
+        
+        if has_nov:
+            # Dupliquer cette phrase 'factor' fois
+            for _ in range(factor):
+                result.append(sent)
+            nov_count += 1
+        else:
+            # Garder telle quelle
+            result.append(sent)
+    
+    print(f"  → {nov_count} phrases avec ORG dupliquées {factor} fois")
+    return result
+
 # Répertoire de base
 NER_DIR = Path("data/NerSFcorpus")
 
@@ -100,8 +135,8 @@ print(f"Test  : {len(test_sents)} phrases")
 # Suréchantillonnage des NOV dans train
 # ----------------------------
 print("\nSuréchantillonnage des phrases avec NOV dans train:")
-train_subset = train_sents[:1000]#[:240500]
-train_oversampled = oversample_nov(train_subset, factor=3)
+train_subset = train_sents#[:240500]
+train_oversampled = oversample_nov(train_subset, factor=10)
 print(f"Train avant oversampling: {len(train_subset)} phrases")
 print(f"Train après oversampling: {len(train_oversampled)} phrases")
 
@@ -112,7 +147,7 @@ output_dir = Path("script/novum_detection")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 write_tsv(train_oversampled, output_dir / "train.tsv")
-write_tsv(dev_sents[:500], output_dir / "dev.tsv")
-write_tsv(test_sents[:500], output_dir / "test.tsv")
+write_tsv(dev_sents, output_dir / "dev.tsv")
+write_tsv(test_sents, output_dir / "test.tsv")
 
 print(f"\nFichiers créés dans {output_dir}")
