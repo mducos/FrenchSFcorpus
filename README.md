@@ -1,11 +1,11 @@
-# NovSFcorpus
+# FrenchSFcorpus
 
 This repository contains a corpus of French science fiction stories (short stories, novellas, and novels) between 1860 and 1950 for linguistic analysis and annotation, as well as a set of scripts for producing different representations of the text from a source file.
 
 ## Repository structure
 
 ```
-NovSFcorpus/
+FrenchSFcorpus/
 │
 ├── data/
 │   ├── NerSFcorpus/

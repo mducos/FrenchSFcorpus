@@ -214,12 +214,7 @@ def compute_metrics(eval_pred, id2label):
 
     return results
 
-def evaluate_and_print_results(trainer, dataset, id2label, dataset_name="Test"):
-
-    print(f"{'='*80}")
-    print(f"Évaluation sur {dataset_name}")
-    print(f"{'='*80}\n")
-    results = f"\n{'='*80}\nÉvaluation sur {dataset_name}\n{'='*80}\n\n"
+def evaluate_and_print_results(trainer, dataset, id2label):
 
     # Prédictions
     predictions = trainer.predict(dataset)
@@ -245,62 +240,27 @@ def evaluate_and_print_results(trainer, dataset, id2label, dataset_name="Test"):
 
     # Classification report détaillé
     print(classification_report(true_labels, true_predictions, digits=4))
-    results = results + classification_report(true_labels, true_predictions, digits=4)
-
-    # Métriques globales
-    print(f"\n{'='*80}")
-    print("MÉTRIQUES GLOBALES")
-    print(f"{'='*80}")
-    print(f"Accuracy:        {accuracy_score(true_labels, true_predictions):.4f}")
-    print(f"Precision:       {precision_score(true_labels, true_predictions):.4f}")
-    print(f"Recall:          {recall_score(true_labels, true_predictions):.4f}")
-    print(f"F1-Score:        {f1_score(true_labels, true_predictions):.4f}")
-    results = results + f"\n{'='*80}\nMÉTRIQUES GLOBALES\n{'='*80}\nAccuracy:        {accuracy_score(true_labels, true_predictions):.4f}\nPrecision:       {precision_score(true_labels, true_predictions):.4f}\nRecall:          {recall_score(true_labels, true_predictions):.4f}\nF1-Score:        {f1_score(true_labels, true_predictions):.4f}"
-
-    # F1 micro et macro
-    f1_micro = f1_score(true_labels, true_predictions, average='micro')
-    f1_macro = f1_score(true_labels, true_predictions, average='macro')
-
-    print(f"F1-Score (micro): {f1_micro:.4f}")
-    print(f"F1-Score (macro): {f1_macro:.4f}")
-    print(f"{'='*80}\n")
-    results = results + f"\nF1-Score (micro): {f1_micro:.4f}\nF1-Score (macro): {f1_macro:.4f}\n{'='*80}\n\n"
-
-    with open("results.txt", "a+", encoding='utf-8') as f:
-        f.write(results)
 
 def main():
 
-    print(f"GPU disponible : {torch.cuda.is_available()}")
-    if torch.cuda.is_available():
-        print(f"GPU utilisé : {torch.cuda.get_device_name(0)}")
-        print(f"VRAM totale : {torch.cuda.get_device_properties(0).total_memory / 1e9:.2f} GB")
+    print(f"GPU available: {torch.cuda.is_available()}")
 
     train_file = Path("src/train.tsv")
     dev_file = Path("src/dev.tsv")
-    test_file = Path("src/test.tsv")
 
-    print("Chargement des données...")
     train_sentences = read_tsv_file(train_file)
     dev_sentences = read_tsv_file(dev_file)
-    test_sentences = read_tsv_file(test_file)
 
-    print(f"Train: {len(train_sentences)} phrases")
-    print(f"Dev: {len(dev_sentences)} phrases")
-    print(f"Test: {len(test_sentences)} phrases")
+    print(f"Train: {len(train_sentences)} sentences")
+    print(f"Dev: {len(dev_sentences)} sentences")
 
-    all_sentences = train_sentences + dev_sentences + test_sentences
+    all_sentences = train_sentences + dev_sentences
     label2id, id2label = create_label_mappings(all_sentences)
-
-    print(f"\nNombre de labels: {len(label2id)}")
-    print(label2id)
 
     train_dataset = prepare_dataset(train_sentences, label2id)
     dev_dataset = prepare_dataset(dev_sentences, label2id)
-    test_dataset = prepare_dataset(test_sentences, label2id)
 
     model_name = "camembert-base"
-    print(f"\nChargement du modèle {model_name}...")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
@@ -311,7 +271,6 @@ def main():
         label2id=label2id
     )
 
-    print("Tokenization des données...")
     tokenized_train = train_dataset.map(
         lambda x: tokenize_and_align_labels(x, tokenizer, label2id),
         batched=True,
@@ -322,12 +281,6 @@ def main():
         lambda x: tokenize_and_align_labels(x, tokenizer, label2id),
         batched=True,
         remove_columns=dev_dataset.column_names
-    )
-
-    tokenized_test = test_dataset.map(
-        lambda x: tokenize_and_align_labels(x, tokenizer, label2id),
-        batched=True,
-        remove_columns=test_dataset.column_names
     )
 
     data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
@@ -361,17 +314,13 @@ def main():
         compute_metrics=lambda x: compute_metrics(x, id2label),
     )
 
-    print("\nDébut de l'entraînement...")
     trainer.train()
 
-    evaluate_and_print_results(trainer, tokenized_dev, id2label, "Dev Set")
+    evaluate_and_print_results(trainer, tokenized_dev, id2label)
 
     output_dir = Path("src/camembert_ner_final")
-    print(f"\nSauvegarde du modèle dans {output_dir}...")
     trainer.save_model(output_dir)
     tokenizer.save_pretrained(output_dir)
-
-    print("\n✓ Entraînement terminé!")
 
 if __name__ == "__main__":
     main()

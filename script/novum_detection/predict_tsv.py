@@ -99,10 +99,6 @@ trainer = Trainer(
     data_collator=data_collator,
 )
 
-print("="*80)
-print("REPRODUCTION EXACTE DU CALLBACK sur TEST SET")
-print("="*80)
-
 out = trainer.predict(tokenized_test)
 preds = np.argmax(out.predictions, axis=2)
 labels = out.label_ids
@@ -121,7 +117,3 @@ for pred_seq, label_seq in zip(preds, labels):
         true_preds.append(tp)
 
 print(classification_report(true_labels, true_preds, digits=4))
-print(f"\nF1-micro: {f1_score(true_labels, true_preds, average='micro'):.4f}")
-print(f"F1-macro: {f1_score(true_labels, true_preds, average='macro'):.4f}")
-print(f"Precision: {precision_score(true_labels, true_preds):.4f}")
-print(f"Recall: {recall_score(true_labels, true_preds):.4f}")

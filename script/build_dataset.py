@@ -39,7 +39,6 @@ def oversample_nov(sentences, factor=5):
         else:
             result.append(sent)
     
-    print(f"  → {nov_count} phrases avec NOV dupliquées {factor} fois")
     return result
 
 NER_DIR = Path("data/NerSFcorpus")
@@ -75,17 +74,16 @@ train_sents = all_sentences[:n_train]
 dev_sents = all_sentences[n_train:n_train + n_dev]
 test_sents = all_sentences[n_train + n_dev:]
 
-print(f"Nombre total de phrases : {n}")
-print(f"Train : {len(train_sents)} phrases")
-print(f"Dev   : {len(dev_sents)} phrases")
-print(f"Test  : {len(test_sents)} phrases")
+print(f"Total number of sentences: {n}")
+print(f"Train : {len(train_sents)} sentences")
+print(f"Dev   : {len(dev_sents)} sentences")
+print(f"Test  : {len(test_sents)} sentences")
 
 # oversampling
-print("\nSuréchantillonnage des phrases avec NOV dans train:")
 train_subset = train_sents
 train_oversampled = oversample_nov(train_subset, factor=10)
-print(f"Train avant oversampling: {len(train_subset)} phrases")
-print(f"Train après oversampling: {len(train_oversampled)} phrases")
+print(f"Train before oversampling : {len(train_subset)} sentences")
+print(f"Train after oversampling  : {len(train_oversampled)} sentences")
 
 output_dir = Path("src")
 output_dir.mkdir(parents=True, exist_ok=True)
@@ -93,5 +91,3 @@ output_dir.mkdir(parents=True, exist_ok=True)
 write_tsv(train_oversampled, output_dir / "train.tsv")
 write_tsv(dev_sents, output_dir / "dev.tsv")
 write_tsv(test_sents, output_dir / "test.tsv")
-
-print(f"\nFichiers créés dans {output_dir}")
