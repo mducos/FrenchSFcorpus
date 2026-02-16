@@ -47,8 +47,8 @@ def read_tsv_file(file_path: Path) -> List[Tuple[List[str], List[str]]]:
 
     return sentences
 
-model_checkpoint = AutoModelForTokenClassification.from_pretrained("src/camembert_ner_final")
-tokenizer_checkpoint = AutoTokenizer.from_pretrained("src/camembert_ner_final")
+model_checkpoint = AutoModelForTokenClassification.from_pretrained("src/SF_NER_final")
+tokenizer_checkpoint = AutoTokenizer.from_pretrained("src/SF_NER_final")
 
 label2id = model_checkpoint.config.label2id
 id2label = model_checkpoint.config.id2label

@@ -286,7 +286,7 @@ def main():
     data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
 
     training_args = TrainingArguments(
-        output_dir="src/camembert_ner",
+        output_dir="src/SF_NER",
         eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=3e-5,
@@ -318,7 +318,7 @@ def main():
 
     evaluate_and_print_results(trainer, tokenized_dev, id2label)
 
-    output_dir = Path("src/camembert_ner_final")
+    output_dir = Path("src/SF_NER_final")
     trainer.save_model(output_dir)
     tokenizer.save_pretrained(output_dir)
 
