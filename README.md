@@ -7,25 +7,52 @@ This repository contains a corpus of French science fiction stories (short stori
 ```
 NovSFcorpus/
 │
-├── NovSFcorpus/
-│   ├── About_LeCasDeMGuerin_1862/
-│   │   ├── About_LeCasDeMGuerin_1862.txt
-│   │   ├── About_LeCasDeMGuerin_1862_sent.txt
-│   │   ├── About_LeCasDeMGuerin_1862.tsv
-│   │   └── About_LeCasDeMGuerin_1862.ann
+├── data/
+│   ├── NerSFcorpus/
+│   │   ├── About_LeCasDeMGuerin_1862/
+│   │   │   ├── About_LeCasDeMGuerin_1862.ann
+│   │   │   └── About_LeCasDeMGuerin_1862.tsv
+│   │   │
+│   │   ├── About_LeNezDUnNotaire_1862/
+│   │   │   └── ...
 │   │
-│   ├── About_LeNezDUnNotaire_1862/
-│   │   └── ...
+│   ├── NovSFcorpus/
+│   │   ├── About_LeCasDeMGuerin_1862/
+│   │   │   ├── About_LeCasDeMGuerin_1862.ann
+│   │   │   └── About_LeCasDeMGuerin_1862.tsv
+│   │   │
+│   │   ├── About_LeNezDUnNotaire_1862/
+│   │   │   └── ...
 │   │
-│   └── metadata.csv
+│   ├── SFcorpus/
+│   │   ├── About_LeCasDeMGuerin_1862/
+│   │   │   ├── About_LeCasDeMGuerin_1862_sent.txt
+│   │   │   └── About_LeCasDeMGuerin_1862.txt
+│   │   │
+│   │   ├── About_LeNezDUnNotaire_1862/
+│   │   │   └── ...
 │
 ├── script/
+│   ├── novum_detection/
+│   │   ├── build_dataset.py
+│   │   ├── train.py
+│   │   ├── predict_tsv.py
 │   ├── txt2ann.py
-│   ├── txt2sent_txt.py
 │   └── txt2tsv.py
 │
-└── src/
-    └── title2novum.json
+├── src/
+│   ├── model_ner_final/
+│   │   ├── config.json
+│   │   ├── model.safetensors
+│   │   ├── tokenizer_config.json
+│   │   ├── tokenizer.json
+│   │   ├── training_args.json
+│   ├── title2novum.json
+│   ├── metadata.csv
+│   ├── train.tsv
+│   ├── dev.tsv
+│   └── test.tsv
+
 ```
 
 ## Organization of the corpus
