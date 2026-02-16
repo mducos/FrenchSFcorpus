@@ -55,9 +55,9 @@ FrenchSFcorpus/
 
 ```
 
-## Organization of the corpus
+## Data folder 
 
-Each subfolder corresponds to a story and is named according to the format:
+Each subfolder in `data` corresponds to a story and is named according to the format:
 
 ```
 author_title_date
@@ -69,45 +69,55 @@ Example:
 Verne_VoyageAuCentreDeLaTerre_1864
 ```
 
-Each folder contains the following files:
+In `SFcorpus`,
 
-* `author_title_date.txt`
-  Facsimile of the cleaned full text
+* `author_title_date.txt`: facsimile of the cleaned full text
 
-* `author_title_date_sent.txt`
-  Text segmented into sentences (one sentence per line)
+* `author_title_date_sent.txt`: text segmented into sentences (one sentence per line)
 
-* `author_title_date.tsv`
-  Tabular version of the text with semi-automatic annotations of novums
+In `NovSFcorpus`, 
 
-* `author_title_date.ann`
-  Annotation file (BRAT format) of novums
+* `author_title_date.tsv`: tabular version of the text with annotations of novums 
 
-All metadata is grouped together in the file `metadata.csv` in the format `author,title,date_publication,nb_tokens`.
+* `author_title_date.ann`: annotation file (BRAT format) of novums
 
-## Scripts
+In `NerSFcorpus`, 
+
+* `author_title_date.tsv`: tabular version of the text with NER (and novum) annotations 
+
+* `author_title_date.ann`: annotation file (BRAT format) of entities and novum
+
+All metadata is grouped together in the file `src/metadata.csv` in the format `author,title,date_publication,nb_tokens`.
+
+## Script folder
 
 The scripts are located in the `script/` folder.
 
-* `txt2sent_txt.py`: segments a `.txt` file into sentences and produces an associated `_sent.txt` file.
+* `build_dataset.py`: builds the train, dev and test sets
 
-* `txt2tsv.py`: annotates novum in a `.txt` file in BIO format.
+* `novum_detection\train.py`: trains the NER+NOV model and save the model in the `src` folder
 
-* `txt2ann.py`: annotates novum in an `.ann` file in BRAT format.
+* `novum_detection\predict_tsv.py`: uses the trained model and predicts (then evaluates) the annotations on the test set or on a book (tsv format) 
 
 To run the scripts, create a virtual environment. Once inside, run the following lines of code:
 
 ```
 pip install -r requirements.txt
-python -m spacy download fr_core_news_sm
 ```
 
-## Resources
+## Source folder
 
 The `src/` folder contains:
 
-* `title2novum.json`
-  Dictionary linking story titles to the novum they contain.
+* `train.tsv`: train set of the model
+
+* `dev.tsv`: dev set of the model
+
+* `test.tsv`: test set of the model
+
+* `title2novum.json`: dictionary linking story titles to the novum they contain
+
+* `metadata.csv`: textual corpus metadata 
 
 ## Licence
 
