@@ -99,11 +99,43 @@ The scripts are located in the `script/` folder.
 
 * `novum_detection\predict_tsv.py`: uses the trained model and predicts (then evaluates) the annotations on the test set or on a book (tsv format) 
 
-To run the scripts, create a virtual environment. Once inside, run the following lines of code:
+To run the scripts, create a virtual environment. Once inside, run the following line of code:
 
 ```
 pip install -r requirements.txt
 ```
+
+To build the dataset, run the followwing line. The train, dev and test files obtained are identical as those saved in `src`.
+
+```
+py .\script\build_dataset.py
+```
+
+To train the model using the best hyperparameters, run the following line. This new model will be saved in `src\SF_NER\`.
+
+```
+py .\script\novum_detection\train.py
+```
+
+To reproduce the results on the test set, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is uncommented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is commented in `script\novum_detection\predict_tsv.py`, then run the following line.
+
+To evaluate the model on a complete book, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is commented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is uncommented in `script\novum_detection\predict_tsv.py`, then run the following line.
+
+```
+py .\script\novum_detection\predict_tsv.py
+```
+
+The results on the test set are:
+
+| | Precision | Recall | F1-score |
+|:----------|:----------:|
+| PER | 92.00 | 94.03 | 93.00 |
+| LOC | 80.73 | 85.55 | 83.07 |
+| ORG | 68.66 | 71.91 | 70.25 |
+| NOV | 67.02 | 60.29 | 63.48 |
+| MISC | 83.00 | 87.23 | 85.06 |
+| micro F1-score | 87.90 | 90.77 | 89.31 |
+| macro F1-score | 78.28 | 79.80 | 78.97 |
 
 ## Source folder
 
@@ -114,6 +146,8 @@ The `src/` folder contains:
 * `dev.tsv`: dev set of the model
 
 * `test.tsv`: test set of the model
+
+* `SF_NER_final\`: trained model with the best hyperparameters
 
 * `title2novum.json`: dictionary linking story titles to the novum they contain
 
