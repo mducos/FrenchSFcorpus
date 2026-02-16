@@ -20,7 +20,7 @@ import numpy as np
 import torch.nn as nn
 
 class WeightedTrainer(Trainer):
-    """Trainer avec pondération des classes."""
+
     def __init__(self, class_weights=None, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.class_weights = class_weights
@@ -43,6 +43,7 @@ class WeightedTrainer(Trainer):
         return (loss, outputs) if return_outputs else loss
 
 class FocalLoss(torch.nn.Module):
+
     def __init__(self, alpha=None, gamma=2.0, ignore_index=-100):
         super().__init__()
         self.alpha = alpha
@@ -50,10 +51,6 @@ class FocalLoss(torch.nn.Module):
         self.ignore_index = ignore_index
 
     def forward(self, logits, targets):
-        """
-        logits : (N,C)
-        targets : (N,)
-        """
         log_probs = nn.functional.log_softmax(logits, dim=-1)
         probs = torch.exp(log_probs)
 
@@ -77,6 +74,7 @@ class FocalLoss(torch.nn.Module):
         return loss.mean()
 
 class FocalTrainer(Trainer):
+
     def __init__(self, *args, alpha=None, gamma=2.0, **kwargs):
         super().__init__(*args,**kwargs)
         self.focal_loss = FocalLoss(
@@ -99,8 +97,8 @@ gamma = 2.15
 
 def read_tsv_file(file_path: Path) -> List[Tuple[List[str], List[str]]]:
     """
-    Lit un fichier TSV et retourne une liste de phrases.
-    Chaque phrase est un tuple (tokens, tags).
+    Reads a TSV file and returns a list of sentences.
+    Each sentence is a tuple (tokens, tags).
     """
     sentences = []
     current_tokens = []
@@ -110,7 +108,7 @@ def read_tsv_file(file_path: Path) -> List[Tuple[List[str], List[str]]]:
         for line in f:
             line = line.strip()
 
-            if not line:  # Ligne vide = fin de phrase
+            if not line:  # empty line = end of sentence
                 if current_tokens:
                     sentences.append((current_tokens, current_tags))
                     current_tokens = []
@@ -122,19 +120,17 @@ def read_tsv_file(file_path: Path) -> List[Tuple[List[str], List[str]]]:
                     current_tokens.append(token)
                     current_tags.append(tag.strip())
 
-        # Ajouter la dernière phrase si elle existe
         if current_tokens:
             sentences.append((current_tokens, current_tags))
 
     return sentences
 
 def create_label_mappings(sentences: List[Tuple[List[str], List[str]]]) -> Tuple[Dict, Dict]:
-    """Crée les mappings label <-> id."""
+
     unique_labels = set()
     for _, tags in sentences:
         unique_labels.update(tags)
 
-    # Trier pour avoir un ordre cohérent
     sorted_labels = sorted(list(unique_labels))
 
     label2id = {label: idx for idx, label in enumerate(sorted_labels)}
@@ -142,26 +138,8 @@ def create_label_mappings(sentences: List[Tuple[List[str], List[str]]]) -> Tuple
 
     return label2id, id2label
 
-def compute_class_weights(sentences: List[Tuple[List[str], List[str]]], label2id: Dict) -> torch.Tensor:
-    """Calcule les poids de classes pour gérer le déséquilibre."""
-    from collections import Counter
-
-    all_tags = []
-    for _, tags in sentences:
-        all_tags.extend([label2id[tag] for tag in tags])
-
-    counts = Counter(all_tags)
-    total = sum(counts.values())
-
-    # Calculer les poids inversement proportionnels à la fréquence
-    weights = torch.ones(len(label2id))
-    for label_id, count in counts.items():
-        weights[label_id] = min(total / (len(label2id) * count),50)
-
-    return weights
-
 def prepare_dataset(sentences: List[Tuple[List[str], List[str]]], label2id: Dict) -> Dataset:
-    """Convertit les phrases en format Dataset HuggingFace."""
+
     tokens_list = []
     tags_list = []
 
@@ -177,7 +155,7 @@ def prepare_dataset(sentences: List[Tuple[List[str], List[str]]], label2id: Dict
     return dataset
 
 def tokenize_and_align_labels(examples, tokenizer, label2id):
-    """Tokenize et aligne les labels avec les sous-tokens."""
+
     tokenized_inputs = tokenizer(
         examples['tokens'],
         truncation=True,
@@ -194,14 +172,10 @@ def tokenize_and_align_labels(examples, tokenizer, label2id):
 
         for word_idx in word_ids:
             if word_idx is None:
-                # Token spécial (CLS, SEP, PAD)
+                # special token (CLS, SEP, PAD)
                 label_ids.append(-100)
             elif word_idx != previous_word_idx:
-                # Premier sous-token d'un mot
                 label_ids.append(label[word_idx])
-            #else:
-                # Sous-tokens suivants : on met -100 pour les ignorer
-                #label_ids.append(-100)
 
             previous_word_idx = word_idx
 
@@ -211,11 +185,10 @@ def tokenize_and_align_labels(examples, tokenizer, label2id):
     return tokenized_inputs
 
 def compute_metrics(eval_pred, id2label):
-    """Calcule les métriques avec seqeval."""
+
     predictions, labels = eval_pred
     predictions = np.argmax(predictions, axis=2)
 
-    # Convertir les prédictions et labels en format seqeval
     true_labels = []
     true_predictions = []
 
@@ -228,11 +201,10 @@ def compute_metrics(eval_pred, id2label):
                 true_label.append(id2label[label_id])
                 true_prediction.append(id2label[pred_id])
 
-        if true_label:  # Ignorer les séquences vides
+        if true_label:
             true_labels.append(true_label)
             true_predictions.append(true_prediction)
 
-    # Calculer les métriques
     results = {
         'precision': precision_score(true_labels, true_predictions),
         'recall': recall_score(true_labels, true_predictions),
@@ -243,7 +215,6 @@ def compute_metrics(eval_pred, id2label):
     return results
 
 def evaluate_and_print_results(trainer, dataset, id2label, dataset_name="Test"):
-    """Évalue sur un dataset et affiche les résultats détaillés."""
 
     print(f"{'='*80}")
     print(f"Évaluation sur {dataset_name}")
@@ -300,18 +271,15 @@ def evaluate_and_print_results(trainer, dataset, id2label, dataset_name="Test"):
 
 def main():
 
-    # Vérifier le GPU
     print(f"GPU disponible : {torch.cuda.is_available()}")
     if torch.cuda.is_available():
         print(f"GPU utilisé : {torch.cuda.get_device_name(0)}")
         print(f"VRAM totale : {torch.cuda.get_device_properties(0).total_memory / 1e9:.2f} GB")
 
-    # Chemins des fichiers
     train_file = Path("src/train.tsv")
     dev_file = Path("src/dev.tsv")
     test_file = Path("src/test.tsv")
 
-    # Charger les données
     print("Chargement des données...")
     train_sentences = read_tsv_file(train_file)
     dev_sentences = read_tsv_file(dev_file)
@@ -321,26 +289,20 @@ def main():
     print(f"Dev: {len(dev_sentences)} phrases")
     print(f"Test: {len(test_sentences)} phrases")
 
-    # Créer les mappings de labels
     all_sentences = train_sentences + dev_sentences + test_sentences
     label2id, id2label = create_label_mappings(all_sentences)
 
     print(f"\nNombre de labels: {len(label2id)}")
     print(label2id)
 
-    # Préparer les datasets
     train_dataset = prepare_dataset(train_sentences, label2id)
     dev_dataset = prepare_dataset(dev_sentences, label2id)
     test_dataset = prepare_dataset(test_sentences, label2id)
 
-    # Charger le tokenizer et le modèle
     model_name = "camembert-base"
     print(f"\nChargement du modèle {model_name}...")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-
-    # Calculer les poids de classes
-    #class_weights = compute_class_weights(train_sentences, label2id)
 
     model = AutoModelForTokenClassification.from_pretrained(
         model_name,
@@ -349,7 +311,6 @@ def main():
         label2id=label2id
     )
 
-    # Tokenizer les datasets
     print("Tokenization des données...")
     tokenized_train = train_dataset.map(
         lambda x: tokenize_and_align_labels(x, tokenizer, label2id),
@@ -369,10 +330,8 @@ def main():
         remove_columns=test_dataset.column_names
     )
 
-    # Data collator
     data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
 
-    # Arguments d'entraînement
     training_args = TrainingArguments(
         output_dir="src/camembert_ner",
         eval_strategy="epoch",
@@ -391,9 +350,7 @@ def main():
         fp16=torch.cuda.is_available(),
     )
 
-    # Trainer
-    trainer = FocalTrainer( # Pas WeightedTrainer
-        #class_weights=class_weights,
+    trainer = FocalTrainer(
         model=model,
         args=training_args,
         train_dataset=tokenized_train,
@@ -404,17 +361,11 @@ def main():
         compute_metrics=lambda x: compute_metrics(x, id2label),
     )
 
-    # Entraînement
     print("\nDébut de l'entraînement...")
     trainer.train()
 
-    # Évaluation sur dev
     evaluate_and_print_results(trainer, tokenized_dev, id2label, "Dev Set")
 
-    # Évaluation sur test
-    evaluate_and_print_results(trainer, tokenized_test, id2label, "Test Set")
-
-    # Sauvegarder le modèle final
     output_dir = Path("src/camembert_ner_final")
     print(f"\nSauvegarde du modèle dans {output_dir}...")
     trainer.save_model(output_dir)
