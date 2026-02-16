@@ -143,7 +143,7 @@ print(f"Train après oversampling: {len(train_oversampled)} phrases")
 # ----------------------------
 # Écriture des fichiers TSV
 # ----------------------------
-output_dir = Path("script/novum_detection")
+output_dir = Path("src")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 write_tsv(train_oversampled, output_dir / "train.tsv")

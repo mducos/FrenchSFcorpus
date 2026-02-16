@@ -307,9 +307,9 @@ def main():
         print(f"VRAM totale : {torch.cuda.get_device_properties(0).total_memory / 1e9:.2f} GB")
 
     # Chemins des fichiers
-    train_file = Path("script/novum_detection/train.tsv")
-    dev_file = Path("script/novum_detection/dev.tsv")
-    test_file = Path("script/novum_detection/test.tsv")
+    train_file = Path("src/train.tsv")
+    dev_file = Path("src/dev.tsv")
+    test_file = Path("src/test.tsv")
 
     # Charger les données
     print("Chargement des données...")
@@ -374,7 +374,7 @@ def main():
 
     # Arguments d'entraînement
     training_args = TrainingArguments(
-        output_dir="src/camembert-ner",
+        output_dir="src/camembert_ner",
         eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=3e-5,
@@ -415,7 +415,7 @@ def main():
     evaluate_and_print_results(trainer, tokenized_test, id2label, "Test Set")
 
     # Sauvegarder le modèle final
-    output_dir = Path("src/camembert-ner-final")
+    output_dir = Path("src/camembert_ner_final")
     print(f"\nSauvegarde du modèle dans {output_dir}...")
     trainer.save_model(output_dir)
     tokenizer.save_pretrained(output_dir)

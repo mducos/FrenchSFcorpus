@@ -50,15 +50,18 @@ def read_tsv_file(file_path: Path) -> List[Tuple[List[str], List[str]]]:
 
     return sentences
 # 1. Rechargez le modèle depuis le checkpoint
-model_checkpoint = AutoModelForTokenClassification.from_pretrained("src/30_epoch")
-tokenizer_checkpoint = AutoTokenizer.from_pretrained("src/30_epoch")
+model_checkpoint = AutoModelForTokenClassification.from_pretrained("src/camembert_ner_final")
+tokenizer_checkpoint = AutoTokenizer.from_pretrained("src/camembert_ner_final")
 
 # 2. Recréez les datasets tokenisés EXACTEMENT comme pendant l'entraînement
 label2id = model_checkpoint.config.label2id
 id2label = model_checkpoint.config.id2label
 
 # Lisez les données
-test_sentences = read_tsv_file(Path("data/NerSFcorpus/JehinPrume_LesAventuresExtraordinairesDeDeuxCanayens_1918/JehinPrume_LesAventuresExtraordinairesDeDeuxCanayens_1918.tsv"))
+# Reproduire les résultats sur le test set
+test_sentences = read_tsv_file(Path("src/test.tsv"))
+# Comparer les résultats avec un livre
+#test_sentences = read_tsv_file(Path("data/NerSFcorpus/JehinPrume_LesAventuresExtraordinairesDeDeuxCanayens_1918/JehinPrume_LesAventuresExtraordinairesDeDeuxCanayens_1918.tsv"))
 test_dataset = prepare_dataset(test_sentences, label2id)
 
 # Tokenisez EXACTEMENT comme pendant l'entraînement
@@ -92,7 +95,7 @@ tokenized_test = test_dataset.map(tokenize_fn, batched=True, remove_columns=test
 data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer_checkpoint)
 
 dummy_args = TrainingArguments(
-    output_dir="./dummy",
+    output_dir="./tmp",
     per_device_eval_batch_size=32,
     fp16=torch.cuda.is_available(),
 )
