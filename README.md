@@ -127,8 +127,8 @@ py .\script\novum_detection\predict_tsv.py
 
 The results on the test set are:
 
-| Precision | Recall | F1-score |
-|:----------|:----------:|:----------:|
+|           | Precision | Recall | F1-score |
+|:----------|:----------:|:----------:|:----------:|
 | PER | 92.00 | 94.03 | 93.00 |
 | LOC | 80.73 | 85.55 | 83.07 |
 | ORG | 68.66 | 71.91 | 70.25 |
