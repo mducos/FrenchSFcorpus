@@ -1,6 +1,5 @@
 from transformers import Trainer, TrainingArguments, DataCollatorForTokenClassification
 from transformers import AutoTokenizer, AutoModelForTokenClassification
-from transformers import AutoTokenizer, AutoModelForTokenClassification
 import torch
 from pathlib import Path
 from typing import List, Tuple
@@ -87,7 +86,7 @@ tokenized_test = test_dataset.map(tokenize_fn, batched=True, remove_columns=test
 
 data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer_checkpoint)
 
-dummy_args = TrainingArguments(
+args = TrainingArguments(
     output_dir="./tmp",
     per_device_eval_batch_size=32,
     fp16=torch.cuda.is_available(),
@@ -95,7 +94,7 @@ dummy_args = TrainingArguments(
 
 trainer = Trainer(
     model=model_checkpoint,
-    args=dummy_args,
+    args=args,
     data_collator=data_collator,
 )
 

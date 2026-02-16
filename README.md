@@ -137,6 +137,12 @@ The results on the test set are:
 | micro F1-score | 87.90 | 90.77 | 89.31 |
 | macro F1-score | 78.28 | 79.80 | 78.97 |
 
+To annotate a new story, make sure to put your input_file and your output_file in `script\novum_detection\annotate.py`, then run the following line.
+
+```
+py .\script\novum_detection\annotate.py
+```
+
 ## Source folder
 
 The `src/` folder contains:
