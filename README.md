@@ -34,9 +34,10 @@ FrenchSFcorpus/
 │
 ├── script/
 │   ├── novum_detection/
-│   │   ├── build_dataset.py
-│   │   ├── train.py
-│   │   ├── predict_tsv.py
+│   │   ├── NER_model/
+│   │   │   ├── build_dataset.py
+│   │   │   ├── train.py
+│   │   │   ├── predict_tsv.py
 │   ├── txt2ann.py
 │   └── txt2tsv.py
 │
@@ -95,9 +96,9 @@ The scripts are located in the `script/` folder.
 
 * `build_dataset.py`: builds the train, dev and test sets
 
-* `novum_detection/train.py`: trains the NER+NOV model and save the model in the `src` folder
+* `novum_detection/NER_model/train.py`: trains the NER+NOV model and save the model in the `src` folder
 
-* `novum_detection/predict_tsv.py`: uses the trained model and predicts (then evaluates) the annotations on the test set or on a book (tsv format) 
+* `novum_detection/NER_model/predict_tsv.py`: uses the trained NER model and predicts (then evaluates) the annotations on the test set or on a book (tsv format) 
 
 To run the scripts, create a virtual environment. Once inside, run the following line of code:
 
