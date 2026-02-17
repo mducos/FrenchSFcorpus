@@ -95,9 +95,9 @@ The scripts are located in the `script/` folder.
 
 * `build_dataset.py`: builds the train, dev and test sets
 
-* `novum_detection\train.py`: trains the NER+NOV model and save the model in the `src` folder
+* `novum_detection/train.py`: trains the NER+NOV model and save the model in the `src` folder
 
-* `novum_detection\predict_tsv.py`: uses the trained model and predicts (then evaluates) the annotations on the test set or on a book (tsv format) 
+* `novum_detection/predict_tsv.py`: uses the trained model and predicts (then evaluates) the annotations on the test set or on a book (tsv format) 
 
 To run the scripts, create a virtual environment. Once inside, run the following line of code:
 
@@ -111,18 +111,18 @@ To build the dataset, run the followwing line. The train, dev and test files obt
 py .\script\build_dataset.py
 ```
 
-To train the model using the best hyperparameters, run the following line. This new model will be saved in `src\SF_NER\`.
+To train the model using the best hyperparameters, run the following line. This new model will be saved in `src/SF_NER/`.
 
 ```
 py .\script\novum_detection\train.py
 ```
 
-To reproduce the results on the test set, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is uncommented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is commented in `script\novum_detection\predict_tsv.py`, then run the following line.
+To reproduce the results on the test set, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is uncommented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is commented in `script/novum_detection/predict_tsv.py`, then run the following line.
 
-To evaluate the model on a complete book, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is commented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is uncommented in `script\novum_detection\predict_tsv.py`, then run the following line.
+To evaluate the model on a complete book, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is commented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is uncommented in `script/novum_detection/predict_tsv.py`, then run the following line.
 
 ```
-py .\script\novum_detection\predict_tsv.py
+py script/novum_detection/predict_tsv.py
 ```
 
 The results on the test set are:
@@ -137,10 +137,10 @@ The results on the test set are:
 | micro F1-score | 87.90 | 90.77 | 89.31 |
 | macro F1-score | 78.28 | 79.80 | 78.97 |
 
-To annotate a new story, make sure to put your input_file and your output_file in `script\novum_detection\annotate.py`, then run the following line.
+To annotate a new story, make sure to put your input_file and your output_file in `script/novum_detection/annotate.py`, then run the following line.
 
 ```
-py .\script\novum_detection\annotate.py
+py script/novum_detection/annotate.py
 ```
 
 ## Source folder
@@ -153,7 +153,7 @@ The `src/` folder contains:
 
 * `test.tsv`: test set of the model
 
-* `SF_NER_final\`: trained model with the best hyperparameters
+* `SF_NER_final/`: trained model with the best hyperparameters
 
 * `title2novum.json`: dictionary linking story titles to the novum they contain
 
