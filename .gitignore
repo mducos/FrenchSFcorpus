@@ -3,17 +3,16 @@ venv/
 script/llm_soluce/
 script/ner_annotations/
 script/novum_annotations/
-script/novum_detection/LLM/
-script/novum_detection/fine_tuning_par_transformers/
-script/novum_detection/best_params.json
-script/novum_detection/epoch_metrics.json
-script/novum_detection/optimisation.py
-script/novum_detection/optimization_history.html
-script/novum_detection/overfitting_curves.png
-script/novum_detection/param_importances.html
-script/novum_detection/plot_overfitting.py
-script/novum_detection/predict_sentences.py
-script/novum_detection/train.py
+script/NER/fine_tuning_par_transformers/
+script/NER/best_params.json
+script/NER/epoch_metrics.json
+script/NER/optimisation.py
+script/NER/optimization_history.html
+script/NER/overfitting_curves.png
+script/NER/param_importances.html
+script/NER/plot_overfitting.py
+script/NER/predict_sentences.py
+script/NER/train.py
 script/txt2sent.py
 
 src/SF_NER/
@@ -22,5 +21,4 @@ src/tmp_optuna
 
 tmp/
 
-d.py
 tmp.py

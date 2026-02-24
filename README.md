@@ -33,13 +33,17 @@ FrenchSFcorpus/
 │   │   │   └── ...
 │
 ├── script/
-│   ├── novum_detection/
-│   │   ├── NER_model/
-│   │   │   ├── build_dataset.py
+│   ├── NER/
+│   │   ├── CamemBERT_NER_model/
 │   │   │   ├── train.py
-│   │   │   ├── predict_tsv.py
-│   ├── txt2ann.py
-│   └── txt2tsv.py
+│   │   │   └── predict_tsv.py
+│   │   ├── LLM/
+│   │   │   ├── predict_mistral.py
+│   │   │   ├── evaluate_mistral.py
+│   │   │   ├── predict_universalNER.py
+│   │   │   └── evaluate_universalNER.py
+│   ├── annotate.py
+│   └── build_dataset.py
 │
 ├── src/
 │   ├── model_ner_final/
@@ -47,12 +51,16 @@ FrenchSFcorpus/
 │   │   ├── model.safetensors
 │   │   ├── tokenizer_config.json
 │   │   ├── tokenizer.json
-│   │   ├── training_args.json
+│   │   └── training_args.json
 │   ├── title2novum.json
 │   ├── metadata.csv
 │   ├── train.tsv
 │   ├── dev.tsv
-│   └── test.tsv
+│   ├── test.tsv
+│   ├── pred_by_mistral.jsonl
+│   ├── pred_by_mistral.tsv
+│   ├── pred_by_universalNER_zero_shot.tsv
+│   └── pred_by_universalNER_few_shot.tsv
 
 ```
 
@@ -92,38 +100,32 @@ All metadata is grouped together in the file `src/metadata.csv` in the format `a
 
 ## Script folder
 
-The scripts are located in the `script/` folder.
+The scripts are located in the `script/` folder. Python 3.11 is used.
 
-* `build_dataset.py`: builds the train, dev and test sets
-
-* `novum_detection/NER_model/train.py`: trains the NER+NOV model and save the model in the `src` folder
-
-* `novum_detection/NER_model/predict_tsv.py`: uses the trained NER model and predicts (then evaluates) the annotations on the test set or on a book (tsv format) 
-
-To run the scripts, create a virtual environment. Once inside, run the following line of code:
+1. To run the scripts, create a virtual environment. Once inside, run the following line of code:
 
 ```
 pip install -r requirements.txt
 ```
 
-To build the dataset, run the followwing line. The train, dev and test files obtained are identical as those saved in `src`.
+2. To build the dataset, run the followwing line. The train, dev and test files obtained are identical as those saved in `src`.
 
 ```
-py .\script\build_dataset.py
+py script/build_dataset.py
 ```
 
-To train the model using the best hyperparameters, run the following line. This new model will be saved in `src/SF_NER/`.
+3. To fine-tune CamemBERT using the best hyperparameters, run the following line. This new model will be saved in `src/SF_NER/`.
 
 ```
-py .\script\novum_detection\train.py
+py script/NER/train.py
 ```
 
-To reproduce the results on the test set, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is uncommented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is commented in `script/novum_detection/predict_tsv.py`, then run the following line.
+4. a) To reproduce the results on the test set with fine-tuned CamemBERT, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is uncommented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is commented in `script/NER/CamemBERT_NER_model/predict_tsv.py`, then run the following line.
 
-To evaluate the model on a complete book, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is commented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is uncommented in `script/novum_detection/predict_tsv.py`, then run the following line.
+4. b) To evaluate fine-tuned CamemBERT on a complete book, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is commented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is uncommented in `script/NER/predict_tsv.py`, then run the following line.
 
 ```
-py script/novum_detection/predict_tsv.py
+py script/NER/predict_tsv.py
 ```
 
 The results on the test set are:
@@ -138,10 +140,49 @@ The results on the test set are:
 | micro F1-score | 87.90 | 90.77 | 89.31 |
 | macro F1-score | 78.28 | 79.80 | 78.97 |
 
-To annotate a new story, make sure to put your input_file and your output_file in `script/novum_detection/annotate.py`, then run the following line.
+5. To reproduce the results on the test set with Mistral, run the following line.
 
 ```
-py script/novum_detection/annotate.py
+py script/NER/LLM/evaluate_Mistral.py
+```
+
+The results on the test set are:
+
+|           | Precision | Recall | F1-score |
+|:----------|:----------:|:----------:|:----------:|
+| micro F1-score | 57.83 | 38.81 | 46.45 |
+| macro F1-score | 32.72 | 22.78 | 23.45 |
+
+6. To reproduce the results on the test set with UniversalNER zero-shot, make sure to put `evaluate("src/pred_by_universalNER_zero_shot.tsv")` in `script/NER/LLM/evaluate_universalNER.py` then run the following line.
+
+```
+py script/NER/LLM/evaluate_universalNER.py
+```
+
+The results on the test set are:
+
+|           | Precision | Recall | F1-score |
+|:----------|:----------:|:----------:|:----------:|
+| micro F1-score | 72.11 | 42.48 | 53.46 |
+| macro F1-score | 34.41 | 16.40 | 20.35 |
+
+7. To reproduce the results on the test set with UniversalNER zero-shot, make sure to put `evaluate("src/pred_by_universalNER_few_shot.tsv")` in `script/NER/LLM/evaluate_universalNER.py` then run the following line.
+
+```
+py script/NER/LLM/evaluate_universalNER.py
+```
+
+The results on the test set are:
+
+|           | Precision | Recall | F1-score |
+|:----------|:----------:|:----------:|:----------:|
+| micro F1-score | 72.60 | 33.57 | 45.91 |
+| macro F1-score | 37.56 | 13.04 | 16.72 |
+
+8. To annotate a new story using fine-tuned CamemBERT, make sure to put your input_file and your output_file in `script/NER/annotate.py`, then run the following line.
+
+```
+py script/NER/annotate.py
 ```
 
 ## Source folder
@@ -153,6 +194,14 @@ The `src/` folder contains:
 * `dev.tsv`: dev set of the model
 
 * `test.tsv`: test set of the model
+
+* `pred_by_mistral.jsonl`: results from Mistral in the jsonl file
+
+* `pred_by_mistral.tsv`: results from Mistral in the tsv file (reproduction of the test file with pred labels)
+
+* `pred_by_universalNERT_zero_shot.tsv`: results from UniversalNER zero-shot in the tsv file (reproduction of the test file with pred labels)
+
+* `pred_by_universalNERT_zero_shot.tsv`: results from UniversalNER few-shot in the tsv file (reproduction of the test file with pred labels)
 
 * `SF_NER_final/`: trained model with the best hyperparameters
 
