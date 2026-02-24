@@ -120,9 +120,9 @@ py script/build_dataset.py
 py script/NER/train.py
 ```
 
-4. a) To reproduce the results on the test set with fine-tuned CamemBERT, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is uncommented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is commented in `script/NER/CamemBERT_NER_model/predict_tsv.py`, then run the following line.
+4.  a) To reproduce the results on the test set with fine-tuned CamemBERT, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is uncommented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is commented in `script/NER/CamemBERT_NER_model/predict_tsv.py`, then run the following line.
 
-4. b) To evaluate fine-tuned CamemBERT on a complete book, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is commented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is uncommented in `script/NER/predict_tsv.py`, then run the following line.
+    b) To evaluate fine-tuned CamemBERT on a complete book, make sure `test_sentences = read_tsv_file(Path("src/test.tsv"))` is commented and `test_sentences = read_tsv_file(Path("data/NerSFcorpus/BOOK_PATH.tsv"))` is uncommented in `script/NER/predict_tsv.py`, then run the following line.
 
 ```
 py script/NER/predict_tsv.py
