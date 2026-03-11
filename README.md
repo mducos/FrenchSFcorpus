@@ -166,7 +166,7 @@ The results on the test set are:
 | micro F1-score | 72.11 | 42.48 | 53.46 |
 | macro F1-score | 34.41 | 16.40 | 20.35 |
 
-7. To reproduce the results on the test set with UniversalNER zero-shot, make sure to put `evaluate("src/pred_by_universalNER_few_shot.tsv")` in `script/NER/LLM/evaluate_universalNER.py` then run the following line.
+7. To reproduce the results on the test set with UniversalNER few-shot, make sure to put `evaluate("src/pred_by_universalNER_few_shot.tsv")` in `script/NER/LLM/evaluate_universalNER.py` then run the following line.
 
 ```
 py script/NER/LLM/evaluate_universalNER.py
