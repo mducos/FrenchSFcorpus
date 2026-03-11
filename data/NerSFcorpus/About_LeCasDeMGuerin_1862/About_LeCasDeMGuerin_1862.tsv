@@ -18,8 +18,8 @@ ans	O
 était	O
 chevalier	O
 de	O
-la	B-ORG
-Légion	I-ORG
+la	O
+Légion	B-ORG
 d	I-ORG
 '	I-ORG
 honneur	I-ORG
@@ -41,8 +41,8 @@ capitaine	O
 en	O
 premier	O
 de	O
-la	B-ORG
-2e	I-ORG
+la	O
+2e	B-ORG
 compagnie	I-ORG
 du	I-ORG
 7e	I-ORG
@@ -86,13 +86,13 @@ sciences	O
 ,	O
 candidat	O
 à	O
-l	B-LOC
-'	I-LOC
-École	I-LOC
-de	I-LOC
-Saint	I-LOC
--	I-LOC
-Cyr	I-LOC
+l	O
+'	O
+École	B-ORG
+de	I-ORG
+Saint	I-ORG
+-	I-ORG
+Cyr	I-ORG
 .	O
 	
 Il	O
@@ -117,14 +117,14 @@ Martyrs	I-LOC
 en	O
 face	O
 de	O
-la	B-LOC
-rue	I-LOC
+la	O
+rue	B-LOC
 de	I-LOC
 Navarin	I-LOC
 .	O
 	
-Le	B-PER
-vicaire	I-PER
+Le	O
+vicaire	B-PER
 de	I-PER
 Notre	B-LOC
 -	I-LOC
@@ -190,8 +190,8 @@ un	O
 peloton	O
 de	O
 la	O
-garde	O
-nationale	O
+garde	B-ORG
+nationale	I-ORG
 lui	O
 rendit	O
 les	O
@@ -278,12 +278,13 @@ sous	O
 chef	O
 de	O
 la	O
-division	O
-de	O
-la	O
-comptabilité	O
-«	O
+division	B-ORG
+de	I-ORG
+la	I-ORG
+comptabilité	I-ORG
+.	O
 	
+«   O
 Fidèle	O
 à	O
 tous	O
@@ -528,9 +529,9 @@ firent	O
 monter	O
 dans	O
 une	O
-voiture	B-NOV
-de	I-NOV
-deuil	I-NOV
+voiture	O
+de	O
+deuil	O
 et	O
 le	O
 ramenèrent	O
@@ -678,8 +679,8 @@ répandirent	O
 dans	O
 les	O
 cabarets	O
-du	B-LOC
-faubourg	I-LOC
+du  O
+faubourg	B-LOC
 Montmartre	I-LOC
 pour	O
 prendre	O
@@ -820,6 +821,7 @@ la	O
 science	O
 ?	O
 ...	O
+
 Ils	O
 m	O
 '	O
@@ -840,6 +842,7 @@ la	O
 tératologie	O
 !	O
 ...	O
+
 Les	O
 préjugés	O
 de	O
@@ -850,6 +853,7 @@ le	O
 respect	O
 !	O
 ...	O
+
 Comme	O
 si	O
 c	O
@@ -867,7 +871,7 @@ aux	O
 vers	O
 !	O
 ...	O
--	O
+
 Quelle	O
 gloire	O
 pour	O
@@ -880,6 +884,7 @@ avais	O
 pu	O
 !	O
 ...	O
+
 C	O
 '	O
 était	O
@@ -943,13 +948,11 @@ dans	O
 un	O
 ciel	O
 serein	O
-!	O
-	
+!	O	
 une	O
 révélation	O
 physiologique	O
 !	O
-	
 une	O
 ère	O
 nouvelle	O
@@ -966,19 +969,17 @@ nom	O
 l	O
 '	O
 ère	O
-du	B-PER
-docteur	I-PER
+du	O
+docteur	B-PER
 Robineau	I-PER
 !	O
 	
 Ah	O
 !	O
-	
 messieurs	O
-les	B-MISC
-Anglais	I-MISC
+les	O
+Anglais	B-MISC
 !	O
-	
 vous	O
 avez	O
 découvert	O
@@ -986,7 +987,7 @@ la	O
 circulation	O
 du	O
 sang	O
-·	O
+,	O
 je	O
 vous	O
 aurais	O
@@ -1018,14 +1019,14 @@ ressorts	O
 j	O
 '	O
 intéresserai	O
-l	B-ORG
-'	I-ORG
+l	O
+'	O
 Académie	I-ORG
 de	I-ORG
 médecine	I-ORG
 et	O
-l	B-ORG
-'	I-ORG
+l	O
+'	O
 Académie	I-ORG
 des	I-ORG
 sciences	I-ORG
@@ -1039,7 +1040,7 @@ jusqu	O
 à	O
 l	O
 '	O
-empereur	O
+empereur	B-PER
 ,	O
 s	O
 '	O
@@ -1068,8 +1069,8 @@ veut	O
 on	O
 pas	O
 que	O
-la	B-LOC
-France	I-LOC
+la	O
+France	B-LOC
 soit	O
 la	O
 reine	O
@@ -1146,8 +1147,8 @@ expliquer	O
 la	O
 curiosité	O
 farouche	O
-du	B-PER
-docteur	I-PER
+du	O
+docteur	B-PER
 Robineau	I-PER
 ,	O
 si	O
@@ -1185,8 +1186,8 @@ mère	O
 boulangers	O
 au	O
 numéro	O
-48	O
-du	B-LOC
+48	B-LOC
+du	I-LOC
 faubourg	I-LOC
 Saint	I-LOC
 -	I-LOC
@@ -1264,9 +1265,9 @@ du	O
 Consulat	O
 et	O
 de	O
-l	B-ORG
-'	I-ORG
-Empire	I-ORG
+l	O
+'	O
+Empire	O
 ,	O
 par	O
 M.	B-PER
@@ -1341,8 +1342,8 @@ force	O
 La	O
 pythonisse	O
 de	O
-la	B-LOC
-rue	I-LOC
+la	O
+rue	B-LOC
 de	I-LOC
 Tournon	I-LOC
 lui	O
@@ -1536,8 +1537,8 @@ sa	O
 tête	O
 sans	O
 amener	O
-la	B-PER
-souffran	I-PER
+la	O
+souffran	O
 -	O
 misère	O
 .	O
@@ -1575,6 +1576,7 @@ je	O
 ici	O
 ?	O
 ...	O
+
 Votre	O
 enfant	O
 est	O
@@ -1637,7 +1639,6 @@ personne	O
 une	O
 femme	O
 ?	O
-	
 oui	O
 ...	O
 se	O
@@ -1701,8 +1702,7 @@ fille	O
 !	O
 	
 Ah	O
-!	O
-	
+!	O	
 mademoiselle	B-PER
 Lenormant	I-PER
 ,	O
@@ -1798,7 +1798,7 @@ la	O
 triste	O
 capitulation	O
 de	O
-Baylen	B-PER
+Baylen	B-LOC
 ,	O
 madame	B-PER
 Guérin	I-PER
@@ -1842,7 +1842,7 @@ et	O
 en	O
 firent	O
 compliment	O
-au	B-PER
+au	O
 père	I-PER
 Guérin	I-PER
 .	O
@@ -1898,8 +1898,8 @@ s	O
 en	O
 prenait	O
 tantôt	O
-au	B-PER
-général	I-PER
+au	O
+général	B-PER
 Dupont	I-PER
 ,	O
 tantôt	O
@@ -1931,8 +1931,8 @@ trahir	O
 la	O
 patrie	O
 et	O
-la	B-PER
-famille	I-PER
+la	O
+famille	B-PER
 Guérin	I-PER
 .	O
 	
@@ -1955,7 +1955,7 @@ halles	O
 Voyez	O
 un	O
 peu	O
-la	B-PER
+la	O
 mijaurée	O
 qui	O
 me	O
@@ -1987,8 +1987,8 @@ Au	O
 lieu	O
 de	O
 jeter	O
-la	B-PER
-Guérin	I-PER
+la	O
+Guérin	B-PER
 à	O
 la	O
 porte	O
@@ -2082,7 +2082,6 @@ coeur	O
 	
 Ciel	O
 !	O
-	
 j	O
 '	O
 entends	O
@@ -2301,6 +2300,7 @@ une	O
 fille	O
 !	O
 ...	O
+
 Mais	O
 on	O
 nous	O
@@ -2451,6 +2451,7 @@ de	O
 son	O
 fils	O
 .	O
+
 (	O
 Le	O
 gentleman	O
@@ -2642,8 +2643,8 @@ cet	O
 insigne	O
 civil	O
 que	O
-les	B-MISC
-Européens	I-MISC
+les	O
+Européens	B-MISC
 n	O
 '	O
 abandonnent	O
@@ -2655,8 +2656,8 @@ la	O
 vie	O
 .	O
 	
-Le	B-PER
-jeune	I-PER
+Le	O
+jeune	B-PER
 Guérin	I-PER
 ,	O
 que	O
@@ -2668,8 +2669,8 @@ appelaient	O
 par	O
 ignorance	O
 «	O
-la	B-PER
-petite	I-PER
+la	O
+petite	B-PER
 Guérin	I-PER
 ,	O
 »	O
@@ -2790,8 +2791,8 @@ rentrée	O
 de	O
 1818	O
 ,	O
-le	B-PER
-père	I-PER
+le	O
+père	B-PER
 Guérin	I-PER
 ,	O
 qui	O
@@ -2833,13 +2834,13 @@ une	O
 demi	O
 -	O
 bourse	O
-au	B-LOC
-collège	I-LOC
-royal	I-LOC
-d	I-LOC
-'	I-LOC
-Henri	I-LOC
-IV	I-LOC
+au	O
+collège	I-ORG
+royal	I-ORG
+d	I-ORG
+'	I-ORG
+Henri	I-ORG
+IV	I-ORG
 .	O
 	
 La	O
@@ -2849,7 +2850,6 @@ pleura	O
 Dieu	B-PER
 sait	O
 !	O
-	
 mais	O
 l	O
 '	O
@@ -3001,8 +3001,8 @@ classe	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 lui	O
 répondit	O
 à	O
@@ -3255,8 +3255,6 @@ c	O
 '	O
 est	O
 un	O
-.	O
-	
 garçon	O
 :	O
 la	O
@@ -3591,8 +3589,8 @@ mais	O
 pour	O
 les	O
 femmes	O
-du	B-LOC
-faubourg	I-LOC
+du	O
+faubourg	O-LOC
 Saint	I-LOC
 -	I-LOC
 Martin	I-LOC
@@ -4007,9 +4005,9 @@ sorte	O
 de	O
 concert	O
 où	O
-le	B-PER
-jeune	I-PER
-Guérin	B-PER
+le	O
+jeune	B-PER
+Guérin	I-PER
 refusait	O
 seul	O
 de	O
@@ -4117,8 +4115,8 @@ phosphorique	O
 !	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 rougissait	O
 comme	O
 une	O
@@ -4825,7 +4823,7 @@ voisin	O
 	
 Pierre	B-PER
 -	I-PER
-Marie	B-PER
+Marie	I-PER
 descendit	O
 à	O
 six	O
@@ -4847,8 +4845,8 @@ en	O
 alla	O
 fout	O
 seul	O
-au	B-LOC
-Théâtre	I-LOC
+au	O
+Théâtre	B-LOC
 -	I-LOC
 Français	I-LOC
 et	O
@@ -5074,9 +5072,8 @@ agaçantes	O
 .	O
 	
 Pierre	B-PER
--	O
-	
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 n	O
 '	O
 aurait	O
@@ -5772,8 +5769,8 @@ demoiselle	O
 ?	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 lui	O
 prouva	O
 qu	O
@@ -5909,8 +5906,8 @@ il	O
 pas	O
 mieux	O
 courir	O
-au	B-LOC
-pont	I-LOC
+au	O
+pont	B-LOC
 des	I-LOC
 Arts	I-LOC
 et	O
@@ -6079,8 +6076,8 @@ honneur	O
 !	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 s	O
 '	O
 excusa	O
@@ -6604,13 +6601,11 @@ qu	O
 un	O
 déjeuner	O
 dînatoire	O
-au	B-LOC
-Banquet	I-LOC
-d	I-LOC
-'	I-LOC
-Ana	I-LOC
--	I-LOC
-créon	O
+au	O
+Banquet	O
+d	O
+'	O
+Anacréon	B-PER
 n	O
 '	O
 était	O
@@ -6622,8 +6617,8 @@ importance	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 eut	O
 beau	O
 plaider	O
@@ -6685,8 +6680,8 @@ quatre	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 s	O
 '	O
 enferma	O
@@ -6875,8 +6870,8 @@ fortunes	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 la	O
 querellait	O
 souvent	O
@@ -7035,8 +7030,8 @@ comme	O
 un	O
 homme	O
 à	O
-la	B-LOC
-porte	I-LOC
+la	O
+porte	B-LOC
 Saint	I-LOC
 -	I-LOC
 Martin	I-LOC
@@ -7118,8 +7113,8 @@ audience	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 possédait	O
 son	O
 affaire	O
@@ -7263,8 +7258,8 @@ jours	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 reparut	O
 à	O
 l	O
@@ -7352,8 +7347,8 @@ militante	O
 !	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 ,	O
 interpellé	O
 si	O
@@ -7401,8 +7396,8 @@ nez	O
 la	O
 barricade	O
 de	O
-la	B-LOC
-porte	I-LOC
+la	O
+porte	B-LOC
 Saint	I-LOC
 -	I-LOC
 Martin	I-LOC
@@ -7537,8 +7532,8 @@ en	O
 louant	O
 une	O
 chambre	O
-au	B-LOC
-boulevard	I-LOC
+au	O
+boulevard	B-LOC
 du	I-LOC
 Temple	I-LOC
 .	O
@@ -7671,8 +7666,8 @@ diverses	O
 La	O
 direction	O
 de	O
-la	B-LOC
-rue	I-LOC
+la	O
+rue	B-LOC
 du	I-LOC
 Mont	I-LOC
 -	I-LOC
@@ -7730,9 +7725,9 @@ d	O
 '	O
 ordre	O
 que	O
-le	B-PER
-jeune	O
-Guérin	B-PER
+le	O
+jeune	B-PER
+Guérin	I-PER
 avait	O
 contractées	O
 dès	O
@@ -8131,8 +8126,8 @@ francs	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 était	O
 en	O
 droit	O
@@ -8159,8 +8154,8 @@ parents	O
 .	O
 	
 Mais	O
-la	B-PER
-famille	I-PER
+la	O
+famille	B-PER
 Laurent	I-PER
 était	O
 honorable	O
@@ -8186,8 +8181,8 @@ espérances	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 ne	O
 fit	O
 pas	O
@@ -8248,8 +8243,8 @@ de	O
 Mantes	B-LOC
 remarquèrent	O
 que	O
-le	B-PER
-fils	I-PER
+le	O
+fils	B-PER
 Guérin	I-PER
 avait	O
 rougi	O
@@ -8268,9 +8263,9 @@ Pendant	O
 les	O
 cérémonies	O
 de	O
-l	B-ORG
-'	I-ORG
-Église	I-ORG
+l	O
+'	O
+Église	B-ORG
 ,	O
 la	O
 mère	O
@@ -8304,8 +8299,8 @@ une	O
 fille	O
 et	O
 si	O
-la	B-PER
-Lenormant	I-PER
+la	O
+Lenormant	B-PER
 ne	O
 nous	O
 avait	O
@@ -8364,8 +8359,8 @@ de	O
 la	O
 mariée	O
 était	O
-un	B-MISC
-Américain	I-MISC
+un	O
+Américain	B-MISC
 du	O
 nom	O
 de	O
@@ -8497,8 +8492,7 @@ Dupuytren	B-PER
 mort	O
 en	O
 1835	O
-.	O
-	
+,	O
 s	O
 '	O
 était	O
@@ -8606,8 +8600,8 @@ la	O
 famille	O
 .	O
 	
-La	B-LOC
-ville	I-LOC
+La	O
+ville	B-LOC
 de	I-LOC
 Mantes	I-LOC
 avait	O
@@ -8700,8 +8694,8 @@ du	O
 monde	O
 .	O
 	
-Le	B-PER
-jeune	I-PER
+Le	O
+jeune	B-PER
 Guérin	I-PER
 ,	O
 qui	O
@@ -9041,9 +9035,6 @@ ventre	O
 mon	O
 bon	O
 !	O
-	
-3	O
-.	O
 	
 Le	O
 digne	O
@@ -9479,7 +9470,6 @@ voulez	O
 -	O
 vous	O
 !	O
-	
 on	O
 est	O
 sur	O
@@ -9618,7 +9608,6 @@ mon	O
 pauvre	O
 enfant	O
 !	O
-	
 rond	O
 ou	O
 carré	O
@@ -9689,6 +9678,7 @@ les	O
 et	O
 disait	O
 :	O
+
 —	O
 Voilà	O
 des	O
@@ -10425,8 +10415,8 @@ ministère	O
 en	O
 dépit	O
 de	O
-la	B-ORG
-Faculté	I-ORG
+la	O
+Faculté	B-ORG
 .	O
 	
 Tout	O
@@ -10597,8 +10587,8 @@ descendre	O
 au	O
 restaurant	O
 de	O
-la	B-LOC
-rue	I-LOC
+la	O
+rue	B-LOC
 Mondovi	I-LOC
 .	O
 	
@@ -11002,14 +10992,12 @@ le	O
 secrétaire	O
 général	O
 !	O
-	
 je	O
 ne	O
 les	O
 aime	O
 pas	O
 !	O
-	
 je	O
 n	O
 '	O
@@ -11019,7 +11007,6 @@ pu	O
 les	O
 souffrir	O
 !	O
-	
 c	O
 '	O
 est	O
@@ -11034,6 +11021,7 @@ le	O
 bras	O
 !	O
 -	O
+
 —	O
 Relevez	O
 -	O
@@ -11091,7 +11079,6 @@ Allons	O
 ,	O
 allons	O
 !	O
-	
 il	O
 faut	O
 faire	O
@@ -11359,14 +11346,14 @@ commerce	O
 au	O
 coin	O
 de	O
-la	B-LOC
-rue	I-LOC
+la	O
+rue	B-LOC
 des	I-LOC
 Chantres	I-LOC
 et	O
 de	O
-la	B-LOC
-place	I-LOC
+la	O
+place	B-LOC
 Notre	I-LOC
 -	I-LOC
 Dame	I-LOC
@@ -11591,8 +11578,8 @@ province	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 ,	O
 qui	O
 avait	O
@@ -11652,7 +11639,6 @@ m	O
 est	O
 témoin	O
 !	O
-	
 que	O
 je	O
 vous	O
@@ -11922,7 +11908,6 @@ le	O
 docteur	O
 .	O
 	
-°	O
 —	O
 Pas	O
 le	O
@@ -11931,7 +11916,6 @@ commun	O
 ,	O
 monsieur	O
 !	O
-	
 vous	O
 ne	O
 savez	O
@@ -12223,7 +12207,6 @@ Bientôt	O
 ,	O
 monsieur	O
 !	O
-	
 et	O
 sans	O
 qu	O
@@ -12252,11 +12235,9 @@ art	O
 	
 Ah	O
 !	O
-	
 mon	O
 ami	O
 !	O
-	
 celui	O
 que	O
 nous	O
@@ -12402,8 +12383,8 @@ en	O
 vue	O
 ,	O
 sur	O
-les	B-LOC
-bords	I-LOC
+les	O
+bords	B-LOC
 de	I-LOC
 la	I-LOC
 Seine	I-LOC
@@ -12563,8 +12544,8 @@ jour	O
 !	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 fit	O
 appeler	O
 sa	O
@@ -13179,8 +13160,8 @@ Quant	O
 ça	O
 ,	O
 dit	O
-la	B-PER
-mère	I-PER
+la	O
+mère	B-PER
 Guérin	I-PER
 ,	O
 ça	O
@@ -13564,7 +13545,6 @@ ouvertes	O
 .	O
 	
 Tout	O
-G	O
 le	O
 monde	O
 mangeait	O
@@ -13850,8 +13830,8 @@ la	O
 tête	O
 de	O
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 .	O
 	
 —	O
@@ -13885,7 +13865,9 @@ depuis	O
 quelque	O
 temps	O
 à	O
-NewYork	B-LOC
+New B-LOC
+-   I-LOC
+York	I-LOC
 .	O
 	
 Ce	O
@@ -14074,8 +14056,8 @@ Lorsqu	O
 il	O
 vint	O
 raconter	O
-aux	B-PER
-Guérin	I-PER
+aux	O
+Guérin	B-PER
 ce	O
 nouvel	O
 acte	O
@@ -14229,8 +14211,8 @@ souffrir	O
 	
 répondit	O
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 .	O
 	
 Il	O
@@ -14616,7 +14598,7 @@ juillet	O
 	
 Pierre	B-PER
 -	I-PER
-Marie	B-PER
+Marie	I-PER
 ,	O
 languissamment	O
 étendu	O
@@ -14865,8 +14847,8 @@ succès	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 regarda	O
 le	O
 diamant	O
@@ -15041,8 +15023,8 @@ garçon	O
 	
 demanda	O
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 d	O
 '	O
 une	O
@@ -15121,8 +15103,7 @@ son	O
 !	O
 	
 Ah	O
-!	O
-	
+!	O	
 mademoiselle	B-PER
 Lenormant	I-PER
 ,	O
@@ -16225,8 +16206,8 @@ discours	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 ,	O
 qui	O
 semblait	O
@@ -17675,8 +17656,8 @@ dire	O
 que	O
 la	O
 sagacité	O
-des	B-MISC
-Grecs	I-MISC
+des	O
+Grecs	B-MISC
 n	O
 '	O
 était	O
@@ -17689,8 +17670,8 @@ nôtre	O
 	
 Si	O
 toutefois	O
-la	B-PER
-famille	I-PER
+la	O
+famille	B-PER
 Guérin	I-PER
 jugeait	O
 bon	O
@@ -17753,8 +17734,8 @@ moi	O
 ;	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 n	O
 '	O
 a	O
@@ -17830,8 +17811,8 @@ vous	O
 parle	O
 .	O
 	
-Le	B-PER
-roi	I-PER
+Le	O
+roi	B-PER
 de	I-PER
 Crète	I-PER
 en	O
@@ -18404,8 +18385,8 @@ dépens	O
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 a	O
 été	O
 mis	O
@@ -18471,8 +18452,8 @@ l	O
 état	O
 civil	O
 de	O
-la	B-LOC
-commune	I-LOC
+la	O
+commune	B-LOC
 de	I-LOC
 Mantes	I-LOC
 :	O
@@ -18515,18 +18496,18 @@ l	O
 état	O
 civil	O
 de	O
-la	B-LOC
-commune	I-LOC
+la	O
+commune	B-LOC
 de	I-LOC
 Mantes	I-LOC
 ,	O
 a	O
 comparu	O
-le	B-PER
-sieur	I-PER
+le	O
+sieur	B-PER
 Wilson	I-PER
-(	I-PER
-Henri	I-PER
+(	O
+Henri	B-PER
 )	O
 ,	O
 âgé	O
@@ -18558,14 +18539,14 @@ procuration	O
 spéciale	O
 et	O
 authentique	O
-du	B-PER
-sieur	I-PER
+du	O
+sieur	B-PER
 Guérin	I-PER
-(	I-PER
-Pierre	I-PER
+(	O
+Pierre	B-PER
 -	I-PER
 Marie	I-PER
-)	I-PER
+)	O
 ,	O
 rédacteur	O
 au	O
@@ -18631,15 +18612,15 @@ il	O
 est	O
 né	O
 dans	O
-la	B-LOC
-commune	I-LOC
+la	O
+commune	B-LOC
 de	I-LOC
 Mantes	I-LOC
 ,	O
-au	B-LOC
+au	O
 lieu	O
-dit	B-LOC
-la	I-LOC
+dit	O
+la	B-LOC
 Coudraye	I-LOC
 ,	O
 dans	O
@@ -18705,7 +18686,7 @@ présence	O
 des	O
 sieurs	O
 Laurent	B-PER
-(	I-PER
+(	O
 Charles	B-PER
 -	I-PER
 Maclou	I-PER
@@ -18729,7 +18710,7 @@ numéro	O
 ,	O
 et	O
 Froideveau	B-PER
-(	I-PER
+(	O
 Jean	B-PER
 -	I-PER
 Louis	I-PER
@@ -18817,8 +18798,8 @@ au	O
 vieil	O
 épicier	O
 de	O
-la	B-LOC
-rue	I-LOC
+la	O
+rue	B-LOC
 des	I-LOC
 Chantres	I-LOC
 :	O
@@ -19187,8 +19168,8 @@ compagnie	O
 M.	B-PER
 Wilson	I-PER
 dit	O
-aux	B-PER
-Laurent	I-PER
+aux	O
+Laurent	B-PER
 :	O
 	
 —	O
@@ -19216,8 +19197,8 @@ que	O
 nous	O
 passions	O
 devant	O
-la	B-LOC
-tour	I-LOC
+la	O
+tour	B-LOC
 Saint	I-LOC
 -	I-LOC
 Maclou	I-LOC
@@ -19247,7 +19228,7 @@ voyage	O
 au	O
 midi	B-LOC
 de	I-LOC
-la	B-LOC
+la	I-LOC
 France	I-LOC
 .	O
 	
@@ -19502,14 +19483,14 @@ voyage	O
 ,	O
 et	O
 si	O
-le	B-LOC
-Midi	I-LOC
+le	O
+Midi	B-LOC
 était	O
 aussi	O
 frais	O
 que	O
-les	B-LOC
-bords	I-LOC
+les	O
+bords	B-LOC
 de	I-LOC
 la	I-LOC
 Seine	I-LOC
@@ -19920,7 +19901,7 @@ connaît	O
 elle	O
 madame	B-PER
 Guérin	I-PER
-la	I-PER
+la	O
 mère	O
 ?	O
 	
@@ -20187,8 +20168,8 @@ délai	O
 fixé	O
 ,	O
 et	O
-la	B-LOC
-ville	I-LOC
+la	O
+ville	B-LOC
 de	I-LOC
 Mantes	I-LOC
 ne	O
@@ -20198,7 +20179,7 @@ guère	O
 voir	O
 madame	B-PER
 et	I-PER
-M.	B-PER
+M.	I-PER
 Guérin	I-PER
 ,	O
 l	O
@@ -20582,8 +20563,8 @@ Baltimore	B-LOC
 et	O
 moi	O
 à	O
-la	B-LOC
-Nouvelle	I-LOC
+la	O
+Nouvelle	B-LOC
 -	I-LOC
 Orléans	I-LOC
 .	O
@@ -21449,8 +21430,8 @@ Lenormant	I-PER
 .	O
 	
 Pierre	B-PER
--	O
-Marie	B-PER
+-	I-PER
+Marie	I-PER
 la	O
 pleura	O
 ,	O
@@ -21576,8 +21557,8 @@ ses	O
 camarades	O
 de	O
 la	O
-garde	O
-nationale	B-ORG
+garde	B-ORG
+nationale	I-ORG
 ,	O
 l	O
 '	O
@@ -22386,7 +22367,7 @@ et	O
 courait	O
 à	O
 Sainte	B-LOC
--	B-LOC
+-	I-LOC
 Barbe	I-LOC
 porter	O
 des	O
@@ -22441,8 +22422,8 @@ et	O
 qui	O
 le	O
 menait	O
-au	B-LOC
-théâtre	I-LOC
+au	O
+théâtre	B-LOC
 Séraphin	I-LOC
 .	O
 	
@@ -22511,8 +22492,8 @@ et	O
 lui	O
 dit	O
 dans	O
-la	B-LOC
-cour	I-LOC
+la	O
+cour	B-LOC
 de	I-LOC
 la	I-LOC
 Sorbonne	I-LOC
@@ -22776,9 +22757,9 @@ d	O
 '	O
 entrer	O
 à	O
-l	B-LOC
-'	I-LOC
-École	I-LOC
+l	O
+'	O
+École	B-LOC
 militaire	I-LOC
 ,	O
 et	O
@@ -22831,8 +22812,8 @@ venue	O
 lorsque	O
 son	O
 voisin	O
-le	B-PER
-docteur	I-PER
+le	O
+docteur	B-PER
 Robineau	I-PER
 lui	O
 eut	O
@@ -23663,8 +23644,8 @@ après	O
 ses	O
 funérailles	O
 ,	O
-le	B-PER
-docteur	I-PER
+le	O
+docteur	B-PER
 Robineau	I-PER
 se	O
 présenta	O
@@ -23779,8 +23760,8 @@ le	O
 transporter	O
 à	O
 Limay	B-LOC
-(	I-LOC
-Seine	I-LOC
+(	O
+Seine	B-LOC
 -	I-LOC
 et	I-LOC
 -	I-LOC
@@ -24262,15 +24243,15 @@ il	O
 ,	O
 je	O
 suis	O
-le	B-PER
-docteur	I-PER
+le	O
+docteur	B-PER
 Robineau	I-PER
 .	O
 	
 Je	O
 viens	O
-du	B-LOC
-cimetière	I-LOC
+du	O
+cimetière	B-LOC
 Montmartre	I-LOC
 ,	O
 où	O
@@ -24292,8 +24273,8 @@ vivant	O
 chef	O
 de	O
 bureau	O
-au	B-ORG
-ministère	I-ORG
+au	O
+ministère	B-ORG
 des	I-ORG
 finances	I-ORG
 .	O
