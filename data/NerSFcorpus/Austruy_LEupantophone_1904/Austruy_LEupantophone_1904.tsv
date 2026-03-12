@@ -1,8 +1,8 @@
 I	O
-L	O
-'	O
-Écho	O
-Plaintif	B-LOC
+L	B-ORG
+'	I-ORG
+Écho	I-ORG
+Plaintif	I-ORG
 ,	O
 journal	O
 des	O
@@ -31,6 +31,7 @@ les	O
 lignes	O
 suivantes	O
 :	O
+
 «	O
 Aveugle	O
 ,	O
@@ -47,7 +48,6 @@ la	O
 vue	O
 dans	O
 une	O
-«	O
 expérience	O
 de	O
 laboratoire	O
@@ -59,7 +59,6 @@ une	O
 rente	O
 de	O
 cinquante	O
-«	O
 mille	O
 francs	O
 réversible	O
@@ -72,7 +71,6 @@ veuve	O
 ,	O
 désire	O
 mariage	O
-«	O
 avec	O
 jeune	O
 fille	O
@@ -83,19 +81,16 @@ naissance	O
 	
 Adresser	O
 les	O
-communica	O
--	O
-«	O
-tions	O
+communications	O
 à	O
 M.	B-PER
 Victor	I-PER
 Blancadet	I-PER
 ,	O
-140	O
-bis	O
-,	O
-rue	B-LOC
+140	B-LOC
+bis	I-LOC
+,	I-LOC
+rue	I-LOC
 du	I-LOC
 Sabre	I-LOC
 -	I-LOC
@@ -106,7 +101,6 @@ l	I-LOC
 Abbé	I-LOC
 ,	O
 à	O
-«	O
 Paris	B-LOC
 .	O
 »	O
@@ -238,8 +232,8 @@ conjugale	O
 Antigone	B-PER
 de	O
 l	O
-'	B-PER
-Œdipe	I-PER
+'	O
+Œdipe	B-PER
 moderne	O
 frappé	O
 par	O
@@ -291,11 +285,11 @@ mânes	O
 du	O
 plus	O
 réservé	O
-des	B-MISC
-Sages	I-MISC
-de	I-MISC
-la	I-MISC
-Grèce	I-MISC
+des	O
+Sages	B-PER
+de	I-PER
+la	I-PER
+Grèce	I-PER
 ;	O
 mais	O
 ,	O
@@ -634,10 +628,10 @@ son	O
 amant	O
 .	O
 	
-Le	B-PER
+Le	O
 «	O
-bel	B-PER
-Alcée	I-PER
+bel	O
+Alcée	B-PER
 »	O
 était	O
 dans	O
@@ -657,8 +651,8 @@ part	O
 du	O
 directeur	O
 de	O
-l	O
-'	B-ORG
+l	B-ORG
+'	I-ORG
 Echo	I-ORG
 Plaintif	I-ORG
 ,	O
@@ -788,11 +782,10 @@ passion	O
 ,	O
 répondait	O
 :	O
-«	O
-	
+
+«	O	
 Mon	O
 petit	O
-	
 Samson	B-PER
 chéri	O
 ,	O
@@ -815,7 +808,6 @@ couper	O
 ...	O
 	
 —	O
-	
 Avant	O
 de	O
 te	O
@@ -862,8 +854,8 @@ accent	O
 de	O
 jalousie	O
 :	O
-«	O
-	
+
+«	O	
 Mais	O
 tu	O
 ne	O
@@ -958,7 +950,6 @@ jusqu	O
 ce	O
 qu	O
 '	O
-	
 Alcée	B-PER
 ,	O
 après	O
@@ -985,22 +976,20 @@ frottant	O
 les	O
 mains	O
 :	O
+
 «	O
 Ah	O
-!	O
-	
+!	O	
 cette	O
 fois	O
 ,	O
 si	O
 le	O
 «	O
-	
 Singe	O
 frileux	O
 »	O
 ,	O
-	
 —	O
 surnom	O
 qu	O
@@ -1010,10 +999,10 @@ valu	O
 au	O
 directeur	O
 de	O
-l	O
-'	O
-Écho	O
-Plaintif	B-LOC
+l	B-ORG
+'	I-ORG
+Écho	I-ORG
+Plaintif	I-ORG
 un	O
 tic	O
 bizarre	O
@@ -1036,7 +1025,6 @@ il	O
 faisait	O
 froid	O
 ,	O
-	
 —	O
 «	O
 n	O
@@ -1169,11 +1157,10 @@ de	O
 furieuses	O
 réprimandes	O
 :	O
-«	O
-	
+
+«	O	
 Eh	O
 !	O
-	
 bien	O
 ,	O
 Charlotte	B-PER
@@ -1194,6 +1181,7 @@ vous	O
 êtes	O
 ?	O
 ...	O
+
 Vous	O
 moqueriez	O
 -	O
@@ -1220,10 +1208,10 @@ de	O
 se	O
 disculper	O
 :	O
+
 «	O
 Oh	O
-!	O
-	
+!	O	
 non	O
 ,	O
 Madame	O
@@ -1278,7 +1266,6 @@ Je	O
 sais	O
 bien	O
 ,	O
-	
 Madame	O
 ;	O
 mais	O
@@ -1300,7 +1287,6 @@ contente	O
 —	O
 Allons	O
 !	O
-	
 dépêchez	O
 -	O
 vous	O
@@ -1349,10 +1335,10 @@ antichambre	O
 tandis	O
 qu	O
 '	O
-	
 Alcée	B-PER
 demandait	O
 :	O
+
 «	O
 Quel	O
 âge	O
@@ -1362,7 +1348,6 @@ t	O
 -	O
 elle	O
 ,	O
-	
 Charlotte	B-PER
 ?	O
 	
@@ -1382,9 +1367,9 @@ Pour	O
 rien	O
 !	O
 ...	O
+
 Tiens	O
 !	O
-	
 un	O
 joli	O
 titre	O
@@ -1393,15 +1378,16 @@ roman	O
 :	O
 Charlotte	B-PER
 ou	O
-l	B-PER
-'	I-PER
-Écolière	I-PER
+l	O
+'	O
+Écolière	O
 et	O
 l	O
 '	O
 amour	O
 !	O
 ...	O
+
 Crois	O
 -	O
 tu	O
@@ -1457,6 +1443,7 @@ sans	O
 défaillance	O
 !	O
 ...	O
+
 Moi	O
 ,	O
 j	O
@@ -1469,8 +1456,8 @@ chez	O
 un	O
 peintre	O
 de	O
-la	B-LOC
-rue	I-LOC
+la	O
+rue	B-LOC
 Denfert	I-LOC
 -	I-LOC
 Rochereau	I-LOC
@@ -1480,9 +1467,7 @@ et	O
 TOMBE	O
 XXX	O
 .	O
-	
-5	O
-	
+		
 —	O
 Et	O
 ,	O
@@ -1507,6 +1492,7 @@ jamais	O
 retrouvée	O
 !	O
 ...	O
+
 —	O
 Jamais	O
 !	O
@@ -1528,6 +1514,7 @@ bien	O
 fait	O
 !	O
 ...	O
+
 Pour	O
 vivre	O
 ,	O
@@ -1542,7 +1529,6 @@ capital	O
 —	O
 Ah	O
 !	O
-	
 si	O
 je	O
 t	O
@@ -1621,7 +1607,7 @@ difficile	O
 	
 Alcée	B-PER
 semblait	O
-passer	O
+penser	O
 de	O
 plus	O
 en	O
@@ -1659,10 +1645,10 @@ l	O
 '	O
 annonce	O
 de	O
-l	O
-'	O
-Écho	O
-Plaintif	B-LOC
+l	B-ORG
+'	I-ORG
+Écho	I-ORG
+Plaintif	I-ORG
 ,	O
 se	O
 dit	O
@@ -1901,8 +1887,8 @@ supérieur	O
 dans	O
 l	O
 '	O
-armée	O
-française	O
+armée	B-ORG
+française	I-ORG
 ,	O
 vivait	O
 avec	O
@@ -1993,9 +1979,9 @@ chez	O
 sa	O
 mère	O
 ,	O
-12	O
-,	O
-rue	B-LOC
+12	B-LOC
+,	I-LOC
+rue	I-LOC
 des	I-LOC
 Hautes	I-LOC
 -	I-LOC
@@ -2029,9 +2015,9 @@ ordinaire	O
 ,	O
 au	O
 numéro	O
-12	O
-de	O
-la	B-LOC
+12	B-LOC
+de	I-LOC
+la	I-LOC
 rue	I-LOC
 des	I-LOC
 Hautes	I-LOC
@@ -2158,6 +2144,7 @@ de	O
 son	O
 amant	O
 :	O
+
 «	O
 Madame	O
 !	O
@@ -2309,6 +2296,7 @@ un	O
 énorme	O
 bâillement	O
 :	O
+
 «	O
 Quoi	O
 ?	O
@@ -2421,7 +2409,6 @@ dit	O
 ?	O
 »	O
 précisa	O
-	
 Baillargeon	B-PER
 ,	O
 d	O
@@ -2484,10 +2471,10 @@ partie	O
 du	O
 quartier	O
 :	O
+
 «	O
 Mademoiselle	O
 ,	O
-«	O
 Les	O
 termes	O
 de	O
@@ -2500,7 +2487,6 @@ infiniment	O
 touché	O
 et	O
 certains	O
-«	O
 passages	O
 me	O
 sont	O
@@ -2513,10 +2499,7 @@ coeur	O
 La	O
 délicatesse	O
 des	O
-senti	O
--	O
-«	O
-ments	O
+sentiments	O
 que	O
 vous	O
 exprimez	O
@@ -2527,7 +2510,6 @@ grand	O
 honneur	O
 au	O
 sexe	O
-«	O
 auquel	O
 vous	O
 appartenez	O
@@ -2542,7 +2524,6 @@ nature	O
 se	O
 plut	O
 à	O
-«	O
 embellir	O
 votre	O
 personne	O
@@ -2554,10 +2535,7 @@ en	O
 rien	O
 aux	O
 précieuses	O
-qua	O
--	O
-«	O
-lités	O
+qualités	O
 morales	O
 que	O
 ,	O
@@ -2571,7 +2549,6 @@ accorda	O
 pour	O
 faire	O
 ,	O
-«	O
 semble	O
 -	O
 t	O
@@ -2595,11 +2572,9 @@ exception	O
 	
 —	O
 «	O
-	
 Il	O
 marche	O
 !	O
-	
 il	O
 marche	O
 !	O
@@ -2629,12 +2604,12 @@ Tais	O
 toi	O
 donc	O
 !	O
-	
 laisse	O
 -	O
 moi	O
 continuer	O
 :	O
+
 «	O
 J	O
 '	O
@@ -2671,6 +2646,7 @@ toi	O
 donc	O
 !	O
 ...	O
+
 «	O
 J	O
 '	O
@@ -2683,7 +2659,6 @@ termes	O
 ,	O
 et	O
 je	O
-«	O
 crois	O
 avoir	O
 pénétré	O
@@ -2697,7 +2672,6 @@ Votre	O
 ardent	O
 désir	O
 de	O
-«	O
 consacrer	O
 vos	O
 jours	O
@@ -2712,7 +2686,6 @@ d	O
 '	O
 être	O
 pour	O
-«	O
 lui	O
 la	O
 lumière	O
@@ -2727,7 +2700,6 @@ lesquels	O
 il	O
 verrait	O
 ,	O
-«	O
 m	O
 '	O
 a	O
@@ -2745,12 +2717,12 @@ pleure	O
 hélas	O
 !	O
 comme	O
-«	O
 tous	O
 les	O
 autres	O
 hommes	O
 !	O
+
 ...	O
 Eh	O
 !	O
@@ -2759,7 +2731,6 @@ bien	O
 après	O
 avoir	O
 longuement	O
-«	O
 réfléchi	O
 ,	O
 je	O
@@ -2772,10 +2743,7 @@ de	O
 votre	O
 esprit	O
 de	O
-sacri	O
--	O
-«	O
-fice	O
+sacrifice	O
 ;	O
 votre	O
 beauté	O
@@ -2787,10 +2755,7 @@ faite	O
 pour	O
 être	O
 contemplée	O
-seule	O
--	O
-«	O
-ment	O
+seulement	O
 par	O
 des	O
 yeux	O
@@ -2806,7 +2771,6 @@ vous	O
 verrais	O
 mal	O
 et	O
-«	O
 vous	O
 seriez	O
 ,	O
@@ -2821,7 +2785,6 @@ expression	O
 pareille	O
 à	O
 des	O
-«	O
 fleurs	O
 qu	O
 '	O
@@ -2835,7 +2798,6 @@ ne	O
 savent	O
 pas	O
 les	O
-«	O
 apprécier	O
 ...	O
 »	O
@@ -2844,7 +2806,6 @@ apprécier	O
 «	O
 Ah	O
 !	O
-	
 l	O
 '	O
 imbécile	O
@@ -2873,6 +2834,7 @@ imperturbable	O
 Virginie	B-PER
 continua	O
 :	O
+
 «	O
 Aussi	O
 ,	O
@@ -2887,10 +2849,7 @@ ciel	O
 dont	O
 vous	O
 me	O
-dépei	O
--	O
-«	O
-gnez	O
+dépeignez	O
 les	O
 délices	O
 ;	O
@@ -2902,7 +2861,6 @@ avec	O
 mes	O
 chers	O
 ouvrages	O
-«	O
 de	O
 science	O
 et	O
@@ -2916,7 +2874,6 @@ où	O
 Dieu	B-PER
 me	O
 permettra	O
-«	O
 d	O
 '	O
 unir	O
@@ -2931,10 +2888,7 @@ me	O
 sera	O
 donné	O
 de	O
-sou	O
--	O
-«	O
-lager	O
+soulager	O
 la	O
 misère	O
 .	O
@@ -3037,6 +2991,7 @@ de	O
 vous	O
 !	O
 ...	O
+
 Tâchez	O
 de	O
 me	O
@@ -3156,7 +3111,6 @@ C	O
 est	O
 égal	O
 !	O
-	
 je	O
 n	O
 '	O
@@ -3166,6 +3120,7 @@ de	O
 chance	O
 !	O
 ...	O
+
 On	O
 peut	O
 dire	O
@@ -3186,6 +3141,7 @@ veux	O
 tu	O
 ?	O
 ...	O
+
 Ce	O
 n	O
 '	O
@@ -3232,6 +3188,7 @@ cet	O
 imbécile	O
 ?	O
 ...	O
+
 Naturellement	O
 ,	O
 des	O
@@ -3275,6 +3232,7 @@ Allons	O
 continue	O
 !	O
 ...	O
+
 Qu	O
 '	O
 est	O
@@ -3336,7 +3294,6 @@ de	O
 se	O
 voir	O
 ...	O
-	
 qu	O
 '	O
 il	O
@@ -3367,7 +3324,6 @@ lui	O
 —	O
 Ah	O
 !	O
-	
 c	O
 '	O
 est	O
@@ -3396,7 +3352,6 @@ es	O
 —	O
 Oh	O
 !	O
-	
 ce	O
 que	O
 je	O
@@ -3426,7 +3381,6 @@ femme	O
 du	O
 monde	O
 ...	O
-	
 mais	O
 on	O
 fait	O
@@ -3461,6 +3415,7 @@ certainement	O
 naturellement	O
 !	O
 ...	O
+
 Crois	O
 -	O
 tu	O
@@ -3496,7 +3451,6 @@ m	O
 ...	O
 	
 —	O
-	
 Pour	O
 t	O
 '	O
@@ -3505,7 +3459,6 @@ t	O
 	
 Oh	O
 !	O
-	
 là	O
 ...	O
 là	O
@@ -3603,7 +3556,6 @@ pas	O
 !	O
 	
 —	O
-	
 Alors	O
 ,	O
 mon	O
@@ -3690,12 +3642,12 @@ de	O
 la	O
 vie	O
 !	O
-..	O
+...	O
+
 Mais	O
 ...	O
 attends	O
 ...	O
-	
 j	O
 '	O
 ai	O
@@ -3804,6 +3756,7 @@ la	O
 visite	O
 projetée	O
 :	O
+
 «	O
 Ce	O
 n	O
@@ -3868,7 +3821,7 @@ trois	O
 passa	O
 ,	O
 très	O
-roide	O
+raide	O
 ,	O
 devant	O
 la	O
@@ -3918,10 +3871,10 @@ maison	O
 portant	O
 le	O
 numéro	O
-140	O
-bis	O
-de	O
-la	B-LOC
+140	B-LOC
+bis	I-LOC
+de	I-LOC
+la	I-LOC
 rue	I-LOC
 du	I-LOC
 Sabre	I-LOC
@@ -3949,12 +3902,14 @@ M.	B-PER
 Victor	I-PER
 Blancadet	I-PER
 .	O
+
 «	O
 Pavillon	O
 en	O
 face	O
 !	O
 ...	O
+
 Sonnez	O
 fort	O
 si	O
@@ -3994,9 +3949,7 @@ un	O
 peu	O
 .	O
 	
-Bail	B-PER
--	I-PER
-largal	I-PER
+Baillargal	B-PER
 se	O
 garda	O
 bien	O
@@ -4034,6 +3987,7 @@ plus	O
 gracieux	O
 sourire	O
 :	O
+
 «	O
 Ah	O
 !	O
@@ -4075,6 +4029,7 @@ répondit	O
 en	O
 riant	O
 :	O
+
 «	O
 Sourd	O
 ,	O
@@ -4082,6 +4037,7 @@ M.	B-PER
 Célestin	I-PER
 ?	O
 ...	O
+
 Mais	O
 il	O
 n	O
@@ -4096,6 +4052,7 @@ ou	O
 moi	O
 !	O
 ...	O
+
 Il	O
 ne	O
 veut	O
@@ -4144,6 +4101,7 @@ un	O
 soupçon	O
 subit	O
 :	O
+
 «	O
 Vous	O
 ne	O
@@ -4243,7 +4201,6 @@ lui	O
 quelques	O
 renseignements	O
 ...	O
-	
 je	O
 suis	O
 journaliste	O
@@ -4257,6 +4214,7 @@ est	O
 journaliste	O
 ?	O
 ...	O
+
 Si	O
 vous	O
 voulez	O
@@ -4275,6 +4233,7 @@ ma	O
 loge	O
 ?	O
 ...	O
+
 Nous	O
 serons	O
 mieux	O
@@ -4369,7 +4328,6 @@ même	O
 	
 Tenez	O
 ...	O
-	
 il	O
 habitait	O
 là	O
@@ -4443,6 +4401,7 @@ l	O
 '	O
 intéressait	O
 :	O
+
 «	O
 Alors	O
 ,	O
@@ -4458,6 +4417,7 @@ Oui	O
 Monsieur	O
 !	O
 ...	O
+
 Mais	O
 ,	O
 entre	O
@@ -4584,7 +4544,6 @@ accident	O
 —	O
 Ah	O
 !	O
-	
 M.	B-PER
 Blancadet	I-PER
 a	O
@@ -4610,8 +4569,8 @@ de	O
 la	O
 catastrophe	O
 de	O
-la	B-LOC
-Sorbonne	I-LOC
+la	O
+Sorbonne	B-LOC
 ?	O
 	
 Attendez	O
@@ -4628,6 +4587,7 @@ ans	O
 parfaitement	O
 !	O
 ...	O
+
 C	O
 '	O
 était	O
@@ -4657,7 +4617,6 @@ homme	O
 	
 Ah	O
 !	O
-	
 Monsieur	O
 ,	O
 c	O
@@ -4667,6 +4626,7 @@ un	O
 travailleur	O
 !	O
 ...	O
+
 Ça	O
 on	O
 pouvait	O
@@ -4674,6 +4634,7 @@ le	O
 dire	O
 !	O
 ...	O
+
 Aussi	O
 dans	O
 le	O
@@ -4712,6 +4673,7 @@ du	O
 tout	O
 !	O
 ...	O
+
 A	O
 cette	O
 époque	O
@@ -4745,6 +4707,7 @@ pour	O
 rien	O
 !	O
 ...	O
+
 Benoît	B-PER
 ,	O
 lui	O
@@ -4773,6 +4736,7 @@ des	O
 histoires	O
 extraordinaires	O
 ...	O
+
 Il	O
 me	O
 disait	O
@@ -4854,7 +4818,6 @@ Evidemment	O
 !	O
 	
 —	O
-	
 C	O
 '	O
 est	O
@@ -4886,8 +4849,8 @@ cependant	O
 ...	O
 	
 Tout	O
-le	B-LOC
-quartier	I-LOC
+le	O
+quartier	B-LOC
 de	I-LOC
 la	I-LOC
 Sorbonne	I-LOC
@@ -4896,7 +4859,6 @@ sauté	O
 !	O
 	
 —	O
-	
 En	O
 effet	O
 !	O
@@ -4904,7 +4866,6 @@ effet	O
 —	O
 Ah	O
 !	O
-	
 vous	O
 y	O
 êtes	O
@@ -5009,10 +4970,8 @@ poursuivaient	O
 	
 Oh	O
 !	O
-	
 mon	O
 pauvre	O
-	
 Monsieur	O
 ...	O
 Monsieur	O
@@ -5023,7 +4982,6 @@ Baillargal	O
 !	O
 	
 —	O
-	
 C	O
 '	O
 est	O
@@ -5036,6 +4994,7 @@ nom	O
 là	O
 !	O
 ...	O
+
 Vous	O
 n	O
 '	O
@@ -5052,6 +5011,7 @@ Mais	O
 si	O
 !	O
 ...	O
+
 Je	O
 suis	O
 du	B-LOC
@@ -5061,7 +5021,6 @@ Midi	I-LOC
 —	O
 Oh	O
 !	O
-	
 alors	O
 !	O
 ...	O
@@ -5085,30 +5044,28 @@ vous	O
 ?	O
 	
 —	O
-	
 Dans	O
 plusieurs	O
 ...	O
 	
 Surtout	O
 dans	O
-l	O
-'	O
-	
-Echo	O
-Plaintif	O
+l	B-ORG
+'	I-ORG
+Echo	I-ORG
+Plaintif	I-ORG
 !	O
 	
 —	O
 Tiens	O
 !	O
-	
 comme	O
 ça	O
 se	O
 trouve	O
 !	O
 ...	O
+
 Je	O
 le	O
 lis	O
@@ -5116,6 +5073,7 @@ tous	O
 les	O
 jours	O
 ...	O
+
 Je	O
 parie	O
 que	O
@@ -5133,7 +5091,6 @@ divers	O
 —	O
 Ah	O
 !	O
-	
 non	O
 ,	O
 par	O
@@ -5158,12 +5115,10 @@ faites	O
 Les	O
 chroniques	O
 ...	O
-	
 la	O
 grande	O
 actualité	O
 ...	O
-	
 les	O
 premiers	O
 Paris	B-LOC
@@ -5172,7 +5127,6 @@ Paris	B-LOC
 —	O
 Ah	O
 !	O
-	
 c	O
 '	O
 est	O
@@ -5192,6 +5146,7 @@ ne	O
 connaît	O
 ?	O
 ...	O
+
 Je	O
 ne	O
 comprends	O
@@ -5236,7 +5191,6 @@ intéressant	O
 !	O
 	
 —	O
-	
 Dès	O
 demain	O
 ,	O
@@ -5259,6 +5213,7 @@ avec	O
 plaisir	O
 !	O
 ...	O
+
 Mais	O
 revenons	O
 à	O
@@ -5274,9 +5229,9 @@ en	O
 je	O
 ?	O
 ...	O
+
 Ah	O
-!	O
-	
+!	O	
 oui	O
 !	O
 ...	O
@@ -5382,7 +5337,6 @@ appartement	O
 	
 Ah	O
 !	O
-	
 si	O
 vous	O
 aviez	O
@@ -5397,9 +5351,9 @@ le	O
 drap	O
 !	O
 ...	O
+
 Ah	O
-!	O
-	
+!	O	
 mon	O
 pauvre	O
 Monsieur	O
@@ -5419,12 +5373,10 @@ Baillargal	I-PER
 —	O
 Ah	O
 !	O
-	
 Monsieur	B-PER
 Alcée	I-PER
 !	O
 ...	O
-	
 si	O
 vous	O
 aviez	O
@@ -5443,13 +5395,11 @@ vivant	O
 !	O
 	
 —	O
-	
 Un	O
 torchon	O
 ?	O
 	
 —	O
-	
 Ce	O
 n	O
 '	O
@@ -5463,6 +5413,7 @@ vous	O
 dites	O
 ?	O
 ...	O
+
 Comment	O
 dites	O
 -	O
@@ -5470,7 +5421,6 @@ vous	O
 ?	O
 	
 —	O
-	
 Une	O
 loque	O
 !	O
@@ -5478,17 +5428,14 @@ loque	O
 —	O
 Ah	O
 !	O
-	
 oui	O
 !	O
-	
 une	O
 loque	O
 ...	O
 	
 Ah	O
 !	O
-	
 pour	O
 sûr	O
 ,	O
@@ -5502,7 +5449,6 @@ une	O
 	
 Oh	O
 !	O
-	
 doux	O
 père	O
 du	O
@@ -5541,7 +5487,6 @@ Blancadet	I-PER
 —	O
 Ah	O
 !	O
-	
 bien	O
 ,	O
 Monsieur	B-PER
@@ -5559,7 +5504,6 @@ encore	O
 	
 Oh	O
 !	O
-	
 pas	O
 beaucoup	O
 ,	O
@@ -5594,7 +5538,6 @@ vie	O
 	
 Ah	O
 !	O
-	
 pour	O
 ça	O
 ,	O
@@ -5679,7 +5622,6 @@ cimetière	O
 	
 Oh	O
 !	O
-	
 doux	O
 père	O
 du	O
@@ -5697,7 +5639,7 @@ choses	O
 -	O
 là	O
 !	O
-..	O
+...	O
 	
 Et	O
 si	O
@@ -5721,7 +5663,6 @@ restait	O
 —	O
 Ah	O
 !	O
-	
 il	O
 lui	O
 restait	O
@@ -5730,11 +5671,9 @@ oeil	O
 ?	O
 	
 —	O
-	
 Mais	O
 oui	O
 ,	O
-	
 Monsieur	B-PER
 Alcée	I-PER
 ;	O
@@ -5771,13 +5710,12 @@ M.	B-PER
 Blancadet	I-PER
 travaillait	O
 à	O
-la	B-LOC
-Sorbonne	I-LOC
+la	O
+Sorbonne	B-LOC
 dans	O
 le	O
 laboratoire	O
 de	O
-	
 M.	B-PER
 Lebargnol	I-PER
 ,	O
@@ -5786,7 +5724,7 @@ savant	O
 fameux	O
 aussi	O
 !	O
-..	O
+...	O
 	
 Mais	O
 lui	O
@@ -5815,12 +5753,10 @@ un	O
 omnibus	O
 qui	O
 passait	O
-place	O
-	
-Saint	B-LOC
--	O
-	
-Michel	B-PER
+place	B-LOC
+Saint	I-LOC
+-	I-LOC
+Michel	I-LOC
 ...	O
 	
 Dans	O
@@ -5855,7 +5791,7 @@ voyez	O
 le	O
 gâchis	O
 ?	O
-..	O
+...	O
 	
 —	O
 Oui	O
@@ -6164,6 +6100,7 @@ devenu	O
 fou	O
 !	O
 ...	O
+
 Et	O
 depuis	O
 ?	O
@@ -6185,6 +6122,7 @@ même	O
 chose	O
 !	O
 ..	O
+
 On	O
 croirait	O
 qu	O
@@ -6264,6 +6202,7 @@ pas	O
 Parfaitement	O
 !	O
 ...	O
+
 Sonnez	O
 fort	O
 à	O
@@ -6296,26 +6235,13 @@ heure	O
 Monsieur	B-PER
 Alcée	I-PER
 !	O
-(	O
-A	O
-Suivre	O
-)	O
-Henri	B-PER
-AUSTRUY	I-PER
-.	O
 	
-—	O
-(	O
-5	O
-)	O
-X	O
-	
-L	B-LOC
-'	I-LOC
-hôtel	I-LOC
-de	I-LOC
-«	I-LOC
-l	I-LOC
+L	O
+'	O
+hôtel	O
+de	O
+«	O
+l	B-LOC
 '	I-LOC
 Esturgeon	I-LOC
 »	I-LOC
@@ -6326,9 +6252,7 @@ rive	O
 droite	O
 de	O
 la	B-LOC
-Noi	I-LOC
--	I-LOC
-zette	I-LOC
+Noizette	I-LOC
 ,	O
 petite	O
 rivière	O
@@ -6359,10 +6283,11 @@ rivale	O
 à	O
 Ilderon	B-LOC
 .	O
-«	B-PER
-L	B-PER
-'	I-PER
-Esturgeon	I-PER
+
+«	O
+L	B-LOC
+'	I-LOC
+Esturgeon	I-LOC
 »	O
 reçoit	O
 les	O
@@ -6404,7 +6329,7 @@ chose	O
 très	O
 rare	O
 ,	O
-«	B-PER
+«	O
 Monsieur	B-PER
 de	I-PER
 Paris	I-PER
@@ -6415,12 +6340,12 @@ aides	O
 étaient	O
 descendus	O
 à	O
+l	O
+'	O
+hôtel	O
+de	O
+«	O
 l	B-LOC
-'	I-LOC
-hôtel	I-LOC
-de	I-LOC
-«	I-LOC
-l	I-LOC
 '	I-LOC
 Esturgeon	I-LOC
 »	O
@@ -6488,12 +6413,12 @@ possible	O
 Blancadet	B-PER
 avait	O
 élu	O
+l	O
+'	O
+hôtel	O
+de	O
+«	O
 l	B-LOC
-'	I-LOC
-hôtel	I-LOC
-de	I-LOC
-«	I-LOC
-l	I-LOC
 '	I-LOC
 Esturgeon	I-LOC
 »	O
@@ -6547,7 +6472,7 @@ de	O
 la	O
 gare	O
 à	O
-«	B-LOC
+«	O
 l	B-LOC
 '	I-LOC
 Esturgeon	I-LOC
@@ -6743,9 +6668,7 @@ de	O
 Blancadet	B-PER
 à	O
 qui	O
-Bail	B-PER
--	O
-largal	O
+Baillargal	B-PER
 faisait	O
 des	O
 recommandations	O
@@ -6786,6 +6709,7 @@ ici	O
 ,	O
 Messieurs	O
 !	O
+
 «	O
 Lequel	O
 de	O
@@ -6797,12 +6721,12 @@ désire	O
 la	O
 chambre	O
 de	O
-Monsieur	O
-l	B-PER
+Monsieur	B-PER
+l	I-PER
 '	I-PER
 Inspecteur	I-PER
 des	I-PER
-finances	O
+finances	I-PER
 ?	O
 	
 —	O
@@ -6879,6 +6803,7 @@ autre	O
 	
 Mais	O
 ...	O
+
 —	O
 Mais	O
 quoi	O
@@ -7198,9 +7123,7 @@ initiative	O
 de	O
 signaler	O
 à	O
-Blanca	B-PER
--	O
-det	O
+Blancadet	B-PER
 l	O
 '	O
 existence	O
@@ -7392,9 +7315,7 @@ ouvrit	O
 et	O
 Maître	B-PER
 Des	I-PER
-Échi	I-PER
--	O
-nettes	O
+Échinettes	I-PER
 en	O
 personne	O
 pria	O
@@ -7450,6 +7371,7 @@ coffres	O
 -	O
 forts	O
 .	O
+
 «	O
 Maître	B-PER
 Des	I-PER
@@ -7495,6 +7417,7 @@ de	O
 nombreux	O
 visiteurs	O
 .	O
+
 «	O
 Vous	O
 avez	O
@@ -7548,6 +7471,7 @@ de	I-PER
 La	I-PER
 Moutardie	I-PER
 .	O
+
 —	O
 Je	O
 suis	O
@@ -7641,9 +7565,7 @@ qui	O
 bien	O
 entendu	O
 ,	O
-Blanca	B-PER
--	I-PER
-det	I-PER
+Blancadet	B-PER
 ne	O
 parla	O
 pas	O
@@ -7652,6 +7574,7 @@ sa	O
 révolutionnaire	O
 découverte	O
 :	O
+
 «	O
 Donc	O
 ,	O
@@ -7754,9 +7677,7 @@ protestations	O
 de	O
 dévouement	O
 à	O
-Blanca	B-PER
--	O
-det	O
+Blancadet	B-PER
 qu	O
 '	O
 après	O
@@ -7915,6 +7836,7 @@ discourir	O
 avec	O
 complaisance	O
 :	O
+
 «	O
 Tous	O
 les	O
@@ -7960,8 +7882,8 @@ de	O
 mes	O
 maîtres	O
 de	O
-la	B-ORG
-Faculté	I-ORG
+la	O
+Faculté	B-ORG
 de	I-ORG
 droit	I-ORG
 de	I-ORG
@@ -8087,6 +8009,7 @@ toute	O
 éloquence	O
 dehors	O
 :	O
+
 «	O
 Sans	O
 circonlocutions	O
@@ -8101,9 +8024,9 @@ d	O
 '	O
 expression	O
 digne	O
-des	B-MISC
-anciens	I-MISC
-Spartiates	I-MISC
+des	O
+anciens	O
+Spartiates	B-MISC
 ,	O
 vous	O
 avez	O
@@ -8255,8 +8178,8 @@ des	O
 maîtres	O
 légitimes	O
 de	O
-la	B-LOC
-France	I-LOC
+la	O
+France	B-LOC
 .	O
 	
 —	O
@@ -8357,8 +8280,8 @@ fauteuil	O
 le	O
 fauteuil	O
 de	O
-la	B-LOC
-Présidence	I-LOC
+la	O
+Présidence	O
 ,	O
 »	O
 hasarda	O
@@ -8480,14 +8403,12 @@ projets	O
 	
 —	O
 «	O
-	
 Ce	O
 sont	O
 là	O
 ,	O
 Monsieur	B-PER
 Victor	I-PER
-	
 Blancadet	B-PER
 ,	O
 des	O
@@ -8509,7 +8430,6 @@ confiance	O
 en	O
 Maître	B-PER
 Alcindor	I-PER
-	
 Des	B-MISC
 Échinettes	I-MISC
 ne	O
@@ -8633,10 +8553,9 @@ unir	O
 »	O
 reprit	O
 Des	B-PER
-Échi	I-PER
--	O
-nettes	O
+Échinettes	I-PER
 .	O
+
 «	O
 Seulement	O
 ,	O
@@ -8717,12 +8636,12 @@ Messieurs	O
 	
 —	O
 A	O
+l	O
+'	O
+hôtel	O
+de	O
+«	O
 l	B-LOC
-'	I-LOC
-hôtel	I-LOC
-de	I-LOC
-«	I-LOC
-l	I-LOC
 '	I-LOC
 Esturgeon	I-LOC
 »	O
@@ -8771,15 +8690,15 @@ ses	O
 facultés	O
 :	O
 «	O
-L	B-LOC
-'	I-LOC
-hôtel	I-LOC
-de	I-LOC
-«	I-LOC
-l	I-LOC
+L	O
+'	O
+hôtel	O
+de	O
+«	O
+l	B-LOC
 '	I-LOC
 Esturgeon	I-LOC
-»	I-LOC
+»	O
 ne	O
 reçoit	O
 que	O
@@ -8793,9 +8712,9 @@ Lumière	I-LOC
 vous	O
 appelez	O
 le	O
-Tout	O
--	O
-Paris	B-LOC
+Tout	B-MISC
+-	I-MISC
+Paris	I-MISC
 .	O
 	
 La	B-PER
@@ -8808,10 +8727,10 @@ des	O
 plus	O
 nobles	O
 joyaux	O
-du	B-ORG
-Tout	I-ORG
--	I-ORG
-Ilderon	I-ORG
+du	O
+Tout	B-MISC
+-	I-MISC
+Ilderon	I-MISC
 ,	O
 de	O
 cette	O
@@ -8839,10 +8758,10 @@ d	O
 '	O
 hôte	O
 de	O
-«	B-PER
-l	B-PER
-'	I-PER
-Esturgeon	I-PER
+«	O
+l	B-LOC
+'	I-LOC
+Esturgeon	I-LOC
 »	O
 .	O
 	
@@ -8911,8 +8830,8 @@ temps	O
 de	O
 prévenir	O
 M.	B-PER
-et	I-PER
-Mme	I-PER
+et	O
+Mme	B-PER
 de	I-PER
 La	I-PER
 Moutardie	I-PER
@@ -8947,7 +8866,7 @@ puisqu	O
 '	O
 il	O
 est	O
-Parisien	B-LOC
+Parisien	O
 ,	O
 la	O
 verra	O
@@ -9132,8 +9051,8 @@ j	O
 ai	O
 sondé	O
 M.	B-PER
-et	I-PER
-Mme	I-PER
+et	O
+Mme	B-PER
 de	I-PER
 La	I-PER
 Moutardie	I-PER
@@ -9246,8 +9165,8 @@ suite	O
 que	O
 la	O
 fortune	O
-des	B-PER
-La	I-PER
+des	O
+La	B-PER
 Moutardie	I-PER
 ,	O
 autrefois	O
@@ -9367,17 +9286,17 @@ professionnel	O
 ,	O
 l	O
 '	O
-administration	O
-de	B-ORG
+administration	B-ORG
+de	I-ORG
 l	I-ORG
 '	I-ORG
 Enregistrement	I-ORG
-,	O
-des	O
-Domaines	O
-et	O
-du	O
-Timbre	O
+,	I-ORG
+des	I-ORG
+Domaines	I-ORG
+et	I-ORG
+du	I-ORG
+Timbre	I-ORG
 ,	O
 essuiera	O
 encore	O
@@ -9534,7 +9453,6 @@ robustes	O
 —	O
 Merci	O
 ...	O
-	
 merci	O
 ,	O
 mon	O
@@ -9602,11 +9520,11 @@ Des	I-PER
 	
 —	O
 «	O
-La	B-LOC
-ville	I-LOC
-d	I-LOC
-'	I-LOC
-Ilderon	I-LOC
+La	O
+ville	O
+d	O
+'	O
+Ilderon	B-LOC
 renferme	O
 -	O
 t	O
@@ -9619,6 +9537,7 @@ curiosités	O
 demanda	O
 Baillargal	B-PER
 .	O
+
 «	O
 Je	O
 suis	O
@@ -9684,10 +9603,10 @@ Baillargal	I-PER
 ,	O
 collaborateur	O
 de	O
-l	O
-'	O
-Echo	O
-Plaintif	B-LOC
+l	B-ORG
+'	I-ORG
+Echo	I-ORG
+Plaintif	I-ORG
 .	O
 	
 —	O
@@ -9700,6 +9619,7 @@ déclara	O
 le	O
 notaire	O
 .	O
+
 «	O
 Je	O
 m	O
@@ -9730,10 +9650,10 @@ je	O
 ne	O
 lis	O
 pas	O
-l	O
-'	O
-Echo	O
-Plaintif	O
+l	B-ORG
+'	I-ORG
+Echo	I-ORG
+Plaintif	I-ORG
 ;	O
 personne	O
 ne	O
@@ -9814,7 +9734,6 @@ pont	O
 	
 ah	O
 !	O
-	
 Messieurs	O
 ,	O
 je	O
@@ -9849,17 +9768,17 @@ sur	O
 les	O
 plans	O
 de	O
-Monsieur	O
-l	B-PER
+Monsieur	B-PER
+l	I-PER
 '	I-PER
-ingénieur	O
-ordinaire	O
-des	O
-Ponts	B-ORG
--	O
-et	B-ORG
--	I-ORG
-Chaussées	I-ORG
+ingénieur	I-PER
+ordinaire	I-PER
+des	I-PER
+Ponts	I-PER
+-	I-PER
+et	I-PER
+-	I-PER
+Chaussées	I-OER
 .	O
 	
 C	O
@@ -9918,6 +9837,7 @@ cher	O
 Maître	B-PER
 !	O
 ...	O
+
 Nous	O
 visiterons	O
 tout	O
@@ -9954,8 +9874,8 @@ salle	O
 à	O
 manger	O
 de	O
-«	B-LOC
-l	I-LOC
+«	O
+l	B-LOC
 '	I-LOC
 Esturgeon	I-LOC
 »	O
@@ -10004,9 +9924,9 @@ après	O
 le	O
 déjeuner	O
 ,	O
-la	B-PER
-famille	I-PER
-La	I-PER
+la	O
+famille	O
+La	B-PER
 Moutardie	I-PER
 se	O
 rendra	O
@@ -10118,7 +10038,6 @@ demeure	O
 .	O
 	
 XI	O
-	
 Comme	O
 il	O
 s	O
@@ -10171,6 +10090,7 @@ nettoyer	O
 ses	O
 yeux	O
 :	O
+
 «	O
 Comment	O
 allez	O
@@ -10209,7 +10129,9 @@ Blancadet	B-PER
 	
 N	O
 '	O
-avezvous	O
+avez    O
+-   O
+vous	O
 pas	O
 fait	O
 de	O
@@ -10257,6 +10179,7 @@ globes	O
 de	O
 verre	O
 .	O
+
 «	O
 Je	O
 les	O
@@ -10318,6 +10241,7 @@ des	O
 plus	O
 soignées	O
 .	O
+
 «	O
 Je	O
 tiens	O
@@ -10357,8 +10281,8 @@ sonner	O
 au	O
 beffroi	O
 de	O
-l	B-LOC
-'	I-LOC
+l	O
+'	O
 Hôtel	I-LOC
 de	I-LOC
 Ville	I-LOC
@@ -10418,9 +10342,9 @@ faire	O
 un	O
 tour	O
 sur	O
-l	B-LOC
-'	I-LOC
-Esplanade	I-LOC
+l	O
+'	O
+Esplanade	B-LOC
 que	O
 ,	O
 la	O
@@ -10510,6 +10434,7 @@ de	O
 drap	O
 sombre	O
 .	O
+
 «	O
 La	O
 voilà	O
@@ -10679,6 +10604,7 @@ demanda	O
 son	O
 compagnon	O
 :	O
+
 «	O
 Eh	O
 !	O
@@ -10708,9 +10634,9 @@ Il	O
 est	O
 probable	O
 que	O
-la	B-PER
-famille	I-PER
-La	I-PER
+la	O
+famille	O
+La	B-PER
 Moutardie	I-PER
 se	O
 rend	O
@@ -10725,14 +10651,15 @@ Et	O
 de	O
 là	O
 à	O
+l	O
+'	O
+hôtel	O
+de	O
 l	B-LOC
-'	I-LOC
-hôtel	I-LOC
-de	I-LOC
-l	I-LOC
 '	I-LOC
 Esturgeon	I-LOC
 !	O
+
 —	O
 Dites	O
 -	O
@@ -10985,9 +10912,9 @@ aimable	O
 propriétaire	O
 de	O
 «	O
-l	B-PER
-'	I-PER
-Esturgeon	I-PER
+l	B-LOC
+'	I-LOC
+Esturgeon	I-LOC
 ,	O
 »	O
 qui	O
@@ -11030,9 +10957,9 @@ l	O
 autre	O
 prendrait	O
 place	O
-la	B-PER
-famille	I-PER
-La	I-PER
+la	O
+famille	O
+La	B-PER
 Moutardie	I-PER
 ,	O
 et	O
@@ -11138,11 +11065,12 @@ l	O
 '	O
 objet	O
 .	O
+
 «	O
 Le	O
-Tout	O
--	O
-Ilderou	B-PER
+Tout	B-MISC
+-	I-MISC
+Ilderou	I-MISC
 se	O
 trouvait	O
 déjà	O
@@ -11152,7 +11080,7 @@ il	O
 y	O
 avait	O
 «	O
-l	B-PER
+l	O
 '	O
 amiral	B-PER
 »	I-PER
@@ -11220,8 +11148,8 @@ l	O
 '	O
 insigne	O
 de	O
-la	B-ORG
-Légion	I-ORG
+la	O
+Légion	B-ORG
 d	I-ORG
 '	I-ORG
 honneur	I-ORG
@@ -11234,8 +11162,8 @@ côtés	O
 avaient	O
 pris	O
 place	O
-le	B-PER
-docteur	I-PER
+le	O
+docteur	B-PER
 Garburôt	I-PER
 ,	O
 célèbre	O
@@ -11246,12 +11174,10 @@ de	O
 ses	O
 diagnostics	O
 ;	O
-l	B-PER
-'	I-PER
-avocat	I-PER
-Plati	I-PER
--	I-PER
-nois	I-PER
+l	O
+'	O
+avocat	B-PER
+Platinois	I-PER
 ,	O
 qui	O
 devait	O
@@ -11273,9 +11199,7 @@ sportsmen	O
 ;	O
 de	O
 vieux	O
-roquen	O
--	O
-tins	O
+roquentins	O
 faisant	O
 des	O
 grâces	O
@@ -11425,15 +11349,15 @@ faire	O
 les	O
 clients	O
 de	O
-l	B-LOC
-'	I-LOC
-hôtel	I-LOC
-de	I-LOC
-«	I-LOC
-L	I-LOC
+l	O
+'	O
+hôtel	O
+de	O
+«	O
+L	B-LOC
 '	I-LOC
 Esturgeon	I-LOC
-»	I-LOC
+»	O
 ,	O
 intrigués	O
 par	O
@@ -11717,6 +11641,7 @@ abord	O
 son	O
 client	O
 :	O
+
 «	O
 Vous	O
 avez	O
@@ -11788,6 +11713,7 @@ adressant	O
 au	O
 journaliste	O
 :	O
+
 «	O
 Oserai	O
 -	O
@@ -11808,7 +11734,6 @@ Cécilia	I-PER
 —	O
 Excellente	O
 !	O
-	
 Excellente	O
 !	O
 ...	O
@@ -11906,7 +11831,6 @@ nous	O
 en	O
 rapportons	O
 !	O
-	
 Nous	O
 nous	O
 en	O
@@ -11915,7 +11839,6 @@ rapportons	O
 »	O
 déclara	O
 solennellement	O
-	
 Blancadet	B-PER
 .	O
 	
@@ -12084,9 +12007,9 @@ sur	O
 les	O
 biens	O
 de	O
+la	O
+famille	O
 la	B-PER
-famille	I-PER
-la	I-PER
 Moutardie	I-PER
 ...	O
 	
@@ -12165,9 +12088,9 @@ et	O
 dans	O
 lequel	O
 attendait	O
-la	B-PER
-famille	I-PER
-La	I-PER
+la	O
+famille	O
+La	B-PER
 Moutardie	I-PER
 .	O
 	
@@ -12185,7 +12108,6 @@ rapidement	O
 les	O
 présentations	O
 ;	O
-	
 Mme	B-PER
 de	I-PER
 La	I-PER
@@ -12212,9 +12134,7 @@ Le	B-PER
 Comte	I-PER
 de	I-PER
 La	I-PER
-Mou	I-PER
--	O
-tardie	O
+Moutardie	I-PER
 ,	O
 d	O
 '	O
@@ -12384,6 +12304,8 @@ s	O
 Mme	B-PER
 de	I-PER
 La	I-PER
+Moutardie   I-PER
+
 «	O
 L	O
 '	O
@@ -12398,9 +12320,9 @@ la	O
 vôtre	O
 !	O
 ...	O
+
 Hélas	O
 !	O
-	
 jamais	O
 ses	O
 pauvres	O
@@ -12453,7 +12375,7 @@ Mademoiselle	O
 votre	O
 fille	O
 .	O
-»	O
+
 Dans	O
 les	O
 bras	O
@@ -12479,9 +12401,7 @@ Moutardie	I-PER
 	
 Maître	B-PER
 Des	I-PER
-Échi	I-PER
--	O
-nettes	O
+Échinettes	I-PER
 alla	O
 chercher	O
 Baillargal	B-PER
@@ -12497,9 +12417,9 @@ après	O
 avoir	O
 présenté	O
 à	O
-la	B-PER
-famille	I-PER
-La	I-PER
+la	O
+famille	O
+La	B-PER
 Moutardie	I-PER
 l	O
 '	O
@@ -12691,6 +12611,7 @@ la	O
 plus	O
 impeccable	O
 .	O
+
 «	O
 Excusez	O
 -	O
@@ -13072,6 +12993,7 @@ votre	O
 bonheur	O
 !	O
 ..	O
+
 Poussez	O
 -	O
 vous	O
@@ -13170,6 +13092,7 @@ direction	O
 du	O
 salon	O
 .	O
+
 «	O
 Il	O
 semble	O
@@ -13206,8 +13129,8 @@ de	O
 se	O
 présenter	O
 demain	O
-au	B-LOC
-château	I-LOC
+au	O
+château	B-LOC
 de	I-LOC
 La	I-LOC
 Moutardie	I-LOC
@@ -13292,11 +13215,10 @@ le	B-PER
 Comte	I-PER
 de	I-PER
 la	I-PER
-Mou	I-PER
--	O
-tardie	O
+Moutardie	I-PER
 reprit	O
 :	O
+
 «	O
 Vous	O
 vous	O
@@ -13307,6 +13229,7 @@ vos	O
 semblables	O
 !	O
 ...	O
+
 Je	O
 ne	O
 comprends	O
@@ -13378,6 +13301,7 @@ de	I-PER
 La	I-PER
 Moutardie	I-PER
 .	O
+
 «	O
 Votre	O
 religion	O
@@ -13437,6 +13361,7 @@ notre	O
 fils	O
 !	O
 ...	O
+
 —	O
 Oui	O
 ,	O
@@ -13610,8 +13535,8 @@ lutta	O
 contre	O
 la	O
 volonté	O
-du	B-PER
-Comte	I-PER
+du	O
+Comte	B-PER
 de	I-PER
 La	I-PER
 Moutardie	I-PER
@@ -13685,6 +13610,7 @@ son	O
 futur	O
 gendre	O
 :	O
+
 «	O
 J	O
 '	O
@@ -13711,7 +13637,6 @@ prie	O
 !	O
 »	O
 fit	O
-	
 Blancadet	B-PER
 .	O
 	
@@ -13756,7 +13681,7 @@ Cécilia	B-PER
 	
 Le	O
 sang	O
-des	B-PER
+des	O
 La	I-PER
 Moutardie	I-PER
 a	O
@@ -13766,7 +13691,7 @@ fois	O
 le	O
 sol	O
 de	O
-la	B-LOC
+la	O
 Terre	I-LOC
 Sainte	I-LOC
 et	O
@@ -13837,6 +13762,7 @@ dépôt	O
 sacré	O
 !	O
 ...	O
+
 Vous	O
 pouvez	O
 me	O
@@ -13873,8 +13799,8 @@ le	O
 néant	O
 le	O
 nom	O
-des	B-PER
-La	I-PER
+des	O
+La	B-PER
 Moutardie	I-PER
 !	O
 	
@@ -13896,6 +13822,7 @@ sera	O
 Comtesse	O
 !	O
 ...	O
+
 C	O
 '	O
 est	O
@@ -13935,6 +13862,7 @@ Maître	B-PER
 Des	I-PER
 Échinettes	I-PER
 .	O
+
 «	O
 Vous	O
 n	O
@@ -13950,9 +13878,9 @@ décret	O
 du	O
 chef	O
 de	O
-l	B-ORG
-'	I-ORG
-État	I-ORG
+l	O
+'	O
+État	B-ORG
 ;	O
 ce	O
 n	O
@@ -13975,8 +13903,8 @@ obtenir	O
 un	O
 jugement	O
 en	O
-Chambre	O
-du	B-ORG
+Chambre	B-ORG
+du	I-ORG
 Conseil	I-ORG
 du	O
 tribunal	O
@@ -14004,10 +13932,10 @@ les	O
 registres	O
 de	O
 l	O
-'	B-ORG
-État	I-ORG
--	O
-Civil	O
+'	O
+État	B-ORG
+-	I-ORG
+Civil	I-ORG
 ...	O
 	
 —	O
@@ -14022,9 +13950,7 @@ cela	O
 ?	O
 »	O
 demanda	O
-Blan	B-PER
--	O
-cadet	O
+Blancadet	B-PER
 .	O
 	
 —	O
@@ -14070,18 +13996,18 @@ domicilié	O
 à	O
 Paris	B-LOC
 ,	O
-140	O
-bis	O
-,	O
-rue	B-LOC
+140	B-LOC
+bis	I-LOC
+,	I-LOC
+rue	I-LOC
 du	I-LOC
 Sabre	I-LOC
--	O
-de	O
--	O
-l	O
-'	O
-Abbé	O
+-	I-LOC
+de	I-LOC
+-	I-LOC
+l	I-LOC
+'	I-LOC
+Abbé	I-LOC
 ,	O
 se	O
 propose	O
@@ -14091,7 +14017,7 @@ l	O
 '	O
 époux	O
 de	O
-Melle	B-PER
+Mlle	B-PER
 Cécilia	I-PER
 de	I-PER
 La	I-PER
@@ -14111,8 +14037,8 @@ La	I-PER
 Moutardie	I-PER
 ,	O
 domiciliés	O
-au	B-LOC
-château	I-LOC
+au	O
+château	B-LOC
 de	I-LOC
 La	I-LOC
 Moutardie	I-LOC
@@ -14163,12 +14089,12 @@ francs	O
 de	O
 rente	O
 sur	O
-l	B-ORG
-'	I-ORG
-État	I-ORG
+l	O
+'	O
+État	B-ORG
 et	O
-du	B-LOC
-domaine	I-LOC
+du	O
+domaine	B-LOC
 dit	I-LOC
 de	I-LOC
 La	I-LOC
@@ -14264,8 +14190,8 @@ Parfaitement	O
 »	O
 firent	O
 ensemble	O
-le	B-PER
-Comte	I-PER
+le	O
+Comte	B-PER
 de	I-PER
 La	I-PER
 Moutardie	I-PER
@@ -14334,8 +14260,8 @@ la	O
 circonstance	O
 .	O
 	
-Le	B-PER
-Comte	I-PER
+Le	O
+Comte	B-PER
 de	I-PER
 La	I-PER
 Moutardie	I-PER
@@ -14352,7 +14278,6 @@ Je	O
 vous	O
 remercie	O
 ,	O
-	
 Monsieur	O
 ,	O
 de	O
@@ -14445,8 +14370,8 @@ existence	O
 ,	O
 »	O
 fit	O
-le	B-PER
-Comte	I-PER
+le	O
+Comte	B-PER
 de	I-PER
 La	I-PER
 Moutardie	I-PER
@@ -14513,12 +14438,12 @@ situé	O
 en	O
 face	O
 de	O
+l	O
+'	O
+hôtel	O
+de	O
+«	O
 l	B-LOC
-'	I-LOC
-hôtel	I-LOC
-de	I-LOC
-«	I-LOC
-l	I-LOC
 '	I-LOC
 Esturgeon	I-LOC
 .	O
@@ -14529,10 +14454,6 @@ Il	O
 également	O
 prudent	O
 de	O
-TOME	O
-XXXI	O
-.	O
-	
 retenir	O
 au	O
 bureau	O
@@ -14572,8 +14493,8 @@ l	O
 '	O
 heure	O
 convenue	O
-au	B-LOC
-château	I-LOC
+au	O
+château	B-LOC
 de	I-LOC
 La	I-LOC
 Moutardie	I-LOC
@@ -14645,8 +14566,7 @@ paysans	O
 .	O
 	
 XII	O
-	
-Alcèe	B-PER
+Alcée	B-PER
 Baillargal	I-PER
 reconduisit	O
 Blancadet	B-PER
@@ -14830,12 +14750,12 @@ ma	O
 Juliette	B-PER
 !	O
 ...	O
+
 Depuis	O
 longtemps	O
 ,	O
 hélas	O
 !	O
-	
 la	O
 femme	O
 n	O
@@ -15047,14 +14967,13 @@ envoler	O
 affirma	O
 avec	O
 lyrisme	O
-	
 Alcée	B-PER
 Baillargal	I-PER
 qui	O
 conclut	O
 :	O
-«	O
-	
+
+«	O	
 D	O
 '	O
 ailleurs	O
@@ -15106,7 +15025,6 @@ l	O
 —	O
 Oh	O
 !	O
-	
 certainement	O
 !	O
 	
@@ -15230,15 +15148,12 @@ des	O
 nouvelles	O
 de	O
 Mme	B-PER
-Bail	I-PER
--	I-PER
-largal	O
+Baillargal	I-PER
 .	O
 	
 —	O
 Merci	O
 ...	O
-	
 non	O
 ,	O
 pas	O
@@ -15372,6 +15287,7 @@ usage	O
 ,	O
 répondit	O
 :	O
+
 «	O
 Je	O
 vous	O
@@ -15406,6 +15322,7 @@ adresse	O
 et	O
 ajouta	O
 :	O
+
 «	O
 Ma	O
 femme	O
@@ -15420,6 +15337,7 @@ Quelle	O
 joie	O
 !	O
 ...	O
+
 Elle	O
 est	O
 exquise	O
@@ -15452,6 +15370,7 @@ est	O
 exquise	O
 !	O
 ...	O
+
 Je	O
 comprends	O
 que	O
@@ -15486,9 +15405,7 @@ jeta	O
 à	O
 tout	O
 hasard	O
-Bail	B-PER
--	O
-largal	O
+Baillargal	B-PER
 dont	O
 la	O
 seule	O
@@ -15511,8 +15428,6 @@ part	O
 à	O
 Virginie	B-PER
 et	O
-.	O
-	
 éviter	O
 ainsi	O
 d	O
@@ -15545,6 +15460,7 @@ de	O
 bonheur	O
 !	O
 ...	O
+
 Comme	O
 ce	O
 doit	O
@@ -15553,6 +15469,7 @@ vite	O
 passé	O
 !	O
 ...	O
+
 Dans	O
 cinq	O
 ans	O
@@ -15565,6 +15482,7 @@ la	O
 quarantaine	O
 !	O
 ...	O
+
 La	O
 quarantaine	O
 !	O
@@ -15615,9 +15533,7 @@ de	O
 Mlle	B-PER
 de	I-PER
 La	I-PER
-Moutar	I-PER
--	O
-die	O
+Moutardie	I-PER
 ?	O
 »	O
 lança	O
@@ -15680,8 +15596,7 @@ Elle	O
 a	O
 des	O
 yeux	O
-admira	O
-bles	O
+admirables	O
 ,	O
 des	O
 yeux	O
@@ -15706,7 +15621,6 @@ C	O
 est	O
 vrai	O
 !	O
-	
 je	O
 n	O
 '	O
@@ -16043,11 +15957,11 @@ Vous	O
 pourriez	O
 interroger	O
 aussi	O
-le	B-PER
-Comte	I-PER
+le	O
+Comte	B-PER
 et	O
-la	B-PER
-Comtesse	I-PER
+la	O
+Comtesse	B-PER
 de	I-PER
 La	I-PER
 Moutardie	I-PER
@@ -16056,7 +15970,6 @@ Moutardie	I-PER
 —	O
 Évidemment	O
 !	O
-	
 Mais	O
 il	O
 me	O
@@ -16096,6 +16009,7 @@ plus	O
 absolu	O
 !	O
 ...	O
+
 Si	O
 vous	O
 saviez	O
@@ -16154,6 +16068,7 @@ un	O
 ingrat	O
 !	O
 ...	O
+
 Vous	O
 serez	O
 récompensé	O
@@ -16201,7 +16116,6 @@ jour	O
 avait	O
 baissé	O
 ;	O
-	
 Blancadet	B-PER
 alluma	O
 une	O
@@ -16256,6 +16170,7 @@ heure	O
 du	O
 dîner	O
 .	O
+
 «	O
 Votre	O
 bras	O
@@ -16281,7 +16196,7 @@ en	O
 souvenir	O
 d	O
 '	O
-Elle	B-PER
+Elle	O
 ,	O
 à	O
 s	O
@@ -16424,10 +16339,10 @@ confection	O
 du	O
 bouquet	O
 dont	O
-les	B-MISC
-«	I-MISC
-Parisiens	I-MISC
-»	I-MISC
+les	O
+«	O
+Parisiens	B-MISC
+»	O
 seraient	O
 contents	O
 .	O
@@ -16447,7 +16362,6 @@ l	O
 hôtel	O
 ,	O
 Mme	B-PER
-ve	I-PER
 Amélie	I-PER
 Brindolle	I-PER
 ,	O
@@ -16469,8 +16383,8 @@ nombreuses	O
 classes	O
 de	O
 piano	O
-du	B-ORG
-Conservatoire	I-ORG
+du	O
+Conservatoire	B-ORG
 de	I-ORG
 musique	I-ORG
 de	I-ORG
@@ -16570,7 +16484,6 @@ en	O
 pensait	O
 à	O
 Mme	B-PER
-Vve	I-PER
 Amélie	I-PER
 Brindolle	I-PER
 qui	O
@@ -16630,6 +16543,7 @@ qui	O
 émît	O
 sentencieusement	O
 :	O
+
 «	O
 Puisque	O
 les	O
@@ -16767,9 +16681,9 @@ la	O
 maison	O
 de	O
 «	O
-l	B-PER
-'	I-PER
-Esturgeon	I-PER
+l	B-LOC
+'	I-LOC
+Esturgeon	I-LOC
 »	O
 dont	O
 Maître	B-PER
@@ -16792,13 +16706,11 @@ oubliées	O
 La	O
 plus	O
 jeune	O
-des	B-PER
-Demoiselles	I-PER
+des	O
+Demoiselles	B-PER
 Brindolle	I-PER
 avoua	O
-ingé	O
--	O
-nuement	O
+ingénuement	O
 qu	O
 '	O
 elle	O
@@ -16866,9 +16778,7 @@ après	O
 Maître	B-PER
 Alcindor	I-PER
 Des	I-PER
-Échi	I-PER
--	O
-nettes	O
+Échinettes	I-PER
 ,	O
 bien	O
 entendu	O
@@ -16940,8 +16850,8 @@ naître	O
 et	O
 grandir	O
 ,	O
-la	B-PER
-famille	I-PER
+la	O
+famille	B-PER
 de	I-PER
 La	I-PER
 Moutardie	I-PER
@@ -16957,10 +16867,10 @@ asseoir	O
 la	O
 table	O
 de	O
-«	B-PER
-l	B-PER
-'	I-PER
-Esturgeon	I-PER
+«	O
+l	B-LOC
+'	I-LOC
+Esturgeon	I-LOC
 »	O
 tous	O
 les	O
@@ -17050,9 +16960,9 @@ s	O
 '	O
 engagèrent	O
 dans	O
-l	B-LOC
-'	I-LOC
-avenue	I-LOC
+l	O
+'	O
+avenue	B-LOC
 de	I-LOC
 la	I-LOC
 Gare	I-LOC
@@ -17073,9 +16983,6 @@ agonisantes	O
 	
 Arrivé	O
 devant	O
-L	B-LOC
-'	I-LOC
-EUPANTOPHONE	I-LOC
 la	O
 grille	O
 de	O
@@ -17170,7 +17077,7 @@ et	O
 son	O
 aveugle	O
 regagnèrent	O
-«	B-LOC
+«	O
 l	B-LOC
 '	I-LOC
 Esturgeon	I-LOC
@@ -17331,8 +17238,8 @@ des	O
 jeunes	O
 premiers	O
 de	O
-la	B-ORG
-Comédie	I-ORG
+la	O
+Comédie	B-ORG
 -	I-ORG
 Française	I-ORG
 ,	O
@@ -17678,8 +17585,8 @@ tout	O
 entière	O
 était	O
 à	O
-La	B-LOC
-Moutardie	I-LOC
+La	B-PER
+Moutardie	I-PER
 ;	O
 mais	O
 comme	O
@@ -17733,11 +17640,11 @@ tenue	O
 de	O
 cérémonie	O
 ,	O
-le	B-PER
-Comte	I-PER
+le	O
+Comte	B-PER
 et	O
-la	B-PER
-Comtesse	I-PER
+la	O
+Comtesse	B-PER
 de	I-PER
 La	I-PER
 Moutardie	I-PER
@@ -17844,7 +17751,7 @@ chevet	O
 un	O
 recueil	O
 de	O
-poëmes	O
+poèmes	O
 en	O
 prose	O
 ,	O
@@ -17906,8 +17813,8 @@ ces	O
 mots	O
 :	O
 «	O
-La	B-PER
-Neige	I-PER
+La	O
+Neige	O
 .	O
 »	O
 	
@@ -18002,6 +17909,7 @@ de	O
 blanc	O
 vêtue	O
 .	O
+
 «	O
 Au	O
 matin	O
@@ -18045,6 +17953,7 @@ la	O
 neige	O
 prochaine	O
 .	O
+
 «	O
 Questionnant	O
 le	O
@@ -18079,6 +17988,7 @@ par	O
 son	O
 rêve	O
 .	O
+
 «	O
 Un	O
 à	O
@@ -18360,6 +18270,7 @@ bénie	O
 !	O
 ...	O
 »	O
+
 «	O
 Elie	B-PER
 Gryll	I-PER
@@ -18511,6 +18422,7 @@ le	O
 lointain	O
 voilé	O
 !	O
+
 «	O
 C	O
 '	O
@@ -18546,6 +18458,7 @@ d	O
 '	O
 hiver	O
 .	O
+
 «	O
 Un	O
 clair	O
@@ -18576,6 +18489,7 @@ penchée	O
 vers	O
 lui	O
 :	O
+
 «	O
 Oh	O
 !	O
@@ -18704,7 +18618,6 @@ sur	O
 mes	O
 cheveux	O
 ...	O
-	
 frileusement	O
 ,	O
 de	O
@@ -18742,13 +18655,13 @@ genoux	O
 	
 Oh	O
 !	O
-	
 c	O
 '	O
 était	O
 délicieux	O
 !	O
 ...	O
+
 Dis	O
 ,	O
 mon	O
@@ -18763,7 +18676,7 @@ pour	O
 mes	O
 jeux	O
 !	O
-	
+
 l	O
 '	O
 hiver	O
@@ -18835,6 +18748,7 @@ nous	O
 attendent	O
 ?	O
 ...	O
+
 «	O
 Laissant	O
 à	O
@@ -18859,6 +18773,7 @@ il	O
 avait	O
 répété	O
 :	O
+
 «	O
 Oui	O
 ,	O
@@ -18887,6 +18802,7 @@ nous	O
 attendent	O
 ...	O
 »	O
+
 «	O
 Sous	O
 la	O
@@ -19149,6 +19065,7 @@ commençaient	O
 à	O
 tomber	O
 :	O
+
 «	O
 Au	O
 ciel	O
@@ -19436,9 +19353,7 @@ mortelle	O
 les	O
 belles	O
 fleurs	O
-absou	O
--	O
-tes	O
+absoutes	O
 ,	O
 tout	O
 -	O
@@ -19460,6 +19375,7 @@ l	O
 exil	O
 entrevu	O
 ...	O
+
 «	O
 Comme	O
 un	O
@@ -19505,6 +19421,7 @@ avait	O
 lentement	O
 imploré	O
 :	O
+
 «	O
 Oh	O
 !	O
@@ -19553,6 +19470,7 @@ la	O
 lumière	O
 !	O
 ...	O
+
 Oh	O
 !	O
 faites	O
@@ -19566,6 +19484,7 @@ laisser	O
 aimer	O
 !	O
 ...	O
+
 »	O
 «	O
 Sur	O
@@ -19626,6 +19545,7 @@ de	O
 son	O
 corps	O
 .	O
+
 «	O
 Lui	O
 ,	O
@@ -19667,6 +19587,7 @@ pour	O
 les	O
 baiser	O
 .	O
+
 «	O
 Tout	O
 à	O
@@ -19762,6 +19683,7 @@ comprit	O
 à	O
 demi	O
 :	O
+
 «	O
 Ame	O
 blanche	O
@@ -19800,6 +19722,7 @@ sut	O
 le	O
 sien	O
 .	O
+
 «	O
 Entre	O
 ses	O
@@ -19916,8 +19839,8 @@ ta	O
 lèvre	O
 ...	O
 »	O
-«	O
-	
+
+«	O	
 Et	O
 ,	O
 doucement	O
@@ -19944,6 +19867,7 @@ comme	O
 son	O
 âme	O
 .	O
+
 «	O
 Ses	O
 larmes	O
@@ -19971,6 +19895,7 @@ son	O
 glacial	O
 triomphe	O
 .	O
+
 «	O
 Haletant	O
 ,	O
@@ -20012,6 +19937,7 @@ d	O
 '	O
 airain	O
 :	O
+
 «	O
 Hideuse	O
 soeur	O
@@ -20082,8 +20008,8 @@ l	O
 communion	O
 !	O
 ...	O
-«	O
-	
+
+«	O	
 Et	O
 ,	O
 violemment	O
@@ -20261,6 +20187,7 @@ du	O
 funèbre	O
 labeur	O
 .	O
+
 «	O
 Ensuite	O
 ,	O
@@ -20413,6 +20340,7 @@ la	O
 pauvre	O
 exilée	O
 .	O
+
 «	O
 Bien	O
 des	O
@@ -20472,6 +20400,7 @@ du	O
 bonheur	O
 disparu	O
 .	O
+
 «	O
 Mais	O
 ,	O
@@ -20538,6 +20467,7 @@ les	O
 espaces	O
 étoilés	O
 .	O
+
 «	O
 C	O
 '	O
@@ -20619,6 +20549,7 @@ sonnait	O
 ,	O
 lugubrement	O
 .	O
+
 «	O
 Enfin	O
 ,	O
@@ -20679,6 +20610,7 @@ le	O
 front	O
 blancs	O
 :	O
+
 «	O
 Pardonne	O
 -	O
@@ -20730,6 +20662,7 @@ ton	O
 corps	O
 !	O
 ...	O
+
 Ouvre	O
 ,	O
 ouvre	O
@@ -20782,7 +20715,6 @@ effrayée	O
 	
 Oh	O
 !	O
-	
 daigne	O
 accepter	O
 son	O
@@ -20806,10 +20738,8 @@ Et	O
 cependant	O
 ,	O
 mon	O
-	
 Dieu	B-PER
 !	O
-	
 si	O
 mon	O
 amour	O
@@ -20880,6 +20810,7 @@ un	O
 blasphème	O
 !	O
 ...	O
+
 Fais	O
 -	O
 moi	O
@@ -20900,6 +20831,7 @@ suis	O
 angoissé	O
 !	O
 ...	O
+
 Dis	O
 -	O
 moi	O
@@ -20910,6 +20842,7 @@ secrète	O
 blessure	O
 !	O
 ...	O
+
 Dis	O
 -	O
 moi	O
@@ -21027,6 +20960,7 @@ d	O
 ange	O
 ...	O
 »	O
+
 «	O
 Ses	O
 doigts	O
@@ -21124,6 +21058,7 @@ le	O
 cadavre	O
 glacé	O
 :	O
+
 «	O
 Neige	O
 ,	O
@@ -21152,6 +21087,7 @@ fiancée	O
 !	O
 ..	O
 »	O
+
 «	O
 Dans	O
 les	O
@@ -21174,9 +21110,10 @@ une	O
 voix	O
 descendit	O
 vers	O
-la	B-LOC
-Terre	I-LOC
+la	O
+Terre	B-LOC
 :	O
+
 «	O
 Aucune	O
 perfidie	O
@@ -21188,6 +21125,7 @@ ma	O
 candeur	O
 !	O
 ...	O
+
 Je	O
 suis	O
 toujours	O
@@ -21305,6 +21243,7 @@ s	O
 '	O
 avança	O
 :	O
+
 «	O
 Mon	O
 cher	O
@@ -21482,7 +21421,6 @@ autre	O
 très	O
 heureux	O
 ;	O
-	
 Mlle	B-PER
 Cécilia	I-PER
 avait	O
@@ -21628,6 +21566,7 @@ offrir	O
 aux	O
 domestiques	O
 :	O
+
 «	O
 Je	O
 pars	O
@@ -21732,12 +21671,10 @@ amour	O
 »	O
 à	O
 Ilderon	B-LOC
--	O
-sur	O
--	O
-Noi	O
--	O
-zette	O
+-	I-LOC
+sur	I-LOC
+-	I-LOC
+Noizette	I-LOC
 »	O
 .	O
 	
@@ -21758,7 +21695,7 @@ aucunement	O
 blesser	O
 les	O
 traditions	O
-Ilderonoises	B-MISC
+Ilderonoises	O
 ,	O
 très	O
 rigides	O
