@@ -60,8 +60,8 @@ def align_predictions(
 
 if __name__ == "__main__":
     
-    gold_file = "src/test.tsv"
-    pred_file = "src/pred_by_mistral.tsv"
+    gold_file = "src/NER_training_files/test.tsv"
+    pred_file = "src/NER_training_files/pred_by_mistral.tsv"
     
     gold_tokens, gold_tags = read_bio_tsv(gold_file)
     pred_tokens, pred_tags = read_bio_tsv(pred_file)

@@ -245,8 +245,8 @@ def main():
 
     print(f"GPU available: {torch.cuda.is_available()}")
 
-    train_file = Path("src/train.tsv")
-    dev_file = Path("src/dev.tsv")
+    train_file = Path("src/NER_training_files/train.tsv")
+    dev_file = Path("src/NER_training_files/dev.tsv")
 
     train_sentences = read_tsv_file(train_file)
     dev_sentences = read_tsv_file(dev_file)
@@ -318,7 +318,7 @@ def main():
 
     evaluate_and_print_results(trainer, tokenized_dev, id2label)
 
-    output_dir = Path("src/SF_NER_final")
+    output_dir = Path("src/SF_NER_final_model")
     trainer.save_model(output_dir)
     tokenizer.save_pretrained(output_dir)
 

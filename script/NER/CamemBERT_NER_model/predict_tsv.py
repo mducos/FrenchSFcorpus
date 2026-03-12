@@ -46,14 +46,14 @@ def read_tsv_file(file_path: Path) -> List[Tuple[List[str], List[str]]]:
 
     return sentences
 
-model_checkpoint = AutoModelForTokenClassification.from_pretrained("src/SF_NER_final")
-tokenizer_checkpoint = AutoTokenizer.from_pretrained("src/SF_NER_final")
+model_checkpoint = AutoModelForTokenClassification.from_pretrained("src/SF_NER_final_model")
+tokenizer_checkpoint = AutoTokenizer.from_pretrained("src/SF_NER_final_model")
 
 label2id = model_checkpoint.config.label2id
 id2label = model_checkpoint.config.id2label
 
 # to reproduce the results on the test set
-test_sentences = read_tsv_file(Path("src/test.tsv"))
+test_sentences = read_tsv_file(Path("src/NER_training_files/test.tsv"))
 # to compare the results with a book
 #test_sentences = read_tsv_file(Path("data/NerSFcorpus/JehinPrume_LesAventuresExtraordinairesDeDeuxCanayens_1918/JehinPrume_LesAventuresExtraordinairesDeDeuxCanayens_1918.tsv"))
 test_dataset = prepare_dataset(test_sentences, label2id)

@@ -35,4 +35,4 @@ def evaluate(filepath: str):
 
 
 if __name__ == "__main__":
-    evaluate("src/pred_by_universalNER_few_shot.tsv")
+    evaluate("src/NER_training_files/pred_by_universalNER_few_shot.tsv")

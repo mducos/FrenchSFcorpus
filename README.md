@@ -46,21 +46,10 @@ FrenchSFcorpus/
 │   └── build_dataset.py
 │
 ├── src/
-│   ├── model_ner_final/
-│   │   ├── config.json
-│   │   ├── model.safetensors
-│   │   ├── tokenizer_config.json
-│   │   ├── tokenizer.json
-│   │   └── training_args.json
+│   ├── SF_NER_final_model/
+│   ├── NER_training_files/
 │   ├── title2novum.json
-│   ├── metadata.csv
-│   ├── train.tsv
-│   ├── dev.tsv
-│   ├── test.tsv
-│   ├── pred_by_mistral.jsonl
-│   ├── pred_by_mistral.tsv
-│   ├── pred_by_universalNER_zero_shot.tsv
-│   └── pred_by_universalNER_few_shot.tsv
+│   └── metadata.csv
 
 ```
 
@@ -189,21 +178,9 @@ py script/NER/annotate.py
 
 The `src/` folder contains:
 
-* `train.tsv`: train set of the model
+* `NER_training_files`: set of files to train the NER model (train, dev, set, results from Mistral and UniversalNER zero- and few-shot)
 
-* `dev.tsv`: dev set of the model
-
-* `test.tsv`: test set of the model
-
-* `pred_by_mistral.jsonl`: results from Mistral in the jsonl file
-
-* `pred_by_mistral.tsv`: results from Mistral in the tsv file (reproduction of the test file with pred labels)
-
-* `pred_by_universalNERT_zero_shot.tsv`: results from UniversalNER zero-shot in the tsv file (reproduction of the test file with pred labels)
-
-* `pred_by_universalNERT_zero_shot.tsv`: results from UniversalNER few-shot in the tsv file (reproduction of the test file with pred labels)
-
-* `SF_NER_final/`: trained model with the best hyperparameters
+* `SF_NER_final_model/`: trained model with the best hyperparameters
 
 * `title2novum.json`: dictionary linking story titles to the novum they contain
 

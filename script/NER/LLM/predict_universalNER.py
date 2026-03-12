@@ -11,8 +11,8 @@ import logging
 logging.getLogger("vllm").setLevel(logging.WARNING)
 
 MODEL_NAME  = "Universal-NER/UniNER-7B-all"
-INPUT_FILE  = "src/test.tsv"
-OUTPUT_FILE = "src/pred_by_universalNER_few_shot.tsv"
+INPUT_FILE  = "src/NER_training_files/test.tsv"
+OUTPUT_FILE = "src/NER_training_files/pred_by_universalNER_few_shot.tsv"
 
 ENTITY_TYPES = [
     "a person identified by a proper name, title, or pseudonym like: 'Sir Bucephalus', 'le docteur Flax', 'Samuel Sun', 'Burton', 'M. Héricourt'",

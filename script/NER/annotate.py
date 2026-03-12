@@ -83,8 +83,8 @@ def annotate_file_tsv(input_file: Path, output_file: Path, model, tokenizer, id2
             for token, label in preds:
                 f_out.write(f"{token}\t{label}\n")
 
-model_checkpoint = AutoModelForTokenClassification.from_pretrained("src/SF_NER_final")
-tokenizer_checkpoint = AutoTokenizer.from_pretrained("src/SF_NER_final")
+model_checkpoint = AutoModelForTokenClassification.from_pretrained("src/SF_NER_final_model")
+tokenizer_checkpoint = AutoTokenizer.from_pretrained("src/SF_NER_final_model")
 id2label = model_checkpoint.config.id2label
 
 device = "cuda" if torch.cuda.is_available() else "cpu"

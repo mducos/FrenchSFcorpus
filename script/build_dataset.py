@@ -85,7 +85,7 @@ train_oversampled = oversample_nov(train_subset, factor=10)
 print(f"Train before oversampling : {len(train_subset)} sentences")
 print(f"Train after oversampling  : {len(train_oversampled)} sentences")
 
-output_dir = Path("src")
+output_dir = Path("src/NER_training_files")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 write_tsv(train_oversampled, output_dir / "train.tsv")

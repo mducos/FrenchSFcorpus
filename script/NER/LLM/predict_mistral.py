@@ -335,10 +335,10 @@ def jsonl_to_bio(jsonl_path: str, bio_path: str):
                 f_out.write(f"{tok}\t{tag}\n")
             f_out.write("\n")
 
-sentences = read_conll_tsv("src/test.tsv")
+sentences = read_conll_tsv("src/NER_training_files/test.tsv")
 
 batch_size = 5
-with open("src/pred_by_mistral.jsonl", "a+", encoding="utf-8") as f:
+with open("src/NER_training_files/pred_by_mistral.jsonl", "a+", encoding="utf-8") as f:
     for i in range(0, len(sentences), batch_size): #len(sentences)
         batch = sentences[i:i+batch_size]
         batch_text = "\n\n".join(batch)
@@ -391,4 +391,4 @@ with open("src/pred_by_mistral.jsonl", "a+", encoding="utf-8") as f:
                 f.flush()
             print(f"Erreur -> {e}")
             
-jsonl_to_bio("src/pred_by_mistral.jsonl", "src/pred_by_mistral.tsv")
+jsonl_to_bio("src/NER_training_files/pred_by_mistral.jsonl", "src/NER_training_files/pred_by_mistral.tsv")
