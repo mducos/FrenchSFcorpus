@@ -1,6 +1,7 @@
 UNE	un	DET	O	O	O
 PRÉDICTION	prédiction	NOUN	O	O	O
 PHOTOGRAPHIQUE	photographique	ADJ	O	O	O
+
 Et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
 collodion	collodion	NOUN	O	O	O
@@ -9,22 +10,23 @@ toujours	toujours	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 I	i	NOUN	O	O	O
+
 En	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
--	-	NOUN	O	O	O
-là	là	NOUN	O	O	O
+-	-	PUNCT	O	O	O
+là	là	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	CCONJ	O	O	O
 vers	vers	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 an	an	NOUN	O	O	O
 2000	2000	NUM	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
-le	le	DET	O	O	O
-recensement	recensement	NOUN	O	O	O
+—	—	PRON	O	O	O
+le	le	PRON	O	O	O
+recensement	recensement	ADJ	O	O	O
 triennal	triennal	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
@@ -34,12 +36,12 @@ donne	donne	VERB	O	O	O
 un	un	DET	O	O	O
 chiffre	chiffre	NOUN	O	O	O
 de	de	ADP	O	O	O
-6,997,323	6,997,323	NUM	O	O	O
+6,997,323	6,997,323	NOUN	O	O	O
 habitants	habitant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 sur	sur	ADP	O	O	O
 lesquels	lequel	PRON	O	O	O
-3,975,000	3,975,000	PRON	O	O	O
+3,975,000	3,975,000	NUM	O	O	O
 exercent	exercer	VERB	O	O	O
 la	le	DET	O	O	O
 profession	profession	NOUN	O	O	O
@@ -52,9 +54,9 @@ L	l	DET	O	O	O
 autorité	autorité	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 justement	justement	ADV	O	O	O
-émue	émouvoir	VERB	O	O	O
+émue	ému	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-convoque	convoquer	VERB	O	O	O
+convoque	convoqu	ADJ	O	O	O
 d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 urgence	urgence	NOUN	O	O	O
@@ -65,16 +67,16 @@ statisticiens	statisticien	NOUN	O	O	O
 pour	pour	ADP	O	O	O
 aviser	aviser	VERB	O	O	O
 au	au	ADP	O	O	O
-double	double	ADJ	O	O	O
-danger	danger	NOUN	O	O	O
-signalé	signaler	VERB	O	O	O
+double	double	NOUN	O	O	O
+danger	danger	VERB	O	O	O
+signalé	signaler	ADV	O	O	O
 par	par	ADP	O	O	O
 ces	ce	DET	O	O	O
 chiffres	chiffre	NOUN	O	O	O
 imprévus	imprévu	ADJ	O	O	O
 —	—	PUNCT	O	O	O
-qu	que	PRON	O	O	O
-'	'	PRON	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	PUNCT	O	O	O
 on	on	PRON	O	O	O
 aurait	avoir	AUX	O	O	O
 dû	devoir	VERB	O	O	O
@@ -92,8 +94,8 @@ et	et	CCONJ	O	O	O
 demi	demi	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
 quatre	quatre	NUM	O	O	O
-cent	cent	NUM	O	O	O
-douze	douze	NUM	O	O	O
+cent	cent	DET	O	O	O
+douze	douze	NOUN	O	O	O
 discours	discours	NOUN	O	O	O
 sont	être	AUX	O	O	O
 prononcés	prononcer	VERB	O	O	O
@@ -102,14 +104,14 @@ ce	ce	PRON	O	O	O
 qui	qui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
-vu	voir	ADP	O	O	O
+vu	voir	VERB	O	O	O
 la	le	DET	O	O	O
 longueur	longueur	NOUN	O	O	O
 des	de	ADP	O	O	O
 harangues	harangue	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
-nécessite	nécessiter	VERB	O	O	O
+—	—	PRON	O	O	O
+nécessite	nécessiter	ADP	O	O	O
 plusieurs	plusieurs	DET	O	O	O
 séances	séance	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -120,7 +122,7 @@ Un	un	DET	O	O	O
 quatre	quatre	NUM	O	O	O
 cent	cent	NUM	O	O	O
 treizième	treizième	ADJ	O	O	O
-orateur	orateur	NOUN	O	O	O
+orateur	orateur	ADJ	O	O	O
 demande	demande	VERB	O	O	O
 la	le	DET	O	O	O
 parole	parole	NOUN	O	O	O
@@ -140,7 +142,7 @@ attend	attendre	VERB	O	O	O
 déclare	déclarer	VERB	O	O	O
 la	le	DET	O	O	O
 discussion	discussion	NOUN	O	O	O
-close	clore	VERB	O	O	O
+close	clos	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
@@ -153,7 +155,7 @@ rapport	rapport	NOUN	O	O	O
 est	être	AUX	O	O	O
 déposé	déposer	VERB	O	O	O
 par	par	ADP	O	O	O
-ledit	ledit	DET	O	O	O
+ledit	ledit	NOUN	O	O	O
 président	président	NOUN	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
@@ -182,16 +184,17 @@ deux	deux	NUM	O	O	O
 propositions	proposition	NOUN	O	O	O
 lumineuses	lumineux	ADJ	O	O	O
 :	:	PUNCT	O	O	O
-1º	1º	PUNCT	O	O	O
-«	«	PUNCT	O	O	O
+
+1º	1º	NUM	O	O	O
+«	«	VERB	O	O	O
 Si	si	SCONJ	O	O	O
 la	le	DET	O	O	O
 population	population	NOUN	O	O	O
 de	de	ADP	O	O	O
 Paris	paris	PROPN	O	O	O
 s	s	PRON	O	O	O
-'	'	PRON	O	O	O
-accroît	accroître	VERB	O	O	O
+'	'	ADP	O	O	O
+accroît	accroît	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 des	un	DET	O	O	O
 proportions	proportion	NOUN	O	O	O
@@ -209,21 +212,22 @@ France	france	PROPN	O	O	O
 la	le	DET	O	O	O
 faute	faute	NOUN	O	O	O
 en	en	PRON	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 à	à	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 extension	extension	NOUN	O	O	O
 abusive	abusif	ADJ	O	O	O
-qu	que	PRON	O	O	O
-'	'	PRON	O	O	O
-a	avoir	AUX	O	O	O
-prise	prendre	VERB	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	PUNCT	O	O	O
+a	avoir	VERB	O	O	O
+prise	prise	NOUN	O	O	O
 la	le	DET	O	O	O
 photographie	photographie	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
-2º	2º	NUM	O	O	O
-«	«	PUNCT	O	O	O
+
+2º	2º	ADJ	O	O	O
+«	«	NOUN	O	O	O
 Si	si	SCONJ	O	O	O
 la	le	DET	O	O	O
 photographie	photographie	NOUN	O	O	O
@@ -236,7 +240,7 @@ abusive	abusif	ADJ	O	O	O
 la	le	DET	O	O	O
 faute	faute	NOUN	O	O	O
 en	en	PRON	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 à	à	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -252,20 +256,20 @@ la	le	DET	O	O	O
 population	population	NOUN	O	O	O
 parisienne	parisien	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
+
 Puis	pouvoir	CCONJ	O	O	O
 les	le	DET	O	O	O
 choses	chose	NOUN	O	O	O
 reprennent	reprendre	VERB	O	O	O
 leur	son	DET	O	O	O
 cours	cours	NOUN	O	O	O
-accoutumé	accoutumer	VERB	O	O	O
+accoutumé	accoutumé	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 photographes	photographe	NOUN	O	O	O
-gagnent	gagner	VERB	O	O	O
+gagnent	gagner	ADV	O	O	O
 un	un	DET	O	O	O
 million	million	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -274,23 +278,24 @@ demi	demi	NOUN	O	O	O
 débiter	débiter	VERB	O	O	O
 les	le	DET	O	O	O
 portraits	portrait	NOUN	O	O	O
--	-	NOUN	O	O	O
+-	-	PUNCT	O	O	O
 cartes	carte	NOUN	O	O	O
 des	de	ADP	O	O	O
 membres	membre	NOUN	O	O	O
 du	de	ADP	O	O	O
-fameux	fameux	ADJ	O	O	O
-congrès	congrès	NOUN	O	O	O
+fameux	fameu	NOUN	O	O	O
+congrès	congrès	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 II	ii	NOUN	O	O	O
+
 En	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
--	-	NOUN	O	O	O
+-	-	PUNCT	O	O	O
 là	là	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	CCONJ	O	O	O
 vers	vers	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -314,9 +319,8 @@ nombre	nombre	NOUN	O	O	O
 des	de	ADP	O	O	O
 photographes	photographe	NOUN	O	O	O
 à	à	ADP	O	O	O
-8,650,911	8,650,911	PRON	O	O	O
+8,650,911	8,650,911	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-
 Un	un	DET	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 congrès	congrès	NOUN	O	O	O
@@ -353,7 +357,7 @@ et	et	CCONJ	O	O	O
 des	de	ADP	O	O	O
 provinces	province	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-«	«	PUNCT	O	O	O
+«	«	NOUN	O	O	O
 La	le	DET	O	O	O
 désastreuse	désastreux	ADJ	O	O	O
 immigration	immigration	NOUN	O	O	O
@@ -366,20 +370,21 @@ toutes	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 convoitises	convoitise	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	PRON	O	O	O
 est	être	AUX	O	O	O
--	-	PRON	O	O	O
+-	-	PUNCT	O	O	O
 il	il	PRON	O	O	O
 dit	dire	VERB	O	O	O
 dans	dans	ADP	O	O	O
 ces	ce	DET	O	O	O
 considérations	considération	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
-n	ne	ADV	O	O	O
-'	'	ADV	O	O	O
+
+—	—	PRON	O	O	O
+n	n	ADJ	O	O	O
+'	'	PRON	O	O	O
 a	avoir	VERB	O	O	O
-qu	qu	ADV	O	O	O
+qu	qu	SCONJ	O	O	O
 '	'	PUNCT	O	O	O
 une	un	DET	O	O	O
 cause	cause	NOUN	O	O	O
@@ -387,11 +392,10 @@ cause	cause	NOUN	O	O	O
 la	le	DET	O	O	O
 photographie	photographie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
-«	«	PUNCT	O	O	O
+«	«	ADJ	O	O	O
 Les	le	DET	O	O	O
-immenses	immense	ADJ	O	O	O
-fortunes	fortune	NOUN	O	O	O
+immenses	immense	NOUN	O	O	O
+fortunes	fortune	ADJ	O	O	O
 réalisées	réaliser	VERB	O	O	O
 par	par	ADP	O	O	O
 tous	tout	ADJ	O	O	O
@@ -399,24 +403,23 @@ ceux	celui	PRON	O	O	O
 qui	qui	PRON	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
-adonnent	adonner	VERB	O	O	O
+adonnent	adonnent	NOUN	O	O	O
 à	à	ADP	O	O	O
 cet	ce	DET	O	O	O
-art	art	NOUN	O	O	O
+art	art	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 tentent	tenter	VERB	O	O	O
-incessamment	incessamment	ADV	O	O	O
+incessamment	incessammer	VERB	O	O	O
 les	le	DET	O	O	O
 autres	autre	ADJ	O	O	O
 classes	classe	NOUN	O	O	O
 sociales	social	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-
-«	«	PUNCT	O	O	O
+«	«	NOUN	O	O	O
 Tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 travailleurs	travailleur	NOUN	O	O	O
-quittent	quitter	VERB	O	O	O
+quittent	quitter	PRON	O	O	O
 la	le	DET	O	O	O
 charrue	charrue	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -433,13 +436,12 @@ promet	promettre	VERB	O	O	O
 la	le	DET	O	O	O
 richesse	richesse	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
-«	«	PUNCT	O	O	O
+«	«	NOUN	O	O	O
 Puisse	pouvoir	VERB	O	O	O
 notre	notre	DET	O	O	O
-cri	cri	NOUN	O	O	O
+cri	cri	PRON	O	O	O
 de	de	ADP	O	O	O
-détresse	détresse	NOUN	O	O	O
+détresse	détresse	VERB	O	O	O
 être	être	AUX	O	O	O
 entendu	entendre	VERB	O	O	O
 et	et	CCONJ	O	O	O
@@ -451,8 +453,8 @@ des	de	ADP	O	O	O
 hommes	homme	NOUN	O	O	O
 compétents	compétent	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
+
 Le	le	DET	O	O	O
 cri	cri	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -464,7 +466,7 @@ en	en	ADP	O	O	O
 lisant	lire	VERB	O	O	O
 les	le	DET	O	O	O
 affiches	affiche	NOUN	O	O	O
-que	que	PRON	O	O	O
+que	que	SCONJ	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 autorité	autorité	NOUN	O	O	O
@@ -497,10 +499,11 @@ chacun	chacun	PRON	O	O	O
 se	se	PRON	O	O	O
 dit	dire	VERB	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Pour	pour	ADP	O	O	O
 qu	qu	SCONJ	O	O	O
-'	'	SCONJ	O	O	O
+'	'	DET	O	O	O
 un	un	DET	O	O	O
 congrès	congrès	NOUN	O	O	O
 constate	constater	VERB	O	O	O
@@ -528,23 +531,24 @@ me	me	PRON	O	O	O
 faisais	faire	VERB	O	O	O
 photographe	photographe	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 ...	...	PUNCT	O	O	O
+
 III	iii	NOUN	O	O	O
+
 En	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
--	-	NOUN	O	O	O
-là	là	NOUN	O	O	O
+-	-	PUNCT	O	O	O
+là	là	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	CCONJ	O	O	O
 vers	vers	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 an	an	NOUN	O	O	O
 2100	2100	NUM	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	VERB	O	O	O
 la	le	DET	O	O	O
 ville	ville	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -552,7 +556,7 @@ Paris	paris	PROPN	O	O	O
 offre	offrir	VERB	O	O	O
 le	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-étrange	étrange	ADJ	O	O	O
+étrange	étrange	NOUN	O	O	O
 des	de	ADP	O	O	O
 coups	coup	NOUN	O	O	O
 d	d	ADP	O	O	O
@@ -561,8 +565,8 @@ oeil	oeil	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Au	au	ADP	O	O	O
--	-	ADV	O	O	O
-dessus	dessus	ADV	O	O	O
+-	-	PUNCT	O	O	O
+dessus	dessus	NOUN	O	O	O
 de	de	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -572,16 +576,17 @@ chaque	chaque	DET	O	O	O
 maison	maison	NOUN	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
-étalent	étaler	VERB	O	O	O
+étalent	étalent	NOUN	O	O	O
 des	un	DET	O	O	O
 écriteaux	écriteau	NOUN	O	O	O
 ainsi	ainsi	ADV	O	O	O
-conçus	concevoir	VERB	O	O	O
+conçus	concevoir	ADJ	O	O	O
 :	:	PUNCT	O	O	O
+
 M.	m.	NOUN	O	O	O
-PALIBON	palibon	PROPN	O	O	O
+PALIBON	palibon	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-PHOTOGRAPHE	photographe	NOUN	O	O	O
+PHOTOGRAPHE	photographe	VERB	O	O	O
 AU	au	ADP	O	O	O
 PREMIER	premier	PROPN	O	O	O
 (	(	PUNCT	O	O	O
@@ -599,10 +604,11 @@ porte	porte	NOUN	O	O	O
 à	à	ADP	O	O	O
 gauche	gauche	NOUN	O	O	O
 )	)	PUNCT	O	O	O
+
 MADAME	monsieur	NOUN	O	O	O
 JEANNISSON	jeannisson	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-PHOTOGRAPHE	photographe	NOUN	O	O	O
+PHOTOGRAPHE	photographe	VERB	O	O	O
 AU	au	ADP	O	O	O
 PREMIER	premier	PROPN	O	O	O
 (	(	PUNCT	O	O	O
@@ -620,18 +626,19 @@ porte	porte	NOUN	O	O	O
 à	à	ADP	O	O	O
 droite	droite	NOUN	O	O	O
 )	)	PUNCT	O	O	O
+
 Mlle	mlle	NOUN	O	O	O
 HERMINIE	herminie	PROPN	O	O	O
 GRANDVOISIN	grandvoisin	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-PHOTOGRAPHE	photographe	NOUN	O	O	O
+PHOTOGRAPHE	photographe	VERB	O	O	O
 AU	au	ADP	O	O	O
-SECOND	second	ADJ	O	O	O
+SECOND	second	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 AU	au	ADP	O	O	O
 FOND	fond	NOUN	O	O	O
 DU	de	ADP	O	O	O
-CORRIDOR	corridor	PROPN	O	O	O
+CORRIDOR	corridor	NOUN	O	O	O
 (	(	PUNCT	O	O	O
 Ne	ne	ADV	O	O	O
 pas	pas	ADV	O	O	O
@@ -642,10 +649,12 @@ les	le	DET	O	O	O
 du	de	ADP	O	O	O
 premier	premier	ADJ	O	O	O
 )	)	PUNCT	O	O	O
+
 M.	m.	NOUN	O	O	O
 LEGUILLARD	leguillard	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-PHOTOGRAPHE	photographe	NOUN	O	O	O
+PHOTOGRAPHE	photographe	PROPN	O	O	O
+
 Ne	ne	ADV	O	O	O
 pas	pas	ADV	O	O	O
 confondre	confondre	VERB	O	O	O
@@ -660,9 +669,9 @@ second	second	ADJ	O	O	O
 
 M.	m.	NOUN	O	O	O
 LEGUILLARD	leguillard	PROPN	O	O	O
-est	être	VERB	O	O	O
+est	être	AUX	O	O	O
 au	au	ADP	O	O	O
-troisième	troisième	ADJ	O	O	O
+troisième	troisième	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -678,13 +687,14 @@ cordon	cordon	NOUN	O	O	O
 de	de	ADP	O	O	O
 sonnette	sonnette	NOUN	O	O	O
 )	)	PUNCT	O	O	O
+
 La	le	DET	O	O	O
 nomenclature	nomenclature	NOUN	O	O	O
 continue	continuer	VERB	O	O	O
-jusqu	jusqu	ADP	O	O	O
-'	'	ADP	O	O	O
+jusqu	jusqu	ADJ	O	O	O
+'	'	PUNCT	O	O	O
 au	au	ADP	O	O	O
-sixième	sixième	ADJ	O	O	O
+sixième	sixième	NOUN	O	O	O
 où	où	PRON	O	O	O
 est	être	AUX	O	O	O
 installée	installer	VERB	O	O	O
@@ -703,13 +713,15 @@ sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 toit	toit	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-LA	le	DET	O	O	O
+LA	la	PROPN	O	O	O
 PHOTOGRAPHIE	photographie	NOUN	O	O	O
 DU	de	ADP	O	O	O
 PEUPLE	peuple	NOUN	O	O	O
-DIX	dix	NUM	O	O	O
-CENTIMES	centime	NOUN	O	O	O
-—	—	PUNCT	O	O	O
+DIX	dix	PROPN	O	O	O
+
+CENTIMES	centimer	VERB	O	O	O
+
+—	—	DET	O	O	O
 SANS	sans	ADP	O	O	O
 RETOUCHES	retouche	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -729,11 +741,11 @@ la	le	DET	O	O	O
 Vue	vue	NOUN	O	O	O
 de	de	ADP	O	O	O
 Naples	naples	PROPN	O	O	O
-jusqu	jusqu	ADP	O	O	O
-'	'	ADP	O	O	O
+jusqu	jusqu	PROPN	O	O	O
+'	'	PUNCT	O	O	O
 aux	à	ADP	O	O	O
-principales	principal	ADJ	O	O	O
-scènes	scène	NOUN	O	O	O
+principales	principale	NOUN	O	O	O
+scènes	scène	ADJ	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 pièce	pièce	NOUN	O	O	O
@@ -749,9 +761,9 @@ maisons	maison	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 des	un	DET	O	O	O
 étages	étage	NOUN	O	O	O
-superposés	superposer	ADJ	O	O	O
+superposés	superposer	VERB	O	O	O
 de	de	ADP	O	O	O
-cadres	cadre	NOUN	O	O	O
+cadres	cadre	ADJ	O	O	O
 dont	dont	PRON	O	O	O
 les	le	DET	O	O	O
 proportions	proportion	NOUN	O	O	O
@@ -759,11 +771,11 @@ grandissent	grandir	VERB	O	O	O
 à	à	ADP	O	O	O
 mesure	mesure	NOUN	O	O	O
 qu	qu	SCONJ	O	O	O
-'	'	SCONJ	O	O	O
+'	'	ADP	O	O	O
 ils	il	PRON	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
-éloignent	éloigner	VERB	O	O	O
+éloignent	éloigner	ADV	O	O	O
 de	de	ADP	O	O	O
 terre	terre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -772,7 +784,7 @@ Dans	dans	ADP	O	O	O
 les	le	DET	O	O	O
 journaux	journal	NOUN	O	O	O
 six	six	NUM	O	O	O
-colonnes	colonne	NOUN	O	O	O
+colonnes	colonne	ADJ	O	O	O
 consacrées	consacrer	VERB	O	O	O
 aux	à	ADP	O	O	O
 découvertes	découverte	NOUN	O	O	O
@@ -791,7 +803,7 @@ photographique	photographique	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Offrant	offrir	VERB	O	O	O
+Offrant	offrant	ADJ	O	O	O
 aux	à	ADP	O	O	O
 regards	regard	NOUN	O	O	O
 du	de	ADP	O	O	O
@@ -833,7 +845,7 @@ anciens	ancien	ADJ	O	O	O
 feuilletonistes	feuilletoniste	NOUN	O	O	O
 les	le	DET	O	O	O
 scènes	scène	NOUN	O	O	O
-photographiées	photographier	VERB	O	O	O
+photographiées	photographiée	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 vie	vie	NOUN	O	O	O
@@ -849,7 +861,7 @@ photographique	photographique	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Remplaçant	remplacer	VERB	O	O	O
+Remplaçant	remplaçant	ADJ	O	O	O
 les	le	DET	O	O	O
 lettres	lettre	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -890,7 +902,7 @@ bras	bras	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 les	le	DET	O	O	O
 ci	ci	NOUN	O	O	O
--	-	NOUN	O	O	O
+-	-	PUNCT	O	O	O
 devant	devant	ADP	O	O	O
 voitures	voiture	NOUN	O	O	O
 des	de	ADP	O	O	O
@@ -899,7 +911,7 @@ des	de	ADP	O	O	O
 quatre	quatre	NUM	O	O	O
 saisons	saison	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	PRON	O	O	O
 colportant	colporter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 au	au	ADP	O	O	O
@@ -913,26 +925,27 @@ légumes	légume	NOUN	O	O	O
 des	un	DET	O	O	O
 objectifs	objectif	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-du	de	DET	O	O	O
+du	de	ADP	O	O	O
 collodion	collodion	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-du	de	DET	O	O	O
+du	de	ADP	O	O	O
 papier	papier	NOUN	O	O	O
 albuminé	albuminer	VERB	O	O	O
 ......	......	PUNCT	O	O	O
-A	à	ADP	O	O	O
+
+A	a	NOUN	O	O	O
 ce	ce	DET	O	O	O
 tableau	tableau	NOUN	O	O	O
 significatif	significatif	ADJ	O	O	O
 s	s	PRON	O	O	O
-'	'	PRON	O	O	O
-ajoutent	ajouter	VERB	O	O	O
-des	un	DET	O	O	O
+'	'	ADP	O	O	O
+ajoutent	ajoutent	NOUN	O	O	O
+des	de	ADP	O	O	O
 indices	indice	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-haute	haut	ADJ	O	O	O
+haute	haute	NOUN	O	O	O
 gravité	gravité	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -949,15 +962,16 @@ monde	monde	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 des	un	DET	O	O	O
 plaideurs	plaideur	NOUN	O	O	O
-n	ne	ADV	O	O	O
-'	'	ADV	O	O	O
+n	n	ADJ	O	O	O
+'	'	PUNCT	O	O	O
 ont	avoir	AUX	O	O	O
 pu	pouvoir	VERB	O	O	O
 trouver	trouver	VERB	O	O	O
-d	d	DET	O	O	O
-'	'	DET	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
 avocat	avocat	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 trois	trois	NUM	O	O	O
 malades	malade	NOUN	O	O	O
@@ -972,7 +986,8 @@ disputer	disputer	VERB	O	O	O
 leur	son	DET	O	O	O
 pratique	pratique	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+
+—	—	DET	O	O	O
 huit	huit	NUM	O	O	O
 places	place	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -985,6 +1000,7 @@ dans	dans	ADP	O	O	O
 un	un	DET	O	O	O
 ministère	ministère	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 enfin	enfin	ADV	O	O	O
 les	le	DET	O	O	O
@@ -993,8 +1009,8 @@ des	de	ADP	O	O	O
 directeurs	directeur	NOUN	O	O	O
 de	de	ADP	O	O	O
 théâtres	théâtre	NOUN	O	O	O
-n	ne	ADV	O	O	O
-'	'	PUNCT	O	O	O
+n	n	ADJ	O	O	O
+'	'	PRON	O	O	O
 ont	avoir	AUX	O	O	O
 reçu	recevoir	VERB	O	O	O
 dans	dans	ADP	O	O	O
@@ -1002,7 +1018,7 @@ le	le	DET	O	O	O
 mois	mois	NOUN	O	O	O
 de	de	ADP	O	O	O
 janvier	janvier	NOUN	O	O	O
-que	que	ADV	O	O	O
+que	que	SCONJ	O	O	O
 cent	cent	NUM	O	O	O
 onze	onze	NUM	O	O	O
 manuscrits	manuscrit	NOUN	O	O	O
@@ -1029,16 +1045,16 @@ habitants	habitant	NOUN	O	O	O
 
 Des	un	DET	O	O	O
 départements	département	NOUN	O	O	O
-entiers	entier	ADJ	O	O	O
+entiers	entier	NOUN	O	O	O
 ne	ne	ADV	O	O	O
 sont	être	AUX	O	O	O
 plus	plus	ADV	O	O	O
 habités	habiter	VERB	O	O	O
-que	que	ADV	O	O	O
+que	que	SCONJ	O	O	O
 par	par	ADP	O	O	O
 leurs	leur	DET	O	O	O
-gardes	garde	NOUN	O	O	O
-champêtres	champêtre	ADJ	O	O	O
+gardes	garde	ADJ	O	O	O
+champêtres	champêtre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 L	l	DET	O	O	O
@@ -1071,18 +1087,19 @@ source	source	NOUN	O	O	O
 de	de	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-épuisement	épuisement	NOUN	O	O	O
+épuisement	épuisement	ADJ	O	O	O
 général	général	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 IV	iv	NOUN	O	O	O
+
 En	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
--	-	NOUN	O	O	O
+-	-	PUNCT	O	O	O
 là	là	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	CCONJ	O	O	O
 vers	vers	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -1094,8 +1111,8 @@ la	le	DET	O	O	O
 France	france	PROPN	O	O	O
 entière	entier	ADJ	O	O	O
 a	avoir	AUX	O	O	O
-élu	élire	VERB	O	O	O
-domicile	domicile	NOUN	O	O	O
+élu	élu	NOUN	O	O	O
+domicile	domicil	ADJ	O	O	O
 à	à	ADP	O	O	O
 Paris	paris	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1106,10 +1123,11 @@ se	se	PRON	O	O	O
 trouvent	trouver	VERB	O	O	O
 reculées	reculer	VERB	O	O	O
 de	de	ADP	O	O	O
--	-	NOUN	O	O	O
+ 	 	SPACE	O	O	O
+-	-	PUNCT	O	O	O
 force	force	NOUN	O	O	O
-jusqu	jusqu	ADP	O	O	O
-'	'	ADP	O	O	O
+jusqu	jusqu	PROPN	O	O	O
+'	'	PUNCT	O	O	O
 à	à	ADP	O	O	O
 Rouen	rouen	PROPN	O	O	O
 d	d	ADP	O	O	O
@@ -1117,8 +1135,8 @@ d	d	ADP	O	O	O
 un	un	DET	O	O	O
 côté	côté	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-jusqu	jusqu	ADP	O	O	O
-'	'	ADP	O	O	O
+jusqu	jusqu	NOUN	O	O	O
+'	'	PUNCT	O	O	O
 à	à	ADP	O	O	O
 Orléans	orléans	PROPN	O	O	O
 de	de	ADP	O	O	O
@@ -1143,7 +1161,7 @@ popularité	popularité	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
-soulèvement	soulèvement	NOUN	O	O	O
+soulèvement	soulèvement	ADV	O	O	O
 général	général	ADJ	O	O	O
 des	de	ADP	O	O	O
 photographes	photographe	NOUN	O	O	O
@@ -1156,15 +1174,15 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 population	population	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	CCONJ	O	O	O
 étant	être	AUX	O	O	O
 imminent	imminent	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 ordonnance	ordonnance	NOUN	O	O	O
-n	ne	ADV	O	O	O
-'	'	ADV	O	O	O
+n	n	ADJ	O	O	O
+'	'	PUNCT	O	O	O
 a	avoir	AUX	O	O	O
 pas	pas	ADV	O	O	O
 tardé	tarder	VERB	O	O	O
@@ -1180,16 +1198,16 @@ lors	lors	ADV	O	O	O
 ne	ne	ADV	O	O	O
 connaît	connaître	VERB	O	O	O
 plus	plus	ADV	O	O	O
-de	de	DET	O	O	O
+de	de	ADP	O	O	O
 bornes	borne	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Un	un	DET	O	O	O
 matin	matin	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
-le	le	DET	O	O	O
-1ᵉʳ	1ᵉʳ	ADJ	O	O	O
+—	—	DET	O	O	O
+le	le	PRON	O	O	O
+1ᵉʳ	1ᵉʳ	NUM	O	O	O
 avril	avril	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
@@ -1227,13 +1245,13 @@ pour	pour	ADP	O	O	O
 alimenter	alimenter	VERB	O	O	O
 ces	ce	DET	O	O	O
 trente	trente	NUM	O	O	O
--	-	NUM	O	O	O
+-	-	PUNCT	O	O	O
 six	six	NUM	O	O	O
 millions	million	NOUN	O	O	O
 de	de	ADP	O	O	O
 photographes	photographe	NOUN	O	O	O
-qu	qu	SCONJ	O	O	O
-'	'	ADV	O	O	O
+qu	que	PRON	O	O	O
+'	'	ADP	O	O	O
 une	un	DET	O	O	O
 boucherie	boucherie	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -1242,8 +1260,8 @@ boulangerie	boulangerie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
-trente	trente	NUM	O	O	O
--	-	NUM	O	O	O
+trente	trente	PRON	O	O	O
+-	-	PUNCT	O	O	O
 six	six	NUM	O	O	O
 millions	million	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1264,8 +1282,8 @@ fermées	fermer	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
-trente	trente	NUM	O	O	O
--	-	NUM	O	O	O
+trente	trente	PRON	O	O	O
+-	-	PUNCT	O	O	O
 six	six	NUM	O	O	O
 millions	million	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1274,28 +1292,28 @@ sur	sur	ADP	O	O	O
 une	un	DET	O	O	O
 longueur	longueur	NOUN	O	O	O
 de	de	ADP	O	O	O
-cent	cent	DET	O	O	O
+cent	cent	NUM	O	O	O
 onze	onze	NUM	O	O	O
 kilomètres	kilomètre	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
 regardent	regarder	VERB	O	O	O
-surpris	surprendre	VERB	O	O	O
+surpris	surpris	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Des	un	DET	O	O	O
 murmures	murmure	NOUN	O	O	O
-éclatent	éclater	VERB	O	O	O
+éclatent	éclater	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 ils	il	PRON	O	O	O
 se	se	PRON	O	O	O
-changent	changer	VERB	O	O	O
+changent	changer	ADV	O	O	O
 en	en	ADP	O	O	O
 vociférations	vocifération	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
-rapprochés	rapprocher	ADJ	O	O	O
+rapprochés	rapproché	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 boucherie	boucherie	NOUN	O	O	O
@@ -1310,11 +1328,11 @@ clôtures	clôture	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 trouvent	trouver	VERB	O	O	O
 le	le	DET	O	O	O
-boucher	boucher	NOUN	O	O	O
+boucher	boucher	VERB	O	O	O
 et	et	CCONJ	O	O	O
 le	le	DET	O	O	O
 boulanger	boulanger	NOUN	O	O	O
-occupés	occuper	VERB	O	O	O
+occupés	occupé	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 avec	avec	ADP	O	O	O
 leur	son	DET	O	O	O
@@ -1334,7 +1352,8 @@ gigantesques	gigantesque	ADJ	O	O	O
 les	le	DET	O	O	O
 mots	mot	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-PHOTOGRAPHIE	photographie	NOUN	O	O	O
+
+PHOTOGRAPHIE	photographie	ADV	O	O	O
 DU	de	ADP	O	O	O
 XXIIᵉ	xxiiᵉ	ADJ	O	O	O
 SIÈCLE	siècle	NOUN	O	O	O
@@ -1353,16 +1372,17 @@ gémissements	gémissement	NOUN	O	O	O
 des	un	DET	O	O	O
 imprécations	imprécation	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 —	—	PUNCT	O	O	O
 Pourquoi	pourquoi	ADV	O	O	O
-n	ne	ADV	O	O	O
-'	'	ADV	O	O	O
-êtes	être	AUX	O	O	O
--	-	PRON	O	O	O
+n	n	ADJ	O	O	O
+'	'	PUNCT	O	O	O
+êtes	être	ADV	O	O	O
+-	-	PUNCT	O	O	O
 vous	vous	PRON	O	O	O
 pas	pas	ADV	O	O	O
 resté	rester	VERB	O	O	O
-bonnetier	bonnetier	NOUN	O	O	O
+bonnetier	bonnetier	VERB	O	O	O
 comme	comme	ADP	O	O	O
 votre	votre	DET	O	O	O
 père	père	NOUN	O	O	O
@@ -1374,7 +1394,7 @@ Pourquoi	pourquoi	ADV	O	O	O
 vous	vous	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 avez	avoir	AUX	O	O	O
--	-	PRON	O	O	O
+-	-	PUNCT	O	O	O
 vous	vous	PRON	O	O	O
 renoncé	renoncer	VERB	O	O	O
 aux	à	ADP	O	O	O
@@ -1383,8 +1403,8 @@ coloniales	colonial	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Aviez	avoir	VERB	O	O	O
--	-	PRON	O	O	O
+Aviez	aviez	PROPN	O	O	O
+-	-	PUNCT	O	O	O
 vous	vous	PRON	O	O	O
 besoin	besoin	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -1419,12 +1439,13 @@ herboristerie	herboristerie	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 PARIS	paris	PROPN	O	O	O
-S	s	PRON	O	O	O
-'	'	PRON	O	O	O
-AMUSE	amuser	VERB	O	O	O
+S	s	PROPN	O	O	O
+'	'	PUNCT	O	O	O
+AMUSE	amuse	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 241	241	NUM	O	O	O
+
 Il	il	PRON	O	O	O
 est	être	AUX	O	O	O
 trop	trop	ADV	O	O	O
@@ -1434,7 +1455,7 @@ tard	tard	ADV	O	O	O
 Pendant	pendant	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
--	-	NOUN	O	O	O
+-	-	PUNCT	O	O	O
 là	là	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
@@ -1442,7 +1463,7 @@ famine	famine	NOUN	O	O	O
 marche	marche	VERB	O	O	O
 à	à	ADP	O	O	O
 grands	grand	ADJ	O	O	O
-pas	pas	NOUN	O	O	O
+pas	pas	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -1452,6 +1473,7 @@ tard	tard	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
 V	v	NOUN	O	O	O
+
 Le	le	DET	O	O	O
 matin	matin	NOUN	O	O	O
 du	de	ADP	O	O	O
@@ -1484,12 +1506,12 @@ femmes	femme	NOUN	O	O	O
 enfants	enfant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 tous	tout	ADJ	O	O	O
-morts	mourir	VERB	O	O	O
+morts	mort	NOUN	O	O	O
 de	de	ADP	O	O	O
 faim	faim	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-Soudain	soudain	ADV	O	O	O
+Soudain	soudain	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 sur	sur	ADP	O	O	O
 les	le	DET	O	O	O
@@ -1502,7 +1524,7 @@ paraissent	paraître	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Chacun	chacun	PRON	O	O	O
+Chacun	chacun	PROPN	O	O	O
 tient	tenir	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
@@ -1512,7 +1534,7 @@ objectif	objectif	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Magnifique	magnifique	ADJ	O	O	O
+Magnifique	magnifique	NOUN	O	O	O
 sujet	sujet	NOUN	O	O	O
 de	de	ADP	O	O	O
 photographie	photographie	NOUN	O	O	O
@@ -1521,11 +1543,11 @@ vendre	vendre	VERB	O	O	O
 à	à	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-étranger	étranger	NOUN	O	O	O
+étranger	étranger	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
 murmurent	murmurer	VERB	O	O	O
--	-	PRON	O	O	O
+-	-	PUNCT	O	O	O
 ils	il	PRON	O	O	O
 d	d	ADP	O	O	O
 '	'	ADP	O	O	O
@@ -1538,7 +1560,7 @@ Mais	mais	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 tandis	tandis	ADV	O	O	O
 qu	qu	SCONJ	O	O	O
-'	'	SCONJ	O	O	O
+'	'	PUNCT	O	O	O
 ils	il	PRON	O	O	O
 apprêtent	apprêter	VERB	O	O	O
 leurs	leur	DET	O	O	O
@@ -1547,7 +1569,7 @@ instruments	instrument	NOUN	O	O	O
 ils	il	PRON	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
-aperçoivent	apercevoir	VERB	O	O	O
+aperçoivent	aperçoivent	NOUN	O	O	O
 de	de	ADP	O	O	O
 leur	son	DET	O	O	O
 présence	présence	NOUN	O	O	O
@@ -1569,18 +1591,18 @@ concurrents	concurrent	NOUN	O	O	O
 ils	il	PRON	O	O	O
 font	faire	VERB	O	O	O
 un	un	DET	O	O	O
-pas	pas	NOUN	O	O	O
+pas	pas	ADV	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 un	un	PRON	O	O	O
 vers	vers	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-autre	autre	PRON	O	O	O
+autre	autre	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 puis	pouvoir	CCONJ	O	O	O
 ...	...	PUNCT	O	O	O
-tombent	tomber	VERB	O	O	O
+tombent	tombent	NOUN	O	O	O
 épuisés	épuiser	VERB	O	O	O
 par	par	ADP	O	O	O
 ce	ce	DET	O	O	O
@@ -1597,17 +1619,11 @@ deux	deux	NUM	O	O	O
 derniers	dernier	ADJ	O	O	O
 Français	français	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 .	.	PUNCT	O	O	O
-
 .	.	PUNCT	O	O	O
-
-.	.	PROPN	O	O	O
-
-.	.	NOUN	O	O	O
-
-.	.	NOUN	O	O	O
-
+.	.	PUNCT	O	O	O
+.	.	PUNCT	O	O	O
+.	.	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
 
 Ainsi	ainsi	ADV	O	O	O
@@ -1630,10 +1646,10 @@ photographes	photographe	NOUN	O	O	O
 
 Cette	ce	DET	O	O	O
 lecture	lecture	NOUN	O	O	O
-achevée	achever	VERB	O	O	O
+achevée	achevé	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-j	j	PRON	O	O	O
-'	'	PUNCT	O	O	O
+j	j	NOUN	O	O	O
+'	'	PRON	O	O	O
 ai	avoir	AUX	O	O	O
 fourré	fourrer	VERB	O	O	O
 la	le	DET	O	O	O
@@ -1641,7 +1657,7 @@ prédiction	prédiction	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 un	un	DET	O	O	O
 tiroir	tiroir	NOUN	O	O	O
-—	—	PUNCT	O	O	O
+—	—	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 suis	être	AUX	O	O	O
 allé	aller	VERB	O	O	O
@@ -1651,7 +1667,8 @@ deux	deux	NUM	O	O	O
 douzaines	douzaine	NOUN	O	O	O
 de	de	ADP	O	O	O
 portraits	portrait	NOUN	O	O	O
--	-	NOUN	O	O	O
+-	-	PUNCT	O	O	O
 cartes	carte	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 

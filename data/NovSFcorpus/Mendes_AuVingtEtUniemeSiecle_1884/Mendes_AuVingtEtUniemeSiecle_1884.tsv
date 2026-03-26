@@ -1,4 +1,4 @@
-C	c	PRON	O	O	O
+C	c	NOUN	O	O	O
 '	'	PRON	O	O	O
 est	être	AUX	O	O	O
 l	l	DET	O	O	O
@@ -12,7 +12,7 @@ lac	lac	NOUN	O	O	O
 
 Les	le	DET	O	O	O
 deux	deux	NUM	O	O	O
-adorables	adorable	ADJ	O	O	O
+adorables	adorable	NOUN	O	O	O
 épouses	épouse	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 étendues	étendre	VERB	O	O	O
@@ -25,7 +25,7 @@ voiture	voiture	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
-emmitouflent	emmitoufler	VERB	O	O	O
+emmitouflent	emmitoufler	ADV	O	O	O
 dans	dans	ADP	O	O	O
 les	le	DET	O	O	O
 fourrures	fourrure	NOUN	O	O	O
@@ -42,14 +42,14 @@ or	or	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
-cheveux	cheveu	NOUN	O	O	O
+cheveux	cheveux	ADJ	O	O	O
 de	de	ADP	O	O	O
 Jane	jane	PROPN	O	O	O
 sont	être	AUX	O	O	O
 d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 ébène	ébène	NOUN	O	O	O
-bleu	bleu	ADJ	O	O	O
+bleu	bleu	VERB	O	O	O
 comme	comme	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -65,7 +65,7 @@ du	de	ADP	O	O	O
 soleil	soleil	NOUN	O	O	O
 d	d	ADP	O	O	O
 '	'	ADP	O	O	O
-hiver	hiver	NOUN	O	O	O
+hiver	hiver	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -74,17 +74,17 @@ a	avoir	VERB	O	O	O
 bien	bien	ADV	O	O	O
 des	un	DET	O	O	O
 jour3	jour3	PRON	O	O	O
-qu	qu	SCONJ	O	O	O
-'	'	SCONJ	O	O	O
+qu	que	PRON	O	O	O
+'	'	PUNCT	O	O	O
 on	on	PRON	O	O	O
 ne	ne	ADV	O	O	O
 les	le	PRON	O	O	O
 a	avoir	AUX	O	O	O
-vues	voir	VERB	O	O	O
+vues	voir	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 trois	trois	NUM	O	O	O
 mois	mois	NOUN	O	O	O
-entiers	entier	ADJ	O	O	O
+entiers	entier	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Après	après	ADP	O	O	O
@@ -98,16 +98,16 @@ noces	noce	NOUN	O	O	O
 où	où	PRON	O	O	O
 fut	être	AUX	O	O	O
 convié	convier	VERB	O	O	O
-tout	tout	ADJ	O	O	O
+tout	tout	ADV	O	O	O
 le	le	DET	O	O	O
 Paris	paris	PROPN	O	O	O
-illustre	illustre	ADJ	O	O	O
+illustre	illustre	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 mondain	mondain	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	NOUN	O	O	O
 leur	son	DET	O	O	O
-union	union	NOUN	O	O	O
+union	union	PROPN	O	O	O
 était	être	AUX	O	O	O
 ,	,	PUNCT	O	O	O
 non	non	ADV	O	O	O
@@ -115,12 +115,12 @@ seulement	seulement	ADV	O	O	O
 celle	celui	PRON	O	O	O
 de	de	ADP	O	O	O
 deux	deux	NUM	O	O	O
-exquises	exquis	ADJ	O	O	O
-créatures	créature	NOUN	O	O	O
+exquises	exquise	NOUN	O	O	O
+créatures	créature	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
-c	c	PRON	O	O	O
-'	'	PRON	O	O	O
+c	c	NOUN	O	O	O
+'	'	PUNCT	O	O	O
 était	être	AUX	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -129,7 +129,7 @@ aussi	aussi	ADV	O	O	O
 de	de	ADP	O	O	O
 deux	deux	NUM	O	O	O
 familles	famille	NOUN	O	O	O
-princières	princier	ADJ	O	O	O
+princières	princière	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 —	—	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
@@ -146,7 +146,7 @@ Bretagne	bretagne	PROPN	O	O	O
 près	près	ADV	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-mer	mer	NOUN	O	O	O
+mer	mer	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 premières	premier	ADJ	O	O	O
@@ -156,18 +156,20 @@ leur	son	DET	O	O	O
 bonheur	bonheur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Longue	long	ADJ	O	O	O
+Longue	longue	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 trop	trop	ADV	O	O	O
 courte	court	ADJ	O	O	O
 lune	lune	NOUN	O	O	O
 de	de	ADP	O	O	O
-miel	miel	NOUN	O	O	O
+miel	miel	ADJ	O	O	O
+
 1	1	NUM	O	O	O
+
 Maintenant	maintenant	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
-sont	être	VERB	O	O	O
+sont	être	AUX	O	O	O
 de	de	ADP	O	O	O
 retour	retour	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -181,13 +183,13 @@ la	le	DET	O	O	O
 foule	foule	NOUN	O	O	O
 élégante	élégant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
-heureuse	heureux	ADJ	O	O	O
+heureuse	heureux	NOUN	O	O	O
 de	de	ADP	O	O	O
 les	le	PRON	O	O	O
-revoir	revoir	VERB	O	O	O
+revoir	revoir	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-les	le	PRON	O	O	O
-considère	considérer	VERB	O	O	O
+les	le	DET	O	O	O
+considère	considère	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 les	le	PRON	O	O	O
 salue	saluer	VERB	O	O	O
@@ -197,7 +199,7 @@ tendre	tendre	ADJ	O	O	O
 respect	respect	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-Car	car	CCONJ	O	O	O
+Car	car	PRON	O	O	O
 leur	son	DET	O	O	O
 amour	amour	NOUN	O	O	O
 a	avoir	VERB	O	O	O
@@ -212,7 +214,7 @@ attendrissante	attendrissant	ADJ	O	O	O
 On	on	PRON	O	O	O
 sait	savoir	VERB	O	O	O
 qu	qu	SCONJ	O	O	O
-'	'	SCONJ	O	O	O
+'	'	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
 se	se	PRON	O	O	O
 sont	être	AUX	O	O	O
@@ -224,17 +226,17 @@ de	de	ADP	O	O	O
 pouvoir	pouvoir	VERB	O	O	O
 avouer	avouer	VERB	O	O	O
 qu	qu	SCONJ	O	O	O
-'	'	SCONJ	O	O	O
+'	'	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
-aimaient	aimer	VERB	O	O	O
+aimaient	aimaient	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
 que	que	SCONJ	O	O	O
 leurs	leur	DET	O	O	O
 parents	parent	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	VERB	O	O	O
 par	par	ADP	O	O	O
 des	un	DET	O	O	O
 raisons	raison	NOUN	O	O	O
@@ -242,7 +244,7 @@ d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 intérêt	intérêt	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-—	—	PUNCT	O	O	O
+—	—	PRON	O	O	O
 ne	ne	ADV	O	O	O
 voulaient	vouloir	VERB	O	O	O
 pas	pas	ADV	O	O	O
@@ -251,8 +253,8 @@ au	au	ADP	O	O	O
 mariage	mariage	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-S	s	PRON	O	O	O
-'	'	PRON	O	O	O
+S	s	NOUN	O	O	O
+'	'	PUNCT	O	O	O
 adorant	adorer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
@@ -263,17 +265,17 @@ révolter	révolter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
-enfuir	enfuir	VERB	O	O	O
+enfuir	enfuir	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
-c	c	PRON	O	O	O
-'	'	PRON	O	O	O
-étaient	être	AUX	O	O	O
-d	d	DET	O	O	O
+c	c	NOUN	O	O	O
 '	'	PUNCT	O	O	O
-honnêtes	honnête	ADJ	O	O	O
-fiancées	fiancé	NOUN	O	O	O
+étaient	être	AUX	O	O	O
+d	d	ADP	O	O	O
+'	'	ADP	O	O	O
+honnêtes	honnête	NOUN	O	O	O
+fiancées	fiancé	ADJ	O	O	O
 qui	qui	PRON	O	O	O
 voulaient	vouloir	VERB	O	O	O
 se	se	PRON	O	O	O
@@ -301,7 +303,7 @@ fraies	fraie	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
-c	c	PRON	O	O	O
+c	c	NOUN	O	O	O
 '	'	PRON	O	O	O
 est	être	AUX	O	O	O
 à	à	ADP	O	O	O
@@ -311,10 +313,10 @@ résignation	résignation	NOUN	O	O	O
 douloureuse	douloureux	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
-muettes	muet	ADJ	O	O	O
-prières	prière	NOUN	O	O	O
-qu	que	PRON	O	O	O
-'	'	PRON	O	O	O
+muettes	muette	NOUN	O	O	O
+prières	prièrer	VERB	O	O	O
+qu	qu	DET	O	O	O
+'	'	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
 obtinrent	obtenir	VERB	O	O	O
 enfin	enfin	ADV	O	O	O
@@ -323,49 +325,50 @@ d	d	ADP	O	O	O
 être	être	AUX	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-une	un	PRON	O	O	O
+une	un	DET	O	O	O
 à	à	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-autre	autre	PRON	O	O	O
+autre	autre	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
 Atause	atause	PROPN	O	O	O
+
 Je	je	PRON	O	O	O
 cette	ce	DET	O	O	O
 légende	légende	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 on	on	PRON	O	O	O
 les	le	PRON	O	O	O
-aime	aimer	VERB	O	O	O
+aime	aime	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 on	on	PRON	O	O	O
-les	le	PRON	O	O	O
-honore	honorer	VERB	O	O	O
+les	le	DET	O	O	O
+honore	honore	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-lous	lou	NOUN	O	O	O
+lous	lous	PRON	O	O	O
 se	se	PRON	O	O	O
 découvrent	découvrir	VERB	O	O	O
-lorsqu	lorsqu	SCONJ	O	O	O
-'	'	SCONJ	O	O	O
+lorsqu	lorsqu	VERB	O	O	O
+'	'	PUNCT	O	O	O
 elles	lui	PRON	O	O	O
 passent	passer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 chuchotements	chuchotement	NOUN	O	O	O
 sympathiques	sympathique	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 de	de	ADP	O	O	O
-toutes	tout	DET	O	O	O
+toutes	tout	ADJ	O	O	O
 parts	part	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-le	le	PRON	O	O	O
-environnent	environner	VERB	O	O	O
+le	le	DET	O	O	O
+environnent	environnent	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
-a	avoir	VERB	O	O	O
+a	avoir	AUX	O	O	O
 tort	tort	NOUN	O	O	O
 de	de	ADP	O	O	O
 dire	dire	VERB	O	O	O
@@ -373,10 +376,10 @@ que	que	SCONJ	O	O	O
 Paris	paris	PROPN	O	O	O
 est	être	AUX	O	O	O
 égoïste	égoïste	ADJ	O	O	O
-e.	e.	NOUN	O	O	O
-frivole	frivole	ADJ	O	O	O
+e.	e.	PROPN	O	O	O
+frivole	frivole	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-cju	cju	PROPN	O	O	O
+cju	cju	PRON	O	O	O
 '	'	PUNCT	O	O	O
 il	il	PRON	O	O	O
 s	s	PRON	O	O	O
@@ -385,8 +388,8 @@ intéresse	intéresser	VERB	O	O	O
 seulement	seulement	ADV	O	O	O
 aux	à	ADP	O	O	O
 aventures	aventure	NOUN	O	O	O
-scanda	scander	VERB	O	O	O
-leuses	leuses	PROPN	O	O	O
+scanda	scanda	ADJ	O	O	O
+leuses	leuse	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
 il	il	PRON	O	O	O
 sait	savoir	VERB	O	O	O
@@ -395,17 +398,17 @@ justice	justice	NOUN	O	O	O
 à	à	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-honnêteté	honnêteté	NOUN	O	O	O
+honnêteté	honnêteter	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 aux	à	ADP	O	O	O
-sincères	sincère	ADJ	O	O	O
+sincères	sincère	NOUN	O	O	O
 amours	amour	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 se	se	PRON	O	O	O
 réjouir	réjouir	VERB	O	O	O
 des	de	ADP	O	O	O
 vertus	vertu	NOUN	O	O	O
-récompensées	récompenser	VERB	O	O	O
+récompensées	récompenser	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Elles	lui	PRON	O	O	O
@@ -419,10 +422,10 @@ lente	lent	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
-enivrent	enivrer	VERB	O	O	O
+enivrent	enivrent	NOUN	O	O	O
 de	de	ADP	O	O	O
 ce	ce	DET	O	O	O
-doux	doux	ADJ	O	O	O
+doux	dou	NOUN	O	O	O
 triomphe	triomphe	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 ayant	avoir	VERB	O	O	O
@@ -431,9 +434,9 @@ conscience	conscience	NOUN	O	O	O
 de	de	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-avoir	avoir	AUX	O	O	O
-hien	hien	PROPN	O	O	O
-mérite	mérite	VERB	O	O	O
+avoir	avoir	VERB	O	O	O
+hien	hien	ADJ	O	O	O
+mérite	mérite	NOUN	O	O	O
 '	'	PUNCT	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
@@ -451,7 +454,7 @@ Jane	jane	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 tout	tout	ADV	O	O	O
 à	à	ADP	O	O	O
-coup	coup	NOUN	O	O	O
+coup	coup	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 a	avoir	AUX	O	O	O
 froncé	froncer	VERB	O	O	O
@@ -466,11 +469,11 @@ ma	mon	DET	O	O	O
 chérie	chéri	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 dit	dire	VERB	O	O	O
--	-	PRON	O	O	O
+-	-	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 pourquoi	pourquoi	ADV	O	O	O
-astu	astu	AUX	O	O	O
+astu	astu	VERB	O	O	O
 fait	faire	VERB	O	O	O
 un	un	DET	O	O	O
 signe	signe	NOUN	O	O	O
@@ -483,17 +486,17 @@ amazone	amazone	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Tu	tu	PRON	O	O	O
+Tu	tu	ADV	O	O	O
 ne	ne	ADV	O	O	O
-la	le	PRON	O	O	O
+la	le	DET	O	O	O
 connais	connaître	VERB	O	O	O
 pas	pas	ADV	O	O	O
 ?	?	PUNCT	O	O	O
 
-C	c	PRON	O	O	O
-'	'	PRON	O	O	O
+C	c	NOUN	O	O	O
+'	'	PUNCT	O	O	O
 est	être	AUX	O	O	O
-Marguerite	marguerite	PROPN	O	O	O
+Marguerite	marguerite	NOUN	O	O	O
 de	de	ADP	O	O	O
 Lizollès	lizollès	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -505,30 +508,31 @@ de	de	ADP	O	O	O
 pension	pension	NOUN	O	O	O
 II	ii	ADJ	O	O	O
 faudra	falloir	VERB	O	O	O
-l	l	PRON	O	O	O
+l	l	DET	O	O	O
 '	'	PRON	O	O	O
 inviter	inviter	VERB	O	O	O
 à	à	ADP	O	O	O
 nos	notre	DET	O	O	O
 bals	bal	NOUN	O	O	O
+
 —	—	PUNCT	O	O	O
 Non	non	ADV	O	O	O
 certes	certes	ADV	O	O	O
 !	!	PUNCT	O	O	O
 
-Marguerite	marguerite	PROPN	O	O	O
+Marguerite	marguerite	NOUN	O	O	O
 de	de	ADP	O	O	O
 Lizollès	lizollès	PROPN	O	O	O
 est	être	AUX	O	O	O
 de	de	ADP	O	O	O
 celles	celui	PRON	O	O	O
 qu	que	PRON	O	O	O
-'	'	SCONJ	O	O	O
+'	'	ADP	O	O	O
 une	un	DET	O	O	O
 femme	femme	NOUN	O	O	O
 de	de	ADP	O	O	O
-ton	ton	DET	O	O	O
-monde	monde	NOUN	O	O	O
+ton	ton	NOUN	O	O	O
+monde	mond	ADJ	O	O	O
 ne	ne	ADV	O	O	O
 doit	devoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
@@ -542,19 +546,19 @@ avoir	avoir	AUX	O	O	O
 connue	connaître	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	PUNCT	O	O	O
+—	—	PROPN	O	O	O
 Marguerite	marguerite	PROPN	O	O	O
 ?	?	PUNCT	O	O	O
 
 Qu	que	PRON	O	O	O
-'	'	PRON	O	O	O
-a	avoir	AUX	O	O	O
--	-	PRON	O	O	O
-t	t	PRON	O	O	O
--	-	PRON	O	O	O
+'	'	PUNCT	O	O	O
+a	avoir	VERB	O	O	O
+-	-	PUNCT	O	O	O
+t	t	NOUN	O	O	O
+-	-	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 donc	donc	ADV	O	O	O
-fait	faire	VERB	O	O	O
+fait	fait	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
 Jane	jane	PROPN	O	O	O
@@ -574,13 +578,14 @@ dire	dire	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 à	à	ADP	O	O	O
 toi	toi	PRON	O	O	O
-sv	sv	NOUN	O	O	O
-pure	pur	ADJ	O	O	O
+sv	sv	ADP	O	O	O
+pure	pur	NOUN	O	O	O
 et	et	CCONJ	O	O	O
-si	si	ADV	O	O	O
-parfaite	parfait	ADJ	O	O	O
+si	si	SCONJ	O	O	O
+parfaite	parfaite	NOUN	O	O	O
 ..	..	PUNCT	O	O	O
-Eli	eli	PROPN	O	O	O
+
+Eli	eli	NOUN	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -588,13 +593,12 @@ mariée	marier	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Eh	eh	INTJ	O	O	O
+Eh	eh	NOUN	O	O	O
 bien	bien	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 ne	ne	ADV	O	O	O
 sommes	être	AUX	O	O	O
--	-	PRON	O	O	O
+-	-	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
 pas	pas	ADV	O	O	O
 mariées	marier	VERB	O	O	O
@@ -617,23 +621,23 @@ Mais	mais	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 ,	,	PUNCT	O	O	O
-c	c	PRON	O	O	O
+c	c	NOUN	O	O	O
 '	'	PRON	O	O	O
 est	être	AUX	O	O	O
 un	un	DET	O	O	O
 homme	homme	NOUN	O	O	O
 qu	que	PRON	O	O	O
-'	'	PRON	O	O	O
+'	'	PUNCT	O	O	O
 elle	lui	PRON	O	O	O
 a	avoir	AUX	O	O	O
 épousé	épouser	VERB	O	O	O
 —	—	PUNCT	O	O	O
-Oh	oh	INTJ	O	O	O
+Oh	oh	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 dit	dire	VERB	O	O	O
 Laure	laure	PROPN	O	O	O
 en	en	ADP	O	O	O
-rougissant	rougir	VERB	O	O	O
+rougissant	rougissant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 

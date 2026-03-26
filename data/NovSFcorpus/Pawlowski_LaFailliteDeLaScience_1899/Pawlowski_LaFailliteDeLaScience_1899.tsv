@@ -1,7 +1,7 @@
 En	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
--	-	NOUN	O	O	O
+-	-	PUNCT	O	O	O
 là	là	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
@@ -16,8 +16,8 @@ bornes	borne	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 gloire	gloire	NOUN	O	O	O
-jusqu	jusqu	ADP	O	O	O
-'	'	ADP	O	O	O
+jusqu	jusqu	PROPN	O	O	O
+'	'	PUNCT	O	O	O
 aux	à	ADP	O	O	O
 limites	limite	NOUN	O	O	O
 extrêmes	extrême	ADJ	O	O	O
@@ -84,14 +84,14 @@ Science	science	NOUN	O	O	O
 atteintes	atteindre	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
-A	à	ADP	O	O	O
+A	a	NOUN	O	O	O
 lui	luire	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 revenait	revenir	VERB	O	O	O
 le	le	DET	O	O	O
 mérite	mérite	NOUN	O	O	O
 d	d	ADP	O	O	O
-'	'	ADP	O	O	O
+'	'	PRON	O	O	O
 avoir	avoir	AUX	O	O	O
 remplacé	remplacer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -101,7 +101,7 @@ grands	grand	ADJ	O	O	O
 journaux	journal	NOUN	O	O	O
 de	de	ADP	O	O	O
 New	new	PROPN	O	O	O
--	-	PROPN	O	O	O
+-	-	PUNCT	O	O	O
 York	york	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
@@ -124,10 +124,10 @@ taillés	tailler	VERB	O	O	O
 en	en	ADP	O	O	O
 forme	forme	NOUN	O	O	O
 de	de	ADP	O	O	O
-graines	graine	NOUN	O	O	O
+graines	graine	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-On	on	PRON	O	O	O
+On	on	DET	O	O	O
 lui	luire	PRON	O	O	O
 devait	devoir	VERB	O	O	O
 aussi	aussi	ADV	O	O	O
@@ -152,10 +152,10 @@ trop	trop	ADV	O	O	O
 rude	rude	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-N	ne	ADV	O	O	O
-'	'	PRON	O	O	O
+N	n	ADJ	O	O	O
+'	'	PUNCT	O	O	O
 était	être	AUX	O	O	O
--	-	PRON	O	O	O
+-	-	PUNCT	O	O	O
 ce	ce	PRON	O	O	O
 pas	pas	ADV	O	O	O
 lui	luire	PRON	O	O	O
@@ -170,25 +170,25 @@ ces	ce	DET	O	O	O
 travaux	travail	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 par	par	ADP	O	O	O
-de	de	DET	O	O	O
+de	de	ADP	O	O	O
 prodigieux	prodigieux	ADJ	O	O	O
-perfectionnements	perfectionnement	NOUN	O	O	O
+perfectionnements	perfectionnement	ADJ	O	O	O
 apportés	apporter	VERB	O	O	O
 à	à	ADP	O	O	O
 de	de	DET	O	O	O
-précédentes	précédent	ADJ	O	O	O
+précédentes	précédente	NOUN	O	O	O
 inventions	invention	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 était	être	AUX	O	O	O
 parvenu	parvenir	VERB	O	O	O
 à	à	ADP	O	O	O
-faire	faire	AUX	O	O	O
+faire	faire	VERB	O	O	O
 fonctionner	fonctionner	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 après	après	ADP	O	O	O
 des	un	DET	O	O	O
 efforts	effort	NOUN	O	O	O
-inouis	inoui	ADJ	O	O	O
+inouis	inouis	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
 téléphones	téléphone	NOUN	O	O	O
@@ -196,11 +196,11 @@ parisiens	parisien	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
 
 Mais	mais	CCONJ	O	O	O
-tout	tout	ADJ	O	O	O
+tout	tout	ADV	O	O	O
 cela	celer	PRON	O	O	O
 ne	ne	ADV	O	O	O
 suffisait	suffire	VERB	O	O	O
-point	point	ADV	O	O	O
+point	point	NOUN	O	O	O
 à	à	ADP	O	O	O
 son	son	DET	O	O	O
 rêve	rêve	NOUN	O	O	O
@@ -210,7 +210,7 @@ Entraîné	entraîner	VERB	O	O	O
 par	par	ADP	O	O	O
 la	le	DET	O	O	O
 folie	folie	NOUN	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 grandeurs	grandeur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 Edison	edison	PROPN	O	O	O
@@ -219,7 +219,7 @@ pousser	pousser	VERB	O	O	O
 la	le	DET	O	O	O
 science	science	NOUN	O	O	O
 au	au	ADP	O	O	O
--	-	ADV	O	O	O
+-	-	PUNCT	O	O	O
 delà	delà	ADV	O	O	O
 de	de	ADP	O	O	O
 ses	son	DET	O	O	O
@@ -233,12 +233,12 @@ se	se	PRON	O	O	O
 répandit	répandre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 un	un	DET	O	O	O
-beau	beau	ADJ	O	O	O
-jour	jour	NOUN	O	O	O
+beau	beau	NOUN	O	O	O
+jour	jour	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 dans	dans	ADP	O	O	O
 New	new	PROPN	O	O	O
--	-	PROPN	O	O	O
+-	-	PUNCT	O	O	O
 York	york	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 avec	avec	ADP	O	O	O
@@ -256,7 +256,7 @@ ingénieur	ingénieur	NOUN	O	O	O
 Jupiter	jupiter	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 qu	que	PRON	O	O	O
-'	'	SCONJ	O	O	O
+'	'	PUNCT	O	O	O
 Edison	edison	PROPN	O	O	O
 venait	venir	VERB	O	O	O
 d	d	ADP	O	O	O
@@ -286,7 +286,7 @@ par	par	ADP	O	O	O
 exemple	exemple	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
-anglais	anglais	PROPN	O	O	O
+anglais	anglais	ADJ	O	O	O
 dans	dans	ADP	O	O	O
 le	le	DET	O	O	O
 cornet	cornet	NOUN	O	O	O
@@ -295,7 +295,7 @@ traducteur	traducteur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 celui	celui	PRON	O	O	O
--	-	PRON	O	O	O
+-	-	PUNCT	O	O	O
 ci	ci	PRON	O	O	O
 reproduisait	reproduire	VERB	O	O	O
 à	à	ADP	O	O	O
@@ -309,7 +309,7 @@ en	en	ADP	O	O	O
 allemand	allemand	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
-russe	russe	ADJ	O	O	O
+russe	russe	NOUN	O	O	O
 ou	ou	CCONJ	O	O	O
 en	en	ADP	O	O	O
 toute	tout	DET	O	O	O
@@ -331,14 +331,14 @@ appareil	appareil	NOUN	O	O	O
 d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 une	un	DET	O	O	O
-déroutante	déroutant	ADJ	O	O	O
-simplicité	simplicité	NOUN	O	O	O
+déroutante	déroutante	NOUN	O	O	O
+simplicité	simplicité	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 On	on	PRON	O	O	O
 le	le	PRON	O	O	O
-réglait	régler	VERB	O	O	O
-suivant	suivant	ADP	O	O	O
+réglait	réglait	NOUN	O	O	O
+suivant	suivre	VERB	O	O	O
 la	le	DET	O	O	O
 langue	langue	NOUN	O	O	O
 à	à	ADP	O	O	O
@@ -363,11 +363,11 @@ nombre	nombre	NOUN	O	O	O
 de	de	ADP	O	O	O
 membranes	membrane	NOUN	O	O	O
 vibrant	vibrer	VERB	O	O	O
-sympathiquement	sympathiquement	ADV	O	O	O
+sympathiquement	sympathiquemer	VERB	O	O	O
 à	à	ADP	O	O	O
 certaines	certain	DET	O	O	O
 asson	asson	NOUN	O	O	O
--	-	NOUN	O	O	O
+-	-	PUNCT	O	O	O
 nances	nance	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 combinant	combiner	VERB	O	O	O
@@ -382,14 +382,14 @@ langue	langue	NOUN	O	O	O
 par	par	ADP	O	O	O
 un	un	DET	O	O	O
 moyen	moyen	NOUN	O	O	O
-si	si	ADV	O	O	O
+si	si	SCONJ	O	O	O
 simple	simple	ADJ	O	O	O
 que	que	SCONJ	O	O	O
-le	le	PRON	O	O	O
-décrire	décrire	VERB	O	O	O
-serait	être	VERB	O	O	O
-faire	faire	VERB	O	O	O
-injure	injure	NOUN	O	O	O
+le	le	DET	O	O	O
+décrire	décrire	NOUN	O	O	O
+serait	être	AUX	O	O	O
+faire	faire	AUX	O	O	O
+injure	injure	VERB	O	O	O
 à	à	ADP	O	O	O
 nos	notre	DET	O	O	O
 lecteurs	lecteur	NOUN	O	O	O
@@ -423,8 +423,8 @@ choses	chose	NOUN	O	O	O
 
 Edison	edison	PROPN	O	O	O
 lui	luire	PRON	O	O	O
--	-	PRON	O	O	O
-même	même	PRON	O	O	O
+-	-	PUNCT	O	O	O
+même	même	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 toujours	toujours	ADV	O	O	O
 souriant	souriant	ADJ	O	O	O
@@ -449,7 +449,7 @@ une	un	DET	O	O	O
 légère	léger	ADJ	O	O	O
 émotion	émotion	NOUN	O	O	O
 qu	que	PRON	O	O	O
-'	'	SCONJ	O	O	O
+'	'	PUNCT	O	O	O
 il	il	PRON	O	O	O
 prononça	prononcer	VERB	O	O	O
 ces	ce	DET	O	O	O
@@ -464,21 +464,21 @@ Hurrah	hurrah	PROPN	O	O	O
 for	for	X	O	O	O
 the	the	X	O	O	O
 glorious	glorious	X	O	O	O
-translator	translator	X	O	O	O
+translator	translator	NOUN	O	O	O
 Edison	edison	PROPN	O	O	O
 Whiskey	whiskey	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 gin	gin	X	O	O	O
 and	and	X	O	O	O
-soda	soda	X	O	O	O
+soda	soder	VERB	O	O	O
 and	and	X	O	O	O
 the	the	X	O	O	O
-girls	girl	X	O	O	O
+girls	girl	ADJ	O	O	O
 Lorisson	lorisson	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 Cette	ce	DET	O	O	O
-phrase	phrase	NOUN	O	O	O
+phrase	phras	ADJ	O	O	O
 devait	devoir	VERB	O	O	O
 être	être	AUX	O	O	O
 traduite	traduire	VERB	O	O	O
@@ -496,7 +496,7 @@ savant	savant	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 posément	posément	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-appuya	appuyer	VERB	O	O	O
+appuya	appuya	ADJ	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 déclic	déclic	NOUN	O	O	O
@@ -522,28 +522,29 @@ parler	parler	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 traduisant	traduire	VERB	O	O	O
 la	le	DET	O	O	O
-phrase	phrase	NOUN	O	O	O
+phrase	phras	ADJ	O	O	O
 Bravo	bravo	PROPN	O	O	O
 pour	pour	ADP	O	O	O
 le	le	DET	O	O	O
 glorieux	glorieux	ADJ	O	O	O
-trad	trad	NOUN	O	O	O
+trad	trad	VERB	O	O	O
 ...	...	PUNCT	O	O	O
+
 Puis	pouvoir	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 brusquement	brusquement	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 s	s	PRON	O	O	O
-'	'	PRON	O	O	O
-arrêta	arrêter	VERB	O	O	O
+'	'	PUNCT	O	O	O
+arrêta	arrêter	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 prononça	prononcer	VERB	O	O	O
 nettement	nettement	ADV	O	O	O
 ces	ce	DET	O	O	O
 mots	mot	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-«	«	PUNCT	O	O	O
+«	«	NOUN	O	O	O
 Et	et	CCONJ	O	O	O
 puis	pouvoir	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -554,8 +555,8 @@ fin	fin	NOUN	O	O	O
 vous	vous	PRON	O	O	O
 commencez	commencer	VERB	O	O	O
 à	à	ADP	O	O	O
-m	m	PRON	O	O	O
-'	'	PRON	O	O	O
+m	m	ADP	O	O	O
+'	'	ADP	O	O	O
 embêter	embêter	VERB	O	O	O
 ;	;	PUNCT	O	O	O
 je	je	PRON	O	O	O
@@ -565,7 +566,7 @@ que	que	SCONJ	O	O	O
 je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 suis	être	AUX	O	O	O
-qu	qu	ADV	O	O	O
+qu	qu	DET	O	O	O
 '	'	PUNCT	O	O	O
 un	un	DET	O	O	O
 instrument	instrument	NOUN	O	O	O
@@ -585,5 +586,6 @@ inventions	invention	NOUN	O	O	O
 contre	contre	ADP	O	O	O
 nature	nature	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
 »	»	PUNCT	O	O	O
+
+
