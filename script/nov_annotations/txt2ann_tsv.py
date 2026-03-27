@@ -246,4 +246,4 @@ for subdir in os.listdir(CORPUS_DIR):
         write_bio(tokens, spans, BIO_FILE)
 
         print(f"Terminé : {title}")
-        break
+        
