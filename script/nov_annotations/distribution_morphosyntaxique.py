@@ -17,7 +17,7 @@ for doc_id, entries in data.items():
 
 # Analyze POS patterns
 pattern_counter = Counter()
-verb_novums = []
+pattern_to_print = []
 
 for novum in novums:
     doc = nlp_stanza(novum)
@@ -28,11 +28,11 @@ for novum in novums:
     )
     pattern_counter[pattern] += 1
     if pattern == "NOUN ADP NOUN":
-        verb_novums.append(novum) # TODO
+        pattern_to_print.append(novum) # TODO
 
 # Print novum with a specific pattern
 print("=== Mots-fictions avec pattern VERB ===") # TODO
-for n in sorted(verb_novums): # TODO
+for n in sorted(pattern_to_print): # TODO
     print(f"  {n}")
 
 # Graphic
