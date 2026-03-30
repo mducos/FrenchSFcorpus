@@ -21,9 +21,10 @@ FrenchSFcorpus/
 │           └── <title>.tsv        # Annotations in BIO format
 │
 ├── script/
-│   ├── txt2ann_tsv.py             # Main annotation pipeline
-│   ├── distribution_types.py      # Distribution of novum Types
-│   └── distribution_pos.py        # Distribution of morphosyntactic patterns
+│   └── NOV_annotations/
+│       ├── txt2ann_tsv.py             # Main annotation pipeline
+│       ├── distribution_types.py      # Distribution of novum Types
+│       └── distribution_pos.py        # Distribution of morphosyntactic patterns
 │
 └── src/
     └── title2novum.json           # List of novum by story
