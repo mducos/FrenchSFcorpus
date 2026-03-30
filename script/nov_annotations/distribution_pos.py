@@ -28,14 +28,13 @@ for novum in novums:
     )
     pattern_counter[pattern] += 1
     if pattern == "NOUN ADP NOUN":
-        pattern_to_print.append(novum) # TODO
+        pattern_to_print.append(novum)
 
 # Print novum with a specific pattern
-print("=== Mots-fictions avec pattern VERB ===") # TODO
-for n in sorted(pattern_to_print): # TODO
+print(f"=== Mots-fictions avec pattern {pattern} ===")
+for n in sorted(pattern_to_print):
     print(f"  {n}")
 
-# Graphic
 top_patterns = pattern_counter.most_common(10)
 patterns, counts = zip(*top_patterns)
 
