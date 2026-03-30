@@ -11,23 +11,23 @@ This project provides a semi-automated annotation pipeline for novum in a French
 FrenchSFcorpus/
 │
 ├── data/
-│   ├── SFcorpus/                  # Raw corpus
+│   ├── SFcorpus/                       # Raw corpus
 │   │   └── <title>/
-│   │       └── <title>_sent.txt   # Text file divided into sentences (one sentence per line)
+│   │       └── <title>_sent.txt        # Text file divided into sentences (one sentence per line)
 │   │
-│   └── NovSFcorpus/               # Annotation files producted
+│   └── NovSFcorpus/                    # Annotation files producted
 │       └── <title>/
-│           ├── <title>.ann        # Annotations in Brat format
-│           └── <title>.tsv        # Annotations in BIO format
+│           ├── <title>.ann             # Annotations in Brat format
+│           └── <title>.tsv             # Annotations in BIO format
 │
 ├── script/
 │   └── NOV_annotations/
-│       ├── txt2ann_tsv.py             # Main annotation pipeline
-│       ├── distribution_types.py      # Distribution of novum Types
-│       └── distribution_pos.py        # Distribution of morphosyntactic patterns
+│       ├── txt2ann_tsv.py              # Main annotation pipeline
+│       ├── distribution_types.py       # Distribution of novum Types
+│       └── distribution_pos.py         # Distribution of morphosyntactic patterns
 │
 └── src/
-    └── title2novum.json           # List of novum by story
+    └── title2novum.json                # List of novum by story
 ```
 
 ---
