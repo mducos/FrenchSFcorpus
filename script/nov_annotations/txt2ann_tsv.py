@@ -30,10 +30,10 @@ def find_novum_spans(tokens, novums_lemma, novums_raw, max_gap=4):
     def token_matches(tok, target_form):
         return (tok["lemma"].lower() == target_form              # lemma == lemma
                 or tok["text_lower"] == target_form              # raw form == lemma
-                or tok["text_lower"] == target_form + "s"        # singular → plural
-                or tok["text_lower"] == target_form + "es"       # singular → plural
-                or tok["text_lower"].rstrip("s") == target_form  # plural → singular
-                or tok["text_lower"].rstrip("es") == target_form # plural → singular
+                or tok["text_lower"] == target_form + "s"        # singular == plural
+                or tok["text_lower"] == target_form + "es"       # singular == plural
+                or tok["text_lower"].rstrip("s") == target_form  # plural == singular
+                or tok["text_lower"].rstrip("es") == target_form # plural == singular
                 )
 
     seen_targets = set()
@@ -45,7 +45,6 @@ def find_novum_spans(tokens, novums_lemma, novums_raw, max_gap=4):
             all_targets.append(list(key))
 
     all_targets = sorted(all_targets, key=len)
-    print(all_targets)
 
     for target in all_targets:
         target_len = len(target)

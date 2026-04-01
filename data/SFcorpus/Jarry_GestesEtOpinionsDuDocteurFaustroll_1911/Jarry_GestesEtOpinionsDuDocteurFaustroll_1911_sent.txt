@@ -116,44 +116,26 @@ EXPLOITS ET IFICATIONS
 PIÈCES 60¢ S HUISSIERS CIAL
 L' AN mil huit cent quatre vingt dix - huit, le quatre juin, à la requête de M. et Mᵐᵉ Bonhomme (Jacques), le mari demeurant à Paris, rue Pavée, 37, élisant domicile en mon étude et encore à la mairie du Qᵉ arrondissement ;
 J' ai René - Isidore Panmuphle, HUISSIER près le tribunal de première instance de la Seine, séant à Paris, y demeurant 37, rue Pavée, soussigné, signifié, dénoncé et en tête de la présente laissé copie à M. Faustroll... .
-` ```
-This looks quite consistent with the image now.
-The only slight ambiguity is the exact spacing and alignment of `CIAL`.
-I' ve chosen an indentation that appears to roughly align it under `S HUISSIERS` horizontally while still showing its separation.
-`Qᵉ` and `Mᵐᵉ` use superscript characters, which is accurate.
-The dot leaders `.
-` are preserved.
-DU DOCTEUR FAUSTROLL cinq francs.
-Signé Liconet.
-P. C. C. (Illisible).
-V SIGNIFICATION D' ORDONNANCE AFIN DE VENDRE SUR PLACE.
-R.SP COPIES EXPLOITS ET IFICATIONS
-PIÈCES 60¢ S HUISSIERS CIAL
 L' AN mil huit cent quatre vingt dix - huit, le quatre juin, à la requête de M. et Mᵐᵉ Bonhomme (Jacques), le mari demeurant à Paris, rue Pavée, 37, élisant domicile en mon étude et encore à la mairie du Qᵉ arrondissement ;
 J' ai René - Isidore Panmuphle, HUISSIER près le tribunal de première instance de la Seine, séant à Paris, y demeurant 37, rue Pavée, soussigné, signifié, dénoncé et en tête de la présente laissé copie à M. Faustroll...
-Revoir l' utilisation de `Mᵐᵉ` et `Qᵉ` pour l' affichage correct et la cohérence avec les instructions.
-The characters for `Mme` and `Qe` are rendered using combining characters (U+036E, U+036F).
-These are usually rendered correctly.
-The line of dots should be preserved precisely.
-I counted it as 98 dots (including spaces between them, if any), but it' s simpler to just output `.
-` repeated with spaces as it appears to be a pattern of dot - space.
-Let me verify the pattern.
-It appears to be `.
-` followed by a space, then another `.
-`, etc.
-` `
-GESTES ET OPINIONS cave où il nous avait précipité, provisoirement l' exposant requiert qu' il plaise à M. le Président du Tribunal civil de la Seine l' autoriser, les frais de timbre menaçant d' excèder notablement la provision déposée, à relater ce qui suivra sur papier libre, afin de conserver à la Loi et Justice le souvenir desdites merveilles, et d' en éviter le dépérissement.
-VI DU BATEAU DU DOCTEUR, QUI EST UN CRIBLE A C. - V. Boys.
-Le docteur Faustroll, soulevant la draperie qui couvrait le lit de cuivre verni que je n' avais pas à saisir, et s' adressant à moi, parlant à ma personne, dit : « Il est vraisemblable que vous n' avez aucune notion, Panmuphle, huissier porteur de pièces, de la capillarité, de la tension superficielle, ni des membranes sans pesanteur, hyperboles équilatères, surfaces de nulle courbure, non plus généralement que la pellicule élastique qui est l' épiderme de l' eau. « Depuis les saints et miraculés qui ont navigué dans des auges de pierre ou sur des manteaux de grossière étoffe et le Christ, qui marchait nu - pieds sur la mer, je ne sais, hors moi, que la nêpe filiforme et les larves de cousins qui, d' au - dessus ou d' au - dessous, se servent de la surface des étangs comme d' un plancher solide. « On a, il est vrai, construit des sacs de toile qui laissent passer l' air et la vapeur et sont imperméables à l' eau, à travers lesquels il est possible de souffler une bougie, et qui retiennent indéfiniment leur contenu fluide.
-Mon confrère F. de Romilly a fait bouillir des liquides dans une cloche dont le fond était de gaze à mailles assez larges... « Or ce lit long de douze mètres n' est pas un lit, mais un bateau, qui a la figure d' un crible allongé.
+cave où il nous avait précipité, provisoirement l' exposant requiert qu' il plaise à M. le Président du Tribunal civil de la Seine l' autoriser, les frais de timbre menaçant d' excèder notablement la provision déposée, à relater ce qui suivra sur papier libre, afin de conserver à la Loi et Justice le souvenir desdites merveilles, et d' en éviter le dépérissement.
+Le docteur Faustroll, soulevant la draperie qui couvrait le lit de cuivre verni que je n' avais pas à saisir, et s' adressant à moi, parlant à ma personne, dit : « Il est vraisemblable que vous n' avez aucune notion, Panmuphle, huissier porteur de pièces, de la capillarité, de la tension superficielle, ni des membranes sans pesanteur, hyperboles équilatères, surfaces de nulle courbure, non plus généralement que la pellicule élastique qui est l' épiderme de l' eau.
+« Depuis les saints et miraculés qui ont navigué dans des auges de pierre ou sur des manteaux de grossière étoffe et le Christ, qui marchait nu - pieds sur la mer, je ne sais, hors moi, que la nêpe filiforme et les larves de cousins qui, d' au - dessus ou d' au - dessous, se servent de la surface des étangs comme d' un plancher solide.
+« On a, il est vrai, construit des sacs de toile qui laissent passer l' air et la vapeur et sont imperméables à l' eau, à travers lesquels il est possible de souffler une bougie, et qui retiennent indéfiniment leur contenu fluide.
+Mon confrère F. de Romilly a fait bouillir des liquides dans une cloche dont le fond était de gaze à mailles assez larges...
+« Or ce lit long de douze mètres n' est pas un lit, mais un bateau, qui a la figure d' un crible allongé.
 Les mailles en sont assez ouvertes pour laisser passer une grosse épingle ; et tout le crible a été trempé dans de la paraffine fondue, puis secoué, de manière que cette substance (qui n' est jamais touchée par l' eau), tout en recouvrant la trame, laisse les trous vides, au nombre approximatif de quinze millions quatre cent mille.
 La pellicule de l' eau, quand je vais en rivière, se tend sur les trous, et le liquide sous - fluent ne peut passer que si elle se déchire.
-Or la convexité de ma quille ronde n' offre aucun angle saillant, et le choc de l' eau, dans les débordages, sauts de barrages, etc., est brisé par une coque extérieure non paraffinée, à mailles beaucoup plus amples, seize mille seulement; et qui sert en outre à protéger le vernis de paraffine contre l' éraillure des roseaux, comme un gril interne le garantit de l' injure des pieds. « Mon crible flotte donc, à la manière d' un bateau, et peut être chargé sans couler à fond.
+Or la convexité de ma quille ronde n' offre aucun angle saillant, et le choc de l' eau, dans les débordages, sauts de barrages, etc., est brisé par une coque extérieure non paraffinée, à mailles beaucoup plus amples, seize mille seulement; et qui sert en outre à protéger le vernis de paraffine contre l' éraillure des roseaux, comme un gril interne le garantit de l' injure des pieds.
+« Mon crible flotte donc, à la manière d' un bateau, et peut être chargé sans couler à fond.
 Bien plus, il possède sur les bateaux ordinaires cette supériorité, m' a fait remarquer mon savant ami C. - V. Boys, qu' on peut y laisser tomber un filet d' eau sans le submerger.
-Que j' expulse mes urates ou qu' une lame embarque, le liquide passe à travers les mailles et rejoint les lames extérieures. « Dans ce canot toujours sec (qui s' appelle un as, sans doute parce qu' il est construit pour porter trois personnes) je ferai désormais élection de domicile, comme il faudra que je quitte cette maison...
+Que j' expulse mes urates ou qu' une lame embarque, le liquide passe à travers les mailles et rejoint les lames extérieures.
+« Dans ce canot toujours sec (qui s' appelle un as, sans doute parce qu' il est construit pour porter trois personnes) je ferai désormais élection de domicile, comme il faudra que je quitte cette maison...
 — Sans doute, dis - je, les lieux loués n' étant plus garnis.
-— J' ai aussi un plus bel as, poursuivit le docteur, en fil de quartz étiré à l' arbaïète ; mais actuellement j' y ai disposé à l' aide d' un brin de paille 250 000 gouttes d' huile de castor, à l' imitation des gouttelettes des araignées, et alternativement grosses et petites, les vibrations par seconde de celles - là étant à celles de celles - ci selon le rapport `64 000` sous la simple force `1/2 000 000` de la membrane élastique du liquide. Cet as a toutes les apparences d' une grande toile d' araignée véritable, et prend les mouches avec la même facilité.
-Mais il n' est aménagé que pour une personne. « Et comme celui - ci porte trois personnes, vous m' accompagnerez, et quelqu' un qui vous sera présenté — voire quelques - uns, car j' emmène des êtres qui ont évadé votre Loi et Justice entre les lignes de mes volumes saisis. « Et pendant que je les dénombre et convoque l' autre personne, voici un livre, par moi manuscrit, que vous pouvez saisir vingt - huitième et lire, afin non seulement de prendre patience, mais de plus probablement me comprendre au cours de ce voyage sur la nécessité duquel je ne demande pas votre avis.
+— J' ai aussi un plus bel as, poursuivit le docteur, en fil de quartz étiré à l' arbaïète ; mais actuellement j' y ai disposé à l' aide d' un brin de paille 250 000 gouttes d' huile de castor, à l' imitation des gouttelettes des araignées, et alternativement grosses et petites, les vibrations par seconde de celles - là étant à celles de celles - ci selon le rapport 64 000 sous la simple force 1/2 000 000 de la membrane élastique du liquide. Cet as a toutes les apparences d' une grande toile d' araignée véritable, et prend les mouches avec la même facilité.
+Mais il n' est aménagé que pour une personne.
+« Et comme celui - ci porte trois personnes, vous m' accompagnerez, et quelqu' un qui vous sera présenté — voire quelques - uns, car j' emmène des êtres qui ont évadé votre Loi et Justice entre les lignes de mes volumes saisis.
+« Et pendant que je les dénombre et convoque l' autre personne, voici un livre, par moi manuscrit, que vous pouvez saisir vingt - huitième et lire, afin non seulement de prendre patience, mais de plus probablement me comprendre au cours de ce voyage sur la nécessité duquel je ne demande pas votre avis.
 — Oui, mais cette navigation en crible...
 — L' as n' est pas seulement mû par des pelles d' avirons, mais par des ventouses au bout de leviers à ressort.
 Et sa quille roule sur trois galets d' acier dans le même plan.
@@ -208,7 +190,8 @@ Il faut donc bien nécessairement admettre que la foule (en comptant les ' petit
 Ils communiquent et s' équilibrent par le bord de leurs ventres, tangentiellement.
 Or même la foule a appris que l' univers vrai était fait d' ellipses, et les bourgeois mêmes conservent leur vin dans des tonneaux et non des cylindres.
 Pour ne point abandonner en digressant notre exemple usuel de l' eau, méditons à son sujet ce qu' en cette phrase l' âme de la foule dit irrévérencieusement des adeptes de la science pataphysique :
-IX FAUSTROLL PLUS PETIT QUE FAUSTROLL A William Crookes. « D' autres fous répétaient sans cesse qu' un était en même temps plus grand et plus petit que lui - même, et publiaient nombre d' absurdités semblables, comme d' utiles découvertes. »
+IX FAUSTROLL PLUS PETIT QUE FAUSTROLL A William Crookes.
+« D' autres fous répétaient sans cesse qu' un était en même temps plus grand et plus petit que lui - même, et publiaient nombre d' absurdités semblables, comme d' utiles découvertes. »
 Le Talisman d' Oromane.
 Le docteur Faustroll (si l' on nous permet de parler d' expérience personnelle) se voulut un jour plus petit que soi - même, et résolut d' aller explorer l' un des éléments, afin d' examiner quelles perturbations cette différence de grandeur apporterait dans leurs rapports réciproques.
 Il choisit ce corps ordinairement liquide, incolore, incompressible et horizontal en petite quantité ; de surface courbe, de profondeur bleue et de bords animés d' un mouvement de va - et - vient quand il est étendu ; qu' Aristote dit, comme la terre, de nature grave ; ennemi du feu et renaissant de lui, quand il est décomposé, avec explosion ; qui se vaporise à cent degrés, qu' il détermine, et solidifié flotte sur soi - même, l' eau, quoi !
@@ -245,23 +228,29 @@ S' enquestant quelz gens sçavans estoient pour lors en la ville, et quel vin on
 Gargantua, ch. xvi.
 — XI DE L' EMBARQUEMENT DANS L' ARCHE Bosse - de - Nage descendit à pas minutieux, posant l' adhérence plate de ses pieds comme on déroule une affiche collée, et tenait l' as sur son épaule par les oreilles, à l' imitation des antiques Égyptiens enseignant leurs disciples.
 Le dos de métal roux, pareil à celui de la noto - necte, luisit au soleil à mesure que le bateau long aventurait hors du couloir son bec de xyphias de douze mètres.
-Les pelles recourbées des avirons retiraient se cramponnant aux parois de pierres vieilles. « Ha ha ! » dit Bosse - de - Nage déchargeant l' as sur le trottoir ; mais il n' ajouta, pour cette fois, rien autre chose.
+Les pelles recourbées des avirons retiraient se cramponnant aux parois de pierres vieilles.
+« Ha ha ! » dit Bosse - de - Nage déchargeant l' as sur le trottoir ; mais il n' ajouta, pour cette fois, rien autre chose.
 Faustroll frotta les joues rubicondes du mousse sur les glissières de la selle mobile, afin de les lubrifier ; la face écorchée resplendit plus lumineuse, se boursouflant à la proue, en lanterne de notre route.
 Le docteur s' assit à l' arrière sur sa chaise d' ivoire, la table d' onyx entre ses jambes, surchargée de ses boussoles, cartes, sextants et tous instruments scientifiques, jeta à ses pieds, en guise de lest, les êtres bizarres réservés de ses vingt - sept livres pairs et le manuscrit par moi saisi ; passa à ses coudes les deux guides de la barre, et me faisant signe de m' asseoir, face à lui, sur le siège de feutre aux mouvements alternatifs (ce à quoi, ivre déjà et persuadé à demi, je ne sus désobéir), il m' entrava les pieds à deux ceps de cuir, au fond de l' as, et lança vers mes mains les poignées des avirons de frêne, dont les pelles s' écartèrent dans la symétrie bruissante, de deux plumes de paon qui roueraient seules.
 Je tirai les rames reculant sans savoir où, louchant entre deux files de fils mouillés d' horizontalité grise, croisant des formes surgies derrière moi que les avirons tranchants fau - chaient aux jambes ; d' autres formes lointaines imitaient le sens de notre route.
 Nous nous in - sérions entre les foules d' hommes ainsi que DU DOCTEUR FAUSTROLL dans un brouillard dense, et le signe acoustique de notre progression était l' acuité de la soie déchirée.
 Entre les lointaines, qui nous suivaient, et les proches, qui nous croisaient, de troisièmes figures verticales, plus stationnaires étaient observables, et Faustroll ne s' y opposant point, m' expliquant même que la vie des navigateurs était d' aborder et de boire, et le rôle de Bosse - de - Nage de tirer l' as sur le rivage à chaque halte de nos erreurs, comme celui de ses paroles d' interrompre, où une pause serait utile, nos discours , je regardai les êtres que je découvrais à reculons, semblablement aux observateurs dans la caverne platonique, et consultai successivement l' enseignement du patron de la nef, Faustroll le docteur.
-XII DE LA MER D' HABUNDES, DU PHARE OLFACTIF, ET DE L' ILE DE BRAN, OU NOUS NE BUMES POINT A Louis L ... « Ce corps mort, dit - il, de la charogne duquel tu vois des barbons blancs, au tremblement sénile, et des jeunes gens roussâtres, aux paroles et au silence d' idiotie équivalente, donner la becquée à des oiseaux grivolés, de la couleur de l' écriture, comme l' ichneumon taraude pour réserver son oeuf, n' est pas seulement une île, mais un homme; il se plaît à être nommé le Baron Hildebrand de la mer d' Habundes. « Et comme l' île est stérile et désolée, il n' a aucune espèce de barbe.
-Il pâtit de la gourme en son enfance, et sa nourrice, qui était vieille à ce point qu' on obtenait de ses conseils des selles anormales, lui prédit que c' était un signe comme quoi il ne pourrait dissimuler aux hommes L' infâme nudité de son mufle de veau. « Il n' est mort et putréfié que du cerveau, et des centres antérieurs de la moelle, qui sont les moteurs.
+XII DE LA MER D' HABUNDES, DU PHARE OLFACTIF, ET DE L' ILE DE BRAN, OU NOUS NE BUMES POINT A Louis L ...
+« Ce corps mort, dit - il, de la charogne duquel tu vois des barbons blancs, au tremblement sénile, et des jeunes gens roussâtres, aux paroles et au silence d' idiotie équivalente, donner la becquée à des oiseaux grivolés, de la couleur de l' écriture, comme l' ichneumon taraude pour réserver son oeuf, n' est pas seulement une île, mais un homme; il se plaît à être nommé le Baron Hildebrand de la mer d' Habundes.
+« Et comme l' île est stérile et désolée, il n' a aucune espèce de barbe.
+Il pâtit de la gourme en son enfance, et sa nourrice, qui était vieille à ce point qu' on obtenait de ses conseils des selles anormales, lui prédit que c' était un signe comme quoi il ne pourrait dissimuler aux hommes L' infâme nudité de son mufle de veau.
+« Il n' est mort et putréfié que du cerveau, et des centres antérieurs de la moelle, qui sont les moteurs.
 Et à cause de cette inertie, il est, sur la route de notre navigation, non pas un homme, mais une île, et c' est pourquoi (si vous êtes bien sages, je vais vous montrer le plan)...
 — Ha ha! dit Bosse - de - Nage , réveillé soudain; puis il s' enferma dans un mutisme obstiné.
 — ... C' est pourquoi, continua Faustroll, je le trouve mentionné sur ma carte fluviale Ile - de - Bran.
 — Oui, mais dis - je, comment se fait - il que cet afflux de peuple et d' oiseaux, qui vient déposer des pages mortuaires sur le cadavre, s' abatte sur lui avec cette sûreté, au milieu de cette vaste plaine, alors que tous ces vieillards et jeunes gens, si je ne leur suis isobe, sont aveugles et destitués de bâton?
-— Voyez, dit Faustroll, ouvrant son manuscrit saisi, les ELÉMENTS DE PATAPHYSIQUE, livre N, ch. 5 : Des Obeliscolychnies pour les chiens, encore qu' ils aboient à la lune. « Un phare b... dans la tempête, dit Corbière ; un phare lève le doigt pour signifier de loin la place du salut, de la vérité et du beau.
+— Voyez, dit Faustroll, ouvrant son manuscrit saisi, les ELÉMENTS DE PATAPHYSIQUE, livre N, ch. 5 : Des Obeliscolychnies pour les chiens, encore qu' ils aboient à la lune.
+« Un phare b... dans la tempête, dit Corbière ; un phare lève le doigt pour signifier de loin la place du salut, de la vérité et du beau.
 Mais pour les taupes et pour vous - même , Panmuphle, un phare est aussi invisible qu' imperceptible la dix mille unième période sonore, ou les rayons infra - rouges, à la clarté desquels j' ai écrit ce livre.
 Le phare de l' île de Bran est un phare obscur, souterrain et cloacal, comme après avoir trop regardé le soleil.
 Des vagues n' y déferlant point, on ne s' y guide non plus par le bruit.
-Et votre cérumen, Panmuphle, clorait vos oreilles même aux bruits d' en - bas. « Ce phare s' alimente de la matière pure qui est la substance de l' île de Bran; c' est l' âme du Baron qui s' exhale de sa bouche et qu' il souffle par une sarbacane de plomb.
+Et votre cérumen, Panmuphle, clorait vos oreilles même aux bruits d' en - bas.
+« Ce phare s' alimente de la matière pure qui est la substance de l' île de Bran; c' est l' âme du Baron qui s' exhale de sa bouche et qu' il souffle par une sarbacane de plomb.
 De tous les quartiers où je ne veux point boire, le vol, guidé par son flair, des pages, semblables à des pies, vient sucer la vie (la leur, exclusive) au jet si - GEstes ET OPINIONS rupeux et fumant de la sarbacane saturnine.
 Et pour qu' on ne la leur dérobe, les barbons blancs, institués en couvent, construisent sur la charogne du Baron une petite chapelle qu' ils baptisent CATHOLIQUE MAXIME.
 Les oiseaux gri - volés y ont leur colombier.
@@ -275,13 +264,15 @@ Le roi des Dentelles l' étirait comme un cordier persuade sa ligne rétrograde,
 Ils ourdirent des forêts, comme celles dont, sur les vitres, le givre compte les feuilles ; puis une madone et son Bambin dans de la neige de Noël ; et puis des joyaux, des paons, et des robes, qui s' entremêlaient comme la danse nagée des filles du Rhin.
 Les Beaux et les Belles se pavanèrent et rouè - rent à l' imitation des éventails, jusqu' à ce que leur foule patiente se déconcerta dans un cri.
 De même que les junoniens blancs, juchés dans un parc, réclament avec discordance quand la menteuse intrusion d' un flambeau leur singe prématurément l' aube leur miroir, une forme candide s' arrondit dans la futaie de poix égratignée ; et comme Pierrot chante au brouilla - mini du pelotonnement de la lune, le paradoxe de jour mineur se levait d' Ali - Baba hurlant dans l' huile impitoyable et l' opacité de la jarre.
-Bosse - de - Nage, autant que je pus juger , comprenait peu de chose à ces prodiges. « Ha ha, » dit - il compendieusement ; et il ne se perdit point dans des considérations plus amples.
+Bosse - de - Nage, autant que je pus juger , comprenait peu de chose à ces prodiges.
+« Ha ha, » dit - il compendieusement ; et il ne se perdit point dans des considérations plus amples.
 GESTES ET OPINIONS XIV DU BOIS D' AMOUR A Emile Bernard.
 Comme une rainette hors de l' eau, l' as rampait traîné par ses ventouses le long d' une route lisse et descendante.
 En ce quartier de Paris, où jamais n' était passé un omnibus, ni un chemin de fer, ni un tramway, ni une bicyclette, ni probablement un bateau à jour en toile de cuivre, roulant sur trois galets d' acier dans le même plan, monté par un docteur pataphysicien , ayant à ses pieds les vingt - sept plus excellentes quintessences d' oeuvres qu' aient rapportées les gens curieux de leurs voyages ; par un huissier nommé Pan - muphle (je soussigné
 René - Isidore ) , et un singe papion hydrocéphale ne sachant du langage humain que ha ha , au lieu des becs de gaz nous aperçûmes des vieilles oeuvres de pierre taillée, des statues vertes, accroupies dans des robes plissées en forme de coeur ; des rondes hétérosexuelles soufflant dans d' indicibles flageolets ; enfin un calvaire vert d' algue où les yeux des femmes étaient tels que des noix fendues horizontalement par le trait de suture de leurs valves.
 La descente s' épanouit subitement au triangle d' une place.
-Le ciel s' épanouit aussi, un soleil creva dedans comme dans une gorge le jaune d' oeuf d' un prairie - oyster, et l' azur fut bleu rouge ; la mer tiédit jusqu' à la fumée, les costumes reteints des gens furent des taches plus éclatantes que des gemmes opaques. « Etes - vous chrétiens ?
+Le ciel s' épanouit aussi, un soleil creva dedans comme dans une gorge le jaune d' oeuf d' un prairie - oyster, et l' azur fut bleu rouge ; la mer tiédit jusqu' à la fumée, les costumes reteints des gens furent des taches plus éclatantes que des gemmes opaques.
+« Etes - vous chrétiens ?
 dit un homme bronzé, vêtu d' un sarrau bariolé, au milieu de la triangulaire petite ville.
 — Comme M. Arouet, M. Renan et M. Charbonnel, dis - je après avoir réfléchi.
 — Je suis Dieu, dit Faustroll.
@@ -292,7 +283,8 @@ Entre s' allongeaient des tables et des brocs et des bancs, dans une grange et d
 Les hommes luttèrent dans une prairie bleue et jaune, chassant vers moi dans la barque l' effroi de crapauds de grès gris; les couples dansèrent des gavoltes; et les cornemuses, du haut des tonneaux fraîchement vidés, soufflèrent le vol des rubans de clinquant blanc et de soie violette.
 Les deux mille danseurs de la grange offrirent chacun à Faustroll une galette plate, du lait dur et cubique, et un alcool différent, dans un verre épais comme le grand diamètre d' une améthyste d' évêque et moins capable qu' un dé.
 Le docteur but à tous.
-Chacun jeta vers la mer un caillou, qui écorcha les ampoules de mes mains de novice rameur, ouvertes pour me garantir, et les pommettes pavoisées de Bosse - de - Nage. « Ha ha! » grogna celui - ci pour exprimer sa fureur, mais il se souvint de son serment.
+Chacun jeta vers la mer un caillou, qui écorcha les ampoules de mes mains de novice rameur, ouvertes pour me garantir, et les pommettes pavoisées de Bosse - de - Nage.
+« Ha ha! » grogna celui - ci pour exprimer sa fureur, mais il se souvint de son serment.
 Le docteur revint au son des cloches, avec deux grandes cartes du pays, que lui avait données son guide en pur don; l' un représentait au naturel, figurée en tapisserie, la forêt où s' adossait la place triangulaire : les frondaisons incarnates au - dessus del' herbe d' azur uniforme, et les groupes de femmes, la vague de chaque groupe, avec sa crète de bonnets blancs, se brisant sans fracas au sol, dans un cercle excentrique d' ombre aurore.
 Et il était écrit au - dessus : Le bois d' Amour.
 Sur la seconde carte étaient enseignés tous les produits de cette heureuse terre, les hommes au marché de leur cochons ronds et jaunes, eux ronds et bleus, saucissonnés dans leurs habits.
@@ -344,7 +336,8 @@ Faustroll, l' oeil sur la calamite, conclut que ‘nous ne devions plus être tr
 L' ayant d' abord entendue, nous aperçûmes bientôt la vitre verticale de la mer, contenue par une fortification des plantes toutes en racines qui servent de squelette au sable ; et glissâmes sur la longue plage lisse et baile, entre la viscosité des brise - lames pareils à de parallèles léviathans.
 Le ciel étamé figurait renversés les monuments de l' autre côté du sommeil vert des carcasses ; des vaisseaux y passèrent à l' envers, symétriques à d' invisibles futurs, puis l' image des toits encore lointains du château des Rythmes.
 Hespiaillier infatigable, je tirai les avirons plusieurs heures, sans que Faustroll parût découvrir l' abord enfin proche du château fuyant selon des mirages ; après des rues étroites de maisons désertes espionnant notre venue par les yeux à facettes de compliqués miroirs, nous touchâmes de la fragilité sonore de notre proue l' escalier de bois ajouré du nomade édifice.
-Nous tirâmes l' as sur le rivage, et Bosse - de - Nage enfouit les agrès et les trésors dans une grotte profonde. « Ha! ha! » dit - il, mais nous n' écoutâmes point la suite de son discours.
+Nous tirâmes l' as sur le rivage, et Bosse - de - Nage enfouit les agrès et les trésors dans une grotte profonde.
+« Ha! ha! » dit - il, mais nous n' écoutâmes point la suite de son discours.
 Le palais était une bizarre jonque sur une eau calme ouatée de sable ;
 Faustroll m' affirma des Atlantides dessous.
 Des goélands oscillaient comme les batails de la cloche bleue du ciel, ou les ornements de la libration d' un gong.
@@ -384,7 +377,8 @@ Ses femmes, dont les robes s' épandaient selon les ocellures de la queue des pa
 Et je reculai loin de l' île, perpendiculairement assez pour que la tête de Faustroll me ca - chât en peu de temps le regard du seigneur de Her, et, pareil à la lunette miroitante de la vigie d' un sémaphore, l' oeil artificiel dans son orbite de burgau. XXI DE L' ILE CYRIL A Marcel Schwob.
 L' île Cyril nous parut d' abord comme le feu rouge d' un volcan, ou d' un punch de sang 5" éclaboussant par la chute d' étoiles filantes.
 Puis nous vîmes qu' elle était mobile, cuirassée et quadrangulaire, avec une hélice aux quatre angles, selon les quatre demi - diagonales d' arbres indépendants, lui soumettant toutes les directions.
-Nous sûmes l' avoir approchée à portée de canon, à ce qu' un boulet emporta l' oreille droite et quatre dents de Bosse - de - Nage. « Ha ha! » bégaya le papion ; mais un cylin - drocôie d' acier sur l' apophyse zygomatique gauche fit rebrousser chemin à sa troisième / parole.
+Nous sûmes l' avoir approchée à portée de canon, à ce qu' un boulet emporta l' oreille droite et quatre dents de Bosse - de - Nage.
+« Ha ha! » bégaya le papion ; mais un cylin - drocôie d' acier sur l' apophyse zygomatique gauche fit rebrousser chemin à sa troisième / parole.
 Et sans attendre une réponse plus étendue, l' île cinétique hissa la tête de mort et le chevreau, et Faustroll pavillon de la Grande - Gidouille.
 Après ces salutations, le docteur but joyeusement du gin avec le capitaine Kid, et réussit à le dissuader d' incendier l' as (qui était, malgré son vernis de paraffine, incombustible) et de pendre, après nous avoir dépouillés, Bosse - de - Nage et moi - même à la grande vergue, parce que l' as n' avait pas de grande vergue.
 On pêcha de concert des singes dans une rivière, à l' horreur démantibulée de Bosse - de - Nage, et nous visitâmes l' intérieur de l' île.
@@ -421,7 +415,8 @@ Et le combat aurait été en toutes ses péripéties l' image d' une course espa
 Or le prédicateur gemmé remonta en chaire, pour sa péroraison.
 Et les ouailles purgées de l' humeur crasse de la possession du Mufle, lui applaudirent.
 Quant à nous, nous repartîmes vers les proches cloches de l' île Sonnante, sans que Faustroll consultât les astres plus outre, la route illuminée par les projections, selon des voies en étoile hors de l' église, des hauts vitraux ver - sicolores comme des paroles.
-XXIII DE L' ILE SONNANTE A Claude Terrasse. « Heureux le sage, dit le Chi - Hing, qui dans la vallée où il vit solitaire, se plaît à entendre le son des cymbales ; seul, dans son lit, s' éveillant, il s' écrie :
+XXIII DE L' ILE SONNANTE A Claude Terrasse.
+« Heureux le sage, dit le Chi - Hing, qui dans la vallée où il vit solitaire, se plaît à entendre le son des cymbales ; seul, dans son lit, s' éveillant, il s' écrie :
 Jamais, je le jure, je n' oublierai le bonheur que j' éprouve ! »
 Le seigneur de l' île, nous ayant salué en ces termes, nous mena à ses plantations, fortifiées d' éoliens balisages de bambous.
 Les plantes les plus communes y étaient les taroles, le ravanas - tron, la sambuque, l' archiluth, la pandore, le kin et le tché, la turlurette, la vina, le magre - phla et l' hydraule.
@@ -432,7 +427,8 @@ La température de l' île est modérée selon la consultation de thermomètres 
 Au solstice d' hiver, la sonorité atmosphérique tombe du jurement du chat au vrombissement de la guêpe, du bourdon et à la vibration d' aile de mouche.
 Au solstice d' été, toutes les plantes susnommées fleurissent, jusqu' à la chaleur suraiguë du vol des insectes au - dessus des herbes de notre terre.
 La nuit, Saturne y choque son sistre en son anneau.
-Le soleil et la lune y éclatent, à l' aube et au crépuscule, comme des cymbales divorcées. « Ha ha. » commença Bosse - de - Nage désireux d' assurer sa voix avant de la mêler à la musique universelle ; mais les deux astres se heurtèrent en un baiser réconcilié, et le planteur célébra cet événement retentissant : « Heureux le sage, s' écria - t - il, qui, sur le penchant d' une montagne, se plaît au son des cymbales ; seul dans son lit en s' éveillant, il chante :
+Le soleil et la lune y éclatent, à l' aube et au crépuscule, comme des cymbales divorcées.
+« Ha ha. » commença Bosse - de - Nage désireux d' assurer sa voix avant de la mêler à la musique universelle ; mais les deux astres se heurtèrent en un baiser réconcilié, et le planteur célébra cet événement retentissant : « Heureux le sage, s' écria - t - il, qui, sur le penchant d' une montagne, se plaît au son des cymbales ; seul dans son lit en s' éveillant, il chante :
 Jamais, je le jure, mes désirs n' iront au delà de ce que je possède ! »
 Et Faustroll, avant de prendre congé, but avec lui du génépi distillé sur les sommets, et l' as exhala sous mes rames sa route chromatique.
 Sur deux styles élevés vers les deux astres qui sonnaient les heures d' union et de division de la touche noire et de la touche diurne, un petit enfant nu et un vieillard blanc chantaient vers le double' disque d' argent et d' or :
@@ -492,14 +488,16 @@ A quoi reconnaissez - vous la nudité d' une muraille?
 — C' est bien conclu, reprit Mensonger.
 Les femmes nues ne sont jamais nues, et principalement les vieilles. »
 Il but un grand trait à même sa carafe, dont le point de sustentation au visqueux tapis s' érigea, comme une racine dont on violé la sépulture.
-Le monte - charge caténoïdal des coupes pleines de liquide ou de vent psalmo - diait comme l' incision au ventre d' une rivière du chapelet d' un toueur illuminé. « Présentement, continua l' évêque, buvez et mangez.
+Le monte - charge caténoïdal des coupes pleines de liquide ou de vent psalmo - diait comme l' incision au ventre d' une rivière du chapelet d' un toueur illuminé.
+« Présentement, continua l' évêque, buvez et mangez.
 Visité, sers - nous du homard !
 — N' a - t - il pas été de mode à Paris, hasar - dai - je, de s' offrir par courtoisie de ces animaux, comme un priseur tend sa tabatière?
 mais les gens, à ce que j' ai ouï dire, avaient coutume de les décliner, alléguant que c' étaient des pluripèdes velus et d' une malpropreté repoussante.
 — Ho hu, ho hu, condescendit l' évêque.
 Les homards sont malpropres et non épilés, c' est une preuve peut - être qu' ils sont libres.
 Sort plus noble que celui de cette boîte de corned - beef, que vous portez en sautoir.
-docteur navigateur, comme l' étui d' une jumelle salée à travers laquelle vous aimez scruter les hommes et les choses. « Or, écoutez : Le homard et la boîte de corned - beef que portait le docteur Faustroll en sautoir.
+docteur navigateur, comme l' étui d' une jumelle salée à travers laquelle vous aimez scruter les hommes et les choses.
+« Or, écoutez : Le homard et la boîte de corned - beef que portait le docteur Faustroll en sautoir.
 FABLE A A. - F. Hérold.
 Une boîte de corned - beef, enchaînée comme une lorgnette, Vit passer un homard qui lui ressemblait fraternellement.
 Il se cuirassait d' une carapace dure Sur laquelle était écrit qu' à l' intérieur, comme elle, il était sans arêtes, (Boneless und economical);
@@ -510,7 +508,9 @@ Que si elle consentait à s' acclimater, Près de lui, aux devantures terrestres
 — Hà ha, » médita Bosse - de - Nage, mais il ne développa pas ses idées d' une façon plus complète.
 Et Faustroll interrompit la frivolité des propos par un grand discours.
 XXVII CAPITALEMENT
-Le docteur Faustroll commença : « Je ne crois pas qu' un meurtre inconscient soit pour cela sans raison : il est sans ordre donné par nous, sans lien avec les phénomènes précédents de notre moi, mais il suit certainement un ordre extérieur, il est dans l' ordre des phénomènes extérieurs, et il a une cause perceptible par les sens, qui par conséquent est un signe. « Je n' ai jamais eu envie de tuer qu' après la vision de la tête d' un cheval, qui est devenue pour moi un signe, ou un ordre, ou très exactement un signal, comme le pouce levé dans les cirques, qu' il fallait frapper ; et de peur que vous souriiez, je vous expliquerai qu' il y a sans doute à cela plusieurs raisons. « La vue d' une chose très laide porte certainement à faire ce qui est laid.
+Le docteur Faustroll commença : « Je ne crois pas qu' un meurtre inconscient soit pour cela sans raison : il est sans ordre donné par nous, sans lien avec les phénomènes précédents de notre moi, mais il suit certainement un ordre extérieur, il est dans l' ordre des phénomènes extérieurs, et il a une cause perceptible par les sens, qui par conséquent est un signe.
+« Je n' ai jamais eu envie de tuer qu' après la vision de la tête d' un cheval, qui est devenue pour moi un signe, ou un ordre, ou très exactement un signal, comme le pouce levé dans les cirques, qu' il fallait frapper ; et de peur que vous souriiez, je vous expliquerai qu' il y a sans doute à cela plusieurs raisons.
+« La vue d' une chose très laide porte certainement à faire ce qui est laid.
 Or le laid est le mal.
 La vue d' un état immonde incite aux plaisirs immondes.
 L' aspect d' un mufle féroce et où l' on découvre les os pousse à l' acte féroce et au déshabillage des os.
@@ -518,10 +518,13 @@ Or il n' y a pas au monde d' objet aussi laid que la tête d' un cheval, sinon c
 Et vous savez que le meurtre du Christ fut préfiguré par ceci, que Mosché, afin que pussent s' accomplir les Ecritures, avait permis de manger du bruchus, de l' attacus, de l' ophio - machus et de la locuste, qui sont les quatre espèces de sauterelles.
 — Ha ha! fit Bosse - de - Nage en manière de digression , mais il ne sut trouver d' objection valable.
 — Et encore, poursuivit imperturbablement Faustroll, la sauterelle est - elle un animal en quelque sorte pas monstrueux, ayant ses membres normalement conformés, alors que le cheval; né pour la déformation indéfinie, a déjà acquis, depuis l' origine de son espèce, quoique ayant été doué par la nature de quatre pieds garnis de doigts, de répudier un certain nombre de ces doigts et de sauteler sur quatre ongles solitaires, exagérés et calleux, comme un meuble glisse sur quatre roulettes.
-Le cheval est une table tournante. « Mais la tête seule, sans que je sache définir pourquoi, peut - être pour la seule énormité de ses dents et le rictus abominable qui lui est naturel, est pour moi le signe de toute férocité, ou plutôt le signe de la mort.
+Le cheval est une table tournante.
+« Mais la tête seule, sans que je sache définir pourquoi, peut - être pour la seule énormité de ses dents et le rictus abominable qui lui est naturel, est pour moi le signe de toute férocité, ou plutôt le signe de la mort.
 Et l' Apocalypse n' a dit autre chose pour signifier le quatrième fléau, que : « La Mort était montée sur un cheval pâle ».
 Ce que j' interprète ainsi : « Ceux que vient visiter la Mort aperçoivent d' abord la tête du cheval.
-Et les homicides de la guerre sont nés de l' équitation. « Maintenant, si vous êtes curieux de savoir pourquoi dans la rue, où la tête horrible se multiplie devant tous les véhicules , je suis rarement incité au meurtre, je répondrai qu' un signal, pour être entendu, veut être isolé, et qu' une multitude n' a pas qualité pour donner un ordre ; et de même que pour moi mille tambours ne font pas autant de bruit qu' un seul tambour, et que mille intelligences forment une cohue mue par l' instinct, un individu n' est pas pour moi un individu, qui se présente en même temps que plusieurs de ses pareils, et je soutiens qu' une tête n' est une tête que séparée de son corps. « Et le baron de Munchausen ne fut jamais plus brave à la guerre et apte au massacre que le jour où, la herse franchie, il s' aperçut qu' il avait laissé de l' autre côté de la poutre tranchante la moitié de sa monture.
+Et les homicides de la guerre sont nés de l' équitation.
+« Maintenant, si vous êtes curieux de savoir pourquoi dans la rue, où la tête horrible se multiplie devant tous les véhicules , je suis rarement incité au meurtre, je répondrai qu' un signal, pour être entendu, veut être isolé, et qu' une multitude n' a pas qualité pour donner un ordre ; et de même que pour moi mille tambours ne font pas autant de bruit qu' un seul tambour, et que mille intelligences forment une cohue mue par l' instinct, un individu n' est pas pour moi un individu, qui se présente en même temps que plusieurs de ses pareils, et je soutiens qu' une tête n' est une tête que séparée de son corps.
+« Et le baron de Munchausen ne fut jamais plus brave à la guerre et apte au massacre que le jour où, la herse franchie, il s' aperçut qu' il avait laissé de l' autre côté de la poutre tranchante la moitié de sa monture.
 — Ha ha ! s' écria Bosse - de - Nage avec à - propos ; mais l' évêque Mensonger l' interrompit pour conclure :
 — Enfin, docteur, tant que nous ne converse - rons point avec vous en présence d' un cheval décapité — et on équarrit jusqu' à présent les so - lipèdes au lieu de les guillotiner — il nous sera permis de considérer vos tentations meurtrières comme un paradoxe agréable ».
 Puis il nous endormit d' une harangue maca - ronique grecque dont je ne perçus, secouant ' mes oreilles, que le dernier parfait moyen : « .ΣΕΣΟΎ' ΛΑΣΘΑΙ. »
@@ -541,21 +544,19 @@ Le deuxième jour, des femmes.
 Le troisième, des petits enfants.
 Le quatrième, il y eut une remarquable épizootie chez ceux des quadrupèdes tolérés comestibles, à cette condition qu' ils ruminent et aient l' ongle divisé.
 La combustion safranéc du cinquième jour décima tous les cocus et clercs d' huissiers, mais j' étais d' un grade supérieur.
-DU DOCTEUR FAUSTROLL
-Le crépitement bleu du sixième jour hâta, jusqu' à l' immédiat, la fin `des bicy - clistes, de tous ceux du moins, sans exception, qui agra - fent leurs pantalons de pattes de langouste.
+Le crépitement bleu du sixième jour hâta, jusqu' à l' immédiat, la fin des bicyclistes, de tous ceux du moins, sans exception, qui agrafent leurs pantalons de pattes de langouste.
 La lumière se mua en fumée le septième, et Faustroll eut un peu de relâche.
 Mensonger décrochait les enseignes avec ses mains, ayant requis la courte - échelle de Bosse - de - Nage.
 Et le brouillard croula sans pesanteur en directions centrifuges, devant l' ouverture de la grande porte d' un manège ; et Faustroll fut ressaisi par sa démence.
 L' évêque prit la fuite, non point si vite que Faustroll ne lui arrachât sa mitre vivante ; et moi, le docteur ne me toucha point, parce que j' étais cuirassé de mon nom Panmuphle.
 Mais Faustroll s' accroupit sur le singe papion, lui écartelant les quatre membres au sol, et l' étranglant par derrière.
 Bosse - de - Nage fit signe qu' il voulait parler, et, le docteur ayant relâché la serre de ses ongles : « Ha ha ! » dit - il en deux mots, et ce furent ses dernières paroles.
-7 XXIX DE QUELQUES SIGNIFICATIONS PLUS ÉVIDENTES DES PAROLES
 HA HA ...
 Je gage mes oreilles
 Qu' il est dans quelque allée à bayer aux corneilles, S' approchant pas à pas d' un ha ha qui l' attend,
 Et qu' il n' apercevra qu' en s' y précipitant.
-PIRON.
-Il convient de développer ici le coutumier et succinct discours de Bosse - de - Nage, afin qu' on sache que c' est à raisonnable dessein et non! par moquerie, que nous l' avons toujours rapporté dans son entière étendue, avec la cause la plus vraisemblable de ses interruptions prématurées. « HA, HA », disait - il avec concision ; mais nous n' avons point à nous occuper de cet accident, qu' il n' ajoutait généralement rien autre chose.
+Il convient de développer ici le coutumier et succinct discours de Bosse - de - Nage, afin qu' on sache que c' est à raisonnable dessein et non! par moquerie, que nous l' avons toujours rapporté dans son entière étendue, avec la cause la plus vraisemblable de ses interruptions prématurées.
+« HA, HA », disait - il avec concision ; mais nous n' avons point à nous occuper de cet accident, qu' il n' ajoutait généralement rien autre chose.
 D' abord il est plus judicieux d' orthographier AA, car l' aspiration h ne s' écrivait point dans la langue antique du monde.
 Elle dénonçait chez Bosse - de - Nage l' effort, le labeur servile et obligatoire, et la conscience de son infériorité.
 A juxtaposé à A et y étant sensiblement égal, c' est la formule du principe d' identité : une chose est elle - même.
@@ -664,7 +665,8 @@ Des voix de petites femmes (1) montaient, glorifiant le petit homme.
 LES PETITES FEMMES (piano, 4 temps, trois dièzes à la clef), quelques - unes
 TRANQUILLEMENT (mi - sol - do - mi... si - mi - si, pédale) : « Que ton chagrin soit bercé par nos chants ! (fa la dièze).
 D' autres : Que ta tristesse noire (sol - si dièze) S' envole au murmure léger
-De l' onde (cinq bémols, pédale, CRISTAL - LIN)... « Étranger (sol bécarre - si),
+De l' onde (cinq bémols, pédale, CRISTAL - LIN)...
+« Étranger (sol bécarre - si),
 Si tu veux charmer nos solitudes, Il faudra changer Ton nom (TRANQUILLE) dont les syllables sont trop rudes, (1) Sic.
 — L' Ile du Rêve, oeuvre lyrique de REYNALDO HAHN, paroles de P. LOTI, A. ALEXANDRE et G. HARTMANN.
 Et t' appeler ainsi (la b.) qu' une fleur des sommets (sol dièze, si naturel).
@@ -681,8 +683,10 @@ XXXII
 COMMENT ON SE PROCURA DE LA TOILE A Pierre Bonnard.
 Faustroll fit une suffumigation, le spectre de Bosse - de - Nage, qui n' ayant jamais existé qu' imaginairement ne pouvait être mort.
 définitif, se délimita, dit respectueusement « ha ha », puis se tut, attendant les ordres.
-Je découvris ce jour - là un nouveau sens de cette parole inestimable, à savoir que l' α, commencement de toutes choses, est interrogatif, car il attend une glose dans l' espace présent et l' appendice, plus grand que lui - même, d' une suite dans la durée. « Voici quelques milliards en espèces, dit le docteur, fouillant dans ses goussets agrafés de rubis.
-Tu demanderas à un sergent de ville le chemin du Magasin National, dit Au Luxe bourgeois, et y achèteras des aunes de toile. « Tu te recommanderas de moi aux chefs de rayon Bouguereau, Bonnat, Détaille, Henner, J. - P. Laurens et Tartempion, au tas de leurs commis et aux autres marchands subalternes.
+Je découvris ce jour - là un nouveau sens de cette parole inestimable, à savoir que l' α, commencement de toutes choses, est interrogatif, car il attend une glose dans l' espace présent et l' appendice, plus grand que lui - même, d' une suite dans la durée.
+« Voici quelques milliards en espèces, dit le docteur, fouillant dans ses goussets agrafés de rubis.
+Tu demanderas à un sergent de ville le chemin du Magasin National, dit Au Luxe bourgeois, et y achèteras des aunes de toile.
+« Tu te recommanderas de moi aux chefs de rayon Bouguereau, Bonnat, Détaille, Henner, J. - P. Laurens et Tartempion, au tas de leurs commis et aux autres marchands subalternes.
 Et pour ne point perdre de temps entre les DU DOCTEUR FAUSTROLL griffes de leurs chipotages, tu verseras sans mot dire...
 — Autre que ha ha, tentai - je d' insinuer avec malveillance.
 — Sur chacun un tas d' or, jusqu' à ce que l' enlisement de ses lèvres cesse de répondre.
@@ -693,11 +697,13 @@ Tu jetteras le billon restant par la figure des autres bouf - fres.
 Et à Bosse - de - Nage :
 — Un dernier mot : pour te laver le prognathisme de ta mâchoire des paroles merçantiJes, entre dans une petite salle disposée à cet effet.
 Là fulgurent les icônes des Saints.
-Découvre - 8` toi devant le Pauvre Pêcheur, t' incline devant les Monet, génufiéchis devant les Degas et Whistler, rampe en présence de Cézanne, te prosterne aux pieds de Renoir et lèche la sciure des crachoirs au bas du cadre de l' Olympia!
+Découvre - toi devant le Pauvre Pêcheur, t' incline devant les Monet, génufiéchis devant les Degas et Whistler, rampe en présence de Cézanne, te prosterne aux pieds de Renoir et lèche la sciure des crachoirs au bas du cadre de l' Olympia!
 — Ha ha, » acquiesça définitivement Bosse - de - Nage, et sa fuite emporta les plus chaleureuses protestations de son zèle.
 Se tournant vers moi, le docteur reprit : « Quand Vincent van Gogh eut déluté son creuset, et refroidi la masse en bon état de la vraie pierre philosophale, et qu' au contact de la merveille faite, ce premier jour du monde, réelle, toutes choses se transmutèrent au métal - roi, l' artisan du grand - oeuvre se contenta de traire de l' utilité de ses doigts la somptuosité pointue de sa barbe lumineuse, et dit : « Que c' est beau le jaune ! » « Il me serait aisé de transmuter toutes choses, car je possède aussi cette pierre (il me la fit voir au chaton d' une de ses bagues), mais j' ai expérimenté que le bénéfice ne s' en étend qu' à ceux dont le cerveau est cette pierre même (par un verre de montre enchâssé dans la fontanelle de son crâne, il me fit voir cette pierre une seconde fois) ... »
 Bosse - de -
-Nage rentrait avec onze voitures à décors combles, posées de champ, de toiles non déclouées. « Croyez - vous, mon ami, termina Faustroll, qu' il serait possible de donner de l' or à ces gens, qui restât or et digne de l' or dans leurs gibe - cières ? « Le même dont ils sont maintenant couverts va étaler les aunes équilibrées de son flux aussi sur leur toile.
+Nage rentrait avec onze voitures à décors combles, posées de champ, de toiles non déclouées.
+« Croyez - vous, mon ami, termina Faustroll, qu' il serait possible de donner de l' or à ces gens, qui restât or et digne de l' or dans leurs gibe - cières ?
+« Le même dont ils sont maintenant couverts va étaler les aunes équilibrées de son flux aussi sur leur toile.
 Il est jeune et vierge, de tout point semblable à celui dont les petits enfants se conchient. »
 Et ayant braqué au centre des quadrilatères déshonorés par, des couleurs irrégulières la lance bienfaisante de la machine à peindre, il commit à la direction du monstre mécanique M. Henri Rousseau, artiste peintre décorateur, dit le Douanier, mentionné et médaillé, qui pendant soixante - trois jours, avec beaucoup de soin, maquilla du calme uniforme du chaos la diversité impuissante des grimaces du Magasin National.
 CHEZ LUCULLUS XXXIII DU TERMÈS
@@ -755,7 +761,8 @@ Des monstres vieux, dont est bâti le mur, rient dans leur barbe verte.
 Le coeur reste rouge et bleu, violet sous l' artificiel éloignement de la gaze couleur du temps qu' il tisse.
 LE BOUFFON
 Sa bosse toute ronde cache le monde, comme sa joue rouge ronge les lions de la tapisserie.
-Il a des trèfles et des carreaux sur la soie cramoisie de ses habits, et vers le soleil et la verdure il fait l' aspersion bénissante de son goupillon à grelots. « PLUS LOIN !
+Il a des trèfles et des carreaux sur la soie cramoisie de ses habits, et vers le soleil et la verdure il fait l' aspersion bénissante de son goupillon à grelots.
+« PLUS LOIN !
 PLUS LOIN ! »
 CRIE DIEU
 AUX RÉSIGNÉS
@@ -839,33 +846,50 @@ La mort n' est que pour les médiocres .
 Il est constant néanmoins que je ne suis plus sur la terre.
 Où, je ne le sais que depuis fort peu de temps.
 Car nous sommes tous deux de cet avis que, si l' on peut mesurer ce dont on parle et l' exprimer en nombres, qui sont la seule chose existante, on sait quelque chose de son sujet.
-Or jusqu' à maintenant je savais être ailleurs que sur terre, comme je sais que le quartz est ailleurs, au pays de dureté, et moins honorablement que le rubis ; le rubis que le diamant ; le diamant que les callosités postérieures de Bosse - de - Nage ; et ses trente - deux plis, plus nombreux que ses dents, si l' on compte ceux de sagesse, que la prose de Latente Obscure. « Mais étais - je ailleurs selon la date ou selon la place, avant ou à côté, après ou plus près?
-J' étais dans cet endroit où l' on est quand on a quitté le temps et l' espace, l' éternel infini, Monsieur. « Il était naturel qu' ayant perdu mes livres, mon as en toile métallique, la société de Bosse - de - Nage et de M. René - Isidore Panmuphle, huissier, mes sens, la terre et ces deux vieilles formes Kantiennes de la pensée, j' eusse la même angoisse d' isolement qu' une molécule résiduelle distante des autres de plusieurs centimètres, dans un bon vide moderne de MM. Tait et Dewar.
+Or jusqu' à maintenant je savais être ailleurs que sur terre, comme je sais que le quartz est ailleurs, au pays de dureté, et moins honorablement que le rubis ; le rubis que le diamant ; le diamant que les callosités postérieures de Bosse - de - Nage ; et ses trente - deux plis, plus nombreux que ses dents, si l' on compte ceux de sagesse, que la prose de Latente Obscure.
+« Mais étais - je ailleurs selon la date ou selon la place, avant ou à côté, après ou plus près?
+J' étais dans cet endroit où l' on est quand on a quitté le temps et l' espace, l' éternel infini, Monsieur.
+« Il était naturel qu' ayant perdu mes livres, mon as en toile métallique, la société de Bosse - de - Nage et de M. René - Isidore Panmuphle, huissier, mes sens, la terre et ces deux vieilles formes Kantiennes de la pensée, j' eusse la même angoisse d' isolement qu' une molécule résiduelle distante des autres de plusieurs centimètres, dans un bon vide moderne de MM. Tait et Dewar.
 Et encore la molécule sait peut - être qu' elle est distante de plusieurs centimètres!
-Pour un centimètre, seul signe valable pour moi d' espace, puisque mesurable et moyen de mesure, et la seconde de temps solaire moyen, en fonction de laquelle battait le coeur de mon corps terrestre, j' aurais donné mon âme, Monsieur, bien qu' elle me soit utile à vous informer de ces curiosités. « Le corps est un véhicule plus nécessaire parce qu' il soutient les vêtements, et par les vêtements, des poches.
-J' avais oublié dans mes poches mon centimètre, copie authentique en laiton de l' étalon traditionnel, plus portative que la terre ou même le quadrant terrestre, et qui permet aux âmes errantes et posthumes des savants interplanétaires de ne plus s' occuper de ce vieux globe ni même du C. G. S., en ce qui concerne leurs mesures d' étendue, grâce à MM. Méchain et Delambre. « Quant à ma seconde de temps solaire, moyen, fussé - je resté sur la terre que je ne serais pas sûr de la conserver encore et de pouvoir en fonction d' elle valablement mesurer le temps. « Si au cours de quelques millions d' années je n' ai pas terminé mon oeuvre pataphysique, il est assuré que les durées de rotation et de révolution de la terre seront devenues toutes deux différentes de leur actuelle valeur.
-Une bonne montre, que j' aurais laissé marcher tout ce temps - là, m' aurait coûté des prix excessifs, et puis je ne fais pas d' expériences séculaires, me moque de la continuité et juge plus esthétique de garder en poche le Temps lui - même ou l' unité de temps, qui en est la photographie instantanée. « Ce pourquoi je possédais un oscillateur mieux disposé, pour la constance et l' exactitude absolue, que le balancier d' un chronomètre, et dont la période de vibration aurait eu la même valeur, à 1/1000 près, dans un certain nombre de millions d' années.
+Pour un centimètre, seul signe valable pour moi d' espace, puisque mesurable et moyen de mesure, et la seconde de temps solaire moyen, en fonction de laquelle battait le coeur de mon corps terrestre, j' aurais donné mon âme, Monsieur, bien qu' elle me soit utile à vous informer de ces curiosités.
+« Le corps est un véhicule plus nécessaire parce qu' il soutient les vêtements, et par les vêtements, des poches.
+J' avais oublié dans mes poches mon centimètre, copie authentique en laiton de l' étalon traditionnel, plus portative que la terre ou même le quadrant terrestre, et qui permet aux âmes errantes et posthumes des savants interplanétaires de ne plus s' occuper de ce vieux globe ni même du C. G. S., en ce qui concerne leurs mesures d' étendue, grâce à MM. Méchain et Delambre.
+« Quant à ma seconde de temps solaire, moyen, fussé - je resté sur la terre que je ne serais pas sûr de la conserver encore et de pouvoir en fonction d' elle valablement mesurer le temps.
+« Si au cours de quelques millions d' années je n' ai pas terminé mon oeuvre pataphysique, il est assuré que les durées de rotation et de révolution de la terre seront devenues toutes deux différentes de leur actuelle valeur.
+Une bonne montre, que j' aurais laissé marcher tout ce temps - là, m' aurait coûté des prix excessifs, et puis je ne fais pas d' expériences séculaires, me moque de la continuité et juge plus esthétique de garder en poche le Temps lui - même ou l' unité de temps, qui en est la photographie instantanée.
+« Ce pourquoi je possédais un oscillateur mieux disposé, pour la constance et l' exactitude absolue, que le balancier d' un chronomètre, et dont la période de vibration aurait eu la même valeur, à 1/1000 près, dans un certain nombre de millions d' années.
 Un diapason.
-Sa période avait été déterminée avec soin, avant mon embarquement dans l' as, comme vous le prescrivez, par notre confrère le professeur Macleod, en fonction de la seconde de temps solaire moyen, les branches du diapason successivement dirigées vers le haut, le bas et l' horizon, afin d' éliminer la minime influence de la gravité terrestre. « Je n' avais même plus mon diapason.
+Sa période avait été déterminée avec soin, avant mon embarquement dans l' as, comme vous le prescrivez, par notre confrère le professeur Macleod, en fonction de la seconde de temps solaire moyen, les branches du diapason successivement dirigées vers le haut, le bas et l' horizon, afin d' éliminer la minime influence de la gravité terrestre.
+« Je n' avais même plus mon diapason.
 Songez à la perplexité d' un homme hors du temps et de l' espace, qui a perdu sa montre, et sa règle de mesure, et son diapason.
-Je crois, Monsieur, que c' est bien cet état qui constitue la mort. « Mais je me suis souvenu de vos enseignements et de mes anciennes expériences.
+Je crois, Monsieur, que c' est bien cet état qui constitue la mort.
+« Mais je me suis souvenu de vos enseignements et de mes anciennes expériences.
 Étant donc simplement NULLE PART, ou QUELQUE PART, ce qui est égal , j' ai trouvé de quoi fabriquer un morceau de verre, ayant rencontré divers démons, dont le Distributeur de Maxwell, qui a groupé des modes particuliers de mouvement dans un liquide continu répandu partout (ce que vous appelez des petits solides élastiques ou des molécules), au gré de mon désir, en figure de silicate d' alumine.
 J' ai tracé les traits, GESTES ET OPINIONS allumé les deux chandelles, le tout avec un peu de temps et de persévérance, ayant dû fabriquer sans même l' aide d' instruments en silex.
-J' ai vu les deux rangées de spectres, et le spectre jaune m' a rendu mon centimètre par la vertu du chiffre 5,892 × 10⁻⁵. « A présent que nous voici bien et confortable, et en terre ferme, selon mon atavique habitude, puisque je porte sur moi la milliardième partie de sa circonférence, ce qui est plus honorable que d' être attaché par l' attraction à la surface de sa sphère, souffrez que je note pour vous quelques impressions. « L' éternité m' apparaît sous la figure d' un éther immobile, et qui par suite n' est pas lumineux.
+J' ai vu les deux rangées de spectres, et le spectre jaune m' a rendu mon centimètre par la vertu du chiffre 5,892 × 10⁻⁵.
+« A présent que nous voici bien et confortable, et en terre ferme, selon mon atavique habitude, puisque je porte sur moi la milliardième partie de sa circonférence, ce qui est plus honorable que d' être attaché par l' attraction à la surface de sa sphère, souffrez que je note pour vous quelques impressions.
+« L' éternité m' apparaît sous la figure d' un éther immobile, et qui par suite n' est pas lumineux.
 J' appellerai circulaire mobile et périssable l' éther lumineux.
-Et je déduis d' Aristote (Traitè du Ciel) qu' il sied d' écrire ÉTHERNITÉ. « L' éther lumineux et toutes les particules de la matière, que je distingue parfaitement, mon corps astral ayant de bons yeux pataphysiques, a la forme, à première vue, d' un système de tringles rigides articulés et de volants animés d' un rapide mouvement de rotation, portés par quelques - unes de ces tringles.
+Et je déduis d' Aristote (Traitè du Ciel) qu' il sied d' écrire ÉTHERNITÉ.
+« L' éther lumineux et toutes les particules de la matière, que je distingue parfaitement, mon corps astral ayant de bons yeux pataphysiques, a la forme, à première vue, d' un système de tringles rigides articulés et de volants animés d' un rapide mouvement de rotation, portés par quelques - unes de ces tringles.
 Il répond ainsi exactement aux conditions mathématiques idéales posées par Navier, Poisson et Cauchy.
 De plus il constitue un solide élastique capable de déterminer la rotation magnétique du plan de polarisation de la lumière, découverte par Faraday.
-Je verrai, dans mes loisirs posthumes, à l' empêcher de tourner dans son ensemble et à la réduire à l' état de simple peson à ressort. « Je crois d' ailleurs qu' on pourrait rendre beaucoup moins compliqué le peson à ressort ou cet éther lumineux en substituant aux gy - rostats articulés des systèmes de circulations de liquides infiniment grands à travers des ouvertures de solides infiniment petits. « Il ne perdra à ces modifications aucune de ses qualités.
+Je verrai, dans mes loisirs posthumes, à l' empêcher de tourner dans son ensemble et à la réduire à l' état de simple peson à ressort.
+« Je crois d' ailleurs qu' on pourrait rendre beaucoup moins compliqué le peson à ressort ou cet éther lumineux en substituant aux gy - rostats articulés des systèmes de circulations de liquides infiniment grands à travers des ouvertures de solides infiniment petits.
+« Il ne perdra à ces modifications aucune de ses qualités.
 L' éther m' a paru au toucher élastique comme la gelée et cédant à la pression comme la poix des cordonniers d' Ecosse ».
 XXXVIII DU SOLEIL, SOLIDE FROID
 Deuxième lettre à lord Kelvin « Le soleil est un globe froid, solide et homogène.
 Sa surface est divisée en carrés d' un mètre, qui sont les bases de longues pyramides renversées, filetées, longues de 696999 kilomètres, les pointes à un kilomètre du centre.
-Chacune est montée sur un écrou et sa tendance au centre entraînerait, si j' avais le temps, la rotation d' une palette, fixée à sa partie supérieure, dans quelques mètres de liquide visqueux dont est vernie toute la surface... « Je m' intéressais peu à ce mécanique spectacle n' ayant point retrouvé ma seconde de temps solaire moyen et m' affligeant de la perte de mon diapason.
-Mais j' ai pris un morceau de laiton et façonné une roue où j' ai taillé deux mille dents, imitant tout ce qu' en pareille circonstance ont réussi Monsieur Fizeau, lord Rayleigh et Mrs Sidgwick. « Subitement, la seconde retrouvée par la valeur absolue de 9413 kilomètres par elle - même de l' unité Siemens, les pyramides, forcées de descendre sur leurs vis puisqu' elles se trouvaient comme moi dans le temps moteur, on dû pour rester stables s' équilibrer par l' emprunt d' une quantité suffisante de mouvemen répulsif à sir Humphry Davy ; et la matière fixée, les arbres filetés et les vis ont disparu.
+Chacune est montée sur un écrou et sa tendance au centre entraînerait, si j' avais le temps, la rotation d' une palette, fixée à sa partie supérieure, dans quelques mètres de liquide visqueux dont est vernie toute la surface...
+« Je m' intéressais peu à ce mécanique spectacle n' ayant point retrouvé ma seconde de temps solaire moyen et m' affligeant de la perte de mon diapason.
+Mais j' ai pris un morceau de laiton et façonné une roue où j' ai taillé deux mille dents, imitant tout ce qu' en pareille circonstance ont réussi Monsieur Fizeau, lord Rayleigh et Mrs Sidgwick.
+« Subitement, la seconde retrouvée par la valeur absolue de 9413 kilomètres par elle - même de l' unité Siemens, les pyramides, forcées de descendre sur leurs vis puisqu' elles se trouvaient comme moi dans le temps moteur, on dû pour rester stables s' équilibrer par l' emprunt d' une quantité suffisante de mouvemen répulsif à sir Humphry Davy ; et la matière fixée, les arbres filetés et les vis ont disparu.
 Le soleil fait visqueux s' est mis à tourner sur so par tours de vingt - cinq jours ; dans quelque: années vous y verrez des taches et quelque: quarts de siècle découvrirez leur période.
-Bien tôt même son grand âge se recroqueviller: jusqu' à rapetisser de trois quarts. « Et maintenant je m' initie à la science de toutes choses (vous recevrez trois fragment nouveaux de deux miens futurs livres) ayan reconquis toute perception, qui est la durée e la grandeur.
-Je comprends que le poids de m roue de laiton, que je garde entre l' hébétude des doigts abstraits de mon corps astral, est la quatrième puissance de huit mètres par heure; j' espère, dépourvu de mes sens, reconnaître la couleur, la température, la saveur, et des qualités autres que les six, au seul nombre des radiants par seconde... « Adieu : j' entrevois déjà, perpendiculairement au soleil, la croix au centre bleu, les houppes rouges vers le nadir et et le zénith, et l' or horizontal des queues de renard ».
+Bien tôt même son grand âge se recroqueviller: jusqu' à rapetisser de trois quarts.
+« Et maintenant je m' initie à la science de toutes choses (vous recevrez trois fragment nouveaux de deux miens futurs livres) ayan reconquis toute perception, qui est la durée e la grandeur.
+Je comprends que le poids de m roue de laiton, que je garde entre l' hébétude des doigts abstraits de mon corps astral, est la quatrième puissance de huit mètres par heure; j' espère, dépourvu de mes sens, reconnaître la couleur, la température, la saveur, et des qualités autres que les six, au seul nombre des radiants par seconde...
+« Adieu : j' entrevois déjà, perpendiculairement au soleil, la croix au centre bleu, les houppes rouges vers le nadir et et le zénith, et l' or horizontal des queues de renard ».
 XXXIX SELON IBICRATE LE GÉOMÈTRE le Géomètre et son divin maître Sophrotatos l' Arménien, traduits et mis en lumière par le docteur Faustroll) .
 I.
 — Fragment du Dialogue sur l' Érotique.
@@ -1005,7 +1029,8 @@ Quant à leur langage, nous n' y avons relevé aucune prolixité extraordinaire 
 Nous ne prétendons ici qu' à instaurer une brève psychologie du gendarme, ainsi que nous sommes déjà attaché partiellement à celle du militaire et du magistrat.
 Il était à prévoir que l' habitude, contractée au fur de longues générations, d' être à l' affût de tous crimes et délits, ou, mieux, d' un nombre restreint et catalogué de crimes et délits, leur ait forgé un état d' esprit spécial, bien défini à cette heure et devenu propre à leur espèce.
 Le moment est donc bien choisi de sonder ces obscurs cerveaux.
-Il s' y passe, d' après nos expériences, ceci, qui éton - ncra peut - être l' honnête homme, que le gendarme interprète autrement que cet honnête homme une action légalement mauvaise. « Mauvaise » lui indique seulement qu' il ait à y exercer, contre rémunération, son office ; en termes plus clairs, que toute mauvaise action est pour lui bonne, parce qu' elle le fait vivre.
+Il s' y passe, d' après nos expériences, ceci, qui éton - ncra peut - être l' honnête homme, que le gendarme interprète autrement que cet honnête homme une action légalement mauvaise.
+« Mauvaise » lui indique seulement qu' il ait à y exercer, contre rémunération, son office ; en termes plus clairs, que toute mauvaise action est pour lui bonne, parce qu' elle le fait vivre.
 Nous voici amené à flétrir les infâmes desiderata du gendarme : son pays de Cocagne serait celui où aucun citoyen ne chasserait, sinon en temps prohibé et, bien entendu, sans permis ; ne pêcherait sinon par des moyens défendus ; où le viol serait un très grand nombre de fois quotidien et l' assassinat la forme la plus courante des relations sociales.
 Toutefois, malgré nos exhortations tendant à obtenir des confidences précises, il nous paraît que le gendarme n' aspire encore que confusément à cet avenir béni ; et nous n' en voyons d' autre explication que son rare désintéressement.
 Ainsi, il n' ose approuver le meurtre quand il ne lui rapporte rien, c' est - à - dire quand il est autorisé par la loi.
@@ -1164,7 +1189,8 @@ Selon Willughby, cette inflexion double n' appartiendrait qu' au cygne sauvage (
 Pourquoi elle s' atrophie chez le cygne commun (cycnus olor), domestique et sédentaire, notre théorie l' élucide.
 Les auteurs qui, jusqu' à présent, ont cru traiter du chant du cygne n' ont examiné que son cri.
 Cette trachée repliée deux fois réalise le même dispositif que les organes vocaux du tramway sauvage et de l' automobile, et comme eux elle ne peut produire qu' une note.
-En vain l' abbé Arnaud l' a t - il excitée à la modulation par l' exemple de son violon. « Strideur, accent de menace ou de colère », témoigne Buffon.
+En vain l' abbé Arnaud l' a t - il excitée à la modulation par l' exemple de son violon.
+« Strideur, accent de menace ou de colère », témoigne Buffon.
 Il nous est arrivé à tous de fuir quand une interjection analogue traduisait l' état d' esprit, voisin de la fureur, de l' omnibus.
 Il est aisé de déduire que le cri du cygne tend à une seule fin, faire ranger les autres êtres vivants sur son passage.
 A cet effet, son long cou ne s' articule de pas moins de vingt - trois vertèbres, ce qui lui permet de porter une grande puissance de son sur un point donné, en tournant la tête.
@@ -1391,7 +1417,7 @@ A quand sa réhabilitation?
 Il est vrai que c' était un civil.
 HOMMAGES
 POSTHUMES
-` Une monstrueuse illégalité judiciaire étant à la veille de se commettre , nous entendons la condamnation de M. Honoré Ardisson ou son SPÉCULATIONS internement dans un asile d' aliénés, il nous paraît urgent de dévoiler à quels mobiles, plus forts que la loi, obéissent les magistrats, qui violent ainsi à leur manière.
+Une monstrueuse illégalité judiciaire étant à la veille de se commettre , nous entendons la condamnation de M. Honoré Ardisson ou son SPÉCULATIONS internement dans un asile d' aliénés, il nous paraît urgent de dévoiler à quels mobiles, plus forts que la loi, obéissent les magistrats, qui violent ainsi à leur manière.
 Le législateur, en effet, dans sa sagesse, s' est bien gardé de dé - sapprover le viol des cadavres : il ne l' a prévu par aucun article du Code, ce qui équivaut, comme on sait, selon l' esprit du Code, à l' encourager.
 En ceci le législateur se montre d' accord, comme en tout, avec la conscience du citoyen vertueux, dont il ne fait qu' enregistrer et préciser les élans.
 Toutefois, la plupart des contribuables n' ont coutume de pratiquer ce viol de cadavres que sous une forme superficielle, encore qu' ostentatoire.
@@ -1571,7 +1597,8 @@ Le mot d' Alphonse Karr : « Que MM. les assassins commencent », a fait tous le
 Tant il est naturel à l' homme de répéter avec satisfaction des choses imprimées, même quand il ne se rappelle plus bien où elles sont imprimées ni si elles ont un sens quelconque.
 C' est ainsi que M. Émile Ollivier, de l' Académie française, écrit : « Je suis toujours resté insensible aux belles phrases... »
 Mais il ne tarde point à citer, lui aussi, la Phrase, en attestant : « Ce mot d' un homme d' esprit a clos la question. »
-De même que maintes personnalités notables se sont efforcées à élaborer, au - dessous de la boutade de Karr, leurs signatures individuelles, il nous paraît d' une excellente division du travail de nous dévouer à notre tour à la tâche, oiseuse peut - être, d' explorer si ladite boutade possède quelque signification. « Que MM. les assassins commencent » équivaudrait à ceci, si nous examinons d' abord le sens le moins follement absurde : « Que MM. les assassins (assassin, celui qui a tué, disent les dictionnaires), ayant tué, ne récidivent pas.
+De même que maintes personnalités notables se sont efforcées à élaborer, au - dessous de la boutade de Karr, leurs signatures individuelles, il nous paraît d' une excellente division du travail de nous dévouer à notre tour à la tâche, oiseuse peut - être, d' explorer si ladite boutade possède quelque signification.
+« Que MM. les assassins commencent » équivaudrait à ceci, si nous examinons d' abord le sens le moins follement absurde : « Que MM. les assassins (assassin, celui qui a tué, disent les dictionnaires), ayant tué, ne récidivent pas.
 Pour commencer à ne pas assassiner, il faut, logiquement, avoir assassiné.
 Mais s' ils ont antérieurement assassiné, cela a suffi pour qu' ils aient déjà été mis à mort.
 Cette hypothèse démente est d' ailleurs aussitôt écartée, si nous nous en référons à l' opinion de M. E. Ménegoz, l' honorable doyen de la Faculté de Théologie protestante de Paris :
@@ -1727,7 +1754,8 @@ i L' AIGUILLAGE DU CHAMEAU
 Au moment où un écrivain célèbre est surpris par une mort sournoise, c' est un délassement pour l' esprit humain d' observer cette compensation si toutefois deux destructions peuvent créer un équilibre — : la catastrophe d' Arleux.
 Par des moyens simples, mais peu faillibles, la science moderne s' y est employée à préserver la terre habitable d' une pléthore d' êtres humains non célèbres.
 Affectons de croire, pour qu' un tribunal trop sévère n' entrave point les bienfaits un peu brusques de cette science, affectons de croire que ce sont des bienfaits inconscients, et, pour être clair, que cette science est inconsciente.
-S' il était nécessaire d' en cataloguer les méthodes, on les définirait assez bien la guerre en temps de paix, progrès évident sur la guerre proprement dite ou . « guerre en temps de guerre », car dans cette guerre nouvelle on n' a 19° pas à craindre que quelque ennemi indiscipliné pare ou rende les coups.
+S' il était nécessaire d' en cataloguer les méthodes, on les définirait assez bien la guerre en temps de paix, progrès évident sur la guerre proprement dite ou .
+« guerre en temps de guerre », car dans cette guerre nouvelle on n' a 19° pas à craindre que quelque ennemi indiscipliné pare ou rende les coups.
 Or, étant donné qu' un guerrier légitimement dit ne rougit point, sinon dans sa culotte — cette partie du vêtement fut de tout temps, comme on sait, l' expression de la pudeur — s' il ne rougit point d' enrayer dans la mesure de ses capacités individuelles ce surcroît obscur de population, notre impartialité nous fait un devoir de féliciter, comme nous le féliciterions lui - même, les habiles organisateurs de cette grande victoire, la catastrophe de chemin de fer d' Arleux.
 Les progrès de l' armement sont identiques, on n' en peut douter, dans la guerre et dans la chasse : de même que le braconnier muni de cet engin balistique, le fusil , tend à devenir une espèce éteinte , et que les braconniers modernes préfèrent à ce fusil, qui ne tue qu' une pièce à la fois et au plus , des appareils perfectionnés qui raflent en silence une grande quantité de gibier ; de même , les héros du vaste coup de filet d'
 Arleux doivent s ' estimer au dessus de la gloire militaire , pour les mêmes raisons qu ' un pêcheur au travail ou à la senne dédaigne l' homme au chapeau de paille — ce chapeau fut - il rayé ou constellé — qui s' évertue à (si c' est bien là l' expression exacte) faire sortir le goujon de son caractère.
@@ -1775,7 +1803,8 @@ Par une semblable méthode pédagogique, une quinzaine avant l' avènement de l'
 Les philosophes ont longtemps débattu cette question : l' homme pourrait - il penser sans le secours des mots?
 La biologie semble l' avoir tranchée aujourd' hui.
 Haeckel différencie l' homme, ce « catarrhinien oriental » du singe muet (alalus) en ceci que son larynx s' est particulièrement assoupli.
-La découverte n' est pas neuve : Homère ne sépare pas le substantif « hommes » de son épithète « à la voix articulée », comme si de son temps, ce fût là une faculté récemment acquise. « La parole, c' est l' homme », aurait écrit Buffon, s' il n' avait trop bien su qu' il ne s' adressait qu' à des civilisés.
+La découverte n' est pas neuve : Homère ne sépare pas le substantif « hommes » de son épithète « à la voix articulée », comme si de son temps, ce fût là une faculté récemment acquise.
+« La parole, c' est l' homme », aurait écrit Buffon, s' il n' avait trop bien su qu' il ne s' adressait qu' à des civilisés.
 <div style="font - family: serif; "> <div style="display: flex; justify - content: space - between; "> <div style="font - size: 1.2em; font - weight: bold; "> <span style="font - style: italic;">.</span> 228
 </div>
 <div style="font - size: 1.2em; font - weight: bold; margin - left: auto; "> SPÉCULATIONS
@@ -1905,20 +1934,24 @@ Un peu fermé, parce que les tuyaux, ça s' évente, être du Jockey économise 
 Les membres de ce bar, vêtus de complets à carreaux et coiffés de casquettes, passent leur time à boire du stout, du porter et de l' Old Tom gin, en mangeant des mutton - chops avec des pickles.
 C' est bien un club de jockeys, car on les pèse à la réception.
 On peut à l' instar, ou plutôt à l' inverse du bon jockey Balthasar, être pesé dans la balance du pesage et trouvé trop lourd.
-Alors on a deux parrains qui vous prennent par dessous les bras et vous « soulagent ». « Soulagent », c' est le mot.
+Alors on a deux parrains qui vous prennent par dessous les bras et vous « soulagent ».
+« Soulagent », c' est le mot.
 Parlons d' un autre mot.
 Le comte de Cambronne est membre du Jockey.
 Vieille noblesse, antiquité qui suffirait du moins à un vin ou à un alcool : 1814!
 Edouard VII aussi, du temps où il n' était encore que prince de Galles, est membre du Jockey.
 Il est bon qu' il y ait au moins un Anglais dans toute société bien parisienne à titre anglais.
 On craignait que la rencontre entre Edouard VII et M. de Cambronne ne fût froide, ou, alternative pire, collisionnaire. Il n' en a rien été.
-Le roi tapa tout de suite sur le ventre au comte. « Mais nous en avons, de votre famille, en Angleterre ; seulement, ça se prononce : Kean Brown. « Donc, quand votre grand - père, Monsieur, proféra son cri de guerre, lord Kean Brown (cousin, entre parenthèses, du royal George Brown, mort naguère à Mantes), lord Kean Brown lui répondit par le sien.
+Le roi tapa tout de suite sur le ventre au comte.
+« Mais nous en avons, de votre famille, en Angleterre ; seulement, ça se prononce : Kean Brown.
+« Donc, quand votre grand - père, Monsieur, proféra son cri de guerre, lord Kean Brown (cousin, entre parenthèses, du royal George Brown, mort naguère à Mantes), lord Kean Brown lui répondit par le sien.
 Nous avons une statue à Londres — nous aussi nous em - paillons nos grands hommes — qui le représente dans ce beau geste vocal.
 Quand vous vous exclamâtes...
 — Oh !
 Sire, protesta modestement M. de Cambronne.
 — Mettons : « La garde meurt et ne se rend pas », à cela lord Kean Brown répondit EAT.
-Prononcez : ite, ça veut dire : manger. « Comme quoi les Anglais tirèrent les derniers. » ... Et on changea de conversation.
+Prononcez : ite, ça veut dire : manger.
+« Comme quoi les Anglais tirèrent les derniers. » ... Et on changea de conversation.
 On évita les sujets qui pouvaient paraître déplacés au roi :
 1
 ° Jeanne d' Arc : une alcoolique, elle se nourrissait de pain dans du vin!
@@ -2010,8 +2043,10 @@ C' est une manière de voir.
 Alors que tant d' hommes de cheval ne voient point la paille, ou le foin, qui est dans leur oeil, il est grandiose de fourrer dans le sien une poutre armée.
 Le péril couru par le jockey est curieux à considérer.
 De là vient l' expression, sportive d' ailleurs : « courir » un danger.
-On connaît l' exhibition sensationnelle de Mazeppa sur le turf. « Il court, il vole, il tombe… »
-Tomber copieusement, voilà ce qui est important, Mazeppa montait en obstacles. « Et se relève roi ».
+On connaît l' exhibition sensationnelle de Mazeppa sur le turf.
+« Il court, il vole, il tombe… »
+Tomber copieusement, voilà ce qui est important, Mazeppa montait en obstacles.
+« Et se relève roi ».
 Façon de dire qu' en son temps, il gagna le Grand - Prix.
 Mazeppa avait un système bien à lui de se tenir en selle.
 Le résultat en prouva l' excellence.
@@ -2019,12 +2054,12 @@ Aux temps mérovingiens, des écuyères obtinrent la célébrité par une autre 
 La monte américaine a tué tout cela.
 Le centre de gravité est déplacé en avant, et en réalité le cheval ne galope pas, mais « tombe vers le centre de la terre, reporté indéfiniment devant son encolure ».
 Cela va fort vite.
-`Aussi dit - on : le « vol » à l' américaine.
+Aussi dit - on : le « vol » à l' américaine.
 A l' école de Saumur, on en est resté à la saine tradition française.
 On n' y saurait parler avec plus d' éloges d' un bon cavalier qu' en ces termes : Il monte comme Buffon.
 Quand, dans bien des siècles, il n' y aura plus de chevaux, le souvenir impérissable du Derby d' Epsom sera conservé, pieusement, dans les bocaux des pharmacies : Sel d' Epsom!
 Et le bon sportman, en son cabinet silencieux, écoutera courir et tressaillir au long du turf de ses entrailles l' héroïque chevauchée.
-L' EXISTENCE DU PAPE de Rome, dialoguent).
+L' EXISTENCE DU PAPE de Rome, dialoguent.
 MARFORIO
 Quelles nouvelles?
 PASQUIN
@@ -2125,7 +2160,8 @@ Notez que, des trois couleurs de l' écharpe, le bleu, voué à la Vierge, est u
 Le blanc est là, occasionnellement, pour rappeler qu' il y a certains choux, ripolinés ainsi, à éviter.
 Ce n' est pas sous ceux - là qu' on trouve les enfants.
 Les enfants se trouvent dessous un maire.
-Au commandement : « Allez, Madame et Monsieur » de même que certains duellistes y prendraient un prétexte à rompre incontinent, 22' Madame et Monsieur se précipitent, avec ensemble, dans un wagon et désertent le territoire de notre belle patrie citée plus haut. « La trépidation excitante des trains... »
+Au commandement : « Allez, Madame et Monsieur » de même que certains duellistes y prendraient un prétexte à rompre incontinent, 22' Madame et Monsieur se précipitent, avec ensemble, dans un wagon et désertent le territoire de notre belle patrie citée plus haut.
+« La trépidation excitante des trains... »
 Sans doute; mais comment, alors, faisaient Adam et Eve?
 Il est vrai que, troussés en cueilleurs de pommes, ils grimpaient aux arbres.
 Ceci soulève un grave problème de droit.
@@ -2253,7 +2289,7 @@ Quant à la chasse, ce n' est pas la peine d' en parler:
 Les rossignols se sont tus depuis mai et les poules des voisins se font rares.
 Mon ami, je le vois, nonobstant — dirons - nous avec l' autorité d' un gendarme — vous n' êtes pas heureux, je veux faire votre bonheur.
 Et pas de rouspétence, qui que vous soyez, cycliste ou chauffeur, suivez - nous, montez sur votre mécanique, payez votre dette à la société en soulevant sous vos roues la poussière des routes nationales pour la rejeter derrière vous.
-Que vos circumvillégiateurs, vos voisins soient obligés d' épousseter leurs boules en verre et de laver leurs futaies métalliques à grande `eau.
+Que vos circumvillégiateurs, vos voisins soient obligés d' épousseter leurs boules en verre et de laver leurs futaies métalliques à grande eau.
 En route vers une villégiature meilleure !
 Il est un site agreste... disions - nous en commençant.
 Contemplez, du haut de cette descente, qui n' est pas dangereuse — que ce soit Villejuif, que ce soit le rond - point de la Défense — contemplez Paris.
@@ -2313,7 +2349,8 @@ Et de même que la gazelle altérée cherche une oasis dans le désert, ces bons
 Des trains de pèlerins transportent, à prix réduits, les personnes pieuses aussi, mais d' une fortune relativement modeste.
 Des personnes plus pauvres encore, à défaut d' eau de Lourdes, dégustent de l' eau de Saint - Galmier et de mille autres saints.
 Car l' eau de Lourdes ne supporte pas le voyage, il est bon que les hôteliers vivent, ainsi que les compagnies, de qui les voies de fer sont impénétrables, à l' instar de celles, plus douces, de Jésus.
-Et le bon Dieu n' a - t - il pas dit : si la montagne ne vient pas à vous, allez à la montagne, ou à la grotte? « Mon cher enfant, si vous voulez bien souscrire à cette bonne oeuvre d' une petite somme, j' ai imaginé, pour le bien des fidèles, l' édifiante entreprise de « l' Eau de Lourdes à domicile », aseptisée, pour une modeste obole de supplément, par des filtres Chamberland, système Pasteur, et aromatisée, pour les personnes délicates, à leur parfum favori.
+Et le bon Dieu n' a - t - il pas dit : si la montagne ne vient pas à vous, allez à la montagne, ou à la grotte?
+« Mon cher enfant, si vous voulez bien souscrire à cette bonne oeuvre d' une petite somme, j' ai imaginé, pour le bien des fidèles, l' édifiante entreprise de « l' Eau de Lourdes à domicile », aseptisée, pour une modeste obole de supplément, par des filtres Chamberland, système Pasteur, et aromatisée, pour les personnes délicates, à leur parfum favori.
 On trouve au siège de l' oeuvre en location, ou l' on reçoit contre remboursement en toute propriété, le collier - douche, le tub - piscine et, eh, eh, eh, eh, divers petits mécanismes intimes et hydrauliques assurant aux dames pieuses la naissance d' enfants mâles, ou à leur gré leur non - naissance, accom - pagnée du salut de ces bonnes petites âmes grâce à un baptême, si j' ose dire anticipé, avant qu' elles aient vu le jour.
 — Vous buvez de cette eau, l' abbé ?
 — Eh bien ! eh bien ! voilà qui est une excellente plaisanterie, sans outrepasser toutefois les bornes d' une honnête décence.
@@ -2329,12 +2366,16 @@ Pour joindre l' utile au naturel, la municipalité en a fait une fontaine et en 
 Des auteurs profanes disent que c' est là la statue d' un petit enfant qui offensa le Seigneur en faisant pipi sur le passage d' une procession et fut condamné, Juif - Errant nouveau et chrétien, à continuer jusqu' au Jugement.
 Le sculpteur fut brûlé comme bougre.
 Les auteurs sacrés ont découvert que ce n' était rien moins que l' effigie miraculeuse de l' enfant Jésus, dispensant le fleuve de ses bénédictions sur le monde, et le symbole du baptême.
-C' est une croyance populaire et véridique qu' au temps de la vie humaine de notre Seigneur, partout où il épancha certaines nécessités, la végétation crût miraculeusement et réalisa une flore presque tropicale... « Mon oeuvre consiste, mon cher élève, à transformer, par une canalisation ingénieuse, toutes les statues de la vierge à l' Enfant en « vierges au Manneken - Pis ».
+C' est une croyance populaire et véridique qu' au temps de la vie humaine de notre Seigneur, partout où il épancha certaines nécessités, la végétation crût miraculeusement et réalisa une flore presque tropicale...
+« Mon oeuvre consiste, mon cher élève, à transformer, par une canalisation ingénieuse, toutes les statues de la vierge à l' Enfant en « vierges au Manneken - Pis ».
 On met le gaz dans les églises.
 Pourquoi pas l' eau ?
 Un bénitier recevra le trop - plein et un tronc les aumônes des fidèles.
-La statuaire moderne et perfectionnée de Saint - Sulpice donnera, si les ressources de l' oeuvre prospèrent, au divin Enfant, une attitude plus propre à faire illusion : sa mère le tiendra accroupi loin du sol, comme font les bonnes nourrices. « Je possède dans mes collections d' estampes pieuses une vieille gravure sur bois, éditée à Troyes et représentant un miracle de Notre - Dame de Chartres, où l' Enfant jette sur les pèlerins accourus des rayons — pas autre chose, car notre bonne oeuvre n' était pas encore fondée...
-L' Enfant, si je puis ainsi dire, mon cher élève, semble sur l' image, pressé entre les mains de sa divine Mère comme un siphon d' eau de Seltz... « Eh bien, eh bien, voilà qui est le mieux du monde et d' un favorable augure pour notre chrétienne entreprise. « On vend déjà, par les soins de l' oeuvre, des petits modèles du nouvel enfant Jésus, montés en épingle de cravate, avec jet garanti jusqu' au milieu de la rue... »
+La statuaire moderne et perfectionnée de Saint - Sulpice donnera, si les ressources de l' oeuvre prospèrent, au divin Enfant, une attitude plus propre à faire illusion : sa mère le tiendra accroupi loin du sol, comme font les bonnes nourrices.
+« Je possède dans mes collections d' estampes pieuses une vieille gravure sur bois, éditée à Troyes et représentant un miracle de Notre - Dame de Chartres, où l' Enfant jette sur les pèlerins accourus des rayons — pas autre chose, car notre bonne oeuvre n' était pas encore fondée...
+L' Enfant, si je puis ainsi dire, mon cher élève, semble sur l' image, pressé entre les mains de sa divine Mère comme un siphon d' eau de Seltz...
+« Eh bien, eh bien, voilà qui est le mieux du monde et d' un favorable augure pour notre chrétienne entreprise.
+« On vend déjà, par les soins de l' oeuvre, des petits modèles du nouvel enfant Jésus, montés en épingle de cravate, avec jet garanti jusqu' au milieu de la rue... »
 Nous interrompîmes l' abbé en lui mettant dans la main la « modeste ohole » que, selon sa coutume, il acceptait, pourvu que la modestie n' en fût point trop infime, et nous n' écou - tâmes point l' alléchant programme d' une autre, magnifique, de ses inventions canoniques : la Vierge aux Suppositoires.
 FAITS - DIVERS
 A Loyson - Bridet, journaliste.
@@ -2344,7 +2385,8 @@ Il faut donc abandonner l' idée que le mot « divers » implique quelque varié
 Et l' on dit très bien, au singulier, « un » fait « divers ». Un fait n' est pas divers tout seul, si l' on veut signifier, par « divers », « varié ».
 Que faut - il donc entendre par là, et qu' entendaient nos grands écrivains?
 Ne rappelons pas la phrase : « l' homme, ondoyant et divers ».
-Allez donc traiter un sergent de ville d' « ondoyant et divers » et voyez ce qu' il ripostera. « Divers » n' est pourtant pas exactement une injure.
+Allez donc traiter un sergent de ville d' « ondoyant et divers » et voyez ce qu' il ripostera.
+« Divers » n' est pourtant pas exactement une injure.
 N' empêche que l' on ne trouve jamais autre 24 chose, sous la rubrique « faits - divers », que les « crimes et accidents ».
 En tous cas, pas grand' chose de propre.
 On prononce : « pervers » et « dilapider ».
@@ -2453,7 +2495,8 @@ Les demi - mondaines d' Israël agitaient leurs mouchoirs au huitième.
 Le déplorable accident que l' on sait se place au douzième virage.
 Jésus était à ce moment dead - head avec les deux larrons.
 On sait aussi qu' il continua la course en aviateur...
-mais ceci sort de notre sujet. « T' EN AS UN ŒIL » ET « M' AS - TU VU ? »
+mais ceci sort de notre sujet.
+« T' EN AS UN ŒIL » ET « M' AS - TU VU ? »
 La fonction créant l' organe, voici comment l' organe de la vision est né dans le monde des théâtres.
 Les gens de qui la profession est de se donner en spectacle — de se louer plutôt, il y a le cachet
 — répétèrent tant de fois depuis Thespis, la question connue que peu à peu se développa le système oculaire permettant de les voir.
@@ -2505,20 +2548,24 @@ Isabelle, le joli nom pour une blanchisseuse !
 D' après toujours l' argument de la poule noire, ce sont les nègres qui font, sans discontinuer, tous les enfants blancs.
 Aussi, et malgré le dicton, proverbial seulement au piano, qu' une blanche vaut deux noires (on dit ça quand on manque de noires), dans toute bonne maison dont l' enseigne porte, en chiffres : « Traite des blanches », et qui se respecte, il y a une négresse.
 OPINION DE L' HOMME COUPÉ EN MORCEAUX
-Notre excellent ami l' Homme coupé en morceaux — et, entre parenthèses, c' est un vertueux citoyen, de jugement sûr et éclairé, que l' on consulte trop rarement — notre excellent ami l' Homme coupé en morceaux, donc, voulut bien nous donner son avis sur la meilleure manière d' obvier aux écrasements par automobiles. « Le grand facteur du péril dans Paris, commença - t - il, c' est le trottoir, encore que ce mot soit pris inconsidérément : car le piéton , n' y trotte pas, il piète.
+Notre excellent ami l' Homme coupé en morceaux — et, entre parenthèses, c' est un vertueux citoyen, de jugement sûr et éclairé, que l' on consulte trop rarement — notre excellent ami l' Homme coupé en morceaux, donc, voulut bien nous donner son avis sur la meilleure manière d' obvier aux écrasements par automobiles.
+« Le grand facteur du péril dans Paris, commença - t - il, c' est le trottoir, encore que ce mot soit pris inconsidérément : car le piéton , n' y trotte pas, il piète.
 — Mais le trottin ?
 objectâmes - nous.
 — Le trottin ne trotte pas non plus, rétorqua avec sévérité l' Homme coupé en morceaux ; car cette progéniture de l' homme à pied (on désigne d' un vocable voisin celle du cheval) a pour fonction de le guider, l' entraînant à sa suite sans le « lâcher » ni distancer, quand il est devenu vieux.
-Ainsi, Antigone se fit une situation, conduisant Œdipe, de qui le sobriquet, renouvelé des Grecs, est le Pied - Enflé ou le Gros - Marcheur. « Mais revenons à nos piéteurs.
+Ainsi, Antigone se fit une situation, conduisant Œdipe, de qui le sobriquet, renouvelé des Grecs, est le Pied - Enflé ou le Gros - Marcheur.
+« Mais revenons à nos piéteurs.
 C' est le pié - toir ou trottoir, donc, qui fait tout le mal, parce qu' il y a deux trottoirs.
 Le piéton qui gambade sur l' un, se demande toujours s' il n' eût pas mieux fait d' élucubrer ses entrechats à même l' autre.
-Et le voilà qui bondit, faisant la capricieuse navette, du trottoir droit au trottoir gauche, et vice versa, à une allure qui ne serait comparable qu' à celle du vol des oiseaux ou celle du rat empoisonné. « Des édiles déments, en outre, ont institué au beau milieu de la circulation des véhicules, des refuges.
+Et le voilà qui bondit, faisant la capricieuse navette, du trottoir droit au trottoir gauche, et vice versa, à une allure qui ne serait comparable qu' à celle du vol des oiseaux ou celle du rat empoisonné.
+« Des édiles déments, en outre, ont institué au beau milieu de la circulation des véhicules, des refuges.
 Ça fait trois trottoirs.
 Du haut de ces pyramides, quarante fourneaux pour le moins, à la fois, contemplent sous quelles roues ils se jetteront.
 — Et, l' auto passe !
 — Oui, feignit de sangloter, par dérision, l' Homme coupé en morceaux.
 Pauvres veuves!
-pauvres petits enfants ! « Puis il reprit froidement de sa voix naturelle: « Bien fait, fallait pas qu' ils y aillent ! »
+pauvres petits enfants !
+« Puis il reprit froidement de sa voix naturelle: « Bien fait, fallait pas qu' ils y aillent ! »
 Et, à brûle - pourpoint : « Avez - vous remarqué qu' on ne relève jamais, sous la rubrique Écrasements, ni de dessous les restes, ou les dessous, pantelants et dé - chiquetės, le nom ou le bristol de visite d' une de ces jeunes dames qui « font le trottoir » ?
 Le trottoir!
 Elles n' en ont qu' un.
@@ -2538,15 +2585,30 @@ SOUVENIRS DE LA ROUTE
 Le baron de Sèze - Coat essuya une larme, la sécha — involontairement sans doute — avec la cendre de son cigare qu' il secouait de l' ongle et qu' il s' envoya dans l' oeil, et, cédant aux sollicitations de ses convives, aux liqueurs, dit : « Oui, Messieurs, trois cent - quinzième engagé, mais depuis le premier kilomètre tenant la tête, je gardais encore, près de la frontière espagnole, l' illusion de la victoire. Ma deux cent - soixante chevaux glissait sans effort, paresseusement, si j' ose dire, comme dans un rêve.
 Et j' en venais à regretter, désireux de mettre à l' épreuve les excellentes qualités de mon moteur, que le grand roi, dans une intention louable. sans doute, eût supprimé les Pyrénées.
 Il est bien, pour un souverain, d' encourager l' automobilisme, mais, que diable! conservons les sites! »
-Un murmure approbatif courut. « Néanmoins, reprit Sèze - Coat, le spectacle de la célèbre chaîne des montagnes, hélas! défunte, vaut le voyage.
-Avant d' arriver en vue de ce panorama sensationnel, je fus avisé de pousser la manette qui ouvre l' âme de l' artiste aux émotions esthétiques, par ce conseil du Touring - Club, lu sur une plaque bleue : « Attention! descente dangereuse », suivi d' un petit croquis, en blanc, de caniveau. « Car l' histoire a raison : il n' y a plus de Pyrénées, mais il y a, naturellement, à la place d' où elles furent extraites, un trou, un caniveau assez profond.
+Un murmure approbatif courut.
+« Néanmoins, reprit Sèze - Coat, le spectacle de la célèbre chaîne des montagnes, hélas! défunte, vaut le voyage.
+Avant d' arriver en vue de ce panorama sensationnel, je fus avisé de pousser la manette qui ouvre l' âme de l' artiste aux émotions esthétiques, par ce conseil du Touring - Club, lu sur une plaque bleue : « Attention! descente dangereuse », suivi d' un petit croquis, en blanc, de caniveau.
+« Car l' histoire a raison : il n' y a plus de Pyrénées, mais il y a, naturellement, à la place d' où elles furent extraites, un trou, un caniveau assez profond.
 Les « cols » d' autrefois, au contraire, se reconnaissent à ce signe, qu' ils sont maintenant des pics élevés.
-Les neiges éternelles entretiennent leur blancheur. « Cependant, le ronflement, derrière moi, du moteur du redoutable professionnel Annulé junior (101° de la liste des engagements) m' arracha aux délices de la contemplation du site. « Alors, littéralement, je me grisai de vitesse. « Grisai est le mot, et j' en vis bien les effets : je fus gris d' autre chose que de la poussière soulevée ; et, bientôt, je vis sous un jour tout nouveau la route. « Les arbres et les tas de cailloux filaient en sens inverse de ma course, des deux côtés de mon auto, à cent cinquante, pour le moins, kilomètres à l' heure, comme soucieux d' établir pour leur compte un record à rebours : Madrid - Paris. « L' évidence s' imposait : si ces objets filaient, c' était moi qui étais en panne — la fâcheuse panne ! « Et les explosions de la machine de cet animal d' Annulé qui se rapprochaient toujours ! « En outre, je découvris quelque chose de pire : un piéton à l' horizon, au beau milieu de la route, qui par quelque miracle se précipitait à reculons vers moi, à cette vitesse, que je ne faisais plus, de cent cinquante à l' heure. « L' auto allait être broyée !!! «
+Les neiges éternelles entretiennent leur blancheur.
+« Cependant, le ronflement, derrière moi, du moteur du redoutable professionnel Annulé junior (101° de la liste des engagements) m' arracha aux délices de la contemplation du site.
+« Alors, littéralement, je me grisai de vitesse.
+« Grisai est le mot, et j' en vis bien les effets : je fus gris d' autre chose que de la poussière soulevée ; et, bientôt, je vis sous un jour tout nouveau la route.
+« Les arbres et les tas de cailloux filaient en sens inverse de ma course, des deux côtés de mon auto, à cent cinquante, pour le moins, kilomètres à l' heure, comme soucieux d' établir pour leur compte un record à rebours : Madrid - Paris.
+« L' évidence s' imposait : si ces objets filaient, c' était moi qui étais en panne — la fâcheuse panne !
+« Et les explosions de la machine de cet animal d' Annulé qui se rapprochaient toujours !
+« En outre, je découvris quelque chose de pire : un piéton à l' horizon, au beau milieu de la route, qui par quelque miracle se précipitait à reculons vers moi, à cette vitesse, que je ne faisais plus, de cent cinquante à l' heure.
+« L' auto allait être broyée !!!
+«
 — Nous sommes f...us!
-hurlai - je à mon mécanicien. «Le derrière de l' extraordinaire piéton heurta l' avant train avec un bruit flasqué : l' auto, je ne sais comment, lui grimpa sur les épaules : elle monte très bien les côtes.
-Je ne m' étonnai plus quand l' homme à pied déclina ses noms et qualités : « — Strongfort, Strongfort lui - même, dit Boit - sans - Soif - l' Obstacle. «
-Et l' athlète bien connu ajouta : « — Ça pèse moins lourd .en vitesse qu' arrêté. « Il laissa Annulé prendre une avance de deux minutes, puis, courtoisement, déposa mon auto sur le sol. »
-Le baron termina : « — Vous l' avez deviné, messieurs, Strong - fort était soudoyé par la marque de mon seul rival sérieux, le professionnel Annulé junior. «... Et voilà pourquoi, messieurs, je ne fus pas vainqueur. »
+hurlai - je à mon mécanicien.
+«Le derrière de l' extraordinaire piéton heurta l' avant train avec un bruit flasqué : l' auto, je ne sais comment, lui grimpa sur les épaules : elle monte très bien les côtes.
+Je ne m' étonnai plus quand l' homme à pied déclina ses noms et qualités : « — Strongfort, Strongfort lui - même, dit Boit - sans - Soif - l' Obstacle.
+«
+Et l' athlète bien connu ajouta : « — Ça pèse moins lourd .en vitesse qu' arrêté.
+« Il laissa Annulé prendre une avance de deux minutes, puis, courtoisement, déposa mon auto sur le sol. »
+Le baron termina : « — Vous l' avez deviné, messieurs, Strong - fort était soudoyé par la marque de mon seul rival sérieux, le professionnel Annulé junior.
+«... Et voilà pourquoi, messieurs, je ne fus pas vainqueur. »
 ELLE ARRIVE, LA VÉRITÉ
 Un agent trop zélé, à Paris, a dressé procès - verbal à M. Vanderbilt pour excès de vitesse en automobile.
 Or, M. Vanderbilt n' était pas à Paris ce jour - là.
@@ -2563,7 +2625,8 @@ La tiare est un bonnet de coton en or.
 Faux ou vrai, bonnet jaune, jaune bonnet.
 Et puis Saïtapharnès avait horreur de ce genre de coiffure.
 C' est bien la tiare de Saïtapharnès, mais Saïtapharnès n' a jamais porté de tiare.
-Saïtapharnès, en tant que porteur de tiare, n' a jamais existé. « Saïtapharnès », mais c' est la signature du fabricant de l' objet.
+Saïtapharnès, en tant que porteur de tiare, n' a jamais existé.
+« Saïtapharnès », mais c' est la signature du fabricant de l' objet.
 Le faux peut quelquefois n' être pas faux — sans blague.
 ASEPTISONS!
 ASEPTISONS!
@@ -2597,7 +2660,8 @@ Des particuliers originaux en acquièrent.
 Dans quelle intention, Seigneur?
 Nous avons interviewé l' un de ces particuliers, un honorable rentier, M. Joseph Donzé, 78, boulevard de Port - Royal, familièrement connu dans son quartier sous le sobriquet mythologique du « paveur en chambre ».
 Nous montâmes à son petit cinquième, mais fûmes sur le point de nous retirer, aussitôt dis - SPÉCULATIONS crètement : partout des creusets, des pilons, des fourneaux, du mercure, des fioles de produits chimiques, tout l' attirail des faux - monnayeurs.
-M. Donzé, nous invitant à nous asseoir, nous rassura d' un geste bienveillant. « Pas faux - monnayeur, non, cher Monsieur, vrai monnayeur, ou mieux monnayeur en gros, fournisseur pour monnayeurs, chercheur d' or; simple chercheur d' or. »
+M. Donzé, nous invitant à nous asseoir, nous rassura d' un geste bienveillant.
+« Pas faux - monnayeur, non, cher Monsieur, vrai monnayeur, ou mieux monnayeur en gros, fournisseur pour monnayeurs, chercheur d' or; simple chercheur d' or. »
 Et il nous expliqua sans préambule : « Voilà !
 J' extrais l' or des vieux pavés.
 L' idée m' en vint en lisant dans un journal que la Seine, tel le Pactole, charriait de l' or...
@@ -2606,7 +2670,8 @@ L' idée m' en vint en lisant dans un journal que la Seine, tel le Pactole, char
 D' où venait cet or ?
 Assurément, drainé vers le fleuve par les égouts, de l' usure des pavés effrités par les piétons, les chevaux et les roues des fiacres.
 Je néglige ces pépites accidentelles : les bijoux acquis par cambriolage et dont on se débarrasse dans le tout - à - l' égout.
-Une preuve que la boue des pavés de Paris contient de l' or en quantité appréciable, c' est que l' or est le plus glissant des métaux : la boue de Paris fait déraper et les cyclistes y prennent des pelles... » Puis, il nous montra ses appareils. « Voici mes « tables d' amalgame », mon dispositif pour la « cyanuration ».
+Une preuve que la boue des pavés de Paris contient de l' or en quantité appréciable, c' est que l' or est le plus glissant des métaux : la boue de Paris fait déraper et les cyclistes y prennent des pelles... » Puis, il nous montra ses appareils.
+« Voici mes « tables d' amalgame », mon dispositif pour la « cyanuration ».
 J' ai renoncé au pilon lourd parce que ses battements réguliers ont donné naissance à ce potin absurde de « paveur en chambre ».
 Maintenant, je me sers d' un grand moulin à café... »
 Planteur en chambre!
