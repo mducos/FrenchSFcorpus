@@ -77,9 +77,11 @@ prompt = textwrap.dedent("""
     - organizational groups without an official name ("the group", "the 
     association").
             
-    NOV = a new and speculative idea, concept, object, technology, or substance 
-    that does not exist in the real world or in known encyclopedic culture 
-    ("hydrostat", "napusify", "artificial blood"). 
+    NOV = a speculative or fictional object, technology, substance, creature or 
+    concept invented by the author that does not exist in reality or in known 
+    encyclopedic culture, such as an invented machine, a neologism, a fabricated 
+    material or a fictional species ("hydrostat", "napusify", "artificial 
+    blood"). 
     The following are not NOVs:
     - invented or non-invented events (funerals, wars, revolutions),
     - known concepts (sirens, automata)
