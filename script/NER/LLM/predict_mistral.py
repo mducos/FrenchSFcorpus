@@ -38,68 +38,70 @@ def read_conll_tsv(filepath):
 
 # 1. Define the prompt and extraction rules
 prompt = textwrap.dedent("""
-    Une entité nommée est une désignation spécifique et unique, généralement :
-    - un nom propre,
-    - ou un groupe nominal référant à une entité identifiable unique dans 
-    le monde du récit.              
+    A named entity is a specific and unique designation, typically:
+    - a proper noun,
+    - or a noun phrase referring to a single identifiable entity in 
+    the story world.              
 
-    Extraire les entités nommées (NER) selon les entités suivantes : 
-    PER pour les personnages
-    LOC pour les lieux
-    ORG pour les organisations
-    MISC pour les peuples
-    NOV pour les novum
-    TOUS LES TERMES COMMENCANT AVEC UNE MAJUSCULE (en dehors des permiers mots de
-    la phrase) DOIVENT ÊTRE ANNOTES DANS UNE CLASSE
-                         
-    PER = personnes identifiées par un nom propre ou pseudonyme ("M.
-    Héricourt", "le docteur Flax", "Georges").
-    Ne sont pas des PER :
-    - descriptions ("une veuve", "un fils"),
-    - les pronoms personnels ("je", "tu", "il", "elle", "nous", "vous", "ils"),
-    - professions, diplômes, statuts ("le docteur", "le facteur"),
-    - groupes nominaux sans nom propre ("le voisin", "la veuve").
-                         
-    LOC = toponymes avec nom propre ("Paris", "l'Angleterre", "le cap 
-    Hatteras").
-    Ne sont pas des LOC :
-    - dates, âges, durées ("huit ans", "deux heures"),
-    - adresses partielles ("5 rue"),
-    - expressions qui font référence à un lieu ("son domicile"),
-    - le cadre spacio-temporel dans les compléments circonstanciels ("là-bas", "ici"),
-    - matières ou substances ("la glace", "l'eau", "le sable"),
-    - parties d'un objet ou d'un véhicule ("le bord", "la cabine").
-                         
-    ORG = institutions nommées avec nom propre (administrations, écoles, armées) 
-    ("Ecole d'Arts et Métiers", "l'Etat", "l'Electric-Standard").
-    Ne sont pas des ORG :
-    - fonctions, grades, unités décrites ("le commandant"),
-    - groupes organisationnels sans nom officiel ("le groupe", "l'association").
-         
-    NOV = idée, concept, objet, technologie ou substance nouvelle et 
-    spéculative qui n'existe pas dans le monde réel ou dans la culture 
-    encyclopédique connue ("hydrostat", "napusifier", "sang artificiel"). 
-    Les concepts connus ou historiques 
-    (automates, sirènes, maladies réelles, pratiques médicales 
-    existantes) ne sont pas des novums.                     
-    Ne sont pas des NOV :
-    - événements inventés ou non (funérailles, guerres, révolutions),
-    - pratiques sociales ou rituels inventés ou non,
-    - concepts abstraits (idéologie, croyance, morale) non-inventés,
-    - métaphores ou figures de style,
-    - objets réels décrits de manière inhabituelle.
-                         
-    Extraire uniquement les segments textuels exacts présents dans la phrase.
-    Ne pas reformuler, ne pas compléter, ne pas inférer.
-                         
-    Les entités ne doivent pas se chevaucher, elles appartiennent à 
-    une seule classe. Elles sont composées d'un maximum de 6 tokens.
-    Les entités ne peuvent pas être composées de pronoms. Il faut au moins
-    un nom commun (ou nom propre) dans l'entité et qu'elle représente un élément
-    concret du monde.
-    En cas de doute, ne pas annoter.
-                         
-    Exemples de phrases sans entité à annoter :
+    Extract named entities (NER) according to the following categories: 
+    PER for characters
+    LOC for places
+    ORG for organizations
+    MISC for peoples
+    NOV for novums
+    ALL TERMS BEGINNING WITH A CAPITAL LETTER (other than the first words of
+    the sentence) MUST BE ANNOTATED IN A CLASS
+                            
+    PER = a person identified by a proper name, title, or pseudonym ("Mr. 
+    Héricourt", "Dr. Flax", "Georges").
+    The following are not PERs:
+    - descriptions ("a widow", "a son"),
+    - personal pronouns ("I", "you", "he", "she", "we", "you", "they"),
+    - professions, degrees, titles ("the doctor", "the mailman"),
+    - noun phrases without proper nouns ("the neighbor", "the widow").
+                            
+    LOC = a named geographical location, place or toponym, including parks, 
+    harbours, valleys and cities ("Paris", "England", "Cape Hatteras").
+    The following are not LOCs:
+    - partial addresses ("5th Avenue"),
+    - expressions referring to a place ("his home"),
+    - the spatiotemporal context in adverbial phrases ("over there", "here"),
+    - materials or substances ("ice", "water", "sand"),
+    - parts of an object or vehicle ("the edge", "the cabin").
+                            
+    ORG = a named institution, government, administration, military force 
+    or organization, including fictional ones ("Ecole d'Arts et Métiers", 
+    "the State", "Electric-Standard").
+    The following are not ORGs:
+    - described functions, ranks, or units ("the commander"),
+    - organizational groups without an official name ("the group", "the 
+    association").
+            
+    NOV = a new and speculative idea, concept, object, technology, or substance 
+    that does not exist in the real world or in known encyclopedic culture 
+    ("hydrostat", "napusify", "artificial blood"). 
+    The following are not NOVs:
+    - invented or non-invented events (funerals, wars, revolutions),
+    - known concepts (sirens, automata)
+    - invented or non-invented social practices or rituals,
+    - non-invented abstract concepts (ideology, belief, morality),
+    - metaphors or figures of speech,
+    - real objects described in an unusual way (metaphor).
+
+    MISC = a people, nationality, ethnic group or inhabitants of a place 
+    referred to collectively or individually by their origin ("a Frenchman",
+    "a Martian")
+                            
+    Extract only the exact text segments present in the sentence.
+    Do not rephrase, do not complete, do not infer.
+                            
+    Entities must not overlap; they belong to 
+    a single class. They consist of a maximum of 6 tokens.
+    Entities cannot consist of pronouns. It must represent a
+    concrete element of the world.
+    If in doubt, do not annotate.
+                            
+    Examples of sentences without entities to annotate:
     - C ' était l ' automate qui faisait maintenant ce qu ' elle voulait !
     - Sa mère était veuve et sans fortune .
     - On éteignit les incendies avec une composition chimique .
