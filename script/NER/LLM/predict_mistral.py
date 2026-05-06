@@ -80,8 +80,7 @@ prompt = textwrap.dedent("""
     NOV = a speculative or fictional object, technology, substance, creature or 
     concept invented by the author that does not exist in reality or in known 
     encyclopedic culture, such as an invented machine, a neologism, a fabricated 
-    material or a fictional species ("hydrostat", "napusify", "artificial 
-    blood"). 
+    material or a fictional species ("napusifié", "cinébouquin", "anthroposaure"). 
     The following are not NOVs:
     - invented or non-invented events (funerals, wars, revolutions),
     - known concepts (sirens, automata)
