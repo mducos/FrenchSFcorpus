@@ -93,7 +93,7 @@ The `script/` folder contains:
 
 * `NER/`: folder for the named entity and novum recognition
 
-* `NOV_annotations`: folder to automatically novum annotation
+* `NOV_annotations/`: folder to automatically novum annotation
 
 ## Source folder
 
