@@ -107,6 +107,8 @@ The `src/` folder contains:
 
 * `metadata.csv`: textual corpus metadata 
 
+* `metadata_complete.json`: more complete textual corpus metadata (narratives, registers and disciplines were added)
+
 ## Licence
 
 This repository is distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/deed.fr).
