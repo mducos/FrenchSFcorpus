@@ -18,8 +18,8 @@ ans	O
 était	O
 chevalier	O
 de	O
-la	O
-Légion	B-ORG
+la	B-ORG
+Légion	I-ORG
 d	I-ORG
 '	I-ORG
 honneur	I-ORG
@@ -41,8 +41,8 @@ capitaine	O
 en	O
 premier	O
 de	O
-la	O
-2e	B-ORG
+la	B-ORG
+2e	I-ORG
 compagnie	I-ORG
 du	I-ORG
 7e	I-ORG
@@ -52,7 +52,7 @@ la	I-ORG
 garde	I-ORG
 nationale	I-ORG
 .	O
-	
+
 Il	O
 laisse	O
 une	O
@@ -86,15 +86,15 @@ sciences	O
 ,	O
 candidat	O
 à	O
-l	O
-'	O
-École	B-ORG
-de	I-ORG
-Saint	I-ORG
--	I-ORG
-Cyr	I-ORG
+l	B-LOC
+'	I-LOC
+École	I-LOC
+de	I-LOC
+Saint	I-LOC
+-	I-LOC
+Cyr	I-LOC
 .	O
-	
+
 Il	O
 décéda	O
 ,	O
@@ -117,14 +117,14 @@ Martyrs	I-LOC
 en	O
 face	O
 de	O
-la	O
-rue	B-LOC
+la	B-LOC
+rue	I-LOC
 de	I-LOC
 Navarin	I-LOC
 .	O
-	
-Le	O
-vicaire	B-PER
+
+Le	B-PER
+vicaire	I-PER
 de	I-PER
 Notre	B-LOC
 -	I-LOC
@@ -154,7 +154,7 @@ et	O
 plus	O
 édifiantes	O
 .	O
-	
+
 Ses	O
 funérailles	O
 furent	O
@@ -182,7 +182,7 @@ les	O
 derniers	O
 devoirs	O
 .	O
-	
+
 Non	O
 -	O
 seulement	O
@@ -190,8 +190,8 @@ un	O
 peloton	O
 de	O
 la	O
-garde	B-ORG
-nationale	I-ORG
+garde	O
+nationale	O
 lui	O
 rendit	O
 les	O
@@ -217,7 +217,7 @@ sa	O
 dernière	O
 demeure	O
 .	O
-	
+
 M.	B-PER
 Rivet	I-PER
 ,	O
@@ -254,7 +254,7 @@ pu	O
 obtenir	O
 copie	O
 .	O
-	
+
 Mais	O
 la	B-ORG
 Patrie	I-ORG
@@ -278,13 +278,13 @@ sous	O
 chef	O
 de	O
 la	O
-division	B-ORG
-de	I-ORG
-la	I-ORG
-comptabilité	I-ORG
+division	O
+de	O
+la	O
+comptabilité	O
 .	O
-	
-«   O
+
+«	O
 Fidèle	O
 à	O
 tous	O
@@ -362,7 +362,7 @@ ce	O
 suprême	O
 enseignement	O
 .	O
-	
+
 Puisse	O
 l	O
 '	O
@@ -381,7 +381,7 @@ zélés	O
 que	O
 lui	O
 !	O
-	
+
 Puisse	O
 la	O
 cendre	O
@@ -409,7 +409,7 @@ bureaucrates	O
 aussi	O
 exemplaires	O
 !	O
-	
+
 Quant	O
 à	O
 nous	O
@@ -417,7 +417,7 @@ nous	O
 pauvre	O
 ami	O
 !	O
-	
+
 nous	O
 attendons	O
 l	O
@@ -445,21 +445,21 @@ jamais	O
 un	O
 remplaçant	O
 .	O
-	
+
 Adieu	O
 !	O
-	
+
 Que	O
 dis	O
 -	O
 je	O
 ?	O
-	
+
 Au	O
 revoir	O
 !	O
 »	O
-	
+
 Le	O
 fils	O
 unique	O
@@ -497,7 +497,7 @@ honorable	O
 M.	B-PER
 Ducluzeau	I-PER
 .	O
-	
+
 On	O
 l	O
 '	O
@@ -518,7 +518,7 @@ tombe	O
 mal	O
 fermée	O
 .	O
-	
+
 Quelques	O
 amis	O
 de	O
@@ -540,7 +540,7 @@ madame	B-PER
 veuve	I-PER
 Guérin	I-PER
 .	O
-	
+
 A	O
 toutes	O
 les	O
@@ -558,11 +558,11 @@ il	O
 répondait	O
 obstinément	O
 :	O
-	
+
 —	O
 Ah	O
 !	O
-	
+
 si	O
 vous	O
 saviez	O
@@ -573,7 +573,7 @@ j	O
 ai	O
 perdu	O
 !	O
-	
+
 —	O
 Soyez	O
 homme	O
@@ -600,7 +600,7 @@ madame	O
 votre	O
 mère	O
 !	O
-	
+
 A	O
 ce	O
 mot	O
@@ -625,12 +625,12 @@ des	O
 douleurs	O
 vraies	O
 :	O
-	
+
 —	O
 Ma	O
 mère	O
 ?	O
-	
+
 Ah	O
 !	O
 l	O
@@ -650,14 +650,14 @@ j	O
 ai	O
 perdu	O
 !	O
-	
+
 La	O
 foule	O
 se	O
 dispersa	O
 lentement	O
 .	O
-	
+
 Quelques	O
 gardes	O
 nationaux	O
@@ -679,8 +679,8 @@ répandirent	O
 dans	O
 les	O
 cabarets	O
-du  O
-faubourg	B-LOC
+du	B-LOC
+faubourg	I-LOC
 Montmartre	I-LOC
 pour	O
 prendre	O
@@ -689,7 +689,7 @@ peu	O
 de	O
 consolation	O
 .	O
-	
+
 Mais	O
 ,	O
 tandis	O
@@ -747,7 +747,7 @@ de	O
 curiosité	O
 farouche	O
 .	O
-	
+
 Il	O
 désignait	O
 du	O
@@ -786,12 +786,12 @@ de	O
 bois	O
 noir	O
 .	O
-	
+
 —	O
 O	O
 nature	O
 !	O
-	
+
 disait	O
 -	O
 il	O
@@ -903,7 +903,7 @@ mieux	O
 avec	O
 photographies	O
 !	O
-	
+
 On	O
 sait	O
 que	O
@@ -913,7 +913,7 @@ ne	O
 ment	O
 pas	O
 .	O
-	
+
 Personne	O
 n	O
 '	O
@@ -924,7 +924,7 @@ l	O
 '	O
 évidence	O
 .	O
-	
+
 Les	O
 théories	O
 les	O
@@ -939,7 +939,7 @@ croulaient	O
 cette	O
 lumière	O
 !	O
-	
+
 Un	O
 coup	O
 de	O
@@ -948,7 +948,7 @@ dans	O
 un	O
 ciel	O
 serein	O
-!	O	
+!	O
 une	O
 révélation	O
 physiologique	O
@@ -969,16 +969,16 @@ nom	O
 l	O
 '	O
 ère	O
-du	O
-docteur	B-PER
+du	B-PER
+docteur	I-PER
 Robineau	I-PER
 !	O
-	
+
 Ah	O
 !	O
 messieurs	O
-les	O
-Anglais	B-MISC
+les	B-MISC
+Anglais	I-MISC
 !	O
 vous	O
 avez	O
@@ -999,7 +999,7 @@ votre	O
 pièce	O
 !	O
 ...	O
-	
+
 Mais	O
 tout	O
 n	O
@@ -1008,30 +1008,30 @@ est	O
 pas	O
 désespéré	O
 .	O
-	
+
 Je	O
 ferai	O
 jouer	O
 des	O
 ressorts	O
 ...	O
-	
+
 j	O
 '	O
 intéresserai	O
-l	O
-'	O
+l	B-ORG
+'	I-ORG
 Académie	I-ORG
 de	I-ORG
 médecine	I-ORG
 et	O
-l	O
-'	O
+l	B-ORG
+'	I-ORG
 Académie	I-ORG
 des	I-ORG
 sciences	I-ORG
 .	O
-	
+
 J	O
 '	O
 irai	O
@@ -1040,7 +1040,7 @@ jusqu	O
 à	O
 l	O
 '	O
-empereur	B-PER
+empereur	O
 ,	O
 s	O
 '	O
@@ -1048,7 +1048,7 @@ il	O
 le	O
 faut	O
 .	O
-	
+
 L	O
 '	O
 autorité	O
@@ -1057,7 +1057,7 @@ doit	O
 son	O
 appui	O
 .	O
-	
+
 Veut	O
 -	O
 on	O
@@ -1069,25 +1069,25 @@ veut	O
 on	O
 pas	O
 que	O
-la	O
-France	B-LOC
+la	B-LOC
+France	I-LOC
 soit	O
 la	O
 reine	O
 des	O
 nations	O
 ?	O
-	
+
 Je	O
 lutterai	O
 ,	O
 je	O
 vaincrai	O
 .	O
-	
+
 Toi	O
 !	O
-	
+
 Pierre	B-PER
 Marie	I-PER
 Guérin	I-PER
@@ -1099,7 +1099,7 @@ seulement	O
 trois	O
 jours	O
 .	O
-	
+
 Je	O
 reviendrai	O
 ,	O
@@ -1114,7 +1114,7 @@ arracher	O
 ton	O
 secret	O
 .	O
-	
+
 Au	O
 revoir	O
 ,	O
@@ -1130,13 +1130,13 @@ l	O
 '	O
 heure	O
 .	O
-	
+
 Au	O
 revoir	O
 !	O
-	
+
 II	O
-	
+
 On	O
 aurait	O
 peine	O
@@ -1147,8 +1147,8 @@ expliquer	O
 la	O
 curiosité	O
 farouche	O
-du	O
-docteur	B-PER
+du	B-PER
+docteur	I-PER
 Robineau	I-PER
 ,	O
 si	O
@@ -1167,7 +1167,7 @@ malade	O
 M.	B-PER
 Guérin	I-PER
 .	O
-	
+
 Il	O
 naquit	O
 à	O
@@ -1176,7 +1176,7 @@ Paris	B-LOC
 en	O
 1809	O
 .	O
-	
+
 Son	O
 père	O
 et	O
@@ -1186,14 +1186,14 @@ mère	O
 boulangers	O
 au	O
 numéro	O
-48	B-LOC
-du	I-LOC
+48	O
+du	B-LOC
 faubourg	I-LOC
 Saint	I-LOC
 -	I-LOC
 Martin	I-LOC
 .	O
-	
+
 La	O
 boutique	O
 existe	O
@@ -1208,7 +1208,7 @@ par	O
 un	O
 boulanger	O
 .	O
-	
+
 Madame	B-PER
 Guérin	I-PER
 ,	O
@@ -1247,13 +1247,13 @@ la	O
 seconde	O
 fois	O
 .	O
-	
+
 Elle	O
 désira	O
 une	O
 fille	O
 .	O
-	
+
 Si	O
 vous	O
 avez	O
@@ -1265,9 +1265,9 @@ du	O
 Consulat	O
 et	O
 de	O
-l	O
-'	O
-Empire	O
+l	B-ORG
+'	I-ORG
+Empire	I-ORG
 ,	O
 par	O
 M.	B-PER
@@ -1283,7 +1283,7 @@ de	O
 madame	B-PER
 Guérin	I-PER
 .	O
-	
+
 Elle	O
 voulait	O
 avoir	O
@@ -1299,7 +1299,7 @@ pour	O
 la	O
 guerre	O
 .	O
-	
+
 Pour	O
 plus	O
 de	O
@@ -1316,7 +1316,7 @@ commençait	O
 à	O
 refleurir	O
 .	O
-	
+
 Dans	O
 son	O
 impatience	O
@@ -1338,12 +1338,12 @@ toute	O
 sa	O
 force	O
 .	O
-	
+
 La	O
 pythonisse	O
 de	O
-la	O
-rue	B-LOC
+la	B-LOC
+rue	I-LOC
 de	I-LOC
 Tournon	I-LOC
 lui	O
@@ -1362,7 +1362,7 @@ l	O
 '	O
 avenir	O
 .	O
-	
+
 La	O
 vérité	O
 se	O
@@ -1390,7 +1390,7 @@ de	O
 cinq	O
 francs	O
 .	O
-	
+
 —	O
 Ce	O
 n	O
@@ -1411,7 +1411,7 @@ je	O
 une	O
 fille	O
 ?	O
-	
+
 Coûte	O
 que	O
 coûte	O
@@ -1449,7 +1449,7 @@ ou	O
 un	O
 garçon	O
 .	O
-	
+
 Mademoiselle	B-PER
 Lenormant	I-PER
 lui	O
@@ -1477,7 +1477,7 @@ sur	O
 la	O
 table	O
 .	O
-	
+
 —	O
 J	O
 '	O
@@ -1501,20 +1501,20 @@ là	O
 ni	O
 là	O
 ...	O
-	
+
 Attendez	O
 ,	O
 voici	O
 quelque	O
 chose	O
 .	O
-	
+
 Le	O
 temps	O
 a	O
 marché	O
 ...	O
-	
+
 l	O
 '	O
 enfant	O
@@ -1527,7 +1527,7 @@ sein	O
 a	O
 grandi	O
 ...	O
-	
+
 les	O
 années	O
 ont	O
@@ -1537,12 +1537,12 @@ sa	O
 tête	O
 sans	O
 amener	O
-la	O
-souffran	O
+la	B-PER
+souffran	I-PER
 -	O
 misère	O
 .	O
-	
+
 Voici	O
 de	O
 l	O
@@ -1554,7 +1554,7 @@ du	O
 bonheur	O
 domestique	O
 ...	O
-	
+
 Dix	O
 ans	O
 ,	O
@@ -1568,7 +1568,7 @@ ans	O
 et	O
 plus	O
 ...	O
-	
+
 Que	O
 vois	O
 -	O
@@ -1601,11 +1601,11 @@ fleuve	O
 la	O
 campagne	O
 .	O
-	
+
 —	O
 Malade	O
 ?	O
-	
+
 —	O
 Je	O
 ne	O
@@ -1622,7 +1622,7 @@ faible	O
 et	O
 abattu	O
 .	O
-	
+
 Vous	O
 êtes	O
 assise	O
@@ -1647,7 +1647,7 @@ tient	O
 son	O
 chevet	O
 .	O
-	
+
 Un	O
 homme	O
 venu	O
@@ -1667,14 +1667,14 @@ nouveau	O
 -	O
 né	O
 .	O
-	
+
 —	O
 Un	O
 petit	O
 -	O
 fils	O
 !	O
-	
+
 cria	O
 madame	B-PER
 Guérin	I-PER
@@ -1687,7 +1687,7 @@ petit	O
 -	O
 fils	O
 !	O
-	
+
 Dieu	B-PER
 permettra	O
 que	O
@@ -1700,9 +1700,9 @@ de	O
 ma	O
 fille	O
 !	O
-	
+
 Ah	O
-!	O	
+!	O
 mademoiselle	B-PER
 Lenormant	I-PER
 ,	O
@@ -1733,7 +1733,7 @@ de	O
 mon	O
 quartier	O
 !	O
-	
+
 Elle	O
 vida	O
 son	O
@@ -1755,7 +1755,7 @@ nouvelle	O
 son	O
 mari	O
 .	O
-	
+
 Les	O
 parents	O
 décidèrent	O
@@ -1779,7 +1779,7 @@ vouée	O
 au	O
 blanc	O
 .	O
-	
+
 Trois	O
 mois	O
 après	O
@@ -1798,7 +1798,7 @@ la	O
 triste	O
 capitulation	O
 de	O
-Baylen	B-LOC
+Baylen	B-PER
 ,	O
 madame	B-PER
 Guérin	I-PER
@@ -1827,7 +1827,7 @@ l	O
 '	O
 être	O
 .	O
-	
+
 Les	O
 commères	O
 du	O
@@ -1842,11 +1842,11 @@ et	O
 en	O
 firent	O
 compliment	O
-au	O
+au	B-PER
 père	I-PER
 Guérin	I-PER
 .	O
-	
+
 Mais	O
 la	O
 pauvre	O
@@ -1862,7 +1862,7 @@ pouvait	O
 se	O
 consoler	O
 .	O
-	
+
 La	O
 naissance	O
 d	O
@@ -1887,7 +1887,7 @@ dans	O
 un	O
 désastre	O
 .	O
-	
+
 Dans	O
 sa	O
 douleur	O
@@ -1898,8 +1898,8 @@ s	O
 en	O
 prenait	O
 tantôt	O
-au	O
-général	B-PER
+au	B-PER
+général	I-PER
 Dupont	I-PER
 ,	O
 tantôt	O
@@ -1907,7 +1907,7 @@ tantôt	O
 mademoiselle	B-PER
 Lenormant	I-PER
 .	O
-	
+
 Elle	O
 n	O
 '	O
@@ -1931,11 +1931,11 @@ trahir	O
 la	O
 patrie	O
 et	O
-la	O
-famille	B-PER
+la	B-PER
+famille	I-PER
 Guérin	I-PER
 .	O
-	
+
 Elle	O
 courut	O
 chez	O
@@ -1950,12 +1950,12 @@ digne	O
 des	O
 halles	O
 .	O
-	
+
 —	O
 Voyez	O
 un	O
 peu	O
-la	O
+la	B-PER
 mijaurée	O
 qui	O
 me	O
@@ -1973,7 +1973,7 @@ qui	O
 nous	O
 vient	O
 !	O
-	
+
 Mademoiselle	B-PER
 Lenormand	I-PER
 était	O
@@ -1982,13 +1982,13 @@ d	O
 '	O
 esprit	O
 .	O
-	
+
 Au	O
 lieu	O
 de	O
 jeter	O
-la	O
-Guérin	B-PER
+la	B-PER
+Guérin	I-PER
 à	O
 la	O
 porte	O
@@ -2013,7 +2013,7 @@ cartes	O
 et	O
 dit	O
 :	O
-	
+
 —	O
 Revoyons	O
 cette	O
@@ -2028,7 +2028,7 @@ peut	O
 mal	O
 lu	O
 .	O
-	
+
 Mais	O
 non	O
 !	O
@@ -2038,7 +2038,7 @@ est	O
 bien	O
 cela	O
 .	O
-	
+
 Je	O
 vois	O
 une	O
@@ -2065,7 +2065,7 @@ portes	O
 du	O
 trépas	O
 !	O
-	
+
 Il	O
 renaît	O
 ,	O
@@ -2079,7 +2079,7 @@ sur	O
 votre	O
 coeur	O
 .	O
-	
+
 Ciel	O
 !	O
 j	O
@@ -2100,7 +2100,7 @@ dans	O
 la	O
 famille	O
 .	O
-	
+
 Fortune	O
 ,	O
 honneurs	O
@@ -2113,7 +2113,7 @@ biens	O
 en	O
 abondance	O
 .	O
-	
+
 De	O
 quoi	O
 vous	O
@@ -2125,7 +2125,7 @@ grand	O
 '	O
 mère	O
 ?	O
-	
+
 Allez	O
 en	O
 paix	O
@@ -2135,7 +2135,7 @@ ne	O
 doutez	O
 plus	O
 !	O
-	
+
 La	O
 bonne	O
 femme	O
@@ -2148,7 +2148,7 @@ plus	O
 que	O
 consolée	O
 .	O
-	
+
 Toutefois	O
 ,	O
 elle	O
@@ -2187,7 +2187,7 @@ de	O
 sept	O
 ans	O
 .	O
-	
+
 Grâce	O
 au	O
 voeu	O
@@ -2220,7 +2220,7 @@ son	O
 frère	O
 aîné	O
 .	O
-	
+
 Sa	O
 mère	O
 l	O
@@ -2237,7 +2237,7 @@ seul	O
 la	O
 maison	O
 .	O
-	
+
 Elle	O
 le	O
 serrait	O
@@ -2268,7 +2268,7 @@ la	O
 grande	O
 armée	O
 .	O
-	
+
 —	O
 Ah	O
 !	O
@@ -2290,7 +2290,7 @@ te	O
 faire	O
 soldat	O
 !	O
-	
+
 Si	O
 tant	O
 seulement	O
@@ -2309,7 +2309,7 @@ jeté	O
 un	O
 sort	O
 !	O
-	
+
 Souvent	O
 aussi	O
 ,	O
@@ -2327,7 +2327,7 @@ petite	O
 Marie	B-PER
 !	O
 »	O
-	
+
 A	O
 trois	O
 ans	O
@@ -2340,7 +2340,7 @@ mal	O
 aux	O
 yeux	O
 .	O
-	
+
 M.	B-PER
 Guérin	I-PER
 ,	O
@@ -2369,7 +2369,7 @@ percer	O
 les	O
 oreilles	O
 .	O
-	
+
 C	O
 '	O
 est	O
@@ -2396,7 +2396,7 @@ dire	O
 deux	O
 fois	O
 .	O
-	
+
 Elle	O
 conduisit	O
 Pierre	B-PER
@@ -2429,7 +2429,7 @@ d	O
 une	O
 boîte	O
 .	O
-	
+
 La	O
 mère	O
 fut	O
@@ -2470,7 +2470,7 @@ paragraphe	O
 suivant	O
 .	O
 )	O
-	
+
 Il	O
 y	O
 a	O
@@ -2486,7 +2486,7 @@ journée	O
 passablement	O
 solennelle	O
 .	O
-	
+
 Si	O
 ,	O
 par	O
@@ -2524,7 +2524,7 @@ dans	O
 notre	O
 mémoire	O
 .	O
-	
+
 Je	O
 comprends	O
 ,	O
@@ -2608,7 +2608,7 @@ fuite	O
 en	O
 Amérique	B-LOC
 .	O
-	
+
 Mais	O
 tous	O
 ces	O
@@ -2643,8 +2643,8 @@ cet	O
 insigne	O
 civil	O
 que	O
-les	O
-Européens	B-MISC
+les	B-MISC
+Européens	I-MISC
 n	O
 '	O
 abandonnent	O
@@ -2655,9 +2655,9 @@ avec	O
 la	O
 vie	O
 .	O
-	
-Le	O
-jeune	B-PER
+
+Le	B-PER
+jeune	I-PER
 Guérin	I-PER
 ,	O
 que	O
@@ -2669,8 +2669,8 @@ appelaient	O
 par	O
 ignorance	O
 «	O
-la	O
-petite	B-PER
+la	B-PER
+petite	I-PER
 Guérin	I-PER
 ,	O
 »	O
@@ -2689,7 +2689,7 @@ sa	O
 dixième	O
 année	O
 .	O
-	
+
 Sa	O
 mère	O
 comprenait	O
@@ -2720,7 +2720,7 @@ déchirait	O
 cette	O
 idée	O
 .	O
-	
+
 Il	O
 reçut	O
 la	O
@@ -2741,7 +2741,7 @@ sexes	O
 étaient	O
 réunis	O
 .	O
-	
+
 Lorsqu	O
 '	O
 il	O
@@ -2782,7 +2782,7 @@ sous	O
 le	O
 cachet	O
 .	O
-	
+
 Mais	O
 ,	O
 à	O
@@ -2791,8 +2791,8 @@ rentrée	O
 de	O
 1818	O
 ,	O
-le	O
-père	B-PER
+le	B-PER
+père	I-PER
 Guérin	I-PER
 ,	O
 qui	O
@@ -2811,7 +2811,7 @@ entrerait	O
 au	O
 collège	O
 .	O
-	
+
 Un	O
 bon	O
 noble	O
@@ -2834,15 +2834,15 @@ une	O
 demi	O
 -	O
 bourse	O
-au	O
-collège	I-ORG
-royal	I-ORG
-d	I-ORG
-'	I-ORG
-Henri	I-ORG
-IV	I-ORG
+au	B-LOC
+collège	I-LOC
+royal	I-LOC
+d	I-LOC
+'	I-LOC
+Henri	I-LOC
+IV	I-LOC
 .	O
-	
+
 La	O
 mère	O
 pleura	O
@@ -2866,7 +2866,7 @@ en	O
 petit	O
 homme	O
 .	O
-	
+
 J	O
 '	O
 avoue	O
@@ -2894,7 +2894,7 @@ boutons	O
 de	O
 métal	O
 .	O
-	
+
 Ses	O
 camarades	O
 se	O
@@ -2968,7 +2968,7 @@ suis	O
 contente	O
 .	O
 »	O
-	
+
 Un	O
 plaisant	O
 qui	O
@@ -2999,10 +2999,10 @@ d	O
 une	O
 classe	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 lui	O
 répondit	O
 à	O
@@ -3028,7 +3028,7 @@ fabrique	O
 les	O
 hommes	O
 .	O
-	
+
 Il	O
 brisa	O
 ses	O
@@ -3044,7 +3044,7 @@ Guérin	B-PER
 tout	O
 court	O
 .	O
-	
+
 Il	O
 occupait	O
 dans	O
@@ -3054,7 +3054,7 @@ un	O
 rang	O
 honorable	O
 .	O
-	
+
 vers	O
 l	O
 '	O
@@ -3073,7 +3073,7 @@ retarda	O
 un	O
 peu	O
 .	O
-	
+
 Il	O
 devint	O
 rêveur	O
@@ -3090,7 +3090,7 @@ et	O
 le	O
 plaisir	O
 .	O
-	
+
 On	O
 le	O
 voyait	O
@@ -3110,7 +3110,7 @@ aussi	O
 en	O
 récréation	O
 .	O
-	
+
 A	O
 la	O
 moindre	O
@@ -3122,7 +3122,7 @@ maîtres	O
 il	O
 pleurait	O
 .	O
-	
+
 Il	O
 se	O
 plaignit	O
@@ -3131,7 +3131,7 @@ de	O
 palpitations	O
 violentes	O
 .	O
-	
+
 Tout	O
 le	O
 monde	O
@@ -3169,7 +3169,7 @@ ses	O
 paupières	O
 bouffies	O
 .	O
-	
+
 Madame	B-PER
 Guérin	I-PER
 fut	O
@@ -3187,7 +3187,7 @@ de	O
 ce	O
 dépérissement	O
 .	O
-	
+
 Elle	O
 interrogea	O
 le	O
@@ -3201,7 +3201,7 @@ peu	O
 de	O
 chose	O
 .	O
-	
+
 —	O
 Si	O
 votre	O
@@ -3249,7 +3249,7 @@ l	O
 exercice	O
 .	O
 »	O
-	
+
 Mais	O
 c	O
 '	O
@@ -3278,7 +3278,7 @@ perds	O
 mon	O
 latin	O
 .	O
-	
+
 —	O
 Plût	O
 à	O
@@ -3295,13 +3295,13 @@ fût	O
 une	O
 fille	O
 !	O
-	
+
 Mais	O
 n	O
 '	O
 importe	O
 .	O
-	
+
 Ordonnez	O
 qu	O
 '	O
@@ -3325,7 +3325,7 @@ regarder	O
 la	O
 dépense	O
 .	O
-	
+
 Deux	O
 mois	O
 après	O
@@ -3339,7 +3339,7 @@ florissant	O
 et	O
 rougeaud	O
 .	O
-	
+
 Mais	O
 ,	O
 dans	O
@@ -3382,7 +3382,7 @@ de	O
 sa	O
 vie	O
 .	O
-	
+
 Il	O
 avait	O
 cru	O
@@ -3401,7 +3401,7 @@ maux	O
 de	O
 tête	O
 .	O
-	
+
 Comme	O
 il	O
 était	O
@@ -3452,9 +3452,9 @@ une	O
 seconde	O
 nature	O
 .	O
-	
+
 III	O
-	
+
 Ses	O
 études	O
 terminées	O
@@ -3476,7 +3476,7 @@ le	O
 août	O
 1827	O
 .	O
-	
+
 Il	O
 était	O
 grand	O
@@ -3488,7 +3488,7 @@ large	O
 des	O
 épaules	O
 .	O
-	
+
 Sa	O
 figure	O
 ne	O
@@ -3513,7 +3513,7 @@ d	O
 un	O
 sot	O
 .	O
-	
+
 Il	O
 avait	O
 le	O
@@ -3534,7 +3534,7 @@ les	O
 cheveux	O
 châtains	O
 .	O
-	
+
 Deux	O
 gros	O
 yeux	O
@@ -3547,7 +3547,7 @@ un	O
 peu	O
 vulgaire	O
 .	O
-	
+
 La	O
 barbe	O
 ,	O
@@ -3570,7 +3570,7 @@ d	O
 '	O
 or	O
 .	O
-	
+
 Il	O
 est	O
 certain	O
@@ -3589,8 +3589,8 @@ mais	O
 pour	O
 les	O
 femmes	O
-du	O
-faubourg	O-LOC
+du	B-LOC
+faubourg	I-LOC
 Saint	I-LOC
 -	I-LOC
 Martin	I-LOC
@@ -3610,7 +3610,7 @@ jeune	O
 homme	O
 appétissant	O
 .	O
-	
+
 Mademoiselle	B-PER
 Henriette	I-PER
 occupait	O
@@ -3628,7 +3628,7 @@ du	O
 numéro	O
 48	O
 .	O
-	
+
 Elle	O
 se	O
 trouva	O
@@ -3652,7 +3652,7 @@ une	O
 chambre	O
 indépendante	O
 .	O
-	
+
 Il	O
 était	O
 convenu	O
@@ -3684,7 +3684,7 @@ de	O
 la	O
 rentrée	O
 .	O
-	
+
 L	O
 '	O
 honnête	O
@@ -3708,7 +3708,7 @@ monuments	O
 de	O
 Paris	B-LOC
 .	O
-	
+
 Ses	O
 parents	O
 ,	O
@@ -3728,7 +3728,7 @@ maison	O
 ni	O
 dehors	O
 .	O
-	
+
 Le	O
 père	O
 avait	O
@@ -3745,7 +3745,7 @@ enchaînée	O
 au	O
 comptoir	O
 .	O
-	
+
 Ce	O
 qui	O
 étonnait	O
@@ -3771,7 +3771,7 @@ libertés	O
 avec	O
 elle	O
 .	O
-	
+
 Elle	O
 le	O
 rencontrait	O
@@ -3814,7 +3814,7 @@ de	O
 les	O
 réunir	O
 .	O
-	
+
 Pierre	B-PER
 -	O
 Marie	B-PER
@@ -3835,7 +3835,7 @@ s	O
 arrêtait	O
 là	O
 .	O
-	
+
 Mademoiselle	B-PER
 Henriette	I-PER
 n	O
@@ -3853,7 +3853,7 @@ peu	O
 plus	O
 loin	O
 .	O
-	
+
 Elle	O
 appartenait	O
 ,	O
@@ -3879,7 +3879,7 @@ tantôt	O
 vingt	O
 ans	O
 .	O
-	
+
 Grisette	O
 de	O
 la	O
@@ -3904,7 +3904,7 @@ dessus	O
 quelques	O
 moulins	O
 .	O
-	
+
 Les	O
 jeunes	O
 gens	O
@@ -3980,7 +3980,7 @@ tenter	O
 les	O
 galants	O
 .	O
-	
+
 Tous	O
 ces	O
 gens	O
@@ -4005,9 +4005,9 @@ sorte	O
 de	O
 concert	O
 où	O
-le	O
-jeune	B-PER
-Guérin	I-PER
+le	B-PER
+jeune	I-PER
+Guérin	B-PER
 refusait	O
 seul	O
 de	O
@@ -4015,7 +4015,7 @@ faire	O
 sa	O
 partie	O
 .	O
-	
+
 La	O
 froideur	O
 de	O
@@ -4039,7 +4039,7 @@ l	O
 '	O
 évidence	O
 .	O
-	
+
 Si	O
 bien	O
 que	O
@@ -4056,7 +4056,7 @@ fils	O
 du	O
 boulanger	O
 .	O
-	
+
 Que	O
 de	O
 fois	O
@@ -4088,7 +4088,7 @@ tout	O
 sa	O
 lecture	O
 !	O
-	
+
 Que	O
 de	O
 fois	O
@@ -4106,17 +4106,17 @@ séduisante	O
 ma	O
 foi	O
 !	O
-	
+
 lui	O
 emprunter	O
 un	O
 briquet	O
 phosphorique	O
 !	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 rougissait	O
 comme	O
 une	O
@@ -4127,14 +4127,14 @@ modestement	O
 les	O
 yeux	O
 .	O
-	
+
 Car	O
 il	O
 avait	O
 des	O
 yeux	O
 .	O
-	
+
 Il	O
 avait	O
 remarqué	O
@@ -4172,7 +4172,7 @@ présence	O
 du	O
 danger	O
 .	O
-	
+
 Au	O
 fond	O
 du	O
@@ -4194,7 +4194,7 @@ une	O
 jolie	O
 personne	O
 .	O
-	
+
 Peut	O
 -	O
 être	O
@@ -4223,7 +4223,7 @@ avait	O
 fait	O
 naître	O
 .	O
-	
+
 S	O
 '	O
 il	O
@@ -4264,7 +4264,7 @@ peur	O
 mademoiselle	B-PER
 Henriette	I-PER
 .	O
-	
+
 Il	O
 se	O
 disait	O
@@ -4276,7 +4276,7 @@ sa	O
 moustache	O
 blonde	O
 :	O
-	
+
 —	O
 Quand	O
 je	O
@@ -4293,7 +4293,7 @@ serait	O
 le	O
 mal	O
 ?	O
-	
+
 Après	O
 tout	O
 ,	O
@@ -4304,7 +4304,7 @@ engage	O
 à	O
 rien	O
 .	O
-	
+
 Comme	O
 si	O
 la	O
@@ -4327,7 +4327,7 @@ l	O
 '	O
 autre	O
 !	O
-	
+
 Un	O
 beau	O
 matin	O
@@ -4340,7 +4340,7 @@ lui	O
 sans	O
 prétexte	O
 .	O
-	
+
 Elle	O
 le	O
 pria	O
@@ -4367,7 +4367,7 @@ brûle	O
 -	O
 pourpoint	O
 :	O
-	
+
 —	O
 Monsieur	B-PER
 Guérin	I-PER
@@ -4383,14 +4383,14 @@ vous	O
 ai	O
 fait	O
 ?	O
-	
+
 Pourquoi	O
 me	O
 détestez	O
 -	O
 vous	O
 ?	O
-	
+
 Le	O
 pauvre	O
 garçon	O
@@ -4414,7 +4414,7 @@ l	O
 '	O
 aide	O
 .	O
-	
+
 Mais	O
 la	O
 tristesse	O
@@ -4436,7 +4436,7 @@ rassurèrent	O
 un	O
 peu	O
 .	O
-	
+
 Il	O
 protesta	O
 de	O
@@ -4452,7 +4452,7 @@ ne	O
 haïssait	O
 personne	O
 .	O
-	
+
 Il	O
 offrit	O
 même	O
@@ -4470,7 +4470,7 @@ s	O
 en	O
 contenter	O
 .	O
-	
+
 Mademoiselle	B-PER
 Henriette	I-PER
 ,	O
@@ -4517,7 +4517,7 @@ prendre	O
 la	O
 main	O
 .	O
-	
+
 C	O
 '	O
 était	O
@@ -4532,7 +4532,7 @@ année	O
 de	O
 droit	O
 .	O
-	
+
 Il	O
 avait	O
 fait	O
@@ -4555,7 +4555,7 @@ jusqu	O
 au	O
 bout	O
 .	O
-	
+
 Mais	O
 ,	O
 lorsqu	O
@@ -4584,7 +4584,7 @@ dans	O
 les	O
 faubourgs	O
 .	O
-	
+
 Avant	O
 la	O
 troisième	O
@@ -4625,7 +4625,7 @@ de	O
 priviléges	O
 inquiétants	O
 .	O
-	
+
 Elle	O
 entrait	O
 sans	O
@@ -4660,7 +4660,7 @@ l	O
 '	O
 âme	O
 .	O
-	
+
 Les	O
 visites	O
 étaient	O
@@ -4689,7 +4689,7 @@ excès	O
 de	O
 fraternité	O
 .	O
-	
+
 L	O
 '	O
 étudiant	O
@@ -4716,7 +4716,7 @@ sa	O
 propre	O
 faiblesse	O
 .	O
-	
+
 Mais	O
 ,	O
 ,	O
@@ -4756,7 +4756,7 @@ fermerait	O
 sa	O
 porte	O
 .	O
-	
+
 Cette	O
 résolution	O
 tardive	O
@@ -4771,14 +4771,14 @@ Pierre	B-PER
 -	I-PER
 Marie	I-PER
 .	O
-	
+
 La	O
 journée	O
 se	O
 passa	O
 bien	O
 .	O
-	
+
 L	O
 '	O
 étudiant	O
@@ -4787,7 +4787,7 @@ s	O
 était	O
 barricadé	O
 .	O
-	
+
 Henriette	B-PER
 ne	O
 vint	O
@@ -4798,7 +4798,7 @@ frapper	O
 sa	O
 porte	O
 .	O
-	
+
 Elle	O
 recevait	O
 la	O
@@ -4820,10 +4820,10 @@ présenter	O
 son	O
 voisin	O
 .	O
-	
+
 Pierre	B-PER
 -	I-PER
-Marie	I-PER
+Marie	B-PER
 descendit	O
 à	O
 six	O
@@ -4845,8 +4845,8 @@ en	O
 alla	O
 fout	O
 seul	O
-au	O
-Théâtre	B-LOC
+au	B-LOC
+Théâtre	I-LOC
 -	I-LOC
 Français	I-LOC
 et	O
@@ -4859,7 +4859,7 @@ actes	O
 de	O
 tragédie	O
 .	O
-	
+
 Mais	O
 ,	O
 en	O
@@ -4909,7 +4909,7 @@ négligé	O
 du	O
 soir	O
 .	O
-	
+
 —	O
 Je	O
 ne	O
@@ -4926,7 +4926,7 @@ dit	O
 -	O
 elle	O
 .	O
-	
+
 Avez	O
 -	O
 vous	O
@@ -4939,7 +4939,7 @@ minutes	O
 avec	O
 moi	O
 ?	O
-	
+
 Il	O
 balbutia	O
 une	O
@@ -4968,7 +4968,7 @@ de	O
 la	O
 nuit	O
 .	O
-	
+
 —	O
 Qu	O
 '	O
@@ -4981,7 +4981,7 @@ répondit	O
 la	O
 voisine	O
 .	O
-	
+
 Entrez	O
 chez	O
 moi	O
@@ -4992,7 +4992,7 @@ vous	O
 mangerai	O
 pas	O
 .	O
-	
+
 Son	O
 instinct	O
 lui	O
@@ -5047,7 +5047,7 @@ sur	O
 la	O
 tête	O
 .	O
-	
+
 La	O
 grisette	O
 le	O
@@ -5070,10 +5070,10 @@ des	O
 plus	O
 agaçantes	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 n	O
 '	O
 aurait	O
@@ -5094,7 +5094,7 @@ semblable	O
 aux	O
 autres	O
 .	O
-	
+
 Mais	O
 son	O
 visage	O
@@ -5104,7 +5104,7 @@ plus	O
 vive	O
 terreur	O
 .	O
-	
+
 —	O
 Non	O
 ,	O
@@ -5117,7 +5117,7 @@ ne	O
 veux	O
 pas	O
 ...	O
-	
+
 je	O
 ne	O
 veux	O
@@ -5125,7 +5125,7 @@ plus	O
 vous	O
 embrasser	O
 !	O
-	
+
 Ce	O
 serait	O
 me	O
@@ -5136,17 +5136,17 @@ laissez	O
 moi	O
 partir	O
 !	O
-	
+
 Adieu	O
 ,	O
 mademoiselle	O
 !	O
-	
+
 adieu	O
 pour	O
 toujours	O
 !	O
-	
+
 Elle	O
 s	O
 '	O
@@ -5163,7 +5163,7 @@ rien	O
 ne	O
 résiste	O
 .	O
-	
+
 —	O
 Monsieur	B-PER
 Pierre	I-PER
@@ -5181,7 +5181,7 @@ enfuyez	O
 -	O
 vous	O
 ?	O
-	
+
 est	O
 -	O
 ce	O
@@ -5190,7 +5190,7 @@ je	O
 vous	O
 déplais	O
 ?	O
-	
+
 est	O
 -	O
 ce	O
@@ -5199,14 +5199,14 @@ je	O
 suis	O
 laide	O
 ?	O
-	
+
 —	O
 Non	O
 ,	O
 mais	O
 adieu	O
 !	O
-	
+
 —	O
 Est	O
 -	O
@@ -5222,7 +5222,7 @@ mal	O
 de	O
 moi	O
 ?	O
-	
+
 Croyez	O
 -	O
 vous	O
@@ -5235,7 +5235,7 @@ une	O
 bonne	O
 fille	O
 ?	O
-	
+
 —	O
 Si	O
 ,	O
@@ -5243,7 +5243,7 @@ vous	O
 êtes	O
 bonne	O
 .	O
-	
+
 Je	O
 vous	O
 remercie	O
@@ -5263,7 +5263,7 @@ laissez	O
 moi	O
 partir	O
 !	O
-	
+
 —	O
 Vous	O
 ne	O
@@ -5276,7 +5276,7 @@ m	O
 avoir	O
 entendue	O
 .	O
-	
+
 Il	O
 est	O
 tard	O
@@ -5303,14 +5303,14 @@ rester	O
 en	O
 route	O
 !	O
-	
+
 —	O
 Henriette	B-PER
 !	O
 par	O
 pitié	O
 !	O
-	
+
 —	O
 Vous	O
 me	O
@@ -5322,7 +5322,7 @@ Pierre	I-PER
 -	I-PER
 Marie	I-PER
 ?	O
-	
+
 —	O
 Je	O
 la	O
@@ -5334,7 +5334,7 @@ moi	O
 Bonté	O
 divine	O
 !	O
-	
+
 –	O
 Avoue	O
 -	O
@@ -5350,14 +5350,14 @@ m	O
 '	O
 aimes	O
 !	O
-	
+
 –	O
 Eh	O
 bien	O
 ,	O
 oui	O
 !	O
-	
+
 Et	O
 maintenant	O
 laissez	O
@@ -5372,7 +5372,7 @@ serai	O
 à	O
 vous	O
 !	O
-	
+
 Henriette	B-PER
 ,	O
 à	O
@@ -5391,7 +5391,7 @@ de	O
 vraies	O
 larmes	O
 .	O
-	
+
 –	O
 Ainsi	O
 donc	O
@@ -5411,7 +5411,7 @@ récompensez	O
 ma	O
 tendresse	O
 !	O
-	
+
 On	O
 aime	O
 pour	O
@@ -5453,7 +5453,7 @@ comme	O
 du	O
 feu	O
 !	O
-	
+
 Il	O
 fallait	O
 le	O
@@ -5475,7 +5475,7 @@ que	O
 vous	O
 êtes	O
 !	O
-	
+
 Maintenant	O
 ,	O
 le	O
@@ -5495,7 +5495,7 @@ plus	O
 que	O
 sûr	O
 .	O
-	
+
 Heureusement	O
 ,	O
 le	O
@@ -5512,7 +5512,7 @@ a	O
 un	O
 boisseau	O
 pour	O
-	
+
 Ce	O
 cri	O
 d	O
@@ -5531,7 +5531,7 @@ Pierre	B-PER
 -	I-PER
 Marie	I-PER
 .	O
-	
+
 Un	O
 vertige	O
 le	O
@@ -5565,11 +5565,11 @@ repousser	O
 la	O
 fois	O
 .	O
-	
+
 —	O
 Henriette	B-PER
 !	O
-	
+
 cria	O
 -	O
 t	O
@@ -5627,7 +5627,7 @@ serait	O
 bien	O
 mal	O
 !	O
-	
+
 Mais	O
 je	O
 ne	O
@@ -5645,7 +5645,7 @@ m	O
 '	O
 aimez	O
 !	O
-	
+
 Prenez	O
 -	O
 moi	O
@@ -5661,12 +5661,12 @@ ce	O
 que	O
 voudrez	O
 .	O
-	
+
 Je	O
 vous	O
 aime	O
 .	O
-	
+
 La	O
 bonne	O
 fille	O
@@ -5685,7 +5685,7 @@ de	O
 grosses	O
 bêtises	O
 .	O
-	
+
 Les	O
 mots	O
 toujours	O
@@ -5715,7 +5715,7 @@ sa	O
 jolie	O
 bouche	O
 .	O
-	
+
 Et	O
 ,	O
 au	O
@@ -5738,12 +5738,12 @@ une	O
 inspiration	O
 subite	O
 :	O
-	
+
 —	O
 Ah	O
 çà	O
 !	O
-	
+
 mais	O
 il	O
 me	O
@@ -5759,7 +5759,7 @@ fais	O
 la	O
 cour	O
 !	O
-	
+
 Es	O
 -	O
 tu	O
@@ -5767,10 +5767,10 @@ donc	O
 une	O
 demoiselle	O
 ?	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 lui	O
 prouva	O
 qu	O
@@ -5779,9 +5779,9 @@ elle	O
 se	O
 trompait	O
 .	O
-	
+
 IV	O
-	
+
 Le	O
 lendemain	O
 matin	O
@@ -5794,7 +5794,7 @@ par	O
 un	O
 sanglot	O
 .	O
-	
+
 Elle	O
 aperçut	O
 dans	O
@@ -5818,7 +5818,7 @@ plus	O
 profond	O
 désespoir	O
 .	O
-	
+
 La	O
 bonne	O
 fille	O
@@ -5843,7 +5843,7 @@ quelque	O
 mauvais	O
 rêve	O
 .	O
-	
+
 Il	O
 ne	O
 répondit	O
@@ -5852,7 +5852,7 @@ par	O
 des	O
 lamentations	O
 ...	O
-	
+
 —	O
 Qu	O
 '	O
@@ -5861,12 +5861,12 @@ ai	O
 je	O
 fait	O
 !	O
-	
+
 disait	O
 -	O
 il	O
 .	O
-	
+
 Dans	O
 quel	O
 abîme	O
@@ -5877,7 +5877,7 @@ avez	O
 vous	O
 entraîné	O
 !	O
-	
+
 Je	O
 suis	O
 un	O
@@ -5885,7 +5885,7 @@ jeune	O
 homme	O
 perdu	O
 ...	O
-	
+
 De	O
 quel	O
 front	O
@@ -5898,7 +5898,7 @@ et	O
 ma	O
 mère	O
 ?	O
-	
+
 Ne	O
 vaudrait	O
 -	O
@@ -5906,8 +5906,8 @@ il	O
 pas	O
 mieux	O
 courir	O
-au	O
-pont	B-LOC
+au	B-LOC
+pont	I-LOC
 des	I-LOC
 Arts	I-LOC
 et	O
@@ -5927,7 +5927,7 @@ l	O
 '	O
 honneur	O
 ?	O
-	
+
 La	O
 grisette	O
 ouvrait	O
@@ -5942,7 +5942,7 @@ rien	O
 ce	O
 langage	O
 .	O
-	
+
 Elle	O
 avait	O
 compté	O
@@ -5956,7 +5956,7 @@ plus	O
 de	O
 reconnaissance	O
 .	O
-	
+
 Lorsque	O
 Pierre	B-PER
 -	I-PER
@@ -5974,7 +5974,7 @@ répondit	O
 assez	O
 fièrement	O
 :	O
-	
+
 —	O
 A	O
 qui	O
@@ -5984,7 +5984,7 @@ as	O
 -	O
 tu	O
 ?	O
-	
+
 Je	O
 ne	O
 t	O
@@ -6014,7 +6014,7 @@ de	O
 la	O
 dévotion	O
 .	O
-	
+
 N	O
 '	O
 as	O
@@ -6025,7 +6025,7 @@ pas	O
 au	O
 collége	O
 ?	O
-	
+
 ne	O
 sais	O
 -	O
@@ -6040,7 +6040,7 @@ que	O
 la	O
 vie	O
 ?	O
-	
+
 Où	O
 as	O
 -	O
@@ -6060,7 +6060,7 @@ sa	O
 propre	O
 bêtise	O
 ?	O
-	
+
 C	O
 '	O
 est	O
@@ -6074,10 +6074,10 @@ d	O
 '	O
 honneur	O
 !	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 s	O
 '	O
 excusa	O
@@ -6095,7 +6095,7 @@ de	O
 la	O
 peine	O
 .	O
-	
+
 Il	O
 n	O
 '	O
@@ -6114,7 +6114,7 @@ du	O
 même	O
 âge	O
 .	O
-	
+
 Il	O
 avoua	O
 que	O
@@ -6132,7 +6132,7 @@ et	O
 même	O
 ingrat	O
 .	O
-	
+
 Et	O
 pourtant	O
 une	O
@@ -6147,7 +6147,7 @@ dans	O
 un	O
 étau	O
 .	O
-	
+
 Il	O
 craignait	O
 d	O
@@ -6157,7 +6157,7 @@ cruellement	O
 sa	O
 faute	O
 .	O
-	
+
 —	O
 Mais	O
 encore	O
@@ -6167,12 +6167,12 @@ fois	O
 quelle	O
 faute	O
 ?	O
-	
+
 reprit	O
 mademoiselle	B-PER
 Henriette	I-PER
 .	O
-	
+
 Dans	O
 quel	O
 livre	O
@@ -6184,7 +6184,7 @@ appris	O
 la	O
 grammaire	O
 ?	O
-	
+
 Faute	O
 est	O
 un	O
@@ -6200,7 +6200,7 @@ masculin	O
 en	O
 français	O
 .	O
-	
+
 On	O
 dit	O
 d	O
@@ -6235,7 +6235,7 @@ s	O
 est	O
 amusé	O
 .	O
-	
+
 Comprends	O
 -	O
 tu	O
@@ -6244,7 +6244,7 @@ tu	O
 grand	O
 innocent	O
 ?	O
-	
+
 —	O
 Certainement	O
 ,	O
@@ -6270,7 +6270,7 @@ que	O
 ma	O
 raison	O
 .	O
-	
+
 Je	O
 rêve	O
 des	O
@@ -6294,7 +6294,7 @@ toutes	O
 mes	O
 confidences	O
 .	O
-	
+
 Est	O
 -	O
 ce	O
@@ -6305,7 +6305,7 @@ ma	O
 première	O
 éducation	O
 ?	O
-	
+
 Je	O
 me	O
 persuade	O
@@ -6321,7 +6321,7 @@ comme	O
 les	O
 autres	O
 !	O
-	
+
 Mademoiselle	B-PER
 Henriette	I-PER
 ,	O
@@ -6350,7 +6350,7 @@ d	O
 anthropologie	O
 comparée	O
 .	O
-	
+
 Elle	O
 affirma	O
 à	O
@@ -6372,7 +6372,7 @@ en	O
 sa	O
 faveur	O
 .	O
-	
+
 Ainsi	O
 rassuré	O
 ,	O
@@ -6413,12 +6413,12 @@ le	O
 quitterait	O
 jamais	O
 .	O
-	
+
 —	O
 Pauvre	O
 moi	O
 !	O
-	
+
 disait	O
 -	O
 il	O
@@ -6439,11 +6439,11 @@ m	O
 '	O
 abandonniez	O
 ?	O
-	
+
 —	O
 Pardi	O
 !	O
-	
+
 répondait	O
 -	O
 elle	O
@@ -6460,7 +6460,7 @@ avec	O
 une	O
 autre	O
 .	O
-	
+
 Qui	O
 est	O
 -	O
@@ -6476,7 +6476,7 @@ peu	O
 planté	O
 là	O
 ?	O
-	
+
 Les	O
 femmes	O
 n	O
@@ -6491,14 +6491,14 @@ sait	O
 par	O
 expérience	O
 .	O
-	
+
 Quant	O
 aux	O
 hommes	O
 ...	O
 suffit	O
 .	O
-	
+
 L	O
 '	O
 heure	O
@@ -6520,7 +6520,7 @@ point	O
 à	O
 reparaître	O
 .	O
-	
+
 Ce	O
 beau	O
 jour	O
@@ -6537,7 +6537,7 @@ Duranton	I-PER
 avaient	O
 congé	O
 .	O
-	
+
 Quel	O
 ne	O
 fut	O
@@ -6562,20 +6562,20 @@ prête	O
 à	O
 sortir	O
 !	O
-	
+
 —	O
 Vous	O
 me	O
 quittez	O
 déjà	O
 ?	O
-	
+
 lui	O
 dit	O
 -	O
 il	O
 .	O
-	
+
 Moi	O
 qui	O
 comptais	O
@@ -6585,7 +6585,7 @@ journée	O
 avec	O
 vous	O
 !	O
-	
+
 Elle	O
 allégua	O
 des	O
@@ -6603,9 +6603,9 @@ déjeuner	O
 dînatoire	O
 au	O
 Banquet	O
-d	O
-'	O
-Anacréon	B-PER
+d	B-LOC
+'	I-LOC
+Anacréon	I-LOC
 n	O
 '	O
 était	O
@@ -6615,10 +6615,10 @@ affaire	O
 sans	O
 importance	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 eut	O
 beau	O
 plaider	O
@@ -6633,7 +6633,7 @@ la	O
 sourde	O
 oreille	O
 .	O
-	
+
 Il	O
 vanta	O
 les	O
@@ -6650,7 +6650,7 @@ du	O
 foyer	O
 domestique	O
 .	O
-	
+
 Elle	O
 l	O
 '	O
@@ -6678,10 +6678,10 @@ quatre	O
 à	O
 quatre	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 s	O
 '	O
 enferma	O
@@ -6695,7 +6695,7 @@ jusqu	O
 au	O
 soir	O
 .	O
-	
+
 —	O
 Voilà	O
 ,	O
@@ -6708,7 +6708,7 @@ punition	O
 qui	O
 commence	O
 .	O
-	
+
 Mais	O
 je	O
 ne	O
@@ -6723,7 +6723,7 @@ tôt	O
 à	O
 souffrir	O
 !	O
-	
+
 Il	O
 prépara	O
 un	O
@@ -6764,7 +6764,7 @@ dormait	O
 poings	O
 fermés	O
 .	O
-	
+
 Il	O
 y	O
 eut	O
@@ -6802,7 +6802,7 @@ de	O
 quatre	O
 ans	O
 .	O
-	
+
 On	O
 me	O
 permettra	O
@@ -6813,7 +6813,7 @@ sur	O
 cette	O
 période	O
 .	O
-	
+
 Toutes	O
 les	O
 femmes	O
@@ -6839,7 +6839,7 @@ Pierre	B-PER
 -	I-PER
 Marie	I-PER
 .	O
-	
+
 Il	O
 aimait	O
 avec	O
@@ -6868,10 +6868,10 @@ homme	O
 bonnes	O
 fortunes	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 la	O
 querellait	O
 souvent	O
@@ -6918,7 +6918,7 @@ avait	O
 pas	O
 eus	O
 .	O
-	
+
 Lorsqu	O
 '	O
 elle	O
@@ -6944,7 +6944,7 @@ heureux	O
 des	O
 hommes	O
 .	O
-	
+
 Lorsqu	O
 '	O
 elle	O
@@ -6974,7 +6974,7 @@ de	O
 la	O
 tapisserie	O
 .	O
-	
+
 Il	O
 faut	O
 croire	O
@@ -7007,7 +7007,7 @@ en	O
 janvier	O
 1834	O
 .	O
-	
+
 La	O
 révolution	O
 de	O
@@ -7022,7 +7022,7 @@ dans	O
 ses	O
 études	O
 .	O
-	
+
 Il	O
 se	O
 battit	O
@@ -7030,8 +7030,8 @@ comme	O
 un	O
 homme	O
 à	O
-la	O
-porte	B-LOC
+la	B-LOC
+porte	I-LOC
 Saint	I-LOC
 -	I-LOC
 Martin	I-LOC
@@ -7056,7 +7056,7 @@ la	O
 garde	O
 nationale	O
 .	O
-	
+
 Il	O
 prêta	O
 serment	O
@@ -7080,7 +7080,7 @@ temps	O
 sa	O
 dernière	O
 .	O
-	
+
 Le	O
 président	O
 de	O
@@ -7101,7 +7101,7 @@ escroc	O
 assez	O
 intéressant	O
 .	O
-	
+
 Il	O
 y	O
 avait	O
@@ -7111,10 +7111,10 @@ l	O
 '	O
 audience	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 possédait	O
 son	O
 affaire	O
@@ -7135,7 +7135,7 @@ par	O
 les	O
 yeux	O
 .	O
-	
+
 Il	O
 débuta	O
 par	O
@@ -7164,7 +7164,7 @@ eux	O
 -	O
 mêmes	O
 .	O
-	
+
 Mais	O
 au	O
 moment	O
@@ -7186,7 +7186,7 @@ saignement	O
 de	O
 nez	O
 .	O
-	
+
 Il	O
 lutta	O
 quelques	O
@@ -7209,7 +7209,7 @@ sur	O
 son	O
 rabat	O
 .	O
-	
+
 Le	O
 président	O
 eut	O
@@ -7228,7 +7228,7 @@ affaire	O
 à	O
 quinzaine	O
 .	O
-	
+
 Malheureusement	O
 ,	O
 le	O
@@ -7256,10 +7256,10 @@ de	O
 quinze	O
 jours	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 reparut	O
 à	O
 l	O
@@ -7281,7 +7281,7 @@ fatal	O
 était	O
 revenu	O
 !	O
-	
+
 Pour	O
 cette	O
 fois	O
@@ -7297,7 +7297,7 @@ manqua	O
 de	O
 patience	O
 .	O
-	
+
 Il	O
 attribua	O
 cet	O
@@ -7307,7 +7307,7 @@ quelque	O
 émotion	O
 pusillanime	O
 .	O
-	
+
 —	O
 Maître	B-PER
 Guérin	I-PER
@@ -7345,10 +7345,10 @@ une	O
 carrière	O
 militante	O
 !	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 ,	O
 interpellé	O
 si	O
@@ -7360,7 +7360,7 @@ une	O
 résignation	O
 fière	O
 :	O
-	
+
 Monsieur	O
 le	O
 président	O
@@ -7378,7 +7378,7 @@ j	O
 en	O
 profiterai	O
 .	O
-	
+
 Mais	O
 je	O
 vous	O
@@ -7396,13 +7396,13 @@ nez	O
 la	O
 barricade	O
 de	O
-la	O
-porte	B-LOC
+la	B-LOC
+porte	I-LOC
 Saint	I-LOC
 -	I-LOC
 Martin	I-LOC
 .	O
-	
+
 Le	O
 mot	O
 fut	O
@@ -7419,7 +7419,7 @@ ne	O
 plaida	O
 plus	O
 .	O
-	
+
 Il	O
 sollicita	O
 une	O
@@ -7448,7 +7448,7 @@ dispensé	O
 du	O
 surnumérariat	O
 .	O
-	
+
 La	O
 vie	O
 de	O
@@ -7475,7 +7475,7 @@ jaloux	O
 au	O
 contraire	O
 .	O
-	
+
 Il	O
 fut	O
 si	O
@@ -7494,7 +7494,7 @@ prendre	O
 en	O
 grippe	O
 .	O
-	
+
 La	O
 bonne	O
 fille	O
@@ -7512,7 +7512,7 @@ tout	O
 sa	O
 liberté	O
 .	O
-	
+
 Depuis	O
 tantôt	O
 deux	O
@@ -7532,12 +7532,12 @@ en	O
 louant	O
 une	O
 chambre	O
-au	O
-boulevard	B-LOC
+au	B-LOC
+boulevard	I-LOC
 du	I-LOC
 Temple	I-LOC
 .	O
-	
+
 Le	O
 8	O
 janvier	O
@@ -7576,7 +7576,7 @@ revit	O
 plus	O
 jamais	O
 .	O
-	
+
 Le	O
 pauvre	O
 garçon	O
@@ -7602,7 +7602,7 @@ pour	O
 se	O
 consoler	O
 .	O
-	
+
 Heureusement	O
 ,	O
 ses	O
@@ -7613,7 +7613,7 @@ accablaient	O
 de	O
 besogne	O
 .	O
-	
+
 Le	O
 bureau	O
 des	O
@@ -7634,7 +7634,7 @@ ministère	I-ORG
 des	I-ORG
 finances	I-ORG
 .	O
-	
+
 On	O
 sait	O
 que	O
@@ -7662,12 +7662,12 @@ en	O
 écritures	O
 diverses	O
 .	O
-	
+
 La	O
 direction	O
 de	O
-la	O
-rue	B-LOC
+la	B-LOC
+rue	I-LOC
 du	I-LOC
 Mont	I-LOC
 -	I-LOC
@@ -7698,7 +7698,7 @@ erreurs	O
 des	O
 expéditionnaires	O
 .	O
-	
+
 On	O
 y	O
 consomme	O
@@ -7718,16 +7718,16 @@ thuya	O
 articulata	O
 )	O
 .	O
-	
+
 Les	O
 habitudes	O
 d	O
 '	O
 ordre	O
 que	O
-le	O
-jeune	B-PER
-Guérin	I-PER
+le	B-PER
+jeune	O
+Guérin	B-PER
 avait	O
 contractées	O
 dès	O
@@ -7749,7 +7749,7 @@ genre	O
 de	O
 travail	O
 .	O
-	
+
 Les	O
 rapports	O
 de	O
@@ -7783,7 +7783,7 @@ les	O
 matières	O
 premières	O
 .	O
-	
+
 Il	O
 obtint	O
 donc	O
@@ -7808,7 +7808,7 @@ francs	O
 de	O
 gratification	O
 .	O
-	
+
 En	O
 1836	O
 ,	O
@@ -7838,7 +7838,7 @@ les	O
 employés	O
 subalternes	O
 .	O
-	
+
 L	O
 '	O
 instruction	O
@@ -7865,7 +7865,7 @@ un	O
 grand	O
 secours	O
 .	O
-	
+
 Mais	O
 personne	O
 n	O
@@ -7880,7 +7880,7 @@ l	O
 incomparable	O
 Henriette	B-PER
 .	O
-	
+
 Lorsque	O
 ses	O
 collègues	O
@@ -7907,7 +7907,7 @@ couronne	O
 du	O
 bureaucrate	O
 .	O
-	
+
 Ses	O
 collègues	O
 le	O
@@ -7934,7 +7934,7 @@ de	O
 la	O
 jeunesse	O
 .	O
-	
+
 Il	O
 était	O
 âgé	O
@@ -7958,7 +7958,7 @@ le	O
 logis	O
 paternel	O
 .	O
-	
+
 Son	O
 père	O
 vendit	O
@@ -7980,7 +7980,7 @@ il	O
 principal	O
 locataire	O
 .	O
-	
+
 Le	O
 bonhomme	O
 se	O
@@ -7997,7 +7997,7 @@ années	O
 de	O
 repos	O
 .	O
-	
+
 Il	O
 en	O
 prit	O
@@ -8015,7 +8015,7 @@ un	O
 saule	O
 pleureur	O
 .	O
-	
+
 Une	O
 maladie	O
 qui	O
@@ -8043,7 +8043,7 @@ l	O
 '	O
 année	O
 .	O
-	
+
 Madame	B-PER
 Guérin	I-PER
 la	O
@@ -8065,7 +8065,7 @@ livres	O
 de	O
 revenu	O
 .	O
-	
+
 C	O
 '	O
 était	O
@@ -8096,7 +8096,7 @@ les	O
 plus	O
 innocentes	O
 .	O
-	
+
 On	O
 lui	O
 trouva	O
@@ -8124,10 +8124,10 @@ quarante	O
 mille	O
 francs	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 était	O
 en	O
 droit	O
@@ -8152,10 +8152,10 @@ sécurité	O
 aux	O
 parents	O
 .	O
-	
+
 Mais	O
-la	O
-famille	B-PER
+la	B-PER
+famille	I-PER
 Laurent	I-PER
 était	O
 honorable	O
@@ -8168,7 +8168,7 @@ plaisait	O
 madame	B-PER
 Guérin	I-PER
 .	O
-	
+
 D	O
 '	O
 ailleurs	O
@@ -8179,10 +8179,10 @@ avait	O
 des	O
 espérances	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 ne	O
 fit	O
 pas	O
@@ -8196,7 +8196,7 @@ demoiselle	O
 bien	O
 élevée	O
 .	O
-	
+
 Sa	O
 femme	O
 ne	O
@@ -8206,7 +8206,7 @@ point	O
 de	O
 dégoût	O
 .	O
-	
+
 C	O
 '	O
 était	O
@@ -8225,7 +8225,7 @@ soupçon	O
 de	O
 moustache	O
 .	O
-	
+
 Elle	O
 conduisit	O
 son	O
@@ -8235,7 +8235,7 @@ l	O
 '	O
 autel	O
 .	O
-	
+
 Les	O
 bons	O
 bourgeois	O
@@ -8243,8 +8243,8 @@ de	O
 Mantes	B-LOC
 remarquèrent	O
 que	O
-le	O
-fils	B-PER
+le	B-PER
+fils	I-PER
 Guérin	I-PER
 avait	O
 rougi	O
@@ -8258,14 +8258,14 @@ le	O
 oui	O
 fatal	O
 .	O
-	
+
 Pendant	O
 les	O
 cérémonies	O
 de	O
-l	O
-'	O
-Église	B-ORG
+l	B-ORG
+'	I-ORG
+Église	I-ORG
 ,	O
 la	O
 mère	O
@@ -8285,7 +8285,7 @@ on	O
 trouva	O
 saugrenue	O
 :	O
-	
+
 —	O
 Dire	O
 que	O
@@ -8299,8 +8299,8 @@ une	O
 fille	O
 et	O
 si	O
-la	O
-Lenormant	B-PER
+la	B-PER
+Lenormant	I-PER
 ne	O
 nous	O
 avait	O
@@ -8327,7 +8327,7 @@ d	O
 '	O
 oranger	O
 !	O
-	
+
 Enfin	O
 !	O
 le	O
@@ -8340,7 +8340,7 @@ a	O
 pas	O
 voulu	O
 .	O
-	
+
 A	O
 chacun	O
 son	O
@@ -8351,7 +8351,7 @@ ce	O
 bas	O
 monde	O
 !	O
-	
+
 Un	O
 des	O
 témoins	O
@@ -8359,8 +8359,8 @@ de	O
 la	O
 mariée	O
 était	O
-un	O
-Américain	B-MISC
+un	B-MISC
+Américain	I-MISC
 du	O
 nom	O
 de	O
@@ -8380,7 +8380,7 @@ de	O
 M.	B-PER
 Laurent	I-PER
 .	O
-	
+
 Il	O
 vivait	O
 seul	O
@@ -8400,7 +8400,7 @@ pour	O
 sa	O
 nièce	O
 .	O
-	
+
 Un	O
 nègre	O
 de	O
@@ -8417,7 +8417,7 @@ toute	O
 sa	O
 maison	O
 .	O
-	
+
 Personne	O
 ne	O
 pouvait	O
@@ -8445,7 +8445,7 @@ s	O
 était	O
 expatrié	O
 .	O
-	
+
 Il	O
 exerçait	O
 la	O
@@ -8478,7 +8478,7 @@ devant	O
 sa	O
 supériorité	O
 .	O
-	
+
 Quelques	O
 -	O
 uns	O
@@ -8505,7 +8505,7 @@ ce	O
 singulier	O
 homme	O
 .	O
-	
+
 Il	O
 montrait	O
 autant	O
@@ -8523,7 +8523,7 @@ d	O
 '	O
 audace	O
 .	O
-	
+
 Aussi	O
 venait	O
 -	O
@@ -8536,7 +8536,7 @@ sa	O
 terrible	O
 assistance	O
 .	O
-	
+
 On	O
 le	O
 payait	O
@@ -8555,7 +8555,7 @@ l	O
 '	O
 opération	O
 .	O
-	
+
 Il	O
 ne	O
 tenait	O
@@ -8576,7 +8576,7 @@ guérir	O
 les	O
 pauvres	O
 .	O
-	
+
 Mais	O
 ,	O
 si	O
@@ -8599,9 +8599,9 @@ argent	O
 la	O
 famille	O
 .	O
-	
-La	O
-ville	B-LOC
+
+La	B-LOC
+ville	I-LOC
 de	I-LOC
 Mantes	I-LOC
 avait	O
@@ -8619,7 +8619,7 @@ pour	O
 son	O
 caractère	O
 .	O
-	
+
 D	O
 '	O
 ailleurs	O
@@ -8640,7 +8640,7 @@ populaire	O
 en	O
 province	O
 .	O
-	
+
 On	O
 jasait	O
 dans	O
@@ -8662,7 +8662,7 @@ présentée	O
 à	O
 personne	O
 .	O
-	
+
 Si	O
 elle	O
 restait	O
@@ -8693,9 +8693,9 @@ regards	O
 du	O
 monde	O
 .	O
-	
-Le	O
-jeune	B-PER
+
+Le	B-PER
+jeune	I-PER
 Guérin	I-PER
 ,	O
 qui	O
@@ -8717,7 +8717,7 @@ avec	O
 M.	B-PER
 Wilson	I-PER
 .	O
-	
+
 Il	O
 lui	O
 raconta	O
@@ -8760,7 +8760,7 @@ temps	O
 autre	O
 .	O
 '	O
-	
+
 M.	B-PER
 Wilson	I-PER
 commença	O
@@ -8783,7 +8783,7 @@ une	O
 certaine	O
 déférence	O
 .	O
-	
+
 —	O
 Tout	O
 est	O
@@ -8799,7 +8799,7 @@ l	O
 '	O
 absurde	O
 .	O
-	
+
 Il	O
 lui	O
 montra	O
@@ -8816,7 +8816,7 @@ graver	O
 Tout	O
 arrive	O
 .	O
-	
+
 —	O
 Mais	O
 ,	O
@@ -8835,7 +8835,7 @@ vous	O
 vous	O
 marié	O
 ?	O
-	
+
 —	O
 Parce	O
 que	O
@@ -8844,7 +8844,7 @@ mère	O
 le	O
 désirait	O
 .	O
-	
+
 Et	O
 ,	O
 d	O
@@ -8857,12 +8857,12 @@ grâce	O
 de	O
 Dieu	B-PER
 !	O
-	
+
 Je	O
 suis	O
 chrétien	O
 .	O
-	
+
 —	O
 A	O
 tout	O
@@ -8881,11 +8881,11 @@ vous	O
 rendre	O
 service	O
 .	O
-	
+
 —	O
 Merci	O
 .	O
-	
+
 Les	O
 époux	O
 retournèrent	O
@@ -8919,7 +8919,7 @@ commencement	O
 de	O
 1842	O
 .	O
-	
+
 La	O
 petite	O
 madame	B-PER
@@ -8950,7 +8950,7 @@ belle	O
 -	O
 mère	O
 .	O
-	
+
 Aucun	O
 signe	O
 précurseur	O
@@ -8967,9 +8967,9 @@ qui	O
 se	O
 préparait	O
 .	O
-	
+
 V	O
-	
+
 Le	O
 troisième	O
 lundi	O
@@ -9012,7 +9012,7 @@ profil	O
 lui	O
 dit	O
 :	O
-	
+
 —	O
 Méfiez	O
 -	O
@@ -9020,13 +9020,13 @@ vous	O
 ,	O
 Guérin	B-PER
 !	O
-	
+
 Le	O
 mariage	O
 vous	O
 engraisse	O
 .	O
-	
+
 Vous	O
 prenez	O
 du	O
@@ -9035,7 +9035,7 @@ ventre	O
 mon	O
 bon	O
 !	O
-	
+
 Le	O
 digne	O
 employé	O
@@ -9058,7 +9058,7 @@ jusqu	O
 à	O
 midi	O
 .	O
-	
+
 Quelques	O
 jours	O
 après	O
@@ -9078,7 +9078,7 @@ les	O
 personnes	O
 présentes	O
 .	O
-	
+
 On	O
 fit	O
 cercle	O
@@ -9105,7 +9105,7 @@ toutes	O
 ses	O
 faces	O
 .	O
-	
+
 C	O
 '	O
 est	O
@@ -9123,7 +9123,7 @@ style	O
 du	O
 bureau	O
 .	O
-	
+
 Le	O
 sentiment	O
 unanime	O
@@ -9143,7 +9143,7 @@ s	O
 '	O
 arrondir	O
 .	O
-	
+
 Il	O
 ne	O
 se	O
@@ -9171,7 +9171,7 @@ avec	O
 leur	O
 conscience	O
 .	O
-	
+
 Toutefois	O
 ,	O
 il	O
@@ -9191,7 +9191,7 @@ de	O
 son	O
 gilet	O
 .	O
-	
+
 Un	O
 de	O
 MM	O
@@ -9214,7 +9214,7 @@ de	O
 la	O
 sortie	O
 .	O
-	
+
 Guérin	B-PER
 s	O
 '	O
@@ -9230,7 +9230,7 @@ il	O
 fut	O
 effleuré	O
 .	O
-	
+
 —	O
 Mon	O
 cher	O
@@ -9262,7 +9262,7 @@ pour	O
 une	O
 augmentation	O
 .	O
-	
+
 Il	O
 me	O
 semble	O
@@ -9275,7 +9275,7 @@ vous	O
 -	O
 même	O
 .	O
-	
+
 Guérin	B-PER
 se	O
 confondit	O
@@ -9285,7 +9285,7 @@ et	O
 en	O
 excuses	O
 .	O
-	
+
 Il	O
 supposait	O
 ,	O
@@ -9313,7 +9313,7 @@ effrayer	O
 un	O
 peu	O
 .	O
-	
+
 —	O
 Dans	O
 tous	O
@@ -9355,7 +9355,7 @@ me	O
 profitent	O
 guère	O
 .	O
-	
+
 J	O
 '	O
 ai	O
@@ -9382,12 +9382,12 @@ paraître	O
 et	O
 disparaître	O
 .	O
-	
+
 —	O
 En	O
 vérité	O
 ?	O
-	
+
 reprit	O
 le	O
 chef	O
@@ -9400,13 +9400,13 @@ d	O
 indifférence	O
 polie	O
 .	O
-	
+
 Alors	O
 soignez	O
 -	O
 vous	O
 .	O
-	
+
 La	O
 vie	O
 sédentaire	O
@@ -9415,7 +9415,7 @@ des	O
 effets	O
 surprenants	O
 .	O
-	
+
 Savez	O
 -	O
 vous	O
@@ -9430,7 +9430,7 @@ cachots	O
 monsieur	B-PER
 Guérin	I-PER
 !	O
-	
+
 Il	O
 y	O
 a	O
@@ -9443,7 +9443,7 @@ là	O
 -	O
 dessus	O
 .	O
-	
+
 J	O
 '	O
 en	O
@@ -9464,7 +9464,7 @@ avoir	O
 le	O
 temps	O
 .	O
-	
+
 Que	O
 voulez	O
 -	O
@@ -9476,19 +9476,19 @@ sur	O
 la	O
 brèche	O
 .	O
-	
+
 Bonsoir	O
 ,	O
 monsieur	B-PER
 Guérin	I-PER
 .	O
-	
+
 Je	O
 vous	O
 salue	O
 sincèrement	O
 ...	O
-	
+
 Le	O
 même	O
 soir	O
@@ -9520,7 +9520,7 @@ et	O
 sa	O
 femme	O
 :	O
-	
+
 —	O
 Regardez	O
 moi	O
@@ -9535,7 +9535,7 @@ pas	O
 du	O
 ministère	O
 .	O
-	
+
 Est	O
 -	O
 ce	O
@@ -9545,7 +9545,7 @@ me	O
 trouvez	O
 engraissé	O
 ?	O
-	
+
 Sa	O
 femme	O
 dit	O
@@ -9556,7 +9556,7 @@ mère	O
 dit	O
 oui	O
 .	O
-	
+
 Madame	B-PER
 Guérin	I-PER
 la	O
@@ -9574,7 +9574,7 @@ un	O
 peu	O
 carrée	O
 .	O
-	
+
 —	O
 C	O
 '	O
@@ -9601,7 +9601,7 @@ s	O
 '	O
 arrondit	O
 .	O
-	
+
 Hélas	O
 !	O
 mon	O
@@ -9621,7 +9621,7 @@ qu	O
 un	O
 homme	O
 .	O
-	
+
 Ce	O
 n	O
 '	O
@@ -9637,13 +9637,13 @@ nous	O
 avait	O
 promis	O
 !	O
-	
+
 Guérin	B-PER
 sourit	O
 sans	O
 répondre	O
 .	O
-	
+
 Il	O
 mangea	O
 de	O
@@ -9656,7 +9656,7 @@ pour	O
 son	O
 dessert	O
 .	O
-	
+
 Sa	O
 femme	O
 lui	O
@@ -9669,7 +9669,7 @@ soigna	O
 avec	O
 sollicitude	O
 .	O
-	
+
 La	O
 mère	O
 haussait	O
@@ -9695,7 +9695,7 @@ seulement	O
 une	O
 fille	O
 !	O
-	
+
 mais	O
 il	O
 est	O
@@ -9709,7 +9709,7 @@ s	O
 avec	O
 nous	O
 !	O
-	
+
 —	O
 On	O
 ne	O
@@ -9719,7 +9719,7 @@ pas	O
 répondit	O
 Guérin	B-PER
 .	O
-	
+
 Il	O
 écrivit	O
 une	O
@@ -9729,7 +9729,7 @@ lettre	O
 M.	B-PER
 Wilson	I-PER
 .	O
-	
+
 Il	O
 s	O
 '	O
@@ -9741,7 +9741,7 @@ sa	O
 petite	O
 femme	O
 .	O
-	
+
 —	O
 Je	O
 crois	O
@@ -9763,7 +9763,7 @@ recouvrerai	O
 la	O
 santé	O
 .	O
-	
+
 Mais	O
 il	O
 se	O
@@ -9779,7 +9779,7 @@ bien	O
 du	O
 monde	O
 .	O
-	
+
 En	O
 ce	O
 temps	O
@@ -9799,7 +9799,7 @@ les	O
 yeux	O
 battus	O
 .	O
-	
+
 Il	O
 portait	O
 un	O
@@ -9815,7 +9815,7 @@ l	O
 embellissait	O
 point	O
 .	O
-	
+
 Quoiqu	O
 '	O
 il	O
@@ -9833,7 +9833,7 @@ son	O
 caractère	O
 aimable	O
 .	O
-	
+
 Il	O
 recherchait	O
 la	O
@@ -9853,7 +9853,7 @@ de	O
 sa	O
 tendresse	O
 .	O
-	
+
 Vers	O
 le	O
 quatrième	O
@@ -9877,7 +9877,7 @@ devenus	O
 trop	O
 étroits	O
 .	O
-	
+
 On	O
 lui	O
 choisit	O
@@ -9900,7 +9900,7 @@ l	O
 incommodait	O
 beaucoup	O
 .	O
-	
+
 Il	O
 ne	O
 se	O
@@ -9933,7 +9933,7 @@ un	O
 autre	O
 habit	O
 .	O
-	
+
 Cependant	O
 il	O
 s	O
@@ -9963,7 +9963,7 @@ une	O
 rare	O
 exactitude	O
 .	O
-	
+
 Mais	O
 il	O
 crut	O
@@ -9979,7 +9979,7 @@ demander	O
 un	O
 congé	O
 .	O
-	
+
 Il	O
 prit	O
 un	O
@@ -10002,7 +10002,7 @@ par	O
 le	O
 vaincre	O
 .	O
-	
+
 Ses	O
 digestions	O
 se	O
@@ -10015,7 +10015,7 @@ appétit	O
 eût	O
 doublé	O
 .	O
-	
+
 Mais	O
 il	O
 commença	O
@@ -10055,7 +10055,7 @@ lui	O
 -	O
 même	O
 .	O
-	
+
 Depuis	O
 longtemps	O
 ,	O
@@ -10086,7 +10086,7 @@ ou	O
 de	O
 timidité	O
 .	O
-	
+
 Il	O
 fallut	O
 pourtant	O
@@ -10099,7 +10099,7 @@ milieu	O
 de	O
 juin	O
 .	O
-	
+
 L	O
 '	O
 embonpoint	O
@@ -10113,7 +10113,7 @@ beaucoup	O
 de	O
 terrain	O
 .	O
-	
+
 Les	O
 jambes	O
 devenaient	O
@@ -10128,7 +10128,7 @@ jour	O
 en	O
 jour	O
 .	O
-	
+
 La	O
 figure	O
 même	O
@@ -10145,7 +10145,7 @@ grandes	O
 taches	O
 rouges	O
 .	O
-	
+
 On	O
 fit	O
 venir	O
@@ -10171,7 +10171,7 @@ provoqua	O
 une	O
 consultation	O
 .	O
-	
+
 Cinq	O
 illustres	O
 docteurs	O
@@ -10207,7 +10207,7 @@ traitement	O
 à	O
 suivre	O
 .	O
-	
+
 Deux	O
 chirurgiens	O
 rapportaient	O
@@ -10240,7 +10240,7 @@ l	O
 '	O
 autre	O
 .	O
-	
+
 Deux	O
 médecins	O
 expliquaient	O
@@ -10272,7 +10272,7 @@ affection	O
 du	O
 foie	O
 .	O
-	
+
 Le	O
 cinquième	O
 niait	O
@@ -10282,7 +10282,7 @@ gravité	O
 du	O
 cas	O
 .	O
-	
+
 Il	O
 ne	O
 voyait	O
@@ -10303,7 +10303,7 @@ accumulation	O
 des	O
 gaz	O
 .	O
-	
+
 —	O
 Je	O
 sais	O
@@ -10363,7 +10363,7 @@ l	O
 espèce	O
 humaine	O
 .	O
-	
+
 Après	O
 une	O
 longue	O
@@ -10398,7 +10398,7 @@ mal	O
 M.	B-PER
 Guérin	I-PER
 .	O
-	
+
 Mais	O
 le	O
 malade	O
@@ -10415,10 +10415,10 @@ ministère	O
 en	O
 dépit	O
 de	O
-la	O
-Faculté	B-ORG
+la	B-ORG
+Faculté	I-ORG
 .	O
-	
+
 Tout	O
 bien	O
 considéré	O
@@ -10432,7 +10432,7 @@ plus	O
 que	O
 dangereux	O
 .	O
-	
+
 S	O
 '	O
 il	O
@@ -10449,7 +10449,7 @@ souffrait	O
 pas	O
 positivement	O
 .	O
-	
+
 D	O
 '	O
 ailleurs	O
@@ -10470,7 +10470,7 @@ s	O
 '	O
 expliquer	O
 .	O
-	
+
 —	O
 Nous	O
 irons	O
@@ -10481,7 +10481,7 @@ disait	O
 -	O
 il	O
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 sait	O
@@ -10492,7 +10492,7 @@ il	O
 me	O
 faut	O
 .	O
-	
+
 Un	O
 accident	O
 tout	O
@@ -10506,7 +10506,7 @@ précipiter	O
 son	O
 voyage	O
 .	O
-	
+
 Le	O
 26	O
 juin	O
@@ -10536,7 +10536,7 @@ le	O
 secrétaire	O
 général	O
 .	O
-	
+
 Ce	O
 haut	O
 fonctionnaire	O
@@ -10555,7 +10555,7 @@ sous	O
 la	O
 besogne	O
 .	O
-	
+
 Ses	O
 instants	O
 étaient	O
@@ -10587,11 +10587,11 @@ descendre	O
 au	O
 restaurant	O
 de	O
-la	O
-rue	B-LOC
+la	B-LOC
+rue	I-LOC
 Mondovi	I-LOC
 .	O
-	
+
 Il	O
 fit	O
 à	O
@@ -10633,7 +10633,7 @@ la	O
 main	O
 gauche	O
 .	O
-	
+
 Le	O
 malheur	O
 voulut	O
@@ -10662,7 +10662,7 @@ guéridon	O
 de	O
 laque	O
 .	O
-	
+
 Il	O
 vit	O
 un	O
@@ -10694,7 +10694,7 @@ l	O
 '	O
 odorat	O
 .	O
-	
+
 Qui	O
 pourrait	O
 expliquer	O
@@ -10704,7 +10704,7 @@ de	O
 la	O
 nature	O
 ?	O
-	
+
 Guérin	B-PER
 avait	O
 toujours	O
@@ -10729,7 +10729,7 @@ de	O
 la	O
 civilité	O
 .	O
-	
+
 De	O
 plus	O
 ,	O
@@ -10764,7 +10764,7 @@ donnait	O
 le	O
 vertige	O
 .	O
-	
+
 Ce	O
 n	O
 '	O
@@ -10780,7 +10780,7 @@ un	O
 abîme	O
 !	O
 ...	O
-	
+
 L	O
 '	O
 infortuné	O
@@ -10825,7 +10825,7 @@ yeux	O
 se	O
 troublèrent	O
 .	O
-	
+
 Ivre	O
 de	O
 soif	O
@@ -10870,7 +10870,7 @@ grande	O
 bouche	O
 béante	O
 .	O
-	
+
 Le	O
 conseiller	O
 d	O
@@ -10905,7 +10905,7 @@ neveu	O
 du	O
 ministre	O
 .	O
-	
+
 Comme	O
 il	O
 avait	O
@@ -10931,7 +10931,7 @@ grand	O
 de	O
 rire	O
 .	O
-	
+
 La	O
 grimace	O
 de	O
@@ -10983,7 +10983,7 @@ sur	O
 son	O
 ventre	O
 :	O
-	
+
 —	O
 Grâce	O
 ,	O
@@ -11020,7 +11020,6 @@ poussé	O
 le	O
 bras	O
 !	O
--	O
 
 —	O
 Relevez	O
@@ -11042,7 +11041,7 @@ reprendre	O
 son	O
 sérieux	O
 .	O
-	
+
 J	O
 '	O
 avais	O
@@ -11074,7 +11073,7 @@ eussiez	O
 des	O
 envies	O
 .	O
-	
+
 Allons	O
 ,	O
 allons	O
@@ -11090,7 +11089,7 @@ choisir	O
 pour	O
 parrain	O
 !	O
-	
+
 Un	O
 congé	O
 de	O
@@ -11103,7 +11102,7 @@ t	O
 il	O
 suffisant	O
 ?	O
-	
+
 Le	O
 pauvre	O
 homme	O
@@ -11137,7 +11136,7 @@ minute	O
 de	O
 folie	O
 .	O
-	
+
 —	O
 Quand	O
 on	O
@@ -11149,13 +11148,13 @@ on	O
 vous	O
 pardonne	O
 !	O
-	
+
 reprit	O
 le	O
 secrétaire	O
 général	O
 .	O
-	
+
 Votre	O
 congé	O
 courra	O
@@ -11165,7 +11164,7 @@ demain	O
 sans	O
 retenue	O
 .	O
-	
+
 Pensez	O
 -	O
 vous	O
@@ -11199,7 +11198,7 @@ apportez	O
 vous	O
 là	O
 ?	O
-	
+
 Je	O
 vois	O
 ce	O
@@ -11216,7 +11215,7 @@ sur	O
 mon	O
 bureau	O
 ...	O
-	
+
 Bon	O
 voyage	O
 ,	O
@@ -11245,12 +11244,12 @@ se	O
 portent	O
 bien	O
 !	O
-	
+
 —	O
 Qui	O
 sait	O
 ?	O
-	
+
 répondit	O
 l	O
 '	O
@@ -11261,9 +11260,9 @@ une	O
 profonde	O
 révérence	O
 .	O
-	
+
 VI	O
-	
+
 M.	B-PER
 Guérin	I-PER
 ne	O
@@ -11312,7 +11311,7 @@ et	O
 se	O
 guérir	O
 .	O
-	
+
 Mantes	B-LOC
 la	I-LOC
 Jolie	I-LOC
@@ -11331,7 +11330,7 @@ en	O
 bon	O
 air	O
 .	O
-	
+
 Les	O
 parents	O
 de	O
@@ -11346,19 +11345,19 @@ commerce	O
 au	O
 coin	O
 de	O
-la	O
-rue	B-LOC
+la	B-LOC
+rue	I-LOC
 des	I-LOC
 Chantres	I-LOC
 et	O
 de	O
-la	O
-place	B-LOC
+la	B-LOC
+place	I-LOC
 Notre	I-LOC
 -	I-LOC
 Dame	I-LOC
 .	O
-	
+
 Ils	O
 offrirent	O
 à	O
@@ -11382,7 +11381,7 @@ ou	O
 six	O
 ans	O
 .	O
-	
+
 Ces	O
 honnêtes	O
 épiciers	O
@@ -11398,7 +11397,7 @@ art	O
 de	O
 feindre	O
 .	O
-	
+
 Ils	O
 poussèrent	O
 des	O
@@ -11427,13 +11426,13 @@ s	O
 étaient	O
 choisi	O
 .	O
-	
+
 —	O
 Sac	O
 à	O
 papier	O
 !	O
-	
+
 dit	O
 M.	B-PER
 Laurent	I-PER
@@ -11461,7 +11460,7 @@ qu	O
 il	O
 éclate	O
 .	O
-	
+
 Mélio	B-PER
 ne	O
 nous	O
@@ -11475,7 +11474,7 @@ cas	O
 si	O
 grave	O
 .	O
-	
+
 Heureusement	O
 ,	O
 nous	O
@@ -11490,7 +11489,7 @@ tous	O
 les	O
 maux	O
 !	O
-	
+
 Madame	B-PER
 Laurent	I-PER
 s	O
@@ -11515,7 +11514,7 @@ depuis	O
 son	O
 mariage	O
 .	O
-	
+
 —	O
 Elle	O
 a	O
@@ -11524,13 +11523,13 @@ sa	O
 jolie	O
 taille	O
 !	O
-	
+
 disait	O
 la	O
 bonne	O
 dame	O
 .	O
-	
+
 On	O
 lui	O
 ferait	O
@@ -11545,7 +11544,7 @@ mètre	O
 de	O
 ruban	O
 !	O
-	
+
 Il	O
 ne	O
 fut	O
@@ -11561,7 +11560,7 @@ elles	O
 avaient	O
 grandi	O
 !	O
-	
+
 On	O
 soupa	O
 longuement	O
@@ -11576,10 +11575,10 @@ de	O
 la	O
 province	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 ,	O
 qui	O
 avait	O
@@ -11592,7 +11591,7 @@ champs	O
 ,	O
 dévorait	O
 .	O
-	
+
 —	O
 Mon	O
 pauvre	O
@@ -11616,7 +11615,7 @@ tourné	O
 en	O
 citrouille	O
 .	O
-	
+
 Vous	O
 mangez	O
 trop	O
@@ -11626,7 +11625,7 @@ tout	O
 le	O
 secret	O
 .	O
-	
+
 Ce	O
 n	O
 '	O
@@ -11646,7 +11645,7 @@ reproche	O
 la	O
 nourriture	O
 .	O
-	
+
 Mais	O
 nos	O
 quatre	O
@@ -11677,7 +11676,7 @@ autant	O
 que	O
 vous	O
 .	O
-	
+
 M.	B-PER
 Guérin	I-PER
 sourit	O
@@ -11702,7 +11701,7 @@ d	O
 en	O
 haut	O
 .	O
-	
+
 —	O
 Laissez	O
 -	O
@@ -11718,7 +11717,7 @@ prévenez	O
 M.	B-PER
 Wilson	I-PER
 .	O
-	
+
 —	O
 Savoir	O
 s	O
@@ -11728,7 +11727,7 @@ pourra	O
 venir	O
 demain	O
 !	O
-	
+
 Personne	O
 ne	O
 le	O
@@ -11738,7 +11737,7 @@ depuis	O
 quelque	O
 temps	O
 .	O
-	
+
 Il	O
 paraît	O
 que	O
@@ -11757,7 +11756,7 @@ vont	O
 leur	O
 train	O
 !	O
-	
+
 M.	B-PER
 Wilson	I-PER
 ne	O
@@ -11786,7 +11785,7 @@ haute	O
 cravate	O
 noire	O
 .	O
-	
+
 Un	O
 nuage	O
 de	O
@@ -11816,28 +11815,28 @@ de	O
 la	O
 ville	O
 .	O
-	
+
 —	O
 Qui	O
 êtes	O
 -	O
 vous	O
 ?	O
-	
+
 dit	O
 -	O
 il	O
 à	O
 Guérin	B-PER
 .	O
-	
+
 Qu	O
 '	O
 avez	O
 -	O
 vous	O
 ?	O
-	
+
 Que	O
 voulez	O
 -	O
@@ -11845,7 +11844,7 @@ vous	O
 de	O
 moi	O
 ?	O
-	
+
 Je	O
 ne	O
 m	O
@@ -11862,7 +11861,7 @@ quitter	O
 ce	O
 pays	O
 .	O
-	
+
 Guérin	B-PER
 lui	O
 rappela	O
@@ -11889,7 +11888,7 @@ avait	O
 pas	O
 répondu	O
 .	O
-	
+
 —	O
 Parce	O
 qu	O
@@ -11907,7 +11906,7 @@ dit	O
 le	O
 docteur	O
 .	O
-	
+
 —	O
 Pas	O
 le	O
@@ -11927,7 +11926,7 @@ m	O
 '	O
 arrive	O
 ?	O
-	
+
 Regardez	O
 -	O
 moi	O
@@ -11935,7 +11934,7 @@ moi	O
 et	O
 écoutez	O
 !	O
-	
+
 L	O
 '	O
 employé	O
@@ -11969,7 +11968,7 @@ empirique	O
 de	O
 Mantes	B-LOC
 .	O
-	
+
 Non	O
 -	O
 seulement	O
@@ -12015,7 +12014,7 @@ lui	O
 -	O
 même	O
 .	O
-	
+
 Il	O
 ne	O
 craignit	O
@@ -12053,7 +12052,7 @@ ni	O
 sa	O
 mère	O
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 commença	O
@@ -12086,7 +12085,7 @@ quelque	O
 nouvel	O
 horizon	O
 .	O
-	
+
 Il	O
 se	O
 promena	O
@@ -12120,7 +12119,7 @@ plus	O
 vif	O
 intérêt	O
 .	O
-	
+
 Il	O
 voulut	O
 savoir	O
@@ -12150,7 +12149,7 @@ une	O
 fortune	O
 indépendante	O
 .	O
-	
+
 L	O
 '	O
 honnête	O
@@ -12181,13 +12180,13 @@ illumina	O
 de	O
 joie	O
 .	O
-	
+
 —	O
 Je	O
 vous	O
 guérirai	O
 !	O
-	
+
 dit	O
 -	O
 il	O
@@ -12202,7 +12201,7 @@ mains	O
 avec	O
 force	O
 .	O
-	
+
 Bientôt	O
 ,	O
 monsieur	O
@@ -12218,7 +12217,7 @@ coûte	O
 un	O
 sou	O
 !	O
-	
+
 Oui	O
 ,	O
 oui	O
@@ -12232,7 +12231,7 @@ l	O
 '	O
 art	O
 .	O
-	
+
 Ah	O
 !	O
 mon	O
@@ -12256,7 +12255,7 @@ de	O
 la	O
 Providence	O
 !	O
-	
+
 M.	B-PER
 Guérin	I-PER
 ,	O
@@ -12303,7 +12302,7 @@ violemment	O
 la	O
 liste	O
 .	O
-	
+
 —	O
 Taisez	O
 -	O
@@ -12314,12 +12313,12 @@ dit	O
 -	O
 il	O
 .	O
-	
+
 Vous	O
 guérirez	O
 sûrement	O
 .	O
-	
+
 Que	O
 cela	O
 vous	O
@@ -12329,7 +12328,7 @@ aujourd	O
 '	O
 hui	O
 .	O
-	
+
 Nous	O
 avons	O
 cent	O
@@ -12343,7 +12342,7 @@ préparer	O
 à	O
 cacher	O
 .	O
-	
+
 Le	O
 monde	O
 est	O
@@ -12357,7 +12356,7 @@ surtout	O
 à	O
 Mantes	B-LOC
 .	O
-	
+
 Vous	O
 ne	O
 pouvez	O
@@ -12372,7 +12371,7 @@ de	O
 la	O
 ville	O
 .	O
-	
+
 J	O
 '	O
 en	O
@@ -12383,8 +12382,8 @@ en	O
 vue	O
 ,	O
 sur	O
-les	O
-bords	B-LOC
+les	B-LOC
+bords	I-LOC
 de	I-LOC
 la	I-LOC
 Seine	I-LOC
@@ -12396,7 +12395,7 @@ d	O
 '	O
 ici	O
 .	O
-	
+
 Votre	O
 femme	O
 est	O
@@ -12405,7 +12404,7 @@ elle	O
 avec	O
 vous	O
 ?	O
-	
+
 —	O
 Oui	O
 ,	O
@@ -12413,12 +12412,12 @@ et	O
 ma	O
 mère	O
 .	O
-	
+
 —	O
 Tant	O
 mieux	O
 .	O
-	
+
 Vous	O
 êtes	O
 arrivés	O
@@ -12426,17 +12425,17 @@ ensemble	O
 hier	O
 soir	O
 ?	O
-	
+
 —	O
 A	O
 neuf	O
 heures	O
 .	O
-	
+
 —	O
 Bon	O
 !	O
-	
+
 Et	O
 elle	O
 n	O
@@ -12448,7 +12447,7 @@ dans	O
 la	O
 ville	O
 ?	O
-	
+
 Personne	O
 ne	O
 l	O
@@ -12456,7 +12455,7 @@ l	O
 a	O
 vue	O
 ?	O
-	
+
 —	O
 Non	O
 ,	O
@@ -12468,7 +12467,7 @@ excepté	O
 ses	O
 parents	O
 .	O
-	
+
 —	O
 Empêchez	O
 -	O
@@ -12481,7 +12480,7 @@ jusqu	O
 ce	O
 soir	O
 .	O
-	
+
 Ou	O
 faites	O
 mieux	O
@@ -12496,14 +12495,14 @@ l	O
 '	O
 instant	O
 .	O
-	
+
 Appelez	O
 aussi	O
 madame	O
 votre	O
 mère	O
 .	O
-	
+
 J	O
 '	O
 ai	O
@@ -12513,7 +12512,7 @@ ordres	O
 leur	O
 donner	O
 ...	O
-	
+
 je	O
 veux	O
 dire	O
@@ -12523,7 +12522,7 @@ ordonnance	O
 leur	O
 prescrire	O
 .	O
-	
+
 Quant	O
 à	O
 vous	O
@@ -12542,10 +12541,10 @@ au	O
 dernier	O
 jour	O
 !	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 fit	O
 appeler	O
 sa	O
@@ -12554,7 +12553,7 @@ et	O
 sa	O
 femme	O
 .	O
-	
+
 —	O
 Mesdames	O
 ,	O
@@ -12581,7 +12580,7 @@ engage	O
 le	O
 sauver	O
 .	O
-	
+
 Peut	O
 -	O
 être	O
@@ -12597,7 +12596,7 @@ pour	O
 votre	O
 famille	O
 .	O
-	
+
 Mais	O
 le	O
 succès	O
@@ -12611,7 +12610,7 @@ que	O
 de	O
 moi	O
 .	O
-	
+
 Promettez	O
 -	O
 vous	O
@@ -12636,7 +12635,7 @@ puissent	O
 vous	O
 paraître	O
 ?	O
-	
+
 —	O
 Nous	O
 promettons	O
@@ -12646,14 +12645,14 @@ mon	O
 bon	O
 monsieur	O
 !	O
-	
+
 s	O
 '	O
 écria	O
 madame	B-PER
 Guérin	I-PER
 .	O
-	
+
 —	O
 Vous	O
 passerez	O
@@ -12671,7 +12670,7 @@ et	I-PER
 madame	I-PER
 Laurent	I-PER
 .	O
-	
+
 Ce	O
 soir	O
 ,	O
@@ -12701,7 +12700,7 @@ louée	O
 pour	O
 vous	O
 .	O
-	
+
 —	O
 Est	O
 -	O
@@ -12718,7 +12717,7 @@ la	O
 jeune	O
 femme	O
 .	O
-	
+
 —	O
 Non	O
 ;	O
@@ -12738,7 +12737,7 @@ avons	O
 à	O
 faire	O
 .	O
-	
+
 —	O
 Mais	O
 alors	O
@@ -12752,7 +12751,7 @@ campagne	O
 à	O
 Limay	B-LOC
 .	O
-	
+
 Nous	O
 y	O
 serions	O
@@ -12770,14 +12769,14 @@ location	O
 à	O
 payer	O
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 fronça	O
 le	O
 sourcil	O
 .	O
-	
+
 —	O
 Avez	O
 -	O
@@ -12786,25 +12785,25 @@ confiance	O
 en	O
 moi	O
 ?	O
-	
+
 dit	O
 -	O
 il	O
 .	O
-	
+
 Obéissez	O
 -	O
 moi	O
 aveuglément	O
 .	O
-	
+
 Sinon	O
 ,	O
 je	O
 me	O
 retire	O
 .	O
-	
+
 On	O
 jura	O
 tout	O
@@ -12814,7 +12813,7 @@ qu	O
 il	O
 voulut	O
 .	O
-	
+
 Il	O
 reprit	O
 ,	O
@@ -12829,7 +12828,7 @@ mais	O
 toujours	O
 impérieux	O
 :	O
-	
+
 —	O
 La	O
 maison	O
@@ -12846,7 +12845,7 @@ un	O
 grand	O
 jardin	O
 .	O
-	
+
 M.	B-PER
 Guérin	I-PER
 sera	O
@@ -12875,7 +12874,7 @@ moi	O
 -	O
 même	O
 .	O
-	
+
 Quant	O
 à	O
 sa	O
@@ -12900,7 +12899,7 @@ l	O
 '	O
 opération	O
 .	O
-	
+
 —	O
 Moi	O
 ?	O
@@ -12911,11 +12910,11 @@ la	O
 jeune	O
 dame	O
 .	O
-	
+
 —	O
 Vous	O
 .	O
-	
+
 Je	O
 vous	O
 autoriserai	O
@@ -12945,7 +12944,7 @@ une	O
 femme	O
 malade	O
 .	O
-	
+
 —	O
 Et	O
 à	O
@@ -12955,7 +12954,7 @@ bon	O
 grand	B-PER
 Dieu	I-PER
 ?	O
-	
+
 —	O
 Tu	O
 le	O
@@ -12966,12 +12965,12 @@ tard	O
 dit	O
 Guérin	B-PER
 .	O
-	
+
 Le	O
 médecin	O
 poursuivit	O
 :	O
-	
+
 —	O
 Parce	O
 que	O
@@ -12987,7 +12986,7 @@ de	O
 votre	O
 mari	O
 .	O
-	
+
 Il	O
 faut	O
 encore	O
@@ -13004,7 +13003,7 @@ la	O
 risée	O
 publique	O
 .	O
-	
+
 Les	O
 deux	O
 femmes	O
@@ -13013,7 +13012,7 @@ de	O
 grands	O
 yeux	O
 .	O
-	
+
 —	O
 Cela	O
 va	O
@@ -13024,12 +13023,12 @@ il	O
 durer	O
 longtemps	O
 ?	O
-	
+
 demanda	O
 la	O
 mère	O
 .	O
-	
+
 —	O
 Peut	O
 -	O
@@ -13045,7 +13044,7 @@ jours	O
 de	O
 plus	O
 .	O
-	
+
 —	O
 Et	O
 si	O
@@ -13058,7 +13057,7 @@ tout	O
 de	O
 suite	O
 ?	O
-	
+
 M.	B-PER
 Guérin	I-PER
 haussa	O
@@ -13067,7 +13066,7 @@ les	O
 et	O
 répondit	O
 :	O
-	
+
 —	O
 Vous	O
 n	O
@@ -13086,7 +13085,7 @@ que	O
 vous	O
 êtes	O
 .	O
-	
+
 Si	O
 monsieur	O
 vous	O
@@ -13103,14 +13102,14 @@ a	O
 ses	O
 raisons	O
 .	O
-	
+
 Je	O
 les	O
 devine	O
 ,	O
 moi	O
 .	O
-	
+
 Contentez	O
 -	O
 vous	O
@@ -13118,7 +13117,7 @@ de	O
 les	O
 respecter	O
 .	O
-	
+
 —	O
 Encore	O
 un	O
@@ -13128,7 +13127,7 @@ mesdames	O
 ,	O
 ajouta	O
 Wilson	B-PER
-	
+
 Tous	O
 les	O
 domestiques	O
@@ -13138,7 +13137,7 @@ sont	O
 des	O
 espions	O
 .	O
-	
+
 Il	O
 faudrait	O
 que	O
@@ -13153,22 +13152,22 @@ vous	O
 -	O
 mêmes	O
 .	O
-	
+
 —	O
 Quant	O
 à	O
 ça	O
 ,	O
 dit	O
-la	O
-mère	B-PER
+la	B-PER
+mère	I-PER
 Guérin	I-PER
 ,	O
 ça	O
 me	O
 regarde	O
 .	O
-	
+
 J	O
 '	O
 ai	O
@@ -13185,7 +13184,7 @@ pas	O
 la	O
 fatigue	O
 .	O
-	
+
 On	O
 verra	O
 que	O
@@ -13200,7 +13199,7 @@ encore	O
 assez	O
 proprement	O
 .	O
-	
+
 —	O
 C	O
 '	O
@@ -13216,7 +13215,7 @@ enverrai	O
 vos	O
 provisions	O
 .	O
-	
+
 Mon	O
 cocher	O
 ,	O
@@ -13238,7 +13237,7 @@ portera	O
 chaque	O
 matin	O
 .	O
-	
+
 Refaites	O
 vos	O
 malles	O
@@ -13262,7 +13261,7 @@ confidence	O
 à	O
 personne	O
 .	O
-	
+
 Nous	O
 partirons	O
 à	O
@@ -13271,7 +13270,7 @@ heures	O
 du	O
 soir	O
 .	O
-	
+
 Il	O
 laissa	O
 Guérin	B-PER
@@ -13282,7 +13281,7 @@ deux	O
 femmes	O
 stupéfaites	O
 .	O
-	
+
 M.	B-PER
 et	I-PER
 madame	I-PER
@@ -13303,7 +13302,7 @@ point	O
 à	O
 paraître	O
 .	O
-	
+
 Madame	B-PER
 Guérin	I-PER
 la	O
@@ -13331,7 +13330,7 @@ cacher	O
 ses	O
 parents	O
 .	O
-	
+
 Elle	O
 pensait	O
 ,	O
@@ -13354,7 +13353,7 @@ pour	O
 sa	O
 mère	O
 .	O
-	
+
 Madame	B-PER
 Laurent	I-PER
 poussa	O
@@ -13376,7 +13375,7 @@ homme	O
 à	O
 lier	O
 .	O
-	
+
 Forcer	O
 une	O
 femme	O
@@ -13392,7 +13391,7 @@ mari	O
 est	O
 malade	O
 !	O
-	
+
 on	O
 n	O
 '	O
@@ -13403,7 +13402,7 @@ vu	O
 de	O
 pareil	O
 !	O
-	
+
 Guérin	B-PER
 sourit	O
 finement	O
@@ -13414,7 +13413,7 @@ dit	O
 ces	O
 dames	O
 :	O
-	
+
 —	O
 Vous	O
 n	O
@@ -13426,7 +13425,7 @@ la	O
 médecine	O
 transcendante	O
 .	O
-	
+
 Est	O
 -	O
 ce	O
@@ -13467,7 +13466,7 @@ l	O
 oeil	O
 gauche	O
 ?	O
-	
+
 On	O
 ne	O
 sut	O
@@ -13477,9 +13476,9 @@ répondre	O
 ces	O
 raisons	O
 .	O
-	
+
 VII	O
-	
+
 Un	O
 mois	O
 après	O
@@ -13501,7 +13500,7 @@ maison	O
 de	O
 campagne	O
 .	O
-	
+
 La	O
 vieille	O
 dame	O
@@ -13519,7 +13518,7 @@ elle	O
 cuisinait	O
 bien	O
 .	O
-	
+
 Une	O
 excellente	O
 odeur	O
@@ -13543,7 +13542,7 @@ les	O
 fenêtres	O
 ouvertes	O
 .	O
-	
+
 Tout	O
 le	O
 monde	O
@@ -13556,7 +13555,7 @@ le	O
 malade	O
 surtout	O
 .	O
-	
+
 La	O
 petite	O
 madame	B-PER
@@ -13586,7 +13585,7 @@ l	O
 '	O
 opération	O
 .	O
-	
+
 Mais	O
 Pierre	B-PER
 -	I-PER
@@ -13606,7 +13605,7 @@ de	O
 M.	B-PER
 Wilson	I-PER
 .	O
-	
+
 Le	O
 chirurgien	O
 entra	O
@@ -13616,7 +13615,7 @@ coup	O
 de	O
 midi	O
 .	O
-	
+
 Sa	O
 figure	O
 ,	O
@@ -13630,7 +13629,7 @@ quelque	O
 émotion	O
 violente	O
 .	O
-	
+
 —	O
 Mon	O
 cher	O
@@ -13648,12 +13647,12 @@ souffrirez	O
 plus	O
 longtemps	O
 .	O
-	
+
 Le	O
 jour	O
 approche	O
 .	O
-	
+
 C	O
 '	O
 est	O
@@ -13663,7 +13662,7 @@ peut	O
 pour	O
 demain	O
 .	O
-	
+
 Dans	O
 tous	O
 les	O
@@ -13676,7 +13675,7 @@ pas	O
 la	O
 semaine	O
 .	O
-	
+
 —	O
 A	O
 quels	O
@@ -13688,23 +13687,23 @@ avez	O
 vous	O
 deviné	O
 ?	O
-	
+
 demanda	O
 la	O
 jeune	O
 dame	O
 .	O
-	
+
 —	O
 Toujours	O
 sceptique	O
 !	O
-	
+
 répondit	O
 -	O
 il	O
 .	O
-	
+
 Eh	O
 bien	O
 ,	O
@@ -13725,7 +13724,7 @@ me	O
 tenir	O
 prêt	O
 .	O
-	
+
 Aujourd	O
 '	O
 hui	O
@@ -13739,14 +13738,14 @@ douleurs	O
 assez	O
 supportables	O
 .	O
-	
+
 Demain	O
 ,	O
 il	O
 souffrira	O
 violemment	O
 .	O
-	
+
 Peut	O
 -	O
 être	O
@@ -13772,7 +13771,7 @@ de	O
 la	O
 maison	O
 .	O
-	
+
 Attendez	O
 -	O
 vous	O
@@ -13792,7 +13791,7 @@ de	O
 la	O
 nuit	O
 .	O
-	
+
 Je	O
 m	O
 '	O
@@ -13812,12 +13811,12 @@ rappelaient	O
 la	O
 ville	O
 .	O
-	
+
 —	O
 Pauvre	O
 enfant	O
 !	O
-	
+
 dit	O
 la	O
 mère	O
@@ -13830,10 +13829,10 @@ la	O
 tête	O
 de	O
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 .	O
-	
+
 —	O
 Il	O
 ne	O
@@ -13845,7 +13844,7 @@ opération	O
 ,	O
 madame	O
 .	O
-	
+
 Je	O
 l	O
 '	O
@@ -13865,11 +13864,11 @@ depuis	O
 quelque	O
 temps	O
 à	O
-New B-LOC
--   I-LOC
+New	B-LOC
+-	B-LOC
 York	I-LOC
 .	O
-	
+
 Ce	O
 diamant	O
 que	O
@@ -13897,7 +13896,7 @@ une	O
 insensibilité	O
 parfaite	O
 .	O
-	
+
 Madame	B-PER
 Guérin	I-PER
 fit	O
@@ -13906,7 +13905,7 @@ signe	O
 de	O
 croix	O
 .	O
-	
+
 —	O
 Dieu	B-PER
 me	O
@@ -13916,12 +13915,12 @@ voir	O
 vos	O
 sorcelleries	O
 !	O
-	
+
 dit	O
 -	O
 elle	O
 .	O
-	
+
 —	O
 Vous	O
 ne	O
@@ -13935,7 +13934,7 @@ y	O
 compte	O
 bien	O
 .	O
-	
+
 J	O
 '	O
 ai	O
@@ -13963,7 +13962,7 @@ qu	O
 il	O
 habite	O
 .	O
-	
+
 Mon	O
 nègre	O
 est	O
@@ -13980,7 +13979,7 @@ m	O
 '	O
 aidera	O
 .	O
-	
+
 Quant	O
 à	O
 vous	O
@@ -14000,7 +13999,7 @@ dans	O
 votre	O
 appartement	O
 .	O
-	
+
 Ces	O
 annonces	O
 n	O
@@ -14013,7 +14012,7 @@ rassurer	O
 la	O
 famille	O
 .	O
-	
+
 Le	O
 nègre	O
 annonça	O
@@ -14022,7 +14021,7 @@ et	I-PER
 madame	I-PER
 Laurent	I-PER
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 courut	O
@@ -14050,14 +14049,14 @@ les	O
 fît	O
 prévenir	O
 .	O
-	
+
 Lorsqu	O
 '	O
 il	O
 vint	O
 raconter	O
-aux	O
-Guérin	B-PER
+aux	B-PER
+Guérin	I-PER
 ce	O
 nouvel	O
 acte	O
@@ -14073,7 +14072,7 @@ tout	O
 de	O
 bon	O
 .	O
-	
+
 —	O
 Je	O
 trouve	O
@@ -14101,12 +14100,12 @@ pour	O
 un	O
 crime	O
 .	O
-	
+
 Le	O
 chirurgien	O
 pâlit	O
 .	O
-	
+
 Guérin	B-PER
 lui	O
 demanda	O
@@ -14126,7 +14125,7 @@ il	O
 avait	O
 prises	O
 .	O
-	
+
 —	O
 Attends	O
 un	O
@@ -14148,7 +14147,7 @@ seras	O
 ses	O
 genoux	O
 !	O
-	
+
 Il	O
 se	O
 plaignit	O
@@ -14162,7 +14161,7 @@ de	O
 M.	B-PER
 Wilson	I-PER
 .	O
-	
+
 —	O
 Tout	O
 cela	O
@@ -14181,7 +14180,7 @@ ton	O
 v.	O
 imagination	O
 .	O
-	
+
 On	O
 t	O
 '	O
@@ -14195,7 +14194,7 @@ tu	O
 crois	O
 souffrir	O
 .	O
-	
+
 —	O
 Croire	O
 qu	O
@@ -14208,13 +14207,13 @@ c	O
 est	O
 souffrir	O
 !	O
-	
+
 répondit	O
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 .	O
-	
+
 Il	O
 se	O
 plaignit	O
@@ -14233,7 +14232,7 @@ intervalles	O
 assez	O
 éloignés	O
 .	O
-	
+
 La	O
 nuit	O
 fut	O
@@ -14247,7 +14246,7 @@ lendemain	O
 fut	O
 terrible	O
 .	O
-	
+
 Les	O
 douleurs	O
 aiguës	O
@@ -14258,7 +14257,7 @@ se	O
 succédaient	O
 rapidement	O
 .	O
-	
+
 Le	O
 pauvre	O
 Guérin	B-PER
@@ -14282,7 +14281,7 @@ corps	O
 se	O
 disloquer	O
 .	O
-	
+
 Le	O
 médecin	O
 lui	O
@@ -14293,7 +14292,7 @@ avant	O
 la	O
 nuit	O
 .	O
-	
+
 Il	O
 arrivait	O
 au	O
@@ -14311,7 +14310,7 @@ lui	O
 -	O
 même	O
 .	O
-	
+
 Son	O
 visage	O
 exprimait	O
@@ -14322,7 +14321,7 @@ l	O
 '	O
 inquiétude	O
 .	O
-	
+
 Il	O
 parlait	O
 constamment	O
@@ -14333,7 +14332,7 @@ paroles	O
 sans	O
 suite	O
 .	O
-	
+
 A	O
 peine	O
 arrivé	O
@@ -14343,7 +14342,7 @@ songeait	O
 à	O
 repartir	O
 .	O
-	
+
 Cet	O
 homme	O
 ,	O
@@ -14359,7 +14358,7 @@ tenir	O
 en	O
 place	O
 .	O
-	
+
 A	O
 huit	O
 heures	O
@@ -14369,7 +14368,7 @@ soir	O
 il	O
 dit	O
 :	O
-	
+
 —	O
 Je	O
 reviendrai	O
@@ -14382,7 +14381,7 @@ pour	O
 cette	O
 nuit	O
 .	O
-	
+
 Il	O
 fit	O
 entrer	O
@@ -14399,7 +14398,7 @@ l	O
 '	O
 embrasser	O
 .	O
-	
+
 Quand	O
 la	O
 mère	O
@@ -14424,7 +14423,7 @@ opération	O
 au	O
 lendemain	O
 .	O
-	
+
 —	O
 La	O
 nature	O
@@ -14438,7 +14437,7 @@ Pierre	B-PER
 -	I-PER
 Marie	I-PER
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 ajouta	O
@@ -14458,7 +14457,7 @@ de	O
 deux	O
 personnes	O
 .	O
-	
+
 A	O
 ce	O
 mot	O
@@ -14470,7 +14469,7 @@ pensa	O
 devenir	O
 folle	O
 .	O
-	
+
 Elle	O
 ne	O
 comprenait	O
@@ -14484,7 +14483,7 @@ pouvait	O
 en	O
 danger	O
 .	O
-	
+
 —	O
 Eh	O
 !	O
@@ -14502,11 +14501,11 @@ s	O
 '	O
 agit	O
 !	O
-	
+
 cria	O
 Guérin	B-PER
 .	O
-	
+
 Le	O
 nègre	O
 dressa	O
@@ -14521,7 +14520,7 @@ une	O
 toile	O
 cirée	O
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 exhorta	O
@@ -14553,7 +14552,7 @@ comme	O
 un	O
 trait	O
 .	O
-	
+
 Il	O
 revint	O
 à	O
@@ -14575,7 +14574,7 @@ une	O
 salle	O
 basse	O
 .	O
-	
+
 Le	O
 nègre	O
 avait	O
@@ -14595,10 +14594,10 @@ mois	O
 de	O
 juillet	O
 .	O
-	
+
 Pierre	B-PER
 -	I-PER
-Marie	I-PER
+Marie	B-PER
 ,	O
 languissamment	O
 étendu	O
@@ -14617,7 +14616,7 @@ pied	O
 et	O
 pâlit	O
 .	O
-	
+
 —	O
 Je	O
 suis	O
@@ -14637,7 +14636,7 @@ je	O
 serai	O
 brave	O
 .	O
-	
+
 Il	O
 y	O
 a	O
@@ -14647,7 +14646,7 @@ d	O
 '	O
 état	O
 .	O
-	
+
 Si	O
 pourtant	O
 je	O
@@ -14673,7 +14672,7 @@ sont	O
 plus	O
 là	O
 .	O
-	
+
 Je	O
 n	O
 '	O
@@ -14700,7 +14699,7 @@ lignes	O
 de	O
 testament	O
 .	O
-	
+
 Il	O
 s	O
 '	O
@@ -14714,13 +14713,13 @@ d	O
 un	O
 martyr	O
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 lui	O
 répondit	O
 :	O
-	
+
 —	O
 J	O
 '	O
@@ -14734,7 +14733,7 @@ je	O
 vous	O
 sauverai	O
 .	O
-	
+
 Je	O
 vous	O
 ai	O
@@ -14750,14 +14749,14 @@ vous	O
 le	O
 répète	O
 .	O
-	
+
 Maintenant	O
 ,	O
 hâtons	O
 -	O
 nous	O
 .	O
-	
+
 Ne	O
 vous	O
 couchez	O
@@ -14769,7 +14768,7 @@ c	O
 est	O
 inutile	O
 .	O
-	
+
 Remettez	O
 -	O
 vous	O
@@ -14786,7 +14785,7 @@ sur	O
 ce	O
 diamant	O
 .	O
-	
+
 Il	O
 avait	O
 repris	O
@@ -14796,7 +14795,7 @@ ferme	O
 et	O
 résolu	O
 .	O
-	
+
 Sa	O
 voix	O
 vibrat	O
@@ -14815,7 +14814,7 @@ lançaient	O
 des	O
 éclairs	O
 .	O
-	
+
 —	O
 Qu	O
 '	O
@@ -14827,13 +14826,13 @@ lui	O
 dit	O
 Guérin	B-PER
 .	O
-	
+
 Vous	O
 semblez	O
 tout	O
 radieux	O
 !	O
-	
+
 —	O
 C	O
 '	O
@@ -14845,10 +14844,10 @@ sûr	O
 du	O
 succès	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 regarda	O
 le	O
 diamant	O
@@ -14866,7 +14865,7 @@ interne	O
 des	O
 yeux	O
 .	O
-	
+
 Un	O
 sommeil	O
 magnétique	O
@@ -14879,7 +14878,7 @@ tout	O
 son	O
 corps	O
 .	O
-	
+
 La	O
 peur	O
 combattit	O
@@ -14892,7 +14891,7 @@ l	O
 '	O
 anesthésie	O
 .	O
-	
+
 Quelques	O
 gestes	O
 instinctifs	O
@@ -14907,7 +14906,7 @@ de	O
 deux	O
 forces	O
 .	O
-	
+
 Cependant	O
 M.	B-PER
 Wilson	I-PER
@@ -14927,7 +14926,7 @@ de	O
 ses	O
 lèvres	O
 :	O
-	
+
 —	O
 J	O
 '	O
@@ -14942,9 +14941,9 @@ l	O
 '	O
 enfant	O
 .	O
-	
+
 VIII	O
-	
+
 Lorsqu	O
 '	O
 il	O
@@ -14965,7 +14964,7 @@ lit	O
 bien	O
 chaud	O
 .	O
-	
+
 Sa	O
 femme	O
 lui	O
@@ -14980,7 +14979,7 @@ d	O
 '	O
 orge	O
 .	O
-	
+
 Sa	O
 mère	O
 étendait	O
@@ -14991,7 +14990,7 @@ sur	O
 ses	O
 pieds	O
 ;	O
-	
+
 M.	B-PER
 Wilson	I-PER
 ,	O
@@ -15012,7 +15011,7 @@ nouveau	O
 -	O
 né	O
 .	O
-	
+
 —	O
 Est	O
 -	O
@@ -15020,27 +15019,27 @@ ce	O
 un	O
 garçon	O
 ?	O
-	
+
 demanda	O
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 d	O
 '	O
 une	O
 voix	O
 dolente	O
 .	O
-	
+
 —	O
 Chut	O
 !	O
-	
+
 fit	O
 le	O
 chirurgien	O
 .	O
-	
+
 Mais	O
 madame	B-PER
 Guérin	I-PER
@@ -15058,14 +15057,14 @@ de	O
 sa	O
 joie	O
 :	O
-	
+
 —	O
 Oui	O
 ,	O
 ma	O
 fille	O
 ...	O
-	
+
 c	O
 '	O
 est	O
@@ -15101,9 +15100,9 @@ avais	O
 son	O
 âge	O
 !	O
-	
+
 Ah	O
-!	O	
+!	O
 mademoiselle	B-PER
 Lenormant	I-PER
 ,	O
@@ -15115,7 +15114,7 @@ injustes	O
 envers	O
 vous	O
 !	O
-	
+
 Le	O
 lit	O
 de	O
@@ -15132,7 +15131,7 @@ s	O
 pas	O
 montrée	O
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 emmaillotta	O
@@ -15161,7 +15160,7 @@ pu	O
 se	O
 procurer	O
 .	O
-	
+
 La	O
 grand	O
 '	O
@@ -15179,14 +15178,14 @@ en	O
 temps	O
 utile	O
 .	O
-	
+
 Un	O
 nouveau	O
 -	O
 né	O
 sans	O
 layette	O
-	
+
 Cela	O
 ne	O
 s	O
@@ -15195,7 +15194,7 @@ s	O
 jamais	O
 vu	O
 .	O
-	
+
 Les	O
 brassières	O
 ,	O
@@ -15208,7 +15207,7 @@ manquait	O
 la	O
 fois	O
 .	O
-	
+
 Les	O
 petits	O
 bonnets	O
@@ -15220,7 +15219,7 @@ jeune	O
 tête	O
 palpitante	O
 !	O
-	
+
 Madame	B-PER
 Guérin	I-PER
 en	O
@@ -15257,7 +15256,7 @@ cette	O
 triple	O
 armure	O
 .	O
-	
+
 Il	O
 est	O
 à	O
@@ -15280,7 +15279,7 @@ sans	O
 se	O
 plaindre	O
 .	O
-	
+
 Mais	O
 la	O
 vieille	O
@@ -15307,7 +15306,7 @@ gourmander	O
 son	O
 fils	O
 .	O
-	
+
 Que	O
 n	O
 '	O
@@ -15328,7 +15327,7 @@ ce	O
 grand	O
 miracle	O
 ?	O
-	
+
 On	O
 se	O
 serait	O
@@ -15357,7 +15356,7 @@ lui	O
 -	O
 même	O
 !	O
-	
+
 L	O
 '	O
 eau	O
@@ -15389,7 +15388,7 @@ cette	O
 boisson	O
 rafraîchissante	O
 !	O
-	
+
 M.	B-PER
 Guérin	I-PER
 laissait	O
@@ -15397,7 +15396,7 @@ parler	O
 sa	O
 mère	O
 .	O
-	
+
 Bien	O
 couché	O
 ,	O
@@ -15414,7 +15413,7 @@ bien	O
 être	O
 ineffable	O
 .	O
-	
+
 Sans	O
 se	O
 rendre	O
@@ -15443,7 +15442,7 @@ un	O
 grand	O
 poids	O
 .	O
-	
+
 De	O
 temps	O
 à	O
@@ -15475,7 +15474,7 @@ délivrance	O
 dominait	O
 tout	O
 .	O
-	
+
 Le	O
 sentiment	O
 paternel	O
@@ -15493,7 +15492,7 @@ bien	O
 douces	O
 jouissances	O
 .	O
-	
+
 Chaque	O
 vagissement	O
 du	O
@@ -15508,7 +15507,7 @@ un	O
 joyeux	O
 écho	O
 .	O
-	
+
 Il	O
 voulut	O
 voir	O
@@ -15529,13 +15528,13 @@ tendrement	O
 plusieurs	O
 reprises	O
 .	O
-	
+
 —	O
 Le	O
 voilà	O
 donc	O
 !	O
-	
+
 disait	O
 -	O
 il	O
@@ -15544,7 +15543,7 @@ demi	O
 -	O
 voix	O
 .	O
-	
+
 C	O
 '	O
 est	O
@@ -15565,7 +15564,7 @@ dans	O
 mes	O
 rêves	O
 .	O
-	
+
 Ce	O
 n	O
 '	O
@@ -15585,7 +15584,7 @@ bien	O
 à	O
 toi	O
 !	O
-	
+
 La	O
 vérité	O
 est	O
@@ -15615,7 +15614,7 @@ une	O
 écrevisse	O
 cuite	O
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 ,	O
@@ -15641,7 +15640,7 @@ retourner	O
 à	O
 Mantes	B-LOC
 .	O
-	
+
 —	O
 Tous	O
 mes	O
@@ -15671,7 +15670,7 @@ qui	O
 me	O
 réclament	O
 .	O
-	
+
 Il	O
 faut	O
 aussi	O
@@ -15696,7 +15695,7 @@ beaucoup	O
 cette	O
 nuit	O
 .	O
-	
+
 Je	O
 vous	O
 confie	O
@@ -15725,7 +15724,7 @@ bonnes	O
 mains	O
 !	O
 ...	O
-	
+
 Ah	O
 !	O
 ...	O
@@ -15737,7 +15736,7 @@ une	O
 recommandation	O
 importante	O
 .	O
-	
+
 La	O
 jeune	O
 madame	B-PER
@@ -15762,7 +15761,7 @@ tout	O
 un	O
 mois	O
 .	O
-	
+
 Elle	O
 sentira	O
 sans	O
@@ -15788,7 +15787,7 @@ huitaine	O
 de	O
 jours	O
 .	O
-	
+
 Vous	O
 ne	O
 vous	O
@@ -15807,7 +15806,7 @@ toutes	O
 vos	O
 visites	O
 .	O
-	
+
 Je	O
 reviendrai	O
 demain	O
@@ -15820,7 +15819,7 @@ mise	O
 en	O
 scène	O
 .	O
-	
+
 Quant	O
 à	O
 votre	O
@@ -15834,7 +15833,7 @@ séquestrer	O
 son	O
 tour	O
 .	O
-	
+
 J	O
 '	O
 annoncerai	O
@@ -15859,7 +15858,7 @@ l	O
 opérer	O
 incessamment	O
 .	O
-	
+
 La	O
 jeune	O
 dame	O
@@ -15867,7 +15866,7 @@ interrompit	O
 le	O
 chirurgien	O
 .	O
-	
+
 —	O
 Pardonnez	O
 -	O
@@ -15903,7 +15902,7 @@ jouer	O
 la	O
 comédie	O
 .	O
-	
+
 Je	O
 ne	O
 comprends	O
@@ -15919,7 +15918,7 @@ vous	O
 me	O
 destinez	O
 .	O
-	
+
 Sans	O
 compter	O
 qu	O
@@ -15942,7 +15941,7 @@ que	O
 la	O
 mienne	O
 !	O
-	
+
 Depuis	O
 quand	O
 a	O
@@ -15958,7 +15957,7 @@ eux	O
 -	O
 mêmes	O
 ?	O
-	
+
 Voici	O
 bien	O
 mon	O
@@ -15992,7 +15991,7 @@ de	O
 la	O
 nature	O
 ?	O
-	
+
 Je	O
 n	O
 '	O
@@ -16042,7 +16041,7 @@ dans	O
 notre	O
 maison	O
 !	O
-	
+
 Notez	O
 ,	O
 s	O
@@ -16086,7 +16085,7 @@ qu	O
 un	O
 miracle	O
 .	O
-	
+
 Vous	O
 pardonnerez	O
 à	O
@@ -16155,7 +16154,6 @@ d	O
 '	O
 affaire	O
 ,	O
-....	O
 quelqu	O
 '	O
 un	O
@@ -16194,7 +16192,7 @@ et	O
 notre	O
 aise	O
 ?	O
-	
+
 Elle	O
 fondit	O
 en	O
@@ -16204,10 +16202,10 @@ achevant	O
 ce	O
 discours	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 ,	O
 qui	O
 semblait	O
@@ -16238,7 +16236,7 @@ un	O
 ton	O
 larmoyant	O
 :	O
-	
+
 —	O
 Amélie	B-PER
 ,	O
@@ -16247,7 +16245,7 @@ scepticisme	O
 me	O
 tue	O
 !	O
-	
+
 Est	O
 -	O
 ce	O
@@ -16264,7 +16262,7 @@ renier	O
 son	O
 enfant	O
 ?	O
-	
+
 Et	O
 vous	O
 ne	O
@@ -16276,7 +16274,7 @@ notre	O
 meilleur	O
 ami	O
 !	O
-	
+
 Mais	O
 ,	O
 si	O
@@ -16298,7 +16296,7 @@ le	O
 plus	O
 coupable	O
 .	O
-	
+
 L	O
 '	O
 événement	O
@@ -16315,7 +16313,7 @@ toute	O
 ma	O
 vie	O
 .	O
-	
+
 Je	O
 le	O
 redoutais	O
@@ -16332,7 +16330,7 @@ de	O
 ma	O
 jeunesse	O
 .	O
-	
+
 Je	O
 l	O
 '	O
@@ -16350,7 +16348,7 @@ de	O
 notre	O
 mariage	O
 ...	O
-	
+
 Ma	O
 mère	O
 ,	O
@@ -16359,12 +16357,12 @@ parlez	O
 lui	O
 donc	O
 !	O
-	
+
 dites	O
 -	O
 lui	O
 ...	O
-	
+
 —	O
 Certainement	O
 ,	O
@@ -16378,7 +16376,7 @@ la	O
 vieille	O
 dame	O
 .	O
-	
+
 Ne	O
 te	O
 fatigue	O
@@ -16390,7 +16388,7 @@ mon	O
 pauvre	O
 chérubin	O
 !	O
-	
+
 Oui	O
 ,	O
 ma	O
@@ -16408,7 +16406,7 @@ qu	O
 à	O
 moitié	O
 .	O
-	
+
 Mademoiselle	B-PER
 Lenormant	I-PER
 ,	O
@@ -16434,7 +16432,7 @@ pas	O
 au	O
 monde	O
 .	O
-	
+
 Et	O
 puis	O
 je	O
@@ -16442,7 +16440,7 @@ connais	O
 mon	O
 fils	O
 .	O
-	
+
 Ce	O
 n	O
 '	O
@@ -16454,7 +16452,7 @@ comme	O
 les	O
 autres	O
 .	O
-	
+
 C	O
 '	O
 est	O
@@ -16468,7 +16466,7 @@ qu	O
 autre	O
 chose	O
 .	O
-	
+
 Et	O
 pourquoi	O
 donc	O
@@ -16495,7 +16493,7 @@ ont	O
 la	O
 douzaine	O
 ?	O
-	
+
 —	O
 Et	O
 moi	O
@@ -16519,7 +16517,7 @@ d	O
 être	O
 mère	O
 ?	O
-	
+
 Est	O
 -	O
 ce	O
@@ -16533,7 +16531,7 @@ chose	O
 me	O
 reprocher	O
 ?	O
-	
+
 N	O
 '	O
 ai	O
@@ -16553,7 +16551,7 @@ même	O
 avec	O
 plaisir	O
 ?	O
-	
+
 Et	O
 ,	O
 d	O
@@ -16580,7 +16578,7 @@ peupler	O
 sans	O
 nous	O
 !	O
-	
+
 M.	B-PER
 Wilson	I-PER
 avait	O
@@ -16593,7 +16591,7 @@ prendre	O
 la	O
 parole	O
 .	O
-	
+
 Assis	O
 auprès	O
 d	O
@@ -16624,7 +16622,7 @@ de	O
 ses	O
 yeux	O
 .	O
-	
+
 Il	O
 profita	O
 d	O
@@ -16648,7 +16646,7 @@ jeune	O
 madame	B-PER
 Guérin	I-PER
 :	O
-	
+
 —	O
 Pardonnez	O
 -	O
@@ -16677,7 +16675,7 @@ m	O
 '	O
 accabler	O
 .	O
-	
+
 C	O
 '	O
 est	O
@@ -16716,7 +16714,7 @@ des	O
 sentiments	O
 hostiles	O
 .	O
-	
+
 À	O
 Dieu	B-PER
 ne	O
@@ -16730,7 +16728,7 @@ sur	O
 votre	O
 reconnaissance	O
 !	O
-	
+
 Et	O
 pourtant	O
 ,	O
@@ -16749,7 +16747,7 @@ moins	O
 quelques	O
 égards	O
 .	O
-	
+
 N	O
 '	O
 en	O
@@ -16776,7 +16774,7 @@ en	O
 ce	O
 moment	O
 .	O
-	
+
 Le	O
 cas	O
 de	O
@@ -16798,14 +16796,14 @@ de	O
 la	O
 science	O
 .	O
-	
+
 J	O
 '	O
 ai	O
 eu	O
 7	O
 .	O
-	
+
 l	O
 '	O
 occasion	O
@@ -16836,7 +16834,7 @@ heureux	O
 que	O
 moi	O
 .	O
-	
+
 Si	O
 l	O
 '	O
@@ -16863,7 +16861,7 @@ un	O
 gros	O
 volume	O
 .	O
-	
+
 On	O
 ne	O
 le	O
@@ -16889,7 +16887,7 @@ familles	O
 approuvent	O
 généralement	O
 .	O
-	
+
 Ce	O
 phénomène	O
 s	O
@@ -16919,7 +16917,7 @@ sur	O
 le	O
 mari	O
 .	O
-	
+
 Dans	O
 quelques	O
 circonstances	O
@@ -16935,7 +16933,7 @@ fait	O
 nos	O
 recherches	O
 .	O
-	
+
 Quant	O
 à	O
 la	O
@@ -16947,7 +16945,7 @@ la	O
 saisirez	O
 facilement	O
 .	O
-	
+
 Suivant	O
 une	O
 théorie	O
@@ -16978,7 +16976,7 @@ chez	O
 son	O
 père	O
 .	O
-	
+
 La	O
 mère	O
 ,	O
@@ -17028,7 +17026,7 @@ la	O
 vie	O
 animale	O
 .	O
-	
+
 Vous	O
 tomberiez	O
 en	O
@@ -17058,7 +17056,7 @@ le	O
 sol	O
 maternel	O
 .	O
-	
+
 Il	O
 y	O
 végète	O
@@ -17087,7 +17085,7 @@ avancer	O
 sa	O
 croissance	O
 .	O
-	
+
 Tel	O
 est	O
 son	O
@@ -17126,7 +17124,7 @@ lui	O
 avait	O
 préparé	O
 .	O
-	
+
 Vous	O
 connaissez	O
 le	O
@@ -17145,11 +17143,11 @@ dans	O
 le	O
 monde	O
 .	O
-	
+
 Eh	O
 bien	O
 .	O
-	
+
 madame	O
 ,	O
 la	O
@@ -17179,7 +17177,7 @@ l	O
 opération	O
 césarienne	O
 !	O
-	
+
 Si	O
 César	B-PER
 et	O
@@ -17240,7 +17238,7 @@ la	O
 vie	O
 cherch	O
 .	O
-	
+
 et	O
 trouve	O
 les	O
@@ -17255,7 +17253,7 @@ de	O
 son	O
 père	O
 ?	O
-	
+
 Ce	O
 phénomène	O
 est	O
@@ -17274,7 +17272,7 @@ sans	O
 désordres	O
 terribles	O
 .	O
-	
+
 L	O
 '	O
 opération	O
@@ -17298,7 +17296,7 @@ de	O
 la	O
 chirurgie	O
 .	O
-	
+
 Dupuytren	B-PER
 ,	O
 notre	O
@@ -17340,7 +17338,7 @@ l	O
 '	O
 enfant	O
 .	O
-	
+
 Maintenant	O
 ,	O
 madame	O
@@ -17382,7 +17380,7 @@ de	O
 M.	B-PER
 Guérin	I-PER
 .	O
-	
+
 Je	O
 suis	O
 célibataire	O
@@ -17393,7 +17391,7 @@ me	O
 marierai	O
 jamais	O
 .	O
-	
+
 Je	O
 vous	O
 promets	O
@@ -17430,13 +17428,13 @@ doit	O
 le	O
 jour	O
 .	O
-	
+
 —	O
 Donner	O
 mon	O
 fils	O
 !	O
-	
+
 cria	O
 Guérin	B-PER
 en	O
@@ -17451,7 +17449,7 @@ donner	O
 mon	O
 fils	O
 !	O
-	
+
 livrer	O
 à	O
 des	O
@@ -17469,14 +17467,14 @@ de	O
 mon	O
 coeur	O
 !	O
-	
+
 Ah	O
 !	O
-	
+
 monsieur	B-PER
 Wilson	I-PER
 !	O
-	
+
 une	O
 juste	O
 colère	O
@@ -17493,14 +17491,14 @@ de	O
 la	O
 famille	O
 !	O
-	
+
 Je	O
 donnerais	O
 plutôt	O
 ma	O
 femme	O
 !	O
-	
+
 Madame	B-PER
 Guérin	I-PER
 la	O
@@ -17513,7 +17511,7 @@ de	O
 plus	O
 belle	O
 .	O
-	
+
 Cependant	O
 ,	O
 le	O
@@ -17525,7 +17523,7 @@ endormi	O
 sa	O
 défiance	O
 .	O
-	
+
 Un	O
 mot	O
 surtout	O
@@ -17542,7 +17540,7 @@ de	O
 son	O
 coeur	O
 !	O
-	
+
 c	O
 '	O
 est	O
@@ -17559,7 +17557,7 @@ de	O
 la	O
 femme	O
 .	O
-	
+
 Le	O
 médecin	O
 lui	O
@@ -17595,7 +17593,7 @@ de	O
 son	O
 temps	O
 .	O
-	
+
 La	O
 tradition	O
 du	O
@@ -17635,7 +17633,7 @@ intervalles	O
 assez	O
 rapprochés	O
 .	O
-	
+
 Le	O
 fait	O
 ne	O
@@ -17656,8 +17654,8 @@ dire	O
 que	O
 la	O
 sagacité	O
-des	O
-Grecs	B-MISC
+des	B-MISC
+Grecs	I-MISC
 n	O
 '	O
 était	O
@@ -17667,11 +17665,11 @@ inférieure	O
 la	O
 nôtre	O
 .	O
-	
+
 Si	O
 toutefois	O
-la	O
-famille	B-PER
+la	B-PER
+famille	I-PER
 Guérin	I-PER
 jugeait	O
 bon	O
@@ -17691,7 +17689,7 @@ de	O
 la	O
 Justice	O
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 ne	O
@@ -17708,20 +17706,20 @@ l	O
 '	O
 examen	O
 .	O
-	
+
 —	O
 Y	O
 songez	O
 -	O
 vous	O
 ?	O
-	
+
 dit	O
 la	O
 vieille	O
 dame	O
 .	O
-	
+
 D	O
 '	O
 abord	O
@@ -17732,10 +17730,10 @@ persuadée	O
 ,	O
 moi	O
 ;	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 n	O
 '	O
 a	O
@@ -17755,7 +17753,7 @@ doute	O
 plus	O
 guère	O
 .	O
-	
+
 Mais	O
 raconter	O
 nos	O
@@ -17765,7 +17763,7 @@ tout	O
 le	O
 monde	O
 ?	O
-	
+
 Les	O
 gens	O
 nous	O
@@ -17785,7 +17783,7 @@ serait	O
 du	O
 joli	O
 !	O
-	
+
 —	O
 Le	O
 fait	O
@@ -17810,9 +17808,9 @@ je	O
 vous	O
 parle	O
 .	O
-	
-Le	O
-roi	B-PER
+
+Le	B-PER
+roi	I-PER
 de	I-PER
 Crète	I-PER
 en	O
@@ -17833,7 +17831,7 @@ et	O
 sa	O
 fille	O
 .	O
-	
+
 Il	O
 s	O
 '	O
@@ -17851,7 +17849,7 @@ Bacchus	B-PER
 et	O
 Minerve	B-PER
 .	O
-	
+
 En	O
 1842	O
 ,	O
@@ -17865,12 +17863,12 @@ rang	O
 des	O
 phénomènes	O
 .	O
-	
+
 —	O
 Phénomènes	O
 vivants	O
 !	O
-	
+
 prix	O
 d	O
 '	O
@@ -17879,7 +17877,7 @@ entrée	O
 deux	O
 sous	O
 !	O
-	
+
 cria	O
 la	O
 grand	O
@@ -17890,7 +17888,7 @@ en	O
 de	O
 rire	O
 .	O
-	
+
 Nous	O
 n	O
 '	O
@@ -17913,7 +17911,7 @@ vivre	O
 Dieu	B-PER
 merci	O
 !	O
-	
+
 Et	O
 nous	O
 n	O
@@ -17939,7 +17937,7 @@ sur	O
 la	O
 planche	O
 !	O
-	
+
 M.	B-PER
 Wilson	I-PER
 comprit	O
@@ -17997,7 +17995,7 @@ toute	O
 la	O
 journée	O
 .	O
-	
+
 —	O
 Mais	O
 ,	O
@@ -18012,7 +18010,7 @@ accourir	O
 demain	O
 matin	O
 .	O
-	
+
 Comment	O
 leur	O
 persuader	O
@@ -18030,7 +18028,7 @@ parlé	O
 de	O
 grossesse	O
 ?	O
-	
+
 Si	O
 j	O
 '	O
@@ -18058,7 +18056,7 @@ j	O
 '	O
 ai	O
 !	O
-	
+
 Et	O
 puis	O
 maman	O
@@ -18076,7 +18074,7 @@ plus	O
 que	O
 certain	O
 .	O
-	
+
 Maman	O
 n	O
 '	O
@@ -18095,7 +18093,7 @@ trompe	O
 pas	O
 facilement	O
 .	O
-	
+
 Et	O
 la	O
 fièvre	O
@@ -18106,13 +18104,13 @@ ne	O
 viendra	O
 pas	O
 !	O
-	
+
 Et	O
 mille	O
 autres	O
 choses	O
 !	O
-	
+
 —	O
 Ne	O
 vous	O
@@ -18123,7 +18121,7 @@ répondit	O
 le	O
 médecin	O
 .	O
-	
+
 J	O
 '	O
 irai	O
@@ -18138,7 +18136,7 @@ madame	O
 votre	O
 mère	O
 .	O
-	
+
 Je	O
 lui	O
 dirai	O
@@ -18168,7 +18166,7 @@ soigner	O
 votre	O
 mari	O
 .	O
-	
+
 Les	O
 trente	O
 -	O
@@ -18190,7 +18188,7 @@ esprits	O
 à	O
 quelque	O
 événement	O
-	
+
 Personne	O
 ne	O
 vous	O
@@ -18203,7 +18201,7 @@ robe	O
 à	O
 taille	O
 ...	O
-	
+
 —	O
 Excepté	O
 ma	O
@@ -18216,7 +18214,7 @@ notre	O
 ar	O
 rivée	O
 .	O
-	
+
 —	O
 Si	O
 votre	O
@@ -18242,7 +18240,7 @@ fermera	O
 la	O
 bouche	O
 .	O
-	
+
 Qu	O
 '	O
 est	O
@@ -18253,13 +18251,13 @@ vous	O
 préoccupe	O
 encore	O
 ?	O
-	
+
 La	O
 fièvre	O
 de	O
 lait	O
 ?	O
-	
+
 Nous	O
 avons	O
 quarante	O
@@ -18280,14 +18278,14 @@ arrangerai	O
 les	O
 choses	O
 .	O
-	
+
 Vos	O
 amies	O
 viendront	O
 vous	O
 soigner	O
 ?	O
-	
+
 Madame	B-PER
 Laurent	I-PER
 apportera	O
@@ -18296,7 +18294,7 @@ bonnet	O
 de	O
 nuit	O
 ?	O
-	
+
 Il	O
 faut	O
 que	O
@@ -18322,7 +18320,7 @@ auprès	O
 de	O
 vous	O
 .	O
-	
+
 C	O
 '	O
 est	O
@@ -18337,13 +18335,13 @@ conviens	O
 ;	O
 mais	O
 ...	O
-	
+
 —	O
 Allez	O
 ,	O
 marchez	O
 !	O
-	
+
 dit	O
 l	O
 '	O
@@ -18366,7 +18364,7 @@ les	O
 mettre	O
 dehors	O
 .	O
-	
+
 Je	O
 ne	O
 veux	O
@@ -18383,10 +18381,10 @@ s	O
 nos	O
 dépens	O
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 a	O
 été	O
 mis	O
@@ -18406,7 +18404,7 @@ l	O
 '	O
 avocat	O
 .	O
-	
+
 C	O
 '	O
 est	O
@@ -18432,7 +18430,7 @@ célébrité	O
 comme	O
 ça	O
 .	O
-	
+
 Nous	O
 n	O
 '	O
@@ -18440,9 +18438,9 @@ en	O
 voulons	O
 plus	O
 !	O
-	
+
 IX	O
-	
+
 Extrait	O
 des	O
 registres	O
@@ -18452,8 +18450,8 @@ l	O
 état	O
 civil	O
 de	O
-la	O
-commune	B-LOC
+la	B-LOC
+commune	I-LOC
 de	I-LOC
 Mantes	I-LOC
 :	O
@@ -18496,18 +18494,18 @@ l	O
 état	O
 civil	O
 de	O
-la	O
-commune	B-LOC
+la	B-LOC
+commune	I-LOC
 de	I-LOC
 Mantes	I-LOC
 ,	O
 a	O
 comparu	O
-le	O
-sieur	B-PER
+le	B-PER
+sieur	I-PER
 Wilson	I-PER
-(	O
-Henri	B-PER
+(	I-PER
+Henri	I-PER
 )	O
 ,	O
 âgé	O
@@ -18539,14 +18537,14 @@ procuration	O
 spéciale	O
 et	O
 authentique	O
-du	O
-sieur	B-PER
+du	B-PER
+sieur	I-PER
 Guérin	I-PER
-(	O
-Pierre	B-PER
+(	I-PER
+Pierre	I-PER
 -	I-PER
 Marie	I-PER
-)	O
+)	I-PER
 ,	O
 rédacteur	O
 au	O
@@ -18612,15 +18610,15 @@ il	O
 est	O
 né	O
 dans	O
-la	O
-commune	B-LOC
+la	B-LOC
+commune	I-LOC
 de	I-LOC
 Mantes	I-LOC
 ,	O
-au	O
+au	B-LOC
 lieu	O
-dit	O
-la	B-LOC
+dit	B-LOC
+la	I-LOC
 Coudraye	I-LOC
 ,	O
 dans	O
@@ -18673,7 +18671,7 @@ Laurent	I-PER
 son	O
 épouse	O
 .	O
-	
+
 Lesdites	O
 déclaration	O
 et	O
@@ -18686,7 +18684,7 @@ présence	O
 des	O
 sieurs	O
 Laurent	B-PER
-(	O
+(	I-PER
 Charles	B-PER
 -	I-PER
 Maclou	I-PER
@@ -18710,7 +18708,7 @@ numéro	O
 ,	O
 et	O
 Froideveau	B-PER
-(	O
+(	I-PER
 Jean	B-PER
 -	I-PER
 Louis	I-PER
@@ -18739,7 +18737,7 @@ Perche	I-LOC
 numéro	O
 20	O
 .	O
-	
+
 Et	O
 ont	O
 lesdits	O
@@ -18767,7 +18765,7 @@ a	O
 donné	O
 lecture	O
 .	O
-	
+
 L	O
 '	O
 enfant	O
@@ -18783,7 +18781,7 @@ calèche	O
 du	O
 chirurgien	O
 .	O
-	
+
 Quand	O
 l	O
 '	O
@@ -18798,12 +18796,12 @@ au	O
 vieil	O
 épicier	O
 de	O
-la	O
-rue	B-LOC
+la	B-LOC
+rue	I-LOC
 des	I-LOC
 Chantres	I-LOC
 :	O
-	
+
 —	O
 Voilà	O
 votre	O
@@ -18816,7 +18814,7 @@ avec	O
 la	O
 loi	O
 .	O
-	
+
 Savez	O
 -	O
 vous	O
@@ -18834,7 +18832,7 @@ de	O
 M.	B-PER
 Guérin	I-PER
 ?	O
-	
+
 Le	O
 pauvre	O
 homme	O
@@ -18846,7 +18844,7 @@ déclarer	O
 son	O
 enfant	O
 .	O
-	
+
 Si	O
 je	O
 n	O
@@ -18875,7 +18873,7 @@ d	O
 '	O
 amende	O
 !	O
-	
+
 Où	O
 voulez	O
 -	O
@@ -18885,7 +18883,7 @@ je	O
 vous	O
 mette	O
 ?	O
-	
+
 —	O
 Je	O
 croyais	O
@@ -18900,7 +18898,7 @@ retournions	O
 à	O
 Beauséjour	B-LOC
 .	O
-	
+
 Mélíe	B-PER
 doit	O
 trouver	O
@@ -18911,7 +18909,7 @@ après	O
 le	O
 petit	O
 .	O
-	
+
 Nous	O
 prendrions	O
 ma	O
@@ -18931,7 +18929,7 @@ de	O
 votre	O
 complaisance	O
 .	O
-	
+
 On	O
 alla	O
 chercher	O
@@ -18949,7 +18947,7 @@ petit	O
 -	O
 fils	O
 .	O
-	
+
 —	O
 Hé	O
 !	O
@@ -18957,7 +18955,7 @@ mon	O
 bon	O
 gros	O
 !	O
-	
+
 lui	O
 disait	O
 -	O
@@ -18965,11 +18963,10 @@ elle	O
 ,	O
 te	O
 voilà	O
-`	O
 citoyen	O
 français	O
 .	O
-	
+
 Il	O
 ne	O
 te	O
@@ -18981,21 +18978,21 @@ d	O
 être	O
 chrétien	O
 .	O
-	
+
 Faut	O
 pas	O
 rire	O
 ,	O
 monsieur	O
 !	O
-	
+
 le	O
 baptême	O
 est	O
 un	O
 sacrement	O
 .	O
-	
+
 J	O
 '	O
 espère	O
@@ -19010,7 +19007,7 @@ païenne	O
 de	O
 mère	O
 .	O
-	
+
 Le	O
 chantre	O
 avait	O
@@ -19029,7 +19026,7 @@ fait	O
 un	O
 bruit	O
 !	O
-	
+
 Enfin	O
 !	O
 ...	O
@@ -19053,7 +19050,7 @@ du	O
 mois	O
 passé	O
 .	O
-	
+
 On	O
 s	O
 '	O
@@ -19070,7 +19067,7 @@ vrai	O
 ,	O
 Maclou	B-PER
 ?	O
-	
+
 et	O
 l	O
 '	O
@@ -19082,7 +19079,7 @@ grand	O
 '	O
 mère	O
 .	O
-	
+
 Il	O
 rit	O
 encore	O
@@ -19091,7 +19088,7 @@ le	O
 petit	O
 vaurien	O
 !	O
-	
+
 Faut	O
 pas	O
 se	O
@@ -19105,14 +19102,14 @@ parents	O
 porte	O
 malheur	O
 .	O
-	
+
 Embrasse	O
 -	O
 moi	O
 ,	O
 va	O
 !	O
-	
+
 Dire	O
 que	O
 ,	O
@@ -19131,7 +19128,7 @@ garçon	O
 -	O
 là	O
 !	O
-	
+
 En	O
 attendant	O
 ,	O
@@ -19140,7 +19137,7 @@ suis	O
 toute	O
 mouillée	O
 .	O
-	
+
 Changez	O
 -	O
 le	O
@@ -19153,7 +19150,7 @@ est	O
 que	O
 temps	O
 .	O
-	
+
 Tandis	O
 que	O
 la	O
@@ -19168,10 +19165,10 @@ compagnie	O
 M.	B-PER
 Wilson	I-PER
 dit	O
-aux	O
-Laurent	B-PER
+aux	B-PER
+Laurent	I-PER
 :	O
-	
+
 —	O
 Il	O
 y	O
@@ -19189,7 +19186,7 @@ auprès	O
 du	O
 cocher	O
 .	O
-	
+
 Si	O
 vous	O
 permettez	O
@@ -19197,8 +19194,8 @@ que	O
 nous	O
 passions	O
 devant	O
-la	O
-tour	B-LOC
+la	B-LOC
+tour	I-LOC
 Saint	I-LOC
 -	I-LOC
 Maclou	I-LOC
@@ -19215,7 +19212,7 @@ présenter	O
 madame	B-PER
 Guérin	I-PER
 .	O
-	
+
 Elle	O
 est	O
 arrivée	O
@@ -19228,10 +19225,10 @@ voyage	O
 au	O
 midi	B-LOC
 de	I-LOC
-la	I-LOC
+la	B-LOC
 France	I-LOC
 .	O
-	
+
 —	O
 C	O
 '	O
@@ -19246,7 +19243,7 @@ la	O
 voyait	O
 pas	O
 !	O
-	
+
 s	O
 '	O
 écria	O
@@ -19254,7 +19251,7 @@ naïvement	O
 madame	B-PER
 Laurent	I-PER
 .	O
-	
+
 Ah	O
 !	O
 mon	O
@@ -19269,7 +19266,7 @@ bête	O
 et	O
 méchant	O
 !	O
-	
+
 Tout	O
 comme	O
 les	O
@@ -19277,7 +19274,7 @@ dindons	O
 ,	O
 quoi	O
 !	O
-	
+
 On	O
 se	O
 mit	O
@@ -19310,7 +19307,7 @@ un	O
 jardin	O
 magnifique	O
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 descendit	O
@@ -19352,7 +19349,7 @@ perle	O
 de	O
 Ceylan	B-LOC
 .	O
-	
+
 Il	O
 la	O
 prit	O
@@ -19386,7 +19383,7 @@ portait	O
 le	O
 baby	O
 .	O
-	
+
 En	O
 la	O
 présentant	O
@@ -19417,7 +19414,7 @@ parlait	O
 fort	O
 peu	O
 .	O
-	
+
 Le	O
 cocher	O
 noir	O
@@ -19452,7 +19449,7 @@ de	O
 la	O
 ville	O
 .	O
-	
+
 Cependant	O
 madame	B-PER
 Laurent	I-PER
@@ -19470,7 +19467,7 @@ parlait	O
 ,	O
 parlait	O
 .	O
-	
+
 Elle	O
 lui	O
 demandait	O
@@ -19483,14 +19480,14 @@ voyage	O
 ,	O
 et	O
 si	O
-le	O
-Midi	B-LOC
+le	B-LOC
+Midi	I-LOC
 était	O
 aussi	O
 frais	O
 que	O
-les	O
-bords	B-LOC
+les	B-LOC
+bords	I-LOC
 de	I-LOC
 la	I-LOC
 Seine	I-LOC
@@ -19520,7 +19517,7 @@ difficile	O
 à	O
 prononcer	O
 ?	O
-	
+
 Elle	O
 lui	O
 demanda	O
@@ -19556,7 +19553,7 @@ société	O
 de	O
 Mantes	B-LOC
 .	O
-	
+
 —	O
 Le	O
 monde	O
@@ -19572,7 +19569,7 @@ chez	O
 les	O
 dindons	O
 ...	O
-	
+
 Après	O
 avoir	O
 placé	O
@@ -19632,7 +19629,7 @@ comblait	O
 de	O
 joie	O
 .	O
-	
+
 Madame	B-PER
 Burdett	I-PER
 écoutait	O
@@ -19655,7 +19652,7 @@ l	O
 '	O
 enfant	O
 .	O
-	
+
 —	O
 Ce	O
 que	O
@@ -19687,7 +19684,7 @@ mince	O
 comme	O
 vous	O
 !	O
-	
+
 Ce	O
 n	O
 '	O
@@ -19719,7 +19716,7 @@ lever	O
 la	O
 main	O
 .	O
-	
+
 Mélie	B-PER
 n	O
 '	O
@@ -19745,7 +19742,7 @@ pas	O
 sans	O
 charme	O
 .	O
-	
+
 Si	O
 l	O
 '	O
@@ -19786,7 +19783,7 @@ pour	O
 des	O
 lanternes	O
 .	O
-	
+
 Enfin	O
 ,	O
 ce	O
@@ -19805,7 +19802,7 @@ son	O
 petit	O
 magot	O
 .	O
-	
+
 N	O
 '	O
 ayez	O
@@ -19818,7 +19815,7 @@ de	O
 quoi	O
 vivre	O
 .	O
-	
+
 Le	O
 père	O
 est	O
@@ -19835,13 +19832,13 @@ chose	O
 après	O
 nous	O
 .	O
-	
+
 Nous	O
 voulions	O
 nous	O
 retirer	O
 .	O
-	
+
 l	O
 '	O
 année	O
@@ -19863,7 +19860,7 @@ ou	O
 cinq	O
 ans	O
 .	O
-	
+
 Vous	O
 aurez	O
 vingt	O
@@ -19878,7 +19875,7 @@ mon	O
 brave	O
 homme	O
 !	O
-	
+
 Mais	O
 mouchez	O
 -	O
@@ -19894,17 +19891,17 @@ jour	O
 plus	O
 tôt	O
 .	O
-	
+
 Madame	O
 connaît	O
 -	O
 elle	O
 madame	B-PER
 Guérin	I-PER
-la	O
+la	I-PER
 mère	O
 ?	O
-	
+
 C	O
 '	O
 est	O
@@ -19912,7 +19909,7 @@ une	O
 personne	O
 capable	O
 .	O
-	
+
 Un	O
 peu	O
 commune	O
@@ -19930,7 +19927,7 @@ l	O
 est	O
 pas	O
 .	O
-	
+
 Malheureusement	O
 ,	O
 elle	O
@@ -19946,7 +19943,7 @@ d	O
 '	O
 âge	O
 .	O
-	
+
 Cela	O
 pourra	O
 bien	O
@@ -19956,7 +19953,7 @@ une	O
 mauvaise	O
 farce	O
 .	O
-	
+
 Quant	O
 à	O
 moi	O
@@ -19971,7 +19968,7 @@ grâce	O
 à	O
 Dieu	B-PER
 .	O
-	
+
 Quand	O
 on	O
 voudra	O
@@ -19991,7 +19988,7 @@ par	O
 me	O
 tuer	O
 .	O
-	
+
 Madame	B-PER
 Burdett	I-PER
 souriait	O
@@ -20005,14 +20002,14 @@ le	B-PER
 petit	I-PER
 Guérin	I-PER
 .	O
-	
+
 On	O
 arriva	O
 bientôt	O
 à	O
 Beauséjour	B-LOC
 .	O
-	
+
 L	O
 '	O
 accouchée	O
@@ -20035,7 +20032,7 @@ la	O
 jeune	O
 dame	O
 .	O
-	
+
 Elle	O
 serra	O
 les	O
@@ -20074,7 +20071,7 @@ se	O
 faire	O
 pardonner	O
 .	O
-	
+
 Cette	O
 visite	O
 se	O
@@ -20089,7 +20086,7 @@ visite	O
 de	O
 cérémonie	O
 .	O
-	
+
 On	O
 aurait	O
 dit	O
@@ -20111,7 +20108,7 @@ qu	O
 une	O
 famille	O
 .	O
-	
+
 Madame	B-PER
 Laurent	I-PER
 s	O
@@ -20129,7 +20126,7 @@ son	O
 pauvre	O
 gendre	O
 .	O
-	
+
 M.	B-PER
 Wilson	I-PER
 ,	O
@@ -20157,7 +20154,7 @@ avant	O
 quinze	O
 jours	O
 .	O
-	
+
 La	O
 prophétie	O
 se	O
@@ -20168,8 +20165,8 @@ délai	O
 fixé	O
 ,	O
 et	O
-la	O
-ville	B-LOC
+la	B-LOC
+ville	I-LOC
 de	I-LOC
 Mantes	I-LOC
 ne	O
@@ -20179,7 +20176,7 @@ guère	O
 voir	O
 madame	B-PER
 et	I-PER
-M.	I-PER
+M.	B-PER
 Guérin	I-PER
 ,	O
 l	O
@@ -20204,7 +20201,7 @@ voiture	O
 du	O
 médecin	O
 .	O
-	
+
 La	O
 nourrice	O
 et	O
@@ -20227,7 +20224,7 @@ toujours	O
 avec	O
 eux	O
 .	O
-	
+
 On	O
 vit	O
 même	O
@@ -20269,7 +20266,7 @@ amené	O
 de	O
 Paris	B-LOC
 .	O
-	
+
 Le	O
 peuple	O
 de	O
@@ -20311,7 +20308,7 @@ de	O
 madame	B-PER
 Burdett	I-PER
 .	O
-	
+
 Depuis	O
 la	O
 naissance	O
@@ -20353,7 +20350,7 @@ cher	O
 Wilson	B-PER
 ...	O
 »	O
-	
+
 L	O
 '	O
 employé	O
@@ -20385,7 +20382,7 @@ de	O
 son	O
 ami	O
 .	O
-	
+
 La	O
 tendresse	O
 était	O
@@ -20410,7 +20407,7 @@ poignées	O
 de	O
 main	O
 .	O
-	
+
 Un	O
 soir	O
 que	O
@@ -20441,7 +20438,7 @@ brûle	O
 -	O
 pourpoint	O
 :	O
-	
+
 —	O
 Nous	O
 allons	O
@@ -20501,7 +20498,7 @@ durable	O
 entre	O
 nous	O
 .	O
-	
+
 —	O
 Pour	O
 le	O
@@ -20519,7 +20516,7 @@ une	O
 reconnaissance	O
 éternelle	O
 .	O
-	
+
 —	O
 Et	O
 une	O
@@ -20533,7 +20530,7 @@ ajouta	O
 M.	B-PER
 Wilson	I-PER
 .	O
-	
+
 Mais	O
 ne	O
 pourrions	O
@@ -20544,7 +20541,7 @@ ajouter	O
 autre	O
 chose	O
 ?	O
-	
+
 Ma	O
 nièce	O
 et	O
@@ -20563,12 +20560,12 @@ Baltimore	B-LOC
 et	O
 moi	O
 à	O
-la	O
-Nouvelle	B-LOC
+la	B-LOC
+Nouvelle	I-LOC
 -	I-LOC
 Orléans	I-LOC
 .	O
-	
+
 Si	O
 vous	O
 n	O
@@ -20595,13 +20592,13 @@ fonts	O
 de	O
 baptême	O
 .	O
-	
+
 Et	O
 ,	O
 qui	O
 sait	O
 ?	O
-	
+
 ni	O
 madame	O
 ni	O
@@ -20614,7 +20611,7 @@ d	O
 '	O
 héritier	O
 .	O
-	
+
 —	O
 Croyez	O
 bien	O
@@ -20645,7 +20642,7 @@ l	O
 amitié	O
 suffit	O
 .	O
-	
+
 D	O
 '	O
 ailleurs	O
@@ -20672,7 +20669,7 @@ l	O
 '	O
 autre	O
 .	O
-	
+
 –	O
 Il	O
 n	O
@@ -20685,7 +20682,7 @@ jeunesse	O
 qui	O
 tienne	O
 .	O
-	
+
 Il	O
 faudrait	O
 des	O
@@ -20702,7 +20699,7 @@ avec	O
 le	O
 célibat	O
 .	O
-	
+
 Quant	O
 à	O
 ma	O
@@ -20736,10 +20733,10 @@ abrège	O
 ses	O
 jours	O
 .	O
-	
+
 Ainsi	O
 ...	O
-	
+
 –	O
 Malheureusement	O
 ,	O
@@ -20764,7 +20761,7 @@ neveu	O
 du	O
 ministre	O
 .	O
-	
+
 –	O
 Et	O
 comment	O
@@ -20775,14 +20772,14 @@ pu	O
 vous	O
 engager	O
 ?	O
-	
+
 s	O
 '	O
 écria	O
 madame	B-PER
 Laurent	I-PER
 .	O
-	
+
 Mélis	B-PER
 ne	O
 vous	O
@@ -20795,7 +20792,7 @@ elle	O
 fût	O
 grosse	O
 !	O
-	
+
 Guérin	B-PER
 balbutia	O
 je	O
@@ -20804,7 +20801,7 @@ sais	O
 quelle	O
 raison	O
 .	O
-	
+
 Il	O
 n	O
 '	O
@@ -20862,20 +20859,20 @@ votre	O
 fils	O
 .	O
 »	O
-	
+
 —	O
 C	O
 '	O
 est	O
 bon	O
 !	O
-	
+
 c	O
 '	O
 est	O
 bon	O
 !	O
-	
+
 répondit	O
 madame	B-PER
 Laurent	I-PER
@@ -20887,7 +20884,7 @@ celui	O
 -	O
 ci	O
 .	O
-	
+
 Nous	O
 avons	O
 justement	O
@@ -20904,7 +20901,7 @@ peu	O
 votre	O
 affaire	O
 !	O
-	
+
 Et	O
 puis	O
 j	O
@@ -20927,7 +20924,7 @@ chansons	O
 pour	O
 rire	O
 .	O
-	
+
 J	O
 '	O
 ai	O
@@ -20947,7 +20944,7 @@ dans	O
 la	O
 rue	O
 .	O
-	
+
 Avec	O
 ça	O
 et	O
@@ -20966,7 +20963,7 @@ marmaille	O
 du	O
 pays	O
 .	O
-	
+
 Quant	O
 à	O
 votre	O
@@ -20984,7 +20981,7 @@ parrain	O
 du	O
 second	O
 .	O
-	
+
 —	O
 Un	O
 second	O
@@ -20996,14 +20993,14 @@ l	O
 '	O
 employé	O
 ;	O
-	
+
 Dieu	B-PER
 nous	O
 en	O
 préserve	O
 !	O
 ...	O
-	
+
 Mais	O
 il	O
 ajouta	O
@@ -21021,7 +21018,7 @@ qu	O
 aux	O
 mères	O
 :	O
-	
+
 —	O
 Si	O
 pourtant	O
@@ -21040,7 +21037,7 @@ dans	O
 la	O
 maison	O
 .	O
-	
+
 Le	O
 fils	O
 de	O
@@ -21056,7 +21053,7 @@ le	O
 septembre	O
 1842	O
 .	O
-	
+
 Il	O
 eut	O
 pour	O
@@ -21073,7 +21070,7 @@ Fanny	I-PER
 Laura	I-PER
 Burdett	I-PER
 .	O
-	
+
 Le	O
 parrain	O
 déposa	O
@@ -21114,9 +21111,9 @@ de	O
 madame	B-PER
 Burdett	I-PER
 .	O
-	
+
 X	O
-	
+
 La	O
 bonne	O
 vieille	O
@@ -21133,7 +21130,7 @@ l	O
 année	O
 suivante	O
 .	O
-	
+
 Elle	O
 sentit	O
 approcher	O
@@ -21153,7 +21150,7 @@ l	O
 '	O
 avance	O
 .	O
-	
+
 —	O
 Je	O
 sais	O
@@ -21175,7 +21172,7 @@ prendre	O
 mon	O
 paquet	O
 .	O
-	
+
 Il	O
 y	O
 a	O
@@ -21208,7 +21205,7 @@ y	O
 suis	O
 déjà	O
 !	O
-	
+
 Lorsque	O
 Pierre	B-PER
 -	I-PER
@@ -21236,20 +21233,20 @@ les	O
 et	O
 disait	O
 :	O
-	
+
 —	O
 C	O
 '	O
 est	O
 bon	O
 !	O
-	
+
 c	O
 '	O
 est	O
 bon	O
 !	O
-	
+
 je	O
 ne	O
 me	O
@@ -21276,7 +21273,7 @@ j	O
 en	O
 suis	O
 .	O
-	
+
 Après	O
 tout	O
 ,	O
@@ -21301,7 +21298,7 @@ fois	O
 pas	O
 vrai	O
 ?	O
-	
+
 Par	O
 ma	O
 fi	O
@@ -21312,7 +21309,7 @@ bien	O
 à	O
 plaindre	O
 !	O
-	
+
 J	O
 '	O
 ai	O
@@ -21340,7 +21337,7 @@ riche	O
 et	O
 considérée	O
 .	O
-	
+
 C	O
 '	O
 est	O
@@ -21354,7 +21351,7 @@ cantique	O
 de	O
 Siméon	B-PER
 ...	O
-	
+
 Tant	O
 qu	O
 '	O
@@ -21428,10 +21425,10 @@ pauvre	O
 mademoiselle	B-PER
 Lenormant	I-PER
 .	O
-	
+
 Pierre	B-PER
--	I-PER
-Marie	I-PER
+-	O
+Marie	B-PER
 la	O
 pleura	O
 ,	O
@@ -21456,7 +21453,7 @@ ce	O
 grand	O
 courage	O
 .	O
-	
+
 —	O
 Moi	O
 aussi	O
@@ -21480,7 +21477,7 @@ de	O
 la	O
 mort	O
 .	O
-	
+
 S	O
 '	O
 il	O
@@ -21528,7 +21525,7 @@ j	O
 ai	O
 reçu	O
 .	O
-	
+
 Cette	O
 idée	O
 s	O
@@ -21546,7 +21543,7 @@ de	O
 M.	B-PER
 Guérin	I-PER
 .	O
-	
+
 Ses	O
 amis	O
 du	O
@@ -21557,8 +21554,8 @@ ses	O
 camarades	O
 de	O
 la	O
-garde	B-ORG
-nationale	I-ORG
+garde	O
+nationale	B-ORG
 ,	O
 l	O
 '	O
@@ -21583,7 +21580,7 @@ que	O
 soe	O
 mère	O
 .	O
-	
+
 Il	O
 ne	O
 dépassa	O
@@ -21601,7 +21598,7 @@ il	O
 avait	O
 fixé	O
 .	O
-	
+
 L	O
 '	O
 histoire	O
@@ -21633,7 +21630,7 @@ raconter	O
 en	O
 détail	O
 .	O
-	
+
 La	O
 jeune	O
 madame	B-PER
@@ -21652,7 +21649,7 @@ belle	O
 -	O
 mère	O
 .	O
-	
+
 Non	O
 -	O
 seulement	O
@@ -21678,7 +21675,7 @@ la	O
 femme	O
 supérieure	O
 .	O
-	
+
 Les	O
 conseils	O
 qu	O
@@ -21701,7 +21698,7 @@ homme	O
 plus	O
 susceptible	O
 .	O
-	
+
 Mais	O
 Guérin	B-PER
 demeura	O
@@ -21714,7 +21711,7 @@ heureux	O
 en	O
 ménage	O
 .	O
-	
+
 La	O
 fière	O
 Amélie	B-PER
@@ -21736,7 +21733,7 @@ du	O
 XIX°	O
 siècle	O
 .	O
-	
+
 Elle	O
 porta	O
 des	O
@@ -21757,7 +21754,7 @@ chapeaux	O
 Louis	B-PER
 XIII	I-PER
 .	O
-	
+
 Certain	O
 été	O
 qu	O
@@ -21798,7 +21795,7 @@ ou	O
 trois	O
 mois	O
 .	O
-	
+
 Elle	O
 apprit	O
 à	O
@@ -21812,7 +21809,7 @@ médiocrement	O
 au	O
 manège	O
 .	O
-	
+
 Elle	O
 commença	O
 un	O
@@ -21841,7 +21838,7 @@ l	O
 '	O
 orthographe	O
 .	O
-	
+
 Tout	O
 cela	O
 pour	O
@@ -21852,7 +21849,7 @@ parole	O
 M.	B-PER
 Wilson	I-PER
 !	O
-	
+
 Il	O
 est	O
 mort	O
@@ -21894,7 +21891,7 @@ avec	O
 son	O
 bistouri	O
 .	O
-	
+
 La	O
 fortune	O
 qu	O
@@ -21913,7 +21910,7 @@ demi	O
 -	O
 million	O
 .	O
-	
+
 Madame	B-PER
 Burdett	I-PER
 vit	O
@@ -21932,7 +21929,7 @@ de	O
 tourelle	O
 gothique	O
 .	O
-	
+
 Elle	O
 vient	O
 tous	O
@@ -21947,7 +21944,7 @@ et	O
 son	O
 cohéritier	O
 .	O
-	
+
 M.	B-PER
 et	I-PER
 madame	I-PER
@@ -21961,7 +21958,7 @@ de	O
 leur	O
 localité	O
 .	O
-	
+
 Ils	O
 travaillèrent	O
 jusqu	O
@@ -21981,7 +21978,7 @@ fonds	O
 de	O
 commerce	O
 .	O
-	
+
 Il	O
 fallut	O
 le	O
@@ -21999,7 +21996,7 @@ fermant	O
 les	O
 yeux	O
 .	O
-	
+
 Voici	O
 leur	O
 épitaphe	O
@@ -22011,7 +22008,7 @@ Guérin	I-PER
 en	O
 personne	O
 :	O
-	
+
 ICI	O
 REPOSENT	O
 UN	O
@@ -22026,13 +22023,13 @@ ET	O
 FORTE	O
 CHARLES	B-PER
 -	O
-	
+
 MACLOU	B-PER
 LAURENT	I-PER
 ET	O
 ADRIENNE	B-PER
 GRANDJEART	I-PER
-	
+
 ILS	O
 ONT	O
 LAISSÉ	O
@@ -22083,7 +22080,7 @@ L	O
 '	O
 AUTRE	O
 .	O
-	
+
 On	O
 devinera	O
 ,	O
@@ -22104,7 +22101,7 @@ toujours	O
 été	O
 croissant	O
 .	O
-	
+
 Cette	O
 femme	O
 noble	O
@@ -22128,7 +22125,7 @@ du	O
 jeune	O
 César	B-PER
 .	O
-	
+
 Dès	O
 que	O
 la	O
@@ -22151,7 +22148,7 @@ de	O
 son	O
 fils	O
 .	O
-	
+
 Il	O
 s	O
 '	O
@@ -22164,7 +22161,7 @@ une	O
 joie	O
 touchante	O
 .	O
-	
+
 Ce	O
 fut	O
 lui	O
@@ -22192,7 +22189,7 @@ dans	O
 son	O
 sein	O
 .	O
-	
+
 Mais	O
 ,	O
 quand	O
@@ -22237,7 +22234,7 @@ paya	O
 sa	O
 pension	O
 .	O
-	
+
 Pierre	B-PER
 -	I-PER
 Marie	I-PER
@@ -22282,7 +22279,7 @@ assez	O
 heureusement	O
 commencé	O
 .	O
-	
+
 Mais	O
 la	O
 fière	O
@@ -22319,7 +22316,7 @@ si	O
 mâle	O
 argument	O
 .	O
-	
+
 Lorsque	O
 César	B-PER
 était	O
@@ -22341,7 +22338,7 @@ remonter	O
 le	O
 moral	O
 .	O
-	
+
 M.	B-PER
 Guérin	I-PER
 ne	O
@@ -22367,7 +22364,7 @@ et	O
 courait	O
 à	O
 Sainte	B-LOC
--	I-LOC
+-	B-LOC
 Barbe	I-LOC
 porter	O
 des	O
@@ -22380,7 +22377,7 @@ l	O
 '	O
 enfant	O
 .	O
-	
+
 Le	O
 pauvre	O
 petit	O
@@ -22400,7 +22397,7 @@ comme	O
 un	O
 pensum	O
 .	O
-	
+
 C	O
 '	O
 était	O
@@ -22422,11 +22419,11 @@ et	O
 qui	O
 le	O
 menait	O
-au	O
-théâtre	B-LOC
+au	B-LOC
+théâtre	I-LOC
 Séraphin	I-LOC
 .	O
-	
+
 L	O
 '	O
 élève	O
@@ -22437,7 +22434,7 @@ un	O
 second	O
 prix	O
 .	O
-	
+
 de	O
 version	O
 latine	O
@@ -22447,7 +22444,7 @@ général	O
 de	O
 1857	O
 .	O
-	
+
 Son	O
 père	O
 et	O
@@ -22458,7 +22455,7 @@ assistaient	O
 la	O
 distribution	O
 .	O
-	
+
 Le	O
 chef	O
 de	O
@@ -22480,7 +22477,7 @@ de	O
 son	O
 fils	O
 .	O
-	
+
 Madame	B-PER
 Guérin	I-PER
 lui	O
@@ -22492,8 +22489,8 @@ et	O
 lui	O
 dit	O
 dans	O
-la	O
-cour	B-LOC
+la	B-LOC
+cour	I-LOC
 de	I-LOC
 la	I-LOC
 Sorbonne	I-LOC
@@ -22505,7 +22502,7 @@ avait	O
 bien	O
 ridicule	O
 .	O
-	
+
 Sous	O
 -	O
 chef	O
@@ -22527,7 +22524,7 @@ en	O
 janvier	O
 1860	O
 .	O
-	
+
 Cette	O
 distinction	O
 ,	O
@@ -22562,7 +22559,7 @@ ne	O
 le	O
 réjouit	O
 .	O
-	
+
 Il	O
 sentait	O
 sa	O
@@ -22578,7 +22575,7 @@ sa	O
 dernière	O
 maladie	O
 .	O
-	
+
 Ces	O
 hémorrhagies	O
 nasales	O
@@ -22607,7 +22604,7 @@ abondantes	O
 et	O
 terribles	O
 .	O
-	
+
 Des	O
 bouffées	O
 de	O
@@ -22632,7 +22629,7 @@ tout	O
 à	O
 coup	O
 .	O
-	
+
 Lorsqu	O
 '	O
 il	O
@@ -22662,7 +22659,7 @@ de	O
 ses	O
 collègues	O
 :	O
-	
+
 —	O
 L	O
 '	O
@@ -22679,7 +22676,7 @@ sur	O
 ma	O
 tombe	O
 !	O
-	
+
 Au	O
 milieu	O
 de	O
@@ -22703,7 +22700,7 @@ de	O
 son	O
 fils	O
 .	O
-	
+
 Le	O
 jeune	O
 homme	O
@@ -22733,7 +22730,7 @@ de	O
 son	O
 âge	O
 .	O
-	
+
 M.	B-PER
 Guérin	I-PER
 veillait	O
@@ -22746,7 +22743,7 @@ sur	O
 sa	O
 fille	O
 .	O
-	
+
 César	B-PER
 avait	O
 annoncé	O
@@ -22757,9 +22754,9 @@ d	O
 '	O
 entrer	O
 à	O
-l	O
-'	O
-École	B-LOC
+l	B-LOC
+'	I-LOC
+École	I-LOC
 militaire	I-LOC
 ,	O
 et	O
@@ -22772,7 +22769,7 @@ dans	O
 sa	O
 vocation	O
 .	O
-	
+
 Ce	O
 projet	O
 du	O
@@ -22795,7 +22792,7 @@ Pierre	B-PER
 -	I-PER
 Marie	I-PER
 .	O
-	
+
 Lorsque	O
 cet	O
 homme	O
@@ -22812,8 +22809,8 @@ venue	O
 lorsque	O
 son	O
 voisin	O
-le	O
-docteur	B-PER
+le	B-PER
+docteur	I-PER
 Robineau	I-PER
 lui	O
 eut	O
@@ -22865,7 +22862,7 @@ présence	O
 du	O
 médecin	O
 .	O
-	
+
 Il	O
 remercia	O
 madame	B-PER
@@ -22900,7 +22897,7 @@ commettre	O
 envers	O
 elle	O
 .	O
-	
+
 Puis	O
 il	O
 recueillit	O
@@ -22917,7 +22914,7 @@ dit	O
 son	O
 fils	O
 :	O
-	
+
 —	O
 Écoute	O
 -	O
@@ -22925,7 +22922,7 @@ moi	O
 ,	O
 César	B-PER
 .	O
-	
+
 Mes	O
 instants	O
 sont	O
@@ -22948,7 +22945,7 @@ de	O
 ta	O
 naissance	O
 .	O
-	
+
 Les	O
 quelques	O
 mots	O
@@ -22965,7 +22962,7 @@ bien	O
 des	O
 fautes	O
 .	O
-	
+
 Mon	O
 enfant	O
 ,	O
@@ -22976,7 +22973,7 @@ pas	O
 ton	O
 père	O
 !	O
-	
+
 Le	O
 jeune	O
 homme	O
@@ -23003,13 +23000,13 @@ un	O
 regard	O
 étrange	O
 .	O
-	
+
 —	O
 Eh	O
 !	O
 quoi	O
 !	O
-	
+
 dit	O
 -	O
 il	O
@@ -23018,7 +23015,7 @@ ma	O
 mère	O
 ...	O
 ?	O
-	
+
 —	O
 Ne	O
 la	O
@@ -23037,7 +23034,7 @@ jusqu	O
 la	O
 fin	O
 .	O
-	
+
 Ta	O
 mère	O
 n	O
@@ -23047,13 +23044,13 @@ pas	O
 ta	O
 mère	O
 .	O
-	
+
 —	O
 Mais	O
 alors	O
 ...	O
 ?	O
-	
+
 —	O
 Cependant	O
 ,	O
@@ -23085,18 +23082,18 @@ confié	O
 nos	O
 soins	O
 ...	O
-	
+
 —	O
 Mon	B-PER
 Dieu	I-PER
 !	O
-	
+
 je	O
 suis	O
 donc	O
 ...	O
 ?	O
-	
+
 —	O
 Non	O
 ,	O
@@ -23121,7 +23118,7 @@ sur	O
 sa	O
 route	O
 .	O
-	
+
 —	O
 Eh	O
 !	O
@@ -23133,7 +23130,7 @@ importe	O
 après	O
 tout	O
 !	O
-	
+
 s	O
 '	O
 écria	O
@@ -23141,7 +23138,7 @@ le	O
 jeune	O
 homme	O
 .	O
-	
+
 C	O
 '	O
 est	O
@@ -23156,7 +23153,7 @@ adopté	O
 ,	O
 aimé	O
 !	O
-	
+
 C	O
 '	O
 est	O
@@ -23183,7 +23180,7 @@ meilleur	O
 des	O
 pères	O
 !	O
-	
+
 —	O
 Elle	O
 ne	O
@@ -23197,7 +23194,7 @@ mon	O
 cher	O
 fils	O
 .	O
-	
+
 Si	O
 j	O
 '	O
@@ -23225,13 +23222,13 @@ et	O
 plus	O
 sacré	O
 .	O
-	
+
 César	B-PER
 ,	O
 mon	O
 César	B-PER
 !	O
-	
+
 je	O
 suis	O
 ta	O
@@ -23244,7 +23241,7 @@ est	O
 bien	O
 légitime	O
 .	O
-	
+
 A	O
 ton	O
 âge	O
@@ -23264,7 +23261,7 @@ de	O
 la	O
 nature	O
 .	O
-	
+
 Mais	O
 M.	B-PER
 Robineau	I-PER
@@ -23285,7 +23282,7 @@ les	O
 explications	O
 désirables	O
 .	O
-	
+
 Oui	O
 ,	O
 je	O
@@ -23297,7 +23294,7 @@ dans	O
 mon	O
 sein	O
 !	O
-	
+
 oui	O
 ,	O
 je	O
@@ -23324,7 +23321,7 @@ comme	O
 un	O
 père	O
 !	O
-	
+
 Oui	O
 ,	O
 je	O
@@ -23339,7 +23336,7 @@ de	O
 ta	O
 naissance	O
 !	O
-	
+
 L	O
 '	O
 enfant	O
@@ -23359,7 +23356,7 @@ une	O
 stupéfaction	O
 profonde	O
 .	O
-	
+
 L	O
 '	O
 un	O
@@ -23376,7 +23373,7 @@ vers	O
 madame	B-PER
 Guérin	I-PER
 .	O
-	
+
 Elle	O
 confirma	O
 du	O
@@ -23387,7 +23384,7 @@ récit	O
 du	O
 moribond	O
 .	O
-	
+
 —	O
 Et	O
 maintenant	O
@@ -23434,7 +23431,7 @@ l	O
 '	O
 amour	O
 ?	O
-	
+
 C	O
 '	O
 est	O
@@ -23484,7 +23481,7 @@ et	O
 ta	O
 vie	O
 .	O
-	
+
 Comprends	O
 -	O
 tu	O
@@ -23509,7 +23506,7 @@ l	O
 '	O
 armée	O
 ?	O
-	
+
 C	O
 '	O
 est	O
@@ -23561,7 +23558,7 @@ uniforme	O
 du	O
 soldat	O
 !	O
-	
+
 Le	O
 fils	O
 de	O
@@ -23621,9 +23618,9 @@ moins	O
 un	O
 quart	O
 .	O
-	
+
 XI	O
-	
+
 Le	O
 27	O
 novembre	O
@@ -23644,8 +23641,8 @@ après	O
 ses	O
 funérailles	O
 ,	O
-le	O
-docteur	B-PER
+le	B-PER
+docteur	I-PER
 Robineau	I-PER
 se	O
 présenta	O
@@ -23655,7 +23652,7 @@ concierge	O
 du	O
 cimetière	O
 .	O
-	
+
 Il	O
 était	O
 si	O
@@ -23673,7 +23670,7 @@ pour	O
 un	O
 héritier	O
 .	O
-	
+
 Mais	O
 ,	O
 lorsqu	O
@@ -23702,7 +23699,7 @@ dit	O
 fort	O
 galamment	O
 :	O
-	
+
 —	O
 Monsieur	O
 le	O
@@ -23717,7 +23714,7 @@ malades	O
 à	O
 vous	O
 !	O
-	
+
 M.	B-PER
 Robineau	I-PER
 tira	O
@@ -23760,8 +23757,8 @@ le	O
 transporter	O
 à	O
 Limay	B-LOC
-(	O
-Seine	B-LOC
+(	I-LOC
+Seine	I-LOC
 -	I-LOC
 et	I-LOC
 -	I-LOC
@@ -23789,7 +23786,7 @@ de	O
 la	O
 ville	O
 .	O
-	
+
 Le	O
 concierge	O
 se	O
@@ -23814,14 +23811,14 @@ dit	O
 au	O
 médecin	O
 :	O
-	
+
 —	O
 Je	O
 tiens	O
 votre	O
 homme	O
 .	O
-	
+
 M.	B-PER
 Guérin	I-PER
 a	O
@@ -23847,7 +23844,7 @@ vais	O
 vous	O
 conduire	O
 .	O
-	
+
 Son	O
 nom	O
 ,	O
@@ -23870,7 +23867,7 @@ tout	O
 de	O
 suite	O
 .	O
-	
+
 Reste	O
 à	O
 savoir	O
@@ -23884,7 +23881,7 @@ deux	O
 fossoyeurs	O
 disponibles	O
 .	O
-	
+
 Nous	O
 en	O
 avons	O
@@ -23899,7 +23896,7 @@ d	O
 '	O
 inconduite	O
 .	O
-	
+
 Figurez	O
 -	O
 vous	O
@@ -23929,7 +23926,7 @@ l	O
 '	O
 établissement	O
 .	O
-	
+
 —	O
 En	O
 effet	O
@@ -23954,7 +23951,7 @@ dans	O
 leur	O
 plein	O
 .	O
-	
+
 —	O
 C	O
 '	O
@@ -23967,7 +23964,7 @@ l	O
 '	O
 administration	O
 .	O
-	
+
 Et	O
 ,	O
 d	O
@@ -23983,13 +23980,13 @@ auxquelles	O
 cela	O
 déplaît	O
 .	O
-	
+
 On	O
 trouva	O
 deux	O
 fossoyeurs	O
 .	O
-	
+
 On	O
 trouva	O
 la	O
@@ -24008,7 +24005,7 @@ de	O
 M.	B-PER
 Guérin	I-PER
 .	O
-	
+
 On	O
 trouva	O
 un	O
@@ -24042,7 +24039,7 @@ quatre	O
 vingts	O
 ans	O
 .	O
-	
+
 —	O
 Ce	O
 n	O
@@ -24053,14 +24050,14 @@ là	O
 M.	B-PER
 Guérin	I-PER
 !	O
-	
+
 s	O
 '	O
 écria	O
 le	O
 docteur	O
 .	O
-	
+
 —	O
 Allons	O
 ,	O
@@ -24070,7 +24067,7 @@ répondit	O
 le	O
 concierge	O
 .	O
-	
+
 Mes	O
 ivrognes	O
 se	O
@@ -24088,14 +24085,14 @@ tombe	O
 des	O
 autres	O
 .	O
-	
+
 —	O
 C	O
 '	O
 est	O
 évident	O
 .	O
-	
+
 Mais	O
 ,	O
 à	O
@@ -24106,12 +24103,12 @@ chercher	O
 nous	O
 trouverons	O
 .	O
-	
+
 —	O
 Chercher	O
 où	O
 ?	O
-	
+
 —	O
 Dans	O
 toutes	O
@@ -24121,7 +24118,7 @@ du	O
 18	O
 novembre	O
 .	O
-	
+
 —	O
 Je	O
 n	O
@@ -24132,7 +24129,7 @@ pas	O
 le	O
 droit	O
 .	O
-	
+
 A	O
 moins	O
 que	O
@@ -24157,16 +24154,16 @@ bières	O
 à	O
 ouvrir	O
 .	O
-	
+
 Total	O
 ,	O
 douze	O
 .	O
-	
+
 —	O
 Parbleu	O
 !	O
-	
+
 dit	O
 le	O
 docteur	O
@@ -24178,11 +24175,11 @@ en	O
 aurai	O
 point	O
 .	O
-	
+
 le	O
 démenti	O
 .	O
-	
+
 Il	O
 ne	O
 sera	O
@@ -24209,7 +24206,7 @@ naufrage	O
 au	O
 port	O
 .	O
-	
+
 Il	O
 courut	O
 à	O
@@ -24232,7 +24229,7 @@ la	O
 2°	O
 division	O
 .	O
-	
+
 —	O
 Monsieur	O
 ,	O
@@ -24243,15 +24240,15 @@ il	O
 ,	O
 je	O
 suis	O
-le	O
-docteur	B-PER
+le	B-PER
+docteur	I-PER
 Robineau	I-PER
 .	O
-	
+
 Je	O
 viens	O
-du	O
-cimetière	B-LOC
+du	B-LOC
+cimetière	I-LOC
 Montmartre	I-LOC
 ,	O
 où	O
@@ -24273,12 +24270,12 @@ vivant	O
 chef	O
 de	O
 bureau	O
-au	O
-ministère	B-ORG
+au	B-ORG
+ministère	I-ORG
 des	I-ORG
 finances	I-ORG
 .	O
-	
+
 Une	O
 incroyable	O
 fatalité	O
@@ -24317,7 +24314,7 @@ quatre	O
 vingts	O
 ans	O
 .	O
-	
+
 Les	O
 fossoyeurs	O
 ont	O
@@ -24332,7 +24329,7 @@ d	O
 une	O
 autre	O
 .	O
-	
+
 Je	O
 compte	O
 sur	O
@@ -24359,7 +24356,7 @@ du	O
 18	O
 courant	O
 .	O
-	
+
 Le	O
 chef	O
 de	O
@@ -24423,7 +24420,7 @@ cette	O
 triste	O
 cérémonie	O
 .	O
-	
+
 Que	O
 cependant	O
 il	O
@@ -24458,7 +24455,7 @@ une	O
 réponse	O
 satisfaisante	O
 .	O
-	
+
 —	O
 Mais	O
 ,	O
@@ -24475,13 +24472,13 @@ sera	O
 trop	O
 tard	O
 .	O
-	
+
 Les	O
 morts	O
 vont	O
 vite	O
 !	O
-	
+
 comme	O
 dit	O
 le	O
@@ -24506,7 +24503,7 @@ qu	O
 en	O
 faire	O
 !	O
-	
+
 Sachez	O
 que	O
 la	O
@@ -24566,9 +24563,9 @@ dans	O
 la	O
 science	O
 !	O
-	
+
 —	O
-	
+
 Et	O
 vous	O
 croyez	O
@@ -24582,7 +24579,7 @@ un	O
 pareil	O
 attentat	O
 !	O
-	
+
 que	O
 je	O
 vous	O
@@ -24617,7 +24614,7 @@ ses	O
 infirmités	O
 secrètes	O
 !	O
-	
+
 On	O
 vous	O
 en	O
@@ -24628,7 +24625,7 @@ chefs	O
 de	O
 bureau	O
 !	O
-	
+
 Croyez	O
 -	O
 vous	O
@@ -24660,7 +24657,7 @@ la	O
 curiosité	O
 publique	O
 !	O
-	
+
 Sortez	O
 ,	O
 monsieur	O
@@ -24684,7 +24681,7 @@ affaire	O
 plus	O
 loin	O
 !	O
-	
+
 M.	B-PER
 Robineau	I-PER
 sortit	O
