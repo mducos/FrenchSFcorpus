@@ -1,7 +1,7 @@
 import random
 from pathlib import Path
 
-SEED = 42  # fixe la reproductibilité du split sur plusieurs lancements
+SEED = 42
 
 
 def write_tsv(sentences, path):

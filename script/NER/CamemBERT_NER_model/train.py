@@ -81,7 +81,7 @@ class FocalTrainer(Trainer):
                 alpha = alpha.to(self.model.device) if alpha is not None else None,
                 gamma = gamma)
 
-    def comput_loss(self, model, inputs, num_items_in_batch=None,return_outputs=False):
+    def compute_loss(self, model, inputs, num_items_in_batch=None,return_outputs=False):
         labels=inputs.pop("labels")
         outputs = model(**inputs)
         logits = outputs.logits
@@ -292,7 +292,7 @@ def main():
         learning_rate=3e-5,
         per_device_train_batch_size=32,
         per_device_eval_batch_size=32,
-        num_train_epochs=20,
+        num_train_epochs=2,
         warmup_ratio=0,
         weight_decay=0.01,
         logging_dir='./logs',
@@ -316,7 +316,27 @@ def main():
 
     trainer.train()
 
+    print("\n" + "=" * 80)
+    print("Évaluation finale sur Dev Set")
+    print("=" * 80)
     evaluate_and_print_results(trainer, tokenized_dev, id2label)
+
+    # ── Évaluation finale sur test.tsv (généralisation) ─────────────────────
+    test_file = Path("src/NER_training_files/test.tsv")
+    test_sentences = read_tsv_file(test_file)
+    print(f"Test: {len(test_sentences)} sentences")
+
+    test_dataset = prepare_dataset(test_sentences, label2id)
+    tokenized_test = test_dataset.map(
+        lambda x: tokenize_and_align_labels(x, tokenizer, label2id),
+        batched=True,
+        remove_columns=test_dataset.column_names
+    )
+
+    print("\n" + "=" * 80)
+    print("Évaluation finale sur Test Set")
+    print("=" * 80)
+    evaluate_and_print_results(trainer, tokenized_test, id2label)
 
     output_dir = Path("src/SF_NER_final_model")
     trainer.save_model(output_dir)
