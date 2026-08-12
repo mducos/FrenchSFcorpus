@@ -1,8 +1,3 @@
-LE	le	DET	O	O	O
-DÉLUGE	déluge	PROPN	O	O	O
-A	a	NOUN	O	O	O
-PARIS	paris	PROPN	O	O	O
-
 Les	le	DET	O	O	O
 journaux	journal	NOUN	O	O	O
 gros	gros	ADJ	O	O	O
@@ -76,9 +71,9 @@ un	un	DET	O	O	O
 jour	jour	NOUN	O	O	O
 viendra	venir	ADV	O	O	O
 —	—	PRON	O	O	O
-dies	dier	VERB	O	O	O
-iroe	iroe	ADV	O	O	O
-—	—	VERB	O	O	O
+dies	dies	ADV	O	O	O
+irae	irae	VERB	O	O	O
+—	—	NOUN	O	O	O
 où	où	PRON	O	O	O
 les	le	DET	O	O	O
 Parisiens	parisien	NOUN	O	O	O
@@ -128,10 +123,11 @@ reculé	reculer	VERB	O	O	O
 .	.	PUNCT	O	O	O
 
 AVANT	avant	ADP	O	O	O
+
 L	l	DET	O	O	O
 '	'	DET	O	O	O
 année	année	NOUN	O	O	O
-1859	1859	NUM	O	O	O
+4859	4859	NUM	O	O	O
 tire	tire	VERB	O	O	O
 à	à	ADP	O	O	O
 sa	son	DET	O	O	O
@@ -423,8 +419,8 @@ ayant	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 jugées	juger	VERB	O	O	O
 dignes	digne	ADJ	O	O	O
-ex	ex	AUX	O	O	O
-oequo	oequo	NOUN	O	O	O
+ex	ex	PRON	O	O	O
+aequo	aequo	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Sur	sur	ADP	O	O	O
@@ -544,7 +540,7 @@ demain	demain	ADV	O	O	O
 
 PENDANT	pendant	ADP	O	O	O
 
-Le	le	DET	O	O	O
+La	le	DET	O	O	O
 grande	grand	ADJ	O	O	O
 tasse	tasse	NOUN	O	O	O
 a	avoir	AUX	O	O	O
@@ -681,12 +677,10 @@ huître	huître	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
-Ah	ah	NOUN	O	O	O
+Ah	ah	DET	O	O	O
 !	!	PUNCT	O	O	O
-
 ah	ah	VERB	O	O	O
 !	!	PUNCT	O	O	O
-
 messieurs	monsieur	NOUN	O	O	O
 les	le	DET	O	O	O
 Parisiens	parisien	NOUN	O	O	O
@@ -797,7 +791,6 @@ collègue	collègue	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 Ciel	ciel	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 ma	mon	DET	O	O	O
 fille	fille	NOUN	O	O	O
 !	!	PUNCT	O	O	O
@@ -820,6 +813,7 @@ autre	autre	ADJ	O	O	O
 jour	jour	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
+
 Enfant	enfant	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 reconnais	reconnai	NOUN	O	O	O
@@ -829,11 +823,13 @@ ta	ton	DET	O	O	O
 mère	mère	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
+
 Pas	pas	ADV	O	O	O
-de	de	DET	O	O	O
+de	de	ADP	O	O	O
 réponses	réponse	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
+
 Morte	mort	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 morte	mort	NOUN	O	O	O
@@ -848,6 +844,7 @@ mon	mon	DET	O	O	O
 enfant	enfant	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
+
 Un	un	DET	O	O	O
 turbot	turbot	NOUN	O	O	O
 (	(	PUNCT	O	O	O
@@ -945,7 +942,6 @@ hommes	homme	NOUN	O	O	O
 si	si	ADV	O	O	O
 fiers	fier	ADJ	O	O	O
 !	!	PUNCT	O	O	O
-
 jolie	joli	VERB	O	O	O
 carcasse	carcer	VERB	O	O	O
 !	!	PUNCT	O	O	O
@@ -1040,8 +1036,7 @@ sa	son	DET	O	O	O
 voix	voix	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
--	-	PUNCT	O	O	O
-vagues	vague	ADJ	O	O	O
+vagues	vague	NOUN	O	O	O
 montent	monter	VERB	O	O	O
 toujours	toujours	ADV	O	O	O
 !	!	PUNCT	O	O	O
@@ -1325,14 +1320,12 @@ dit	dire	VERB	O	O	O
 :	:	PUNCT	O	O	O
 oui	oui	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 un	un	DET	O	O	O
 autre	autre	ADJ	O	O	O
 dit	dit	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 Non	non	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
 moi	moi	PRON	O	O	O
 je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
@@ -1342,6 +1335,7 @@ oui	oui	NOUN	O	O	O
 ni	ni	CCONJ	O	O	O
 non	non	ADV	O	O	O
 .	.	PUNCT	O	O	O
+
 (	(	PUNCT	O	O	O
 Violentes	violent	ADJ	O	O	O
 marques	marque	NOUN	O	O	O
@@ -1454,6 +1448,7 @@ l	l	DET	O	O	O
 ai	avoir	AUX	O	O	O
 fait	faire	VERB	O	O	O
 !	!	PUNCT	O	O	O
+
 (	(	PUNCT	O	O	O
 Bravos	bravo	NOUN	O	O	O
 unanimes	unanime	ADJ	O	O	O
@@ -1466,9 +1461,6 @@ débris	débris	VERB	O	O	O
 par	par	ADP	O	O	O
 moi	moi	PRON	O	O	O
 découvert	découvrir	VERB	O	O	O
-(	(	PUNCT	O	O	O
-1	1	NUM	O	O	O
-)	)	PUNCT	O	O	O
 est	être	AUX	O	O	O
 un	un	DET	O	O	O
 squelette	squelette	NOUN	O	O	O
@@ -1555,28 +1547,10 @@ vivre	vivre	NOUN	O	O	O
 de	de	ADP	O	O	O
 végétaux	végétal	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-(	(	PUNCT	O	O	O
-1	1	NUM	O	O	O
-)	)	PUNCT	O	O	O
-Un	un	DET	O	O	O
-jupon	jupon	NOUN	O	O	O
-carcasse	carcer	VERB	O	O	O
-en	en	ADP	O	O	O
-acier.—	acier.—	NOUN	O	O	O
-
-Note	note	NOUN	O	O	O
-de	de	ADP	O	O	O
-l	l	DET	O	O	O
-'	'	DET	O	O	O
-auteur	auteur	NOUN	O	O	O
-.	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
 second	second	ADJ	O	O	O
-débris	débris	NOUN	O	O	O
-(	(	PUNCT	O	O	O
-1	1	NUM	O	O	O
-)	)	PUNCT	O	O	O
+débris	débri	ADJ	O	O	O
 est	être	AUX	O	O	O
 un	un	DET	O	O	O
 crâne	crâne	NOUN	O	O	O
@@ -1609,10 +1583,7 @@ domestiques	domestique	ADJ	O	O	O
 
 Le	le	DET	O	O	O
 troisième	troisième	ADJ	O	O	O
-débris	débri	ADJ	O	O	O
-(	(	PUNCT	O	O	O
-2	2	NUM	O	O	O
-)	)	PUNCT	O	O	O
+débris	débris	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -1633,7 +1604,7 @@ cent	cent	NUM	O	O	O
 pieds	pied	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 pétrifié	pétrifier	VERB	O	O	O
-complétement	complétement	ADV	O	O	O
+complètement	complètement	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Ce	ce	DET	O	O	O
@@ -1719,10 +1690,7 @@ diminutif	diminutif	NOUN	O	O	O
 Quant	quant	ADV	O	O	O
 au	au	DET	O	O	O
 quatrième	quatrième	ADJ	O	O	O
-débris	débris	NOUN	O	O	O
-(	(	PUNCT	O	O	O
-3	3	NUM	O	O	O
-)	)	PUNCT	O	O	O
+débris	débris	PROPN	O	O	O
 nous	nous	PRON	O	O	O
 l	l	PRON	O	O	O
 '	'	PUNCT	O	O	O
@@ -1738,9 +1706,7 @@ Partout	partout	ADV	O	O	O
 il	il	PRON	O	O	O
 affecte	affecter	VERB	O	O	O
 la	le	DET	O	O	O
-même	même	NOUN	O	O	O
-.	.	PUNCT	O	O	O
-
+même	même	ADJ	O	O	O
 forme	forme	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O

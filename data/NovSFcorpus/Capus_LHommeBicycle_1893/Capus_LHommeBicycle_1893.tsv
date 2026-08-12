@@ -1,5 +1,3 @@
-I	i	NOUN	O	O	O
-
 C	c	NOUN	O	O	O
 '	'	PUNCT	O	O	O
 était	être	AUX	O	O	O
@@ -103,9 +101,7 @@ d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 une	un	DET	O	O	O
 façon	façon	NOUN	O	O	O
-excep	excep	ADJ	O	O	O
--	-	PUNCT	O	O	O
-nelle	nelle	NOUN	O	O	O
+exceptionnelle	exceptionnel	ADJ	O	O	O
 pour	pour	ADP	O	O	O
 les	le	DET	O	O	O
 exercices	exercice	NOUN	O	O	O
@@ -130,8 +126,8 @@ il	il	PRON	O	O	O
 avait	avoir	AUX	O	O	O
 fini	finir	VERB	O	O	O
 par	par	ADP	O	O	O
-rem	rem	NOUN	O	O	O
--	-	PUNCT	O	O	O
+remporter	remporter	VERB	O	O	O
+à	à	ADP	O	O	O
 peu	peu	ADV	O	O	O
 près	près	ADV	O	O	O
 complètement	complètement	ADV	O	O	O
@@ -175,9 +171,9 @@ seconde	second	ADJ	O	O	O
 partie	partie	NOUN	O	O	O
 du	de	ADP	O	O	O
 baccalauréat	baccalauréat	NOUN	O	O	O
-y	y	PRON	O	O	O
-en	en	ADP	O	O	O
-tres	tre	NOUN	O	O	O
+ès	è	NOUN	O	O	O
+-	-	PUNCT	O	O	O
+lettres	lettre	NOUN	O	O	O
 comportait	comporter	VERB	O	O	O
 un	un	DET	O	O	O
 examen	examen	NOUN	O	O	O
@@ -261,7 +257,6 @@ qu	qu	SCONJ	O	O	O
 il	il	PRON	O	O	O
 serait	être	AUX	O	O	O
 un	un	PRON	O	O	O
-des	de	ADP	O	O	O
 des	de	ADP	O	O	O
 maîtres	maître	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -392,9 +387,7 @@ succès	succès	NOUN	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
 flatteurs	flatteur	NOUN	O	O	O
-récompen	récompen	VERB	O	O	O
--	-	PUNCT	O	O	O
-sèrent	sèrer	VERB	O	O	O
+récompensèrent	récompenser	ADV	O	O	O
 ses	son	DET	O	O	O
 hautes	haute	NOUN	O	O	O
 capacités	capacité	ADJ	O	O	O
@@ -414,7 +407,8 @@ de	de	ADP	O	O	O
 Paris	paris	PROPN	O	O	O
 -	-	PUNCT	O	O	O
 Kamtchatka	kamtchatka	NOUN	O	O	O
-organiséepar	organiséepar	ADP	O	O	O
+organisée	organiser	VERB	O	O	O
+par	par	ADP	O	O	O
 la	le	DET	O	O	O
 presse	presse	NOUN	O	O	O
 française	français	ADJ	O	O	O
@@ -499,8 +493,9 @@ bicycle	bicycle	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 lui	luire	PRON	O	O	O
 ne	ne	ADV	O	O	O
-faisaientqu	faisaientqu	ADJ	O	O	O
-'	'	PUNCT	O	O	O
+faisaient	faire	VERB	O	O	O
+qu	qu	DET	O	O	O
+'	'	ADP	O	O	O
 une	un	DET	O	O	O
 seule	seul	ADJ	O	O	O
 et	et	CCONJ	O	O	O
@@ -552,7 +547,8 @@ harmonieux	harmonieu	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Vous	vous	PRON	O	O	O
-connaissezcette	connaissezcette	VERB	O	O	O
+connaissez	connaître	VERB	O	O	O
+cette	ce	DET	O	O	O
 histoire	histoire	NOUN	O	O	O
 d	d	ADP	O	O	O
 '	'	ADP	O	O	O
@@ -748,9 +744,7 @@ fort	fort	ADV	O	O	O
 de	de	ADP	O	O	O
 tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
-bicy	bicy	NOUN	O	O	O
--	-	PUNCT	O	O	O
-clistes	cliste	NOUN	O	O	O
+bicyclistes	bicycliste	NOUN	O	O	O
 connus	connu	ADJ	O	O	O
 ;	;	PUNCT	O	O	O
 tout	tout	ADJ	O	O	O
@@ -772,7 +766,9 @@ ai	avoir	AUX	O	O	O
 accompli	accomplir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
-audelà	audelà	ADV	O	O	O
+au	au	ADP	O	O	O
+-	-	PUNCT	O	O	O
+delà	delà	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 J	j	NOUN	O	O	O
@@ -816,7 +812,6 @@ faire	faire	VERB	O	O	O
 
 Oh	oh	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 humanité	humanité	NOUN	O	O	O
@@ -844,7 +839,12 @@ matin	matin	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 après	après	ADP	O	O	O
 avoir	avoir	AUX	O	O	O
-ruminécestristesréflexions	ruminécestristesréflexion	NOUN	O	O	O
+ruminé	ruminer	VERB	O	O	O
+c	c	NOUN	O	O	O
+'	'	PUNCT	O	O	O
+est	être	AUX	O	O	O
+tristes	trister	VERB	O	O	O
+réflexions	réflexier	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
 monta	monter	VERB	O	O	O
@@ -860,8 +860,6 @@ dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 campagne	campagne	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
-II	ii	NOUN	O	O	O
 
 Il	il	PRON	O	O	O
 ne	ne	ADV	O	O	O
@@ -993,6 +991,7 @@ sur	sur	ADP	O	O	O
 des	un	DET	O	O	O
 pierres	pierre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Voilà	voilà	PROPN	O	O	O
 qui	qui	PRON	O	O	O
@@ -1004,7 +1003,9 @@ s	s	PRON	O	O	O
 '	'	ADP	O	O	O
 écria	écria	NOUN	O	O	O
 -	-	PUNCT	O	O	O
-til	til	ADJ	O	O	O
+t	t	NOUN	O	O	O
+-	-	PUNCT	O	O	O
+il	il	PRON	O	O	O
 .	.	PUNCT	O	O	O
 
 Il	il	PRON	O	O	O
@@ -1192,7 +1193,7 @@ eux	lui	PRON	O	O	O
 Descends	descend	NOUN	O	O	O
 de	de	ADP	O	O	O
 ton	ton	NOUN	O	O	O
-bicycle	bicycl	ADJ	O	O	O
+bicycle	bicycle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 eh	eh	INTJ	O	O	O
 !	!	PUNCT	O	O	O
@@ -1238,7 +1239,7 @@ es	être	AUX	O	O	O
 empêtré	empêtrer	VERB	O	O	O
 là	là	ADV	O	O	O
 -	-	PUNCT	O	O	O
-dessus	dessus	NOUN	O	O	O
+dessus	dessu	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 lui	luire	PRON	O	O	O
 dit	dire	VERB	O	O	O
@@ -1330,7 +1331,6 @@ croix	croix	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
-,	,	PUNCT	O	O	O
 bruit	bruit	NOUN	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
@@ -1439,8 +1439,6 @@ un	un	DET	O	O	O
 médecin	médecin	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-III	iii	NOUN	O	O	O
-
 L	l	DET	O	O	O
 '	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
@@ -1448,7 +1446,8 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 science	science	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-espritsceptique	espritsceptiqu	ADJ	O	O	O
+esprit	esprit	NOUN	O	O	O
+sceptique	sceptique	ADJ	O	O	O
 et	et	CCONJ	O	O	O
 qui	qui	PRON	O	O	O
 ne	ne	ADV	O	O	O
@@ -1521,13 +1520,12 @@ ausculta	ausculta	NOUN	O	O	O
 appuya	appuyer	VERB	O	O	O
 la	le	DET	O	O	O
 tête	tête	NOUN	O	O	O
--	-	PUNCT	O	O	O
 contre	contre	ADP	O	O	O
 la	le	DET	O	O	O
 poitrine	poitrine	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	DET	O	O	O
+—	—	PUNCT	O	O	O
 Allons	allons	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 mon	mon	DET	O	O	O
@@ -1535,8 +1533,9 @@ garçon	garçon	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 vous	vous	PRON	O	O	O
 n	n	ADJ	O	O	O
-'	'	PUNCT	O	O	O
-avezrien	avezrien	NOUN	O	O	O
+'	'	PRON	O	O	O
+avez	avoir	VERB	O	O	O
+rien	rien	PRON	O	O	O
 du	de	ADP	O	O	O
 tout	tout	PRON	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1615,10 +1614,13 @@ imposteur	imposteur	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 La	le	DET	O	O	O
-sciencedémontreque	sciencedémontrequ	ADJ	O	O	O
-lorsqu	lorsqu	NOUN	O	O	O
+science	science	NOUN	O	O	O
+démontre	démontrer	VERB	O	O	O
+que	que	SCONJ	O	O	O
+lorsqu	lorsqu	DET	O	O	O
 '	'	PUNCT	O	O	O
-unhomme	unhomme	PROPN	O	O	O
+un	un	DET	O	O	O
+homme	homme	NOUN	O	O	O
 est	être	AUX	O	O	O
 monté	monter	VERB	O	O	O
 sur	sur	ADP	O	O	O
@@ -2102,8 +2104,6 @@ la	le	DET	O	O	O
 terre	terre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-IV	iv	NOUN	O	O	O
-
 Le	le	DET	O	O	O
 pauvre	pauvre	NOUN	O	O	O
 Marius	marius	PROPN	O	O	O
@@ -2227,9 +2227,7 @@ furent	être	AUX	O	O	O
 faites	faire	VERB	O	O	O
 par	par	ADP	O	O	O
 des	un	DET	O	O	O
-im	im	PROPN	O	O	O
--	-	PUNCT	O	O	O
-presarios	presarios	VERB	O	O	O
+impresarios	impresario	NOUN	O	O	O
 américains	américain	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -2471,12 +2469,12 @@ vingtième	vingtième	ADJ	O	O	O
 siècle	siècle	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 une	un	DET	O	O	O
-race	race	NOUN	O	O	O
-d	d	ADP	O	O	O
-'	'	ADP	O	O	O
-hommes	homme	NOUN	B-NOV	O	O
--	-	PUNCT	I-NOV	O	O
-bicycles	bicycle	ADJ	I-NOV	O	O
+race	race	NOUN	O	B-NOV	O
+d	d	ADP	O	I-NOV	O
+'	'	ADP	O	I-NOV	O
+hommes	homme	NOUN	B-NOV	I-NOV	O
+-	-	PUNCT	I-NOV	I-NOV	O
+bicycles	bicycle	ADJ	I-NOV	I-NOV	O
 ,	,	PUNCT	O	O	O
 analogues	analogue	NOUN	O	O	O
 aux	à	ADP	O	O	O

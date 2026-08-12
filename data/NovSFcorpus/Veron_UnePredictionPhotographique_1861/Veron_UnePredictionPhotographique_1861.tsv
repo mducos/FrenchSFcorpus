@@ -1,16 +1,3 @@
-UNE	un	DET	O	O	O
-PRÉDICTION	prédiction	NOUN	O	O	O
-PHOTOGRAPHIQUE	photographique	ADJ	O	O	O
-
-Et	et	CCONJ	O	O	O
-le	le	DET	O	O	O
-collodion	collodion	NOUN	O	O	O
-montait	monter	VERB	O	O	O
-toujours	toujours	ADV	O	O	O
-.	.	PUNCT	O	O	O
-
-I	i	NOUN	O	O	O
-
 En	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
@@ -185,8 +172,9 @@ propositions	proposition	NOUN	O	O	O
 lumineuses	lumineux	ADJ	O	O	O
 :	:	PUNCT	O	O	O
 
-1º	1º	NUM	O	O	O
-«	«	VERB	O	O	O
+1	1	NUM	O	O	O
+°	degré	NOUN	O	O	O
+«	«	PROPN	O	O	O
 Si	si	SCONJ	O	O	O
 la	le	DET	O	O	O
 population	population	NOUN	O	O	O
@@ -226,7 +214,8 @@ la	le	DET	O	O	O
 photographie	photographie	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
 
-2º	2º	ADJ	O	O	O
+2	2	NUM	O	O	O
+°	degré	NOUN	O	O	O
 «	«	NOUN	O	O	O
 Si	si	SCONJ	O	O	O
 la	le	DET	O	O	O
@@ -287,8 +276,6 @@ fameux	fameu	NOUN	O	O	O
 congrès	congrès	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
-II	ii	NOUN	O	O	O
-
 En	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
@@ -321,6 +308,7 @@ photographes	photographe	NOUN	O	O	O
 à	à	ADP	O	O	O
 8,650,911	8,650,911	ADJ	O	O	O
 .	.	PUNCT	O	O	O
+
 Un	un	DET	O	O	O
 nouveau	nouveau	ADJ	O	O	O
 congrès	congrès	NOUN	O	O	O
@@ -357,6 +345,7 @@ et	et	CCONJ	O	O	O
 des	de	ADP	O	O	O
 provinces	province	NOUN	O	O	O
 :	:	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 La	le	DET	O	O	O
 désastreuse	désastreux	ADJ	O	O	O
@@ -379,8 +368,7 @@ dans	dans	ADP	O	O	O
 ces	ce	DET	O	O	O
 considérations	considération	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-
-—	—	PRON	O	O	O
+—	—	CCONJ	O	O	O
 n	n	ADJ	O	O	O
 '	'	PRON	O	O	O
 a	avoir	VERB	O	O	O
@@ -392,7 +380,8 @@ cause	cause	NOUN	O	O	O
 la	le	DET	O	O	O
 photographie	photographie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	ADJ	O	O	O
+
+«	«	PROPN	O	O	O
 Les	le	DET	O	O	O
 immenses	immense	NOUN	O	O	O
 fortunes	fortune	ADJ	O	O	O
@@ -415,7 +404,8 @@ autres	autre	ADJ	O	O	O
 classes	classe	NOUN	O	O	O
 sociales	social	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 travailleurs	travailleur	NOUN	O	O	O
@@ -436,6 +426,7 @@ promet	promettre	VERB	O	O	O
 la	le	DET	O	O	O
 richesse	richesse	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Puisse	pouvoir	VERB	O	O	O
 notre	notre	DET	O	O	O
@@ -533,8 +524,6 @@ photographe	photographe	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
 
-III	iii	NOUN	O	O	O
-
 En	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
@@ -588,7 +577,8 @@ PALIBON	palibon	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 PHOTOGRAPHE	photographe	VERB	O	O	O
 AU	au	ADP	O	O	O
-PREMIER	premier	PROPN	O	O	O
+PREMIER	premier	ADJ	O	O	O
+
 (	(	PUNCT	O	O	O
 La	le	DET	O	O	O
 porte	porte	NOUN	O	O	O
@@ -610,7 +600,8 @@ JEANNISSON	jeannisson	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 PHOTOGRAPHE	photographe	VERB	O	O	O
 AU	au	ADP	O	O	O
-PREMIER	premier	PROPN	O	O	O
+PREMIER	premier	ADJ	O	O	O
+
 (	(	PUNCT	O	O	O
 La	le	DET	O	O	O
 porte	porte	NOUN	O	O	O
@@ -639,6 +630,7 @@ AU	au	ADP	O	O	O
 FOND	fond	NOUN	O	O	O
 DU	de	ADP	O	O	O
 CORRIDOR	corridor	NOUN	O	O	O
+
 (	(	PUNCT	O	O	O
 Ne	ne	ADV	O	O	O
 pas	pas	ADV	O	O	O
@@ -686,7 +678,6 @@ au	au	ADP	O	O	O
 cordon	cordon	NOUN	O	O	O
 de	de	ADP	O	O	O
 sonnette	sonnette	NOUN	O	O	O
-)	)	PUNCT	O	O	O
 
 La	le	DET	O	O	O
 nomenclature	nomenclature	NOUN	O	O	O
@@ -713,15 +704,15 @@ sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 toit	toit	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-LA	la	PROPN	O	O	O
+
+LA	le	DET	O	O	O
 PHOTOGRAPHIE	photographie	NOUN	O	O	O
 DU	de	ADP	O	O	O
 PEUPLE	peuple	NOUN	O	O	O
-DIX	dix	PROPN	O	O	O
 
-CENTIMES	centimer	VERB	O	O	O
-
-—	—	DET	O	O	O
+DIX	dix	PRON	O	O	O
+CENTIMES	centime	NOUN	O	O	O
+—	—	PUNCT	O	O	O
 SANS	sans	ADP	O	O	O
 RETOUCHES	retouche	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -798,8 +789,8 @@ photographie	photographie	NOUN	O	O	O
 
 L	l	DET	O	O	O
 '	'	DET	O	O	O
-annonce	annonce	NOUN	O	O	O
-photographique	photographique	ADJ	O	O	O
+annonce	annonce	NOUN	B-NOV	O	O
+photographique	photographique	ADJ	I-NOV	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -832,8 +823,8 @@ nouveautés	nouveauté	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
-roman	roman	NOUN	O	O	O
-photographique	photographique	ADJ	O	O	O
+roman	roman	NOUN	B-NOV	O	O
+photographique	photographique	ADJ	I-NOV	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -856,8 +847,8 @@ héroïne	héroïne	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
-correspondance	correspondance	NOUN	O	O	O
-photographique	photographique	ADJ	O	O	O
+correspondance	correspondance	NOUN	B-NOV	O	O
+photographique	photographique	ADJ	I-NOV	O	O
 .	.	PUNCT	O	O	O
 
 —	—	PUNCT	O	O	O
@@ -971,7 +962,6 @@ d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 avocat	avocat	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
 trois	trois	NUM	O	O	O
 malades	malade	NOUN	O	O	O
@@ -986,7 +976,6 @@ disputer	disputer	VERB	O	O	O
 leur	son	DET	O	O	O
 pratique	pratique	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
-
 —	—	DET	O	O	O
 huit	huit	NUM	O	O	O
 places	place	NOUN	O	O	O
@@ -1000,7 +989,6 @@ dans	dans	ADP	O	O	O
 un	un	DET	O	O	O
 ministère	ministère	NOUN	O	O	O
 ;	;	PUNCT	O	O	O
-
 —	—	PUNCT	O	O	O
 enfin	enfin	ADV	O	O	O
 les	le	DET	O	O	O
@@ -1091,8 +1079,6 @@ l	l	DET	O	O	O
 général	général	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-IV	iv	NOUN	O	O	O
-
 En	en	ADP	O	O	O
 ce	ce	DET	O	O	O
 temps	temps	NOUN	O	O	O
@@ -1123,7 +1109,6 @@ se	se	PRON	O	O	O
 trouvent	trouver	VERB	O	O	O
 reculées	reculer	VERB	O	O	O
 de	de	ADP	O	O	O
--	-	PUNCT	O	O	O
 force	force	NOUN	O	O	O
 jusqu	jusqu	PROPN	O	O	O
 '	'	PUNCT	O	O	O
@@ -1437,14 +1422,6 @@ l	l	DET	O	O	O
 herboristerie	herboristerie	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
 
-PARIS	paris	PROPN	O	O	O
-S	s	PROPN	O	O	O
-'	'	PUNCT	O	O	O
-AMUSE	amuse	NOUN	O	O	O
-.	.	PUNCT	O	O	O
-
-241	241	NUM	O	O	O
-
 Il	il	PRON	O	O	O
 est	être	AUX	O	O	O
 trop	trop	ADV	O	O	O
@@ -1470,8 +1447,6 @@ est	être	AUX	O	O	O
 trop	trop	ADV	O	O	O
 tard	tard	ADV	O	O	O
 !	!	PUNCT	O	O	O
-
-V	v	NOUN	O	O	O
 
 Le	le	DET	O	O	O
 matin	matin	NOUN	O	O	O
@@ -1618,12 +1593,6 @@ deux	deux	NUM	O	O	O
 derniers	dernier	ADJ	O	O	O
 Français	français	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
 
 Ainsi	ainsi	ADV	O	O	O
 périra	périr	VERB	O	O	O

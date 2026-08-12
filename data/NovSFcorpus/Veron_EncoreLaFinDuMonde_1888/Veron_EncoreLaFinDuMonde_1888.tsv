@@ -1,11 +1,3 @@
-I	i	NOUN	O	O	O
-ENCORE	encore	ADV	O	O	O
-LA	le	DET	O	O	O
-FIN	fin	NOUN	O	O	O
-DU	de	ADP	O	O	O
-MONDE	monde	NOUN	O	O	O
-!	!	PUNCT	O	O	O
-
 La	le	DET	O	O	O
 science	science	NOUN	O	O	O
 est	être	AUX	O	O	O
@@ -28,9 +20,8 @@ désagréable	désagréable	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 C	c	NOUN	O	O	O
-'	'	PUNCT	O	O	O
+'	'	PRON	O	O	O
 est	être	AUX	O	O	O
-`	`	DET	O	O	O
 une	un	DET	O	O	O
 alarmiste	alarmiste	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -278,8 +269,7 @@ ce	ce	DET	O	O	O
 refroidissement	refroidissement	NOUN	O	O	O
 se	se	PRON	O	O	O
 produit	produire	VERB	O	O	O
-.	.	PUNCT	O	O	O
-
+,	,	PUNCT	O	O	O
 de	de	DET	O	O	O
 telle	tel	ADJ	O	O	O
 sorte	sorte	NOUN	O	O	O
@@ -409,8 +399,7 @@ ans	an	NOUN	O	O	O
 
 Ah	ah	PUNCT	O	O	O
 !	!	PUNCT	O	O	O
-
-zut	zut	ADJ	O	O	O
+zut	zut	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
 Je	je	PRON	O	O	O
@@ -614,7 +603,9 @@ démolis	démolir	VERB	O	O	O
 Combien	combien	ADV	O	O	O
 de	de	ADP	O	O	O
 problèmes	problème	NOUN	O	O	O
-soidisant	soidiser	VERB	O	O	O
+soi	soi	ADJ	O	O	O
+-	-	PUNCT	O	O	O
+disant	dire	VERB	O	O	O
 résolus	résoudre	VERB	O	O	O
 la	le	DET	O	O	O
 veille	veille	NOUN	O	O	O
@@ -999,9 +990,7 @@ arrêté	arrêter	VERB	O	O	O
 sur	sur	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-é	é	NOUN	O	O	O
--	-	PUNCT	O	O	O
-chenillage	chenillage	NOUN	O	O	O
+échenillage	échenillage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 vous	vous	PRON	O	O	O
 verrez	voir	VERB	O	O	O

@@ -277,7 +277,8 @@ ses	son	DET	O	O	O
 doigts	doigt	NOUN	O	O	O
 fins	fin	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	VERB	O	O	O
+
+«	«	NOUN	O	O	O
 Alors	alors	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 fit	fit	NOUN	O	O	O
@@ -298,8 +299,9 @@ te	te	DET	O	O	O
 battre	battr	ADJ	O	O	O
 demain	demain	ADV	O	O	O
 .	.	PUNCT	O	O	O
-»	»	PROPN	O	O	O
-«	«	PROPN	O	O	O
+»	»	PUNCT	O	O	O
+
+«	«	PUNCT	O	O	O
 Me	me	NOUN	O	O	O
 battre	battr	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -327,7 +329,8 @@ dois	devoir	VERB	O	O	O
 me	me	PRON	O	O	O
 battre	battr	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
-»	»	PROPN	O	O	O
+»	»	PUNCT	O	O	O
+
 «	«	VERB	O	O	O
 Dois	dois	X	O	O	O
 -	-	PUNCT	O	O	O
@@ -338,8 +341,7 @@ l	l	DET	O	O	O
 '	'	DET	O	O	O
 apprendre	apprendre	VERB	O	O	O
 ?	?	PUNCT	O	O	O
-
-répliqua	répliquer	VERB	O	O	O
+répliqua	répliqua	NOUN	O	O	O
 Séraphine	séraphine	NOUN	O	O	O
 en	en	ADP	O	O	O
 souriant	sourire	VERB	O	O	O
@@ -450,9 +452,7 @@ l	l	DET	O	O	O
 État	état	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
-es	e	ADJ	O	O	O
--	-	PUNCT	O	O	O
-sayâmes	sayâmer	VERB	O	O	O
+essayâmes	essayer	VERB	O	O	O
 en	en	ADP	O	O	O
 paix	paix	NOUN	O	O	O
 d	d	ADP	O	O	O
@@ -717,6 +717,7 @@ l	l	DET	O	O	O
 '	'	DET	O	O	O
 école	école	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Celui	celui	PROPN	O	O	O
 qui	qui	PRON	O	O	O
@@ -1162,7 +1163,6 @@ drue	dru	ADJ	O	O	O
 poussait	pousser	VERB	O	O	O
 depuis	depuis	ADP	O	O	O
 plusieurs	plusieurs	DET	O	O	O
-93	93	NUM	O	O	O
 jours	jour	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -1184,7 +1184,6 @@ interroger	interroger	VERB	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 horizon	horizon	VERB	O	O	O
--	-	PUNCT	O	O	O
 sur	sur	ADP	O	O	O
 le	le	DET	O	O	O
 résultat	résultat	NOUN	O	O	O
@@ -1331,10 +1330,12 @@ d	d	ADP	O	O	O
 une	un	DET	O	O	O
 balle	balle	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Raté	raté	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 »	»	PUNCT	O	O	O
+
 dit	dire	VERB	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -1368,7 +1369,8 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 fenêtre	fenêtre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	NOUN	O	O	O
 Maintenant	maintenant	ADV	O	O	O
 que	que	SCONJ	O	O	O
 vous	vous	PRON	O	O	O
@@ -1421,8 +1423,8 @@ porte	porte	VERB	O	O	O
 un	un	DET	O	O	O
 uniforme	uniforme	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-»	»	PROPN	O	O	O
-«	«	PROPN	O	O	O
+»	»	PUNCT	O	O	O
+
 Je	je	PRON	O	O	O
 n	n	ADJ	O	O	O
 '	'	PRON	O	O	O
@@ -1515,6 +1517,7 @@ verre	verre	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 déclara	déclara	ADJ	O	O	O
 :	:	PUNCT	O	O	O
+
 «	«	PROPN	O	O	O
 Il	il	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -1556,8 +1559,8 @@ ouvrier	ouvrier	NOUN	O	O	O
 sans	sans	ADP	O	O	O
 travail	travail	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-»	»	PUNCT	O	O	O
 
+»	»	PUNCT	O	O	O
 J	j	NOUN	O	O	O
 '	'	PUNCT	O	O	O
 étais	être	AUX	O	O	O
@@ -1642,12 +1645,10 @@ l	l	DET	O	O	O
 on	on	PRON	O	O	O
 ramasse	ramasser	VERB	O	O	O
 en	en	ADP	O	O	O
-Tur	tur	NOUN	O	O	O
--	-	PUNCT	O	O	O
-comanie	comanie	NOUN	O	O	O
+Turcomanie	turcomanie	PROPN	O	O	O
 .	.	PUNCT	O	O	O
-»	»	PUNCT	O	O	O
 
+»	»	PUNCT	O	O	O
 A	a	NOUN	O	O	O
 part	part	NOUN	O	O	O
 les	le	DET	O	O	O
@@ -1737,8 +1738,7 @@ honte	honte	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 partie	partie	NOUN	O	O	O
-.	.	PUNCT	O	O	O
-
+,	,	PUNCT	O	O	O
 et	et	CCONJ	O	O	O
 moi	moi	PRON	O	O	O
 je	je	PRON	O	O	O
@@ -1758,8 +1758,8 @@ devant	devant	ADP	O	O	O
 un	un	DET	O	O	O
 égal	égal	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-»	»	PUNCT	O	O	O
 
+»	»	NOUN	O	O	O
 Le	le	DET	O	O	O
 commerce	commerce	NOUN	O	O	O
 des	de	ADP	O	O	O
@@ -1828,8 +1828,8 @@ reste	reste	VERB	O	O	O
 en	en	ADP	O	O	O
 magasin	magasin	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-»	»	PUNCT	O	O	O
 
+»	»	NOUN	O	O	O
 Alors	alors	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 j	j	NOUN	O	O	O
@@ -2156,7 +2156,8 @@ la	le	DET	O	O	O
 dernière	dernier	ADJ	O	O	O
 heure	heure	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 L	l	DET	O	O	O
 '	'	DET	O	O	O
 insurrection	insurrection	NOUN	O	O	O
@@ -2217,6 +2218,7 @@ un	un	DET	O	O	O
 fou	fou	NOUN	O	O	O
 rire	rir	ADJ	O	O	O
 :	:	PUNCT	O	O	O
+
 «	«	NUM	O	O	O
 Mince	mince	NOUN	O	O	O
 pour	pour	ADP	O	O	O
@@ -2404,7 +2406,7 @@ bulut	bulut	VERB	O	O	O
 sa	son	DET	O	O	O
 amsat	amsat	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-umisamma	umisamma	PROPN	O	O	O
+umisamma	umisamma	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 

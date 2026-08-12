@@ -1,12 +1,3 @@
-A	a	NOUN	O	O	O
-Ed	ed	ADV	O	O	O
-.	.	PUNCT	O	O	O
-
-Picard	picard	PROPN	O	O	O
-.	.	PUNCT	O	O	O
-
-I	i	NOUN	O	O	O
-
 Le	le	DET	O	O	O
 bateau	bateau	NOUN	O	O	O
 sillait	siller	VERB	O	O	O
@@ -125,8 +116,6 @@ milliards	milliard	NOUN	O	O	O
 de	de	ADP	O	O	O
 glaives	glaive	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
-I	i	NOUN	O	O	O
 
 La	le	DET	O	O	O
 vie	vie	NOUN	O	O	O
@@ -470,8 +459,9 @@ vieillard	vieillard	NOUN	O	O	O
 
 fit	faire	VERB	O	O	O
 le	le	DET	O	O	O
-troisième	troisième	ADJ	O	O	O
+troisième	troisième	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 La	le	DET	O	O	O
 rivière	rivière	NOUN	O	O	O
@@ -909,8 +899,6 @@ la	le	DET	O	O	O
 barre	barre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-II	ii	NOUN	O	O	O
-
 Alglave	alglave	NOUN	O	O	O
 se	se	PRON	O	O	O
 tenait	tenir	VERB	O	O	O
@@ -1081,8 +1069,7 @@ ténèbres	ténèbre	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
 »	»	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-
+—	—	PUNCT	O	O	O
 Pourquoi	pourquoi	ADV	O	O	O
 la	le	DET	O	O	O
 légende	légende	NOUN	O	O	O
@@ -1314,7 +1301,8 @@ grande	grand	ADJ	O	O	O
 animalité	animalité	NOUN	O	O	O
 inconnue	inconnu	ADJ	O	O	O
 ?	?	PUNCT	O	O	O
-«	«	ADP	O	O	O
+
+«	«	NOUN	O	O	O
 Pourquoi	pourquoi	ADV	O	O	O
 pas	pas	ADV	O	O	O
 ?	?	PUNCT	O	O	O
@@ -2662,8 +2650,9 @@ d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 Alglave	alglave	PROPN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
-Tu	tu	DET	O	O	O
+
+«	«	PUNCT	O	O	O
+Tu	taire	ADJ	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 as	avoir	AUX	O	O	O
@@ -7259,6 +7248,7 @@ de	de	ADP	O	O	O
 mammifères	mammifère	NOUN	O	O	O
 supérieurs	supérieur	ADJ	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Ce	ce	PRON	O	O	O
 sont	être	AUX	O	O	O

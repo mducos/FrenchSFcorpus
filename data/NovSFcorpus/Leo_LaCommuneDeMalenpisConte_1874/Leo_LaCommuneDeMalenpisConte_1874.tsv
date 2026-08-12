@@ -1708,7 +1708,6 @@ rendre	rendre	VERB	O	O	O
 heureux	heureux	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-`	`	VERB	O	O	O
 Quant	quant	ADV	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
@@ -4082,8 +4081,6 @@ compte	compte	VERB	O	O	O
 pas	pas	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
-`	`	NOUN	O	O	O
-
 —	—	CCONJ	O	O	O
 Comme	comme	SCONJ	O	O	O
 on	on	PRON	O	O	O
@@ -4552,10 +4549,8 @@ voisin	voisin	PROPN	O	O	O
 —	—	PUNCT	O	O	O
 Eh	eh	PROPN	O	O	O
 !	!	PUNCT	O	O	O
-
-eh	eh	PROPN	O	O	O
+eh	eh	X	O	O	O
 !	!	PUNCT	O	O	O
-
 répondait	répondre	VERB	O	O	O
 -	-	PUNCT	O	O	O
 il	il	PRON	O	O	O
@@ -24099,6 +24094,7 @@ ils	il	PRON	O	O	O
 en	en	ADP	O	O	O
 voudraient	voudraient	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Vous	vous	PRON	O	O	O
 en	en	ADP	O	O	O
@@ -24337,6 +24333,7 @@ leur	leur	NOUN	O	O	O
 ont	avoir	AUX	O	O	O
 permis	permettre	VERB	O	O	O
 !	!	PUNCT	O	O	O
+
 «	«	VERB	O	O	O
 Une	un	DET	O	O	O
 généreuse	généreux	ADJ	O	O	O
@@ -25474,8 +25471,9 @@ celles	celui	PRON	O	O	O
 de	de	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-empereur`s	empereur`s	DET	O	O	O
-'	'	PUNCT	O	O	O
+empereur	empereur	NOUN	O	O	O
+s	s	PRON	O	O	O
+'	'	PRON	O	O	O
 y	y	PRON	O	O	O
 ruèrent	ruer	VERB	O	O	O
 tout	tout	ADV	O	O	O

@@ -36,9 +36,9 @@ Cette	ce	DET	O	O	O
 machine	machine	NOUN	B-NOV	O	O
 était	être	AUX	I-NOV	O	O
 animée	animer	VERB	I-NOV	O	O
-,	,	PUNCT	O	O	O
-presque	presque	ADV	O	O	O
-pensante	pensant	ADJ	O	O	O
+,	,	PUNCT	I-NOV	O	O
+presque	presque	ADV	I-NOV	O	O
+pensante	pensant	ADJ	I-NOV	O	O
 ,	,	PUNCT	O	O	O
 presque	presque	ADV	O	O	O
 voulante	voulant	ADJ	O	O	O
@@ -435,9 +435,7 @@ qui	qui	PRON	O	O	O
 un	un	DET	O	O	O
 jour	jour	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-donne	donne	VERB	O	O	O
--	-	PUNCT	O	O	O
-ront	ront	VERB	O	O	O
+donneront	donner	VERB	O	O	O
 à	à	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	PUNCT	O	O	O
@@ -540,7 +538,6 @@ monde	monde	NOUN	O	O	O
 
 Holà	holà	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 pas	pas	ADV	O	O	O
 besoin	besoin	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -562,6 +559,7 @@ bourgeois	bourgeois	NOUN	O	O	O
 
 En	en	ADP	O	O	O
 écoutant	écouter	VERB	O	O	O
+de	de	ADP	O	O	O
 toutes	tout	ADJ	O	O	O
 ses	son	DET	O	O	O
 soupapes	soupape	NOUN	O	O	O
@@ -570,8 +568,8 @@ cette	ce	DET	O	O	O
 diatribe	diatribe	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
-machine	machine	NOUN	O	O	O
-intelligente	intelligent	ADJ	O	O	O
+machine	machine	NOUN	B-NOV	O	O
+intelligente	intelligent	ADJ	I-NOV	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
 naïve	naïf	ADJ	O	O	O
@@ -700,7 +698,6 @@ bronchaient	broncher	ADV	O	O	O
 mille	mille	NUM	O	O	O
 tonnerres	tonnerre	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 ces	ce	DET	O	O	O
 deux	deux	NUM	O	O	O
 poings	poing	NOUN	O	O	O
@@ -874,7 +871,6 @@ damnés	damné	ADJ	O	O	O
 
 Ah	ah	PUNCT	O	O	O
 !	!	PUNCT	O	O	O
-
 elle	lui	PRON	O	O	O
 sentait	sentir	VERB	O	O	O
 désormais	désormais	ADV	O	O	O
@@ -989,9 +985,7 @@ procurera	procurer	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
 souffrante	souffrante	NOUN	O	O	O
-l	l	PRON	O	O	O
-'	'	DET	O	O	O
-humanité	humanité	NOUN	O	O	O
+Humanité	humanité	NOUN	O	O	O
 le	le	DET	O	O	O
 triomphe	triomphe	NOUN	O	O	O
 définitif	définitif	ADJ	O	O	O
@@ -1078,8 +1072,7 @@ plus	plus	ADV	O	O	O
 de	de	ADP	O	O	O
 prolétaires	prolétaire	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
-tout	tout	PRON	O	O	O
+tout	tout	ADV	O	O	O
 deviendront	devenir	AUX	O	O	O
 bourgeois	bourgeois	NOUN	O	O	O
 !	!	PUNCT	O	O	O
@@ -1136,8 +1129,8 @@ pour	pour	ADP	O	O	O
 eux	lui	PRON	O	O	O
 ;	;	PUNCT	O	O	O
 la	le	DET	O	O	O
-machine	machine	NOUN	O	O	O
-pensante	pensant	ADJ	O	O	O
+machine	machine	NOUN	B-NOV	O	O
+pensante	pensant	ADJ	I-NOV	O	O
 et	et	CCONJ	O	O	O
 agissante	agissant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1180,7 +1173,6 @@ sillons	sillon	NOUN	O	O	O
 
 Eh	eh	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 messieurs	monsieur	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
@@ -1278,10 +1270,10 @@ qu	que	PRON	O	O	O
 appuyer	appuyer	VERB	O	O	O
 sur	sur	ADP	O	O	O
 un	un	DET	O	O	O
-signal	signal	NOUN	O	O	O
-électro	électro	ADJ	O	O	O
--	-	PUNCT	O	O	O
-vitalique	vitaliqu	ADJ	O	O	O
+signal	signal	NOUN	O	B-NOV	O
+électro	électro	ADJ	B-NOV	I-NOV	O
+-	-	PUNCT	I-NOV	I-NOV	O
+vitalique	vitaliqu	ADJ	I-NOV	I-NOV	O
 afin	afin	ADP	O	O	O
 que	que	SCONJ	O	O	O
 la	le	DET	O	O	O
@@ -1503,7 +1495,8 @@ mélancolie	mélancolie	NOUN	O	O	O
 il	il	PRON	O	O	O
 ajouta	ajouta	ADJ	O	O	O
 :	:	PUNCT	O	O	O
--	-	PUNCT	O	O	O
+
+—	—	PUNCT	O	O	O
 Est	est	NOUN	O	O	O
 -	-	PUNCT	O	O	O
 ce	ce	PRON	O	O	O
@@ -1617,7 +1610,8 @@ la	le	DET	O	O	O
 meilleure	meilleur	ADJ	O	O	O
 fraternité	fraternité	NOUN	O	O	O
 .	.	PUNCT	O	O	O
--	-	PUNCT	O	O	O
+
+—	—	PUNCT	O	O	O
 Oui	oui	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 reprit	reprendre	VERB	O	O	O
@@ -1685,7 +1679,8 @@ et	et	CCONJ	O	O	O
 Pastoureaux	pastoureaux	PROPN	O	O	O
 termina	terminer	PROPN	O	O	O
 :	:	PUNCT	O	O	O
--	-	PUNCT	O	O	O
+
+—	—	PUNCT	O	O	O
 Qu	qu	NUM	O	O	O
 '	'	PUNCT	O	O	O
 un	un	DET	O	O	O
@@ -1899,7 +1894,7 @@ comme	comme	ADP	O	O	O
 un	un	DET	O	O	O
 porte	porte	VERB	O	O	O
 -	-	PUNCT	O	O	O
-lume	lume	PROPN	O	O	O
+plume	plum	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
 Et	et	CCONJ	O	O	O
@@ -1940,11 +1935,12 @@ s	s	PRON	O	O	O
 enleva	enlever	VERB	O	O	O
 pour	pour	ADP	O	O	O
 une	un	DET	O	O	O
-furibonde	furibond	ADJ	O	O	O
+furibonde	furibonde	NOUN	O	O	O
 course	course	NOUN	O	O	O
 .	.	PUNCT	O	O	O
--	-	PUNCT	O	O	O
-Hip	hip	PROPN	O	O	O
+
+—	—	PROPN	O	O	O
+Hip	hip	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 hip	hip	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1956,7 +1952,8 @@ crièrent	crier	VERB	O	O	O
 les	le	DET	O	O	O
 assistants	assistant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
--	-	PUNCT	O	O	O
+
+—	—	PUNCT	O	O	O
 Va	aller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 machine	machine	NOUN	O	O	O
@@ -1985,6 +1982,7 @@ le	le	DET	O	O	O
 levier	levier	NOUN	O	O	O
 vital	vital	ADJ	O	O	O
 .	.	PUNCT	O	O	O
+
 Or	or	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 sans	sans	ADP	O	O	O
@@ -2015,44 +2013,35 @@ diable	diable	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 va	aller	VERB	O	O	O
 !	!	PUNCT	O	O	O
-
 va	aller	VERB	O	O	O
 !	!	PUNCT	O	O	O
-
 si	si	SCONJ	O	O	O
 tu	taire	ADJ	O	O	O
 comprends	comprend	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 va	aller	VERB	O	O	O
 !	!	PUNCT	O	O	O
-
-pauvre	pauvre	VERB	O	O	O
+pauvre	pauvre	NOUN	O	O	O
 esclave	esclave	ADP	O	O	O
 du	de	ADP	O	O	O
 capital	capital	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 va	aller	VERB	O	O	O
 !	!	PUNCT	O	O	O
-
 vole	vole	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 vole	vole	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 vole	vole	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 sauve	sauf	ADJ	O	O	O
 les	le	DET	O	O	O
 frères	frère	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 sauve	sauf	ADJ	O	O	O
 -	-	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
 !	!	PUNCT	O	O	O
-
 ne	ne	ADV	O	O	O
 nous	nous	PRON	O	O	O
 rends	rend	ADJ	O	O	O
@@ -2067,7 +2056,6 @@ avant	avant	ADP	O	O	O
 
 Moi	moi	PROPN	O	O	O
 !	!	PUNCT	O	O	O
-
 moi	moi	PRON	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
@@ -2208,7 +2196,6 @@ fer	fer	NOUN	O	O	O
 —	—	PUNCT	O	O	O
 Doucement	doucement	PROPN	O	O	O
 !	!	PUNCT	O	O	O
-
 machine	machine	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 cria	cria	NOUN	O	O	O
@@ -2236,7 +2223,6 @@ pas	pas	ADV	O	O	O
 le	le	DET	O	O	O
 sorcier	sorcier	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 va	aller	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 machine	machine	NOUN	O	O	O
@@ -2896,52 +2882,6 @@ plongea	plonger	VERB	O	O	O
 tout	tout	ADV	O	O	O
 entière	entier	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
 terre	terre	NOUN	O	O	O
@@ -3122,10 +3062,9 @@ faibles	faible	NOUN	O	O	O
 
 Ah	ah	PUNCT	O	O	O
 !	!	PUNCT	O	O	O
-
 il	il	PRON	O	O	O
 n	n	ADJ	O	O	O
-'	'	PRON	O	O	O
+'	'	DET	O	O	O
 y	y	PRON	O	O	O
 avait	avoir	VERB	O	O	O
 certes	certes	ADV	O	O	O
@@ -3406,53 +3345,5 @@ volume	volume	NOUN	O	O	O
 de	de	ADP	O	O	O
 fantaisies	fantaisie	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
-
-—	—	PUNCT	O	O	O
-Messageries	messageries	PROPN	O	O	O
-de	de	ADP	O	O	O
-la	le	DET	O	O	O
-Presse	presse	NOUN	O	O	O
-.	.	PUNCT	O	O	O
-
-—	—	PUNCT	O	O	O
-Bruxelles	bruxelles	PROPN	O	O	O
-,	,	PUNCT	O	O	O
-16	16	NUM	O	O	O
-,	,	PUNCT	O	O	O
-rue	rue	NOUN	O	O	O
-du	de	ADP	O	O	O
-Persil	persil	PROPN	O	O	O
-,	,	PUNCT	O	O	O
-19	19	NUM	O	O	O
-.	.	PUNCT	O	O	O
-
-Librairie	librairie	NOUN	O	O	O
-Universelle	universelle	PROPN	O	O	O
-.	.	PUNCT	O	O	O
-
-—	—	PROPN	O	O	O
-Paris	paris	PROPN	O	O	O
-,	,	PUNCT	O	O	O
-41	41	NUM	O	O	O
-,	,	PUNCT	O	O	O
-rue	rue	NOUN	O	O	O
-de	de	ADP	O	O	O
-Seine	seine	PROPN	O	O	O
-,	,	PUNCT	O	O	O
-48	48	NUM	O	O	O
-.	.	PUNCT	O	O	O
-
-Direction	direction	NOUN	O	O	O
-:	:	PUNCT	O	O	O
-Bruxelles	bruxelles	PROPN	O	O	O
-,	,	PUNCT	O	O	O
-62	62	NUM	O	O	O
-,	,	PUNCT	O	O	O
-rue	rue	NOUN	O	O	O
-du	de	ADP	O	O	O
-Marteau	marteau	PROPN	O	O	O
-,	,	PUNCT	O	O	O
-62	62	NUM	O	O	O
-.	.	PUNCT	O	O	O
 
 

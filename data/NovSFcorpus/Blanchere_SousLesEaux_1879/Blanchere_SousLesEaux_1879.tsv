@@ -1,11 +1,5 @@
-RÉCITS	récit	NOUN	O	O	O
-MARITIMES	maritime	ADJ	O	O	O
-
-SOUS	sou	ADP	O	O	O
-LES	le	DET	O	O	O
-EAUX	eau	NOUN	O	O	O
-I	i	ADJ	O	O	O
-PEINES	peines	X	O	O	O
+I	i	NOUN	O	O	O
+PEINES	peine	NOUN	O	O	O
 PERDUES	perdre	ADJ	O	O	O
 
 Des	un	DET	O	O	O
@@ -2738,7 +2732,8 @@ comme	comme	ADP	O	O	O
 des	un	DET	O	O	O
 cadavres	cadavre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NUM	O	O	O
+
+«	«	NOUN	O	O	O
 Enfin	enfin	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 s	s	PRON	O	O	O
@@ -2773,6 +2768,7 @@ coffre	coffre	NOUN	O	O	O
 est	être	AUX	O	O	O
 atteint	atteindre	VERB	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Méfiez	méfiez	NOUN	O	O	O
 -	-	PUNCT	O	O	O
@@ -2909,6 +2905,7 @@ l	l	DET	O	O	O
 '	'	DET	O	O	O
 autre	autre	PRON	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	PROPN	O	O	O
 Sam	sam	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -4586,14 +4583,7 @@ la	le	DET	O	O	O
 marche	marche	NOUN	O	O	O
 de	de	ADP	O	O	O
 notre	notre	DET	O	O	O
-voya	voya	NOUN	O	O	O
-geur	geur	ADJ	O	O	O
-.	.	PUNCT	O	O	O
-
-JOURNAL	journal	NOUN	O	O	O
-DES	de	ADP	O	O	O
-VOYAGES	voyages	PROPN	O	O	O
-feuillage	feuillage	NOUN	O	O	O
+voyageur	voyageur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 A	avoir	VERB	O	O	O
@@ -4749,7 +4739,8 @@ il	il	PRON	O	O	O
 faudrait	falloir	VERB	O	O	O
 remonter	remonter	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	ADJ	O	O	O
+
+«	«	PUNCT	O	O	O
 Go	go	NOUN	O	O	O
 ahead	ahead	NOUN	O	O	O
 !	!	PUNCT	O	O	O
@@ -5021,7 +5012,8 @@ de	de	ADP	O	O	O
 ses	son	DET	O	O	O
 tempes	tempe	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	NUM	O	O	O
 Hâtons	hâton	NOUN	O	O	O
 -	-	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
@@ -6026,9 +6018,6 @@ des	de	ADP	O	O	O
 rochers	rocher	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-JOURNAL	journal	NOUN	O	O	O
-DES	de	ADP	O	O	O
-VOYAGES	voyages	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 notre	notre	DET	O	O	O
 intrépide	intrépide	ADJ	O	O	O
@@ -6044,7 +6033,6 @@ course	course	NOUN	O	O	O
 —	—	PROPN	O	O	O
 Hélas	hélas	INTJ	O	O	O
 !	!	PUNCT	O	O	O
-
 combien	combien	ADV	O	O	O
 de	de	DET	O	O	O
 minutes	minute	NOUN	O	O	O
@@ -8715,9 +8703,6 @@ rempli	remplir	VERB	O	O	O
 par	par	ADP	O	O	O
 les	le	DET	O	O	O
 provisions	provision	NOUN	O	O	O
-JOURNAL	journal	PRON	O	O	O
-DES	de	ADP	O	O	O
-VOYAGES	voyage	NOUN	O	O	O
 empilées	empiler	VERB	O	O	O
 —	—	PRON	O	O	O
 arrimées	arrimer	VERB	O	O	O
@@ -13578,8 +13563,9 @@ rester	rester	VERB	O	O	O
 sur	sur	ADP	O	O	O
 place	place	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	ADJ	O	O	O
-Philadelphie	philadelphie	NOUN	O	O	O
+
+«	«	VERB	O	O	O
+Philadelphie	philadelphie	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 12	12	NUM	O	O	O
@@ -14092,7 +14078,8 @@ l	l	DET	O	O	O
 '	'	DET	O	O	O
 atelier	atelier	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	ADJ	O	O	O
+
+«	«	PROPN	O	O	O
 Devant	devant	ADP	O	O	O
 eux	lui	PRON	O	O	O
 et	et	CCONJ	O	O	O
@@ -14186,6 +14173,7 @@ vous	vous	PRON	O	O	O
 connaissez	connaître	VERB	O	O	O
 bien	bien	ADV	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Je	je	PRON	O	O	O
 prie	prier	VERB	O	O	O
@@ -14256,7 +14244,8 @@ et	et	CCONJ	O	O	O
 leurs	leur	DET	O	O	O
 enfants	enfant	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	VERB	O	O	O
 Votre	votre	DET	O	O	O
 père	père	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -14427,6 +14416,7 @@ il	il	PRON	O	O	O
 est	être	AUX	O	O	O
 pauvre	pauvre	ADJ	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Mais	mais	CCONJ	O	O	O
 je	je	PRON	O	O	O
@@ -14483,8 +14473,9 @@ le	le	PRON	O	O	O
 sera	être	VERB	O	O	O
 jamais	jamais	ADV	O	O	O
 .	.	PUNCT	O	O	O
-«	«	ADJ	O	O	O
-Go	go	ADP	O	O	O
+
+«	«	ADP	O	O	O
+Go	go	NOUN	O	O	O
 ahead	ahead	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -14570,7 +14561,8 @@ jour	jour	NOUN	O	O	O
 
 Écoutez	écoutez	PROPN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 L	l	DET	O	O	O
 '	'	DET	O	O	O
 homme	homme	NOUN	O	O	O
@@ -14583,6 +14575,7 @@ vraiment	vraiment	ADV	O	O	O
 la	le	DET	O	O	O
 terre	terre	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
+
 «	«	VERB	O	O	O
 Il	il	PRON	O	O	O
 n	n	ADJ	O	O	O
@@ -14795,7 +14788,8 @@ il	il	PRON	O	O	O
 faudrait	falloir	VERB	O	O	O
 faire	faire	VERB	O	O	O
 ?	?	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 An	an	NOUN	O	O	O
 loin	loin	ADV	O	O	O
 d	d	ADP	O	O	O
@@ -14927,7 +14921,8 @@ que	que	PRON	O	O	O
 vous	vous	PRON	O	O	O
 ferez	faire	VERB	O	O	O
 !	!	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	NOUN	O	O	O
 Ne	ne	ADV	O	O	O
 commentez	commenter	VERB	O	O	O
 pas	pas	ADV	O	O	O
@@ -14971,7 +14966,8 @@ cette	ce	DET	O	O	O
 oeuvre	oeuvre	NOUN	O	O	O
 gigantesque	gigantesque	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	VERB	O	O	O
 Jetez	jetez	PROPN	O	O	O
 un	un	DET	O	O	O
 regard	regard	NOUN	O	O	O
@@ -15055,6 +15051,7 @@ enfants	enfant	NOUN	O	O	O
 de	de	ADP	O	O	O
 Mahomet	mahomet	PROPN	O	O	O
 !	!	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Poursuivons	poursuivons	X	O	O	O
 !	!	PUNCT	O	O	O
@@ -15170,7 +15167,8 @@ fond	fond	NOUN	O	O	O
 en	en	ADP	O	O	O
 comble	comble	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	PUNCT	O	O	O
 Quelle	quell	ADJ	O	O	O
 que	que	SCONJ	O	O	O
 soit	être	AUX	O	O	O
@@ -15318,7 +15316,8 @@ Elle	lui	PRON	O	O	O
 sera	être	AUX	O	O	O
 coupée	couper	VERB	O	O	O
 !	!	PUNCT	O	O	O
-«	«	VERB	O	O	O
+
+«	«	NOUN	O	O	O
 Les	le	DET	O	O	O
 nations	nation	NOUN	O	O	O
 européennes	européen	ADJ	O	O	O
@@ -15371,7 +15370,8 @@ l	l	DET	O	O	O
 '	'	DET	O	O	O
 Atlantique	atlantique	PROPN	O	O	O
 ...	...	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	PUNCT	O	O	O
 Est	est	NOUN	O	O	O
 -	-	PUNCT	O	O	O
 ce	ce	PRON	O	O	O
@@ -15395,6 +15395,7 @@ doit	devoir	VERB	O	O	O
 qui	qui	PRON	O	O	O
 sera	être	AUX	O	O	O
 ?	?	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Non	non	ADV	O	O	O
 .	.	PUNCT	O	O	O
@@ -15469,7 +15470,8 @@ les	le	DET	O	O	O
 montagnes	montagne	NOUN	O	O	O
 Rocheuses	rocheuse	NOUN	O	O	O
 ...	...	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	NUM	O	O	O
 Sans	sans	ADP	O	O	O
 doute	doute	NOUN	O	O	O
 les	le	DET	O	O	O
@@ -15599,7 +15601,8 @@ guideront	guider	VERB	O	O	O
 votre	votre	DET	O	O	O
 choix	choix	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 L	l	DET	O	O	O
 '	'	DET	O	O	O
 exécution	exécution	NOUN	O	O	O
@@ -15697,7 +15700,8 @@ doté	doter	VERB	O	O	O
 notre	notre	DET	O	O	O
 territoire	territoire	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	NUM	O	O	O
 Que	que	SCONJ	O	O	O
 d	d	ADP	O	O	O
 '	'	DET	O	O	O
@@ -15865,7 +15869,8 @@ le	le	DET	O	O	O
 premier	premier	ADJ	O	O	O
 vaincu	vaincu	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	NOUN	O	O	O
 Descendons	descendon	NOUN	O	O	O
 vers	vers	ADP	O	O	O
 le	le	DET	O	O	O
@@ -16010,10 +16015,7 @@ deux	deux	NUM	O	O	O
 Amériques	amérique	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-JOURNAL	journal	NOUN	O	O	O
-DES	de	ADP	O	O	O
-VOYAGES	voyages	PROPN	O	O	O
-«	«	PROPN	O	O	O
+«	«	NOUN	O	O	O
 Venons	venon	NOUN	O	O	O
 à	à	ADP	O	O	O
 l	l	DET	O	O	O
@@ -16201,6 +16203,7 @@ isthmes	isthme	NOUN	O	O	O
 isthmes	isthme	ADJ	O	O	O
 encore	encore	ADV	O	O	O
 !	!	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Remontez	remontez	PROPN	O	O	O
 par	par	ADP	O	O	O
@@ -16536,7 +16539,8 @@ sud	sud	ADJ	O	O	O
 -	-	PUNCT	O	O	O
 américain	américain	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	VERB	O	O	O
 Plus	plus	ADV	O	O	O
 tard	tard	ADV	O	O	O
 pour	pour	ADP	O	O	O
@@ -16745,7 +16749,8 @@ isthme	isthme	NOUN	O	O	O
 soit	être	AUX	O	O	O
 détroit	détroit	VERB	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 Telle	tel	ADJ	O	O	O
 est	être	AUX	O	O	O
 l	l	DET	O	O	O
@@ -16771,6 +16776,7 @@ doit	devoir	VERB	O	O	O
 être	être	AUX	O	O	O
 exécutée	exécuter	VERB	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Un	un	DET	O	O	O
 simple	simple	ADJ	O	O	O
@@ -16897,6 +16903,7 @@ l	l	DET	O	O	O
 '	'	DET	O	O	O
 humanité	humanité	NOUN	O	O	O
 !	!	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Que	que	PRON	O	O	O
 ferai	faire	VERB	O	O	O
@@ -16993,6 +17000,7 @@ elle	lui	PRON	O	O	O
 serait	être	AUX	O	O	O
 fondée	fonder	VERB	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Des	un	DET	O	O	O
 travaux	travail	NOUN	O	O	O
@@ -17072,6 +17080,7 @@ de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
 travaux	travail	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Telle	tel	ADJ	O	O	O
 est	être	AUX	O	O	O
@@ -17082,7 +17091,8 @@ je	je	PRON	O	O	O
 vous	vous	PRON	O	O	O
 lègue	lègu	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	VERB	O	O	O
+
+«	«	PROPN	O	O	O
 Votre	votre	DET	O	O	O
 devoir	devoir	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -17184,7 +17194,8 @@ j	j	ADP	O	O	O
 ai	avoir	AUX	O	O	O
 pourvu	pourvoir	VERB	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	VERB	O	O	O
 Le	le	DET	O	O	O
 monde	monde	NOUN	O	O	O
 nous	nous	PRON	O	O	O
@@ -17197,6 +17208,7 @@ elle	lui	PRON	O	O	O
 -	-	PUNCT	O	O	O
 même	même	ADV	O	O	O
 !	!	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 La	le	DET	O	O	O
 mer	mer	ADJ	O	O	O
@@ -17342,7 +17354,8 @@ qu	que	PRON	O	O	O
 à	à	ADP	O	O	O
 choisir	choisir	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-«	«	ADJ	O	O	O
+
+«	«	NOUN	O	O	O
 Les	le	DET	O	O	O
 mines	mine	NOUN	O	O	O
 que	que	PRON	O	O	O
@@ -17404,7 +17417,8 @@ qui	qui	PRON	O	O	O
 vous	vous	PRON	O	O	O
 appartient	appartenir	VERB	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Au	au	ADP	O	O	O
 lieu	lieu	NOUN	O	O	O
 d	d	ADP	O	O	O
@@ -17467,6 +17481,7 @@ l	l	DET	O	O	O
 '	'	DET	O	O	O
 Australie	australie	PROPN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Le	le	DET	O	O	O
 diamant	diamant	NOUN	O	O	O
@@ -17492,7 +17507,8 @@ l	l	DET	O	O	O
 Afrique	afrique	PROPN	O	O	O
 australe	austral	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	NOUN	O	O	O
 Je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 parle	parler	VERB	O	O	O
@@ -17666,6 +17682,7 @@ préparé	préparer	VERB	O	O	O
 le	le	DET	O	O	O
 moyen	moyen	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	VERB	O	O	O
 Le	le	DET	O	O	O
 problème	problème	NOUN	O	O	O
@@ -17813,6 +17830,7 @@ il	il	PRON	O	O	O
 les	le	PRON	O	O	O
 complète	complet	ADJ	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NUM	O	O	O
 J	j	NOUN	O	O	O
 '	'	PUNCT	O	O	O
@@ -17919,10 +17937,7 @@ V.	v.	PROPN	O	O	O
 Hugo	hugo	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
-JOURNAL	journal	NOUN	O	O	O
-DES	de	ADP	O	O	O
-VOYAGES	voyages	PROPN	O	O	O
-«	«	PROPN	O	O	O
+«	«	NOUN	O	O	O
 Courage	courage	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 enfants	enfant	NOUN	O	O	O
@@ -17948,8 +17963,9 @@ mon	mon	DET	O	O	O
 dernier	dernier	ADJ	O	O	O
 souhait	souhait	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	PROPN	O	O	O
-Fait	fait	NOUN	O	O	O
+Fait	faire	VERB	O	O	O
 à	à	ADP	O	O	O
 Philadelphie	philadelphie	PROPN	O	O	O
 le	le	DET	O	O	O
@@ -18013,7 +18029,8 @@ Anson	anson	PROPN	O	O	O
 -	-	PUNCT	O	O	O
 Moore	moore	PROPN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 Leur	son	DET	O	O	O
 grand	grand	ADJ	O	O	O
 -	-	PUNCT	O	O	O
@@ -19272,8 +19289,9 @@ jusqu	jusqu	NOUN	O	O	O
 à	à	ADP	O	O	O
 50	50	NUM	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
-Penchons	penchon	NOUN	O	O	O
+Penchons	pencher	AUX	O	O	O
 -	-	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
 par	par	ADP	O	O	O
@@ -19290,7 +19308,8 @@ lisons	lire	VERB	O	O	O
 avec	avec	ADP	O	O	O
 lui	luire	PRON	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	ADP	O	O	O
 ...	...	PUNCT	O	O	O
 La	le	DET	O	O	O
 mer	mer	ADJ	O	O	O
@@ -19359,7 +19378,8 @@ les	le	PRON	O	O	O
 aller	aller	VERB	O	O	O
 chercher	chercher	VERB	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	VERB	O	O	O
 Le	le	DET	O	O	O
 diamant	diamant	NOUN	O	O	O
 se	se	PRON	O	O	O
@@ -19482,7 +19502,8 @@ et	et	CCONJ	O	O	O
 les	le	DET	O	O	O
 inclinaisons	inclinaison	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	VERB	O	O	O
 Vous	vous	PRON	O	O	O
 n	n	ADJ	O	O	O
 '	'	PRON	O	O	O
@@ -19573,7 +19594,8 @@ leur	son	DET	O	O	O
 formation	formation	NOUN	O	O	O
 mystérieuse	mystérieux	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 C	c	NOUN	O	O	O
 '	'	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -19584,6 +19606,7 @@ il	il	PRON	O	O	O
 faut	falloir	VERB	O	O	O
 aller	aller	VERB	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NUM	O	O	O
 J	j	NOUN	O	O	O
 '	'	PRON	O	O	O
@@ -19820,9 +19843,6 @@ sa	son	DET	O	O	O
 lecture	lecture	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 
-JOURNAL	journal	NOUN	O	O	O
-DES	de	ADP	O	O	O
-VOYAGES	voyages	PROPN	O	O	O
 «	«	NUM	O	O	O
 J	j	NOUN	O	O	O
 '	'	PRON	O	O	O
@@ -19987,6 +20007,7 @@ l	l	DET	O	O	O
 or	or	CCONJ	O	O	O
 maintenant	maintenant	ADV	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Ce	ce	PRON	O	O	O
 qui	qui	PRON	O	O	O
@@ -20060,6 +20081,7 @@ recèle	receler	VERB	O	O	O
 le	le	DET	O	O	O
 globe	globe	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NUM	O	O	O
 J	j	NOUN	O	O	O
 '	'	PRON	O	O	O
@@ -20102,7 +20124,8 @@ l	l	PRON	O	O	O
 ai	avoir	AUX	O	O	O
 trouvé	trouver	VERB	O	O	O
 !	!	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	VERB	O	O	O
 Par	par	ADP	O	O	O
 31	31	NUM	O	O	O
 °	degré	NOUN	O	O	O
@@ -20221,7 +20244,8 @@ qu	qu	DET	O	O	O
 à	à	ADP	O	O	O
 prendre	prendre	VERB	O	O	O
 ...	...	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	ADP	O	O	O
 Par	par	ADP	O	O	O
 cinquante	cinquante	NUM	O	O	O
 brasses	brasse	NOUN	O	O	O
@@ -20397,6 +20421,7 @@ brasses	brasse	NOUN	O	O	O
 au	au	ADP	O	O	O
 moins	moins	ADV	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	PROPN	O	O	O
 N	n	ADJ	O	O	O
 '	'	PUNCT	O	O	O
@@ -20510,6 +20535,7 @@ et	et	CCONJ	O	O	O
 longitude	longitude	NOUN	O	O	O
 est	être	VERB	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	PROPN	O	O	O
 Faragus	faragus	PROPN	O	O	O
 !	!	PUNCT	O	O	O
@@ -20574,6 +20600,7 @@ or	or	NOUN	O	O	O
 les	le	DET	O	O	O
 perles	perle	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Là	là	ADV	O	O	O
 vous	vous	PRON	O	O	O
@@ -20721,7 +20748,8 @@ ce	ce	PRON	O	O	O
 serait	être	AUX	O	O	O
 folie	folie	VERB	O	O	O
 !	!	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Sur	sur	ADP	O	O	O
 les	le	DET	O	O	O
 côtes	côte	NOUN	O	O	O
@@ -20928,7 +20956,8 @@ a	avoir	AUX	O	O	O
 plongé	plonger	VERB	O	O	O
 souvent	souvent	ADV	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 Mon	mon	DET	O	O	O
 écrin	écrin	NOUN	O	O	O
 se	se	PRON	O	O	O
@@ -20953,6 +20982,7 @@ s	s	PRON	O	O	O
 '	'	PUNCT	O	O	O
 accomplit	accomplit	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Voici	voici	VERB	O	O	O
 maintenant	maintenant	ADV	O	O	O
@@ -21030,7 +21060,8 @@ poignée	poignée	NOUN	O	O	O
 de	de	ADP	O	O	O
 sable	sable	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	ADP	O	O	O
+
+«	«	NUM	O	O	O
 Autour	autour	ADV	O	O	O
 de	de	ADP	O	O	O
 l	l	DET	O	O	O
@@ -22611,8 +22642,9 @@ dans	dans	ADP	O	O	O
 la	le	DET	O	O	O
 cabine	cabine	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
-Qu	qu	NUM	O	O	O
+Qu	que	PRON	O	O	O
 '	'	PRON	O	O	O
 y	y	PRON	O	O	O
 a	avoir	VERB	O	O	O
@@ -23290,9 +23322,10 @@ oeil	oeil	NOUN	O	O	O
 attentif	attentif	ADJ	O	O	O
 d	d	ADP	O	O	O
 '	'	ADP	O	O	O
-Athelstan	athelstan	PROPN	O	O	O
+Athelstan	athelstan	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Cent	cent	NUM	O	O	O
 six	six	NUM	O	O	O
 mètres	mètre	NOUN	O	O	O
@@ -23315,11 +23348,8 @@ demie	demie	NOUN	O	O	O
 six	six	NUM	O	O	O
 secondes	seconde	NOUN	O	O	O
 par	par	ADP	O	O	O
-quinze	quinze	NUM	O	O	O
+quinze	quinze	PROPN	O	O	O
 ou	ou	CCONJ	O	O	O
-JOURNAL	journal	NOUN	O	O	O
-DES	de	ADP	O	O	O
-VOYAGES	voyages	PROPN	O	O	O
 pour	pour	ADP	O	O	O
 descendre	descendre	VERB	O	O	O
 ;	;	PUNCT	O	O	O
@@ -23588,6 +23618,7 @@ de	de	ADP	O	O	O
 la	le	DET	O	O	O
 mer	mer	PROPN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NUM	O	O	O
 O	o	NOUN	O	O	O
 mon	mon	DET	O	O	O
@@ -24172,20 +24203,6 @@ et	et	CCONJ	O	O	O
 une	un	DET	O	O	O
 Nuits	nuit	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
-¹	¹	NUM	O	O	O
-
-Voir	voir	VERB	O	O	O
-les	le	DET	O	O	O
-nºs	nº	ADJ	O	O	O
-741	741	NUM	O	O	O
-à	à	ADP	O	O	O
-748	748	PRON	O	O	O
-.	.	PUNCT	O	O	O
-
-JOURNAL	journal	NOUN	O	O	O
-DES	de	ADP	O	O	O
-VOYAGES	voyages	PROPN	O	O	O
 
 –	–	NOUN	O	O	O
 Tant	tant	ADV	O	O	O
@@ -25748,7 +25765,8 @@ s	s	PRON	O	O	O
 sur	sur	ADP	O	O	O
 nous	nous	PRON	O	O	O
 ...	...	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	NOUN	O	O	O
 Je	je	PRON	O	O	O
 vois	voir	VERB	O	O	O
 encore	encore	ADV	O	O	O
@@ -25776,6 +25794,7 @@ leurs	leur	DET	O	O	O
 gueules	gueule	ADJ	O	O	O
 béantes	béante	NOUN	O	O	O
 !	!	PUNCT	O	O	O
+
 «	«	PUNCT	O	O	O
 
 Plus	plus	ADV	O	O	O
@@ -25848,6 +25867,7 @@ enlevons	enlever	VERB	O	O	O
 désarmés	désarmer	VERB	O	O	O
 !	!	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
+
 «	«	PUNCT	O	O	O
 
 Au	au	ADP	O	O	O
@@ -25957,7 +25977,8 @@ croyaient	croire	VERB	O	O	O
 notre	notre	DET	O	O	O
 chair	chair	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 Machinalement	machinalement	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 je	je	PRON	O	O	O
@@ -26882,21 +26903,11 @@ Isthmi	isthmi	PROPN	O	O	O
 
 VIII	viii	ADJ	O	O	O
 
-—	—	DET	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
 TARDE	tarde	NOUN	O	O	O
 VENIENTIBUS	venientibus	PROPN	O	O	O
 OSSA	ossa	ADJ	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-—	—	PRON	O	O	O
-—	—	NOUN	O	O	O
-—	—	PRON	O	O	O
-—	—	PROPN	O	O	O
 Moi	moi	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 dis	dire	ADP	O	O	O
@@ -26913,11 +26924,6 @@ assez	assez	ADV	O	O	O
 CORNEILLE	corneille	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-—	—	PRON	O	O	O
-—	—	NOUN	O	O	O
-—	—	PRON	O	O	O
-—	—	NOUN	O	O	O
 Richard	richard	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 Athelstan	athelstan	PROPN	O	O	O
@@ -27117,6 +27123,7 @@ côte	côte	NOUN	O	O	O
 à	à	ADP	O	O	O
 pic	pic	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Stop	stop	PROPN	O	O	O
 !	!	PUNCT	O	O	O
@@ -27186,7 +27193,8 @@ d	d	ADP	O	O	O
 être	être	AUX	O	O	O
 matelot	matelot	PROPN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	NOUN	O	O	O
 Bah	bah	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -27411,6 +27419,7 @@ fond	fond	NOUN	O	O	O
 du	de	ADP	O	O	O
 bateau	bateau	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Je	je	PRON	O	O	O
 vais	aller	VERB	O	O	O
@@ -28829,7 +28838,8 @@ tout	tout	ADV	O	O	O
 aussi	aussi	ADV	O	O	O
 étrange	étrange	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	NOUN	O	O	O
 Bah	bah	PROPN	O	O	O
 !	!	PUNCT	O	O	O
 s	s	PRON	O	O	O
@@ -29050,6 +29060,7 @@ et	et	CCONJ	O	O	O
 de	de	ADP	O	O	O
 convoitise	convoitise	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Je	je	PRON	O	O	O
 les	le	DET	O	O	O
@@ -29102,21 +29113,6 @@ avait	avoir	AUX	O	O	O
 son	son	DET	O	O	O
 but	but	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-
-1	1	NUM	O	O	O
-.	.	PUNCT	O	O	O
-
-Voir	voir	VERB	O	O	O
-les	le	DET	O	O	O
-nos	notre	DET	O	O	O
-743	743	PRON	O	O	O
-à	à	ADP	O	O	O
-784	784	PRON	O	O	O
-.	.	PUNCT	O	O	O
-
-JOURNAL	journal	NOUN	O	O	O
-DES	de	ADP	O	O	O
-VOYAGES	voyages	PROPN	O	O	O
 
 Endormir	endormir	PROPN	O	O	O
 la	le	DET	O	O	O
@@ -30255,6 +30251,7 @@ phrase	phrase	NOUN	O	O	O
 une	un	DET	O	O	O
 position	position	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Ce	ce	PRON	O	O	O
 sont	être	AUX	O	O	O
@@ -30367,7 +30364,8 @@ convient	convier	VERB	O	O	O
 de	de	ADP	O	O	O
 faire	faire	VERB	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Les	le	DET	O	O	O
 précédents	précédent	NOUN	O	O	O
 ne	ne	ADV	O	O	O
@@ -30446,6 +30444,7 @@ les	le	PRON	O	O	O
 a	avoir	AUX	O	O	O
 entourés	entourer	VERB	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Laissons	laisson	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -30512,6 +30511,7 @@ déjà	déjà	ADV	O	O	O
 le	le	DET	O	O	O
 détroit	détroit	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Voici	voici	VERB	O	O	O
 les	le	DET	O	O	O
@@ -31166,6 +31166,7 @@ et	et	CCONJ	O	O	O
 du	de	ADP	O	O	O
 Rhône	rhône	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Un	un	DET	O	O	O
 jour	jour	NOUN	O	O	O
@@ -31276,7 +31277,8 @@ l	l	DET	O	O	O
 '	'	DET	O	O	O
 Irlande	irlande	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	NUM	O	O	O
 A	a	NOUN	O	O	O
 votre	votre	DET	O	O	O
 tour	tour	NOUN	O	O	O

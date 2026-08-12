@@ -14,7 +14,8 @@ la	le	DET	O	O	O
 revue	revue	NOUN	O	O	O
 américaine	américain	ADJ	O	O	O
 «	«	NOUN	O	O	O
-Mesure	mesure	NOUN	O	O	O
+Mc	mc	PRON	O	O	O
+Clure	clure	NOUN	O	O	O
 Magazine	magazine	NOUN	O	O	O
 »	»	PUNCT	O	O	O
 de	de	ADP	O	O	O
@@ -91,7 +92,8 @@ publie	publier	VERB	O	O	O
 Mon	mon	DET	O	O	O
 Dimanche	dimanche	NOUN	O	O	O
 »	»	PUNCT	O	O	O
-sousla	sousla	DET	O	O	O
+sous	sou	ADP	O	O	O
+la	le	DET	O	O	O
 signature	signature	NOUN	O	O	O
 de	de	ADP	O	O	O
 M.	m.	NOUN	O	O	O
@@ -122,8 +124,8 @@ perfection	perfection	NOUN	O	O	O
 morale	moral	ADJ	O	O	O
 qui	qui	PRON	O	O	O
 dépasse	dépasser	VERB	O	O	O
-lies	lie	NOUN	O	O	O
-rêves	rêve	ADJ	O	O	O
+les	le	DET	O	O	O
+rêves	rêve	NOUN	O	O	O
 les	le	DET	O	O	O
 plus	plus	ADV	O	O	O
 extravagants	extravagant	ADJ	O	O	O
@@ -253,13 +255,14 @@ humanité	humanité	NOUN	O	O	O
 est	être	AUX	O	O	O
 entrée	entrer	VERB	O	O	O
 en	en	ADP	O	O	O
-communicationavec	communicationavec	NOUN	O	O	O
+communication	communication	NOUN	O	O	O
+avec	avec	ADP	O	O	O
 les	le	DET	O	O	O
 habitants	habitant	NOUN	O	O	O
 de	de	ADP	O	O	O
 Mars	mars	PROPN	O	O	O
 .	.	PUNCT	O	O	O
--	-	PUNCT	O	O	O
+
 Pendant	pendant	ADP	O	O	O
 des	un	DET	O	O	O
 siècles	siècle	NOUN	O	O	O
@@ -307,14 +310,11 @@ ont	avoir	AUX	O	O	O
 établi	établir	VERB	O	O	O
 un	un	DET	O	O	O
 télégraphe	télégraphe	NOUN	O	O	O
-inter	inter	VERB	O	O	O
--	-	PUNCT	O	O	O
-planétaire	planétaire	NOUN	O	O	O
+inter-planétaire	inter-planétaire	NOUN	O	O	O
 dont	dont	PRON	O	O	O
 la	le	DET	O	O	O
 station	station	NOUN	O	O	O
 principale	principal	ADJ	O	O	O
-!	!	PUNCT	O	O	O
 a	avoir	AUX	O	O	O
 été	être	AUX	O	O	O
 érigée	ériger	VERB	O	O	O
@@ -334,8 +334,7 @@ Mars	mars	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 qui	qui	PRON	O	O	O
 sont	être	AUX	O	O	O
-beau	beau	ADV	O	O	O
-coup	coup	VERB	O	O	O
+beaucoup	beaucoup	ADV	O	O	O
 plus	plus	ADV	O	O	O
 avancés	avancer	VERB	O	O	O
 que	que	PRON	O	O	O
@@ -376,8 +375,8 @@ matin	matin	NOUN	O	O	O
 les	le	DET	O	O	O
 Martiens	martien	NOUN	O	O	O
 ave	ave	ADP	O	O	O
-fcrce	fcrc	ADJ	O	O	O
-signaux	signal	NOUN	O	O	O
+force	forcer	AUX	O	O	O
+signaux	signal	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
 communiquèrent	communiquer	ADV	O	O	O
@@ -388,8 +387,7 @@ sensationnelle	sensationnelle	NOUN	O	O	O
 
 Une	un	DET	O	O	O
 bizarre	bizarre	NOUN	O	O	O
-;	;	PUNCT	O	O	O
-étoile	étoile	NOUN	O	O	O
+étoile	étoil	ADJ	O	O	O
 opaque	opaque	ADJ	O	O	O
 venait	venir	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -436,9 +434,7 @@ auparavant	auparavant	ADV	O	O	O
 —	—	VERB	O	O	O
 cette	ce	DET	O	O	O
 nouvelle	nouveau	ADJ	O	O	O
-pro	pro	NOUN	O	O	O
--	-	PUNCT	O	O	O
-duisit	duire	VERB	O	O	O
+produisit	produire	VERB	O	O	O
 un	un	DET	O	O	O
 certain	certain	ADJ	O	O	O
 émoi	émoi	NOUN	O	O	O
@@ -512,7 +508,7 @@ plus	plus	ADV	O	O	O
 avisé	aviser	VERB	O	O	O
 des	un	DET	O	O	O
 hommes	homme	NOUN	O	O	O
-a	avoir	VERB	O	O	O
+à	à	ADP	O	O	O
 cette	ce	DET	O	O	O
 époque	époque	NOUN	O	O	O
 fut	être	AUX	O	O	O
@@ -548,9 +544,7 @@ de	de	ADP	O	O	O
 terre	terre	NOUN	O	O	O
 plusieurs	plusieurs	DET	O	O	O
 siècles	siècle	NOUN	O	O	O
-aupara	aupara	ADJ	O	O	O
--	-	PUNCT	O	O	O
-vant	vant	ADJ	O	O	O
+auparavant	auparavant	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
@@ -705,9 +699,9 @@ de	de	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 apparition	apparition	NOUN	O	O	O
-il	il	PRON	O	O	O
-longs	long	ADJ	O	O	O
-intervalles	intervalle	ADJ	O	O	O
+à	à	ADP	O	O	O
+longs	long	NOUN	O	O	O
+intervalles	intervalle	NOUN	O	O	O
 des	de	ADP	O	O	O
 étoiles	étoile	NOUN	O	O	O
 opaques	opaque	ADJ	O	O	O
@@ -716,7 +710,7 @@ lesquelles	lequel	PRON	O	O	O
 comme	comme	SCONJ	O	O	O
 vous	vous	PRON	O	O	O
 le	le	PRON	O	O	O
-savez	savoir	ADV	O	O	O
+savez	savez	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
 meuvent	mouvoir	VERB	O	O	O
@@ -729,13 +723,11 @@ je	je	PRON	O	O	O
 suis	être	AUX	O	O	O
 arrivé	arriver	VERB	O	O	O
 à	à	ADP	O	O	O
-cett	cett	NOUN	O	O	O
-'	'	PUNCT	O	O	O
-e	e	AUX	O	O	O
+cette	ce	DET	O	O	O
 conclusion	conclusion	NOUN	O	O	O
 :	:	PUNCT	O	O	O
-«	«	PUNCT	O	O	O
 
+«	«	NOUN	O	O	O
 Lorsqu	lorsqu	PROPN	O	O	O
 '	'	PUNCT	O	O	O
 un	un	PRON	O	O	O
@@ -753,7 +745,7 @@ quelconque	quelconque	ADJ	O	O	O
 il	il	PRON	O	O	O
 en	en	PRON	O	O	O
 brise	bris	ADJ	O	O	O
-l	l	NOUN	O	O	O
+l	l	DET	O	O	O
 '	'	PUNCT	O	O	O
 enveloppe	enveloppe	NOUN	O	O	O
 extérieure	extérieur	ADJ	O	O	O
@@ -772,6 +764,7 @@ recèle	receler	VERB	O	O	O
 dans	dans	ADP	O	O	O
 son	son	DET	O	O	O
 intérieur	intérieur	NOUN	O	O	O
+....	....	PUNCT	O	O	O
 »	»	PUNCT	O	O	O
 
 Eh	eh	ADP	O	O	O
@@ -879,13 +872,11 @@ vous	vous	PRON	O	O	O
 invite	invite	VERB	O	O	O
 à	à	ADP	O	O	O
 vous	vous	PRON	O	O	O
-!	!	PUNCT	O	O	O
-
 réfugier	réfugier	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 mes	mon	DET	O	O	O
 souterrains	souterrain	NOUN	O	O	O
-av^c	av^c	NOUN	O	O	O
+avec	avec	ADP	O	O	O
 vos	votre	DET	O	O	O
 femmes	femme	NOUN	O	O	O
 et	et	CCONJ	O	O	O
@@ -983,7 +974,7 @@ Le	le	DET	O	O	O
 professeur	professeur	NOUN	O	O	O
 de	de	ADP	O	O	O
 logique	logique	ADJ	O	O	O
-dé	dé	NOUN	O	O	O
+de	de	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 Université	université	NOUN	O	O	O
@@ -1029,7 +1020,7 @@ Pendant	pendant	ADP	O	O	O
 que	que	SCONJ	O	O	O
 les	le	DET	O	O	O
 hommes	homme	NOUN	O	O	O
-gie	gie	NOUN	O	O	O
+se	se	PRON	O	O	O
 complaisaient	complaire	VERB	O	O	O
 dans	dans	ADP	O	O	O
 ces	ce	DET	O	O	O
@@ -1073,7 +1064,6 @@ l	l	DET	O	O	O
 mystérieuse	mystérieux	ADJ	O	O	O
 se	se	PRON	O	O	O
 rapprocha	rapprocher	VERB	O	O	O
-,	,	PUNCT	O	O	O
 du	de	ADP	O	O	O
 soleil	soleil	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
@@ -1457,12 +1447,13 @@ tolérable	tolérable	ADJ	O	O	O
 Mais	mais	CCONJ	O	O	O
 bientôt	bientôt	ADV	O	O	O
 des	un	DET	O	O	O
-nouvelle,4,arrivèrent	nouvelle,4,arrivèrer	VERB	O	O	O
+nouvelles	nouveau	ADJ	O	O	O
+arrivèrent	arriver	AUX	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 Chine	chine	PROPN	O	O	O
 et	et	CCONJ	O	O	O
-de.s	de.	NOUN	O	O	O
+des	de	ADP	O	O	O
 Indes	indes	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 annonçant	annoncer	VERB	O	O	O
@@ -1471,11 +1462,10 @@ que	que	SCONJ	O	O	O
 déjà	déjà	ADV	O	O	O
 le	le	DET	O	O	O
 matin	matin	NOUN	O	O	O
-res	re	ADJ	O	O	O
-)	)	PUNCT	O	O	O
+les	le	DET	O	O	O
 hommes	homme	NOUN	O	O	O
 n	n	ADJ	O	O	O
-'	'	PRON	O	O	O
+'	'	PUNCT	O	O	O
 avaient	avoir	AUX	O	O	O
 pu	pouvoir	VERB	O	O	O
 tenir	tenir	VERB	O	O	O
@@ -1554,7 +1544,7 @@ les	le	DET	O	O	O
 pompes	pompe	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
-.métropole	.métropole	NOUN	O	O	O
+métropole	métropole	NOUN	O	O	O
 inondaient	inonder	ADV	O	O	O
 sans	sans	ADP	O	O	O
 trêve	trêve	NOUN	O	O	O
@@ -1577,8 +1567,7 @@ un	un	DET	O	O	O
 premier	premier	ADJ	O	O	O
 incendie	incendie	NOUN	O	O	O
 éclata	éclata	ADJ	O	O	O
-spontanéV	spontanév	ADJ	O	O	O
-ment	ment	NOUN	O	O	O
+spontanément	spontanément	ADV	O	O	O
 ,	,	PUNCT	O	O	O
 en	en	ADP	O	O	O
 dépit	dépit	NOUN	O	O	O
@@ -1646,7 +1635,6 @@ l	l	DET	O	O	O
 '	'	DET	O	O	O
 Atlantique	atlantique	PROPN	O	O	O
 avait	avoir	AUX	O	O	O
-,	,	PUNCT	O	O	O
 atténué	atténuer	VERB	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -1746,13 +1734,12 @@ services	service	NOUN	O	O	O
 publics	public	ADJ	O	O	O
 furent	être	AUX	O	O	O
 forcément	forcément	ADV	O	O	O
-,	,	PUNCT	O	O	O
-interrompus	interrompu	NOUN	O	O	O
+interrompus	interrompre	ADJ	O	O	O
 et	et	CCONJ	O	O	O
-môme	môme	VERB	O	O	O
-celui	celui	ADJ	O	O	O
-.du	.du	PROPN	O	O	O
-télégraphe	télégraph	ADJ	O	O	O
+même	même	ADV	O	O	O
+celui	celui	PRON	O	O	O
+du	de	ADP	O	O	O
+télégraphe	télégraphe	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Avertie	avertir	VERB	O	O	O
@@ -1794,13 +1781,12 @@ prêtes	prête	NOUN	O	O	O
 fonctionner	fonctionner	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 tandis	tandis	ADV	O	O	O
-quel	quel	DET	O	O	O
+que	que	SCONJ	O	O	O
 tout	tout	ADJ	O	O	O
 ce	ce	PRON	O	O	O
 qui	qui	PRON	O	O	O
 était	être	AUX	O	O	O
 combustible	combustible	NOUN	O	O	O
-'	'	PUNCT	O	O	O
 était	être	AUX	O	O	O
 recouvert	recouvrir	VERB	O	O	O
 de	de	ADP	O	O	O
@@ -1812,18 +1798,18 @@ d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 eau	eau	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-.Toute	.toute	NOUN	O	O	O
+
+Toute	tout	ADJ	O	O	O
 l	l	DET	O	O	O
-'	'	PUNCT	O	O	O
+'	'	DET	O	O	O
 ingéniosité	ingéniosité	NOUN	O	O	O
 de	de	ADP	O	O	O
 la	le	DET	O	O	O
 population	population	NOUN	O	O	O
-kndait	knder	VERB	O	O	O
+tendait	tendre	VERB	O	O	O
 à	à	ADP	O	O	O
-:	:	PUNCT	O	O	O
 trouver	trouver	VERB	O	O	O
-des	de	ADP	O	O	O
+des	un	DET	O	O	O
 moyens	moyen	NOUN	O	O	O
 de	de	ADP	O	O	O
 défense	défense	NOUN	O	O	O
@@ -1832,25 +1818,27 @@ le	le	DET	O	O	O
 fléau	fléau	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-La.journée	la.journée	PROPN	O	O	O
+La	le	DET	O	O	O
+journée	journée	NOUN	O	O	O
 se	se	PRON	O	O	O
 passa	passer	VERB	O	O	O
 comme	comme	ADP	O	O	O
 en	en	ADP	O	O	O
 Europe	europe	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-mais1	mais1	VERB	O	O	O
+mais	mais	CCONJ	O	O	O
 la	le	DET	O	O	O
 scène	scène	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 suivit	suivre	VERB	O	O	O
 le	le	PRON	O	O	O
-coucher	coucher	VERB	O	O	O
-dii	dii	NOUN	O	O	O
-soleir	soleir	ADJ	O	O	O
+coucher	coucher	NOUN	O	O	O
+du	de	ADP	O	O	O
+soleil	soleil	NOUN	O	O	O
 enleva	enlever	VERB	O	O	O
 aux	à	ADP	O	O	O
-hommesleurs	hommesleur	NOUN	O	O	O
+hommes	homme	NOUN	O	O	O
+leurs	leur	DET	O	O	O
 dernières	dernier	ADJ	O	O	O
 illusions	illusion	NOUN	O	O	O
 .	.	PUNCT	O	O	O
@@ -1859,7 +1847,6 @@ Le	le	DET	O	O	O
 solail	solail	NOUN	O	O	O
 avait	avoir	AUX	O	O	O
 pris	prendre	VERB	O	O	O
-'	'	ADP	O	O	O
 une	un	DET	O	O	O
 expansion	expansion	NOUN	O	O	O
 si	si	SCONJ	O	O	O
@@ -1871,20 +1858,20 @@ heure	heure	NOUN	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
 écoula	écoula	NOUN	O	O	O
-depuis"le	depuis"le	NOUN	O	O	O
+depuis	depuis	ADP	O	O	O
+le	le	DET	O	O	O
 moment	moment	NOUN	O	O	O
-'	'	ADP	O	O	O
 où	où	PRON	O	O	O
 une	un	DET	O	O	O
 extrémité	extrémité	NOUN	O	O	O
-'	'	PUNCT	O	O	O
 de	de	ADP	O	O	O
 son	son	DET	O	O	O
 disque	disque	NOUN	O	O	O
 toucha	toucher	VERB	O	O	O
 l	l	DET	O	O	O
-'	'	DET	O	O	O
-horizonjusqu	horizonjusqu	PROPN	O	O	O
+'	'	PUNCT	O	O	O
+horizon	horizon	VERB	O	O	O
+jusqu	jusqu	PROPN	O	O	O
 '	'	PUNCT	O	O	O
 à	à	ADP	O	O	O
 ce	ce	PRON	O	O	O
@@ -1901,15 +1888,11 @@ quand	quand	SCONJ	O	O	O
 il	il	PRON	O	O	O
 fut	être	AUX	O	O	O
 devenu	devenir	VERB	O	O	O
-'	'	PUNCT	O	O	O
-.	.	PUNCT	O	O	O
-
 invisible	invisible	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 au	au	ADP	O	O	O
 lieu	lieu	NOUN	O	O	O
 du	de	ADP	O	O	O
-,	,	PUNCT	O	O	O
 crépuscule	crépuscule	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 une	un	DET	O	O	O
@@ -1928,16 +1911,14 @@ en	en	ADP	O	O	O
 jour	jour	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-A	a	NOUN	O	O	O
-minuiti	minuiti	ADJ	O	O	O
+A	avoir	AUX	O	O	O
+minuit	minuit	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 la	le	DET	O	O	O
 voûte	voûte	NOUN	O	O	O
 céleste	céleste	ADJ	O	O	O
 resplendissait	resplendir	VERB	O	O	O
-enco	enco	ADJ	O	O	O
--	-	PUNCT	O	O	O
-re	r	ADP	O	O	O
+encore	encore	ADV	O	O	O
 comme	comme	ADP	O	O	O
 une	un	DET	O	O	O
 aurore	aurore	NOUN	O	O	O
@@ -1993,21 +1974,19 @@ qu	que	PRON	O	O	O
 on	on	PRON	O	O	O
 ne	ne	ADV	O	O	O
 lui	luire	PRON	O	O	O
-Connaissait	connaître	VERB	O	O	O
--	-	PUNCT	O	O	O
+connaissait	connaître	VERB	O	O	O
 pas	pas	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-Maïs	maïs	PROPN	O	O	O
+mais	mais	CCONJ	O	O	O
 les	le	DET	O	O	O
 observateurs	observateur	NOUN	O	O	O
 de	de	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-Himalaya	himalaya	PROPN	O	O	O
-.	.	PUNCT	O	O	O
-
+Himalaya	himalaya	NOUN	O	O	O
 ne	ne	ADV	O	O	O
-distinguaientplus	distinguaientplus	VERB	O	O	O
+distinguaient	distinguer	VERB	O	O	O
+plus	plus	ADV	O	O	O
 le	le	DET	O	O	O
 moindre	moindre	ADJ	O	O	O
 signal	signal	ADJ	O	O	O
@@ -2046,7 +2025,8 @@ devait	devoir	VERB	O	O	O
 être	être	AUX	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-aube.du	aube.du	PROPN	O	O	O
+aube	aube	NOUN	O	O	O
+du	de	ADP	O	O	O
 dernier	dernier	ADJ	O	O	O
 jour	jour	NOUN	O	O	O
 de	de	ADP	O	O	O
@@ -2054,7 +2034,6 @@ tous	tout	ADJ	O	O	O
 les	le	DET	O	O	O
 humains	humain	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-»	»	PUNCT	O	O	O
 
 Si	si	SCONJ	O	O	O
 quelqu	quelqu	ADV	O	O	O
@@ -2068,9 +2047,8 @@ le	le	DET	O	O	O
 soleil	soleil	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 pendant	pendant	ADP	O	O	O
-;	;	PUNCT	O	O	O
 sa	son	DET	O	O	O
-coursai	coursai	NOUN	O	O	O
+course	course	NOUN	O	O	O
 dans	dans	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -2104,10 +2082,8 @@ matin	matin	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 ,	,	PUNCT	O	O	O
-soloil	soloil	NOUN	O	O	O
-commença	commencer	PROPN	O	O	O
-.	.	PUNCT	O	O	O
-
+soloil	soloil	ADJ	O	O	O
+commença	commencer	VERB	O	O	O
 à	à	ADP	O	O	O
 blanchir	blanchir	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -2120,8 +2096,9 @@ emplit	emplir	VERB	O	O	O
 le	le	DET	O	O	O
 ciel	ciel	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-augmentantdans	augmentantdans	PROPN	O	O	O
-de	de	ADP	O	O	O
+augmentant	augmenter	VERB	O	O	O
+dans	dans	ADP	O	O	O
+de	de	DET	O	O	O
 telles	tel	DET	O	O	O
 proportions	proportion	NOUN	O	O	O
 qu	que	PRON	O	O	O
@@ -2129,10 +2106,11 @@ qu	que	PRON	O	O	O
 une	un	DET	O	O	O
 heure	heure	NOUN	O	O	O
 avant	avant	ADP	O	O	O
-lei	leu	PRON	O	O	O
+le	le	PRON	O	O	O
 lever	lever	VERB	O	O	O
-del	del	ADJ	O	O	O
-'	'	PUNCT	O	O	O
+de	de	ADP	O	O	O
+l	l	DET	O	O	O
+'	'	DET	O	O	O
 astre	astre	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 les	le	DET	O	O	O
@@ -2158,7 +2136,8 @@ ses	son	DET	O	O	O
 rayons	rayon	NOUN	O	O	O
 s	s	PRON	O	O	O
 '	'	PRON	O	O	O
-abattirentsur	abattirentsur	VERB	O	O	O
+abattirent	abattirent	NOUN	O	O	O
+sur	sur	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
 Amérique	amérique	NOUN	O	O	O
@@ -2219,7 +2198,6 @@ terre	terre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 La	le	DET	O	O	O
-,	,	PUNCT	O	O	O
 population	population	NOUN	O	O	O
 terrorisée	terroriser	VERB	O	O	O
 se	se	PRON	O	O	O
@@ -2232,13 +2210,10 @@ dans	dans	ADP	O	O	O
 les	le	DET	O	O	O
 caves	cave	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-dans1	dans1	ADP	O	O	O
+dans	dans	ADP	O	O	O
 les	le	DET	O	O	O
 galeries	galerie	NOUN	O	O	O
-sou	sou	PROPN	O	O	O
-.	.	PUNCT	O	O	O
-
-terraines	terraine	NOUN	O	O	O
+souterraines	souterrainer	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 partout	partout	ADV	O	O	O
 où	où	PRON	O	O	O
@@ -2247,7 +2222,7 @@ pouvait	pouvoir	VERB	O	O	O
 trouver	trouver	VERB	O	O	O
 un	un	DET	O	O	O
 abri	abri	NOUN	O	O	O
-confire	confire	VERB	O	O	O
+contre	contre	ADP	O	O	O
 le	le	DET	O	O	O
 feu	feu	NOUN	O	O	O
 dévorant	dévorer	VERB	O	O	O
@@ -2348,8 +2323,7 @@ boue	boue	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 noyaient	noyer	VERB	O	O	O
 tous	tout	ADJ	O	O	O
-'	'	PUNCT	O	O	O
-ceU?c	ceu?c	NOUN	O	O	O
+ceux	celui	PRON	O	O	O
 qui	qui	PRON	O	O	O
 n	n	ADJ	O	O	O
 '	'	PRON	O	O	O
@@ -2363,7 +2337,8 @@ terreur	terreur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Le	le	DET	O	O	O
-professeurSalsom	professeursalsom	PROPN	O	O	O
+professeur	professeur	NOUN	O	O	O
+Salsom	salsom	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 ses	son	DET	O	O	O
 amis	ami	NOUN	O	O	O
@@ -2410,7 +2385,7 @@ de	de	ADP	O	O	O
 fer	fer	NOUN	O	O	O
 du	de	ADP	O	O	O
 laboratoire	laboratoire	NOUN	O	O	O
-•	•	PROPN	O	O	O
+;	;	PUNCT	O	O	O
 les	le	DET	O	O	O
 battants	battant	NOUN	O	O	O
 métalliques	métallique	ADJ	O	O	O
@@ -2448,12 +2423,11 @@ Mais	mais	CCONJ	O	O	O
 bientôt	bientôt	ADV	O	O	O
 les	le	DET	O	O	O
 quelques	quelque	DET	O	O	O
-survivante	survivant	NOUN	O	O	O
+survivants	survivant	NOUN	O	O	O
 de	de	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
-hur	hur	ADJ	O	O	O
-manité	maniter	VERB	O	O	O
+humanité	humanité	NOUN	O	O	O
 en	en	PRON	O	O	O
 furent	être	AUX	O	O	O
 réduits	réduire	VERB	O	O	O
@@ -2462,7 +2436,7 @@ envier	envier	VERB	O	O	O
 le	le	DET	O	O	O
 sort	sort	NOUN	O	O	O
 de	de	ADP	O	O	O
-leurs1	leurs1	ADJ	O	O	O
+leurs	leur	DET	O	O	O
 frères	frère	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 dormaient	dormir	VERB	O	O	O
@@ -2542,8 +2516,7 @@ plus	plus	ADV	O	O	O
 absolue	absolu	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 mûrés	mûrer	VERB	O	O	O
-'	'	PUNCT	O	O	O
-vifs	vif	NOUN	O	O	O
+vifs	vif	ADJ	O	O	O
 dans	dans	ADP	O	O	O
 les	le	DET	O	O	O
 profondeurs	profondeur	NOUN	O	O	O
@@ -2578,7 +2551,6 @@ l	l	DET	O	O	O
 un	un	PRON	O	O	O
 de	de	ADP	O	O	O
 ces	ce	DET	O	O	O
-'	'	PUNCT	O	O	O
 malheureux	malheureux	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 plutôt	plutôt	ADV	O	O	O
@@ -2629,18 +2601,15 @@ toujours	toujours	ADV	O	O	O
 incandescent	incandescent	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
-EnfitU	enfitu	NOUN	O	O	O
+Enfin	enfin	ADV	O	O	O
 ,	,	PUNCT	O	O	O
-{	{	ADJ	O	O	O
 sans	sans	ADP	O	O	O
-efu	efu	NOUN	O	O	O
-'	'	ADP	O	O	O
-auoun	auoun	NOUN	O	O	O
-d	d	ADP	O	O	O
-'	'	ADP	O	O	O
-es	être	ADP	O	O	O
-prisonneirai	prisonneirer	VERB	O	O	O
-pût	pût	NOUN	O	O	O
+qu	qu	SCONJ	O	O	O
+'	'	PUNCT	O	O	O
+aucun	aucun	PRON	O	O	O
+des	de	ADP	O	O	O
+prisonniers	prisonnier	NOUN	O	O	O
+pût	pût	ADJ	O	O	O
 préciser	préciser	VERB	O	O	O
 combien	combien	ADV	O	O	O
 de	de	ADP	O	O	O
@@ -2663,14 +2632,13 @@ porte	porte	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 à	à	ADP	O	O	O
 tenter	tenter	VERB	O	O	O
-iïne	iïn	ADJ	O	O	O
-sortie	sortir	VERB	O	O	O
+une	un	DET	O	O	O
+sortie	sortie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
 Une	un	DET	O	O	O
 coulée	coulée	NOUN	O	O	O
 de	de	ADP	O	O	O
-"	"	PUNCT	O	O	O
 boue	boue	NOUN	O	O	O
 qui	qui	PRON	O	O	O
 montait	monter	VERB	O	O	O
@@ -2678,7 +2646,7 @@ montait	monter	VERB	O	O	O
 la	le	DET	O	O	O
 hauteur	hauteur	NOUN	O	O	O
 du	de	ADP	O	O	O
-genout	genout	NOUN	O	O	O
+genou	genou	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 chaude	chaude	NOUN	O	O	O
 mais	mais	CCONJ	O	O	O
@@ -2687,15 +2655,15 @@ brûlante	brûlant	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 remplit	remplir	VERB	O	O	O
 les	le	DET	O	O	O
-éouîoirs	éouîoir	NOUN	O	O	O
-»	»	PUNCT	O	O	O
+couloirs	couloir	NOUN	O	O	O
+.	.	PUNCT	O	O	O
 
 Les	le	DET	O	O	O
 captifs	captif	NOUN	O	O	O
 y	y	PRON	O	O	O
 plongèrent	plonger	VERB	O	O	O
 sans	sans	ADP	O	O	O
-hésitfer	hésitfer	NOUN	O	O	O
+hésiter	hésiter	VERB	O	O	O
 et	et	CCONJ	O	O	O
 parvinrent	parvenir	VERB	O	O	O
 ainsi	ainsi	ADV	O	O	O
@@ -2722,9 +2690,8 @@ rendre	rendre	VERB	O	O	O
 compte	compte	NOUN	O	O	O
 si	si	SCONJ	O	O	O
 c	c	NOUN	O	O	O
-'	'	PUNCT	O	O	O
+'	'	PRON	O	O	O
 était	être	AUX	O	O	O
-,	,	PUNCT	O	O	O
 le	le	DET	O	O	O
 jour	jour	NOUN	O	O	O
 ou	ou	CCONJ	O	O	O
@@ -2737,8 +2704,8 @@ n	n	ADJ	O	O	O
 '	'	PRON	O	O	O
 apercevait	apercevoir	VERB	O	O	O
 pas	pas	ADV	O	O	O
-trace	trac	ADJ	O	O	O
-dut	devoir	ADV	O	O	O
+trace	trace	NOUN	O	O	O
+du	de	ADP	O	O	O
 soleil	soleil	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
 mais	mais	CCONJ	O	O	O
@@ -2750,10 +2717,7 @@ remplissait	remplir	VERB	O	O	O
 le	le	DET	O	O	O
 ciel	ciel	NOUN	O	O	O
 ,	,	PUNCT	O	O	O
-corn	corn	PROPN	O	O	O
-.	.	PUNCT	O	O	O
-
-me	me	NOUN	O	O	O
+comme	comme	ADP	O	O	O
 une	un	DET	O	O	O
 masse	masse	NOUN	O	O	O
 nébuleuse	nébuleux	ADJ	O	O	O
@@ -2862,7 +2826,6 @@ la	le	DET	O	O	O
 nature	nature	NOUN	O	O	O
 était	être	AUX	O	O	O
 effacé	effacer	VERB	O	O	O
-'	'	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
 
 De	de	ADP	O	O	O
@@ -2912,14 +2875,12 @@ emmuré	emmurer	VERB	O	O	O
 dans	dans	ADP	O	O	O
 son	son	DET	O	O	O
 laboratoire	laboratoire	NOUN	O	O	O
-soMerrain	somerrain	ADJ	O	O	O
+souterrain	souterrain	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 il	il	PRON	O	O	O
-'	'	PRON	O	O	O
 avait	avoir	AUX	O	O	O
-emmagasiné	emmagasiner	ADJ	O	O	O
-:	:	PUNCT	O	O	O
-des	un	DET	O	O	O
+emmagasiné	emmagasiner	VERB	O	O	O
+des	de	ADP	O	O	O
 graines	graine	NOUN	O	O	O
 afin	afin	ADV	O	O	O
 de	de	ADP	O	O	O
@@ -2929,7 +2890,7 @@ et	et	CCONJ	O	O	O
 repeupler	repeupler	VERB	O	O	O
 la	le	DET	O	O	O
 terre	terre	NOUN	O	O	O
-..	..	PUNCT	O	O	O
+.	.	PUNCT	O	O	O
 
 Maintenant	maintenant	ADV	O	O	O
 cet	ce	DET	O	O	O
@@ -2975,9 +2936,7 @@ millions	million	NOUN	O	O	O
 d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 années	année	NOUN	O	O	O
-FI	fi	PROPN	O	O	O
-.	.	PUNCT	O	O	O
-
+a	avoir	AUX	O	O	O
 donné	donner	VERB	O	O	O
 la	le	DET	O	O	O
 lumière	lumière	NOUN	O	O	O
@@ -3045,12 +3004,13 @@ il	il	PRON	O	O	O
 eût	avoir	ADP	O	O	O
 existé	exister	VERB	O	O	O
 une	un	DET	O	O	O
-terré	terré	NOUN	O	O	O
-prête	prête	NOUN	O	O	O
+terre	terre	NOUN	O	O	O
+prête	prêt	ADJ	O	O	O
 à	à	ADP	O	O	O
 recevoir	recevoir	VERB	O	O	O
 ses	son	DET	O	O	O
 rayons	rayon	NOUN	O	O	O
+
 Il	il	PRON	O	O	O
 reprendra	reprendre	VERB	O	O	O
 peu	peu	ADV	O	O	O
@@ -3088,7 +3048,6 @@ l	l	DET	O	O	O
 individu	individu	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 pour	pour	ADP	O	O	O
-,	,	PUNCT	O	O	O
 se	se	PRON	O	O	O
 rénover	rénover	VERB	O	O	O
 ,	,	PUNCT	O	O	O
@@ -3118,20 +3077,21 @@ se	se	PRON	O	O	O
 développe	développer	VERB	O	O	O
 plus	plus	ADV	O	O	O
 parfaite	parfait	ADJ	O	O	O
-peutêtre	peutêtre	VERB	O	O	O
+peut	pouvoir	VERB	O	O	O
+-	-	PUNCT	O	O	O
+être	être	ADV	O	O	O
 qu	que	PRON	O	O	O
 '	'	PUNCT	O	O	O
 auparavant	auparavant	ADV	O	O	O
 .	.	PUNCT	O	O	O
 
 Notre	notre	DET	O	O	O
-'	'	PUNCT	O	O	O
 refuge	refuge	NOUN	O	O	O
 ne	ne	ADV	O	O	O
 nous	nous	PRON	O	O	O
-à	à	ADP	O	O	O
+a	avoir	AUX	O	O	O
 pas	pas	ADV	O	O	O
-sauves	sauf	ADJ	O	O	O
+sauvés	sauver	VERB	O	O	O
 ;	;	PUNCT	O	O	O
 comme	comme	ADP	O	O	O
 nos	notre	DET	O	O	O
@@ -3142,9 +3102,7 @@ nous	nous	PRON	O	O	O
 appartenons	appartenir	VERB	O	O	O
 à	à	ADP	O	O	O
 la	le	DET	O	O	O
-.	.	PUNCT	O	O	O
-
-race	rac	ADJ	O	O	O
+race	race	NOUN	O	O	O
 destinée	destiner	VERB	O	O	O
 à	à	ADP	O	O	O
 périr	périr	VERB	O	O	O

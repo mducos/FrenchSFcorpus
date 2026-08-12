@@ -1983,19 +1983,6 @@ cent	cent	NUM	O	O	O
 5	5	NUM	O	O	O
 »	»	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	NOUN	O	O	O
-—	—	PRON	O	O	O
-—	—	NOUN	O	O	O
 Total	total	NOUN	O	O	O
 des	de	ADP	O	O	O
 recettes	recette	NOUN	O	O	O
@@ -2005,22 +1992,8 @@ recettes	recette	NOUN	O	O	O
 millions	million	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-—	—	PRON	O	O	O
-—	—	NOUN	O	O	O
-
-—	—	DET	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	NOUN	O	O	O
-—	—	PRON	O	O	O
-—	—	NOUN	O	O	O
 Rappel	rappel	NOUN	O	O	O
-des	un	DET	O	O	O
+des	de	ADP	O	O	O
 dépenses	dépense	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
@@ -4496,6 +4469,7 @@ par	par	ADP	O	O	O
 le	le	DET	O	O	O
 travail	travail	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Direz	direz	PROPN	O	O	O
 -	-	PUNCT	O	O	O
@@ -5161,7 +5135,8 @@ d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 anatomie	anatomie	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	PUNCT	O	O	O
 Je	je	PRON	O	O	O
 ne	ne	ADV	O	O	O
 sais	savoir	VERB	O	O	O
@@ -6932,23 +6907,8 @@ par	par	ADP	O	O	O
 Thérésa	thérésa	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-—	—	PRON	O	O	O
-—	—	NOUN	O	O	O
+ANNONCES	annonces	PROPN	O	O	O
 
-—	—	DET	O	O	O
-—	—	NOUN	O	O	O
-
-—	—	DET	O	O	O
-—	—	PRON	O	O	O
-ANNONCES	annoncer	VERB	O	O	O
-
-—	—	DET	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	PRON	O	O	O
-—	—	DET	O	O	O
 LE	le	DET	O	O	O
 CITOYEN	citoyen	NOUN	O	O	O
 LOUIS	louis	PROPN	O	O	O
@@ -6965,15 +6925,11 @@ LEÇONS	leçon	NOUN	O	O	O
 DE	de	ADP	O	O	O
 PIANO	piano	PROPN	O	O	O
 
-—	—	PUNCT	O	O	O
 BONNES	bonnes	PROPN	O	O	O
-RÉFÉRENCES	références	PROPN	O	O	O
+RÉFÉRENCES	référence	NOUN	O	O	O
 
-—	—	PUNCT	O	O	O
-N.	n.	X	O	O	O
+N.	n.	NOUN	O	O	O
 B.	b.	PROPN	O	O	O
-
-—	—	PUNCT	O	O	O
 Il	il	PRON	O	O	O
 joue	joue	VERB	O	O	O
 aussi	aussi	ADV	O	O	O
@@ -6983,9 +6939,6 @@ l	l	DET	O	O	O
 harmoniflûte	harmoniflûte	NOUN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-⚭	⚭	NOUN	O	O	O
-—	—	PUNCT	O	O	O
 PRIX	prix	PROPN	O	O	O
 MODÉRÉS	modérer	ADJ	O	O	O
 4	4	NUM	O	O	O
@@ -7096,8 +7049,6 @@ rue	rue	NOUN	O	O	O
 de	de	ADP	O	O	O
 Tournon	tournon	PROPN	O	O	O
 
-—	—	PRON	O	O	O
-⊗—	⊗—	PRON	O	O	O
 LE	le	DET	O	O	O
 CITOYEN	citoyen	NOUN	O	O	O
 ROUHER	rouher	NOUN	O	O	O
@@ -7115,23 +7066,16 @@ des	de	ADP	O	O	O
 MIXTES	mixtes	PROPN	O	O	O
 .	.	PUNCT	O	O	O
 
-—	—	PRON	O	O	O
-⊗—	⊗—	X	O	O	O
 CÉLÉRITÉ	célérité	PROPN	O	O	O
 
-—	—	PUNCT	O	O	O
 DISCRÉTION	discrétion	NOUN	O	O	O
 A	à	ADP	O	O	O
 VENDRE	vendre	PROPN	O	O	O
 SCEPTRE	sceptre	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-
-—	—	PUNCT	O	O	O
 UN	un	DET	O	O	O
 TRONE	trone	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
-
-—	—	PUNCT	O	O	O
 UN	un	DET	O	O	O
 MANTEAU	manteau	NOUN	O	O	O
 DE	de	ADP	O	O	O

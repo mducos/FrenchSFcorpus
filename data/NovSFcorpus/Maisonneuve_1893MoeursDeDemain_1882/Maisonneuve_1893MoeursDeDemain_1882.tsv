@@ -1,7 +1,3 @@
-LYCÉE	lycée	NOUN	O	O	O
-DE	de	ADP	O	O	O
-FILLES	fille	NOUN	O	O	O
-
 Au	au	ADP	O	O	O
 fronton	fronton	NOUN	O	O	O
 d	d	ADP	O	O	O
@@ -54,12 +50,6 @@ en	en	ADP	O	O	O
 lettres	lettre	NOUN	O	O	O
 noires	noir	ADJ	O	O	O
 :	:	PUNCT	O	O	O
-
-LYCÉE	lycée	NOUN	O	O	O
-NATIONAL	national	NOUN	O	O	O
-DE	de	ADP	O	O	O
-FILLES	fille	NOUN	O	O	O
-.	.	PUNCT	O	O	O
 
 C	c	NOUN	O	O	O
 '	'	PRON	O	O	O
@@ -7820,7 +7810,8 @@ soupçonnât	soupçonner	VERB	O	O	O
 sa	son	DET	O	O	O
 femme	femme	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	ADJ	O	O	O
+
+«	«	PROPN	O	O	O
 Il	il	PRON	O	O	O
 avait	avoir	VERB	O	O	O
 ses	son	DET	O	O	O
@@ -7888,8 +7879,9 @@ ne	ne	ADV	O	O	O
 l	l	PRON	O	O	O
 '	'	PUNCT	O	O	O
 entendait	entendre	VERB	O	O	O
-César	césar	NOUN	O	O	O
+César	césar	PROPN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Elle	lui	PRON	O	O	O
 peut	pouvoir	VERB	O	O	O
@@ -8033,7 +8025,8 @@ mari	mari	NOUN	O	O	O
 les	le	DET	O	O	O
 ignore	ignore	NOUN	O	O	O
 ?	?	PUNCT	O	O	O
-«	«	ADP	O	O	O
+
+«	«	PROPN	O	O	O
 et	et	CCONJ	O	O	O
 ,	,	PUNCT	O	O	O
 s	s	PRON	O	O	O
@@ -8163,9 +8156,10 @@ Qu	que	PRON	O	O	O
 '	'	PUNCT	O	O	O
 il	il	PRON	O	O	O
 prenne	prendre	VERB	O	O	O
-garde	garde	NOUN	O	O	O
+garde	gard	ADJ	O	O	O
 !	!	PUNCT	O	O	O
-«	«	VERB	O	O	O
+
+«	«	PROPN	O	O	O
 Quand	quand	SCONJ	O	O	O
 la	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
@@ -17074,6 +17068,7 @@ donné	donner	VERB	O	O	O
 le	le	DET	O	O	O
 bonheur	bonheur	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Je	je	PRON	O	O	O
 pars	par	ADJ	O	O	O
@@ -17181,7 +17176,8 @@ mater	mater	VERB	O	O	O
 «	«	PROPN	O	O	O
 nité	nité	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 Adieu	adieu	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 Monsieur	monsieur	NOUN	O	O	O
@@ -24556,6 +24552,7 @@ il	il	PRON	O	O	O
 caressait	caresser	VERB	O	O	O
 doucement	doucement	ADV	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 La	le	DET	O	O	O
 femme	femme	NOUN	O	O	O
@@ -24605,7 +24602,8 @@ par	par	ADP	O	O	O
 la	le	DET	O	O	O
 maternité	maternité	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 C	c	NOUN	O	O	O
 '	'	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -24685,7 +24683,8 @@ l	l	DET	O	O	O
 amour	amour	NOUN	O	O	O
 maternel	maternel	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 L	l	DET	O	O	O
 '	'	DET	O	O	O
 amour	amour	NOUN	O	O	O
@@ -24743,6 +24742,7 @@ l	l	DET	O	O	O
 '	'	PUNCT	O	O	O
 amour	amour	NOUN	O	O	O
 !	!	PUNCT	O	O	O
+
 «	«	VERB	O	O	O
 cette	ce	DET	O	O	O
 attraction	attraction	NOUN	O	O	O
@@ -71860,6 +71860,7 @@ nommé	nommer	VERB	O	O	O
 Jésus	jésus	PROPN	O	O	O
 »	»	PUNCT	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	PROPN	O	O	O
 Bravo	bravo	PROPN	O	O	O
 !	!	PUNCT	O	O	O
@@ -79740,8 +79741,7 @@ véritable	véritable	ADJ	O	O	O
 angoisse	angoisse	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-
+—	—	PUNCT	O	O	O
 Si	si	SCONJ	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -80089,10 +80089,6 @@ grand	grand	ADJ	O	O	O
 boulevard	boulevard	NOUN	O	O	O
 solitaire	solitaire	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-
-SUR	sur	ADP	O	O	O
-LA	la	PROPN	O	O	O
-JETÉE	jetée	NOUN	O	O	O
 
 Lorsque	lorsque	SCONJ	O	O	O
 ,	,	PUNCT	O	O	O
@@ -82684,7 +82680,8 @@ M.	m.	NOUN	O	O	O
 le	le	DET	O	O	O
 préfet	préfet	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	NUM	O	O	O
 Mlle	mlle	NOUN	O	O	O
 Marthe	marthe	PROPN	O	O	O
 a	avoir	AUX	O	O	O
@@ -90935,8 +90932,7 @@ pendre	pendre	VERB	O	O	O
 tous	tout	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-
+—	—	PUNCT	O	O	O
 A	à	ADP	O	O	O
 l	l	DET	O	O	O
 '	'	DET	O	O	O
@@ -97358,8 +97354,9 @@ le	le	DET	O	O	O
 juin	juin	NOUN	O	O	O
 1891	1891	NUM	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
-Eh	eh	NUM	O	O	O
+Eh	eh	ADP	O	O	O
 bien	bien	ADV	O	O	O
 !	!	PUNCT	O	O	O
 oui	oui	ADV	O	O	O
@@ -97537,6 +97534,7 @@ toute	tout	ADJ	O	O	O
 la	le	DET	O	O	O
 différence	différence	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Tu	tu	ADV	O	O	O
 m	m	ADJ	O	O	O
@@ -97831,7 +97829,8 @@ paru	paraître	VERB	O	O	O
 une	un	DET	O	O	O
 profanation	profanation	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Tu	tu	PRON	O	O	O
 ne	ne	ADV	O	O	O
 veux	vouloir	VERB	O	O	O
@@ -97966,7 +97965,8 @@ ai	avoir	AUX	O	O	O
 rien	rien	PRON	O	O	O
 oublié	oublier	VERB	O	O	O
 .	.	PUNCT	O	O	O
-«	«	VERB	O	O	O
+
+«	«	PUNCT	O	O	O
 Ton	ton	PROPN	O	O	O
 «	«	PROPN	O	O	O
 amitié	amitier	VERB	O	O	O
@@ -98176,7 +98176,8 @@ une	un	DET	O	O	O
 incroyable	incroyable	ADJ	O	O	O
 vigueur	vigueur	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	VERB	O	O	O
+
+«	«	NOUN	O	O	O
 La	le	DET	O	O	O
 contagion	contagion	NOUN	O	O	O
 a	avoir	AUX	O	O	O
@@ -98308,6 +98309,7 @@ et	et	CCONJ	O	O	O
 fastidieux	fastidieux	ADJ	O	O	O
 ennui	ennui	PROPN	O	O	O
 !	!	PUNCT	O	O	O
+
 «	«	PROPN	O	O	O
 Parfois	parfois	ADV	O	O	O
 ton	ton	ADJ	O	O	O
@@ -98481,6 +98483,7 @@ blasée	blaser	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 perdue	perdre	VERB	O	O	O
 !	!	PUNCT	O	O	O
+
 «	«	NUM	O	O	O
 J	j	NOUN	O	O	O
 '	'	PRON	O	O	O
@@ -98595,6 +98598,7 @@ as	avoir	AUX	O	O	O
 pas	pas	ADV	O	O	O
 effleuré	effleurer	ADJ	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Dis	dire	ADP	O	O	O
 -	-	PUNCT	O	O	O
@@ -98889,7 +98893,8 @@ reçu	recevoir	VERB	O	O	O
 ta	ton	DET	O	O	O
 lettre	lettre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Mon	mon	DET	O	O	O
 père	père	NOUN	O	O	O
 mourut	mourut	ADJ	O	O	O
@@ -99058,13 +99063,15 @@ pas	pas	ADV	O	O	O
 la	le	DET	O	O	O
 misère	misère	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	VERB	O	O	O
+
+«	«	PUNCT	O	O	O
 Cet	ce	DET	O	O	O
 homme	homme	NOUN	O	O	O
 avait	avoir	AUX	O	O	O
 raison	raison	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	ADJ	O	O	O
+
+«	«	PROPN	O	O	O
 Il	il	PRON	O	O	O
 fallait	falloir	VERB	O	O	O
 vivre	vivr	ADJ	O	O	O
@@ -99122,7 +99129,8 @@ d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 accepter	accepter	VERB	O	O	O
 .	.	PUNCT	O	O	O
-«	«	PROPN	O	O	O
+
+«	«	PUNCT	O	O	O
 Est	est	NOUN	O	O	O
 -	-	PUNCT	O	O	O
 ce	ce	PRON	O	O	O
@@ -99464,6 +99472,7 @@ l	l	DET	O	O	O
 enseignement	enseignement	NOUN	O	O	O
 matérialiste	matérialiste	ADJ	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Et	et	CCONJ	O	O	O
 maintenant	maintenant	ADV	O	O	O
@@ -99610,6 +99619,7 @@ d	d	ADP	O	O	O
 '	'	ADP	O	O	O
 ailes	aile	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NUM	O	O	O
 O	o	NOUN	O	O	O
 ma	mon	DET	O	O	O
@@ -99667,8 +99677,9 @@ de	de	ADP	O	O	O
 ta	ton	DET	O	O	O
 mère	mère	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	VERB	O	O	O
-Quelles	quel	SCONJ	O	O	O
+
+«	«	PUNCT	O	O	O
+Quelles	quelle	ADJ	O	O	O
 qu	qu	SCONJ	O	O	O
 '	'	PRON	O	O	O
 aient	avoir	AUX	O	O	O
@@ -99761,6 +99772,7 @@ des	de	ADP	O	O	O
 histoires	histoire	NOUN	O	O	O
 rabelaisiennes	rabelaisien	ADJ	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	PROPN	O	O	O
 Cela	celer	PRON	O	O	O
 est	être	AUX	O	O	O
@@ -99824,7 +99836,8 @@ n	n	ADJ	O	O	O
 exagérais	exagérai	NOUN	O	O	O
 pas	pas	ADV	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	NUM	O	O	O
 A	a	NOUN	O	O	O
 quoi	quoi	PRON	O	O	O
 m	m	ADJ	O	O	O
@@ -99877,7 +99890,8 @@ pas	pas	ADV	O	O	O
 aux	à	ADP	O	O	O
 tiens	tien	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Oublie	oublier	VERB	O	O	O
 -	-	PUNCT	O	O	O
 moi	moi	PRON	O	O	O
@@ -99937,7 +99951,8 @@ m	m	ADJ	O	O	O
 avais	avai	NOUN	O	O	O
 habituée	habitué	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Un	un	DET	O	O	O
 mot	mot	NOUN	O	O	O
 avant	avant	ADP	O	O	O
@@ -100028,6 +100043,7 @@ imminente	imminent	ADJ	O	O	O
 ,	,	PUNCT	O	O	O
 terrible	terrible	ADJ	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NUM	O	O	O
 D	d	NOUN	O	O	O
 '	'	DET	O	O	O
@@ -100117,6 +100133,7 @@ t	t	PRON	O	O	O
 '	'	DET	O	O	O
 aime	aime	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	PROPN	O	O	O
 EMMELINE	emmeline	PROPN	O	O	O
 .	.	PUNCT	O	O	O
@@ -103063,8 +103080,7 @@ de	de	DET	O	O	O
 coeur	coeur	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-
+—	—	PUNCT	O	O	O
 Si	si	SCONJ	O	O	O
 je	je	PRON	O	O	O
 n	n	ADJ	O	O	O
@@ -105813,13 +105829,11 @@ côtés	côté	NOUN	O	O	O
 :	:	PUNCT	O	O	O
 
 —	—	DET	O	O	O
-
 C	c	NOUN	O	O	O
-'	'	PRON	O	O	O
+'	'	PUNCT	O	O	O
 est	être	AUX	O	O	O
 cela	celer	PRON	O	O	O
 !	!	PUNCT	O	O	O
-
 votons	voton	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -105834,7 +105848,6 @@ levé	lever	VERB	O	O	O
 ,	,	PUNCT	O	O	O
 pendant	pendant	ADP	O	O	O
 que	que	SCONJ	O	O	O
-
 Lachesnaye	lachesnaye	PROPN	O	O	O
 ,	,	PUNCT	O	O	O
 après	après	ADP	O	O	O
@@ -106171,7 +106184,6 @@ verrons	voir	VERB	O	O	O
 —	—	PUNCT	O	O	O
 Ah	ah	PROPN	O	O	O
 !	!	PUNCT	O	O	O
-
 déjeuner	déjeuner	VERB	O	O	O
 !	!	PUNCT	O	O	O
 ...	...	PUNCT	O	O	O
@@ -109306,6 +109318,7 @@ destinée	destiner	VERB	O	O	O
 la	le	DET	O	O	O
 vôtre	vôtre	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Je	je	PRON	O	O	O
 m	m	ADJ	O	O	O
@@ -109360,7 +109373,8 @@ qu	qu	SCONJ	O	O	O
 un	un	DET	O	O	O
 enfant	enfant	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Ma	mon	DET	O	O	O
 présence	présence	NOUN	O	O	O
 ne	ne	ADV	O	O	O
@@ -109427,7 +109441,8 @@ cette	ce	DET	O	O	O
 dure	dur	ADJ	O	O	O
 alternative	alternatif	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	ADJ	O	O	O
+
+«	«	NOUN	O	O	O
 Ne	ne	ADV	O	O	O
 vous	vous	PRON	O	O	O
 inquiétez	inquiéter	VERB	O	O	O
@@ -109475,7 +109490,8 @@ cela	celer	PRON	O	O	O
 vous	vous	PRON	O	O	O
 venge	venger	VERB	O	O	O
 ...	...	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PUNCT	O	O	O
 Un	un	DET	O	O	O
 bon	bon	ADJ	O	O	O
 conseil	conseil	NOUN	O	O	O
@@ -109531,6 +109547,7 @@ l	l	DET	O	O	O
 autre	autre	ADJ	O	O	O
 monde	monde	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 FANNY	fanny	NOUN	O	O	O
 MURREY	murrey	NOUN	O	O	O
@@ -123689,9 +123706,8 @@ en	en	ADP	O	O	O
 disant	dire	VERB	O	O	O
 :	:	PUNCT	O	O	O
 
-—	—	DET	O	O	O
-
-Tout	tout	ADJ	O	O	O
+—	—	PUNCT	O	O	O
+Tout	tout	PRON	O	O	O
 est	être	AUX	O	O	O
 fini	finir	VERB	O	O	O
 .	.	PUNCT	O	O	O
@@ -123753,13 +123769,6 @@ de	de	ADP	O	O	O
 gendarmerie	gendarmerie	NOUN	O	O	O
 !	!	PUNCT	O	O	O
 
-–	–	NOUN	O	O	O
-–	–	NOUN	O	O	O
-–	–	NOUN	O	O	O
-–	–	NOUN	O	O	O
-–	–	NOUN	O	O	O
-–	–	NOUN	O	O	O
-–	–	NOUN	O	O	O
 Trois	trois	NUM	O	O	O
 mois	mois	NOUN	O	O	O
 se	se	PRON	O	O	O

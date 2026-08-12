@@ -622,6 +622,7 @@ heure	heure	NOUN	O	O	O
 de	de	ADP	O	O	O
 midi	midi	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
 Salut	salut	PROPN	O	O	O
 et	et	CCONJ	O	O	O
@@ -1259,8 +1260,9 @@ qui	qui	PRON	O	O	O
 notre	notre	DET	O	O	O
 lumière	lumière	NOUN	O	O	O
 .	.	PUNCT	O	O	O
+
 «	«	NOUN	O	O	O
-Que	que	SCONJ	O	O	O
+Que	que	PRON	O	O	O
 saurions	saurion	NOUN	O	O	O
 -	-	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
@@ -1400,7 +1402,8 @@ et	et	CCONJ	O	O	O
 monstres	monstre	NOUN	O	O	O
 insaisissables	insaisissable	ADJ	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	NUM	O	O	O
 A	a	NOUN	O	O	O
 vous	vous	PRON	O	O	O
 nos	notre	DET	O	O	O
@@ -1495,7 +1498,8 @@ de	de	ADP	O	O	O
 nos	notre	DET	O	O	O
 troupeaux	troupeau	NOUN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 Puissions	puission	NOUN	O	O	O
 -	-	PUNCT	O	O	O
 nous	nous	PRON	O	O	O
@@ -2967,7 +2971,8 @@ clameur	clameur	NOUN	O	O	O
 LE	le	DET	O	O	O
 CHŒUR	chœur	PROPN	O	O	O
 .	.	PUNCT	O	O	O
-«	«	NOUN	O	O	O
+
+«	«	PROPN	O	O	O
 Gloire	gloire	NOUN	O	O	O
 à	à	ADP	O	O	O
 vous	vous	PRON	O	O	O
@@ -3182,17 +3187,10 @@ seuls	seul	ADJ	O	O	O
 immortels	immortel	ADJ	O	O	O
 !	!	PUNCT	O	O	O
 
-VOIX	voix	NOUN	O	O	O
-DES	de	ADP	O	O	O
-HOMMES	homme	NOUN	O	O	O
-.	.	PUNCT	O	O	O
-
 Parlez	parler	VERB	O	O	O
 !	!	PUNCT	O	O	O
-
 chantez	chantez	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 brillez	briller	VERB	O	O	O
 !	!	PUNCT	O	O	O
 
@@ -3342,16 +3340,10 @@ or	or	NOUN	O	O	O
 —	—	PROPN	O	O	O
 Parlez	parler	VERB	O	O	O
 !	!	PUNCT	O	O	O
-
 chantez	chantez	NOUN	O	O	O
 !	!	PUNCT	O	O	O
-
 brillez	briller	VERB	O	O	O
 !	!	PUNCT	O	O	O
-
-`	`	DET	O	O	O
-`	`	DET	O	O	O
-`	`	DET	O	O	O
 
 Honneur	honneur	NOUN	O	O	O
 à	à	ADP	O	O	O
@@ -6891,8 +6883,7 @@ de	de	ADP	O	O	O
 fleurs	fleur	NOUN	O	O	O
 et	et	CCONJ	O	O	O
 ombragé	ombrager	VERB	O	O	O
-de	de	ADP	O	O	O
-`	`	DET	O	O	O
+de	de	DET	O	O	O
 hauts	haut	ADJ	O	O	O
 arbres	arbre	NOUN	O	O	O
 dont	dont	PRON	O	O	O
