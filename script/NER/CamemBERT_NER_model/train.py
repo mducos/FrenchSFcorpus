@@ -292,7 +292,7 @@ def main():
         learning_rate=3e-5,
         per_device_train_batch_size=32,
         per_device_eval_batch_size=32,
-        num_train_epochs=2,
+        num_train_epochs=20,
         warmup_ratio=0,
         weight_decay=0.01,
         logging_dir='./logs',
