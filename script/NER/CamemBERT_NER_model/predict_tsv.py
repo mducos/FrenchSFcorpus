@@ -53,9 +53,9 @@ label2id = model_checkpoint.config.label2id
 id2label = model_checkpoint.config.id2label
 
 # to reproduce the results on the test set
-test_sentences = read_tsv_file(Path("src/NER_training_files/test.tsv"))
+test_sentences = read_tsv_file(Path("src/NER_training_files/test_old.tsv"))
 # to compare the results with a book
-#test_sentences = read_tsv_file(Path("data/NerSFcorpus/JehinPrume_LesAventuresExtraordinairesDeDeuxCanayens_1918/JehinPrume_LesAventuresExtraordinairesDeDeuxCanayens_1918.tsv"))
+#test_sentences = read_tsv_file(Path("data/NerSFcorpus/Capus_LHommeBicycle_1893/Capus_LHommeBicycle_1893.tsv"))
 test_dataset = prepare_dataset(test_sentences, label2id)
 
 def tokenize_and_align_labels(examples, tokenizer, label2id):
@@ -71,13 +71,19 @@ def tokenize_and_align_labels(examples, tokenizer, label2id):
         word_ids = tokenized_inputs.word_ids(batch_index=i)
         previous_word_idx = None
         label_ids = []
+
         for word_idx in word_ids:
             if word_idx is None:
                 label_ids.append(-100)
             elif word_idx != previous_word_idx:
                 label_ids.append(label[word_idx])
+            else: 
+                label_ids.append(-100)
+
             previous_word_idx = word_idx
+
         labels.append(label_ids)
+
     tokenized_inputs["labels"] = labels
     return tokenized_inputs
 
@@ -115,4 +121,10 @@ for pred_seq, label_seq in zip(preds, labels):
         true_labels.append(tl)
         true_preds.append(tp)
 
+"""
+for l, p in zip(true_labels, true_preds):
+    print(l)
+    print(p)
+    print("-----")
+"""
 print(classification_report(true_labels, true_preds, digits=4))
