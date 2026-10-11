@@ -54,11 +54,11 @@ dont	O
 on	O
 parle	O
 vont	O
-honneurs	O
+honneurs	B-OBJ
 ,	O
-gloire	O
+gloire	B-OBJ
 et	O
-fortune	O
+fortune	B-OBJ
 .	O
 
 On	O
@@ -135,19 +135,19 @@ dans	O
 le	O
 monde	O
 :	O
-boxeur	O
+boxeur	B-OBJ
 ou	O
-poète	O
+poète	B-OBJ
 ,	O
-footballiste	O
+footballiste	B-OBJ
 ou	O
 savant	O
 ,	O
-mangeaur	O
-de	O
-nouilles	O
+mangeaur	B-OBJ
+de	I-OBJ
+nouilles	I-OBJ
 ou	O
-philosophe	O
+philosophe	B-OBJ
 ,	O
 voilà	O
 le	O
@@ -189,8 +189,8 @@ d	O
 le	O
 plus	O
 grand	O
-quelque	O
-chose	O
+quelque	B-OBJ
+chose	I-OBJ
 in	O
 the	O
 world	O
@@ -223,7 +223,7 @@ fallait	O
 user	O
 beaucoup	O
 de	O
-chaussures	O
+chaussures	B-OBJ
 ,	O
 certains	O
 membres	O
@@ -357,8 +357,8 @@ Saint	B-LOC
 -	B-LOC
 Germain	I-LOC
 à	O
-quatre	O
-pattes	O
+quatre	B-OBJ
+pattes	I-OBJ
 ,	O
 performance	O
 remarquable	O
@@ -391,32 +391,32 @@ gloire	O
 retentissante	O
 .	O
 
-Le	O
-plus	O
-grand	O
-coureur	O
-à	O
-quatre	O
-pattes	O
-in	O
-the	O
-world	O
+Le	B-OBJ
+plus	I-OBJ
+grand	I-OBJ
+coureur	I-OBJ
+à	I-OBJ
+quatre	I-OBJ
+pattes	I-OBJ
+in	I-OBJ
+the	I-OBJ
+world	I-OBJ
 vit	O
 sa	O
 tête	O
 dans	O
 les	O
-journaux	O
+journaux	B-OBJ
 et	O
 les	O
-cinémas	O
+cinémas	B-OBJ
 .	O
 
 Il	O
 y	O
 vit	O
-ses	O
-pattes	O
+ses	B-OBJ
+pattes	I-OBJ
 surtout	O
 .	O
 
@@ -434,8 +434,8 @@ Pasteur	B-PER
 ,	O
 et	O
 un	O
-banquet	O
-monstre	O
+banquet	B-OBJ
+monstre	I-OBJ
 lui	O
 fut	O
 offert	O
@@ -457,8 +457,8 @@ discours	O
 seraient	O
 prononcés	O
 à	O
-quatre	O
-pattes	O
+quatre	B-OBJ
+pattes	I-OBJ
 .	O
 
 L	O
@@ -530,13 +530,13 @@ un	O
 ambitieux	O
 .	O
 
-Les	O
-lauriers	O
+Les	B-OBJ
+lauriers	I-OBJ
 qui	O
 avaient	O
 honoré	O
 ses	O
-pattes	O
+pattes	B-OBJ
 ne	O
 lui	O
 suffisaient	O
@@ -595,9 +595,9 @@ l	O
 '	O
 as	O
 du	O
-saute	O
--	O
-mouton	O
+saute	B-OBJ
+-	I-OBJ
+mouton	I-OBJ
 ,	O
 ni	O
 le	O
@@ -666,7 +666,7 @@ Paul	B-PER
 entra	O
 dans	O
 la	O
-lice	O
+lice	B-OBJ
 et	O
 remporta	O
 la	O
@@ -711,9 +711,9 @@ donna	O
 un	O
 banquet	O
 de	O
-cinq	O
-cents	O
-couverts	O
+cinq	B-OBJ
+cents	I-OBJ
+couverts	I-OBJ
 ,	O
 et	O
 chaque	O
@@ -777,8 +777,8 @@ là	O
 comme	O
 il	O
 chaussait	O
-du	O
-44	O
+du	B-OBJ
+44	I-OBJ
 un	O
 peu	O
 large	O
@@ -828,14 +828,14 @@ reçu	O
 royalement	O
 .	O
 
-Les	O
-théâtres	O
+Les	B-OBJ
+théâtres	I-OBJ
 ,	O
-les	O
-cirques	O
+les	B-OBJ
+cirques	I-OBJ
 et	O
-les	O
-instituts	O
+les	B-OBJ
+instituts	I-OBJ
 se	O
 l	O
 '	O
@@ -869,9 +869,9 @@ France	B-LOC
 ,	O
 matelassé	O
 de	O
-bank	O
--	O
-notes	O
+bank	B-OBJ
+-	I-OBJ
+notes	I-OBJ
 et	O
 blindé	O
 ,	O
@@ -883,9 +883,9 @@ faces	O
 ,	O
 comme	O
 une	O
-coque	O
-de	O
-torpilleur	O
+coque	B-OBJ
+de	I-OBJ
+torpilleur	I-OBJ
 .	O
 
 La	O
@@ -894,10 +894,10 @@ crée	O
 l'organe	O
 .	O
 
-Une	O
-étoile	O
-de	O
-beuglant	O
+Une	B-OBJ
+étoile	I-OBJ
+de	I-OBJ
+beuglant	I-OBJ
 ,	O
 au	O
 XIXe	B-PONC
@@ -915,7 +915,7 @@ Moi	O
 je	O
 casse	O
 des	O
-noisettes	O
+noisettes	B-OBJ
 en	O
 m'asseyant	O
 dessus	O
@@ -926,7 +926,7 @@ ne	O
 sont	O
 pas	O
 des	O
-noisettes	O
+noisettes	B-OBJ
 que	O
 Jean	B-PER
 -	I-PER
@@ -938,14 +938,14 @@ cassées	O
 ,	O
 mais	O
 des	O
-noix	O
-de	O
-coco	O
+noix	B-OBJ
+de	I-OBJ
+coco	I-OBJ
 .	O
 
 Lorsque	O
 les	O
-trompettes	O
+trompettes	B-OBJ
 de	O
 la	O
 Renommée	O
@@ -960,7 +960,7 @@ pareille	O
 ,	O
 l	O
 '	O
-encens	O
+encens	B-OBJ
 fuma	O
 si	O
 copieusement	O
@@ -1064,7 +1064,7 @@ se	O
 marier	O
 .	O
 
-naturellement	O
+naturellement	B-OBJ
 ,	O
 toutes	O
 les	O
@@ -1129,9 +1129,9 @@ avait	O
 elle	O
 aussi	O
 ,	O
-un	O
-coeur	O
-innombrable	O
+un	B-OBJ
+coeur	I-OBJ
+innombrable	I-OBJ
 .	O
 
 Avec	O
@@ -1192,7 +1192,7 @@ qu	O
 on	O
 parla	O
 de	O
-lui	O
+lui	B-OBJ
 .	O
 
 Ce	O
@@ -1217,7 +1217,7 @@ d	O
 '	O
 une	O
 telle	O
-auréole	O
+auréole	B-OBJ
 ,	O
 qu	O
 '	O
@@ -1234,8 +1234,8 @@ au	B-LOC
 Panthéon	I-LOC
 .	O
 
-La	O
-porte	O
+La	B-OBJ
+porte	I-OBJ
 en	O
 était	O
 assez	O
@@ -1256,18 +1256,18 @@ les	O
 félicités	O
 .	O
 
-Sérénades	O
+Sérénades	B-OBJ
 ,	O
-fanfares	O
+fanfares	B-OBJ
 ,	O
 feux	O
 d	O
 '	O
 artifice	O
 ,	O
-couronnes	O
+couronnes	B-OBJ
 ,	O
-ovations	O
+ovations	B-OBJ
 ...	O
 
 Il	O
@@ -1278,7 +1278,7 @@ sans	O
 être	O
 assourdi	O
 de	O
-vivats	O
+vivats	B-OBJ
 ,	O
 écartelé	O
 par	O
@@ -1286,7 +1286,7 @@ des	O
 amateurs	O
 d	O
 '	O
-autographes	O
+autographes	B-OBJ
 .	O
 
 Il	O
@@ -1300,15 +1300,15 @@ d	O
 enfermé	O
 dans	O
 un	O
-tambour	O
-énorme	O
+tambour	B-OBJ
+énorme	I-OBJ
 :	O
-la	O
-grosse	O
-caisse	O
-de	O
-la	O
-Gloire	O
+la	B-OBJ
+grosse	I-OBJ
+caisse	I-OBJ
+de	I-OBJ
+la	I-OBJ
+Gloire	I-OBJ
 ,	O
 sur	O
 quoi	O
@@ -1380,8 +1380,8 @@ Mais	O
 que	O
 faire	O
 ,	O
-grands	O
-dieux	O
+grands	B-OBJ
+dieux	I-OBJ
 ,	O
 pour	O
 se	O
@@ -1530,7 +1530,7 @@ yeux	O
 fixés	O
 sur	O
 son	O
-nombril	O
+nombril	B-OBJ
 auguste	O
 :	O
 
@@ -1573,10 +1573,10 @@ repartit	O
 songeur	O
 .	O
 
-Quelque	O
-chose	O
-de	O
-bien	O
+Quelque	B-OBJ
+chose	I-OBJ
+de	I-OBJ
+bien	I-OBJ
 ...	O
 
 Qu	O

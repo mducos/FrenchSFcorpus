@@ -14,7 +14,7 @@ ASSOCIATION	I-PER
 
 LANCE	O
 UN	O
-DOCUMENT	O
+DOCUMENT	B-OBJ
 A	O
 TRAVERS	O
 LES	O
@@ -145,11 +145,11 @@ au	O
 nom	O
 de	O
 notre	O
-sexe	O
+sexe	B-OBJ
 ...	O
 
 ––	O
-Sexe	O
+Sexe	B-OBJ
 d	O
 '	O
 autant	O
@@ -190,7 +190,7 @@ en	O
 voyant	O
 tomber	O
 une	O
-pomme	O
+pomme	B-OBJ
 ,	O
 aucune	O
 femme	O
@@ -229,8 +229,8 @@ siècle	I-PONC
 En	O
 voyant	O
 tomber	O
-une	O
-pomme	O
+une	B-OBJ
+pomme	I-OBJ
 ,	O
 mistress	B-PER
 Scorbitt	I-PER
@@ -288,7 +288,7 @@ aptitude	O
 ?	O
 ...	O
 
-Non	O
+Non	B-OBJ
 ,	O
 mistress	B-PER
 Scorbitt	I-PER
@@ -330,8 +330,8 @@ pas	O
 encore	O
 trouvé	O
 un	O
-cerveau	O
-féminin	O
+cerveau	B-OBJ
+féminin	I-OBJ
 auquel	O
 on	O
 doive	O
@@ -526,8 +526,8 @@ aux	O
 problèmes	O
 de	O
 cette	O
-oeuvre	O
-immense	O
+oeuvre	B-OBJ
+immense	I-OBJ
 à	O
 laquelle	O
 ,	O
@@ -615,11 +615,11 @@ vraiment	O
 singulière	O
 .	O
 
-Le	O
-coeur	O
-de	O
-la	O
-femme	O
+Le	B-OBJ
+coeur	I-OBJ
+de	I-OBJ
+la	I-OBJ
+femme	I-OBJ
 n	O
 '	O
 est	O
@@ -631,8 +631,8 @@ insondable	O
 abîme	O
 ?	O
 
-Œuvre	O
-immense	O
+Œuvre	B-OBJ
+immense	I-OBJ
 ,	O
 en	O
 vérité	O
@@ -657,7 +657,7 @@ Voici	O
 quelle	O
 était	O
 cette	O
-oeuvre	O
+oeuvre	B-OBJ
 ,	O
 quel	O
 était	O
@@ -697,7 +697,7 @@ des	O
 géographes	O
 :	O
 
-1	O
+1	B-OBJ
 
 °	O
 Le	B-LOC
@@ -728,7 +728,7 @@ de	I-LOC
 Lancastre	I-LOC
 ;	O
 
-2	O
+2	B-OBJ
 
 °	O
 La	B-LOC
@@ -763,7 +763,7 @@ et	O
 Bathurst	B-LOC
 ;	O
 
-3	O
+3	B-OBJ
 
 °	O
 L	B-LOC
@@ -803,9 +803,9 @@ près	O
 inconnues	O
 .	O
 
-En	O
-cet	O
-ensemble	O
+En	B-OBJ
+cet	I-OBJ
+ensemble	I-OBJ
 ,	O
 périmétré	O
 par	O
@@ -817,8 +817,8 @@ dix	O
 huitième	O
 parallèle	O
 ,	O
-les	O
-terres	O
+les	B-OBJ
+terres	I-OBJ
 s	O
 '	O
 étendent	O
@@ -828,8 +828,8 @@ cent	O
 mille	O
 milles	O
 et	O
-les	O
-mers	O
+les	B-OBJ
+mers	I-OBJ
 sur	O
 sept	O
 cent	O
@@ -883,13 +883,13 @@ donnant	O
 des	O
 noms	O
 aux	O
-caps	O
+caps	B-OBJ
 ,	O
 aux	O
-promontoires	O
+promontoires	B-OBJ
 ,	O
 aux	O
-golfes	O
+golfes	B-OBJ
 ,	O
 aux	O
 baies	O
@@ -1043,8 +1043,8 @@ Berlin	B-LOC
 avait	O
 formulé	O
 un	O
-code	O
-spécial	O
+code	B-OBJ
+spécial	I-OBJ
 ,	O
 à	O
 l	O
@@ -1092,9 +1092,9 @@ en	O
 cette	O
 circonstance	O
 ,	O
-le	O
-domaine	O
-polaire	O
+le	B-OBJ
+domaine	I-OBJ
+polaire	I-OBJ
 n	O
 '	O
 étant	O
@@ -1213,7 +1213,7 @@ d	O
 '	O
 envoyer	O
 un	O
-projectile	O
+projectile	B-OBJ
 jusqu	O
 '	O
 à	O
@@ -1232,7 +1232,7 @@ communication	O
 directe	O
 avec	O
 notre	O
-satellite	O
+satellite	B-OBJ
 .	O
 
 Or	O
@@ -1302,10 +1302,10 @@ jour	O
 de	O
 creuser	O
 un	O
-canal	O
-à	O
-grande	O
-section	O
+canal	B-OBJ
+à	I-OBJ
+grande	I-OBJ
+section	I-OBJ
 à	O
 travers	O
 l	B-LOC
@@ -1336,9 +1336,9 @@ Chine	I-LOC
 qu	O
 '	O
 un	O
-puisatier	O
-de	O
-génie	O
+puisatier	B-OBJ
+de	I-OBJ
+génie	I-OBJ
 offre	O
 de	O
 forer	O
@@ -1390,13 +1390,13 @@ entreprenant	O
 veuille	O
 réunir	O
 les	O
-courants	O
+courants	B-OBJ
 disséminés	O
 à	O
 la	O
 surface	O
 du	O
-globe	O
+globe	B-OBJ
 ,	O
 pour	O
 en	O
@@ -1426,8 +1426,8 @@ d	O
 emmagasiner	O
 dans	O
 de	O
-vastes	O
-récepteurs	O
+vastes	B-OBJ
+récepteurs	I-OBJ
 l	O
 '	O
 excès	O
@@ -1464,17 +1464,17 @@ la	O
 force	O
 vive	O
 des	O
-marées	O
+marées	B-OBJ
 pour	O
 produire	O
 à	O
 volonté	O
 de	O
 la	O
-chaleur	O
+chaleur	B-OBJ
 ou	O
 du	O
-travail	O
+travail	B-OBJ
 ,	O
 
 —	O
@@ -1512,24 +1512,24 @@ trouvera	O
 en	O
 tête	O
 des	O
-souscripteurs	O
+souscripteurs	B-OBJ
 ,	O
 et	O
 des	O
-rivières	O
-de	O
-dollars	O
+rivières	B-OBJ
+de	I-OBJ
+dollars	I-OBJ
 se	O
 précipiteront	O
 dans	O
 les	O
-caisses	O
-sociales	O
+caisses	B-OBJ
+sociales	I-OBJ
 ,	O
 comme	O
 les	O
-grands	O
-fleuves	O
+grands	B-OBJ
+fleuves	I-OBJ
 du	B-LOC
 Nord	I-LOC
 -	I-LOC
@@ -1630,7 +1630,7 @@ d	O
 '	O
 utiliser	O
 le	O
-domaine	O
+domaine	B-OBJ
 ,	O
 devenu	O
 la	O
@@ -1679,24 +1679,24 @@ En	O
 effet	O
 ,	O
 un	O
-document	O
+document	B-OBJ
 fut	O
 adressé	O
 aux	O
-journaux	O
+journaux	B-OBJ
 des	O
 deux	O
 continents	O
 ,	O
 aux	O
-feuilles	O
-européennes	O
+feuilles	B-OBJ
+européennes	I-OBJ
 ,	O
 africaines	O
 ,	O
 océaniennes	O
 ,	O
-asiatiques	O
+asiatiques	B-OBJ
 ,	O
 en	O
 même	O
@@ -1704,8 +1704,8 @@ temps	O
 qu	O
 '	O
 aux	O
-feuilles	O
-américaines	O
+feuilles	B-OBJ
+américaines	I-OBJ
 .	O
 
 Il	O
@@ -2142,7 +2142,7 @@ continents	O
 ,	O
 îlots	O
 ,	O
-rochers	O
+rochers	B-OBJ
 ,	O
 mers	O
 ,	O
@@ -2165,15 +2165,15 @@ compose	O
 actuellement	B-PONC
 l	O
 '	O
-immeuble	O
-arctique	O
+immeuble	B-OBJ
+arctique	I-OBJ
 ,	O
 soit	O
 que	O
 d	O
 '	O
-éternelles	O
-glaces	O
+éternelles	B-OBJ
+glaces	I-OBJ
 le	O
 recouvrent	O
 ,	O
@@ -2234,8 +2234,8 @@ géographique	O
 et	O
 météorologique	O
 du	O
-globe	O
-terrestre	O
+globe	B-OBJ
+terrestre	I-OBJ
 .	O
 
 «	O
@@ -2368,7 +2368,7 @@ et	O
 sa	O
 franchise	O
 ,	O
-elle	O
+elle	B-OBJ
 ne	O
 laissait	O
 rien	O
@@ -2500,9 +2500,9 @@ nullement	O
 appel	O
 à	O
 la	O
-bourse	O
-du	O
-public	O
+bourse	B-OBJ
+du	I-OBJ
+public	I-OBJ
 .	O
 
 C	O
@@ -2511,7 +2511,7 @@ C	O
 avec	O
 ses	O
 seuls	O
-capitaux	O
+capitaux	B-OBJ
 qu	O
 '	O
 elle	O
@@ -2533,29 +2533,29 @@ point	O
 à	O
 drainer	O
 les	O
-dollars	O
+dollars	B-OBJ
 ,	O
-les	O
-bank	O
--	O
-notes	O
+les	B-OBJ
+bank	I-OBJ
+-	I-OBJ
+notes	I-OBJ
 ,	O
 l	O
 '	O
-or	O
+or	B-OBJ
 et	O
 l	O
 '	O
-argent	O
+argent	B-OBJ
 des	O
 gogos	O
 pour	O
 emplir	O
 ses	O
-caisses	O
+caisses	B-OBJ
 .	O
 
-Non	O
+Non	B-OBJ
 !	O
 
 Elle	O
@@ -2571,8 +2571,8 @@ propres	O
 fonds	O
 l	O
 '	O
-immeuble	O
-circumpolaire	O
+immeuble	B-OBJ
+circumpolaire	I-OBJ
 .	O
 
 Aux	O
@@ -2670,7 +2670,7 @@ voulaient	O
 ils	O
 avoir	O
 un	O
-contrat	O
+contrat	B-OBJ
 en	O
 règle	O
 ,	O
@@ -2734,8 +2734,8 @@ D	O
 '	O
 ailleurs	O
 ,	O
-le	O
-document	O
+le	B-OBJ
+document	I-OBJ
 portait	O
 une	O
 clause	O
@@ -2819,8 +2819,8 @@ géographique	O
 et	O
 météorologique	O
 du	O
-globe	O
-terrestre	O
+globe	B-OBJ
+terrestre	I-OBJ
 .	O
 »	O
 
@@ -2883,8 +2883,8 @@ il	O
 doit	O
 y	O
 avoir	O
-quelque	O
-chose	O
+quelque	B-OBJ
+chose	I-OBJ
 là	O
 -	O
 dessous	O
@@ -2950,10 +2950,10 @@ arctiques	O
 qu	O
 '	O
 une	O
-comète	O
-à	O
-noyau	O
-dur	O
+comète	B-OBJ
+à	I-OBJ
+noyau	I-OBJ
+dur	I-OBJ
 choquera	O
 prochainement	O
 la	B-LOC
@@ -3018,7 +3018,7 @@ un	O
 choc	O
 avec	O
 une	O
-comète	O
+comète	B-OBJ
 de	O
 ce	O
 genre	O
@@ -3115,7 +3115,7 @@ l	O
 axe	O
 de	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 ?	O
 
 fit	O
@@ -3123,9 +3123,9 @@ observer	O
 le	B-PER
 Hamburger	I-PER
 -	O
-Corres	O
+Corres	B-OBJ
 -	O
-pondent	O
+pondent	B-OBJ
 .	O
 
 —	O
@@ -3177,8 +3177,8 @@ axe	O
 de	O
 l	O
 '	O
-orbite	O
-terrestre	O
+orbite	B-OBJ
+terrestre	I-OBJ
 ,	O
 serait	O
 de	O
@@ -3252,9 +3252,9 @@ pour	O
 que	O
 Véga	B-PER
 devienne	O
-notre	O
-étoile	O
-polaire	O
+notre	B-OBJ
+étoile	I-OBJ
+polaire	I-OBJ
 par	O
 suite	O
 dudit	O
@@ -3310,7 +3310,7 @@ cette	O
 risquer	O
 un	O
 «	O
-krone	O
+krone	B-OBJ
 »	O
 ,	O
 jamais	O
@@ -3423,7 +3423,7 @@ président	O
 
 Mais	O
 le	O
-président	O
+président	B-OBJ
 ,	O
 inconnu	O
 !	O
@@ -3448,7 +3448,7 @@ de	O
 qui	O
 émanait	O
 le	O
-document	O
+document	B-OBJ
 .	O
 
 Il	O
@@ -3505,7 +3505,7 @@ ce	O
 sujet	O
 que	O
 les	O
-produits	O
+produits	B-OBJ
 consignés	O
 dans	O
 ses	O
@@ -3532,9 +3532,9 @@ tirer	O
 Bref	O
 ,	O
 cette	O
-North	O
-Polar	O
-Practical	O
+North	B-OBJ
+Polar	I-OBJ
+Practical	I-OBJ
 
 Association	O
 était	O
@@ -3595,7 +3595,7 @@ clairement	O
 indiqué	O
 par	O
 le	O
-document	O
+document	B-OBJ
 porté	O
 à	O
 la	O
@@ -3901,11 +3901,11 @@ découvertes	O
 antérieures	O
 .	O
 
-Son	O
-projet	O
+Son	B-OBJ
+projet	I-OBJ
 comprenait	O
 un	O
-terrain	O
+terrain	B-OBJ
 absolument	O
 vierge	O
 de	O
@@ -3929,12 +3929,12 @@ globe	O
 circonscrite	O
 par	O
 le	O
-quatre	O
--	O
-vingt	O
--	O
-quatrième	O
-parallèle	O
+quatre	B-OBJ
+-	I-OBJ
+vingt	I-OBJ
+-	I-OBJ
+quatrième	I-OBJ
+parallèle	I-OBJ
 :	O
 
 De	O
@@ -4020,8 +4020,8 @@ belle	O
 dimension	O
 !	O
 
-Le	O
-document	O
+Le	B-OBJ
+document	I-OBJ
 ,	O
 on	O
 l	O
@@ -4135,7 +4135,7 @@ mieux	O
 justifiées	O
 que	O
 les	O
-découvertes	O
+découvertes	B-OBJ
 ,	O
 opérées	O
 dans	O
@@ -4219,8 +4219,8 @@ de	O
 le	O
 répéter	O
 :	O
-la	O
-propriété	O
+la	B-OBJ
+propriété	I-OBJ
 était	O
 indivise	O
 ,	O
@@ -4416,7 +4416,7 @@ pendant	O
 la	O
 campagne	O
 du	O
-Phénix	O
+Phénix	B-OBJ
 ,	O
 envoyé	O
 à	O
@@ -4529,8 +4529,8 @@ abandonna	O
 sa	O
 part	O
 du	O
-gâteau	O
-polaire	O
+gâteau	B-OBJ
+polaire	I-OBJ
 ,	O
 où	O
 les	O
@@ -4875,18 +4875,18 @@ ils	O
 payé	O
 ?	O
 
-En	O
-coquillages	O
+En	B-OBJ
+coquillages	I-OBJ
 ,	O
-en	O
-dents	O
-de	O
-morses	O
+en	B-OBJ
+dents	I-OBJ
+de	I-OBJ
+morses	I-OBJ
 ou	O
-en	O
-huile	O
-de	O
-phoque	O
+en	B-OBJ
+huile	I-OBJ
+de	I-OBJ
+phoque	I-OBJ
 ?	O
 
 Pourtant	O
@@ -4904,7 +4904,7 @@ premier	O
 occupant	O
 ,	O
 ce	O
-domaine	O
+domaine	B-OBJ
 qui	O
 allait	O
 être	O
@@ -4960,8 +4960,8 @@ AU	O
 LECTEUR	O
 .	O
 
-Le	O
-document	O
+Le	B-OBJ
+document	I-OBJ
 méritait	O
 une	O
 réponse	O
@@ -5186,7 +5186,7 @@ agissait	O
 d	O
 '	O
 un	O
-domaine	O
+domaine	B-OBJ
 dont	O
 il	O
 serait	O
@@ -5209,7 +5209,7 @@ ouvrir	O
 son	O
 agent	O
 un	O
-crédit	O
+crédit	B-OBJ
 de	O
 quelque	O
 importance	O
@@ -5328,8 +5328,8 @@ qu	O
 '	O
 appartiendrait	O
 cette	O
-calotte	O
-glacée	O
+calotte	B-OBJ
+glacée	I-OBJ
 du	B-LOC
 Pôle	I-LOC
 ,	O
@@ -5746,10 +5746,10 @@ possession	O
 de	O
 l	O
 '	O
-île	O
-de	O
-ce	O
-nom	O
+île	B-OBJ
+de	I-OBJ
+ce	I-OBJ
+nom	I-OBJ
 ,	O
 située	O
 au	O
@@ -6028,11 +6028,11 @@ devenir	O
 propriétaires	O
 de	O
 ce	O
-point	O
-inaccessible	O
+point	B-OBJ
+inaccessible	I-OBJ
 du	O
-globe	O
-terrestre	O
+globe	B-OBJ
+terrestre	I-OBJ
 .	O
 
 Eux	O
@@ -6160,7 +6160,7 @@ elles	O
 pas	O
 comme	O
 la	O
-rallonge	O
+rallonge	B-OBJ
 qui	O
 les	O
 reliait	O
@@ -6336,8 +6336,8 @@ colonial	O
 
 Aussi	O
 ,	O
-ses	O
-journaux	O
+ses	B-OBJ
+journaux	I-OBJ
 discutèrent	O
 -	O
 ils	O
@@ -6411,12 +6411,12 @@ lui	O
 échapper	O
 .	O
 
-La	O
-partie	O
-nord	O
-du	O
-nouveau	O
-continent	O
+La	B-OBJ
+partie	I-OBJ
+nord	I-OBJ
+du	I-OBJ
+nouveau	I-OBJ
+continent	I-OBJ
 ne	O
 lui	O
 appartient	O
@@ -6473,7 +6473,7 @@ Clure	I-PER
 ,	O
 dont	O
 le	O
-navire	O
+navire	B-OBJ
 a	O
 franchi	O
 en	O
@@ -6829,11 +6829,11 @@ soutenue	O
 à	O
 coups	O
 de	O
-dollars	O
+dollars	B-OBJ
 ou	O
 de	O
-livres	O
-sterling	O
+livres	B-OBJ
+sterling	I-OBJ
 que	O
 par	O
 l	B-LOC
@@ -6913,7 +6913,7 @@ leurs	O
 délégués	O
 respectifs	O
 un	O
-crédit	O
+crédit	B-OBJ
 qui	O
 ne	O
 pourrait	O
@@ -6944,7 +6944,7 @@ qui	O
 la	O
 toucheraient	O
 comme	O
-indemnité	O
+indemnité	B-OBJ
 ,	O
 en	O
 renonçant	O
@@ -7012,9 +7012,9 @@ délégués	O
 munis	O
 de	O
 leurs	O
-lettres	O
-de	O
-crédit	O
+lettres	B-OBJ
+de	I-OBJ
+crédit	I-OBJ
 ,	O
 quittèrent	O
 Londres	B-LOC
@@ -7169,12 +7169,12 @@ ronde	O
 et	O
 colorée	O
 ,	O
-chevelure	O
-en	O
-nimbe	O
+chevelure	B-OBJ
+en	I-OBJ
+nimbe	I-OBJ
 ,	O
-favoris	O
-grisonnants	O
+favoris	B-OBJ
+grisonnants	I-OBJ
 —	O
 un	O
 brave	O
@@ -7241,10 +7241,10 @@ son	O
 nez	O
 sur	O
 ses	O
-cahiers	O
+cahiers	B-OBJ
 et	O
 ses	O
-livres	O
+livres	B-OBJ
 ,	O
 n	O
 '	O
@@ -7337,8 +7337,8 @@ pour	O
 certain	O
 que	O
 la	O
-calotte	O
-polaire	O
+calotte	B-OBJ
+polaire	I-OBJ
 ,	O
 n	O
 '	O
@@ -7419,11 +7419,11 @@ et	O
 cherchant	O
 inconsciemment	O
 la	O
-poignée	O
+poignée	B-OBJ
 de	O
 l	O
 '	O
-épée	O
+épée	B-OBJ
 qu	O
 '	O
 il	O
@@ -7561,9 +7561,9 @@ anguleux	O
 ,	O
 avec	O
 un	O
-cou	O
-de	O
-bécassine	O
+cou	B-OBJ
+de	I-OBJ
+bécassine	I-OBJ
 ,	O
 une	O
 tête	O
@@ -7653,14 +7653,14 @@ jamais	O
 vu	O
 rire	O
 une	O
-locomotive	O
+locomotive	B-OBJ
 ,	O
-une	O
-machine	O
-élévatoire	O
+une	B-OBJ
+machine	I-OBJ
+élévatoire	I-OBJ
 ou	O
 un	O
-steamer	O
+steamer	B-OBJ
 ?	O
 
 En	O
@@ -7722,7 +7722,7 @@ son	O
 goût	O
 pour	O
 les	O
-calembredaines	O
+calembredaines	B-OBJ
 .	O
 
 Mais	O
@@ -7918,7 +7918,7 @@ Baltimore	B-LOC
 et	O
 par	O
 des	O
-paquebots	O
+paquebots	B-OBJ
 différents	O
 ,	O
 comme	O
@@ -7949,7 +7949,7 @@ avait	O
 en	O
 poche	O
 le	O
-crédit	O
+crédit	B-OBJ
 nécessaire	O
 pour	O
 combattre	O
@@ -8017,7 +8017,7 @@ un	O
 morceau	O
 de	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 ,	O
 où	O
 il	O
@@ -8049,9 +8049,9 @@ rapport	O
 c	O
 '	O
 était	O
-le	O
-délégué	O
-anglais	O
+le	B-OBJ
+délégué	I-OBJ
+anglais	I-OBJ
 ,	O
 auquel	O
 le	B-LOC
@@ -8061,7 +8061,7 @@ Uni	I-LOC
 avait	O
 ouvert	O
 un	O
-crédit	O
+crédit	B-OBJ
 assez	O
 considérable	O
 .	O
@@ -8116,7 +8116,7 @@ sur	O
 le	O
 terrain	O
 des	O
-dollars	O
+dollars	B-OBJ
 .	O
 
 En	O
@@ -8134,8 +8134,8 @@ Société	B-ORG
 devait	O
 avoir	O
 des	O
-fonds	O
-considérables	O
+fonds	B-OBJ
+considérables	I-OBJ
 à	O
 sa	O
 disposition	O
@@ -8189,7 +8189,7 @@ coururent	O
 à	O
 travers	O
 les	O
-journaux	O
+journaux	B-OBJ
 .	O
 
 D	O
@@ -8237,7 +8237,7 @@ fût	O
 pour	O
 entretenir	O
 les	O
-glacières	O
+glacières	B-OBJ
 du	O
 Nouveau	O
 et	O
@@ -8411,14 +8411,14 @@ elle	O
 eût	O
 installé	O
 un	O
-office	O
+office	B-OBJ
 à	O
 Baltimore	B-LOC
 .	O
 
-Pas	O
-de	O
-bureaux	O
+Pas	B-OBJ
+de	I-OBJ
+bureaux	I-OBJ
 ,	O
 pas	O
 d	O
@@ -8452,9 +8452,9 @@ que	O
 l	O
 '	O
 honnête	O
-consignataire	O
-de	O
-morues	O
+consignataire	B-OBJ
+de	I-OBJ
+morues	I-OBJ
 en	O
 sût	O
 plus	O
@@ -8463,12 +8463,12 @@ long	O
 cet	O
 égard	O
 que	O
-le	O
-dernier	O
-portefaix	O
-de	O
-la	O
-ville	O
+le	B-OBJ
+dernier	I-OBJ
+portefaix	I-OBJ
+de	I-OBJ
+la	I-OBJ
+ville	I-OBJ
 .	O
 
 Les	O
@@ -8625,7 +8625,7 @@ Wolesley	I-LOC
 dans	O
 l	O
 '	O
-appartement	O
+appartement	B-OBJ
 occupé	O
 par	O
 le	B-PER
@@ -8694,8 +8694,8 @@ l	O
 '	O
 acquisition	O
 du	O
-domaine	O
-arctique	O
+domaine	B-OBJ
+arctique	I-OBJ
 .	O
 
 Le	B-PER
@@ -8753,10 +8753,10 @@ d	O
 '	O
 après	O
 le	O
-document	O
+document	B-OBJ
 ,	O
 les	O
-communications	O
+communications	B-OBJ
 devaient	O
 être	O
 adressées	O
@@ -8825,29 +8825,29 @@ un	O
 gros	O
 homme	O
 en	O
-habit	O
-noir	O
+habit	B-OBJ
+noir	I-OBJ
 ,	O
 coiffé	O
 d	O
 '	O
 un	O
-chapeau	O
-de	O
-haute	O
-forme	O
+chapeau	B-OBJ
+de	I-OBJ
+haute	I-OBJ
+forme	I-OBJ
 ,	O
 drapé	O
 d	O
 '	O
 un	O
-tablier	O
-blanc	O
+tablier	B-OBJ
+blanc	I-OBJ
 qui	O
 lui	O
 montait	O
 des	O
-bottes	O
+bottes	B-OBJ
 au	O
 menton	O
 .	O
@@ -8899,11 +8899,11 @@ de	O
 me	O
 livrer	O
 un	O
-fort	O
-stock	O
-de	O
-morues	O
-fraîches	O
+fort	B-OBJ
+stock	I-OBJ
+de	I-OBJ
+morues	I-OBJ
+fraîches	I-OBJ
 pour	O
 le	O
 compte	O
@@ -8939,9 +8939,9 @@ mieux	O
 vaudrait	O
 acheter	O
 une	O
-cargaison	O
-de	O
-morues	O
+cargaison	B-OBJ
+de	I-OBJ
+morues	I-OBJ
 que	O
 de	O
 jeter	O
@@ -8990,15 +8990,15 @@ pas	O
 d	O
 '	O
 un	O
-stock	O
-de	O
-morues	O
+stock	B-OBJ
+de	I-OBJ
+morues	I-OBJ
 ,	O
 mais	O
 de	O
 la	O
-calotte	O
-polaire	O
+calotte	B-OBJ
+polaire	I-OBJ
 ...	O
 
 —	O
@@ -9194,23 +9194,23 @@ Société	B-ORG
 entend	O
 exploiter	O
 ces	O
-territoires	O
+territoires	B-OBJ
 ,	O
 si	O
 ce	O
 sont	O
 des	O
-territoires	O
+territoires	B-OBJ
 ,	O
 ou	O
 ces	O
-mers	O
+mers	B-OBJ
 ,	O
 si	O
 ce	O
 sont	O
 des	O
-mers	O
+mers	B-OBJ
 ,	O
 au	O
 point	O
@@ -9321,7 +9321,7 @@ s	O
 redressés	O
 sur	O
 leurs	O
-ergots	O
+ergots	B-OBJ
 ,	O
 et	O
 l	O
@@ -9505,11 +9505,11 @@ avait	O
 peutêtre	O
 trouvé	O
 le	O
-joint	O
+joint	B-OBJ
 .	O
 
-Un	O
-syndicat	O
+Un	B-OBJ
+syndicat	I-OBJ
 ...	O
 
 De	O
@@ -9850,11 +9850,11 @@ l	O
 aurez	O
 achetée	O
 ,	O
-la	O
-propriété	O
-du	O
-domaine	O
-polaire	O
+la	B-OBJ
+propriété	I-OBJ
+du	I-OBJ
+domaine	I-OBJ
+polaire	I-OBJ
 restera	O
 indivise	O
 entre	O
@@ -9963,7 +9963,7 @@ acquéreur	O
 définitif	O
 de	O
 cet	O
-immeuble	O
+immeuble	B-OBJ
 aussi	O
 disputé	O
 qu	O
@@ -10026,7 +10026,7 @@ Harald	I-PER
 .	O
 
 —	O
-Malin	O
+Malin	B-OBJ
 ,	O
 dit	O
 Jacques	B-PER
@@ -10084,7 +10084,7 @@ nous	O
 syndiquons	O
 ,	O
 les	O
-droits	O
+droits	B-OBJ
 de	O
 chaque	O
 État	O
@@ -10099,7 +10099,7 @@ avenir	O
 ...	O
 »	O
 
-C	O
+C	B-OBJ
 '	O
 était	O
 entendu	O
@@ -10114,7 +10114,7 @@ qu	O
 à	O
 savoir	O
 quels	O
-crédits	O
+crédits	B-OBJ
 ces	O
 divers	O
 États	B-MISC
@@ -10181,8 +10181,8 @@ Toodrink	I-PER
 Mais	O
 alors	O
 ,	O
-autre	O
-chose	O
+autre	B-OBJ
+chose	I-OBJ
 .	O
 
 Silence	O
@@ -10197,9 +10197,9 @@ répondre	O
 
 Montrer	O
 son	O
-porte	O
--	O
-monnaie	O
+porte	B-OBJ
+-	I-OBJ
+monnaie	I-OBJ
 ?	O
 
 Vider	O
@@ -10372,8 +10372,8 @@ Toodrink	I-PER
 
 Ou	O
 exagérer	O
-les	O
-crédits	O
+les	B-OBJ
+crédits	I-OBJ
 —	O
 ce	O
 qui	O
@@ -10485,8 +10485,8 @@ l	O
 '	O
 acquisition	O
 du	O
-domaine	O
-arctique	O
+domaine	B-OBJ
+arctique	I-OBJ
 ,	O
 je	O
 ne	O
@@ -10494,8 +10494,8 @@ puis	O
 disposer	O
 que	O
 de	O
-cinquante	O
-rixdalers	O
+cinquante	B-OBJ
+rixdalers	I-OBJ
 .	O
 
 —	O
@@ -10671,16 +10671,16 @@ ne	O
 vendait	O
 que	O
 des	O
-objets	O
-mobiliers	O
+objets	B-OBJ
+mobiliers	I-OBJ
 ,	O
-meubles	O
+meubles	B-OBJ
 ,	O
-ustensiles	O
+ustensiles	B-OBJ
 ,	O
-outils	O
+outils	B-OBJ
 ,	O
-instruments	O
+instruments	B-OBJ
 ,	O
 etc.	O
 ,	O
@@ -10691,13 +10691,13 @@ d	O
 '	O
 art	O
 ,	O
-tableaux	O
+tableaux	B-OBJ
 ,	O
-statues	O
+statues	B-OBJ
 ,	O
-médailles	O
+médailles	B-OBJ
 ,	O
-antiquités	O
+antiquités	B-OBJ
 ?	O
 
 Pourquoi	O
@@ -10711,8 +10711,8 @@ agissait	O
 d	O
 '	O
 une	O
-licitation	O
-immobilière	O
+licitation	B-OBJ
+immobilière	I-OBJ
 ,	O
 n	O
 '	O
@@ -10769,8 +10769,8 @@ d	O
 une	O
 partie	O
 du	O
-globe	O
-terrestre	O
+globe	B-OBJ
+terrestre	I-OBJ
 ?	O
 
 Est	O
@@ -10780,14 +10780,14 @@ que	O
 ce	O
 morceau	O
 de	O
-sphéroïde	O
+sphéroïde	B-OBJ
 pouvait	O
 être	O
 assimilé	O
 à	O
 quelque	O
-meuble	O
-meublant	O
+meuble	B-OBJ
+meublant	I-OBJ
 ,	O
 et	O
 n	O
@@ -10840,8 +10840,8 @@ ces	O
 conditions	O
 ,	O
 et	O
-le	O
-contrat	O
+le	B-OBJ
+contrat	I-OBJ
 n	O
 '	O
 en	O
@@ -10859,28 +10859,28 @@ cela	O
 1	O
 .	O
 
-Le	O
-rixdaler	O
+Le	B-OBJ
+rixdaler	I-OBJ
 =	O
 5,21	O
 ;	O
-le	O
-rouble	O
+le	B-OBJ
+rouble	I-OBJ
 =	O
 3,92	O
 ;	O
-le	O
-kronor	O
+le	B-OBJ
+kronor	I-OBJ
 =	O
 1,32	O
 ;	O
-le	O
-krone	O
+le	B-OBJ
+krone	I-OBJ
 =	O
 1,32	O
 ;	O
-le	O
-shilling	O
+le	B-OBJ
+shilling	I-OBJ
 =	O
 1,15	O
 .	O
@@ -10906,13 +10906,13 @@ Association	I-ORG
 ,	O
 l	O
 '	O
-immeuble	O
+immeuble	B-OBJ
 en	O
 question	O
 tenait	O
 aussi	O
 du	O
-meuble	O
+meuble	B-OBJ
 ,	O
 comme	O
 s	O
@@ -11083,21 +11083,21 @@ côte	I-LOC
 californienne	I-LOC
 ,	O
 avec	O
-forêts	O
+forêts	B-OBJ
 ,	O
 cours	O
 d	O
 '	O
 eau	O
 ,	O
-sol	O
-productif	O
-et	O
-solide	O
+sol	B-OBJ
+productif	I-OBJ
+et	I-OBJ
+solide	I-OBJ
 ,	O
-champs	O
-et	O
-prairies	O
+champs	B-OBJ
+et	I-OBJ
+prairies	I-OBJ
 susceptibles	O
 d	O
 '	O
@@ -11127,7 +11127,7 @@ par	O
 d	O
 '	O
 infranchissables	O
-banquises	O
+banquises	B-OBJ
 ,	O
 et	O
 que	O
@@ -11208,8 +11208,8 @@ le	O
 dénoûment	O
 .	O
 
-La	O
-lutte	O
+La	B-OBJ
+lutte	I-OBJ
 ,	O
 en	O
 somme	O
@@ -11379,12 +11379,12 @@ sous	O
 les	O
 plis	O
 du	O
-pavillon	O
-aux	O
-trente	O
--	O
-huit	O
-étoiles	O
+pavillon	B-OBJ
+aux	I-OBJ
+trente	I-OBJ
+-	I-OBJ
+huit	I-OBJ
+étoiles	I-OBJ
 .	O
 
 Et	O
@@ -11471,7 +11471,7 @@ trop	O
 connue	O
 ,	O
 ses	O
-banknotes	O
+banknotes	B-OBJ
 trop	O
 envahissantes	O
 .	O
@@ -11503,9 +11503,9 @@ eût	O
 fait	O
 sur	O
 des	O
-chevaux	O
-de	O
-course	O
+chevaux	B-OBJ
+de	I-OBJ
+course	I-OBJ
 ,	O
 et	O
 à	O
@@ -11619,7 +11619,7 @@ fait	O
 immédiatement	O
 afficher	O
 cette	O
-cote	O
+cote	B-OBJ
 dans	O
 la	B-LOC
 salle	O
@@ -11892,7 +11892,7 @@ rempli	O
 faire	O
 éclater	O
 les	O
-murs	O
+murs	B-OBJ
 .	O
 
 Seulement	O
@@ -11907,7 +11907,7 @@ entourées	O
 d	O
 '	O
 une	O
-barrière	O
+barrière	B-OBJ
 ,	O
 avaient	O
 été	O
@@ -12037,9 +12037,9 @@ n	O
 '	O
 est	O
 le	O
-consignataire	O
-de	O
-morues	O
+consignataire	B-OBJ
+de	I-OBJ
+morues	I-OBJ
 ,	O
 dont	O
 le	O
@@ -12077,14 +12077,14 @@ qu	O
 au	O
 placement	O
 des	O
-cargaisons	O
+cargaisons	B-OBJ
 qu	O
 '	O
 il	O
 attendait	O
 par	O
 les	O
-navires	O
+navires	B-OBJ
 en	O
 partance	O
 de	O
@@ -12114,7 +12114,7 @@ branle	O
 des	O
 millions	O
 de	O
-dollars	O
+dollars	B-OBJ
 ?	O
 
 Cela	O
@@ -12273,10 +12273,10 @@ de	O
 tenir	O
 l	O
 '	O
-objet	O
-de	O
-la	O
-vente	O
+objet	B-OBJ
+de	I-OBJ
+la	I-OBJ
+vente	I-OBJ
 à	O
 la	O
 disposition	O
@@ -12405,8 +12405,8 @@ commissaire	O
 priseur	O
 ,	O
 une	O
-large	O
-carte	O
+large	B-OBJ
+carte	I-OBJ
 ,	O
 bien	O
 en	O
@@ -12438,9 +12438,9 @@ du	B-LOC
 Cercle	I-LOC
 polaire	I-LOC
 ,	O
-un	O
-trait	O
-rouge	O
+un	B-OBJ
+trait	I-OBJ
+rouge	I-OBJ
 ,	O
 très	O
 apparent	O
@@ -12485,14 +12485,14 @@ devait	O
 occupée	O
 par	O
 une	O
-mer	O
+mer	B-OBJ
 ,	O
 couverte	O
 d	O
 '	O
 une	O
-carapace	O
-glacée	O
+carapace	B-OBJ
+glacée	I-OBJ
 d	O
 '	O
 épaisseur	O
@@ -12528,7 +12528,7 @@ la	O
 nature	O
 de	O
 la	O
-marchandise	O
+marchandise	B-OBJ
 .	O
 
 A	O
@@ -12547,8 +12547,8 @@ Gilmour	I-PER
 entra	O
 par	O
 une	O
-petite	O
-porte	O
+petite	B-OBJ
+porte	I-OBJ
 ,	O
 percée	O
 dans	O
@@ -12594,7 +12594,7 @@ le	O
 long	O
 de	O
 la	O
-barrière	O
+barrière	B-OBJ
 qui	O
 contenait	O
 le	O
@@ -12643,7 +12643,7 @@ au	O
 comptant	O
 ,	O
 «	O
-cash	O
+cash	B-OBJ
 »	O
 suivant	O
 la	O
@@ -12690,7 +12690,7 @@ ce	O
 moment	O
 ,	O
 la	O
-cloche	O
+cloche	B-OBJ
 de	O
 la	O
 salle	O
@@ -12808,7 +12808,7 @@ circulaire	O
 sur	O
 l	O
 '	O
-assistance	O
+assistance	B-OBJ
 .	O
 
 Puis	O
@@ -12875,7 +12875,7 @@ un	O
 lot	O
 d	O
 '	O
-immeubles	O
+immeubles	B-OBJ
 ,	O
 situés	O
 autour	O
@@ -12916,12 +12916,12 @@ détroits	O
 ,	O
 banquises	O
 ,	O
-parties	O
-solides	O
-ou	O
-liquides	O
-généralement	O
-quelconques	O
+parties	B-OBJ
+solides	I-OBJ
+ou	I-OBJ
+liquides	I-OBJ
+généralement	I-OBJ
+quelconques	I-OBJ
 .	O
 »	O
 
@@ -12932,7 +12932,7 @@ son	O
 doigt	O
 vers	O
 le	O
-mur	O
+mur	B-OBJ
 :	O
 «	O
 Veuillez	O
@@ -12943,8 +12943,8 @@ d	O
 '	O
 oeil	O
 sur	O
-la	O
-carte	O
+la	B-OBJ
+carte	I-OBJ
 ,	O
 qui	O
 a	O
@@ -13145,8 +13145,8 @@ est	O
 que	O
 l	O
 '	O
-immeuble	O
-polaire	O
+immeuble	B-OBJ
+polaire	I-OBJ
 sera	O
 définitivement	O
 acquis	O
@@ -13225,7 +13225,7 @@ singulière	O
 ,	O
 insérée	O
 au	O
-document	O
+document	B-OBJ
 ,	O
 et	O
 qui	O
@@ -13338,8 +13338,8 @@ totalité²	O
 de	O
 l	O
 '	O
-immeuble	O
-arctique	O
+immeuble	B-OBJ
+arctique	I-OBJ
 .	O
 
 Que	O
@@ -13503,9 +13503,9 @@ S.	I-PER
 Forster	I-PER
 ,	O
 le	O
-consignataire	O
-de	O
-morues	O
+consignataire	B-OBJ
+de	I-OBJ
+morues	I-OBJ
 ,	O
 gardait	O
 un	O
@@ -13528,13 +13528,13 @@ dans	O
 la	O
 lecture	O
 du	O
-Mercurial	O
-of	O
-New	O
--	O
-Found	O
--	O
-Land	O
+Mercurial	B-OBJ
+of	I-OBJ
+New	I-OBJ
+-	I-OBJ
+Found	I-OBJ
+-	I-OBJ
+Land	I-OBJ
 ,	O
 1	O
 .	O
@@ -13580,9 +13580,9 @@ A	O
 quarante	O
 cents	O
 ,	O
-le	O
-mille	O
-carré	O
+le	B-OBJ
+mille	I-OBJ
+carré	I-OBJ
 !	O
 
 répéta	O
@@ -13672,9 +13672,9 @@ mieux	O
 que	O
 ça	O
 ,	O
-la	O
-calotte	O
-polaire	O
+la	B-OBJ
+calotte	I-OBJ
+polaire	I-OBJ
 ...	O
 »	O
 
@@ -13690,7 +13690,7 @@ ajouter	O
 ...	O
 garantie	O
 pure	O
-glace	O
+glace	B-OBJ
 .	O
 »	O
 
@@ -13709,10 +13709,10 @@ cents	O
 !	O
 »	O
 
-Et	O
-le	O
-délégué	O
-hollandais	O
+Et	B-OBJ
+le	I-OBJ
+délégué	I-OBJ
+hollandais	I-OBJ
 de	O
 surenchérir	O
 de	O
@@ -13825,7 +13825,7 @@ lutte	O
 à	O
 coups	O
 de	O
-dollars	O
+dollars	B-OBJ
 .	O
 
 Cependant	O
@@ -13888,7 +13888,7 @@ la	O
 lecture	O
 de	O
 ses	O
-mercuriales	O
+mercuriales	B-OBJ
 ,	O
 il	O
 prenait	O
@@ -13897,7 +13897,7 @@ marge	O
 quelques	O
 notes	O
 au	O
-crayon	O
+crayon	B-OBJ
 .	O
 
 ¹	O
@@ -13983,7 +13983,7 @@ adjuger	O
 
 Et	O
 son	O
-marteau	O
+marteau	B-OBJ
 s	O
 '	O
 abaissait	O
@@ -13999,9 +13999,9 @@ doigts	O
 d	O
 '	O
 un	O
-bedeau	O
-de	O
-paroisse	O
+bedeau	B-OBJ
+de	I-OBJ
+paroisse	I-OBJ
 .	O
 
 «	O
@@ -14077,9 +14077,9 @@ fit	O
 lever	O
 comme	O
 un	O
-diable	O
-à	O
-ressort	O
+diable	B-OBJ
+à	I-OBJ
+ressort	I-OBJ
 le	B-PER
 major	I-PER
 Donellan	I-PER
@@ -14156,11 +14156,11 @@ assez	O
 désappointés	O
 .	O
 
-Quatre	O
-cent	O
-sept	O
-mille	O
-dollars	O
+Quatre	B-OBJ
+cent	I-OBJ
+sept	I-OBJ
+mille	I-OBJ
+dollars	I-OBJ
 ?	O
 
 C	O
@@ -14179,25 +14179,25 @@ Pôle	I-LOC
 nord	I-LOC
 !	O
 
-Quatre	O
-cent	O
-sept	O
-mille	O
-dollars	O
+Quatre	B-OBJ
+cent	I-OBJ
+sept	I-OBJ
+mille	I-OBJ
+dollars	I-OBJ
 d	O
 '	O
-ice	O
--	O
-bergs	O
+ice	B-OBJ
+-	I-OBJ
+bergs	I-OBJ
 ,	O
 d	O
 '	O
-ice	O
--	O
-fields	O
+ice	B-OBJ
+-	I-OBJ
+fields	I-OBJ
 et	O
 de	O
-banquises	O
+banquises	B-OBJ
 !	O
 
 Et	O
@@ -14282,8 +14282,8 @@ que	O
 devant	O
 le	O
 «	O
-cent	O
-cents	O
+cent	B-OBJ
+cents	I-OBJ
 »	O
 du	B-PER
 major	I-PER
@@ -14347,9 +14347,9 @@ en	O
 se	O
 faisant	O
 un	O
-porte	O
--	O
-voix	O
+porte	B-OBJ
+-	I-OBJ
+voix	I-OBJ
 de	O
 sa	O
 main	O
@@ -14406,7 +14406,7 @@ bras	O
 qui	O
 agitait	O
 son	O
-marteau	O
+marteau	B-OBJ
 ,	O
 en	O
 promenant	O
@@ -14468,7 +14468,7 @@ la	O
 page	O
 de	O
 son	O
-journal	O
+journal	B-OBJ
 .	O
 
 —	O
@@ -14514,9 +14514,9 @@ son	O
 tour	O
 .	O
 
-Son	O
-long	O
-cou	O
+Son	B-OBJ
+long	I-OBJ
+cou	I-OBJ
 pivotait	O
 mécaniquement	O
 à	O
@@ -14530,14 +14530,14 @@ deux	O
 épaules	O
 ,	O
 et	O
-ses	O
-lèvres	O
+ses	B-OBJ
+lèvres	I-OBJ
 s	O
 '	O
 allongeaient	O
 comme	O
 un	O
-bec	O
+bec	B-OBJ
 .	O
 
 Il	O
@@ -14571,8 +14571,8 @@ oeil	O
 oeil	O
 .	O
 
-Ce	O
-diable	O
+Ce	B-OBJ
+diable	I-OBJ
 de	O
 William	B-PER
 S.	I-PER
@@ -14670,23 +14670,23 @@ aurait	O
 entendu	O
 marcher	O
 une	O
-fourmi	O
+fourmi	B-OBJ
 ,	O
 nager	O
 une	O
-ablette	O
+ablette	B-OBJ
 ,	O
 voler	O
 un	O
-papillon	O
+papillon	B-OBJ
 ,	O
 ramper	O
 un	O
-vermisseau	O
+vermisseau	B-OBJ
 ,	O
 remuer	O
 un	O
-microbe	O
+microbe	B-OBJ
 .	O
 
 Tous	O
@@ -14695,21 +14695,21 @@ coeurs	O
 battaient	O
 .	O
 
-Toutes	O
-les	O
-vies	O
+Toutes	B-OBJ
+les	I-OBJ
+vies	I-OBJ
 étaient	O
 suspendues	O
 à	O
 la	O
-bouche	O
+bouche	B-OBJ
 du	B-PER
 major	I-PER
 Donellan	I-PER
 .	O
 
-Sa	O
-tête	O
+Sa	B-OBJ
+tête	I-OBJ
 ,	O
 si	O
 mobile	O
@@ -14738,8 +14738,8 @@ s	O
 '	O
 arracher	O
 le	O
-cuir	O
-chevelu	O
+cuir	B-OBJ
+chevelu	I-OBJ
 .	O
 
 Andrew	B-PER
@@ -14767,7 +14767,7 @@ continuait	O
 à	O
 lire	O
 son	O
-journal	O
+journal	B-OBJ
 ,	O
 et	O
 à	O
@@ -14854,7 +14854,7 @@ totalité	O
 de	O
 l	O
 '	O
-immeuble	O
+immeuble	B-OBJ
 ,	O
 lui	O
 paraissait	O
@@ -14894,14 +14894,14 @@ adjudger	O
 
 Et	O
 son	O
-marteau	O
+marteau	B-OBJ
 était	O
 prêt	O
 à	O
 retomber	O
 sur	O
 la	O
-table	O
+table	B-OBJ
 .	O
 
 «	O
@@ -15000,10 +15000,10 @@ longuement	O
 ,	O
 dans	O
 un	O
-large	O
-foulard	O
-à	O
-carreaux	O
+large	B-OBJ
+foulard	I-OBJ
+à	I-OBJ
+carreaux	I-OBJ
 ,	O
 qui	O
 comprimait	O
@@ -15112,7 +15112,7 @@ véritable	O
 pétarade	O
 d	O
 '	O
-artifices	O
+artifices	B-OBJ
 .	O
 
 Mais	O
@@ -15163,7 +15163,7 @@ retentirent	O
 faire	O
 grelotter	O
 les	O
-vitres	O
+vitres	B-OBJ
 .	O
 
 Le	B-PER
@@ -15194,8 +15194,8 @@ A	O
 ce	O
 prix	O
 du	O
-mille	O
-carré	O
+mille	B-OBJ
+carré	I-OBJ
 ,	O
 cela	O
 faisait	O
@@ -15350,7 +15350,7 @@ s	O
 affaissa	O
 sur	O
 son	O
-banc	O
+banc	B-OBJ
 .	O
 
 «	O
@@ -15364,12 +15364,12 @@ Gilmour	I-PER
 en	O
 frappant	O
 la	O
-table	O
+table	B-OBJ
 du	O
 bout	O
 de	O
 son	O
-marteau	O
+marteau	B-OBJ
 d	O
 '	O
 ivoire	O
@@ -15423,8 +15423,8 @@ puis	O
 ,	O
 par	O
 les	O
-fils	O
-aériens	O
+fils	B-OBJ
+aériens	I-OBJ
 ,	O
 à	O
 la	O
@@ -15438,10 +15438,10 @@ puis	O
 ,	O
 par	O
 les	O
-fils	O
-sous	O
--	O
-marins	O
+fils	B-OBJ
+sous	I-OBJ
+-	I-OBJ
+marins	I-OBJ
 ,	O
 elle	O
 fit	O
@@ -15657,7 +15657,7 @@ autres	O
 collègues	O
 ?	O
 
-Non	O
+Non	B-OBJ
 !	O
 
 Si	O
@@ -15724,8 +15724,8 @@ aventure	O
 extraordinaire	O
 .	O
 
-Le	O
-temps	O
+Le	B-OBJ
+temps	I-OBJ
 n	O
 '	O
 a	O
@@ -15752,7 +15752,7 @@ comme	O
 il	O
 respecte	O
 les	O
-canons	O
+canons	B-OBJ
 hors	O
 d	O
 '	O
@@ -15799,7 +15799,7 @@ membres	O
 ,	O
 tels	O
 que	O
-bras	O
+bras	B-OBJ
 ou	O
 jambes	O
 ,	O
@@ -15976,7 +15976,7 @@ d	O
 '	O
 envoyer	O
 un	O
-projectile	O
+projectile	B-OBJ
 jusque	O
 dans	O
 la	B-LOC
@@ -15990,8 +15990,8 @@ Columbiad	B-PER
 monstre	O
 .	O
 
-Un	O
-canon	O
+Un	B-OBJ
+canon	I-OBJ
 ,	O
 long	O
 de	O
@@ -16029,28 +16029,28 @@ floridienne	O
 puis	O
 chargé	O
 de	O
-quatre	O
-cent	O
-mille	O
-livres	O
-de	O
-fulmi	O
--	O
-coton	O
+quatre	B-OBJ
+cent	I-OBJ
+mille	I-OBJ
+livres	I-OBJ
+de	I-OBJ
+fulmi	I-OBJ
+-	I-OBJ
+coton	I-OBJ
 .	O
 
 Lancé	O
 par	O
 ce	O
-canon	O
+canon	B-OBJ
 ,	O
-un	O
-obus	O
-cylindro	O
--	O
-conique	O
-en	O
-aluminium	O
+un	B-OBJ
+obus	I-OBJ
+cylindro	I-OBJ
+-	I-OBJ
+conique	I-OBJ
+en	I-OBJ
+aluminium	I-OBJ
 s	O
 '	O
 était	O
@@ -16089,7 +16089,7 @@ de	O
 sa	O
 trajectoire	O
 ,	O
-il	O
+il	B-OBJ
 était	O
 retombé	O
 vers	O
@@ -16151,8 +16151,8 @@ ses	O
 hôtes	O
 .	O
 
-Des	O
-hôtes	O
+Des	B-OBJ
+hôtes	I-OBJ
 ,	O
 en	O
 effet	O
@@ -16195,9 +16195,9 @@ pris	O
 place	O
 dans	O
 ce	O
-wagon	O
--	O
-projectile	O
+wagon	B-OBJ
+-	I-OBJ
+projectile	I-OBJ
 .	O
 
 Tous	O
@@ -16277,7 +16277,7 @@ maintenant	B-PONC
 il	O
 plantait	O
 ses	O
-choux	O
+choux	B-OBJ
 ,	O
 il	O
 les	O
@@ -16325,8 +16325,8 @@ relatif	O
 Toujours	O
 impatients	O
 des	O
-grandes	O
-choses	O
+grandes	B-OBJ
+choses	I-OBJ
 ,	O
 ils	O
 rêvaient	O
@@ -16341,7 +16341,7 @@ genre	O
 
 L	O
 '	O
-argent	O
+argent	B-OBJ
 ne	O
 leur	O
 manquait	O
@@ -16404,7 +16404,7 @@ les	B-LOC
 Unis	I-LOC
 dans	O
 leur	O
-projectile	O
+projectile	B-OBJ
 d	O
 '	O
 aluminium	O
@@ -16483,11 +16483,11 @@ venaient	O
 d	O
 '	O
 acheter	O
-ce	O
-lot	O
-de	O
-régions	O
-arctiques	O
+ce	B-OBJ
+lot	I-OBJ
+de	I-OBJ
+régions	I-OBJ
+arctiques	I-OBJ
 .	O
 
 Pourtant	O
@@ -16564,7 +16564,7 @@ Voici	O
 quoi	O
 tenait	O
 cette	O
-générosité	O
+générosité	B-OBJ
 :	O
 
 Depuis	O
@@ -16684,7 +16684,7 @@ nom	O
 d	O
 '	O
 un	O
-boulet	O
+boulet	B-OBJ
 !	O
 
 Mais	O
@@ -16702,11 +16702,11 @@ pourvu	O
 d	O
 '	O
 un	O
-crâne	O
-en	O
-gutta	O
--	O
-percha	O
+crâne	B-OBJ
+en	I-OBJ
+gutta	I-OBJ
+-	I-OBJ
+percha	I-OBJ
 ,	O
 à	O
 la	O
@@ -16808,8 +16808,8 @@ construction	O
 d	O
 '	O
 un	O
-immense	O
-télescope	O
+immense	B-OBJ
+télescope	I-OBJ
 ,	O
 qui	O
 fut	O
@@ -16853,7 +16853,7 @@ Puis	O
 dès	O
 que	O
 le	O
-projectile	O
+projectile	B-OBJ
 eut	O
 été	O
 signalé	O
@@ -16886,8 +16886,8 @@ l	O
 '	O
 oculaire	O
 du	O
-gigantesque	O
-instrument	O
+gigantesque	B-OBJ
+instrument	I-OBJ
 ,	O
 il	O
 s	O
@@ -16905,8 +16905,8 @@ amis	O
 ,	O
 dont	O
 le	O
-véhicule	O
-aérien	O
+véhicule	B-OBJ
+aérien	I-OBJ
 filait	O
 à	O
 travers	O
@@ -16941,7 +16941,7 @@ on	O
 craindre	O
 que	O
 le	O
-projectile	O
+projectile	B-OBJ
 ,	O
 maintenu	O
 dans	O
@@ -16993,7 +16993,7 @@ modifié	O
 la	O
 direction	O
 du	O
-projectile	O
+projectile	B-OBJ
 ,	O
 et	O
 ,	O
@@ -17024,7 +17024,7 @@ il	O
 revenu	O
 vers	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 avec	O
 une	O
 vitesse	O
@@ -17136,7 +17136,7 @@ s	O
 était	O
 abîmé	O
 le	O
-projectile	O
+projectile	B-OBJ
 ,	O
 et	O
 le	O
@@ -17246,11 +17246,11 @@ Océan	I-LOC
 ils	O
 jouaient	O
 aux	O
-dominos	O
+dominos	B-OBJ
 dans	O
 leur	O
-prison	O
-flottante	O
+prison	B-OBJ
+flottante	I-OBJ
 .	O
 
 Maintenant	B-PONC
@@ -17316,8 +17316,8 @@ emmanché	O
 d	O
 '	O
 un	O
-crochet	O
-métallique	O
+crochet	B-OBJ
+métallique	I-OBJ
 .	O
 
 Il	O
@@ -17337,7 +17337,7 @@ huit	B-DUR
 ans	I-DUR
 sonnés	O
 et	O
-carillonnés	O
+carillonnés	B-OBJ
 à	O
 l	O
 '	O
@@ -17397,7 +17397,7 @@ Scorbitt	I-PER
 Enfin	O
 ,	O
 son	O
-cerveau	O
+cerveau	B-OBJ
 ,	O
 soigneusement	O
 emmagasiné	O
@@ -17473,7 +17473,7 @@ les	O
 considérait	O
 comme	O
 des	O
-êtres	O
+êtres	B-OBJ
 d	O
 '	O
 une	O
@@ -17524,10 +17524,10 @@ un	O
 équilibriste	O
 avec	O
 ses	O
-verres	O
+verres	B-OBJ
 et	O
 ses	O
-bouteilles	O
+bouteilles	B-OBJ
 ,	O
 des	O
 intelligences	O
@@ -17554,8 +17554,8 @@ dz	O
 Oui	O
 !	O
 
-Ces	O
-savants	O
+Ces	B-OBJ
+savants	I-OBJ
 lui	O
 paraissaient	O
 dignes	O
@@ -17700,11 +17700,11 @@ cinq	B-DUR
 ans	I-DUR
 ,	O
 ses	O
-cheveux	O
+cheveux	B-OBJ
 plaqués	O
 sur	O
 ses	O
-tempes	O
+tempes	B-OBJ
 ,	O
 comme	O
 une	O
@@ -17714,11 +17714,11 @@ et	O
 reteinte	O
 ,	O
 sa	O
-bouche	O
+bouche	B-OBJ
 trop	O
 meublée	O
 de	O
-dents	O
+dents	B-OBJ
 trop	O
 longues	O
 ,	O
@@ -17815,11 +17815,11 @@ T.	B-PER
 Maston	I-PER
 .	O
 
-La	O
-fortune	O
-de	O
-cette	O
-veuve	O
+La	B-OBJ
+fortune	I-OBJ
+de	I-OBJ
+cette	I-OBJ
+veuve	I-OBJ
 était	O
 très	O
 considérable	O
@@ -18011,20 +18011,20 @@ le	O
 double	O
 commerce	O
 des	O
-articles	O
-de	O
-mode	O
+articles	B-OBJ
+de	I-OBJ
+mode	I-OBJ
 et	O
 des	O
-porcs	O
-salés	O
+porcs	B-OBJ
+salés	I-OBJ
 .	O
 
 Eh	O
 bien	O
 !	O
 cette	O
-fortune	O
+fortune	B-OBJ
 ,	O
 la	O
 généreuse	O
@@ -18049,7 +18049,7 @@ auquel	O
 elle	O
 apporterait	O
 un	O
-trésor	O
+trésor	B-OBJ
 de	O
 tendresse	O
 plus	O
@@ -18128,7 +18128,7 @@ assurée	O
 que	O
 l	O
 '	O
-oeuvre	O
+oeuvre	B-OBJ
 ne	O
 pouvait	O
 être	O
@@ -18143,7 +18143,7 @@ surhumaine	O
 Le	B-PONC
 passé	I-PONC
 du	O
-secrétaire	O
+secrétaire	B-OBJ
 du	B-ORG
 Gun	I-ORG
 -	I-ORG
@@ -18524,8 +18524,8 @@ communication	O
 directe	O
 avec	O
 le	O
-satellite	O
-terrestre	O
+satellite	B-OBJ
+terrestre	I-OBJ
 .	O
 
 Insistait	O
@@ -18540,7 +18540,7 @@ Maston	I-PER
 ,	O
 mettant	O
 son	O
-crochet	O
+crochet	B-OBJ
 sur	O
 ses	O
 lèvres	O
@@ -18657,7 +18657,7 @@ qui	O
 secoua	O
 vigoureusement	O
 la	O
-main	O
+main	B-OBJ
 de	O
 sa	O
 co	O
@@ -18770,7 +18770,7 @@ d	O
 exploiter	O
 ...	O
 les	O
-houillères	O
+houillères	B-OBJ
 du	O
 pôle	O
 boréal	O
@@ -18792,7 +18792,7 @@ IL	O
 Y	O
 AIT	O
 DES	O
-HOUILLÈRES	O
+HOUILLÈRES	B-OBJ
 PRÈS	O
 DU	B-LOC
 PÔLE	I-LOC
@@ -18826,9 +18826,9 @@ aurait	O
 -	O
 il	O
 des	O
-gisements	O
-de	O
-houille	O
+gisements	B-OBJ
+de	I-OBJ
+houille	I-OBJ
 aux	O
 environs	O
 du	O
@@ -18861,10 +18861,10 @@ On	O
 le	O
 sait	O
 ,	O
-les	O
-couches	O
-de	O
-charbon	O
+les	B-OBJ
+couches	I-OBJ
+de	I-OBJ
+charbon	I-OBJ
 sont	O
 répandues	O
 sur	O
@@ -18875,10 +18875,10 @@ de	O
 la	O
 surface	O
 du	O
-globe	O
+globe	B-OBJ
 .	O
 
-Elles	O
+Elles	B-OBJ
 abondent	O
 en	O
 diverses	O
@@ -18969,7 +18969,7 @@ géologiques	O
 ,	O
 l	O
 '	O
-anthracite	O
+anthracite	B-OBJ
 dans	O
 les	O
 terrains	O
@@ -18977,32 +18977,32 @@ les	O
 plus	O
 anciens	O
 ,	O
-la	O
-houille	O
+la	B-OBJ
+houille	I-OBJ
 dans	O
 les	O
 terrains	O
 carbonifères	O
 supérieurs	O
 ,	O
-le	O
-stipite	O
+le	B-OBJ
+stipite	I-OBJ
 dans	O
 les	O
 terrains	O
 secondaires	O
 ,	O
-le	O
-lignite	O
+le	B-OBJ
+lignite	I-OBJ
 dans	O
 les	O
 terrains	O
 tertiaires	O
 .	O
 
-Le	O
-combustible	O
-minéral	O
+Le	B-OBJ
+combustible	I-OBJ
+minéral	I-OBJ
 ne	O
 fera	O
 pas	O
@@ -19028,7 +19028,7 @@ l	O
 '	O
 extraction	O
 du	O
-charbon	O
+charbon	B-OBJ
 ,	O
 dont	O
 l	B-LOC
@@ -19061,7 +19061,7 @@ entier	O
 Or	O
 ,	O
 cette	O
-consommation	O
+consommation	B-OBJ
 ne	O
 semble	O
 pas	O
@@ -19077,7 +19077,7 @@ besoins	O
 de	O
 l	O
 '	O
-industrie	O
+industrie	B-OBJ
 ,	O
 qui	O
 vont	O
@@ -19091,12 +19091,12 @@ augmentant	O
 Que	O
 l	O
 '	O
-électricité	O
+électricité	B-OBJ
 se	O
 substitue	O
 à	O
 la	O
-vapeur	O
+vapeur	B-OBJ
 comme	O
 force	O
 motrice	O
@@ -19108,7 +19108,7 @@ une	O
 dépense	O
 égale	O
 de	O
-houille	O
+houille	B-OBJ
 pour	O
 la	O
 production	O
@@ -19125,7 +19125,7 @@ ne	O
 vit	O
 que	O
 de	O
-charbon	O
+charbon	B-OBJ
 ;	O
 il	O
 ne	O
@@ -19156,7 +19156,7 @@ Et	O
 puis	O
 ,	O
 ce	O
-charbon	O
+charbon	B-OBJ
 ,	O
 ce	O
 n	O
@@ -19183,7 +19183,7 @@ actuellement	B-PONC
 le	O
 plus	O
 de	O
-produits	O
+produits	B-OBJ
 et	O
 de	O
 sous	O
@@ -19230,18 +19230,18 @@ orner	O
 en	O
 produisant	O
 du	O
-diamant	O
+diamant	B-OBJ
 .	O
 
-Il	O
+Il	B-OBJ
 est	O
 aussi	O
 utile	O
 que	O
-le	O
-fer	O
+le	B-OBJ
+fer	I-OBJ
 ;	O
-il	O
+il	B-OBJ
 l	O
 '	O
 est	O
@@ -19255,7 +19255,7 @@ quant	O
 à	O
 ce	O
 dernier	O
-métal	O
+métal	B-OBJ
 ,	O
 il	O
 n	O
@@ -19281,8 +19281,8 @@ la	O
 composition	O
 même	O
 du	O
-globe	O
-terrestre	O
+globe	B-OBJ
+terrestre	I-OBJ
 .	O
 
 En	O
@@ -19295,9 +19295,9 @@ doit	O
 considérée	O
 comme	O
 une	O
-masse	O
-de	O
-fer	O
+masse	B-OBJ
+de	I-OBJ
+fer	I-OBJ
 plus	O
 ou	O
 moins	O
@@ -19312,8 +19312,8 @@ ignée	O
 ,	O
 recouverte	O
 de	O
-silicates	O
-liquides	O
+silicates	B-OBJ
+liquides	I-OBJ
 ,	O
 sorte	O
 de	O
@@ -19321,27 +19321,27 @@ laitier	O
 que	O
 surmontent	O
 les	O
-roches	O
-solides	O
+roches	B-OBJ
+solides	I-OBJ
 et	O
 l	O
 '	O
-eau	O
+eau	B-OBJ
 .	O
 
-Les	O
-autres	O
-métaux	O
+Les	B-OBJ
+autres	I-OBJ
+métaux	I-OBJ
 ,	O
 aussi	O
 bien	O
 que	O
 l	O
 '	O
-eau	O
+eau	B-OBJ
 et	O
 la	O
-pierre	O
+pierre	B-OBJ
 ,	O
 n	O
 '	O
@@ -19357,7 +19357,7 @@ la	O
 composition	O
 de	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 .	O
 
 Mais	O
@@ -19366,7 +19366,7 @@ si	O
 la	O
 consommation	O
 du	O
-fer	O
+fer	B-OBJ
 est	O
 assurée	O
 jusqu	O
@@ -19380,7 +19380,7 @@ siècles	I-PONC
 celle	O
 de	O
 la	O
-houille	O
+houille	B-OBJ
 ne	O
 l	O
 '	O
@@ -19421,7 +19421,7 @@ doivent	O
 donc	O
 rechercher	O
 les	O
-charbonnages	O
+charbonnages	B-OBJ
 partout	O
 où	O
 la	O
@@ -19498,7 +19498,7 @@ aurait	O
 -	O
 il	O
 du	O
-charbon	O
+charbon	B-OBJ
 au	O
 Pôle	B-LOC
 nord	I-LOC
@@ -19587,7 +19587,7 @@ apparition	O
 de	O
 l	O
 '	O
-homme	O
+homme	B-OBJ
 ,	O
 lorsque	O
 notre	O
@@ -19617,14 +19617,14 @@ c	O
 est	O
 ce	O
 que	O
-les	O
-journaux	O
+les	B-OBJ
+journaux	I-OBJ
 ,	O
-les	O
-revues	O
+les	B-OBJ
+revues	I-OBJ
 ,	O
-les	O
-magazines	O
+les	B-OBJ
+magazines	I-OBJ
 ,	O
 à	O
 la	O
@@ -19655,7 +19655,7 @@ scientifique	O
 Or	O
 ,	O
 ces	O
-forêts	O
+forêts	B-OBJ
 ,	O
 enlisées	O
 au	O
@@ -19665,8 +19665,8 @@ des	O
 convulsions	O
 qui	O
 ébranlaient	O
-le	O
-globe	O
+le	B-OBJ
+globe	I-OBJ
 avant	O
 qu	O
 '	O
@@ -19685,7 +19685,7 @@ dû	O
 se	O
 transformer	O
 en	O
-houillères	O
+houillères	B-OBJ
 ,	O
 sous	O
 l	O
@@ -19695,7 +19695,7 @@ du	O
 temps	O
 ,	O
 des	O
-eaux	O
+eaux	B-OBJ
 et	O
 de	O
 la	O
@@ -19723,9 +19723,9 @@ polaire	O
 serait	O
 riche	O
 en	O
-gisements	O
-de	O
-houille	O
+gisements	B-OBJ
+de	I-OBJ
+houille	I-OBJ
 ,	O
 prêts	O
 à	O
@@ -19787,7 +19787,7 @@ des	O
 différentes	O
 variétés	O
 de	O
-charbon	O
+charbon	B-OBJ
 à	O
 la	O
 surface	O
@@ -19918,8 +19918,8 @@ de	O
 vastes	O
 gisements	O
 de	O
-combustible	O
-minéral	O
+combustible	B-OBJ
+minéral	I-OBJ
 ,	O
 si	O
 on	O
@@ -20005,9 +20005,9 @@ Amérique	I-LOC
 —	O
 Comme	O
 une	O
-tête	O
-de	O
-cheval	O
+tête	B-OBJ
+de	I-OBJ
+cheval	I-OBJ
 ,	O
 dont	O
 il	O
@@ -20059,21 +20059,21 @@ Nordenskiöld	I-PER
 a	O
 reconnu	O
 des	O
-formations	O
-sédimentaires	O
+formations	B-OBJ
+sédimentaires	I-OBJ
 ,	O
 constituées	O
 par	O
 des	O
-grès	O
-et	O
-des	O
-schistes	O
+grès	B-OBJ
+et	I-OBJ
+des	I-OBJ
+schistes	I-OBJ
 avec	O
 des	O
-intercalations	O
-de	O
-lignite	O
+intercalations	B-OBJ
+de	I-OBJ
+lignite	I-OBJ
 ,	O
 qui	O
 renferment	O
@@ -20081,8 +20081,8 @@ une	O
 quantité	O
 considérable	O
 de	O
-plantes	O
-fossiles	O
+plantes	B-OBJ
+fossiles	I-OBJ
 .	O
 
 Rien	O
@@ -20098,16 +20098,16 @@ danois	I-PER
 Stoënstrup	B-PER
 a	O
 reconnu	O
-soixante	O
-et	O
-onze	O
-gisements	O
+soixante	B-OBJ
+et	I-OBJ
+onze	I-OBJ
+gisements	I-OBJ
 ,	O
 où	O
 abondent	O
 les	O
-empreintes	O
-végétales	O
+empreintes	B-OBJ
+végétales	I-OBJ
 ,	O
 indiscutables	O
 vestiges	O
@@ -20164,7 +20164,7 @@ major	O
 la	O
 présence	O
 des	O
-houilles	O
+houilles	B-OBJ
 s	O
 '	O
 est	O
@@ -20195,7 +20195,7 @@ Donc	O
 ,	O
 si	O
 ce	O
-charbon	O
+charbon	B-OBJ
 est	O
 ainsi	O
 répandu	O
@@ -20216,8 +20216,8 @@ presque	O
 avec	O
 certitude	O
 que	O
-leurs	O
-gisements	O
+leurs	B-OBJ
+gisements	I-OBJ
 s	O
 '	O
 enfoncent	O
@@ -20346,8 +20346,8 @@ pas	O
 surpris	O
 d	O
 '	O
-une	O
-chose	O
+une	B-OBJ
+chose	I-OBJ
 ,	O
 major	B-PER
 Donellan	I-PER
@@ -20400,7 +20400,7 @@ Pôle	I-LOC
 et	O
 de	O
 ses	O
-houillères	O
+houillères	B-OBJ
 ,	O
 ce	O
 soient	O
@@ -20434,7 +20434,7 @@ chaque	O
 matin	B-PONC
 ,	O
 les	O
-journaux	O
+journaux	B-OBJ
 revenaient	O
 à	O
 la	O
@@ -20443,11 +20443,11 @@ rescousse	O
 propos	O
 de	O
 ces	O
-gisements	O
+gisements	B-OBJ
 ...	O
 
-Des	O
-gisements	O
+Des	B-OBJ
+gisements	I-OBJ
 ?	O
 
 Et	O
@@ -20556,20 +20556,20 @@ existence	O
 d	O
 '	O
 une	O
-flore	O
-miocène	O
+flore	B-OBJ
+miocène	I-OBJ
 ,	O
 riche	O
 en	O
-peupliers	O
+peupliers	B-OBJ
 ,	O
-hêtres	O
+hêtres	B-OBJ
 ,	O
-viornes	O
+viornes	B-OBJ
 ,	O
-noisetiers	O
+noisetiers	B-OBJ
 et	O
-conifères	O
+conifères	B-OBJ
 .	O
 
 —	O
@@ -20604,10 +20604,10 @@ de	I-LOC
 lady	I-LOC
 Franklin	I-LOC
 ,	O
-une	O
-couche	O
-de	O
-charbon	O
+une	B-OBJ
+couche	I-OBJ
+de	I-OBJ
+charbon	I-OBJ
 n	O
 '	O
 a	O
@@ -20662,8 +20662,8 @@ sont	O
 point	O
 dépourvues	O
 de	O
-dépôts	O
-carbonifères	O
+dépôts	B-OBJ
+carbonifères	I-OBJ
 ,	O
 vraisemblablement	O
 destinés	O
@@ -20729,7 +20729,7 @@ aurait	O
 il	O
 ,	O
 des	O
-gisements	O
+gisements	B-OBJ
 ?	O
 »	O
 ,	O
@@ -20759,10 +20759,10 @@ pas	O
 Oui	O
 !	O
 
-Il	O
-y	O
-en	O
-avait	O
+Il	B-OBJ
+y	I-OBJ
+en	I-OBJ
+avait	I-OBJ
 —	O
 et	O
 probablement	O
@@ -20771,15 +20771,15 @@ très	O
 considérables	O
 .	O
 
-Le	O
-sol	O
-circumpolaire	O
+Le	B-OBJ
+sol	I-OBJ
+circumpolaire	I-OBJ
 recélait	O
 des	O
 masses	O
-du	O
-précieux	O
-combustible	O
+du	B-OBJ
+précieux	I-OBJ
+combustible	I-OBJ
 ,	O
 précisément	O
 enfoui	O
@@ -20808,7 +20808,7 @@ sur	O
 la	O
 question	O
 des	O
-houillères	O
+houillères	B-OBJ
 dont	O
 l	O
 '	O
@@ -20905,7 +20905,7 @@ Il	O
 y	O
 a	O
 des	O
-houillères	O
+houillères	B-OBJ
 dans	O
 le	O
 domaine	O
@@ -21067,7 +21067,7 @@ concentré	O
 exact	O
 comme	O
 un	O
-chronomètre	O
+chronomètre	B-OBJ
 ,	O
 aventureux	O
 ,	O
@@ -21253,12 +21253,12 @@ cette	O
 bataille	O
 où	O
 les	O
-dollars	O
+dollars	B-OBJ
 avaient	O
 vaincu	O
 les	O
-pounds	O
-sterlings	O
+pounds	B-OBJ
+sterlings	I-OBJ
 .	O
 
 Ah	O
@@ -21380,9 +21380,9 @@ excellence	O
 
 —	O
 apparaissaient	O
-croquis	O
+croquis	B-OBJ
 et	O
-dessins	O
+dessins	B-OBJ
 ,	O
 montrant	O
 le	B-PER
@@ -21420,17 +21420,17 @@ Gun	I-ORG
 Club	I-ORG
 ,	O
 la	O
-pioche	O
+pioche	B-OBJ
 à	O
 la	O
 main	O
 ,	O
 creusait	O
 un	O
-tunnel	O
-sous	O
--	O
-marin	O
+tunnel	B-OBJ
+sous	I-OBJ
+-	I-OBJ
+marin	I-OBJ
 à	O
 travers	O
 la	O
@@ -21489,7 +21489,7 @@ Nicholl	I-PER
 ,	O
 descendait	O
 en	O
-ballon	O
+ballon	B-OBJ
 sur	O
 ce	O
 lieu	O
@@ -21513,9 +21513,9 @@ tous	O
 trois	O
 conquéraient	O
 un	O
-morceau	O
-de	O
-charbon	O
+morceau	B-OBJ
+de	I-OBJ
+charbon	I-OBJ
 ...	O
 pesant	O
 une	O
@@ -21531,9 +21531,9 @@ tout	O
 ce	O
 que	O
 contenait	O
-le	O
-fameux	O
-gisement	O
+le	B-OBJ
+fameux	I-OBJ
+gisement	I-OBJ
 des	O
 régions	O
 circumpolaires	O
@@ -21586,7 +21586,7 @@ Pôle	I-LOC
 magnétique	I-LOC
 ,	O
 le	O
-secrétaire	O
+secrétaire	B-OBJ
 du	B-ORG
 Gun	I-ORG
 -	I-ORG
@@ -21598,9 +21598,9 @@ au	O
 sol	O
 par	O
 son	O
-crochet	O
-de	O
-métal	O
+crochet	B-OBJ
+de	I-OBJ
+métal	I-OBJ
 .	O
 
 Mentionnons	O
@@ -21610,9 +21610,9 @@ ce	O
 propos	O
 ,	O
 que	O
-le	O
-célèbre	O
-calculateur	O
+le	B-OBJ
+célèbre	I-OBJ
+calculateur	I-OBJ
 était	O
 d	O
 '	O
@@ -21673,8 +21673,8 @@ croquis	O
 ,	O
 dans	O
 la	O
-Lanterne	O
-magique	O
+Lanterne	B-OBJ
+magique	I-OBJ
 ,	O
 de	O
 Bruxelles	B-LOC
@@ -21753,8 +21753,8 @@ ce	O
 qui	O
 convertissait	O
 le	O
-bassin	O
-polaire	O
+bassin	B-OBJ
+polaire	I-OBJ
 en	O
 un	O
 immense	O
@@ -21835,14 +21835,14 @@ Stop	O
 
 Dans	O
 un	O
-estomac	O
-de	O
-baleine	O
+estomac	B-OBJ
+de	I-OBJ
+baleine	I-OBJ
 ,	O
 confortablement	O
 meublé	O
 et	O
-capitonné	O
+capitonné	B-OBJ
 ,	O
 Impey	B-PER
 Barbicane	I-PER
@@ -21939,10 +21939,10 @@ de	O
 cette	O
 intempérance	O
 de	O
-plume	O
+plume	B-OBJ
 et	O
 de	O
-crayon	O
+crayon	B-OBJ
 .	O
 
 Il	O
@@ -21986,8 +21986,8 @@ d	O
 '	O
 exploiter	O
 le	O
-domaine	O
-polaire	O
+domaine	B-OBJ
+polaire	I-OBJ
 dont	O
 la	O
 concession	O
@@ -22012,18 +22012,18 @@ pour	O
 la	O
 somme	O
 de	O
-quinze	O
-millions	O
-de	O
-dollars	O
+quinze	B-OBJ
+millions	I-OBJ
+de	I-OBJ
+dollars	I-OBJ
 .	O
 
-Les	O
-actions	O
-émises	O
-à	O
-cent	O
-dollars	O
+Les	B-OBJ
+actions	I-OBJ
+émises	I-OBJ
+à	I-OBJ
+cent	I-OBJ
+dollars	I-OBJ
 devaient	O
 d	O
 '	O
@@ -22048,14 +22048,14 @@ and	O
 1	O
 .	O
 
-Punch	O
+Punch	B-OBJ
 en	O
 anglais	O
 signifie	O
-polichinelle	O
+polichinelle	B-OBJ
 .	O
 
-Co	O
+Co	B-OBJ
 que	O
 les	O
 souscripteurs	O
@@ -22155,7 +22155,7 @@ l	O
 '	O
 existence	O
 des	O
-houillères	O
+houillères	B-OBJ
 du	B-LOC
 Pôle	I-LOC
 boréal	I-LOC
@@ -22179,8 +22179,8 @@ trois	O
 fois	O
 .	O
 
-Les	O
-souscriptions	O
+Les	B-OBJ
+souscriptions	I-OBJ
 durent	O
 donc	O
 être	O
@@ -22198,20 +22198,20 @@ du	O
 16	B-PONC
 décembre	I-PONC
 ,	O
-le	O
-capital	O
-social	O
+le	B-OBJ
+capital	I-OBJ
+social	I-OBJ
 fut	O
 définitivement	O
 constitué	O
 par	O
 un	O
-encaisse	O
+encaisse	B-OBJ
 de	O
-quinze	O
-millions	O
-de	O
-dollars	O
+quinze	B-OBJ
+millions	I-OBJ
+de	I-OBJ
+dollars	I-OBJ
 .	O
 
 C	O
@@ -22238,7 +22238,7 @@ la	O
 grande	O
 expérience	O
 du	O
-projectile	O
+projectile	B-OBJ
 envoyé	O
 de	O
 la	B-LOC
@@ -22285,7 +22285,7 @@ but	O
 et	O
 maintenant	B-PONC
 le	O
-capital	O
+capital	B-OBJ
 dont	O
 il	O
 disposait	O
@@ -22317,7 +22317,7 @@ de	O
 faire	O
 appel	O
 aux	O
-capitaux	O
+capitaux	B-OBJ
 ,	O
 s	O
 '	O
@@ -22437,13 +22437,13 @@ enchère	O
 ils	O
 ajouteraient	O
 au	O
-pavillon	O
-américain	O
+pavillon	B-OBJ
+américain	I-OBJ
 la	O
-trente	O
--	O
-neuvième	O
-étoile	O
+trente	B-OBJ
+-	I-OBJ
+neuvième	I-OBJ
+étoile	I-OBJ
 du	O
 trente	O
 -	O
@@ -22535,7 +22535,7 @@ C	O
 était	O
 de	O
 ce	O
-cerveau	O
+cerveau	B-OBJ
 ,	O
 où	O
 les	O
@@ -22681,11 +22681,11 @@ le	O
 voir	O
 manier	O
 les	O
-symboles	O
+symboles	B-OBJ
 ,	O
-les	O
-signes	O
-conventionnels	O
+les	B-OBJ
+signes	I-OBJ
+conventionnels	I-OBJ
 qui	O
 forment	O
 la	O
@@ -22695,11 +22695,11 @@ algébrique	O
 soit	O
 que	O
 —	O
-lettres	O
+lettres	B-OBJ
 de	O
 l	O
 '	O
-alphabet	O
+alphabet	B-OBJ
 —	O
 elles	O
 représentent	O
@@ -22711,10 +22711,10 @@ grandeurs	O
 soit	O
 que	O
 —	O
-lignes	O
-accouplées	O
-ou	O
-croisées	O
+lignes	B-OBJ
+accouplées	I-OBJ
+ou	I-OBJ
+croisées	I-OBJ
 —	O
 elles	O
 indiquent	O
@@ -22740,17 +22740,17 @@ soumet	O
 
 Ah	O
 !	O
-les	O
-coefficients	O
+les	B-OBJ
+coefficients	I-OBJ
 ,	O
-les	O
-exposants	O
+les	B-OBJ
+exposants	I-OBJ
 ,	O
-les	O
-radicaux	O
+les	B-OBJ
+radicaux	I-OBJ
 ,	O
-les	O
-indices	O
+les	B-OBJ
+indices	I-OBJ
 et	O
 autres	O
 dispositions	O
@@ -22767,24 +22767,24 @@ signes	O
 voltigeaient	O
 sous	O
 sa	O
-plume	O
+plume	B-OBJ
 ,	O
 ou	O
 plutôt	O
 sous	O
 le	O
-morceau	O
-de	O
-craie	O
+morceau	B-OBJ
+de	I-OBJ
+craie	I-OBJ
 qui	O
 frétillait	O
 au	O
 bout	O
 de	O
 son	O
-crochet	O
-de	O
-fer	O
+crochet	B-OBJ
+de	I-OBJ
+fer	I-OBJ
 ,	O
 car	O
 il	O
@@ -22859,11 +22859,11 @@ non	O
 c	O
 '	O
 étaient	O
-des	O
-chiffres	O
-fantaisistes	O
+des	B-OBJ
+chiffres	I-OBJ
+fantaisistes	I-OBJ
 ,	O
-gigantesques	O
+gigantesques	B-OBJ
 ,	O
 tracés	O
 d	O
@@ -22883,9 +22883,9 @@ s	O
 arrondissaient	O
 comme	O
 des	O
-cocotes	O
-de	O
-papier	O
+cocotes	B-OBJ
+de	I-OBJ
+papier	I-OBJ
 à	O
 la	O
 promenade	O
@@ -22896,7 +22896,7 @@ se	O
 dessinaient	O
 comme	O
 des	O
-potences	O
+potences	B-OBJ
 ,	O
 et	O
 il	O
@@ -22907,18 +22907,18 @@ manquait	O
 qu	O
 '	O
 un	O
-pendu	O
+pendu	B-OBJ
 ;	O
-ses	O
-8	O
+ses	B-OBJ
+8	I-OBJ
 se	O
 recourbaient	O
 comme	O
 de	O
-larges	O
-paires	O
-de	O
-lunettes	O
+larges	B-OBJ
+paires	I-OBJ
+de	I-OBJ
+lunettes	I-OBJ
 ;	O
 ses	O
 6	O
@@ -22928,8 +22928,8 @@ ses	O
 se	O
 paraphaient	O
 de	O
-queues	O
-interminables	O
+queues	B-OBJ
+interminables	I-OBJ
 !	O
 
 Et	O
@@ -23023,15 +23023,15 @@ ses	O
 lettres	O
 grecques	O
 ,	O
-les	O
-$	O
-\pi	O
-$	O
+les	B-OBJ
+$	I-OBJ
+\pi	I-OBJ
+$	I-OBJ
 ,	O
-les	O
-$	O
-\lambda	O
-$	O
+les	B-OBJ
+$	I-OBJ
+\lambda	I-OBJ
+$	I-OBJ
 ,	O
 les	O
 $	O
@@ -23053,7 +23053,7 @@ fiers	O
 
 Quant	O
 aux	O
-signes	O
+signes	B-OBJ
 ,	O
 tracés	O
 d	O
@@ -23113,7 +23113,7 @@ se	O
 dressaient	O
 comme	O
 des	O
-croix	O
+croix	B-OBJ
 de	O
 Saint	B-LOC
 -	B-LOC
@@ -23235,8 +23235,8 @@ le	O
 complétait	O
 de	O
 la	O
-barre	O
-horizontale	O
+barre	B-OBJ
+horizontale	I-OBJ
 sous	O
 cette	O
 forme	O
@@ -23246,20 +23246,20 @@ il	O
 semblait	O
 que	O
 ce	O
-bras	O
-indicateur	O
+bras	B-OBJ
+indicateur	I-OBJ
 ,	O
 dépassant	O
 la	O
 limite	O
 du	O
-tableau	O
-noir	O
+tableau	B-OBJ
+noir	I-OBJ
 ,	O
 menaçait	O
 le	O
-monde	O
-entier	O
+monde	B-OBJ
+entier	I-OBJ
 de	O
 le	O
 soumettre	O
@@ -23297,7 +23297,7 @@ algèbre	O
 élémentaire	O
 !	O
 
-Non	O
+Non	B-OBJ
 !	O
 
 Ni	O
@@ -23343,7 +23343,7 @@ l	O
 intégration	O
 ,	O
 cette	O
-lettre	O
+lettre	B-OBJ
 ,	O
 effrayante	O
 dans	O
@@ -23389,7 +23389,7 @@ finis	O
 ,	O
 du	O
 signe	O
-∞	O
+∞	B-OBJ
 par	O
 lequel	O
 les	O
@@ -23495,7 +23495,7 @@ problème	O
 d	O
 '	O
 un	O
-projectile	O
+projectile	B-OBJ
 à	O
 lancer	O
 de	O
@@ -23516,8 +23516,8 @@ Scorbitt	I-PER
 ,	O
 enivrée	O
 de	O
-sa	O
-gloire	O
+sa	B-OBJ
+gloire	I-OBJ
 ,	O
 avait	O
 pour	O
@@ -23614,7 +23614,7 @@ d	O
 un	O
 problème	O
 de	O
-mécanique	O
+mécanique	B-OBJ
 à	O
 résoudre	O
 ,	O
@@ -23723,7 +23723,7 @@ ses	O
 calculs	O
 avaient	O
 pour	O
-objet	O
+objet	B-OBJ
 la	O
 mesure	O
 d	O
@@ -23974,7 +23974,7 @@ Fire	B-PER
 -	O
 Fire	O
 —	O
-Feu	O
+Feu	B-OBJ
 -	O
 Feu	O
 !	O
@@ -23990,8 +23990,8 @@ un	O
 artilleur	O
 .	O
 
-Ce	O
-nègre	O
+Ce	B-OBJ
+nègre	I-OBJ
 n	O
 '	O
 était	O
@@ -24016,7 +24016,7 @@ il	O
 eût	O
 servi	O
 sa	O
-pièce	O
+pièce	B-OBJ
 .	O
 
 J	O
@@ -24070,7 +24070,7 @@ quatre	O
 boeufs	O
 à	O
 la	O
-charrue	O
+charrue	B-OBJ
 !	O
 »	O
 et	O
@@ -24160,10 +24160,10 @@ la	O
 médiocrité	O
 de	O
 sa	O
-fortune	O
+fortune	B-OBJ
 pour	O
 les	O
-richesses	O
+richesses	B-OBJ
 d	O
 '	O
 un	O
@@ -24250,31 +24250,31 @@ cette	O
 transformation	O
 .	O
 
-Le	O
-cottage	O
+Le	B-OBJ
+cottage	I-OBJ
 était	O
 très	O
 simple	O
 .	O
 
-Un	O
-rez	O
--	O
-de	O
--	O
-chaussée	O
-à	O
-véranda	O
+Un	B-OBJ
+rez	I-OBJ
+-	I-OBJ
+de	I-OBJ
+-	I-OBJ
+chaussée	I-OBJ
+à	I-OBJ
+véranda	I-OBJ
 et	O
-un	O
-étage	O
-au	O
--	O
-dessus	O
+un	B-OBJ
+étage	I-OBJ
+au	I-OBJ
+-	I-OBJ
+dessus	I-OBJ
 .	O
 
-Petit	O
-salon	O
+Petit	B-OBJ
+salon	I-OBJ
 et	O
 petite	O
 salle	O
@@ -24305,16 +24305,16 @@ jardinet	O
 En	O
 haut	O
 ,	O
-chambre	O
-à	O
-coucher	O
+chambre	B-OBJ
+à	I-OBJ
+coucher	I-OBJ
 sur	O
 la	O
 rue	O
 ,	O
-cabinet	O
-de	O
-travail	O
+cabinet	B-OBJ
+de	I-OBJ
+travail	I-OBJ
 sur	O
 le	O
 jardin	O
@@ -24422,9 +24422,9 @@ hall	O
 grandiose	O
 ,	O
 ses	O
-galeries	O
-de	O
-tableaux	O
+galeries	B-OBJ
+de	I-OBJ
+tableaux	I-OBJ
 ,	O
 dans	O
 lesquelles	O
@@ -24436,36 +24436,36 @@ la	O
 haute	O
 place	O
 ,	O
-son	O
-escalier	O
-à	O
-double	O
-révolution	O
+son	B-OBJ
+escalier	I-OBJ
+à	I-OBJ
+double	I-OBJ
+révolution	I-OBJ
 ,	O
-son	O
-nombreux	O
-domestique	O
+son	B-OBJ
+nombreux	I-OBJ
+domestique	I-OBJ
+,	O
+ses	B-OBJ
+écuries	I-OBJ
 ,	O
 ses	O
-écuries	O
-,	O
-ses	O
-remises	O
+remises	B-OBJ
 ,	O
 son	O
 jardin	O
 avec	O
 pelouses	O
 ,	O
-grands	O
-arbres	O
+grands	B-OBJ
+arbres	I-OBJ
 ,	O
-fontaines	O
-jaillissantes	O
+fontaines	B-OBJ
+jaillissantes	I-OBJ
 ,	O
 et	O
 la	O
-tour	O
+tour	B-OBJ
 qui	O
 dominait	O
 l	O
@@ -24490,8 +24490,8 @@ des	B-PER
 Scorbitts	I-PER
 !	O
 
-Trois	O
-milles	O
+Trois	B-OBJ
+milles	I-OBJ
 ,	O
 oui	O
 !	O
@@ -24518,10 +24518,10 @@ Cottage	I-LOC
 .	O
 
 Mais	O
-un	O
-fil	O
-télégraphique	O
-spécial	O
+un	B-OBJ
+fil	I-OBJ
+télégraphique	I-OBJ
+spécial	I-OBJ
 reliait	O
 les	O
 deux	O
@@ -24542,11 +24542,11 @@ la	O
 communication	O
 entre	O
 le	O
-cottage	O
+cottage	B-OBJ
 et	O
 l	O
 '	O
-hôtel	O
+hôtel	B-OBJ
 ,	O
 la	O
 conversation	O
@@ -24596,8 +24596,8 @@ T.	B-PER
 Maston	I-PER
 devant	O
 sa	O
-plaque	O
-vibrante	O
+plaque	B-OBJ
+vibrante	I-OBJ
 que	O
 J	B-PER
 .	I-PER
@@ -24617,7 +24617,7 @@ sienne	O
 
 Alors	O
 le	O
-calculateur	O
+calculateur	B-OBJ
 quittait	O
 son	O
 travail	O
@@ -24640,8 +24640,8 @@ un	O
 grognement	O
 dont	O
 le	O
-courant	O
-électrique	O
+courant	B-OBJ
+électrique	I-OBJ
 ,	O
 il	O
 faut	O
@@ -24732,7 +24732,7 @@ d	O
 '	O
 exploiter	O
 les	O
-gisements	O
+gisements	B-OBJ
 enfouis	O
 sous	O
 ses	O
@@ -25029,7 +25029,7 @@ chacun	O
 prit	O
 congé	O
 du	O
-calculateur	O
+calculateur	B-OBJ
 .	O
 
 La	O
@@ -25087,7 +25087,7 @@ tête	O
 sans	O
 prendre	O
 la	O
-craie	O
+craie	B-OBJ
 ,	O
 au	O
 problème	O
@@ -25103,7 +25103,7 @@ certains	O
 ouvrages	O
 relatifs	O
 aux	O
-éléments	O
+éléments	B-OBJ
 ,	O
 la	B-LOC
 Terre	I-LOC
@@ -25136,7 +25136,7 @@ de	O
 son	O
 orbite	O
 —	O
-éléments	O
+éléments	B-OBJ
 qui	O
 devaient	O
 former	O
@@ -25173,10 +25173,10 @@ de	O
 la	B-LOC
 Terre	I-LOC
 :	O
-un	O
-ellipsoïde	O
-de	O
-révolution	O
+un	B-OBJ
+ellipsoïde	I-OBJ
+de	I-OBJ
+révolution	I-OBJ
 ,	O
 dont	O
 le	O
@@ -25225,7 +25225,7 @@ l	O
 aplatissement	O
 de	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 aux	B-LOC
 Pôles	I-LOC
 ,	O
@@ -25260,10 +25260,10 @@ de	O
 kilomètres	O
 .	O
 
-Surface	O
+Surface	B-OBJ
 de	O
 la	B-LOC
-Terre	O
+Terre	B-OBJ
 
 —	O
 évaluation	O
@@ -25337,7 +25337,7 @@ supérieure	O
 la	O
 densité	O
 du	O
-spath	O
+spath	B-OBJ
 pesant	O
 ,	O
 presque	O
@@ -25388,7 +25388,7 @@ au	O
 moyen	O
 de	O
 la	O
-balance	O
+balance	B-OBJ
 inventée	O
 et	O
 construite	O
@@ -25467,7 +25467,7 @@ qui	O
 donne	O
 à	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 —	O
 par	O
 seconde	O
@@ -25571,10 +25571,10 @@ qui	O
 intercepte	O
 dans	O
 un	O
-cercle	O
+cercle	B-OBJ
 quelconque	O
 un	O
-arc	O
+arc	B-OBJ
 égal	O
 au	O
 rayon	O
@@ -25608,7 +25608,7 @@ agit	O
 d	O
 '	O
 une	O
-oeuvre	O
+oeuvre	B-OBJ
 aussi	O
 mémorable	O
 —	O
@@ -25642,8 +25642,8 @@ attaqua	O
 son	O
 problème	O
 par	O
-la	O
-base	O
+la	B-OBJ
+base	I-OBJ
 ,	O
 c	O
 '	O
@@ -25668,8 +25668,8 @@ l	O
 un	O
 de	O
 ses	O
-grands	O
-cercles	O
+grands	B-OBJ
+cercles	I-OBJ
 ,	O
 soit	O
 à	O
@@ -25678,9 +25678,9 @@ l	B-LOC
 Équateur	I-LOC
 .	O
 
-Le	O
-tableau	O
-noir	O
+Le	B-OBJ
+tableau	I-OBJ
+noir	I-OBJ
 était	O
 là	O
 ,	O
@@ -25688,14 +25688,14 @@ dans	O
 un	O
 angle	O
 du	O
-cabinet	O
+cabinet	B-OBJ
 ,	O
 sur	O
-le	O
-chevalet	O
-de	O
-chêne	O
-ciré	O
+le	B-OBJ
+chevalet	I-OBJ
+de	I-OBJ
+chêne	I-OBJ
+ciré	I-OBJ
 ,	O
 bien	O
 éclairé	O
@@ -25704,7 +25704,7 @@ l	O
 '	O
 une	O
 des	O
-fenêtres	O
+fenêtres	B-OBJ
 qui	O
 s	O
 '	O
@@ -25715,17 +25715,17 @@ du	O
 jardin	O
 .	O
 
-De	O
-petits	O
-bâtons	O
-de	O
-craie	O
+De	B-OBJ
+petits	I-OBJ
+bâtons	I-OBJ
+de	I-OBJ
+craie	I-OBJ
 étaient	O
 rangés	O
 sur	O
 la	O
-planchette	O
-ajustée	O
+planchette	B-OBJ
+ajustée	I-OBJ
 au	O
 bas	O
 du	O
@@ -25746,19 +25746,19 @@ la	O
 main	O
 gauche	O
 du	O
-calculateur	O
+calculateur	B-OBJ
 .	O
 
 Quant	O
 à	O
-sa	O
-main	O
-droite	O
+sa	B-OBJ
+main	I-OBJ
+droite	I-OBJ
 ou	O
 plutôt	O
 son	O
-crochet	O
-postiche	O
+crochet	B-OBJ
+postiche	I-OBJ
 ,	O
 il	O
 était	O
@@ -25797,8 +25797,8 @@ circonférence	O
 qui	O
 représentait	O
 le	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 .	O
 
 A	O
@@ -25809,7 +25809,7 @@ l	B-LOC
 la	O
 courbure	O
 du	O
-globe	O
+globe	B-OBJ
 fut	O
 marquée	O
 par	O
@@ -25948,7 +25948,7 @@ l	O
 '	O
 état	O
 du	O
-ciel	O
+ciel	B-OBJ
 —	O
 lequel	O
 s	O
@@ -25990,14 +25990,14 @@ les	O
 vivants	O
 .	O
 
-Des	O
-nuages	O
-livides	O
+Des	B-OBJ
+nuages	I-OBJ
+livides	I-OBJ
 ,	O
-sortes	O
-de	O
-flocons	O
-blanchâtres	O
+sortes	B-OBJ
+de	I-OBJ
+flocons	I-OBJ
+blanchâtres	I-OBJ
 ,	O
 accumulés	O
 sur	O
@@ -26014,15 +26014,15 @@ la	O
 ville	O
 .	O
 
-Des	O
-roulements	O
-lointains	O
+Des	B-OBJ
+roulements	I-OBJ
+lointains	I-OBJ
 se	O
 répercutaient	O
 entre	O
 les	O
-cavités	O
-sonores	O
+cavités	B-OBJ
+sonores	I-OBJ
 de	O
 la	B-LOC
 Terre	I-LOC
@@ -26046,8 +26046,8 @@ atmosphère	O
 ,	O
 où	O
 la	O
-tension	O
-électrique	O
+tension	B-OBJ
+électrique	I-OBJ
 était	O
 portée	O
 au	O
@@ -26080,9 +26080,9 @@ rien	O
 
 Soudain	O
 ,	O
-un	O
-timbre	O
-électrique	O
+un	B-OBJ
+timbre	I-OBJ
+électrique	I-OBJ
 troubla	O
 par	O
 ses	O
@@ -26126,8 +26126,8 @@ c	O
 est	O
 par	O
 le	O
-fil	O
-téléphonique	O
+fil	B-OBJ
+téléphonique	I-OBJ
 !	O
 ...	O
 Une	O
@@ -26169,8 +26169,8 @@ s	O
 '	O
 avançant	O
 vers	O
-la	O
-plaque	O
+la	B-OBJ
+plaque	I-OBJ
 :	O
 «	O
 Que	O
@@ -26276,11 +26276,11 @@ ne	O
 pas	O
 impressionner	O
 la	O
-plaque	O
+plaque	B-OBJ
 de	O
 l	O
 '	O
-appareil	O
+appareil	B-OBJ
 .	O
 
 Puis	O
@@ -26388,7 +26388,7 @@ soin	O
 de	O
 fermer	O
 vos	O
-fenêtres	O
+fenêtres	B-OBJ
 ...	O
 »	O
 
@@ -26404,11 +26404,11 @@ phrase	O
 ,	O
 qu	O
 '	O
-un	O
-formidable	O
-coup	O
-de	O
-tonnerre	O
+un	B-OBJ
+formidable	I-OBJ
+coup	I-OBJ
+de	I-OBJ
+tonnerre	I-OBJ
 emplissait	O
 l	O
 '	O
@@ -26420,11 +26420,11 @@ eût	O
 dit	O
 qu	O
 '	O
-une	O
-immense	O
-pièce	O
-de	O
-soie	O
+une	B-OBJ
+immense	I-OBJ
+pièce	I-OBJ
+de	I-OBJ
+soie	I-OBJ
 se	O
 déchirait	O
 sur	O
@@ -26447,23 +26447,23 @@ Cottage	I-LOC
 ,	O
 et	O
 le	O
-fluide	O
+fluide	B-OBJ
 ,	O
 conduit	O
 par	O
 le	O
-fil	O
-du	O
-téléphone	O
+fil	B-OBJ
+du	I-OBJ
+téléphone	I-OBJ
 ,	O
 venait	O
 d	O
 '	O
 envahir	O
 le	O
-cabinet	O
-du	O
-calculateur	O
+cabinet	B-OBJ
+du	I-OBJ
+calculateur	I-OBJ
 avec	O
 une	O
 brutalité	O
@@ -26480,7 +26480,7 @@ Maston	I-PER
 penché	O
 sur	O
 la	O
-plaque	O
+plaque	B-OBJ
 de	O
 l	O
 '	O
@@ -26490,8 +26490,8 @@ reçut	O
 la	O
 plus	O
 belle	O
-gifle	O
-voltaïque	O
+gifle	B-OBJ
+voltaïque	I-OBJ
 qui	O
 ait	O
 jamais	O
@@ -26514,9 +26514,9 @@ l	O
 filant	O
 par	O
 son	O
-crochet	O
-de	O
-fer	O
+crochet	B-OBJ
+de	I-OBJ
+fer	I-OBJ
 ,	O
 il	O
 fut	O
@@ -26524,18 +26524,18 @@ renversé	O
 comme	O
 un	O
 simple	O
-capucin	O
-de	O
-carte	O
+capucin	B-OBJ
+de	I-OBJ
+carte	I-OBJ
 .	O
 
 En	O
 même	O
 temps	O
 ,	O
-le	O
-tableau	O
-noir	O
+le	B-OBJ
+tableau	I-OBJ
+noir	I-OBJ
 ,	O
 heurté	O
 par	O
@@ -26573,9 +26573,9 @@ vitre	O
 ,	O
 gagna	O
 un	O
-tuyau	O
-de	O
-conduite	O
+tuyau	B-OBJ
+de	I-OBJ
+conduite	I-OBJ
 et	O
 alla	O
 se	O
@@ -26657,21 +26657,21 @@ cabinet	O
 ,	O
 redressa	O
 son	O
-chevalet	O
+chevalet	B-OBJ
 ,	O
 replaça	O
 son	O
-tableau	O
+tableau	B-OBJ
 ,	O
 ramassa	O
 les	O
-bouts	O
-de	O
-craie	O
+bouts	B-OBJ
+de	I-OBJ
+craie	I-OBJ
 éparpillés	O
 sur	O
 le	O
-tapis	O
+tapis	B-OBJ
 ,	O
 et	O
 vint	O
@@ -26697,11 +26697,11 @@ de	O
 la	O
 chute	O
 du	O
-tableau	O
+tableau	B-OBJ
 ,	O
 l	O
 '	O
-inscription	O
+inscription	B-OBJ
 qu	O
 '	O
 il	O
@@ -26736,8 +26736,8 @@ la	O
 rétablir	O
 ,	O
 lorsque	O
-le	O
-timbre	O
+le	B-OBJ
+timbre	I-OBJ
 résonna	O
 de	O
 nouveau	O
@@ -26837,8 +26837,8 @@ grand	O
 Dieu	B-PER
 !	O
 ...	O
-La	O
-foudre	O
+La	B-OBJ
+foudre	I-OBJ
 ...	O
 
 —	O
@@ -26866,8 +26866,8 @@ Maston	I-PER
 ?	O
 
 —	O
-Pas	O
-eu	O
+Pas	B-OBJ
+eu	I-OBJ
 .	O
 
 —	O
@@ -26955,7 +26955,7 @@ si	O
 maladroitement	O
 appelé	O
 au	O
-téléphone	O
+téléphone	B-OBJ
 ,	O
 je	O
 n	O
@@ -27018,15 +27018,15 @@ travaux	O
 il	O
 rendit	O
 son	O
-appareil	O
+appareil	B-OBJ
 complètement	O
 aphone	O
 ,	O
 en	O
 interrompant	O
 la	O
-communication	O
-électrique	O
+communication	B-OBJ
+électrique	I-OBJ
 .	O
 
 Reprenant	O
@@ -27065,7 +27065,7 @@ posa	O
 gauche	O
 sur	O
 le	O
-tableau	O
+tableau	B-OBJ
 ,	O
 après	O
 avoir	O
@@ -27153,7 +27153,7 @@ pour	O
 en	O
 exploiter	O
 les	O
-houillères	O
+houillères	B-OBJ
 était	O
 mathématiquement	O
 établi	O
@@ -27186,8 +27186,8 @@ accordait	O
 la	O
 concession	O
 du	O
-domaine	O
-arctique	O
+domaine	B-OBJ
+arctique	I-OBJ
 pour	O
 le	O
 cas	O
@@ -27305,8 +27305,8 @@ est	O
 à	O
 peine	O
 si	O
-le	O
-square	O
+le	B-OBJ
+square	I-OBJ
 lui	O
 -	O
 même	O
@@ -27346,9 +27346,9 @@ de	O
 Baltimore	B-LOC
 ,	O
 lorsque	O
-la	O
-colonne	O
-mercurielle	O
+la	B-OBJ
+colonne	I-OBJ
+mercurielle	I-OBJ
 s	O
 '	O
 abaisse	O
@@ -27392,10 +27392,10 @@ oublié	O
 orné	O
 d	O
 '	O
-engins	O
-de	O
-toutes	O
-sortes	O
+engins	B-OBJ
+de	I-OBJ
+toutes	I-OBJ
+sortes	I-OBJ
 ,	O
 empruntés	O
 à	O
@@ -27418,19 +27418,19 @@ d	O
 artillerie	O
 .	O
 
-Les	O
-meubles	O
-eux	O
--	O
-mêmes	O
+Les	B-OBJ
+meubles	I-OBJ
+eux	I-OBJ
+-	I-OBJ
+mêmes	I-OBJ
 ,	O
-sièges	O
-et	O
-tables	O
+sièges	B-OBJ
+et	I-OBJ
+tables	I-OBJ
 ,	O
-fauteuils	O
-et	O
-divans	O
+fauteuils	B-OBJ
+et	I-OBJ
+divans	I-OBJ
 ,	O
 rappelaient	O
 ,	O
@@ -27478,8 +27478,8 @@ il	O
 avait	O
 fallu	O
 remiser	O
-cet	O
-encombrement	O
+cet	B-OBJ
+encombrement	I-OBJ
 .	O
 
 Ce	O
@@ -27600,7 +27600,7 @@ des	O
 places	O
 rapprochées	O
 du	O
-bureau	O
+bureau	B-OBJ
 .	O
 
 On	O
@@ -27620,9 +27620,9 @@ Bloomsberry	I-PER
 Tom	B-PER
 Hunter	I-PER
 aux	O
-jambes	O
-de	O
-bois	O
+jambes	B-OBJ
+de	I-OBJ
+bois	I-OBJ
 et	O
 leur	O
 collègue	O
@@ -27636,7 +27636,7 @@ galamment	O
 ,	O
 un	O
 confortable	O
-fauteuil	O
+fauteuil	B-OBJ
 avait	O
 été	O
 réservé	O
@@ -27694,18 +27694,18 @@ cité	O
 fleurissaient	O
 de	O
 leurs	O
-chapeaux	O
+chapeaux	B-OBJ
 aux	O
-bouquets	O
-assortis	O
+bouquets	B-OBJ
+assortis	I-OBJ
+,	O
+aux	B-OBJ
+plumes	I-OBJ
+extravagantes	I-OBJ
 ,	O
 aux	O
-plumes	O
-extravagantes	O
-,	O
-aux	O
-rubans	O
-multicolores	O
+rubans	B-OBJ
+multicolores	I-OBJ
 ,	O
 la	O
 bruyante	O
@@ -27715,8 +27715,8 @@ se	O
 pressait	O
 sous	O
 la	O
-coupole	O
-vitrée	O
+coupole	B-OBJ
+vitrée	I-OBJ
 du	O
 hall	O
 .	O
@@ -27907,7 +27907,7 @@ d	O
 en	O
 exploiter	O
 les	O
-houillères	O
+houillères	B-OBJ
 ?	O
 
 S	O
@@ -28050,15 +28050,15 @@ Là	O
 ,	O
 sur	O
 une	O
-estrade	O
-drapée	O
+estrade	B-OBJ
+drapée	I-OBJ
 ,	O
 devant	O
 une	O
-table	O
-à	O
-tapis	O
-noirâtre	O
+table	B-OBJ
+à	I-OBJ
+tapis	I-OBJ
+noirâtre	I-OBJ
 ,	O
 en	O
 pleine	O
@@ -28157,7 +28157,7 @@ main	O
 droite	O
 dans	O
 son	O
-gilet	O
+gilet	B-OBJ
 ,	O
 et	O
 prit	O
@@ -28229,7 +28229,7 @@ l	O
 '	O
 exploitation	O
 des	O
-houillères	O
+houillères	B-OBJ
 du	B-LOC
 Pôle	I-LOC
 arctique	I-LOC
@@ -28247,8 +28247,8 @@ gouvernement	O
 fédéral	O
 .	O
 
-Ce	O
-domaine	O
+Ce	B-OBJ
+domaine	I-OBJ
 ,	O
 acquis	O
 après	O
@@ -28294,8 +28294,8 @@ permettre	O
 d	O
 '	O
 organiser	O
-cette	O
-entreprise	O
+cette	B-OBJ
+entreprise	I-OBJ
 ,	O
 dont	O
 le	O
@@ -28364,7 +28364,7 @@ de	O
 riches	O
 gisements	O
 de	O
-houille	O
+houille	B-OBJ
 ,	O
 peut	O
 -	O
@@ -28372,8 +28372,8 @@ peut	O
 aussi	O
 d	O
 '	O
-ivoire	O
-fossile	O
+ivoire	B-OBJ
+fossile	I-OBJ
 ,	O
 dans	O
 les	O
@@ -28401,14 +28401,14 @@ l	O
 existence	O
 de	O
 ces	O
-charbonnages	O
+charbonnages	B-OBJ
 .	O
 
 «	O
-Or	O
+Or	B-OBJ
 ,	O
-la	O
-houille	O
+la	B-OBJ
+houille	I-OBJ
 est	O
 devenue	O
 la	O
@@ -28417,8 +28417,8 @@ de	O
 toute	O
 l	O
 '	O
-industrie	O
-moderne	O
+industrie	B-OBJ
+moderne	I-OBJ
 .	O
 
 Sans	O
@@ -28637,8 +28637,8 @@ dit	O
 il	O
 ,	O
 que	O
-la	O
-houille	O
+la	B-OBJ
+houille	I-OBJ
 ,	O
 cette	O
 substance	O
@@ -28670,7 +28670,7 @@ cents	O
 ans	O
 ,	O
 les	O
-houillères	O
+houillères	B-OBJ
 en	O
 exploitation	O
 jusqu	O
@@ -28735,7 +28735,7 @@ production	O
 comme	O
 si	O
 la	O
-houille	O
+houille	B-OBJ
 devait	O
 manquer	O
 avant	O
@@ -28803,7 +28803,7 @@ Actuellement	B-PONC
 le	O
 poids	O
 des	O
-journaux	O
+journaux	B-OBJ
 dépasse	O
 chaque	O
 année	B-PONC
@@ -28839,7 +28839,7 @@ Barbicane	I-PER
 eût	O
 montré	O
 un	O
-navire	O
+navire	B-OBJ
 en	O
 partance	O
 pour	O
@@ -28980,8 +28980,8 @@ ce	O
 point	O
 inaccessible	O
 du	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 .	O
 
 Cependant	O
@@ -29135,8 +29135,8 @@ leur	O
 expédition	O
 ,	O
 leur	O
-navire	O
-Advance	O
+navire	B-OBJ
+Advance	I-OBJ
 ne	O
 revint	O
 pas	O
@@ -29153,7 +29153,7 @@ Mac	I-PER
 Clintock	I-PER
 découvre	O
 un	O
-document	O
+document	B-OBJ
 duquel	O
 il	O
 appert	O
@@ -29188,7 +29188,7 @@ quitte	O
 Boston	B-LOC
 sur	O
 le	B-LOC
-schooner	O
+schooner	B-OBJ
 United	B-LOC
 -	I-LOC
 States	I-LOC
@@ -29285,7 +29285,7 @@ qu	O
 '	O
 à	O
 ses	O
-chaloupes	O
+chaloupes	B-OBJ
 qui	O
 lui	O
 permettent	O
@@ -29376,9 +29376,9 @@ Polaris	I-LOC
 entraîné	O
 par	O
 les	O
-ice	O
--	O
-bergs	O
+ice	B-OBJ
+-	I-OBJ
+bergs	I-OBJ
 ,	O
 sans	O
 s	O
@@ -29400,7 +29400,7 @@ brisé	O
 au	O
 milieu	O
 des	O
-banquises	O
+banquises	B-OBJ
 en	O
 dérive	O
 .	O
@@ -29435,9 +29435,9 @@ s	O
 abandonnant	O
 sur	O
 un	O
-radeau	O
-de	O
-glace	O
+radeau	B-OBJ
+de	I-OBJ
+glace	I-OBJ
 aux	O
 courants	O
 de	O
@@ -29595,7 +29595,7 @@ Herald	O
 
 «	O
 ...	O
-arme	O
+arme	B-OBJ
 la	B-PER
 Jeannette	I-PER
 qu	O
@@ -29703,7 +29703,7 @@ le	O
 sud	O
 avec	O
 les	O
-canots	O
+canots	B-OBJ
 qu	O
 '	O
 ils	O
@@ -29902,20 +29902,20 @@ Ultima	B-PER
 Thule	I-PER
 de	O
 la	O
-cartographie	O
-circumpolaire	O
+cartographie	B-OBJ
+circumpolaire	I-OBJ
 !	O
 »	O
 
 Ici	O
 ,	O
-nouveaux	O
-hurrahs	O
+nouveaux	B-OBJ
+hurrahs	I-OBJ
 ,	O
 panachés	O
 des	O
-hips	O
-réglementaires	O
+hips	B-OBJ
+réglementaires	I-OBJ
 ,	O
 en	O
 l	O
@@ -29941,9 +29941,9 @@ mal	O
 finir	O
 .	O
 
-Le	O
-Proteus	O
-sombre	O
+Le	B-OBJ
+Proteus	I-OBJ
+sombre	I-OBJ
 .	O
 
 Ils	O
@@ -30024,7 +30024,7 @@ de	O
 plus	O
 au	O
 douloureux	O
-martyrologe	O
+martyrologe	B-OBJ
 de	O
 ces	O
 régions	O
@@ -30124,7 +30124,7 @@ jour	I-PONC
 ,	O
 soit	O
 des	O
-navires	O
+navires	B-OBJ
 pour	O
 atteindre	O
 la	O
@@ -30132,7 +30132,7 @@ banquise	O
 ,	O
 soit	O
 des	O
-radeaux	O
+radeaux	B-OBJ
 pour	O
 franchir	O
 les	O
@@ -30291,16 +30291,16 @@ s	O
 embarquant	O
 dans	O
 un	O
-projectile	O
-cylindro	O
--	O
-conique	O
+projectile	B-OBJ
+cylindro	I-OBJ
+-	I-OBJ
+conique	I-OBJ
 ...	O
 
 —	O
 Cylindro	B-PER
 -	O
-conique	O
+conique	B-OBJ
 !	O
 
 s	O
@@ -30443,7 +30443,7 @@ Hatteras	I-PER
 ,	O
 dont	O
 le	O
-pavillon	O
+pavillon	B-OBJ
 aurait	O
 flotté	O
 sur	O
@@ -30475,14 +30475,14 @@ héros	O
 imaginaire	O
 .	O
 (	O
-Anglais	O
-au	O
-pôle	O
-Nord	O
+Anglais	B-OBJ
+au	I-OBJ
+pôle	I-OBJ
+Nord	I-OBJ
 et	O
-Désert	O
-de	O
-glace	O
+Désert	B-OBJ
+de	I-OBJ
+glace	I-OBJ
 ,	O
 du	O
 même	O
@@ -30533,12 +30533,12 @@ est	O
 -	O
 ce	O
 un	O
-continent	O
+continent	B-OBJ
 qui	O
 forme	O
 la	O
-calotte	O
-arctique	O
+calotte	B-OBJ
+arctique	I-OBJ
 de	O
 la	B-LOC
 Terre	I-LOC
@@ -30581,10 +30581,10 @@ est	O
 à	O
 -	O
 dire	O
-mer	O
-des	O
-anciennes	O
-glaces	O
+mer	B-OBJ
+des	I-OBJ
+anciennes	I-OBJ
+glaces	I-OBJ
 ?	O
 
 A	O
@@ -30652,7 +30652,7 @@ je	O
 à	O
 mon	O
 bouillant	O
-interrupteur	O
+interrupteur	B-OBJ
 .	O
 
 Oui	O
@@ -30661,14 +30661,14 @@ Oui	O
 C	O
 '	O
 est	O
-un	O
-terrain	O
-solide	O
+un	B-OBJ
+terrain	I-OBJ
+solide	I-OBJ
 ,	O
 non	O
 un	O
-bassin	O
-liquide	O
+bassin	B-OBJ
+liquide	I-OBJ
 ,	O
 dont	O
 la	B-ORG
@@ -30728,7 +30728,7 @@ d	O
 eau	O
 ...	O
 une	O
-cuvette	O
+cuvette	B-OBJ
 ...	O
 que	O
 vous	O
@@ -30930,20 +30930,20 @@ séculaires	O
 ,	O
 tels	O
 que	O
-carcasses	O
-de	O
-mastodontes	O
+carcasses	B-OBJ
+de	I-OBJ
+mastodontes	I-OBJ
 ,	O
-défenses	O
+défenses	B-OBJ
 et	O
 dents	O
 d	O
 '	O
 ivoire	O
 ,	O
-troncs	O
-de	O
-conifères	O
+troncs	B-OBJ
+de	I-OBJ
+conifères	I-OBJ
 ,	O
 on	O
 peut	O
@@ -30985,9 +30985,9 @@ qui	O
 ont	O
 formé	O
 les	O
-gisements	O
-de	O
-houille	O
+gisements	B-OBJ
+de	I-OBJ
+houille	I-OBJ
 dont	O
 nous	O
 saurons	O
@@ -31125,7 +31125,7 @@ c	O
 '	O
 est	O
 un	O
-continent	O
+continent	B-OBJ
 qui	O
 constitue	O
 notre	O
@@ -31135,7 +31135,7 @@ immeuble	O
 et	O
 si	O
 ce	O
-continent	O
+continent	B-OBJ
 est	O
 surélevé	O
 ,	O
@@ -31157,21 +31157,21 @@ moins	O
 obstrué	O
 par	O
 les	O
-glaces	O
-éternelles	O
+glaces	B-OBJ
+éternelles	I-OBJ
 ,	O
 recouvert	O
 d	O
 '	O
-ice	O
--	O
-bergs	O
+ice	B-OBJ
+-	I-OBJ
+bergs	I-OBJ
 et	O
 d	O
 '	O
-ice	O
--	O
-fields	O
+ice	B-OBJ
+-	I-OBJ
+fields	I-OBJ
 ,	O
 et	O
 dans	O
@@ -31187,7 +31187,7 @@ difficile	O
 ...	O
 
 —	O
-Impossible	O
+Impossible	B-OBJ
 !	O
 
 dit	O
@@ -31245,10 +31245,10 @@ aurons	O
 plus	O
 besoin	O
 de	O
-navires	O
+navires	B-OBJ
 ni	O
 de	O
-traîneaux	O
+traîneaux	B-OBJ
 pour	O
 aller	O
 au	B-LOC
@@ -31264,7 +31264,7 @@ procédés	O
 la	O
 fusion	O
 des	O
-glaces	O
+glaces	B-OBJ
 ,	O
 anciennes	O
 ou	O
@@ -31375,7 +31375,7 @@ trouvé	O
 !	O
 
 Un	O
-levier	O
+levier	B-OBJ
 devait	O
 suffire	O
 au	O
@@ -31386,7 +31386,7 @@ Syracuse	B-LOC
 ,	O
 et	O
 ce	O
-levier	O
+levier	B-OBJ
 nous	O
 le	O
 possédons	O
@@ -31492,7 +31492,7 @@ formidable	O
 Quant	O
 à	O
 ce	O
-levier	O
+levier	B-OBJ
 ...	O
 
 —	O
@@ -31580,8 +31580,8 @@ est	O
 des	O
 résultats	O
 du	O
-travail	O
-mécanique	O
+travail	B-OBJ
+mécanique	I-OBJ
 —	O
 travail	O
 sans	O
@@ -31699,8 +31699,8 @@ l	O
 '	O
 exploitation	O
 des	O
-houillères	O
-arctiques	O
+houillères	B-OBJ
+arctiques	I-OBJ
 n	O
 '	O
 est	O
@@ -31801,8 +31801,8 @@ qui	O
 éclatèrent	O
 autour	O
 du	O
-célèbre	O
-calculateur	O
+célèbre	B-OBJ
+calculateur	I-OBJ
 ,	O
 et	O
 à	O
@@ -31841,7 +31841,7 @@ du	O
 bout	O
 de	O
 son	O
-crochet	O
+crochet	B-OBJ
 l	O
 '	O
 enthousiaste	O
@@ -31925,7 +31925,7 @@ s	O
 «	O
 Inventons	O
 des	O
-machines	O
+machines	B-OBJ
 ,	O
 trouvons	O
 un	O
@@ -31961,8 +31961,8 @@ donc	O
 !	O
 ...	O
 
-Les	O
-machines	O
+Les	B-OBJ
+machines	I-OBJ
 sont	O
 inventées	O
 ,	O
@@ -32100,10 +32100,10 @@ Karkof	I-PER
 ,	O
 dont	O
 les	O
-yeux	O
+yeux	B-OBJ
 jetaient	O
 des	O
-éclairs	O
+éclairs	B-OBJ
 .	O
 
 —	O
@@ -32184,9 +32184,9 @@ minutes	I-DUR
 suffira	O
 pour	O
 que	O
-notre	O
-immeuble	O
-polaire	O
+notre	B-OBJ
+immeuble	I-OBJ
+polaire	I-OBJ
 reçoive	O
 une	O
 quantité	O
@@ -32248,14 +32248,14 @@ simple	O
 modifier	O
 l	O
 '	O
-axe	O
+axe	B-OBJ
 sur	O
 lequel	O
 se	O
 meut	O
 le	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 .	O
 
 Quant	O
@@ -32569,7 +32569,7 @@ Club	I-ORG
 ,	O
 un	O
 nouvel	O
-axe	O
+axe	B-OBJ
 de	O
 rotation	O
 allait	O
@@ -32579,7 +32579,7 @@ substitué	O
 l	O
 '	O
 ancien	O
-axe	O
+axe	B-OBJ
 ,	O
 sur	O
 lequel	O
@@ -32590,9 +32590,9 @@ tourne	O
 depuis	O
 que	O
 le	O
-monde	O
+monde	B-OBJ
 est	O
-monde	O
+monde	B-OBJ
 »	O
 suivant	O
 l	O
@@ -32604,11 +32604,11 @@ vulgaire	O
 En	O
 outre	O
 ,	O
-ce	O
-nouvel	O
-axe	O
-de	O
-rotation	O
+ce	B-OBJ
+nouvel	I-OBJ
+axe	I-OBJ
+de	I-OBJ
+rotation	I-OBJ
 serait	O
 perpendiculaire	O
 au	O
@@ -32646,9 +32646,9 @@ au	O
 printemps	B-PONC
 .	O
 
-Sa	O
-cuirasse	O
-paléocrystique	O
+Sa	B-OBJ
+cuirasse	I-OBJ
+paléocrystique	I-OBJ
 fondrait	O
 donc	O
 naturellement	O
@@ -32656,7 +32656,7 @@ sous	O
 les	O
 rayons	O
 du	O
-Soleil	O
+Soleil	B-OBJ
 .	O
 
 En	O
@@ -32669,7 +32669,7 @@ se	O
 distribueraient	O
 sur	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 comme	O
 à	O
 la	O
@@ -32690,7 +32690,7 @@ l	O
 axe	O
 de	O
 cette	O
-planète	O
+planète	B-OBJ
 ,	O
 ou	O
 ,	O
@@ -32828,7 +32828,7 @@ est	O
 pas	O
 comme	O
 une	O
-poularde	O
+poularde	B-OBJ
 à	O
 la	O
 broche	O
@@ -32839,7 +32839,7 @@ autour	O
 d	O
 '	O
 un	O
-axe	O
+axe	B-OBJ
 matériel	O
 que	O
 l	O
@@ -32895,7 +32895,7 @@ Archimède	B-PER
 ,	O
 et	O
 le	O
-levier	O
+levier	B-OBJ
 ,	O
 imaginé	O
 par	O
@@ -32925,7 +32925,7 @@ décidés	O
 à	O
 tenir	O
 leur	O
-invention	O
+invention	B-OBJ
 secrète	O
 jusqu	O
 '	O
@@ -33229,9 +33229,9 @@ de	O
 rotation	O
 sur	O
 le	O
-nouvel	O
-axe	O
-terrestre	O
+nouvel	B-OBJ
+axe	I-OBJ
+terrestre	I-OBJ
 ne	O
 serait	O
 ni	O
@@ -33268,14 +33268,14 @@ quel	O
 point	O
 de	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 .	O
 
-Les	O
-crépuscules	O
+Les	B-OBJ
+crépuscules	I-OBJ
 et	O
-les	O
-aubes	O
+les	B-OBJ
+aubes	I-OBJ
 allongeraient	O
 les	O
 jours	O
@@ -33320,8 +33320,8 @@ globe	O
 lorsque	O
 l	O
 '	O
-astre	O
-radieux	O
+astre	B-OBJ
+radieux	I-OBJ
 décrit	O
 sa	O
 courbe	O
@@ -33440,15 +33440,15 @@ plus	O
 Du	O
 moment	O
 que	O
-le	O
-nouvel	O
-axe	O
+le	B-OBJ
+nouvel	I-OBJ
+axe	I-OBJ
 serait	O
 perpendiculaire	O
 à	O
 l	O
 '	O
-écliptique	O
+écliptique	B-OBJ
 ,	O
 il	O
 n	O
@@ -33490,9 +33490,9 @@ c	O
 '	O
 est	O
 que	O
-la	O
-zone	O
-torride	O
+la	B-OBJ
+zone	I-OBJ
+torride	I-OBJ
 ?	O
 
 C	O
@@ -33529,14 +33529,14 @@ propriété	O
 de	O
 voir	O
 le	O
-Soleil	O
+Soleil	B-OBJ
 deux	O
 fois	O
 par	O
 an	O
 à	O
 leur	O
-zénith	O
+zénith	B-OBJ
 ,	O
 tandis	O
 que	O
@@ -33569,8 +33569,8 @@ c	O
 est	O
 que	O
 la	O
-zone	O
-tempérée	O
+zone	B-OBJ
+tempérée	I-OBJ
 ?	O
 
 C	O
@@ -33606,7 +33606,7 @@ et	O
 pour	O
 lesquelles	O
 le	O
-Soleil	O
+Soleil	B-OBJ
 ne	O
 s	O
 '	O
@@ -33641,9 +33641,9 @@ c	O
 '	O
 est	O
 que	O
-la	O
-zone	O
-glaciale	O
+la	B-OBJ
+zone	I-OBJ
+glaciale	I-OBJ
 ?	O
 
 C	O
@@ -33781,12 +33781,12 @@ de	O
 la	O
 perpendicularité	O
 du	O
-nouvel	O
-axe	O
+nouvel	B-OBJ
+axe	I-OBJ
 .	O
 
-Le	O
-Soleil	O
+Le	B-OBJ
+Soleil	I-OBJ
 se	O
 maintiendrait	O
 immuablement	O
@@ -33822,7 +33822,7 @@ jusqu	O
 une	O
 distance	O
 du	O
-zénith	O
+zénith	B-OBJ
 égale	O
 à	O
 la	O
@@ -33991,7 +33991,7 @@ rhumatismes	O
 ,	O
 sur	O
 un	O
-globe	O
+globe	B-OBJ
 où	O
 l	O
 '	O
@@ -34034,8 +34034,8 @@ l	O
 époque	O
 où	O
 le	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 ,	O
 penché	O
 sur	O
@@ -34070,9 +34070,9 @@ quelques	O
 -	O
 unes	O
 des	O
-constellations	O
+constellations	B-OBJ
 ou	O
-étoiles	O
+étoiles	B-OBJ
 qu	O
 '	O
 il	O
@@ -34152,8 +34152,8 @@ puisque	O
 les	O
 productions	O
 du	O
-sol	O
-terrestre	O
+sol	B-OBJ
+terrestre	I-OBJ
 seront	O
 régularisées	O
 ,	O
@@ -34289,8 +34289,8 @@ la	O
 véritable	O
 transformation	O
 du	O
-globe	O
-terrestre	O
+globe	B-OBJ
+terrestre	I-OBJ
 !	O
 
 Oui	O
@@ -34341,7 +34341,7 @@ Michel	B-PER
 Ardan	I-PER
 ,	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 ,	O
 à	O
 la	O
@@ -34516,7 +34516,7 @@ et	O
 que	O
 ,	O
 le	O
-grain	O
+grain	B-OBJ
 germant	O
 sans	O
 retard	O
@@ -34547,8 +34547,8 @@ l	O
 '	O
 exploitation	O
 de	O
-nouveaux	O
-gisements	O
+nouveaux	B-OBJ
+gisements	I-OBJ
 ,	O
 qui	O
 assureront	O
@@ -34658,9 +34658,9 @@ Barbicane	I-PER
 à	O
 l	O
 '	O
-axe	O
-de	O
-rotation	O
+axe	B-OBJ
+de	I-OBJ
+rotation	I-OBJ
 .	O
 
 On	O
@@ -34687,7 +34687,7 @@ de	O
 translation	O
 de	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 autour	O
 du	B-LOC
 Soleil	I-LOC
@@ -34762,8 +34762,8 @@ enthousiaste	O
 ce	O
 problème	O
 de	O
-haute	O
-mécanique	O
+haute	B-OBJ
+mécanique	I-OBJ
 .	O
 
 La	O
@@ -34789,7 +34789,7 @@ latitude	O
 au	O
 gré	O
 des	O
-consommateurs	O
+consommateurs	B-OBJ
 »	O
 était	O
 extrêmement	O
@@ -34999,7 +34999,7 @@ pas	O
 tourné	O
 sur	O
 un	O
-axe	O
+axe	B-OBJ
 ,	O
 peut	O
 -	O
@@ -35025,7 +35025,7 @@ autour	O
 d	O
 '	O
 un	O
-axe	O
+axe	B-OBJ
 arbitrairement	O
 choisi	O
 ;	O
@@ -35036,8 +35036,8 @@ peut	O
 assimilée	O
 à	O
 un	O
-énorme	O
-gyroscope	O
+énorme	B-OBJ
+gyroscope	I-OBJ
 ,	O
 se	O
 mouvant	O
@@ -35068,7 +35068,7 @@ constamment	O
 autour	O
 du	O
 même	O
-axe	O
+axe	B-OBJ
 .	O
 
 Léon	B-PER
@@ -35170,7 +35170,7 @@ effrayantes	O
 la	O
 surface	O
 du	O
-globe	O
+globe	B-OBJ
 ,	O
 au	O
 moment	O
@@ -35268,7 +35268,7 @@ provoquer	O
 sur	O
 notre	O
 infortuné	O
-globe	O
+globe	B-OBJ
 pour	O
 n	O
 '	O
@@ -35606,8 +35606,8 @@ et	O
 les	O
 expressions	O
 auxquelles	O
-la	O
-mode	O
+la	B-OBJ
+mode	I-OBJ
 a	O
 si	O
 rapidement	O
@@ -35653,7 +35653,7 @@ lorsqu	O
 il	O
 avait	O
 la	O
-plume	O
+plume	B-OBJ
 à	O
 la	O
 main	O
@@ -35677,12 +35677,12 @@ dix	B-DUR
 heures	I-DUR
 devant	O
 sa	O
-table	O
+table	B-OBJ
 ,	O
 écrivant	O
 couramment	O
 des	O
-pages	O
+pages	B-OBJ
 d	O
 '	O
 algèbre	O
@@ -35712,7 +35712,7 @@ c	O
 '	O
 était	O
 le	O
-whist	O
+whist	B-OBJ
 ,	O
 qu	O
 '	O
@@ -35736,8 +35736,8 @@ Et	O
 ,	O
 quand	O
 «	O
-la	O
-main	O
+la	B-OBJ
+main	I-OBJ
 était	O
 au	O
 mort	O
@@ -35762,7 +35762,7 @@ aux	O
 pipots	O
 :	O
 «	O
-Cadaveri	O
+Cadaveri	B-OBJ
 poussandum	O
 est	O
 !	O
@@ -35834,12 +35834,12 @@ sulfurique	I-PER
 
 Non	O
 seulement	O
-il	O
+il	B-OBJ
 était	O
 grand	O
 ,	O
 mais	O
-il	O
+il	B-OBJ
 paraissait	O
 «	O
 haut	O
@@ -35861,7 +35861,7 @@ partie	O
 du	O
 quart	O
 du	O
-méridien	O
+méridien	B-OBJ
 ,	O
 soit	O
 environ	O
@@ -35916,10 +35916,10 @@ yeux	O
 bleus	O
 à	O
 travers	O
-son	O
-pince	O
--	O
-nez	O
+son	B-OBJ
+pince	I-OBJ
+-	I-OBJ
+nez	I-OBJ
 !	O
 
 Ce	O
@@ -35963,17 +35963,17 @@ la	O
 lumière	O
 des	O
 «	O
-verres	O
-de	O
-rosto	O
+verres	B-OBJ
+de	I-OBJ
+rosto	I-OBJ
 »	O
 ,	O
 autrement	O
 dit	O
 les	O
-becs	O
-de	O
-gaz	O
+becs	B-OBJ
+de	I-OBJ
+gaz	I-OBJ
 des	O
 salles	O
 d	O
@@ -36024,8 +36024,8 @@ soumis	O
 aux	O
 prescriptions	O
 du	O
-code	O
-X	O
+code	B-OBJ
+X	I-OBJ
 ,	O
 qui	O
 fait	O
@@ -36046,7 +36046,7 @@ respect	O
 de	O
 l	O
 '	O
-uniforme	O
+uniforme	B-OBJ
 .	O
 
 On	O
@@ -36084,16 +36084,16 @@ que	O
 dans	O
 les	O
 «	O
-casers	O
+casers	B-OBJ
 »	O
 —	O
-dortoirs	O
+dortoirs	B-OBJ
 où	O
 les	O
 rangements	O
 de	O
 son	O
-bahut	O
+bahut	B-OBJ
 ,	O
 l	O
 '	O
@@ -36103,7 +36103,7 @@ régnait	O
 dans	O
 son	O
 «	O
-coffin	O
+coffin	B-OBJ
 ,	O
 »	O
 dénotaient	O
@@ -36116,7 +36116,7 @@ méthodique	O
 Mais	O
 que	O
 la	O
-tête	O
+tête	B-OBJ
 d	O
 '	O
 Alcide	B-PER
@@ -36126,11 +36126,11 @@ un	O
 peu	O
 petite	O
 au	O
-sommet	O
-de	O
-son	O
-grand	O
-corps	O
+sommet	B-OBJ
+de	I-OBJ
+son	I-OBJ
+grand	I-OBJ
+corps	I-OBJ
 ,	O
 soit	O
 !	O
@@ -36139,7 +36139,7 @@ En	O
 tous	O
 cas	O
 ,	O
-elle	O
+elle	B-OBJ
 était	O
 remplie	O
 jusqu	O
@@ -36354,9 +36354,9 @@ ouvertures	O
 par	O
 la	O
 «	O
-martiga	O
--	O
-lade	O
+martiga	B-OBJ
+-	I-OBJ
+lade	I-OBJ
 »	O
 suivante	O
 :	O
@@ -36571,9 +36571,9 @@ apprête	O
 flanquer	O
 à	O
 notre	O
-boule	O
+boule	B-OBJ
 un	O
-gnon	O
+gnon	B-OBJ
 de	O
 première	O
 catégorie	O
@@ -36608,10 +36608,10 @@ prendre	O
 fin	O
 »	O
 comme	O
-une	O
-bille	O
-de	O
-billard	O
+une	B-OBJ
+bille	I-OBJ
+de	I-OBJ
+billard	I-OBJ
 ,	O
 quand	O
 on	O
@@ -36632,7 +36632,7 @@ prenait	O
 plein	O
 »	O
 ,	O
-elle	O
+elle	B-OBJ
 irait	O
 se	O
 balader	O
@@ -36670,8 +36670,8 @@ qu	O
 à	O
 substituer	O
 un	O
-nouvel	O
-axe	O
+nouvel	B-OBJ
+axe	I-OBJ
 à	O
 l	O
 '	O
@@ -36725,8 +36725,8 @@ n	O
 existait	O
 pas	O
 ,	O
-une	O
-chiquenaude	O
+une	B-OBJ
+chiquenaude	I-OBJ
 suffirait	O
 !	O
 ...	O
@@ -36736,9 +36736,9 @@ Or	O
 il	O
 existe	O
 ,	O
-le	O
-mouvement	O
-diurne	O
+le	B-OBJ
+mouvement	I-OBJ
+diurne	I-OBJ
 !	O
 ...	O
 
@@ -36749,9 +36749,9 @@ pas	O
 le	O
 supprimer	O
 ,	O
-le	O
-mouvement	O
-diurne	O
+le	B-OBJ
+mouvement	I-OBJ
+diurne	I-OBJ
 !	O
 
 Et	O
@@ -36761,7 +36761,7 @@ est	O
 bien	O
 là	O
 le	O
-canisdentum	O
+canisdentum	B-OBJ
 !	O
 »	O
 
@@ -36822,10 +36822,10 @@ beau	O
 «	O
 se	O
 décarcasser	O
-la	O
-boîte	O
-au	O
-sel	O
+la	B-OBJ
+boîte	I-OBJ
+au	I-OBJ
+sel	I-OBJ
 »	O
 ,	O
 il	O
@@ -36905,7 +36905,7 @@ France	I-ORG
 arpentait	O
 ,	O
 du	O
-compas	O
+compas	B-OBJ
 largement	O
 ouvert	O
 de	O
@@ -36920,7 +36920,7 @@ de	O
 Baltimore	B-LOC
 .	O
 
-X	O
+X	B-OBJ
 DANS	O
 LEQUEL	O
 DIVERSES	O
@@ -36987,9 +36987,9 @@ changement	O
 de	O
 l	O
 '	O
-axe	O
-de	O
-rotation	O
+axe	B-OBJ
+de	I-OBJ
+rotation	I-OBJ
 ,	O
 oubliés	O
 !	O
@@ -37143,10 +37143,10 @@ ils	O
 avaient	O
 usé	O
 les	O
-fils	O
-sous	O
--	O
-marins	O
+fils	B-OBJ
+sous	I-OBJ
+-	I-OBJ
+marins	I-OBJ
 par	O
 l	O
 '	O
@@ -37154,7 +37154,7 @@ incessante	O
 circulation	O
 de	O
 leurs	O
-dépêches	O
+dépêches	B-OBJ
 ,	O
 ils	O
 avaient	O
@@ -37164,7 +37164,7 @@ ils	O
 avaient	O
 reçu	O
 des	O
-instructions	O
+instructions	B-OBJ
 !	O
 ...	O
 Or	O
@@ -37309,12 +37309,12 @@ Quand	O
 on	O
 secoue	O
 un	O
-olivier	O
+olivier	B-OBJ
 pendant	O
 la	O
 récolte	O
 des	O
-olives	O
+olives	B-OBJ
 ,	O
 est	O
 -	O
@@ -37322,7 +37322,7 @@ ce	O
 que	O
 toutes	O
 les	O
-branches	O
+branches	B-OBJ
 n	O
 '	O
 en	O
@@ -37396,7 +37396,7 @@ météorologiques	O
 la	O
 surface	O
 du	O
-globe	O
+globe	B-OBJ
 !	O
 
 —	O
@@ -37430,8 +37430,8 @@ l	O
 axe	O
 ne	O
 rejette	O
-les	O
-mers	O
+les	B-OBJ
+mers	I-OBJ
 hors	O
 de	O
 leurs	O
@@ -37556,7 +37556,7 @@ gentleman	O
 regardait	O
 vers	O
 le	O
-zénith	O
+zénith	B-OBJ
 ,	O
 comme	O
 si	O
@@ -37603,8 +37603,8 @@ modification	O
 de	O
 l	O
 '	O
-axe	O
-terrestre	O
+axe	B-OBJ
+terrestre	I-OBJ
 .	O
 
 En	O
@@ -37640,7 +37640,7 @@ un	O
 déplacement	O
 considérable	O
 des	O
-mers	O
+mers	B-OBJ
 par	O
 suite	O
 de	O
@@ -37880,7 +37880,7 @@ main	O
 téméraire	O
 sur	O
 son	O
-oeuvre	O
+oeuvre	B-OBJ
 .	O
 
 Eh	O
@@ -37946,7 +37946,7 @@ millions	O
 de	O
 siècles	O
 ,	O
-elle	O
+elle	B-OBJ
 l	O
 '	O
 avait	O
@@ -37955,7 +37955,7 @@ au	O
 frottement	O
 de	O
 ses	O
-tourillons	O
+tourillons	B-OBJ
 ,	O
 peut	O
 -	O
@@ -37973,16 +37973,16 @@ on	O
 change	O
 l	O
 '	O
-essieu	O
+essieu	B-OBJ
 d	O
 '	O
 une	O
-poulie	O
+poulie	B-OBJ
 ou	O
 d	O
 '	O
 une	O
-roue	O
+roue	B-OBJ
 !	O
 
 Mais	O
@@ -38054,7 +38054,7 @@ le	O
 point	O
 précis	O
 du	O
-globe	O
+globe	B-OBJ
 où	O
 il	O
 se	O
@@ -38078,8 +38078,8 @@ les	O
 parties	O
 menacées	O
 du	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 .	O
 
 Il	O
@@ -38239,7 +38239,7 @@ coulés	O
 d	O
 '	O
 un	O
-bloc	O
+bloc	B-OBJ
 »	O
 comme	O
 on	O
@@ -38341,13 +38341,13 @@ autant	O
 de	O
 provinces	O
 que	O
-son	O
-pavillon	O
+son	B-OBJ
+pavillon	I-OBJ
 déployait	O
 déjà	O
 d	O
 '	O
-étoiles	O
+étoiles	B-OBJ
 sous	O
 les	O
 plis	O
@@ -38444,16 +38444,16 @@ envoient	O
 pas	O
 toujours	O
 le	O
-boulet	O
+boulet	B-OBJ
 dans	O
 la	O
-cible	O
+cible	B-OBJ
 ni	O
 la	O
-bombe	O
+bombe	B-OBJ
 dans	O
 le	O
-tonneau	O
+tonneau	B-OBJ
 !	O
 »	O
 
@@ -38646,7 +38646,7 @@ vain	O
 d	O
 '	O
 autres	O
-feuilles	O
+feuilles	B-OBJ
 —	O
 et	O
 non	O
@@ -38684,18 +38684,18 @@ dollars	O
 la	O
 ligne	O
 des	O
-articles	O
-de	O
-fond	O
+articles	B-OBJ
+de	I-OBJ
+fond	I-OBJ
 ,	O
-des	O
-articles	O
-de	O
-fantaisie	O
+des	B-OBJ
+articles	I-OBJ
+de	I-OBJ
+fantaisie	I-OBJ
 ,	O
 de	O
-spirituelles	O
-boutades	O
+spirituelles	B-OBJ
+boutades	I-OBJ
 ,	O
 où	O
 il	O
@@ -38998,8 +38998,8 @@ ils	O
 comptaient	O
 substituer	O
 un	O
-nouvel	O
-axe	O
+nouvel	B-OBJ
+axe	I-OBJ
 à	O
 l	O
 '	O
@@ -39033,7 +39033,7 @@ seraient	O
 les	O
 parties	O
 du	O
-globe	O
+globe	B-OBJ
 qui	O
 seraient	O
 directement	O
@@ -39205,9 +39205,9 @@ allèrent	O
 le	O
 chercher	O
 dans	O
-son	O
-habitation	O
-particulière	O
+son	B-OBJ
+habitation	I-OBJ
+particulière	I-OBJ
 ,	O
 95	O
 ,	O
@@ -39450,7 +39450,7 @@ dressait	O
 la	O
 surface	O
 du	O
-globe	O
+globe	B-OBJ
 .	O
 
 Cet	O
@@ -39527,7 +39527,7 @@ les	O
 aider	O
 dans	O
 cette	O
-oeuvre	O
+oeuvre	B-OBJ
 ,	O
 dont	O
 le	O
@@ -39543,7 +39543,7 @@ compréhensible	O
 épouvante	O
 ?	O
 
-Non	O
+Non	B-OBJ
 !	O
 
 J	O
@@ -39604,8 +39604,8 @@ New	I-LOC
 Park	I-LOC
 .	O
 
-Un	O
-agent	O
+Un	B-OBJ
+agent	I-OBJ
 lui	O
 fut	O
 donc	O
@@ -39796,8 +39796,8 @@ changement	O
 de	O
 l	O
 '	O
-axe	O
-terrestre	O
+axe	B-OBJ
+terrestre	I-OBJ
 ?	O
 
 «	O
@@ -40037,9 +40037,9 @@ l	O
 '	O
 homme	O
 au	O
-crochet	O
-de	O
-fer	O
+crochet	B-OBJ
+de	I-OBJ
+fer	I-OBJ
 .	O
 
 Jamais	O
@@ -40065,7 +40065,7 @@ fût	O
 logé	O
 sous	O
 un	O
-crâne	O
+crâne	B-OBJ
 en	O
 gutta	O
 -	O
@@ -40240,9 +40240,9 @@ chiffres	O
 ,	O
 quand	O
 le	O
-timbre	O
-du	O
-téléphone	O
+timbre	B-OBJ
+du	I-OBJ
+téléphone	I-OBJ
 résonna	O
 fébrilement	O
 .	O
@@ -40255,8 +40255,8 @@ Allô	O
 !	O
 ...	O
 murmura	O
-la	O
-plaque	O
+la	B-OBJ
+plaque	I-OBJ
 ,	O
 agitée	O
 d	O
@@ -40336,7 +40336,7 @@ Maston	I-PER
 ,	O
 que	O
 la	O
-porte	O
+porte	B-OBJ
 de	O
 Balistic	B-LOC
 -	B-LOC
@@ -40358,7 +40358,7 @@ escalier	O
 qui	O
 conduisait	O
 au	O
-cabinet	O
+cabinet	B-OBJ
 ,	O
 extraordinaire	O
 tumulte	O
@@ -40389,7 +40389,7 @@ chute	O
 d	O
 '	O
 un	O
-corps	O
+corps	B-OBJ
 .	O
 
 C	O
@@ -40420,7 +40420,7 @@ les	O
 assaillants	O
 le	O
 «	O
-home	O
+home	B-OBJ
 »	O
 de	O
 son	O
@@ -40431,10 +40431,10 @@ Un	O
 instant	O
 après	O
 ,	O
-la	O
-porte	O
-du	O
-cabinet	O
+la	B-OBJ
+porte	I-OBJ
+du	I-OBJ
+cabinet	I-OBJ
 volait	O
 en	O
 éclats	O
@@ -40471,7 +40471,7 @@ s	O
 '	O
 emparer	O
 des	O
-papiers	O
+papiers	B-OBJ
 de	O
 J	B-PER
 .	I-PER
@@ -40498,7 +40498,7 @@ Gun	I-ORG
 Club	I-ORG
 saisit	O
 un	O
-revolver	O
+revolver	B-OBJ
 ,	O
 et	O
 menaça	O
@@ -40531,19 +40531,19 @@ fut	O
 faite	O
 sur	O
 les	O
-papiers	O
+papiers	B-OBJ
 ,	O
 couverts	O
 de	O
-formules	O
+formules	B-OBJ
 et	O
 de	O
-chiffres	O
+chiffres	B-OBJ
 ,	O
 qui	O
 encombraient	O
 sa	O
-table	O
+table	B-OBJ
 .	O
 
 Soudain	O
@@ -40569,7 +40569,7 @@ emparer	O
 d	O
 '	O
 un	O
-carnet	O
+carnet	B-OBJ
 ,	O
 qui	O
 ,	O
@@ -40623,7 +40623,7 @@ en	O
 déchirer	O
 la	O
 dernière	O
-page	O
+page	B-OBJ
 ,	O
 et	O
 ,	O
@@ -40633,11 +40633,11 @@ encore	O
 ,	O
 avaler	O
 cette	O
-page	O
+page	B-OBJ
 comme	O
 une	O
 simple	O
-pilule	O
+pilule	B-OBJ
 .	O
 
 «	O
@@ -40749,8 +40749,8 @@ TROUVE	O
 PLUS	O
 .	O
 
-Le	O
-carnet	O
+Le	B-OBJ
+carnet	I-OBJ
 ,	O
 saisi	O
 par	O
@@ -40801,11 +40801,11 @@ C	O
 '	O
 était	O
 là	O
-un	O
-travail	O
-de	O
-haute	O
-mécanique	O
+un	B-OBJ
+travail	I-OBJ
+de	I-OBJ
+haute	I-OBJ
+mécanique	I-OBJ
 ,	O
 qui	O
 ne	O
@@ -40945,7 +40945,7 @@ des	O
 formules	O
 du	O
 célèbre	O
-calculateur	O
+calculateur	B-OBJ
 ...	O
 
 C	O
@@ -40953,10 +40953,10 @@ C	O
 est	O
 ce	O
 que	O
-toutes	O
-les	O
-feuilles	O
-publiques	O
+toutes	B-OBJ
+les	I-OBJ
+feuilles	I-OBJ
+publiques	I-OBJ
 ,	O
 sans	O
 distinction	O
@@ -40991,7 +40991,7 @@ T.	B-PER
 Maston	I-PER
 .	O
 
-Problème	O
+Problème	B-OBJ
 correctement	O
 énoncé	O
 ,	O
@@ -41137,16 +41137,16 @@ pour	O
 but	O
 de	O
 substituer	O
-un	O
-nouvel	O
-axe	O
-de	O
-rotation	O
+un	B-OBJ
+nouvel	I-OBJ
+axe	I-OBJ
+de	I-OBJ
+rotation	I-OBJ
 à	O
 l	O
 '	O
 ancien	O
-axe	O
+axe	B-OBJ
 ,	O
 est	O
 obtenu	O
@@ -41157,7 +41157,7 @@ recul	O
 d	O
 '	O
 un	O
-engin	O
+engin	B-OBJ
 fixé	O
 en	O
 un	O
@@ -41173,13 +41173,13 @@ l	O
 '	O
 âme	O
 de	O
-cet	O
-engin	O
+cet	B-OBJ
+engin	I-OBJ
 est	O
 irrésistiblement	O
 soudée	O
 au	O
-sol	O
+sol	B-OBJ
 ,	O
 il	O
 n	O
@@ -41205,7 +41205,7 @@ planète	O
 «	O
 L	O
 '	O
-engin	O
+engin	B-OBJ
 ,	O
 adopté	O
 par	O
@@ -41222,8 +41222,8 @@ autre	O
 qu	O
 '	O
 un	O
-canon	O
-monstre	O
+canon	B-OBJ
+monstre	I-OBJ
 ,	O
 dont	O
 l	O
@@ -41299,7 +41299,7 @@ celui	O
 d	O
 '	O
 une	O
-bille	O
+bille	B-OBJ
 prise	O
 très	O
 fin	O
@@ -41399,7 +41399,7 @@ autour	O
 d	O
 '	O
 un	O
-axe	O
+axe	B-OBJ
 situé	O
 dans	O
 le	O
@@ -41419,7 +41419,7 @@ indéfiniment	O
 sur	O
 ce	O
 nouvel	O
-axe	O
+axe	B-OBJ
 ,	O
 si	O
 le	O
@@ -41469,8 +41469,8 @@ donne	O
 naissance	O
 à	O
 un	O
-nouvel	O
-axe	O
+nouvel	B-OBJ
+axe	I-OBJ
 ,	O
 dont	O
 le	B-LOC
@@ -41623,9 +41623,9 @@ peut	O
 on	O
 concevoir	O
 une	O
-bouche	O
-à	O
-feu	O
+bouche	B-OBJ
+à	I-OBJ
+feu	I-OBJ
 telle	O
 que	O
 son	O
@@ -41660,12 +41660,12 @@ Oui	O
 ,	O
 si	O
 un	O
-canon	O
+canon	B-OBJ
 ou	O
-une	O
-série	O
-de	O
-canons	O
+une	B-OBJ
+série	I-OBJ
+de	I-OBJ
+canons	I-OBJ
 sont	O
 construits	O
 avec	O
@@ -41696,7 +41696,7 @@ possession	O
 d	O
 '	O
 un	O
-explosif	O
+explosif	B-OBJ
 d	O
 '	O
 une	O
@@ -41709,7 +41709,7 @@ qu	O
 il	O
 imprime	O
 au	O
-projectile	O
+projectile	B-OBJ
 la	O
 vitesse	O
 nécessitée	O
@@ -41727,7 +41727,7 @@ prenant	O
 pour	O
 type	O
 le	O
-canon	O
+canon	B-OBJ
 de	O
 vingt	O
 -	O
@@ -41745,7 +41745,7 @@ modèle	O
 qui	O
 lance	O
 un	O
-projectile	O
+projectile	B-OBJ
 de	O
 cent	O
 quatre	O
@@ -41766,9 +41766,9 @@ en	O
 donnant	O
 à	O
 cette	O
-bouche	O
-à	O
-feu	O
+bouche	B-OBJ
+à	I-OBJ
+feu	I-OBJ
 des	O
 dimensions	O
 cent	O
@@ -41793,7 +41793,7 @@ volume	O
 elle	O
 lancerait	O
 un	O
-projectile	O
+projectile	B-OBJ
 de	O
 cent	O
 quatre	O
@@ -41808,8 +41808,8 @@ Si	O
 en	O
 outre	O
 ,	O
-la	O
-poudre	O
+la	B-OBJ
+poudre	I-OBJ
 avait	O
 une	O
 vitesse	O
@@ -41817,7 +41817,7 @@ suffisante	O
 pour	O
 donner	O
 au	O
-projectile	O
+projectile	B-OBJ
 une	O
 vitesse	O
 cinq	O
@@ -41832,9 +41832,9 @@ qu	O
 avec	O
 la	O
 vieille	O
-poudre	O
+poudre	B-OBJ
 à	O
-canon	O
+canon	B-OBJ
 ,	O
 le	O
 résultat	O
@@ -41871,7 +41871,7 @@ que	O
 le	O
 choc	O
 du	O
-projectile	O
+projectile	B-OBJ
 ,	O
 rencontrant	O
 de	O
@@ -41920,7 +41920,7 @@ en	O
 leur	O
 possession	O
 cet	O
-explosif	O
+explosif	B-OBJ
 d	O
 '	O
 une	O
@@ -41931,13 +41931,13 @@ infinie	O
 et	O
 dont	O
 la	O
-poudre	O
+poudre	B-OBJ
 ,	O
 employée	O
 pour	O
 lancer	O
 le	O
-boulet	O
+boulet	B-OBJ
 de	O
 la	O
 Columbiad	B-PER
@@ -42001,15 +42001,15 @@ borne	O
 à	O
 signaler	O
 cet	O
-explosif	O
+explosif	B-OBJ
 sous	O
 le	O
 nom	O
 de	O
 «	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	B-OBJ
+-	I-OBJ
+mélonite	I-OBJ
 .	O
 »	O
 «	O
@@ -42106,7 +42106,7 @@ quel	O
 que	O
 soit	O
 cet	O
-explosif	O
+explosif	B-OBJ
 ,	O
 avec	O
 la	O
@@ -42122,7 +42122,7 @@ suffisante	O
 pour	O
 rejeter	O
 un	O
-projectile	O
+projectile	B-OBJ
 pesant	O
 cent	O
 quatre	O
@@ -42148,7 +42148,7 @@ qu	O
 il	O
 imprimera	O
 au	O
-canon	O
+canon	B-OBJ
 produira	O
 les	O
 effets	O
@@ -42231,8 +42231,8 @@ géographiques	O
 et	O
 climatologiques	O
 du	O
-globe	O
-terrestre	O
+globe	B-OBJ
+terrestre	I-OBJ
 .	O
 
 «	O
@@ -42243,7 +42243,7 @@ possible	O
 de	O
 fabriquer	O
 un	O
-canon	O
+canon	B-OBJ
 de	O
 dimensions	O
 telles	O
@@ -42262,7 +42262,7 @@ qu	O
 '	O
 est	O
 le	O
-canon	O
+canon	B-OBJ
 de	O
 vingt	O
 -	O
@@ -42286,7 +42286,7 @@ Paris	B-LOC
 Pétersbourg	B-LOC
 .	O
 
-timètres	O
+timètres	B-OBJ
 ?	O
 
 Quels	O
@@ -42330,13 +42330,13 @@ ingénieurs	O
 puissent	O
 produire	O
 cet	O
-engin	O
-gigantesque	O
+engin	B-OBJ
+gigantesque	I-OBJ
 ,	O
 sans	O
 parler	O
 du	O
-projectile	O
+projectile	B-OBJ
 de	O
 cent	O
 quatrevingt	O
@@ -42534,8 +42534,8 @@ exploiter	O
 leur	O
 profit	O
 des	O
-houillères	O
-nouvelles	O
+houillères	B-OBJ
+nouvelles	I-OBJ
 .	O
 
 «	O
@@ -42548,7 +42548,7 @@ fût	O
 indiqué	O
 sur	O
 le	O
-carnet	O
+carnet	B-OBJ
 de	O
 J	B-PER
 .	I-PER
@@ -42626,11 +42626,11 @@ parvient	O
 à	O
 fabriquer	O
 son	O
-canon	O
-monstre	O
+canon	B-OBJ
+monstre	I-OBJ
 et	O
 son	O
-projectile	O
+projectile	B-OBJ
 ;	O
 en	O
 un	O
@@ -42710,8 +42710,8 @@ imprimé	O
 à	O
 l	O
 '	O
-ellipsoïde	O
-terrestre	O
+ellipsoïde	B-OBJ
+terrestre	I-OBJ
 ,	O
 produira	O
 son	O
@@ -42737,7 +42737,7 @@ passage	O
 du	B-PER
 Soleil	I-PER
 au	O
-méridien	O
+méridien	B-OBJ
 du	O
 lieu	O
 x	O
@@ -42750,7 +42750,7 @@ circonstances	O
 connues	O
 :	O
 
-1	O
+1	B-OBJ
 
 °	O
 que	O
@@ -42761,7 +42761,7 @@ s	O
 opérera	O
 avec	O
 un	O
-canon	O
+canon	B-OBJ
 un	O
 million	O
 de	O
@@ -42769,7 +42769,7 @@ fois	O
 gros	O
 comme	O
 le	O
-canon	O
+canon	B-OBJ
 de	O
 vingt	O
 -	O
@@ -42779,13 +42779,13 @@ sept	O
 2°	O
 que	O
 ce	O
-canon	O
+canon	B-OBJ
 sera	O
 chargé	O
 d	O
 '	O
 un	O
-projectile	O
+projectile	B-OBJ
 de	O
 cent	O
 quatre	O
@@ -42795,12 +42795,12 @@ mille	O
 tonnes	O
 ;	O
 
-3	O
+3	B-OBJ
 
 °	O
 que	O
 ce	O
-projectile	O
+projectile	B-OBJ
 sera	O
 animé	O
 d	O
@@ -42816,7 +42816,7 @@ cents	O
 kilomètres	O
 ;	O
 
-4	O
+4	B-OBJ
 
 °	O
 que	O
@@ -42836,7 +42836,7 @@ passage	O
 du	B-PER
 Soleil	I-PER
 au	O
-méridien	O
+méridien	B-OBJ
 du	O
 lieu	O
 ,	O
@@ -42887,8 +42887,8 @@ calculer	O
 quel	O
 sera	O
 le	O
-point	O
-x	O
+point	B-OBJ
+x	I-OBJ
 ,	O
 puisque	O
 ,	O
@@ -42912,9 +42912,9 @@ endroit	O
 du	O
 globe	O
 passera	O
-le	O
-nouvel	O
-axe	O
+le	B-OBJ
+nouvel	I-OBJ
+axe	I-OBJ
 ,	O
 en	O
 d	O
@@ -42991,16 +42991,16 @@ océans	O
 quels	O
 seront	O
 les	O
-continents	O
+continents	B-OBJ
 transformés	O
 en	O
-mers	O
+mers	B-OBJ
 et	O
 les	O
-mers	O
+mers	B-OBJ
 transformées	O
 en	O
-continents	O
+continents	B-OBJ
 .	O
 
 «	O
@@ -43032,25 +43032,25 @@ Après	O
 le	O
 choc	O
 ,	O
-la	O
-surface	O
-de	O
-la	O
-mer	O
+la	B-OBJ
+surface	I-OBJ
+de	I-OBJ
+la	I-OBJ
+mer	I-OBJ
 prendra	O
 la	O
 forme	O
 d	O
 '	O
 un	O
-ellipsoïde	O
+ellipsoïde	B-OBJ
 de	O
 révolution	O
 autour	O
 du	O
-nouvel	O
-axe	O
-polaire	O
+nouvel	B-OBJ
+axe	I-OBJ
+polaire	I-OBJ
 ,	O
 et	O
 le	O
@@ -43077,18 +43077,18 @@ l	O
 '	O
 intersection	O
 du	O
-niveau	O
-de	O
-la	O
-mer	O
-ancien	O
+niveau	B-OBJ
+de	I-OBJ
+la	I-OBJ
+mer	I-OBJ
+ancien	I-OBJ
 et	O
 du	O
-niveau	O
-de	O
-la	O
-mer	O
-nouveau	O
+niveau	B-OBJ
+de	I-OBJ
+la	I-OBJ
+mer	I-OBJ
+nouveau	I-OBJ
 —	O
 deux	O
 surfaces	O
@@ -43097,7 +43097,7 @@ révolution	O
 égales	O
 dont	O
 les	O
-axes	O
+axes	B-OBJ
 se	O
 rencontrent	O
 
@@ -43145,9 +43145,9 @@ même	O
 relevé	O
 sur	O
 le	O
-carnet	O
-du	O
-calculateur	O
+carnet	B-OBJ
+du	I-OBJ
+calculateur	I-OBJ
 .	O
 )	O
 «	O
@@ -43185,8 +43185,8 @@ points	O
 du	O
 globe	O
 ,	O
-divers	O
-territoires	O
+divers	B-OBJ
+territoires	I-OBJ
 seront	O
 abaissés	O
 ou	O
@@ -43212,11 +43212,11 @@ de	O
 démarcation	O
 ,	O
 partageant	O
-le	O
-globe	O
+le	B-OBJ
+globe	I-OBJ
 en	O
-quatre	O
-segments	O
+quatre	B-OBJ
+segments	I-OBJ
 ,	O
 sur	O
 la	O
@@ -43275,13 +43275,13 @@ l	O
 '	O
 aplatissement	O
 du	O
-sphéroïde	O
+sphéroïde	B-OBJ
 .	O
 
 Donc	O
 ,	O
-le	O
-domaine	O
+le	B-OBJ
+domaine	I-OBJ
 acquis	O
 par	O
 la	B-ORG
@@ -43394,16 +43394,16 @@ parviendraient	O
 pas	O
 .	O
 
-Il	O
-y	O
-a	O
+Il	B-OBJ
+y	I-OBJ
+a	I-OBJ
 ,	O
 dans	O
 cette	O
-équation	O
+équation	B-OBJ
 ,	O
-une	O
-inconnue	O
+une	B-OBJ
+inconnue	I-OBJ
 que	O
 nulle	O
 formule	O
@@ -43419,8 +43419,8 @@ la	O
 situation	O
 précise	O
 du	O
-point	O
-x	O
+point	B-OBJ
+x	I-OBJ
 où	O
 se	O
 produira	O
@@ -43435,10 +43435,10 @@ le	O
 choc	O
 ...	O
 
-Or	O
+Or	B-OBJ
 ,	O
-cet	O
-x	O
+cet	B-OBJ
+x	I-OBJ
 est	O
 le	O
 secret	O
@@ -43548,14 +43548,14 @@ tels	O
 que	O
 fonte	O
 de	O
-canons	O
+canons	B-OBJ
 ,	O
 fabrication	O
 de	O
 poudres	O
 ou	O
 de	O
-projectiles	O
+projectiles	B-OBJ
 ,	O
 qui	O
 pourraient	O
@@ -43606,13 +43606,13 @@ U	O
 S.	O
 -	O
 
-A	O
+A	B-OBJ
 .	O
 
 «	O
-Fasse	O
-le	O
-ciel	O
+Fasse	B-OBJ
+le	I-OBJ
+ciel	I-OBJ
 que	O
 cette	O
 révélation	O
@@ -43662,12 +43662,12 @@ Ainsi	O
 ,	O
 après	O
 le	O
-canon	O
+canon	B-OBJ
 employé	O
 pour	O
 lancer	O
 un	O
-projectile	O
+projectile	B-OBJ
 de	O
 la	B-LOC
 Terre	I-LOC
@@ -43676,7 +43676,7 @@ la	B-LOC
 Lune	I-LOC
 ,	O
 le	O
-canon	O
+canon	B-OBJ
 employé	O
 pour	O
 modifier	O
@@ -43686,13 +43686,13 @@ axe	O
 terrestre	O
 !	O
 
-Le	O
-canon	O
+Le	B-OBJ
+canon	I-OBJ
 !	O
 
 Toujours	O
 le	O
-canon	O
+canon	B-OBJ
 !	O
 
 Mais	O
@@ -43710,7 +43710,7 @@ tête	O
 ces	O
 artilleurs	O
 du	B-ORG
-Gun	O
+Gun	B-OBJ
 -	O
 
 Club	O
@@ -43734,7 +43734,7 @@ Ils	O
 font	O
 donc	O
 du	O
-canon	O
+canon	B-OBJ
 l	O
 '	O
 ultima	O
@@ -43744,9 +43744,9 @@ ce	O
 monde	O
 ?	O
 
-Ce	O
-brutal	O
-engin	O
+Ce	B-OBJ
+brutal	I-OBJ
+engin	I-OBJ
 est	O
 -	O
 il	O
@@ -43795,8 +43795,8 @@ l	O
 '	O
 avouer	O
 ,	O
-le	O
-canon	O
+le	B-OBJ
+canon	I-OBJ
 ,	O
 c	O
 '	O
@@ -43838,7 +43838,7 @@ sa	O
 vie	O
 à	O
 la	O
-balistique	O
+balistique	B-OBJ
 .	O
 
 Après	O
@@ -43853,9 +43853,9 @@ devaient	O
 en	O
 arriver	O
 au	O
-canon	O
+canon	B-OBJ
 -	O
-monstre	O
+monstre	B-OBJ
 de	O
 ...	O
 du	O
@@ -43888,10 +43888,10 @@ Lune	I-LOC
 !	O
 ...	O
 
-Première	O
-pièce	O
+Première	B-OBJ
+pièce	I-OBJ
 ...	O
-Feu	O
+Feu	B-OBJ
 !	O
 
 —	O
@@ -43932,10 +43932,10 @@ A	O
 Charenton	B-LOC
 !	O
 ...	O
-Troisième	O
-pièce	O
+Troisième	B-OBJ
+pièce	I-OBJ
 ...	O
-Feu	O
+Feu	B-OBJ
 !	O
 ...	O
 
@@ -44122,9 +44122,9 @@ rotation	O
 diurne	O
 .	O
 
-Un	O
-nouvel	O
-axe	O
+Un	B-OBJ
+nouvel	I-OBJ
+axe	I-OBJ
 serait	O
 substitué	O
 à	O
@@ -44210,8 +44210,8 @@ quelques	O
 partisans	O
 parmi	O
 les	O
-cerveaux	O
-brûlés	O
+cerveaux	B-OBJ
+brûlés	I-OBJ
 des	B-LOC
 États	I-LOC
 -	I-LOC
@@ -44339,11 +44339,11 @@ trace	O
 ?	O
 
 Comment	O
-le	O
-matériel	O
+le	B-OBJ
+matériel	I-OBJ
 et	O
-le	O
-personnel	O
+le	B-OBJ
+personnel	I-OBJ
 ,	O
 nécessités	O
 par	O
@@ -44368,10 +44368,10 @@ fût	O
 aperçu	O
 ?	O
 
-Des	O
-centaines	O
-de	O
-wagons	O
+Des	B-OBJ
+centaines	I-OBJ
+de	I-OBJ
+wagons	I-OBJ
 ,	O
 si	O
 c	O
@@ -44383,7 +44383,7 @@ railway	O
 des	O
 centaines	O
 de	O
-navires	O
+navires	B-OBJ
 ,	O
 si	O
 c	O
@@ -44400,17 +44400,17 @@ suffi	O
 à	O
 transporter	O
 les	O
-chargements	O
+chargements	B-OBJ
 de	O
-métal	O
+métal	B-OBJ
 ,	O
 de	O
-charbon	O
+charbon	B-OBJ
 et	O
 de	O
-méli	O
--	O
-nonite	O
+méli	B-OBJ
+-	I-OBJ
+nonite	I-OBJ
 .	O
 
 Il	O
@@ -44523,7 +44523,7 @@ Maston	I-PER
 congrûment	O
 mis	O
 sous	O
-clef	O
+clef	B-OBJ
 ,	O
 pouvait	O
 tout	O
@@ -44550,19 +44550,19 @@ admirable	O
 têtu	O
 que	O
 ce	O
-calculateur	O
+calculateur	B-OBJ
 !	O
 
-Il	O
-était	O
-de	O
-fer	O
+Il	B-OBJ
+était	I-OBJ
+de	I-OBJ
+fer	I-OBJ
 ,	O
 comme	O
 son	O
-avant	O
--	O
-bras	O
+avant	B-OBJ
+-	I-OBJ
+bras	I-OBJ
 .	O
 
 Du	O
@@ -44646,18 +44646,18 @@ les	O
 voyait	O
 fabriquant	O
 leur	O
-énorme	O
-engin	O
+énorme	B-OBJ
+engin	I-OBJ
 ,	O
 combinant	O
 leur	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 ,	O
 fondant	O
 le	O
-projectile	O
+projectile	B-OBJ
 que	O
 le	B-LOC
 Soleil	I-LOC
@@ -44744,9 +44744,9 @@ demi	O
 ,	O
 l	O
 '	O
-astre	O
-du	O
-jour	O
+astre	B-OBJ
+du	I-OBJ
+jour	I-OBJ
 ,	O
 après	O
 s	O
@@ -44774,7 +44774,7 @@ mois	I-DUR
 plus	O
 tard	O
 ,	O
-il	O
+il	B-OBJ
 traverserait	O
 la	O
 ligne	O
@@ -44834,7 +44834,7 @@ an	O
 -	O
 ,	O
 le	O
-sphéroïde	O
+sphéroïde	B-OBJ
 aurait	O
 été	O
 soumis	O
@@ -44888,7 +44888,7 @@ c	O
 était	O
 là	O
 une	O
-oeuvre	O
+oeuvre	B-OBJ
 magnifique	O
 ,	O
 surhumaine	O
@@ -44911,7 +44911,7 @@ l	O
 '	O
 exploitation	O
 des	O
-houillères	O
+houillères	B-OBJ
 de	O
 l	B-LOC
 '	I-LOC
@@ -44959,8 +44959,8 @@ monde	O
 Mais	O
 voilà	O
 ,	O
-le	O
-monde	O
+le	B-OBJ
+monde	I-OBJ
 ne	O
 voulait	O
 pas	O
@@ -45142,8 +45142,8 @@ autorisée	O
 à	O
 venir	O
 voir	O
-le	O
-prisonnier	O
+le	B-OBJ
+prisonnier	I-OBJ
 autant	O
 qu	O
 '	O
@@ -45175,9 +45175,9 @@ par	O
 le	O
 recul	O
 du	O
-canon	O
+canon	B-OBJ
 -	O
-monstre	O
+monstre	B-OBJ
 ?	O
 
 Est	O
@@ -45185,7 +45185,7 @@ Est	O
 ce	O
 que	O
 son	O
-hôtel	O
+hôtel	B-OBJ
 de	O
 New	B-LOC
 -	I-LOC
@@ -45198,14 +45198,14 @@ la	O
 catastrophe	O
 finale	O
 que	O
-la	O
-hutte	O
-du	O
-plus	O
-humble	O
-coureur	O
-des	O
-bois	O
+la	B-OBJ
+hutte	I-OBJ
+du	I-OBJ
+plus	I-OBJ
+humble	I-OBJ
+coureur	I-OBJ
+des	I-OBJ
+bois	I-OBJ
 ou	O
 le	O
 wigwam	O
@@ -45403,7 +45403,7 @@ bien	O
 être	O
 de	O
 son	O
-cottage	O
+cottage	B-OBJ
 .	O
 
 Mais	O
@@ -45438,8 +45438,8 @@ avril	I-PONC
 ,	O
 si	O
 quelque	O
-oreille	O
-indiscrète	O
+oreille	B-OBJ
+indiscrète	I-OBJ
 se	O
 fût	O
 collée	O
@@ -45463,7 +45463,7 @@ voici	O
 ce	O
 que	O
 cette	O
-oreille	O
+oreille	B-OBJ
 aurait	O
 entendu	O
 —	O
@@ -45493,8 +45493,8 @@ Scorbitt	I-PER
 —	O
 Oui	O
 ,	O
-mon	O
-ami	O
+mon	B-OBJ
+ami	I-OBJ
 ,	O
 après	O
 quatre	B-DUR
@@ -45533,7 +45533,7 @@ après	O
 avoir	O
 consulté	O
 sa	O
-montre	O
+montre	B-OBJ
 .	O
 
 —	O
@@ -45588,7 +45588,7 @@ en	O
 est	O
 l	O
 '	O
-objet	O
+objet	B-OBJ
 !	O
 
 —	O
@@ -46109,8 +46109,8 @@ excellente	O
 dame	O
 venait	O
 visiter	O
-le	O
-prisonnier	O
+le	B-OBJ
+prisonnier	I-OBJ
 .	O
 
 Et	O
@@ -46131,8 +46131,8 @@ ses	O
 entrevues	O
 :	O
 «	O
-Rien	O
-encore	O
+Rien	B-OBJ
+encore	I-OBJ
 !	O
 disait	O
 -	O
@@ -46165,7 +46165,7 @@ temps	O
 
 disait	O
 -	O
-elle	O
+elle	B-OBJ
 .	O
 
 Mais	O
@@ -46525,11 +46525,11 @@ que	O
 de	O
 retirer	O
 les	O
-ambassadeurs	O
+ambassadeurs	B-OBJ
 et	O
 les	O
-ministres	O
-plénipotentiaires	O
+ministres	B-OBJ
+plénipotentiaires	I-OBJ
 ,	O
 accrédités	O
 près	O
@@ -46665,7 +46665,7 @@ leur	O
 complice	O
 !	O
 
-Or	O
+Or	B-OBJ
 ,	O
 J	B-PER
 .	I-PER
@@ -46769,24 +46769,24 @@ avait	O
 du	O
 bon	O
 ,	O
-les	O
-brodequins	O
-du	O
-maître	O
--	O
-tourmenteur	O
-juré	O
+les	B-OBJ
+brodequins	I-OBJ
+du	I-OBJ
+maître	I-OBJ
+-	I-OBJ
+tourmenteur	I-OBJ
+juré	I-OBJ
 ,	O
 le	O
-tenail	O
--	O
-lement	O
-aux	O
-mamelles	O
+tenail	B-OBJ
+-	I-OBJ
+lement	I-OBJ
+aux	I-OBJ
+mamelles	I-OBJ
 ,	O
-le	O
-plomb	O
-fondu	O
+le	B-OBJ
+plomb	I-OBJ
+fondu	I-OBJ
 ,	O
 si	O
 souverain	O
@@ -46804,7 +46804,7 @@ huile	O
 bouillante	O
 ,	O
 le	O
-chevalet	O
+chevalet	B-OBJ
 ,	O
 la	O
 question	O
@@ -46815,7 +46815,7 @@ eau	O
 ,	O
 l	O
 '	O
-estrapade	O
+estrapade	B-OBJ
 ,	O
 etc	O
 .	O
@@ -46871,8 +46871,8 @@ bien	O
 le	O
 reconnaître	O
 ,	O
-ces	O
-moyens	O
+ces	B-OBJ
+moyens	I-OBJ
 que	O
 justifiaient	O
 les	O
@@ -46920,18 +46920,18 @@ l	O
 '	O
 invention	O
 du	O
-fusil	O
-à	O
-répétition	O
+fusil	B-OBJ
+à	I-OBJ
+répétition	I-OBJ
 ,	O
 des	O
-balles	O
-de	O
-sept	O
-millimètres	O
+balles	B-OBJ
+de	I-OBJ
+sept	I-OBJ
+millimètres	I-OBJ
 et	O
 des	O
-trajectoires	O
+trajectoires	B-OBJ
 d	O
 '	O
 une	O
@@ -46954,7 +46954,7 @@ l	O
 '	O
 emploi	O
 des	O
-obus	O
+obus	B-OBJ
 à	O
 la	O
 mélinite	O
@@ -46994,9 +46994,9 @@ vrai	O
 auprès	O
 de	O
 la	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 .	O
 
 J	O
@@ -47088,8 +47088,8 @@ VÉRITABLEMENT	O
 ÉPIQUE	O
 .	O
 
-Le	O
-temps	O
+Le	B-OBJ
+temps	I-OBJ
 marchait	O
 ,	O
 cependant	O
@@ -47149,9 +47149,9 @@ considérable	O
 la	O
 création	O
 de	O
-hauts	O
--	O
-fourneaux	O
+hauts	B-OBJ
+-	I-OBJ
+fourneaux	I-OBJ
 capables	O
 de	O
 fondre	O
@@ -47164,7 +47164,7 @@ fois	O
 gros	O
 comme	O
 le	O
-canon	O
+canon	B-OBJ
 de	O
 vingt	O
 -	O
@@ -47175,7 +47175,7 @@ marine	O
 ,	O
 et	O
 un	O
-projectile	O
+projectile	B-OBJ
 pesant	O
 cent	O
 quatre	O
@@ -47341,7 +47341,7 @@ elle	O
 eût	O
 établi	O
 des	O
-usines	O
+usines	B-OBJ
 ,	O
 non	O
 !	O
@@ -47421,8 +47421,8 @@ son	O
 temps	O
 .	O
 
-Le	O
-carnet	O
+Le	B-OBJ
+carnet	I-OBJ
 ,	O
 saisi	O
 chez	O
@@ -47718,9 +47718,9 @@ il	O
 eût	O
 trouvé	O
 cette	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	B-OBJ
+-	I-OBJ
+mélonite	I-OBJ
 ,	O
 d	O
 '	O
@@ -47811,7 +47811,7 @@ permettra	O
 de	O
 démolir	O
 les	O
-armées	O
+armées	B-OBJ
 à	O
 n	O
 '	O
@@ -47829,8 +47829,8 @@ redressement	O
 de	O
 l	O
 '	O
-axe	O
-terrestre	O
+axe	B-OBJ
+terrestre	I-OBJ
 produit	O
 par	O
 le	O
@@ -47838,9 +47838,9 @@ recul	O
 d	O
 '	O
 une	O
-bouche	O
-à	O
-feu	O
+bouche	B-OBJ
+à	I-OBJ
+feu	I-OBJ
 ,	O
 ce	O
 n	O
@@ -47929,7 +47929,7 @@ envoyer	O
 des	O
 milliers	O
 de	O
-projectiles	O
+projectiles	B-OBJ
 pesant	O
 quelques	O
 kilogrammes	O
@@ -47938,7 +47938,7 @@ ou	O
 des	O
 millions	O
 de	O
-projectiles	O
+projectiles	B-OBJ
 pesant	O
 quelques	O
 grammes	O
@@ -47967,8 +47967,8 @@ bras	O
 ou	O
 lorsque	O
 un	O
-globule	O
-sanguin	O
+globule	B-OBJ
+sanguin	I-OBJ
 se	O
 balade	O
 dans	O
@@ -47982,14 +47982,14 @@ la	O
 masse	O
 de	O
 notre	O
-sphéroïde	O
+sphéroïde	B-OBJ
 !	O
 
 Donc	O
 ,	O
-ta	O
-grande	O
-machine	O
+ta	B-OBJ
+grande	I-OBJ
+machine	I-OBJ
 est	O
 de	O
 nature	O
@@ -48035,7 +48035,7 @@ les	O
 équations	O
 de	O
 cet	O
-animal	O
+animal	B-OBJ
 de	O
 J	B-PER
 .	I-PER
@@ -48140,15 +48140,15 @@ accumulées	O
 la	O
 surface	O
 du	O
-sphéroïde	O
+sphéroïde	B-OBJ
 !	O
 
 Que	O
 de	O
 cataclysmes	O
 ,	O
-cités	O
-renversées	O
+cités	B-OBJ
+renversées	I-OBJ
 ,	O
 montagnes	O
 ébranlées	O
@@ -48158,8 +48158,8 @@ détruits	O
 par	O
 millions	O
 ,	O
-masses	O
-liquides	O
+masses	B-OBJ
+liquides	I-OBJ
 projetées	O
 hors	O
 de	O
@@ -48212,7 +48212,7 @@ pourrait	O
 espérer	O
 que	O
 le	O
-projectile	O
+projectile	B-OBJ
 viendrait	O
 de	O
 nouveau	O
@@ -48279,12 +48279,12 @@ lanlaire	O
 Grâce	O
 à	O
 leur	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 ,	O
-le	O
-boulet	O
+le	B-OBJ
+boulet	I-OBJ
 décrira	O
 une	O
 demi	O
@@ -48324,8 +48324,8 @@ Pierdeux	I-PER
 gesticulait	O
 comme	O
 un	O
-appareil	O
-sémaphorique	O
+appareil	B-OBJ
+sémaphorique	I-OBJ
 ,	O
 au	O
 risque	O
@@ -48352,10 +48352,10 @@ Si	O
 au	O
 moins	O
 ,	O
-le	O
-lieu	O
-de	O
-tir	O
+le	B-OBJ
+lieu	I-OBJ
+de	I-OBJ
+tir	I-OBJ
 était	O
 connu	O
 ,	O
@@ -48402,7 +48402,7 @@ temps	O
 avant	O
 que	O
 leurs	O
-maisons	O
+maisons	B-OBJ
 ou	O
 leurs	O
 villes	O
@@ -48412,7 +48412,7 @@ fussent	O
 tombées	O
 sur	O
 la	O
-caboche	O
+caboche	B-OBJ
 !	O
 
 Mais	O
@@ -48432,8 +48432,8 @@ au	O
 -	O
 dessus	O
 du	O
-rare	O
-duvet	O
+rare	B-OBJ
+duvet	I-OBJ
 qui	O
 lui	O
 garnissait	O
@@ -48530,8 +48530,8 @@ leurs	O
 cratères	O
 ?	O
 
-Le	O
-diable	O
+Le	B-OBJ
+diable	I-OBJ
 m	O
 '	O
 emporte	O
@@ -48545,9 +48545,9 @@ explosions	O
 qui	O
 feront	O
 sauter	O
-la	O
-machine	O
-tellurienne	O
+la	B-OBJ
+machine	I-OBJ
+tellurienne	I-OBJ
 !	O
 
 Ah	O
@@ -48574,7 +48574,7 @@ vous	O
 jonglant	O
 avec	O
 notre	O
-boule	O
+boule	B-OBJ
 et	O
 faisant	O
 des	O
@@ -48583,7 +48583,7 @@ de	O
 finesse	O
 sur	O
 le	O
-billard	O
+billard	B-OBJ
 de	O
 l	O
 '	O
@@ -48631,16 +48631,16 @@ Co	I-PER
 qu	O
 '	O
 étaient	O
-ces	O
-trombes	O
+ces	B-OBJ
+trombes	I-OBJ
 ,	O
-ces	O
-raz	O
-de	O
-marée	O
+ces	B-OBJ
+raz	I-OBJ
+de	I-OBJ
+marée	I-OBJ
 ,	O
-ces	O
-déluges	O
+ces	B-OBJ
+déluges	I-OBJ
 ,	O
 qui	O
 ,	O
@@ -48818,13 +48818,13 @@ prédits	O
 par	O
 l	O
 '	O
-Écriture	O
+Écriture	B-OBJ
 .	O
 
-Le	O
-fils	O
-de	O
-perdition	O
+Le	B-OBJ
+fils	I-OBJ
+de	I-OBJ
+perdition	I-OBJ
 ,	O
 l	B-PER
 '	I-PER
@@ -48848,26 +48848,26 @@ raconte	O
 H.	B-PER
 Martin	I-PER
 ,	O
-tout	O
+tout	B-OBJ
 était	O
 interrompu	O
 ,	O
-plaisirs	O
+plaisirs	B-OBJ
 ,	O
-affaires	O
+affaires	B-OBJ
 ,	O
-intérêts	O
+intérêts	B-OBJ
 ,	O
-tout	O
+tout	B-OBJ
 ,	O
 quasi	O
 jusqu	O
 '	O
 aux	O
-travaux	O
-de	O
-la	O
-campagne	O
+travaux	B-OBJ
+de	I-OBJ
+la	I-OBJ
+campagne	I-OBJ
 .	O
 
 Pourquoi	O
@@ -48910,13 +48910,13 @@ immédiats	O
 ;	O
 on	O
 léguait	O
-ses	O
-terres	O
+ses	B-OBJ
+terres	I-OBJ
 ,	O
-ses	O
-châteaux	O
+ses	B-OBJ
+châteaux	I-OBJ
 aux	O
-monastères	O
+monastères	B-OBJ
 pour	O
 s	O
 '	O
@@ -48940,7 +48940,7 @@ chartes	O
 de	O
 donations	O
 aux	O
-églises	O
+églises	B-OBJ
 débutent	O
 par	O
 ces	O
@@ -48998,8 +48998,8 @@ angoisses	O
 ,	O
 que	O
 les	O
-sept	O
-trompettes	O
+sept	B-OBJ
+trompettes	I-OBJ
 des	O
 sept	O
 anges	O
@@ -49119,8 +49119,8 @@ ce	O
 ne	O
 serait	O
 pas	O
-la	O
-mer	O
+la	B-OBJ
+mer	I-OBJ
 qui	O
 rendrait	O
 ses	O
@@ -49359,7 +49359,7 @@ exemple	O
 .	O
 
 Mais	O
-elle	O
+elle	B-OBJ
 n	O
 '	O
 osa	O
@@ -49422,7 +49422,7 @@ Confédération	I-ORG
 ,	O
 par	O
 les	O
-dépêches	O
+dépêches	B-OBJ
 qui	O
 arrivaient	O
 «	O
@@ -49486,7 +49486,7 @@ l	O
 eût	O
 livré	O
 aux	O
-bêtes	O
+bêtes	B-OBJ
 .	O
 
 Mais	O
@@ -49678,7 +49678,7 @@ quelques	O
 lignes	O
 de	O
 cette	O
-main	O
+main	B-OBJ
 qui	O
 allait	O
 bouleverser	O
@@ -49689,11 +49689,11 @@ monde	O
 Mais	O
 ,	O
 si	O
-cela	O
+cela	B-OBJ
 était	O
 beau	O
 ,	O
-cela	O
+cela	B-OBJ
 devenait	O
 de	O
 plus	O
@@ -49740,8 +49740,8 @@ et	O
 nunc	O
 .	O
 
-La	O
-police	O
+La	B-OBJ
+police	I-OBJ
 voyait	O
 venir	O
 le	O
@@ -49873,9 +49873,9 @@ sa	O
 personne	O
 à	O
 la	O
-cellule	O
-du	O
-prisonnier	O
+cellule	B-OBJ
+du	I-OBJ
+prisonnier	I-OBJ
 .	O
 
 Mrs	B-PER
@@ -49928,9 +49928,9 @@ rien	O
 négliger	O
 .	O
 
-Tous	O
-les	O
-moyens	O
+Tous	B-OBJ
+les	I-OBJ
+moyens	I-OBJ
 seraient	O
 bons	O
 ,	O
@@ -50121,7 +50121,7 @@ fit	O
 observer	O
 ironiquement	O
 le	O
-secrétaire	O
+secrétaire	B-OBJ
 du	B-ORG
 Gun	I-ORG
 -	I-ORG
@@ -50297,7 +50297,7 @@ exécuté	O
 !	O
 
 —	O
-Soit	O
+Soit	B-OBJ
 !	O
 
 —	O
@@ -50325,7 +50325,7 @@ menaces	O
 Oh	O
 !	O
 ...	O
-mistress	O
+mistress	B-OBJ
 !	O
 »	O
 fit	O
@@ -50336,7 +50336,7 @@ T.	B-PER
 Maston	I-PER
 .	O
 
-Elle	O
+Elle	B-OBJ
 baissa	O
 la	O
 tête	O
@@ -50406,7 +50406,7 @@ Et	O
 que	O
 vous	O
 serez	O
-pendu	O
+pendu	B-OBJ
 ,	O
 aussi	O
 sûr	O
@@ -50660,7 +50660,7 @@ gouvernement	O
 fédéral	O
 reçut	O
 le	O
-télégramme	O
+télégramme	B-OBJ
 suivant	O
 ,	O
 dont	O
@@ -50761,7 +50761,7 @@ Bâli	I-PER
 Bâli	I-PER
 .	O
 
-Ceci	O
+Ceci	B-OBJ
 porté	O
 à	O
 la	O
@@ -50804,7 +50804,7 @@ pourquoi	O
 ,	O
 si	O
 le	O
-secrétaire	O
+secrétaire	B-OBJ
 du	B-ORG
 Gun	I-ORG
 -	I-ORG
@@ -50932,7 +50932,7 @@ confirmée	O
 identiquement	O
 par	O
 des	O
-télégrammes	O
+télégrammes	B-OBJ
 subséquents	O
 .	O
 
@@ -51046,12 +51046,12 @@ pu	O
 y	O
 établir	O
 leurs	O
-ateliers	O
+ateliers	B-OBJ
 ,	O
 y	O
 créer	O
 une	O
-fonderie	O
+fonderie	B-OBJ
 ,	O
 y	O
 réunir	O
@@ -51088,7 +51088,7 @@ que	O
 cruels	O
 ?	O
 
-Cela	O
+Cela	B-OBJ
 ,	O
 on	O
 ne	O
@@ -51176,9 +51176,9 @@ mirifique	O
 zigzag	O
 avec	O
 son	O
-crochet	O
-de	O
-fer	O
+crochet	B-OBJ
+de	I-OBJ
+fer	I-OBJ
 .	O
 
 On	O
@@ -51188,11 +51188,11 @@ encore	O
 ni	O
 par	O
 le	O
-télégraphe	O
+télégraphe	B-OBJ
 ni	O
 par	O
 le	O
-téléphone	O
+téléphone	B-OBJ
 ,	O
 et	O
 dans	O
@@ -51208,7 +51208,7 @@ affaire	O
 sera	O
 dans	O
 le	O
-sac	O
+sac	B-OBJ
 !	O
 ...	O
 »	O
@@ -51225,7 +51225,7 @@ Gun	I-ORG
 Club	I-ORG
 lancer	O
 cette	O
-onomatopée	O
+onomatopée	B-OBJ
 retentissante	O
 ,	O
 qui	O
@@ -51446,9 +51446,9 @@ la	O
 situation	O
 exacte	O
 du	O
-point	O
-de	O
-tir	O
+point	B-OBJ
+de	I-OBJ
+tir	I-OBJ
 .	O
 
 Pure	O
@@ -51576,8 +51576,8 @@ ou	O
 tel	O
 segment	O
 du	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 .	O
 
 Et	O
@@ -51610,8 +51610,8 @@ le	B-PONC
 14	I-PONC
 septembre	I-PONC
 ,	O
-la	O
-dépêche	O
+la	B-OBJ
+dépêche	I-OBJ
 fut	O
 expédiée	O
 au	O
@@ -51762,8 +51762,8 @@ des	I-ORG
 Longitudes	I-ORG
 .	O
 
-AVIS	O
-PRESSANT	O
+AVIS	B-OBJ
+PRESSANT	I-OBJ
 .	O
 
 «	O
@@ -51801,7 +51801,7 @@ moyen	O
 d	O
 '	O
 un	O
-canon	O
+canon	B-OBJ
 un	O
 million	O
 de	O
@@ -51820,7 +51820,7 @@ centimètres	O
 ,	O
 lançant	O
 un	O
-projectile	O
+projectile	B-OBJ
 de	O
 cent	O
 quatre	O
@@ -51831,7 +51831,7 @@ tonnes	O
 ,	O
 avec	O
 une	O
-poudre	O
+poudre	B-OBJ
 donnant	O
 une	O
 vitesse	O
@@ -51911,8 +51911,8 @@ mécaniques	O
 la	O
 surface	O
 du	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 :	O
 «	O
 Instantanément	O
@@ -51928,8 +51928,8 @@ mouvement	O
 diurne	O
 ,	O
 un	O
-nouvel	O
-axe	O
+nouvel	B-OBJ
+axe	I-OBJ
 se	O
 formera	O
 ,	O
@@ -51938,8 +51938,8 @@ et	O
 comme	O
 l	O
 '	O
-ancien	O
-axe	O
+ancien	B-OBJ
+axe	I-OBJ
 se	O
 déplacera	O
 de	O
@@ -51960,8 +51960,8 @@ T.	B-PER
 Maston	I-PER
 ,	O
 le	O
-nouvel	O
-axe	O
+nouvel	B-OBJ
+axe	I-OBJ
 sera	O
 perpendiculaire	O
 au	O
@@ -51979,15 +51979,15 @@ par	O
 quels	O
 points	O
 sortira	O
-le	O
-nouvel	O
-axe	O
+le	B-OBJ
+nouvel	I-OBJ
+axe	I-OBJ
 ?	O
 
-Le	O
-lieu	O
-du	O
-tir	O
+Le	B-OBJ
+lieu	I-OBJ
+du	I-OBJ
+tir	I-OBJ
 étant	O
 connu	O
 ,	O
@@ -52393,8 +52393,8 @@ par	O
 la	O
 création	O
 du	O
-nouvel	O
-axe	O
+nouvel	B-OBJ
+axe	I-OBJ
 ,	O
 il	O
 a	O
@@ -52540,21 +52540,21 @@ l	O
 '	O
 aplatissement	O
 du	O
-sphéroïde	O
+sphéroïde	B-OBJ
 aux	B-LOC
 anciens	I-LOC
 Pôles	I-LOC
 .	O
 
 «	O
-Le	O
-globe	O
+Le	B-OBJ
+globe	I-OBJ
 sera	O
 divisé	O
 par	O
-deux	O
-grands	O
-cercles	O
+deux	B-OBJ
+grands	I-OBJ
+cercles	I-OBJ
 ,	O
 s	O
 '	O
@@ -53052,10 +53052,10 @@ longitude	O
 Tels	O
 seront	O
 les	O
-quatre	O
-segments	O
+quatre	B-OBJ
+segments	I-OBJ
 du	O
-globe	O
+globe	B-OBJ
 ,	O
 séparés	O
 par	O
@@ -53085,8 +53085,8 @@ la	O
 surface	O
 de	O
 ces	O
-quatre	O
-segments	O
+quatre	B-OBJ
+segments	I-OBJ
 par	O
 suite	O
 du	O
@@ -53096,19 +53096,19 @@ mers	O
 .	O
 
 «	O
-Sur	O
-chacun	O
-de	O
-ces	O
-quatre	O
-segments	O
+Sur	B-OBJ
+chacun	I-OBJ
+de	I-OBJ
+ces	I-OBJ
+quatre	I-OBJ
+segments	I-OBJ
 ,	O
 il	O
 y	O
 a	O
 un	O
-point	O
-central	O
+point	B-OBJ
+central	I-OBJ
 où	O
 cet	O
 effet	O
@@ -53117,8 +53117,8 @@ maximum	O
 ,	O
 soit	O
 que	O
-les	O
-mers	O
+les	B-OBJ
+mers	I-OBJ
 s	O
 '	O
 y	O
@@ -53175,8 +53175,8 @@ diminuant	O
 jusqu	O
 '	O
 aux	O
-lignes	O
-neutres	O
+lignes	B-OBJ
+neutres	I-OBJ
 formant	O
 la	O
 limite	O
@@ -53264,8 +53264,8 @@ l	O
 hémisphère	O
 sud	O
 ,	O
-les	O
-mers	O
+les	B-OBJ
+mers	I-OBJ
 se	O
 retireront	O
 pour	O
@@ -53409,7 +53409,7 @@ l	O
 '	O
 abaissement	O
 des	O
-eaux	O
+eaux	B-OBJ
 ,	O
 la	O
 couche	O
@@ -53575,7 +53575,7 @@ comme	O
 il	O
 manque	O
 aux	O
-aéronautes	O
+aéronautes	B-OBJ
 qui	O
 ont	O
 pu	O
@@ -53708,7 +53708,7 @@ d	O
 air	O
 dans	O
 laquelle	O
-elles	O
+elles	B-OBJ
 seront	O
 alors	O
 plongées	O
@@ -53750,9 +53750,9 @@ modification	O
 que	O
 subiront	O
 les	O
-portions	O
-du	O
-globe	O
+portions	B-OBJ
+du	I-OBJ
+globe	I-OBJ
 dans	O
 les	O
 deux	O
@@ -53770,7 +53770,7 @@ rapport	O
 aux	O
 bassins	O
 des	O
-mers	O
+mers	B-OBJ
 plus	O
 ou	O
 moins	O
@@ -53784,8 +53784,8 @@ sans	O
 doute	O
 ,	O
 de	O
-nouvelles	O
-îles	O
+nouvelles	B-OBJ
+îles	I-OBJ
 ,	O
 formées	O
 par	O
@@ -53801,9 +53801,9 @@ dans	O
 les	O
 parties	O
 que	O
-la	O
-masse	O
-liquide	O
+la	B-OBJ
+masse	I-OBJ
+liquide	I-OBJ
 n	O
 '	O
 abandonnera	O
@@ -53928,9 +53928,9 @@ est	O
 du	B-LOC
 Kilimandjaro	I-LOC
 ,	O
-le	O
-point	O
-maximum	O
+le	B-OBJ
+point	I-OBJ
+maximum	I-OBJ
 sera	O
 transporté	O
 à	O
@@ -54185,8 +54185,8 @@ pas	O
 moins	O
 sous	O
 ce	O
-déluge	O
-artificiel	O
+déluge	B-OBJ
+artificiel	I-OBJ
 .	O
 
 ficiel	O
@@ -54336,8 +54336,8 @@ dénivellation	O
 la	O
 surface	O
 du	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 .	O
 
 Telles	O
@@ -54374,10 +54374,10 @@ tentative	O
 XVI	O
 DANS	O
 LEQUEL	O
-LE	O
-CHŒUR	O
-DES	O
-MÉCONTENTS	O
+LE	B-OBJ
+CHŒUR	I-OBJ
+DES	I-OBJ
+MÉCONTENTS	I-OBJ
 VA	O
 CRESCENDO	B-PER
 ET	O
@@ -54679,8 +54679,8 @@ riches	O
 où	O
 l	O
 '	O
-élément	O
-saxon	O
+élément	B-OBJ
+saxon	I-OBJ
 tend	O
 à	O
 se	O
@@ -55083,9 +55083,9 @@ nuages	O
 ,	O
 auxquelles	O
 ses	O
-navires	O
-de	O
-guerre	O
+navires	B-OBJ
+de	I-OBJ
+guerre	I-OBJ
 ne	O
 pourraient	O
 plus	O
@@ -55226,10 +55226,10 @@ Zanzibar	B-LOC
 qui	O
 faisait	O
 connaître	O
-le	O
-point	O
-de	O
-tir	O
+le	B-OBJ
+point	I-OBJ
+de	I-OBJ
+tir	I-OBJ
 ,	O
 eut	O
 permis	O
@@ -55831,8 +55831,8 @@ les	O
 
 Ce	O
 fut	O
-une	O
-bombe	O
+une	B-OBJ
+bombe	I-OBJ
 tombant	O
 dans	O
 une	O
@@ -55903,8 +55903,8 @@ point	O
 obstacle	O
 ...	O
 
-La	O
-cellule	O
+La	B-OBJ
+cellule	I-OBJ
 de	O
 J	B-PER
 .	I-PER
@@ -55917,14 +55917,14 @@ vide	O
 
 Avec	O
 le	O
-poids	O
+poids	B-OBJ
 d	O
 '	O
 or	O
 de	O
-ce	O
-digne	O
-artilleur	O
+ce	B-OBJ
+digne	I-OBJ
+artilleur	I-OBJ
 ,	O
 Mrs	B-PER
 Evangéline	I-PER
@@ -55955,7 +55955,7 @@ appât	O
 d	O
 '	O
 une	O
-fortune	O
+fortune	B-OBJ
 ,	O
 qu	O
 '	O
@@ -56418,7 +56418,7 @@ en	O
 gesticulant	O
 comme	O
 un	O
-télégraphe	O
+télégraphe	B-OBJ
 des	O
 anciens	O
 temps	O
@@ -56436,7 +56436,7 @@ il	O
 à	O
 fabriquer	O
 un	O
-canon	O
+canon	B-OBJ
 un	O
 million	O
 de	O
@@ -56444,7 +56444,7 @@ fois	O
 gros	O
 comme	O
 le	O
-canon	O
+canon	B-OBJ
 de	O
 vingt	O
 -	O
@@ -56470,7 +56470,7 @@ ce	O
 sujet	O
 !	O
 
-Ça	O
+Ça	B-OBJ
 ne	O
 biche	O
 avec	O
@@ -56760,8 +56760,8 @@ du	O
 sultan	O
 .	O
 
-Cette	O
-capitale	O
+Cette	B-OBJ
+capitale	I-OBJ
 n	O
 '	O
 est	O
@@ -56802,9 +56802,9 @@ esclaves	O
 ,	O
 sous	O
 le	O
-joug	O
-de	O
-fer	O
+joug	B-OBJ
+de	I-OBJ
+fer	I-OBJ
 que	O
 lui	O
 impose	O
@@ -56894,8 +56894,8 @@ Nicholl	I-PER
 uniquement	O
 accompagnés	O
 de	O
-dix	O
-contremaltres	O
+dix	B-OBJ
+contremaltres	I-OBJ
 dévoués	O
 à	O
 leur	O
@@ -56962,7 +56962,7 @@ d	O
 '	O
 où	O
 un	O
-navire	O
+navire	B-OBJ
 les	O
 transporta	O
 à	O
@@ -56979,8 +56979,8 @@ nom	O
 
 Là	O
 ,	O
-une	O
-barque	O
+une	B-OBJ
+barque	I-OBJ
 ,	O
 secrètement	O
 frétée	O
@@ -57043,11 +57043,11 @@ forêts	O
 ,	O
 coupée	O
 de	O
-rios	O
+rios	B-OBJ
 ,	O
 trouée	O
 de	O
-marécages	O
+marécages	B-OBJ
 ,	O
 ils	O
 atteignirent	O
@@ -57215,10 +57215,10 @@ engagé	O
 à	O
 lui	O
 fournir	O
-tout	O
-le	O
-personnel	O
-nécessaire	O
+tout	B-OBJ
+le	I-OBJ
+personnel	I-OBJ
+nécessaire	I-OBJ
 .	O
 
 En	O
@@ -57249,7 +57249,7 @@ de	O
 l	O
 '	O
 énorme	O
-chaîne	O
+chaîne	B-OBJ
 ,	O
 la	O
 raser	O
@@ -57686,8 +57686,8 @@ pays	O
 se	O
 trouvaient	O
 les	O
-matières	O
-premières	O
+matières	B-OBJ
+premières	I-OBJ
 dont	O
 il	O
 avait	O
@@ -57738,10 +57738,10 @@ du	I-LOC
 Kilimandjaro	I-LOC
 ,	O
 le	O
-fer	O
+fer	B-OBJ
 et	O
 la	O
-houille	O
+houille	B-OBJ
 étaient	O
 abondamment	O
 répandus	O
@@ -57753,15 +57753,15 @@ du	O
 sol	O
 .	O
 
-Pas	O
-de	O
-mines	O
-à	O
-creuser	O
+Pas	B-OBJ
+de	I-OBJ
+mines	I-OBJ
+à	I-OBJ
+creuser	I-OBJ
 ,	O
 pas	O
 de	O
-gîsements	O
+gîsements	B-OBJ
 à	O
 rechercher	O
 à	O
@@ -57776,11 +57776,11 @@ l	O
 terrestre	O
 .	O
 
-Du	O
-fer	O
+Du	B-OBJ
+fer	I-OBJ
 et	O
-du	O
-charbon	O
+du	B-OBJ
+charbon	I-OBJ
 ,	O
 il	O
 n	O
@@ -57843,9 +57843,9 @@ la	O
 fabrication	O
 de	O
 la	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 .	O
 
 Le	B-PER
@@ -57906,15 +57906,15 @@ tâche	O
 de	O
 fabriquer	O
 le	O
-canon	O
--	O
-monstre	O
+canon	B-OBJ
+-	I-OBJ
+monstre	I-OBJ
 et	O
 son	O
 non	O
 moins	O
 monstrueux	O
-projectile	O
+projectile	B-OBJ
 .	O
 
 Deux	B-DUR
@@ -57952,7 +57952,7 @@ pour	O
 la	O
 fonderie	O
 du	O
-canon	O
+canon	B-OBJ
 ,	O
 l	O
 '	O
@@ -57961,7 +57961,7 @@ pour	O
 la	O
 fonderie	O
 du	O
-projectile	O
+projectile	B-OBJ
 ,	O
 le	O
 troisième	O
@@ -57970,9 +57970,9 @@ la	O
 fabrication	O
 de	O
 la	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 .	O
 
 Et	O
@@ -57992,7 +57992,7 @@ problème	O
 de	O
 fondre	O
 un	O
-canon	O
+canon	B-OBJ
 de	O
 dimensions	O
 aussi	O
@@ -58030,7 +58030,7 @@ d	O
 établir	O
 un	O
 pareil	O
-engin	O
+engin	B-OBJ
 ,	O
 échappait	O
 aux	O
@@ -58045,7 +58045,7 @@ effet	O
 ,	O
 fondre	O
 un	O
-canon	O
+canon	B-OBJ
 égalant	O
 un	O
 million	O
@@ -58054,7 +58054,7 @@ fois	O
 en	O
 volume	O
 le	O
-canon	O
+canon	B-OBJ
 de	O
 vingt	O
 -	O
@@ -58083,16 +58083,16 @@ difficultés	O
 pour	O
 fabriquer	O
 les	O
-pièces	O
-de	O
-quarante	O
--	O
-deux	O
-centimètres	O
+pièces	B-OBJ
+de	I-OBJ
+quarante	I-OBJ
+-	I-OBJ
+deux	I-OBJ
+centimètres	I-OBJ
 qui	O
 lancent	O
 des	O
-projectiles	O
+projectiles	B-OBJ
 de	O
 sept	O
 cent	O
@@ -58108,7 +58108,7 @@ soixante	O
 quatorze	O
 kilogrammes	O
 de	O
-poudre	O
+poudre	B-OBJ
 .	O
 
 Aussi	O
@@ -58131,12 +58131,12 @@ n	O
 était	O
 pas	O
 un	O
-canon	O
+canon	B-OBJ
 ,	O
 pas	O
 même	O
 un	O
-mortier	O
+mortier	B-OBJ
 ,	O
 qu	O
 '	O
@@ -58172,24 +58172,24 @@ veut	O
 Évidemment	O
 ,	O
 ce	O
-trou	O
-de	O
-mine	O
+trou	B-OBJ
+de	I-OBJ
+mine	I-OBJ
 ,	O
-cette	O
-énorme	O
-fougasse	O
+cette	B-OBJ
+énorme	I-OBJ
+fougasse	I-OBJ
 ,	O
 pouvait	O
 remplacer	O
-un	O
-canon	O
-de	O
-métal	O
+un	B-OBJ
+canon	I-OBJ
+de	I-OBJ
+métal	I-OBJ
 ,	O
-une	O
-Colombiad	O
-gigantesque	O
+une	B-OBJ
+Colombiad	I-OBJ
+gigantesque	I-OBJ
 ,	O
 dont	O
 la	O
@@ -58248,7 +58248,7 @@ T.	B-PER
 Maston	I-PER
 mentionnait	O
 un	O
-canon	O
+canon	B-OBJ
 ,	O
 c	O
 '	O
@@ -58258,7 +58258,7 @@ c	O
 '	O
 était	O
 le	O
-canon	O
+canon	B-OBJ
 de	O
 vingt	O
 -	O
@@ -58296,7 +58296,7 @@ revers	O
 méridional	O
 de	O
 la	O
-chaîne	O
+chaîne	B-OBJ
 ,	O
 au	O
 bas	O
@@ -58318,7 +58318,7 @@ pourrait	O
 faire	O
 obstacle	O
 au	O
-projectile	O
+projectile	B-OBJ
 ,	O
 quand	O
 il	O
@@ -58329,7 +58329,7 @@ hors	O
 de	O
 cette	O
 «	O
-âme	O
+âme	B-OBJ
 »	O
 forée	O
 dans	O
@@ -58359,7 +58359,7 @@ l	O
 on	O
 creusa	O
 cette	O
-galerie	O
+galerie	B-OBJ
 .	O
 
 Mais	O
@@ -58368,7 +58368,7 @@ put	O
 aisément	O
 construire	O
 des	O
-perforatrices	O
+perforatrices	B-OBJ
 ,	O
 qui	O
 sont	O
@@ -58408,14 +58408,14 @@ par	O
 les	O
 forets	O
 des	O
-perforatrices	O
+perforatrices	B-OBJ
 ,	O
 furent	O
 chargés	O
 de	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 .	O
 
 Et	O
@@ -58426,8 +58426,8 @@ pas	O
 moins	O
 que	O
 ce	O
-violent	O
-explosif	O
+violent	B-OBJ
+explosif	I-OBJ
 pour	O
 faire	O
 éclater	O
@@ -58447,13 +58447,13 @@ dure	O
 ,	O
 formée	O
 de	O
-feldspath	O
-orthose	O
+feldspath	B-OBJ
+orthose	I-OBJ
 et	O
 d	O
 '	O
-amphibole	O
-hornblende	O
+amphibole	B-OBJ
+hornblende	I-OBJ
 .	O
 
 Circonstance	O
@@ -58464,7 +58464,7 @@ surplus	O
 ,	O
 puisque	O
 cette	O
-roche	O
+roche	B-OBJ
 aurait	O
 à	O
 résister	O
@@ -58557,8 +58557,8 @@ six	I-DUR
 mois	I-DUR
 .	O
 
-La	O
-galerie	O
+La	B-OBJ
+galerie	I-OBJ
 mesurait	O
 vingt	O
 -	O
@@ -58579,7 +58579,7 @@ il	O
 importait	O
 que	O
 le	O
-projectile	O
+projectile	B-OBJ
 pût	O
 glisser	O
 sur	O
@@ -58606,9 +58606,9 @@ fut	O
 blindé	O
 avec	O
 un	O
-étui	O
-de	O
-fonte	O
+étui	B-OBJ
+de	I-OBJ
+fonte	I-OBJ
 parfaitement	O
 alésé	O
 .	O
@@ -58636,7 +58636,7 @@ qui	O
 avait	O
 envoyé	O
 le	O
-projectile	O
+projectile	B-OBJ
 d	O
 '	O
 aluminium	O
@@ -58697,8 +58697,8 @@ l	O
 on	O
 construisait	O
 la	O
-carapace	O
-métallique	O
+carapace	B-OBJ
+métallique	I-OBJ
 ,	O
 on	O
 s	O
@@ -58708,8 +58708,8 @@ de	O
 fabriquer	O
 l	O
 '	O
-énorme	O
-projectile	O
+énorme	B-OBJ
+projectile	I-OBJ
 .	O
 
 Rien	O
@@ -58728,10 +58728,10 @@ obtenir	O
 une	O
 masse	O
 de	O
-fonte	O
-cylindro	O
--	O
-conique	O
+fonte	B-OBJ
+cylindro	I-OBJ
+-	I-OBJ
+conique	I-OBJ
 ,	O
 pesant	O
 cent	O
@@ -58765,7 +58765,7 @@ question	O
 de	O
 fondre	O
 ce	O
-projectile	O
+projectile	B-OBJ
 d	O
 '	O
 un	O
@@ -58806,9 +58806,9 @@ serait	O
 préalablement	O
 entassée	O
 la	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 .	O
 
 Après	O
@@ -58818,8 +58818,8 @@ boulonnés	O
 entre	O
 eux	O
 ,	O
-ces	O
-fragments	O
+ces	B-OBJ
+fragments	I-OBJ
 ne	O
 formeraient	O
 qu	O
@@ -58834,8 +58834,8 @@ sur	O
 les	O
 parois	O
 du	O
-tube	O
-intérieur	O
+tube	B-OBJ
+intérieur	I-OBJ
 .	O
 
 Nécessité	O
@@ -58847,29 +58847,29 @@ apporter	O
 au	O
 second	O
 chantier	O
-environ	O
-quatre	O
-cent	O
-mille	O
-tonnes	O
-de	O
-minerai	O
+environ	B-OBJ
+quatre	I-OBJ
+cent	I-OBJ
+mille	I-OBJ
+tonnes	I-OBJ
+de	I-OBJ
+minerai	I-OBJ
 ,	O
-soixante	O
--	O
-dix	O
-mille	O
-tonnes	O
-de	O
-castine	O
+soixante	B-OBJ
+-	I-OBJ
+dix	I-OBJ
+mille	I-OBJ
+tonnes	I-OBJ
+de	I-OBJ
+castine	I-OBJ
 et	O
-quatre	O
-cent	O
-mille	O
-tonnes	O
-de	O
-houille	O
-grasse	O
+quatre	B-OBJ
+cent	I-OBJ
+mille	I-OBJ
+tonnes	I-OBJ
+de	I-OBJ
+houille	I-OBJ
+grasse	I-OBJ
 ,	O
 que	O
 l	O
@@ -58888,15 +58888,15 @@ vingt	O
 mille	O
 tonnes	O
 de	O
-coke	O
+coke	B-OBJ
 dans	O
 des	O
-fours	O
+fours	B-OBJ
 .	O
 
 Comme	O
 les	O
-gisements	O
+gisements	B-OBJ
 étaient	O
 voisins	O
 du	B-LOC
@@ -58911,7 +58911,7 @@ qu	O
 une	O
 affaire	O
 de	O
-charrois	O
+charrois	B-OBJ
 .	O
 
 Quant	O
@@ -58919,9 +58919,9 @@ Quant	O
 la	O
 construction	O
 des	O
-hauts	O
--	O
-fourneaux	O
+hauts	B-OBJ
+-	I-OBJ
+fourneaux	I-OBJ
 pour	O
 obtenir	O
 la	O
@@ -58929,7 +58929,7 @@ transformation	O
 du	O
 minerai	O
 en	O
-fonte	O
+fonte	B-OBJ
 ,	O
 là	O
 surgit	O
@@ -58951,10 +58951,10 @@ d	O
 un	B-DUR
 mois	I-DUR
 ,	O
-dix	O
-hauts	O
--	O
-fourneaux	O
+dix	B-OBJ
+hauts	I-OBJ
+-	I-OBJ
+fourneaux	I-OBJ
 de	O
 trente	O
 mètres	O
@@ -59013,9 +59013,9 @@ la	O
 fabrication	O
 de	O
 la	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 ,	O
 le	O
 travail	O
@@ -59114,8 +59114,8 @@ peut	O
 le	O
 croire	O
 ,	O
-le	O
-sultan	O
+le	B-OBJ
+sultan	I-OBJ
 était	O
 ravi	O
 .	O
@@ -59166,7 +59166,7 @@ quoi	O
 servirait	O
 toute	O
 cette	O
-besogne	O
+besogne	B-OBJ
 :	O
 «	O
 Il	O
@@ -59176,7 +59176,7 @@ agit	O
 d	O
 '	O
 une	O
-oeuvre	O
+oeuvre	B-OBJ
 qui	O
 doit	O
 changer	O
@@ -59259,8 +59259,8 @@ entièrement	O
 terminés	O
 .	O
 
-La	O
-galerie	O
+La	B-OBJ
+galerie	I-OBJ
 ,	O
 forée	O
 au	O
@@ -59270,9 +59270,9 @@ voulu	O
 était	O
 revêtue	O
 de	O
-son	O
-âme	O
-lisse	O
+son	B-OBJ
+âme	I-OBJ
+lisse	I-OBJ
 sur	O
 une	O
 longueur	O
@@ -59286,27 +59286,27 @@ Au	O
 fond	O
 étaient	O
 entassées	O
-deux	O
-mille	O
-tonnes	O
-de	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+deux	B-OBJ
+mille	I-OBJ
+tonnes	I-OBJ
+de	I-OBJ
+méli	I-OBJ
+-	I-OBJ
+mélonite	I-OBJ
 ,	O
 en	O
 communication	O
 avec	O
-la	O
-boîte	O
-au	O
-fulminate	O
+la	B-OBJ
+boîte	I-OBJ
+au	I-OBJ
+fulminate	I-OBJ
 .	O
 
 Puis	O
 venait	O
 le	O
-projectile	O
+projectile	B-OBJ
 ,	O
 long	O
 de	O
@@ -59323,11 +59323,11 @@ la	O
 place	O
 occupée	O
 par	O
-la	O
-poudre	O
+la	B-OBJ
+poudre	I-OBJ
 et	O
 le	O
-projectile	O
+projectile	B-OBJ
 ,	O
 il	O
 resterait	O
@@ -59385,8 +59385,8 @@ de	O
 pure	O
 balistique	O
 :	O
-le	O
-projectile	O
+le	B-OBJ
+projectile	I-OBJ
 dévierait	O
 -	O
 il	O
@@ -59426,7 +59426,7 @@ dans	O
 quelle	O
 mesure	O
 le	O
-projectile	O
+projectile	B-OBJ
 devait	O
 dévier	O
 vers	O
@@ -59552,7 +59552,7 @@ déroberait	O
 aux	O
 plus	O
 puissantes	O
-lunettes	O
+lunettes	B-OBJ
 ,	O
 et	O
 ,	O
@@ -59577,7 +59577,7 @@ graviterait	O
 éternellement	O
 autour	O
 du	O
-soleil	O
+soleil	B-OBJ
 .	O
 
 Certes	O
@@ -59850,8 +59850,8 @@ se	O
 prélassaient	O
 devant	O
 leur	O
-oeuvre	O
-parachevée	O
+oeuvre	B-OBJ
+parachevée	I-OBJ
 .	O
 
 —	O
@@ -59913,9 +59913,9 @@ notre	O
 disposition	O
 cette	O
 adorable	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	B-OBJ
+-	I-OBJ
+mélonite	I-OBJ
 !	O
 ...	O
 
@@ -59972,9 +59972,9 @@ avions	O
 eu	O
 que	O
 du	O
-fulmi	O
--	O
-coton	O
+fulmi	B-OBJ
+-	I-OBJ
+coton	I-OBJ
 ,	O
 pareil	O
 à	O
@@ -59983,14 +59983,14 @@ qui	O
 a	O
 lancé	O
 notre	O
-projectile	O
+projectile	B-OBJ
 vers	O
 la	B-LOC
 Lune	I-LOC
 ?	O
 
 —	O
-Dites	O
+Dites	B-OBJ
 ,	O
 Nicholl	B-PER
 .	O
@@ -60023,7 +60023,7 @@ cent	O
 quatre	O
 -	O
 vingts	O
-projectiles	O
+projectiles	B-OBJ
 de	O
 cent	O
 quatre	O
@@ -60138,13 +60138,13 @@ relevant	O
 brusquement	O
 de	O
 la	O
-table	O
+table	B-OBJ
 où	O
 s	O
 '	O
 empilaient	O
 des	O
-feuilles	O
+feuilles	B-OBJ
 couvertes	O
 de	O
 formules	O
@@ -60200,7 +60200,7 @@ Nom	O
 d	O
 '	O
 un	O
-cosinus	O
+cosinus	B-OBJ
 !	O
 ...	O
 Si	O
@@ -60248,9 +60248,9 @@ après	O
 un	O
 de	O
 ces	O
-hululements	O
-de	O
-sauvage	O
+hululements	B-OBJ
+de	I-OBJ
+sauvage	I-OBJ
 ,	O
 avec	O
 lesquels	O
@@ -60259,13 +60259,13 @@ accentuait	O
 ses	O
 parties	O
 de	O
-whist	O
+whist	B-OBJ
 :	O
 «	O
 
-Le	O
-vieux	O
-maboul	O
+Le	B-OBJ
+vieux	I-OBJ
+maboul	I-OBJ
 !	O
 ...	O
 
@@ -60284,7 +60284,7 @@ il	O
 a	O
 calculé	O
 le	O
-canon	O
+canon	B-OBJ
 du	B-LOC
 Kilimandjaro	I-LOC
 !	O
@@ -60406,14 +60406,14 @@ dire	O
 à	O
 minuit	B-PONC
 ,	O
-le	O
-feu	O
+le	B-OBJ
+feu	I-OBJ
 devait	O
 être	O
 mis	O
 au	O
-terrible	O
-engin	O
+terrible	B-OBJ
+engin	I-OBJ
 par	O
 la	O
 main	O
@@ -60526,8 +60526,8 @@ temps	O
 magnifique	O
 .	O
 
-Le	O
-soleil	O
+Le	B-OBJ
+soleil	I-OBJ
 venait	O
 de	O
 se	O
@@ -60540,7 +60540,7 @@ Wamasai	I-LOC
 ,	O
 derrière	O
 un	O
-horizon	O
+horizon	B-OBJ
 de	O
 toute	O
 pureté	O
@@ -60565,7 +60565,7 @@ plus	O
 pour	O
 lancer	O
 un	O
-projectile	O
+projectile	B-OBJ
 à	O
 travers	O
 l	O
@@ -60575,13 +60575,13 @@ espace	O
 
 Pas	O
 un	O
-nuage	O
+nuage	B-OBJ
 ne	O
 se	O
 mélangerait	O
 aux	O
-vapeurs	O
-artificielles	O
+vapeurs	B-OBJ
+artificielles	I-OBJ
 ,	O
 développées	O
 par	O
@@ -60589,9 +60589,9 @@ la	O
 déflagration	O
 de	O
 la	O
-méli	O
--	O
-melonite	O
+méli	B-OBJ
+-	I-OBJ
+melonite	I-OBJ
 .	O
 
 Qui	O
@@ -60618,7 +60618,7 @@ prendre	O
 place	O
 dans	O
 le	O
-projectile	O
+projectile	B-OBJ
 !	O
 
 Dès	O
@@ -60626,7 +60626,7 @@ la	O
 première	O
 seconde	O
 ,	O
-ils	O
+ils	B-OBJ
 auraient	O
 franchi	O
 deux	O
@@ -60823,19 +60823,19 @@ sublime	O
 spectacle	O
 .	O
 
-Un	O
-fil	O
+Un	B-OBJ
+fil	I-OBJ
 ,	O
 établi	O
 entre	O
-une	O
-batterie	O
-électrique	O
+une	B-OBJ
+batterie	I-OBJ
+électrique	I-OBJ
 et	O
 le	O
-détonateur	O
-de	O
-fulminate	O
+détonateur	B-OBJ
+de	I-OBJ
+fulminate	I-OBJ
 placé	O
 au	O
 fond	O
@@ -60854,16 +60854,16 @@ ferait	O
 éclater	O
 l	O
 '	O
-amorce	O
+amorce	B-OBJ
 et	O
 provoquerait	O
 la	O
 déflagration	O
 de	O
 la	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 .	O
 
 Comme	O
@@ -61026,15 +61026,15 @@ de	O
 laquelle	O
 était	O
 montée	O
-la	O
-batterie	O
-électrique	O
+la	B-OBJ
+batterie	I-OBJ
+électrique	I-OBJ
 .	O
 
 Barbicane	B-PER
 ,	O
 son	O
-chronomètre	O
+chronomètre	B-OBJ
 à	O
 la	O
 main	O
@@ -61082,10 +61082,10 @@ approchèrent	O
 de	O
 l	O
 '	O
-appareil	O
+appareil	B-OBJ
 que	O
 le	O
-fil	O
+fil	B-OBJ
 mettait	O
 en	O
 communication	O
@@ -61155,8 +61155,8 @@ le	B-PER
 Soleil	I-PER
 couperait	O
 cette	O
-ligne	O
-équinoxiale	O
+ligne	B-OBJ
+équinoxiale	I-OBJ
 qu	O
 '	O
 il	O
@@ -61170,8 +61170,8 @@ orbite	O
 apparente	O
 autour	O
 du	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 .	O
 
 Minuit	B-PONC
@@ -61208,12 +61208,12 @@ l	O
 aiguille	O
 de	O
 sa	O
-montre	O
+montre	B-OBJ
 ,	O
 éclairée	O
 par	O
 une	O
-lanterne	O
+lanterne	B-OBJ
 que	O
 présentait	O
 un	O
@@ -61286,7 +61286,7 @@ léger	O
 tremblement	O
 dans	O
 la	O
-main	O
+main	B-OBJ
 de	O
 cet	O
 impassible	O
@@ -61314,7 +61314,7 @@ attendaient	O
 enfermés	O
 dans	O
 leur	O
-projectile	O
+projectile	B-OBJ
 ,	O
 que	O
 la	B-PER
@@ -61341,7 +61341,7 @@ Barbicane	I-PER
 Et	O
 l	O
 '	O
-index	O
+index	B-OBJ
 du	B-PER
 capitaine	I-PER
 Nicholl	I-PER
@@ -61404,13 +61404,13 @@ la	O
 déflagration	O
 instantanée	O
 de	O
-deux	O
-mille	O
-tonnes	O
-de	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+deux	B-OBJ
+mille	I-OBJ
+tonnes	I-OBJ
+de	I-OBJ
+méli	I-OBJ
+-	I-OBJ
+mélonite	I-OBJ
 .	O
 
 On	O
@@ -61429,7 +61429,7 @@ Terre	I-LOC
 un	O
 de	O
 ces	O
-météores	O
+météores	B-OBJ
 dans	O
 lesquels	O
 s	O
@@ -61459,7 +61459,7 @@ terrible	O
 quand	O
 tous	O
 les	O
-canons	O
+canons	B-OBJ
 de	O
 toutes	O
 les	O
@@ -61472,9 +61472,9 @@ joints	O
 à	O
 toutes	O
 les	O
-foudres	O
-du	O
-ciel	O
+foudres	B-OBJ
+du	I-OBJ
+ciel	I-OBJ
 pour	O
 tonner	O
 ensemble	O
@@ -61489,7 +61489,7 @@ J	O
 T.	B-PER
 MASTON	I-PER
 
-REGRETTE	O
+REGRETTE	B-OBJ
 PEUT	O
 -	O
 ÊTRE	O
@@ -61536,7 +61536,7 @@ l	O
 
 Grâce	O
 aux	O
-journaux	O
+journaux	B-OBJ
 répandus	O
 à	O
 profusion	O
@@ -61584,8 +61584,8 @@ les	O
 principales	O
 villes	O
 —	O
-le	O
-Soleil	O
+le	B-OBJ
+Soleil	I-OBJ
 parcourant	O
 un	O
 degré	O
@@ -61698,12 +61698,12 @@ cet	O
 instant	O
 .	O
 
-La	O
-plus	O
-puissante	O
-des	O
-plumes	O
-modernes	O
+La	B-OBJ
+plus	I-OBJ
+puissante	I-OBJ
+des	I-OBJ
+plumes	I-OBJ
+modernes	I-OBJ
 ne	O
 saurait	O
 les	O
@@ -61738,7 +61738,7 @@ d	O
 balayés	O
 par	O
 le	O
-mascaret	O
+mascaret	B-OBJ
 des	O
 mers	O
 déplacées	O
@@ -61799,8 +61799,8 @@ accord	O
 !	O
 
 Mais	O
-la	O
-ville	O
+la	B-OBJ
+ville	I-OBJ
 ,	O
 comme	O
 tant	O
@@ -61828,11 +61828,11 @@ la	O
 secousse	O
 ,	O
 ses	O
-monuments	O
+monuments	B-OBJ
 anéantis	O
 ,	O
-ses	O
-quartiers	O
+ses	B-OBJ
+quartiers	I-OBJ
 engloutis	O
 au	O
 fond	O
@@ -61874,7 +61874,7 @@ devaient	O
 pas	O
 recouvrir	O
 les	O
-eaux	O
+eaux	B-OBJ
 dénivelées	O
 ?	O
 
@@ -61950,9 +61950,9 @@ révéler	O
 il	O
 buvait	O
 un	O
-verre	O
+verre	B-OBJ
 de	O
-champagne	O
+champagne	B-OBJ
 dans	O
 un	O
 des	O
@@ -61992,7 +61992,7 @@ s	O
 A	O
 Baltimore	B-LOC
 ...	O
-rien	O
+rien	B-OBJ
 !	O
 
 A	O
@@ -62010,7 +62010,7 @@ Constantinople	B-LOC
 à	O
 Berlin	B-LOC
 ,	O
-rien	O
+rien	B-OBJ
 !	O
 ...	O
 Pas	O
@@ -62035,7 +62035,7 @@ Takoshima	B-LOC
 Japon	B-LOC
 )	O
 le	O
-tromomètre	O
+tromomètre	B-OBJ
 ¹	O
 qu	O
 '	O
@@ -62051,13 +62051,13 @@ le	O
 1	O
 .	O
 
-Le	O
-tromomètre	O
+Le	B-OBJ
+tromomètre	I-OBJ
 est	O
 une	O
 sorte	O
 de	O
-pendule	O
+pendule	B-OBJ
 dont	O
 les	O
 oscillations	O
@@ -62088,11 +62088,11 @@ ont	O
 installé	O
 de	O
 semblables	O
-appareils	O
+appareils	B-OBJ
 près	O
 des	O
-mines	O
-grisouteuses	O
+mines	B-OBJ
+grisouteuses	I-OBJ
 .	O
 
 moindre	O
@@ -62124,8 +62124,8 @@ D	O
 '	O
 ailleurs	O
 ,	O
-le	O
-ciel	O
+le	B-OBJ
+ciel	I-OBJ
 était	O
 nuageux	O
 et	O
@@ -62144,7 +62144,7 @@ le	O
 mouvement	O
 apparent	O
 des	O
-étoiles	O
+étoiles	B-OBJ
 tendait	O
 à	O
 se	O
@@ -62191,7 +62191,7 @@ enrageait	O
 ,	O
 le	O
 bouillant	O
-artilleur	O
+artilleur	B-OBJ
 !	O
 
 Il	O
@@ -62311,7 +62311,7 @@ alors	O
 réunis	O
 sur	O
 la	O
-terrasse	O
+terrasse	B-OBJ
 de	O
 leur	O
 hôtel	O
@@ -62323,7 +62323,7 @@ avaient	O
 leur	O
 disposition	O
 des	O
-instruments	O
+instruments	B-OBJ
 d	O
 '	O
 une	O
@@ -62367,9 +62367,9 @@ après	O
 son	O
 lever	O
 ,	O
-le	O
-disque	O
-radieux	O
+le	B-OBJ
+disque	I-OBJ
+radieux	I-OBJ
 inclinait	O
 déjà	O
 vers	O
@@ -62398,9 +62398,9 @@ et	O
 ses	O
 collègues	O
 saluèrent	O
-le	O
-flambeau	O
-céleste	O
+le	B-OBJ
+flambeau	I-OBJ
+céleste	I-OBJ
 par	O
 des	O
 hurrahs	O
@@ -62419,8 +62419,8 @@ au	O
 théâtre	O
 .	O
 
-Le	O
-ciel	O
+Le	B-OBJ
+ciel	I-OBJ
 était	O
 superbe	O
 alors	O
@@ -62485,10 +62485,10 @@ Baldenak	I-PER
 .	O
 
 —	O
-De	O
-notre	O
-ancienne	O
-astronomie	O
+De	B-OBJ
+notre	I-OBJ
+ancienne	I-OBJ
+astronomie	I-OBJ
 ,	O
 fit	O
 observer	O
@@ -62557,7 +62557,7 @@ Harald	I-PER
 Hurrah	O
 pour	O
 le	O
-Soleil	O
+Soleil	B-OBJ
 !	O
 s	O
 '	O
@@ -62577,7 +62577,7 @@ suffit	O
 au	O
 besoin	O
 du	B-ORG
-Monde	O
+Monde	B-OBJ
 !	O
 
 —	O
@@ -62652,9 +62652,9 @@ le	O
 major	O
 .	O
 
-Fasse	O
-le	O
-ciel	O
+Fasse	B-OBJ
+le	I-OBJ
+ciel	I-OBJ
 qu	O
 '	O
 ils	O
@@ -62759,8 +62759,8 @@ de	O
 valser	O
 sur	O
 son	O
-vieil	O
-axe	O
+vieil	B-OBJ
+axe	I-OBJ
 et	O
 de	O
 se	O
@@ -62874,7 +62874,7 @@ soir	I-PONC
 minuit	B-PONC
 précis	O
 par	O
-engin	O
+engin	B-OBJ
 foré	O
 dans	O
 revers	O
@@ -62886,9 +62886,9 @@ du	B-LOC
 Kilimandjaro	I-LOC
 .	O
 
-Passage	O
-de	O
-projectile	O
+Passage	B-OBJ
+de	I-OBJ
+projectile	I-OBJ
 avec	O
 sifflements	O
 épou	O
@@ -62897,8 +62897,8 @@ sifflements	O
 vantables	O
 .	O
 
-Effroyable	O
-détonation	O
+Effroyable	B-OBJ
+détonation	I-OBJ
 .	O
 
 Province	O
@@ -62911,7 +62911,7 @@ d	O
 air	O
 .	O
 
-Mer	O
+Mer	B-OBJ
 soulevée	O
 jusqu	O
 '	O
@@ -62920,8 +62920,8 @@ canal	I-LOC
 Mozambique	I-LOC
 .	O
 
-Nombreux	O
-navires	O
+Nombreux	B-OBJ
+navires	I-OBJ
 «	O
 désemparés	O
 et	O
@@ -62937,7 +62937,7 @@ villages	O
 anéantis	O
 .	O
 
-Tout	O
+Tout	B-OBJ
 «	O
 va	O
 bien	O
@@ -62983,8 +62983,8 @@ partie	O
 rasé	O
 par	O
 cette	O
-trombe	O
-artificielle	O
+trombe	B-OBJ
+artificielle	I-OBJ
 ,	O
 et	O
 les	O
@@ -63016,14 +63016,14 @@ Columbiad	B-PER
 avait	O
 lancé	O
 son	O
-projectile	O
+projectile	B-OBJ
 vers	O
 la	B-LOC
 Lune	I-LOC
 ?	O
 
-La	O
-secousse	O
+La	B-OBJ
+secousse	I-OBJ
 ,	O
 communiquée	O
 au	O
@@ -63075,8 +63075,8 @@ il	O
 en	O
 soit	O
 ,	O
-la	O
-dépêche	O
+la	B-OBJ
+dépêche	I-OBJ
 apprenait	O
 deux	O
 choses	O
@@ -63092,7 +63092,7 @@ Nouveau	I-LOC
 Continent	I-LOC
 :	O
 
-1	O
+1	B-OBJ
 
 °	O
 Que	O
@@ -63112,7 +63112,7 @@ du	B-LOC
 Kilimandjaro	I-LOC
 .	O
 
-2	O
+2	B-OBJ
 
 °	O
 Que	O
@@ -63270,7 +63270,7 @@ alors	O
 la	O
 surface	O
 du	O
-sphéroïde	O
+sphéroïde	B-OBJ
 ,	O
 c	O
 '	O
@@ -63358,8 +63358,8 @@ Et	O
 les	O
 équations	O
 ,	O
-les	O
-formules	O
+les	B-OBJ
+formules	I-OBJ
 ,	O
 desquelles	O
 il	O
@@ -63381,7 +63381,7 @@ donc	O
 qu	O
 '	O
 un	O
-engin	O
+engin	B-OBJ
 ,	O
 long	O
 de	O
@@ -63398,7 +63398,7 @@ mètres	O
 ,	O
 lançant	O
 un	O
-projectile	O
+projectile	B-OBJ
 de	O
 cent	O
 quatre	O
@@ -63415,9 +63415,9 @@ deux	O
 mille	O
 tonnes	O
 de	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 avec	O
 une	O
 vitesse	O
@@ -63526,7 +63526,7 @@ malencontreux	O
 calculateur	O
 ,	O
 les	O
-quolibets	O
+quolibets	B-OBJ
 qu	O
 '	O
 on	O
@@ -63536,12 +63536,12 @@ lui	O
 guère	O
 ,	O
 les	O
-lazzi	O
+lazzi	B-OBJ
 qui	O
 pleuvraient	O
 sur	O
 son	O
-oeuvre	O
+oeuvre	B-OBJ
 ,	O
 elle	O
 eût	O
@@ -63579,7 +63579,7 @@ ils	O
 pas	O
 à	O
 leur	O
-secrétaire	O
+secrétaire	B-OBJ
 d	O
 '	O
 un	O
@@ -63646,7 +63646,7 @@ Il	O
 sortit	O
 de	O
 la	O
-maison	O
+maison	B-OBJ
 où	O
 il	O
 se	O
@@ -63676,7 +63676,7 @@ avait	O
 menacés	O
 dans	O
 leur	O
-fortune	O
+fortune	B-OBJ
 et	O
 leur	O
 existence	O
@@ -63733,7 +63733,7 @@ Eh	O
 va	O
 donc	O
 ,	O
-redresseur	O
+redresseur	B-OBJ
 d	O
 '	O
 axe	O
@@ -63759,9 +63759,9 @@ Eh	O
 va	O
 donc	O
 ,	O
-rhabilleur	O
-de	O
-patraques	O
+rhabilleur	B-OBJ
+de	I-OBJ
+patraques	I-OBJ
 !	O
 »	O
 
@@ -63800,7 +63800,7 @@ le	O
 stock	O
 de	O
 ses	O
-tendresses	O
+tendresses	B-OBJ
 pour	O
 le	O
 consoler	O
@@ -63833,7 +63833,7 @@ consolari	O
 parce	O
 que	O
 son	O
-canon	O
+canon	B-OBJ
 n	O
 '	O
 avait	O
@@ -63841,8 +63841,8 @@ pas	O
 produit	O
 sur	O
 le	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 plus	O
 d	O
 '	O
@@ -63851,7 +63851,7 @@ qu	O
 '	O
 un	O
 simple	O
-pétard	O
+pétard	B-OBJ
 de	O
 la	O
 Saint	O
@@ -63950,7 +63950,7 @@ temps	O
 modernes	O
 ?	O
 
-Non	O
+Non	B-OBJ
 !	O
 
 Après	O
@@ -64167,7 +64167,7 @@ où	O
 se	O
 trouvait	O
 un	O
-navire	O
+navire	B-OBJ
 en	O
 partance	O
 pour	O
@@ -64208,9 +64208,9 @@ ni	O
 collision	O
 —	O
 le	O
-chemin	O
-de	O
-fer	O
+chemin	B-OBJ
+de	I-OBJ
+fer	I-OBJ
 de	O
 l	O
 '	O
@@ -64376,9 +64376,9 @@ T.	B-PER
 Maston	I-PER
 passa	O
 son	O
-crochet	O
-de	O
-fer	O
+crochet	B-OBJ
+de	I-OBJ
+fer	I-OBJ
 sur	O
 son	O
 front	O
@@ -64440,8 +64440,8 @@ Oui	O
 !	O
 
 —	O
-Votre	O
-projectile	O
+Votre	B-OBJ
+projectile	I-OBJ
 pesait	O
 bien	O
 cent	O
@@ -64495,7 +64495,7 @@ massue	O
 sur	O
 l	O
 '	O
-occiput	O
+occiput	B-OBJ
 de	O
 J	B-PER
 .	I-PER
@@ -64550,14 +64550,14 @@ c	O
 est	O
 que	O
 la	O
-poudre	O
+poudre	B-OBJ
 n	O
 '	O
 a	O
 pas	O
 donné	O
 au	O
-projectile	O
+projectile	B-OBJ
 une	O
 vitesse	O
 initiale	O
@@ -64585,9 +64585,9 @@ C	O
 est	O
 que	O
 votre	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 n	O
 '	O
 est	O
@@ -64597,9 +64597,9 @@ qu	O
 à	O
 charger	O
 des	O
-pistolets	O
-de	O
-paille	O
+pistolets	B-OBJ
+de	I-OBJ
+paille	I-OBJ
 !	O
 »	O
 
@@ -64622,7 +64622,7 @@ injure	O
 .	O
 
 «	O
-Maston	O
+Maston	B-OBJ
 !	O
 
 s	O
@@ -64646,19 +64646,19 @@ vous	O
 battre	O
 à	O
 la	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 ...	O
 
 —	O
 Non	O
 !	O
 ...	O
-Au	O
-fulmi	O
--	O
-coton	O
+Au	B-OBJ
+fulmi	I-OBJ
+-	I-OBJ
+coton	I-OBJ
 !	O
 ...	O
 C	O
@@ -64746,7 +64746,7 @@ certain	O
 que	O
 l	O
 '	O
-explosif	O
+explosif	B-OBJ
 de	O
 notre	O
 ami	O
@@ -64824,7 +64824,7 @@ recommencerons	O
 Et	O
 l	O
 '	O
-argent	O
+argent	B-OBJ
 ,	O
 qui	O
 a	O
@@ -64867,7 +64867,7 @@ fois	O
 le	O
 sort	O
 du	O
-Monde	O
+Monde	B-OBJ
 !	O
 
 —	O
@@ -64927,14 +64927,14 @@ l	O
 on	O
 offrait	O
 les	O
-titres	O
+titres	B-OBJ
 par	O
 paquet	O
 au	O
 prix	O
 du	O
-vieux	O
-papier	O
+vieux	B-OBJ
+papier	I-OBJ
 .	O
 
 Tel	O
@@ -64984,20 +64984,20 @@ inspirés	O
 ,	O
 si	O
 jamais	O
-les	O
-articles	O
-fantaisistes	O
-des	O
-journaux	O
+les	B-OBJ
+articles	I-OBJ
+fantaisistes	I-OBJ
+des	I-OBJ
+journaux	I-OBJ
 ,	O
-les	O
-caricatures	O
+les	B-OBJ
+caricatures	I-OBJ
 ,	O
-les	O
-chansons	O
+les	B-OBJ
+chansons	I-OBJ
 ,	O
-les	O
-parodies	O
+les	B-OBJ
+parodies	I-OBJ
 ,	O
 eurent	O
 matière	O
@@ -65156,8 +65156,8 @@ fut	O
 porté	O
 par	O
 une	O
-chanson	O
-française	O
+chanson	B-OBJ
+française	I-OBJ
 que	O
 l	O
 '	O
@@ -65177,8 +65177,8 @@ la	O
 mode	O
 .	O
 
-Cette	O
-machine	O
+Cette	B-OBJ
+machine	I-OBJ
 courut	O
 les	O
 cafés	O
@@ -65211,7 +65211,7 @@ Dont	O
 l	O
 '	O
 ancien	O
-axe	O
+axe	B-OBJ
 se	O
 détraque	O
 ,	O
@@ -65219,7 +65219,7 @@ Ils	O
 ont	O
 fait	O
 un	O
-canon	O
+canon	B-OBJ
 qu	O
 '	O
 on	O
@@ -65276,10 +65276,10 @@ ne	O
 craque	O
 !	O
 
-Vive	O
-notre	O
-vieille	O
-patraque	O
+Vive	B-OBJ
+notre	I-OBJ
+vieille	I-OBJ
+patraque	I-OBJ
 !	O
 
 Enfin	O
@@ -65357,7 +65357,7 @@ au	O
 point	O
 où	O
 les	O
-banquises	O
+banquises	B-OBJ
 et	O
 les	O
 glaces	O
@@ -65366,8 +65366,8 @@ naturellement	O
 fondues	O
 par	O
 les	O
-rayons	O
-solaires	O
+rayons	B-OBJ
+solaires	I-OBJ
 ?	O
 
 On	O
@@ -65527,8 +65527,8 @@ base	O
 la	O
 circonférence	O
 du	O
-sphéroïde	O
-terrestre	O
+sphéroïde	B-OBJ
+terrestre	I-OBJ
 ,	O
 il	O
 l	O
@@ -65616,8 +65616,8 @@ modification	O
 de	O
 l	O
 '	O
-axe	O
-terrestre	O
+axe	B-OBJ
+terrestre	I-OBJ
 étant	O
 correctement	O
 posé	O
@@ -65655,7 +65655,7 @@ n	O
 est	O
 pas	O
 un	O
-canon	O
+canon	B-OBJ
 un	O
 million	O
 de	O
@@ -65663,11 +65663,11 @@ fois	O
 gros	O
 comme	O
 le	O
-canon	O
-de	O
-vingt	O
--	O
-sept	O
+canon	B-OBJ
+de	I-OBJ
+vingt	I-OBJ
+-	I-OBJ
+sept	I-OBJ
 ,	O
 ce	O
 serait	O
@@ -65681,7 +65681,7 @@ lançant	O
 un	O
 trillion	O
 de	O
-projectiles	O
+projectiles	B-OBJ
 de	O
 cent	O
 quatre	O
@@ -65707,9 +65707,9 @@ en	O
 admettant	O
 que	O
 la	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	B-OBJ
+-	I-OBJ
+mélonite	I-OBJ
 eût	O
 la	O
 puissance	O
@@ -65747,7 +65747,7 @@ n	O
 a	O
 déplacé	O
 le	O
-pôle	O
+pôle	B-OBJ
 que	O
 de	O
 trois	O
@@ -65784,11 +65784,11 @@ micron	O
 «	O
 Quant	O
 au	O
-projectile	O
+projectile	B-OBJ
 ,	O
-nouvelle	O
-petite	O
-planète	O
+nouvelle	B-OBJ
+petite	I-OBJ
+planète	I-OBJ
 ,	O
 il	O
 appartient	O
@@ -66119,8 +66119,8 @@ rassurer	O
 ses	O
 semblables	O
 ,	O
-cet	O
-original	O
+cet	B-OBJ
+original	I-OBJ
 gardait	O
 un	O
 calme	O
@@ -66219,8 +66219,8 @@ nombre	O
 000	O
 sur	O
 le	O
-tableau	O
-noir	O
+tableau	B-OBJ
+noir	I-OBJ
 ...	O
 
 A	O
@@ -66230,8 +66230,8 @@ moment	O
 sonnerie	O
 précipitée	O
 du	O
-timbre	O
-téléphonique	O
+timbre	B-OBJ
+téléphonique	I-OBJ
 !	O
 
 J	O
@@ -66242,8 +66242,8 @@ Maston	I-PER
 se	O
 dirige	O
 vers	O
-la	O
-plaque	O
+la	B-OBJ
+plaque	I-OBJ
 ...	O
 
 Il	O
@@ -66268,7 +66268,7 @@ renverse	O
 et	O
 culbute	O
 son	O
-tableau	O
+tableau	B-OBJ
 ...	O
 
 Il	O
@@ -66301,7 +66301,7 @@ chiffres	O
 ...	O
 quand	O
 le	O
-timbre	O
+timbre	B-OBJ
 résonne	O
 une	O
 seconde	O
@@ -66375,15 +66375,15 @@ contre	O
 coup	O
 de	O
 la	O
-décharge	O
-électrique	O
+décharge	B-OBJ
+électrique	I-OBJ
 !	O
 
 Peut	O
 -	O
 être	O
-le	O
-tonnerre	O
+le	B-OBJ
+tonnerre	I-OBJ
 ne	O
 lui	O
 aurait	O
@@ -66703,8 +66703,8 @@ tous	O
 les	O
 journaux	O
 ,	O
-cette	O
-note	O
+cette	B-OBJ
+note	I-OBJ
 répandit	O
 son	O
 nom	O
@@ -66790,9 +66790,9 @@ il	O
 son	O
 auteur	O
 une	O
-invitation	O
+invitation	B-OBJ
 à	O
-dîner	O
+dîner	B-OBJ
 .	O
 
 XXI	O
@@ -66903,21 +66903,21 @@ de	O
 même	O
 avec	O
 la	O
-méli	B-NOV
--	I-NOV
-mélonite	I-NOV
+méli	O
+-	O
+mélonite	O
 ,	O
 il	O
 faudrait	O
 un	O
 trillion	O
 de	O
-canons	O
+canons	B-OBJ
 semblables	O
 à	O
 l	O
 '	O
-engin	O
+engin	B-OBJ
 qui	O
 a	O
 été	O
@@ -66929,14 +66929,14 @@ du	I-LOC
 Kilimandjaro	I-LOC
 .	O
 
-Or	O
+Or	B-OBJ
 ,	O
-notre	O
-sphéroïde	O
+notre	B-OBJ
+sphéroïde	I-OBJ
 —	O
-toute	O
-sa	O
-surface	O
+toute	B-OBJ
+sa	I-OBJ
+surface	I-OBJ
 fût	O
 -	O
 elle	O

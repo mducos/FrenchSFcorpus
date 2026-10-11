@@ -64,11 +64,11 @@ félicitations	O
 chaleureuses	O
 ,	O
 le	O
-billet	O
-de	O
-cinq	O
-cents	O
-francs	O
+billet	B-OBJ
+de	I-OBJ
+cinq	I-OBJ
+cents	I-OBJ
+francs	I-OBJ
 qui	O
 allait	O
 permettre	O
@@ -234,7 +234,7 @@ travail	O
 ,	O
 en	O
 la	O
-science	O
+science	B-OBJ
 qui	O
 est	O
 indulgente	O
@@ -363,15 +363,15 @@ parait	O
 si	O
 bon	O
 le	O
-pain	O
+pain	B-OBJ
 arrosé	O
 d	O
 '	O
 un	O
-verre	O
+verre	B-OBJ
 d	O
 '	O
-eau	O
+eau	B-OBJ
 .	O
 
 En	O
@@ -443,8 +443,8 @@ j	O
 proprement	O
 meublé	O
 ,	O
-confortablement	O
-vêtu	O
+confortablement	B-OBJ
+vêtu	I-OBJ
 ,	O
 et	O
 ,	O
@@ -456,7 +456,7 @@ quelque	O
 peu	O
 sur	O
 la	O
-nourriture	O
+nourriture	B-OBJ
 ,	O
 en	O
 fait	O
@@ -518,15 +518,15 @@ conscience	O
 et	O
 sur	O
 la	O
-plaque	O
-de	O
-cuivre	O
+plaque	B-OBJ
+de	I-OBJ
+cuivre	I-OBJ
 clouée	O
 près	O
 de	O
 la	O
-porte	O
-cochère	O
+porte	B-OBJ
+cochère	I-OBJ
 :	O
 «	O
 Docteur	O
@@ -673,7 +673,7 @@ d	O
 ailleurs	O
 toute	O
 la	O
-maison	O
+maison	B-OBJ
 en	O
 amateur	O
 .	O
@@ -687,8 +687,8 @@ j	O
 '	O
 avais	O
 allumé	O
-ma	O
-lampe	O
+ma	B-OBJ
+lampe	I-OBJ
 de	O
 bonne	O
 heure	O
@@ -718,7 +718,7 @@ haut	O
 d	O
 '	O
 une	O
-chaire	O
+chaire	B-OBJ
 ,	O
 quand	O
 je	O
@@ -732,7 +732,7 @@ un	O
 violent	O
 coup	O
 de	O
-sonnette	O
+sonnette	B-OBJ
 .	O
 
 Tressautant	O
@@ -753,7 +753,7 @@ ouvris	O
 ,	O
 tenant	O
 une	O
-lampe	O
+lampe	B-OBJ
 élevée	O
 pour	O
 examiner	O
@@ -767,7 +767,7 @@ C	O
 '	O
 était	O
 une	O
-dame	O
+dame	B-OBJ
 vêtue	O
 de	O
 noir	O
@@ -800,11 +800,11 @@ ans	I-DUR
 de	O
 l	O
 '	O
-embonpoint	O
+embonpoint	B-OBJ
 .	O
 
-Elle	O
-pleurait	O
+Elle	B-OBJ
+pleurait	I-OBJ
 .	O
 
 Je	O
@@ -818,9 +818,9 @@ introduire	O
 dans	O
 mon	O
 «	O
-cabinet	O
-de	O
-consultation	O
+cabinet	B-OBJ
+de	I-OBJ
+consultation	I-OBJ
 »	O
 et	O
 ,	O
@@ -865,9 +865,9 @@ plus	O
 elle	O
 avait	O
 monté	O
-mes	O
-quatre	O
-étages	O
+mes	B-OBJ
+quatre	I-OBJ
+étages	I-OBJ
 avec	O
 une	O
 telle	O
@@ -912,14 +912,14 @@ de	O
 lui	O
 préparer	O
 un	O
-verre	O
+verre	B-OBJ
 d	O
 '	O
-eau	O
+eau	B-OBJ
 —	O
 avec	O
 du	O
-sucre	O
+sucre	B-OBJ
 ,	O
 s	O
 '	O
@@ -950,12 +950,12 @@ de	I-PONC
 suite	I-PONC
 ...	O
 
-Mon	O
-enfant	O
+Mon	B-OBJ
+enfant	I-OBJ
 ...	O
 
-Un	O
-sanglot	O
+Un	B-OBJ
+sanglot	I-OBJ
 lui	O
 coupa	O
 la	O
@@ -1016,7 +1016,7 @@ pied	O
 d	O
 '	O
 un	O
-berceau	O
+berceau	B-OBJ
 ,	O
 impuissant	O
 et	O
@@ -1026,8 +1026,8 @@ ignorant	O
 Oh	O
 !	O
 
-la	O
-méningite	O
+la	B-OBJ
+méningite	I-OBJ
 !	O
 
 quelle	O
@@ -1050,7 +1050,7 @@ je	O
 en	O
 saisissant	O
 mon	O
-chapeau	O
+chapeau	B-OBJ
 .	O
 
 Habitez	O
@@ -1067,9 +1067,9 @@ Non	O
 ,	O
 non	O
 !	O
-la	O
-maison	O
-voisine	O
+la	B-OBJ
+maison	I-OBJ
+voisine	I-OBJ
 ...	O
 
 Pardonnez	O
@@ -1146,7 +1146,7 @@ sujet	O
 de	O
 l	O
 '	O
-enfant	O
+enfant	B-OBJ
 .	O
 
 De	O
@@ -1169,14 +1169,14 @@ Elle	O
 se	O
 meurt	O
 ,	O
-monsieur	O
+monsieur	B-OBJ
 !	O
 
 C	O
 '	O
 est	O
-une	O
-fille	O
+une	B-OBJ
+fille	I-OBJ
 et	O
 qui	O
 ,	O
@@ -1214,7 +1214,7 @@ monsieur	O
 ,	O
 je	O
 suis	O
-veuve	O
+veuve	B-OBJ
 ...	O
 
 je	O
@@ -1303,8 +1303,8 @@ Pauline	B-PER
 Nous	O
 avions	O
 atteint	O
-la	O
-maison	O
+la	B-OBJ
+maison	I-OBJ
 .	O
 
 Nous	O
@@ -1317,8 +1317,8 @@ nous	O
 entrâmes	O
 .	O
 
-Le	O
-logis	O
+Le	B-OBJ
+logis	I-OBJ
 était	O
 propre	O
 ,	O
@@ -1350,10 +1350,10 @@ entrée	O
 nous	O
 pénétrâmes	O
 dans	O
-la	O
-chambre	O
-à	O
-coucher	O
+la	B-OBJ
+chambre	I-OBJ
+à	I-OBJ
+coucher	I-OBJ
 ,	O
 et	O
 là	O
@@ -1371,8 +1371,8 @@ vis	O
 étendue	O
 dans	O
 un	O
-petit	O
-lit	O
+petit	B-OBJ
+lit	I-OBJ
 auprès	O
 de	O
 celui	O
@@ -1433,8 +1433,8 @@ premiers	O
 malades	O
 .	O
 
-Mon	O
-coeur	O
+Mon	B-OBJ
+coeur	I-OBJ
 s	O
 '	O
 était	O
@@ -1495,7 +1495,7 @@ grisâtre	O
 ,	O
 et	O
 les	O
-mains	O
+mains	B-OBJ
 s	O
 '	O
 étendaient	O
@@ -1506,7 +1506,7 @@ maigres	O
 ,	O
 sur	O
 les	O
-draps	O
+draps	B-OBJ
 d	O
 '	O
 où	O
@@ -1517,8 +1517,8 @@ encore	O
 .	O
 
 —	O
-Une	O
-bougie	O
+Une	B-OBJ
+bougie	I-OBJ
 !	O
 
 demandai	O
@@ -1532,8 +1532,8 @@ je	O
 me	O
 penchai	O
 sur	O
-ce	O
-lit	O
+ce	B-OBJ
+lit	I-OBJ
 ,	O
 examinant	O
 avec	O
@@ -1626,7 +1626,7 @@ le	O
 monde	O
 admirait	O
 cette	O
-fleur	O
+fleur	B-OBJ
 vivace	O
 et	O
 saine	O
@@ -1685,14 +1685,14 @@ ici	O
 
 L	O
 '	O
-appartement	O
+appartement	B-OBJ
 est	O
 aéré	O
 ,	O
 donne	O
 sur	O
 des	O
-jardins	O
+jardins	B-OBJ
 .	O
 
 Je	O
@@ -1745,9 +1745,9 @@ presque	O
 peur	O
 de	O
 toucher	O
-cette	O
-frêle	O
-créature	O
+cette	B-OBJ
+frêle	I-OBJ
+créature	I-OBJ
 dont	O
 l	O
 '	O
@@ -1815,7 +1815,7 @@ admirablement	O
 conformée	O
 ;	O
 le	O
-coeur	O
+coeur	B-OBJ
 était	O
 intact	O
 et	O
@@ -1843,8 +1843,8 @@ du	O
 cou	O
 .	O
 
-Les	O
-poumons	O
+Les	B-OBJ
+poumons	I-OBJ
 étaient	O
 intacts	O
 et	O
@@ -1859,9 +1859,9 @@ d	O
 '	O
 étisie	O
 ,	O
-la	O
-charpente	O
-vitale	O
+la	B-OBJ
+charpente	I-OBJ
+vitale	I-OBJ
 était	O
 exceptionnelle	O
 .	O
@@ -1882,8 +1882,8 @@ pauvre	O
 :	O
 avec	O
 une	O
-petite	O
-pension	O
+petite	B-OBJ
+pension	I-OBJ
 qui	O
 lui	O
 venait	O
@@ -1901,9 +1901,9 @@ possédait	O
 une	O
 rente	O
 de	O
-deux	O
-mille	O
-francs	O
+deux	B-OBJ
+mille	I-OBJ
+francs	I-OBJ
 .	O
 
 De	O
@@ -1971,14 +1971,14 @@ de	O
 remèdes	O
 anodins	O
 ,	O
-eau	O
-ferrée	O
+eau	B-OBJ
+ferrée	I-OBJ
 —	O
 des	O
-clous	O
+clous	B-OBJ
 dans	O
 une	O
-carafe	O
+carafe	B-OBJ
 —	O
 que	O
 sais	O
@@ -2006,7 +2006,7 @@ efforts	O
 pour	O
 ranimer	O
 cet	O
-organisme	O
+organisme	B-OBJ
 si	O
 étrangement	O
 épuisé	O
@@ -2051,8 +2051,8 @@ me	O
 venir	O
 .	O
 
-La	O
-mère	O
+La	B-OBJ
+mère	I-OBJ
 me	O
 contemplait	O
 ,	O
@@ -2102,7 +2102,7 @@ devant	O
 agir	O
 sur	O
 le	O
-cerveau	O
+cerveau	B-OBJ
 comme	O
 sur	O
 les	O
@@ -2137,8 +2137,8 @@ la	O
 mère	O
 .	O
 
-La	O
-porte	O
+La	B-OBJ
+porte	I-OBJ
 s	O
 '	O
 entr	O
@@ -2153,12 +2153,12 @@ instant	O
 ,	O
 je	O
 vis	O
-le	O
-corps	O
-de	O
-la	O
-jeune	O
-fille	O
+le	B-OBJ
+corps	I-OBJ
+de	I-OBJ
+la	I-OBJ
+jeune	I-OBJ
+fille	I-OBJ
 se	O
 soulever	O
 ,	O
@@ -2167,8 +2167,8 @@ tête	O
 se	O
 tourner	O
 ,	O
-ses	O
-mains	O
+ses	B-OBJ
+mains	I-OBJ
 se	O
 tendre	O
 du	O
@@ -2219,8 +2219,8 @@ de	O
 mes	O
 bras	O
 :	O
-la	O
-porte	O
+la	B-OBJ
+porte	I-OBJ
 s	O
 '	O
 était	O
@@ -2314,8 +2314,8 @@ un	O
 cauchemar	O
 .	O
 
-La	O
-mère	O
+La	B-OBJ
+mère	I-OBJ
 ,	O
 avec	O
 une	O
@@ -2327,10 +2327,10 @@ s	O
 était	O
 jetée	O
 sur	O
-le	O
-pauvre	O
-corps	O
-immobile	O
+le	B-OBJ
+pauvre	I-OBJ
+corps	I-OBJ
+immobile	I-OBJ
 .	O
 
 Je	O
@@ -2338,7 +2338,7 @@ m	O
 '	O
 écartai	O
 du	O
-lit	O
+lit	B-OBJ
 et	O
 machinalement	O
 ,	O
@@ -2356,7 +2356,7 @@ j	O
 '	O
 ouvris	O
 la	O
-porte	O
+porte	B-OBJ
 et	O
 je	O
 pénétrai	O
@@ -2388,21 +2388,21 @@ claires	O
 il	O
 portait	O
 un	O
-habit	O
-gris	O
+habit	B-OBJ
+gris	I-OBJ
 ,	O
 presque	O
 blanc	O
 .	O
 
-Il	O
+Il	B-OBJ
 était	O
 de	O
 taille	O
 moyenne	O
 ,	O
-assez	O
-replet	O
+assez	B-OBJ
+replet	I-OBJ
 ;	O
 mais	O
 ce	O
@@ -2431,13 +2431,13 @@ un	O
 positif	O
 .	O
 
-Les	O
-cheveux	O
+Les	B-OBJ
+cheveux	I-OBJ
 étaient	O
-blancs	O
+blancs	B-OBJ
 ,	O
-court	O
-frisés	O
+court	B-OBJ
+frisés	I-OBJ
 et	O
 formant	O
 trois	O
@@ -2446,11 +2446,11 @@ bien	O
 dessinées	O
 sur	O
 son	O
-front	O
+front	B-OBJ
 et	O
 sur	O
 ses	O
-tempes	O
+tempes	B-OBJ
 .	O
 
 Mais	O
@@ -2559,7 +2559,7 @@ debout	O
 auprès	O
 de	O
 la	O
-fenêtre	O
+fenêtre	B-OBJ
 ,	O
 attristé	O
 ,	O
@@ -2597,7 +2597,7 @@ regard	O
 :	O
 
 —	O
-Elle	O
+Elle	B-OBJ
 est	O
 morte	O
 ,	O
@@ -2653,8 +2653,8 @@ toute	O
 superficielle	O
 .	O
 
-Du	O
-reste	O
+Du	B-OBJ
+reste	I-OBJ
 ,	O
 sans	O
 doute	O
@@ -2684,8 +2684,8 @@ jaunâtre	O
 ,	O
 parchemineusé	O
 ;	O
-les	O
-joues	O
+les	B-OBJ
+joues	I-OBJ
 s	O
 '	O
 étaient	O
@@ -2700,10 +2700,10 @@ En	O
 une	O
 seconde	O
 ,	O
-un	O
-masque	O
-de	O
-mort	O
+un	B-OBJ
+masque	I-OBJ
+de	I-OBJ
+mort	I-OBJ
 s	O
 '	O
 était	O
@@ -2721,7 +2721,7 @@ mot	O
 ,	O
 saisissant	O
 son	O
-chapeau	O
+chapeau	B-OBJ
 avec	O
 un	O
 emportement	O
@@ -2748,8 +2748,8 @@ maître	O
 courut	O
 à	O
 la	O
-porte	O
-extérieure	O
+porte	B-OBJ
+extérieure	I-OBJ
 ,	O
 l	O
 '	O
@@ -2885,7 +2885,7 @@ comme	O
 dit	O
 l	O
 '	O
-une	O
+une	B-OBJ
 .	O
 
 L	O
@@ -2983,7 +2983,7 @@ Je	O
 descendais	O
 l	O
 '	O
-escalier	O
+escalier	B-OBJ
 ,	O
 lentement	O
 ,	O
@@ -3110,15 +3110,15 @@ absent	O
 —	O
 Ah	O
 !	O
-le	O
-bandit	O
+le	B-OBJ
+bandit	I-OBJ
 !	O
 
-gronda	O
+gronda	B-OBJ
 -	O
 t	O
 -	O
-il	O
+il	B-OBJ
 .	O
 
 Quand	O
@@ -3129,11 +3129,11 @@ c	O
 '	O
 était	O
 un	O
-colosse	O
+colosse	B-OBJ
 de	O
 santé	O
 ,	O
-monsieur	O
+monsieur	B-OBJ
 !	O
 et	O
 fraîche	O
@@ -3153,7 +3153,7 @@ de	O
 temps	O
 qu	O
 '	O
-elle	O
+elle	B-OBJ
 est	O
 malade	O
 ?	O
@@ -3320,7 +3320,7 @@ vrai	O
 
 fit	O
 le	O
-concierge	O
+concierge	B-OBJ
 en	O
 brisant	O
 l	O
@@ -3376,8 +3376,8 @@ désespéré	O
 ;	O
 brutalement	O
 ,	O
-la	O
-mort	O
+la	B-OBJ
+mort	I-OBJ
 me	O
 barrait	O
 le	O
@@ -3494,8 +3494,8 @@ connues	O
 J	O
 '	O
 ouvrais	O
-mes	O
-livres	O
+mes	B-OBJ
+livres	I-OBJ
 un	O
 à	O
 un	O
@@ -3558,7 +3558,7 @@ l	O
 '	O
 insinuation	O
 du	O
-concierge	O
+concierge	B-OBJ
 ,	O
 aux	O
 mauvais	O
@@ -3654,8 +3654,8 @@ l	O
 état	O
 sain	O
 des	O
-organes	O
-importants	O
+organes	B-OBJ
+importants	I-OBJ
 .	O
 
 Il	O
@@ -3948,8 +3948,8 @@ banalités	O
 courantes	O
 .	O
 
-Je	O
-sortis	O
+Je	B-OBJ
+sortis	I-OBJ
 .	O
 
 Quand	O
@@ -3958,9 +3958,9 @@ j	O
 entrai	O
 dans	O
 le	O
-cercle	O
-de	O
-lumière	O
+cercle	B-OBJ
+de	I-OBJ
+lumière	I-OBJ
 projeté	O
 par	O
 le	O
@@ -4005,17 +4005,17 @@ fois	O
 .	O
 
 Et	O
-les	O
-quolibets	O
-amicaux	O
+les	B-OBJ
+quolibets	I-OBJ
+amicaux	I-OBJ
 de	O
 pleuvoir	O
 sur	O
 moi	O
 ,	O
 et	O
-les	O
-mains	O
+les	B-OBJ
+mains	I-OBJ
 de	O
 m	O
 '	O
@@ -4030,15 +4030,15 @@ m	O
 asseoir	O
 devant	O
 une	O
-pile	O
-de	O
-soucoupes	O
+pile	B-OBJ
+de	I-OBJ
+soucoupes	I-OBJ
 ,	O
 obélisque	O
 obituaire	O
 des	O
-chopes	O
-disparues	O
+chopes	B-OBJ
+disparues	I-OBJ
 .	O
 
 Je	O
@@ -4114,7 +4114,7 @@ décore	O
 du	O
 nom	O
 de	O
-bière	O
+bière	B-OBJ
 ,	O
 et	O
 dont	O
@@ -4309,7 +4309,7 @@ donner	O
 le	O
 mot	O
 du	O
-logographe	O
+logographe	B-OBJ
 que	O
 tu	O
 nous	O
@@ -4347,11 +4347,11 @@ dans	O
 la	O
 vie	O
 du	O
-médecin	O
+médecin	B-OBJ
 .	O
 
-La	O
-première	O
+La	B-OBJ
+première	I-OBJ
 —	O
 temps	O
 de	O
@@ -4405,9 +4405,9 @@ des	O
 yeux	O
 à	O
 des	O
-mèches	O
-de	O
-chandelles	O
+mèches	B-OBJ
+de	I-OBJ
+chandelles	I-OBJ
 fumeuses	O
 et	O
 mal	O
@@ -4423,8 +4423,8 @@ avec	O
 cette	O
 furie	O
 ,	O
-la	O
-vie	O
+la	B-OBJ
+vie	I-OBJ
 marche	O
 ,	O
 s	O
@@ -4465,7 +4465,7 @@ malade	O
 souffrant	O
 par	O
 les	O
-poumons	O
+poumons	B-OBJ
 ,	O
 par	O
 le	O
@@ -4473,7 +4473,7 @@ coeur	O
 ,	O
 par	O
 le	O
-cerveau	O
+cerveau	B-OBJ
 .	O
 
 Nous	O
@@ -4521,7 +4521,7 @@ mort	O
 dans	O
 le	O
 seul	O
-livre	O
+livre	B-OBJ
 toujours	O
 ouvert	O
 ,	O
@@ -4537,7 +4537,7 @@ probants	O
 ,	O
 et	O
 ce	O
-livre	O
+livre	B-OBJ
 ,	O
 le	O
 voici	O
@@ -4554,8 +4554,8 @@ montrait	O
 le	O
 boulevard	O
 ;	O
-le	O
-gaz	O
+le	B-OBJ
+gaz	I-OBJ
 jetait	O
 ses	O
 bandes	O
@@ -4571,15 +4571,15 @@ promeneurs	O
 .	O
 
 —	O
-Voilà	O
-le	O
-grand	O
-manuel	O
-de	O
-pathologie	O
-interne	O
-et	O
-externe	O
+Voilà	B-OBJ
+le	I-OBJ
+grand	I-OBJ
+manuel	I-OBJ
+de	I-OBJ
+pathologie	I-OBJ
+interne	I-OBJ
+et	I-OBJ
+externe	I-OBJ
 ,	O
 continua	O
 -	O
@@ -4612,27 +4612,27 @@ l	O
 hôpital	O
 ou	O
 au	O
-cabinet	O
-de	O
-travail	O
+cabinet	B-OBJ
+de	I-OBJ
+travail	I-OBJ
 ?	O
 
 Et	O
 ceci	O
 est	O
-un	O
-volume	O
+un	B-OBJ
+volume	I-OBJ
 ,	O
-un	O
-chapitre	O
+un	B-OBJ
+chapitre	I-OBJ
 ,	O
-un	O
-alinéa	O
+un	B-OBJ
+alinéa	I-OBJ
 de	O
-la	O
-vaste	O
-encyclopédie	O
-médicale	O
+la	B-OBJ
+vaste	I-OBJ
+encyclopédie	I-OBJ
+médicale	I-OBJ
 ,	O
 qui	O
 est	O
@@ -4690,13 +4690,13 @@ la	O
 lecture	O
 de	O
 la	O
-bibliothèque	O
-humaine	O
+bibliothèque	B-OBJ
+humaine	I-OBJ
 ,	O
 de	O
 ce	O
-dictionnaire	O
-universel	O
+dictionnaire	B-OBJ
+universel	I-OBJ
 dont	O
 chaque	O
 homme	O
@@ -4748,21 +4748,21 @@ autopsié	O
 ,	O
 non	O
 des	O
-cadavres	O
+cadavres	B-OBJ
 ,	O
 mais	O
-des	O
-êtres	O
-vivants	O
+des	B-OBJ
+êtres	I-OBJ
+vivants	I-OBJ
 ,	O
 des	O
-cerveaux	O
+cerveaux	B-OBJ
 ,	O
-des	O
-poitrines	O
+des	B-OBJ
+poitrines	I-OBJ
 et	O
 des	O
-coeurs	O
+coeurs	B-OBJ
 ...	O
 
 Dix	B-DUR
@@ -4873,7 +4873,7 @@ nous	O
 nous	O
 évadons	O
 des	O
-livres	O
+livres	B-OBJ
 ,	O
 nous	O
 sommes	O
@@ -4884,7 +4884,7 @@ voyons	O
 plus	O
 l	O
 '	O
-homme	O
+homme	B-OBJ
 ...	O
 
 A	O
@@ -4923,8 +4923,8 @@ indication	O
 que	O
 lui	O
 donnait	O
-mon	O
-doigt	O
+mon	B-OBJ
+doigt	I-OBJ
 .	O
 
 —	O
@@ -4945,8 +4945,8 @@ il	O
 C	O
 '	O
 est	O
-le	O
-vieillard	O
+le	B-OBJ
+vieillard	I-OBJ
 dont	O
 je	O
 te	O
@@ -4970,8 +4970,8 @@ le	O
 reflet	O
 cru	O
 des	O
-cristaux	O
-dépolis	O
+cristaux	B-OBJ
+dépolis	I-OBJ
 ,	O
 le	O
 vieillard	O
@@ -5013,7 +5013,7 @@ avais	O
 quitté	O
 .	O
 
-Il	O
+Il	B-OBJ
 me	O
 paraissait	O
 blafard	O
@@ -5075,7 +5075,7 @@ vieux	I-PER
 Thévenin	I-PER
 !	O
 
-Il	O
+Il	B-OBJ
 n	O
 '	O
 est	O
@@ -5295,10 +5295,10 @@ instant	O
 nous	O
 eûmes	O
 retrouvé	O
-la	O
-piste	O
-du	O
-vieillard	O
+la	B-OBJ
+piste	I-OBJ
+du	I-OBJ
+vieillard	I-OBJ
 ,	O
 qui	O
 remontait	O
@@ -5327,9 +5327,9 @@ et	O
 vivifiante	O
 .	O
 
-Son	O
-dos	O
-étroit	O
+Son	B-OBJ
+dos	I-OBJ
+étroit	I-OBJ
 semblait	O
 appartenir	O
 à	O
@@ -5400,8 +5400,8 @@ me	O
 plairait	O
 de	O
 connaître	O
-quelque	O
-chose	O
+quelque	B-OBJ
+chose	I-OBJ
 du	O
 présent	O
 .	O
@@ -5454,7 +5454,7 @@ arrêtait	O
 restant	O
 sur	O
 le	O
-seuil	O
+seuil	B-OBJ
 et	O
 fouillant	O
 du	O
@@ -5580,8 +5580,8 @@ déjà	O
 en	O
 
 Cependant	O
-le	O
-vieillard	O
+le	B-OBJ
+vieillard	I-OBJ
 avait	O
 repris	O
 —	O
@@ -5607,7 +5607,7 @@ A	O
 mesure	O
 qu	O
 '	O
-il	O
+il	B-OBJ
 marchait	O
 ,	O
 il	O
@@ -5622,7 +5622,7 @@ bât	O
 davantage	O
 sous	O
 un	O
-poids	O
+poids	B-OBJ
 devenu	O
 plus	O
 lourd	O
@@ -5763,8 +5763,8 @@ marcher	O
 droit	O
 à	O
 une	O
-porte	O
-cochère	O
+porte	B-OBJ
+cochère	I-OBJ
 ,	O
 devant	O
 laquelle	O
@@ -5816,7 +5816,7 @@ sauta	O
 en	O
 bas	O
 du	O
-giron	O
+giron	B-OBJ
 de	O
 sa	O
 mère	O
@@ -5829,13 +5829,13 @@ grandes	O
 enjambées	O
 .	O
 
-Il	O
+Il	B-OBJ
 heurta	O
 même	O
 si	O
 fort	O
-le	O
-vieillard	O
+le	B-OBJ
+vieillard	I-OBJ
 que	O
 nous	O
 craignîmes	O
@@ -5843,7 +5843,7 @@ un	O
 instant	O
 qu	O
 '	O
-il	O
+il	B-OBJ
 ne	O
 le	O
 renversât	O
@@ -5871,7 +5871,7 @@ l	O
 '	O
 enleva	O
 de	O
-terre	O
+terre	B-OBJ
 et	O
 l	O
 '	O
@@ -5891,9 +5891,9 @@ attendri	O
 il	O
 pense	O
 à	O
-la	O
-petite	O
-morte	O
+la	B-OBJ
+petite	I-OBJ
+morte	I-OBJ
 .	O
 
 Cependant	O
@@ -5919,8 +5919,8 @@ bien	O
 laisser	O
 monsieur	O
 ...	O
-petit	O
-gredin	O
+petit	B-OBJ
+gredin	I-OBJ
 !	O
 ...	O
 Je	O
@@ -5961,7 +5961,7 @@ vous	O
 êtes	O
 le	O
 papa	O
-Gâteau	O
+Gâteau	B-OBJ
 de	O
 tous	O
 les	O
@@ -6085,11 +6085,11 @@ jours	I-DUR
 il	O
 a	O
 fallu	O
-la	O
-croix	O
+la	B-OBJ
+croix	I-OBJ
 et	O
-la	O
-bannière	O
+la	B-OBJ
+bannière	I-OBJ
 ...	O
 
 Et	O
@@ -6121,7 +6121,7 @@ une	O
 fois	O
 l	O
 '	O
-enfant	O
+enfant	B-OBJ
 et	O
 disparut	O
 dans	O
@@ -6183,10 +6183,10 @@ brave	O
 homme	O
 !	O
 
-Le	O
-père	O
-aux	O
-enfants	O
+Le	B-OBJ
+père	I-OBJ
+aux	I-OBJ
+enfants	I-OBJ
 ,	O
 quoi	O
 !	O
@@ -6205,7 +6205,7 @@ ils	O
 lui	O
 soutirent	O
 des	O
-sous	O
+sous	B-OBJ
 toute	O
 la	O
 journée	O
@@ -6278,7 +6278,7 @@ Tout	O
 à	O
 coup	O
 ,	O
-patatras	O
+patatras	B-OBJ
 !	O
 
 ç	O
@@ -6299,7 +6299,7 @@ pas	O
 ce	O
 qu	O
 '	O
-il	O
+il	B-OBJ
 avait	O
 inventé	O
 pour	O
@@ -6372,8 +6372,8 @@ je	O
 —	O
 Oh	O
 !	O
-un	O
-zeste	O
+un	B-OBJ
+zeste	I-OBJ
 !	O
 dans	O
 les	O
@@ -6428,7 +6428,7 @@ tu	O
 ?	O
 
 —	O
-Rien	O
+Rien	B-OBJ
 .	O
 
 J	O
@@ -6594,8 +6594,8 @@ l	O
 '	O
 Hippocrate	O
 du	O
-magnétisme	O
-animal	O
+magnétisme	B-OBJ
+animal	I-OBJ
 .	O
 
 «	O
@@ -6723,8 +6723,8 @@ aurait	O
 prévu	O
 l	O
 '	O
-éclairage	O
-électrique	O
+éclairage	B-OBJ
+électrique	I-OBJ
 des	O
 gares	O
 de	O
@@ -6744,8 +6744,8 @@ Petites	I-LOC
 Maisons	I-LOC
 .	O
 
-La	O
-science	O
+La	B-OBJ
+science	I-OBJ
 part	O
 d	O
 '	O
@@ -6759,8 +6759,8 @@ les	O
 hypothèses	O
 .	O
 
-Un	O
-fou	O
+Un	B-OBJ
+fou	I-OBJ
 !	O
 
 continua	O
@@ -6797,7 +6797,7 @@ l	O
 irritante	O
 énigme	O
 du	O
-radiomètre	O
+radiomètre	B-OBJ
 ,	O
 dont	O
 le	O
@@ -6832,8 +6832,8 @@ pas	O
 ébranlé	O
 en	O
 toi	O
-quelque	O
-chose	O
+quelque	B-OBJ
+chose	I-OBJ
 que	O
 tu	O
 jugeais	O
@@ -6990,7 +6990,7 @@ compagnie	O
 de	O
 prendre	O
 le	O
-magnétisme	O
+magnétisme	B-OBJ
 au	O
 sérieux	O
 .	O
@@ -7151,7 +7151,7 @@ intérêt	O
 ,	O
 d	O
 '	O
-argent	O
+argent	B-OBJ
 ou	O
 d	O
 '	O
@@ -7226,7 +7226,7 @@ ses	O
 observations	O
 .	O
 
-Il	O
+Il	B-OBJ
 va	O
 lentement	O
 d	O
@@ -7291,7 +7291,7 @@ fausse	O
 route	O
 .	O
 
-Lui	O
+Lui	B-OBJ
 va	O
 tout	O
 droit	O
@@ -7457,8 +7457,8 @@ aide	O
 d	O
 '	O
 un	O
-conducteur	O
-matériel	O
+conducteur	B-OBJ
+matériel	I-OBJ
 .	O
 
 «	O
@@ -7514,8 +7514,8 @@ le	O
 confesser	O
 .	O
 
-Un	O
-homme	O
+Un	B-OBJ
+homme	I-OBJ
 très	O
 singulier	O
 ,	O
@@ -7629,8 +7629,8 @@ Comprends	O
 moi	O
 bien	O
 :	O
-mon	O
-corps	O
+mon	B-OBJ
+corps	I-OBJ
 n	O
 '	O
 était	O
@@ -7640,8 +7640,8 @@ vers	O
 lui	O
 ,	O
 mais	O
-quelque	O
-chose	O
+quelque	B-OBJ
+chose	I-OBJ
 qui	O
 émanait	O
 de	O
@@ -7649,8 +7649,8 @@ toute	O
 la	O
 périphérie	O
 de	O
-mon	O
-corps	O
+mon	B-OBJ
+corps	I-OBJ
 ,	O
 comme	O
 si	O
@@ -7658,11 +7658,11 @@ si	O
 travers	O
 mes	O
 pores	O
-une	O
-substance	O
-impalpable	O
+une	B-OBJ
+substance	I-OBJ
+impalpable	I-OBJ
 ,	O
-éthérienne	O
+éthérienne	B-OBJ
 ,	O
 avait	O
 été	O
@@ -7670,7 +7670,7 @@ projetée	O
 de	O
 moi	O
 vers	O
-lui	O
+lui	B-OBJ
 .	O
 
 L	O
@@ -7734,7 +7734,7 @@ reprit	O
 il	O
 .	O
 
-Vous	O
+Vous	B-OBJ
 vous	O
 dépensez	O
 trop	O
@@ -7800,7 +7800,7 @@ essayai	O
 de	O
 revenir	O
 au	O
-sujet	O
+sujet	B-OBJ
 qui	O
 m	O
 '	O
@@ -7864,10 +7864,10 @@ qui	O
 que	O
 ce	O
 soit	O
-ce	O
-que	O
-je	O
-sais	O
+ce	B-OBJ
+que	I-OBJ
+je	I-OBJ
+sais	I-OBJ
 .	O
 
 «	O
@@ -7899,7 +7899,7 @@ lutter	O
 contre	O
 les	O
 stupides	O
-rouines	O
+rouines	B-OBJ
 ?	O
 
 «	O
@@ -7975,11 +7975,11 @@ encyclopédique	O
 ,	O
 de	O
 la	O
-science	O
-actuelle	O
+science	B-OBJ
+actuelle	I-OBJ
 .	O
 
-Il	O
+Il	B-OBJ
 n	O
 '	O
 était	O
@@ -8126,7 +8126,7 @@ criminelle	O
 
 Oui	O
 ,	O
-criminelle	O
+criminelle	B-OBJ
 !	O
 
 car	O
@@ -8192,8 +8192,8 @@ d	O
 '	O
 entretien	O
 ,	O
-cet	O
-homme	O
+cet	B-OBJ
+homme	I-OBJ
 m	O
 '	O
 était	O
@@ -8328,16 +8328,16 @@ veux	O
 !	O
 
 «	O
-Là	O
--	O
-dessus	O
+Là	B-OBJ
+-	I-OBJ
+dessus	I-OBJ
 ,	O
 il	O
 est	O
 tard	O
 .	O
 
-Rentrons	O
+Rentrons	B-OBJ
 .	O
 
 «	O
@@ -8446,8 +8446,8 @@ moi	O
 la	O
 lueur	O
 de	O
-ma	O
-lampe	O
+ma	B-OBJ
+lampe	I-OBJ
 ,	O
 je	O
 reprenais	O
@@ -8494,7 +8494,7 @@ voici	O
 qu	O
 '	O
 une	O
-mouche	O
+mouche	B-OBJ
 s	O
 '	O
 envole	O
@@ -8586,7 +8586,7 @@ course	O
 d	O
 '	O
 un	O
-chat	O
+chat	B-OBJ
 nous	O
 laisse	O
 indifférents	O
@@ -8598,7 +8598,7 @@ pas	O
 :	O
 mais	O
 une	O
-jupe	O
+jupe	B-OBJ
 qui	O
 passe	O
 nous	O
@@ -8750,8 +8750,8 @@ mort	O
 me	O
 laissant	O
 une	O
-petite	O
-fortune	O
+petite	B-OBJ
+fortune	I-OBJ
 amassée	O
 sou	O
 à	O
@@ -8779,8 +8779,8 @@ l	O
 enfant	O
 .	O
 
-La	O
-clientèle	O
+La	B-OBJ
+clientèle	I-OBJ
 était	O
 venue	O
 ,	O
@@ -8818,9 +8818,9 @@ père	O
 d	O
 '	O
 une	O
-adorable	O
-petite	O
-fille	O
+adorable	B-OBJ
+petite	I-OBJ
+fille	I-OBJ
 .	O
 
 On	O
@@ -8876,8 +8876,8 @@ quelque	O
 bruit	O
 .	O
 
-Ma	O
-fille	O
+Ma	B-OBJ
+fille	I-OBJ
 grandissait	O
 de	O
 plus	O
@@ -8903,14 +8903,14 @@ histoire	O
 ,	O
 car	O
 les	O
-Académies	O
+Académies	B-OBJ
 accueillaient	O
 mes	O
 communications	O
 ,	O
 et	O
 les	O
-Revues	O
+Revues	B-OBJ
 les	O
 imprimaient	O
 .	O
@@ -9058,7 +9058,7 @@ trouvant	O
 alors	O
 surchargé	O
 de	O
-besogne	O
+besogne	B-OBJ
 ,	O
 je	O
 tardai	O
@@ -9246,10 +9246,10 @@ d	O
 une	O
 allée	O
 de	O
-lauriers	O
-et	O
-de	O
-troènes	O
+lauriers	B-OBJ
+et	I-OBJ
+de	I-OBJ
+troènes	I-OBJ
 et	O
 ,	O
 courant	O
@@ -9294,7 +9294,7 @@ C	O
 un	O
 très	O
 joli	O
-enfant	O
+enfant	B-OBJ
 ,	O
 aux	O
 traits	O
@@ -9315,9 +9315,9 @@ caressai	O
 en	O
 songeant	O
 à	O
-ma	O
-petite	O
-fille	O
+ma	B-OBJ
+petite	I-OBJ
+fille	I-OBJ
 ,	O
 si	O
 rose	O
@@ -9400,8 +9400,8 @@ M.	B-PER
 Vincent	I-PER
 ?	O
 
-Ce	O
-nom	O
+Ce	B-OBJ
+nom	I-OBJ
 avait	O
 vibré	O
 en	O
@@ -9425,7 +9425,7 @@ irritation	O
 :	O
 
 —	O
-Pardi	O
+Pardi	B-OBJ
 !	O
 
 il	O
@@ -9538,8 +9538,8 @@ cent	O
 quinze	B-DUR
 ans	I-DUR
 ,	O
-mon	O
-cher	O
+mon	B-OBJ
+cher	I-OBJ
 .	O
 
 Qu	O
@@ -9549,8 +9549,8 @@ dise	O
 après	O
 cela	O
 que	O
-la	O
-folie	O
+la	B-OBJ
+folie	I-OBJ
 n	O
 '	O
 est	O
@@ -9651,12 +9651,12 @@ Je	O
 me	O
 jetai	O
 dans	O
-ma	O
-voiture	O
+ma	B-OBJ
+voiture	I-OBJ
 ,	O
 dont	O
 la	O
-portière	O
+portière	B-OBJ
 se	O
 referma	O
 sur	O
@@ -9694,9 +9694,9 @@ tout	O
 le	B-PONC
 passé	I-PONC
 ,	O
-le	O
-petit	O
-appartement	O
+le	B-OBJ
+petit	I-OBJ
+appartement	I-OBJ
 dans	O
 lequel	O
 j	O
@@ -9724,8 +9724,8 @@ aide	O
 ,	O
 puis	O
 ce	O
-lit	O
-funèbre	O
+lit	B-OBJ
+funèbre	I-OBJ
 où	O
 gisait	O
 la	O
@@ -10007,7 +10007,7 @@ réflexe	O
 :	O
 «	O
 Un	O
-vampire	O
+vampire	B-OBJ
 savant	O
 .	O
 »	O
@@ -10078,8 +10078,8 @@ obsession	O
 Par	O
 bonheur	O
 ,	O
-le	O
-travail	O
+le	B-OBJ
+travail	I-OBJ
 ,	O
 puis	O
 les	O
@@ -10089,8 +10089,8 @@ la	B-PONC
 soirée	I-PONC
 ,	O
 puis	O
-le	O
-sommeil	O
+le	B-OBJ
+sommeil	I-OBJ
 eurent	O
 enfin	O
 raison	O
@@ -10185,11 +10185,11 @@ que	O
 depuis	O
 quelque	O
 temps	O
-la	O
-santé	O
-de	O
-son	O
-fils	O
+la	B-OBJ
+santé	I-OBJ
+de	I-OBJ
+son	I-OBJ
+fils	I-OBJ
 lui	O
 donnait	O
 de	O
@@ -10361,14 +10361,14 @@ leva	O
 ,	O
 ouvrit	O
 un	O
-carton	O
+carton	B-OBJ
 et	O
 en	O
 tira	O
 quelques	O
 feuilles	O
 de	O
-papier	O
+papier	B-OBJ
 qu	O
 '	O
 il	O
@@ -10380,7 +10380,7 @@ ajoutant	O
 :	O
 
 —	O
-Lisez	O
+Lisez	B-OBJ
 ,	O
 pendant	O
 que	O
@@ -10428,8 +10428,8 @@ soir	B-PONC
 on	O
 me	O
 présenta	O
-la	O
-carte	O
+la	B-OBJ
+carte	I-OBJ
 d	O
 '	O
 un	O
@@ -10486,8 +10486,8 @@ l	O
 '	O
 histoire	O
 du	O
-magnétisme	O
-animal	O
+magnétisme	B-OBJ
+animal	I-OBJ
 ,	O
 et	O
 je	O
@@ -10546,7 +10546,7 @@ qui	O
 avait	O
 remis	O
 cette	O
-carte	O
+carte	B-OBJ
 ,	O
 et	O
 un	O
@@ -10586,8 +10586,8 @@ fraîcheur	O
 inaccoutumée	O
 .	O
 
-La	O
-marche	O
+La	B-OBJ
+marche	I-OBJ
 témoignait	O
 encore	O
 d	O
@@ -10613,7 +10613,7 @@ en	O
 lui	O
 désignant	O
 un	O
-siège	O
+siège	B-OBJ
 ,	O
 puis	O
 je	O
@@ -10664,7 +10664,7 @@ pensionnaire	O
 
 Oh	O
 !	O
-payant	O
+payant	B-OBJ
 ,	O
 bien	O
 entendu	O
@@ -10725,7 +10725,7 @@ C	O
 '	O
 est	O
 bien	O
-moi	O
+moi	B-OBJ
 .	O
 
 «	O
@@ -10771,8 +10771,8 @@ Ignorez	O
 -	O
 vous	O
 que	O
-ma	O
-maison	O
+ma	B-OBJ
+maison	I-OBJ
 est	O
 spécialement	O
 destinée	O
@@ -10819,9 +10819,9 @@ bien	O
 des	O
 excentricités	O
 ,	O
-celle	O
--	O
-ci	O
+celle	B-OBJ
+-	I-OBJ
+ci	I-OBJ
 me	O
 parut	O
 dépasser	O
@@ -10847,7 +10847,7 @@ dis	O
 je	O
 .	O
 
-Vous	O
+Vous	B-OBJ
 me	O
 paraissez	O
 en	O
@@ -10876,7 +10876,7 @@ calme	O
 ,	O
 je	O
 suis	O
-fou	O
+fou	B-OBJ
 et	O
 ,	O
 j	O
@@ -10899,7 +10899,7 @@ existent	O
 «	O
 
 —	O
-Soit	O
+Soit	B-OBJ
 .	O
 
 Mais	O
@@ -10979,7 +10979,7 @@ plus	O
 convaincus	O
 adeptes	O
 du	O
-magnétisme	O
+magnétisme	B-OBJ
 .	O
 
 Il	O
@@ -11066,12 +11066,12 @@ en	O
 vous	O
 ,	O
 en	O
-votre	O
-physionomie	O
+votre	B-OBJ
+physionomie	I-OBJ
 ,	O
 en	O
-votre	O
-regard	O
+votre	B-OBJ
+regard	I-OBJ
 ,	O
 aucun	O
 signe	O
@@ -11183,7 +11183,7 @@ visions	O
 -	O
 vous	O
 les	O
-morts	O
+morts	B-OBJ
 ?	O
 
 Croyez	O
@@ -11201,7 +11201,7 @@ Christ	I-PER
 -	O
 vous	O
 de	O
-verre	O
+verre	B-OBJ
 ?	O
 
 N	O
@@ -11282,7 +11282,7 @@ ans	I-DUR
 C	O
 '	O
 est	O
-cela	O
+cela	B-OBJ
 .	O
 
 «	O
@@ -11316,9 +11316,9 @@ mienne	O
 
 «	O
 —	O
-Le	O
-grand	O
-oeuvre	O
+Le	B-OBJ
+grand	I-OBJ
+oeuvre	I-OBJ
 !	O
 
 m	O
@@ -11327,9 +11327,9 @@ m	O
 -	O
 je	O
 ,	O
-la	O
-pierre	O
-philosophale	O
+la	B-OBJ
+pierre	I-OBJ
+philosophale	I-OBJ
 ...	O
 
 «	O
@@ -11542,7 +11542,7 @@ découverts	O
 
 «	O
 —	O
-Non	O
+Non	B-OBJ
 .	O
 
 «	O
@@ -11563,7 +11563,7 @@ innocents	O
 «	O
 
 —	O
-Non	O
+Non	B-OBJ
 .	O
 
 «	O
@@ -11590,7 +11590,7 @@ disparaître	O
 
 «	O
 —	O
-Non	O
+Non	B-OBJ
 .	O
 
 «	O
@@ -11619,8 +11619,8 @@ Personne	O
 .	O
 
 «	O
-La	O
-folie	O
+La	B-OBJ
+folie	I-OBJ
 se	O
 caractérisait	O
 de	O
@@ -11740,7 +11740,7 @@ cherchez	O
 pas	O
 .	O
 
-Vous	O
+Vous	B-OBJ
 ne	O
 pourriez	O
 trouver	O
@@ -11749,7 +11749,7 @@ trouver	O
 D	O
 '	O
 ailleurs	O
-coupons	O
+coupons	B-OBJ
 au	O
 court	O
 .	O
@@ -11834,7 +11834,7 @@ deux	O
 médecins	O
 dont	O
 le	O
-certificat	O
+certificat	B-OBJ
 sera	O
 ma	O
 garantie	O
@@ -11923,8 +11923,8 @@ faire	O
 ,	O
 et	O
 alors	O
-la	O
-nature	O
+la	B-OBJ
+nature	I-OBJ
 agira	O
 seule	O
 .	O
@@ -12266,9 +12266,9 @@ en	O
 desquels	O
 il	O
 réclamait	O
-un	O
-grand	O
-confortable	O
+un	B-OBJ
+grand	I-OBJ
+confortable	I-OBJ
 ...	O
 »	O
 
@@ -12276,7 +12276,7 @@ Ici	O
 se	O
 terminait	O
 le	O
-manuscrit	O
+manuscrit	B-OBJ
 du	O
 docteur	O
 .	O
@@ -12289,8 +12289,8 @@ cette	O
 note	O
 :	O
 «	O
-Pavillon	O
-2	O
+Pavillon	B-OBJ
+2	I-OBJ
 ,	O
 n°	O
 17	O
@@ -12339,8 +12339,8 @@ le	B-PONC
 passé	I-PONC
 .	O
 
-Mon	O
-confrère	O
+Mon	B-OBJ
+confrère	I-OBJ
 rentra	O
 .	O
 
@@ -12418,9 +12418,9 @@ est	O
 encore	O
 vivant	O
 :	O
-son	O
-diagnostic	O
-infaillible	O
+son	B-OBJ
+diagnostic	I-OBJ
+infaillible	I-OBJ
 l	O
 '	O
 a	O
@@ -12467,7 +12467,7 @@ ni	O
 d	O
 '	O
 un	O
-commerce	O
+commerce	B-OBJ
 plus	O
 agréable	O
 .	O
@@ -12572,12 +12572,12 @@ ai	O
 installé	O
 dans	O
 un	O
-pavillon	O
+pavillon	B-OBJ
 isolé	O
 ,	O
 avec	O
 un	O
-jardin	O
+jardin	B-OBJ
 assez	O
 spacieux	O
 .	O
@@ -12598,8 +12598,8 @@ s	O
 est	O
 composé	O
 une	O
-bibliothèque	O
-scientifique	O
+bibliothèque	B-OBJ
+scientifique	I-OBJ
 des	O
 plus	O
 curieuses	O
@@ -12625,7 +12625,7 @@ jours	I-DUR
 de	O
 suite	O
 ,	O
-il	O
+il	B-OBJ
 a	O
 passé	O
 plusieurs	B-DUR
@@ -12814,7 +12814,7 @@ la	O
 double	O
 monomanie	O
 du	O
-magnétisme	O
+magnétisme	B-OBJ
 et	O
 de	O
 ce	O
@@ -12907,7 +12907,7 @@ journées	O
 assis	O
 sur	O
 un	O
-fauteuil	O
+fauteuil	B-OBJ
 ,	O
 cherchant	O
 le	O
@@ -12933,8 +12933,8 @@ j	O
 '	O
 amenai	O
 mon	O
-petit	O
-garçon	O
+petit	B-OBJ
+garçon	I-OBJ
 auprès	O
 de	O
 lui	O
@@ -13096,8 +13096,8 @@ ses	O
 veines	O
 .	O
 
-Sa	O
-maigreur	O
+Sa	B-OBJ
+maigreur	I-OBJ
 a	O
 disparu	O
 ,	O
@@ -13124,7 +13124,7 @@ C	O
 '	O
 est	O
 une	O
-organisation	O
+organisation	B-OBJ
 étonnante	O
 .	O
 
@@ -13143,8 +13143,8 @@ suis	O
 arrivé	O
 ,	O
 que	O
-votre	O
-fils	O
+votre	B-OBJ
+fils	I-OBJ
 vous	O
 causait	O
 de	O
@@ -13186,14 +13186,14 @@ a	I-PONC
 deux	I-PONC
 mois	I-PONC
 ,	O
-il	O
-avait	O
-trop	O
-de	O
-fraîcheur	O
+il	B-OBJ
+avait	I-OBJ
+trop	I-OBJ
+de	I-OBJ
+fraîcheur	I-OBJ
 .	O
 
-Cela	O
+Cela	B-OBJ
 reviendra	O
 .	O
 
@@ -13477,7 +13477,7 @@ bondis	O
 hors	O
 de	O
 mon	O
-fauteuil	O
+fauteuil	B-OBJ
 et	O
 ,	O
 quelques	O
@@ -13488,10 +13488,10 @@ je	O
 sautais	O
 dans	O
 une	O
-voiture	O
+voiture	B-OBJ
 dont	O
 le	O
-cocher	O
+cocher	B-OBJ
 ,	O
 alléché	O
 par	O
@@ -13506,7 +13506,7 @@ pourboire	O
 fouettait	O
 vigoureusement	O
 son	O
-cheval	O
+cheval	B-OBJ
 .	O
 
 Je	O
@@ -13710,21 +13710,21 @@ et	O
 ,	O
 quand	O
 la	O
-voiture	O
+voiture	B-OBJ
 s	O
 '	O
 arrêta	O
 ,	O
 quand	O
 le	O
-cocher	O
+cocher	B-OBJ
 ,	O
 étant	O
 descendu	O
 ,	O
 ouvrit	O
 la	O
-portière	O
+portière	B-OBJ
 en	O
 me	O
 criant	O
@@ -13792,8 +13792,8 @@ ormes	O
 qui	O
 conduisait	O
 au	O
-bâtiment	O
-principal	O
+bâtiment	B-OBJ
+principal	I-OBJ
 .	O
 
 Lorsque	O
@@ -13861,8 +13861,8 @@ appelés	O
 comme	O
 moi	O
 ,	O
-une	O
-dépêche	O
+une	B-OBJ
+dépêche	I-OBJ
 ,	O
 et	O
 qui	O
@@ -13920,8 +13920,8 @@ Tous	O
 avaient	O
 constaté	O
 que	O
-les	O
-organes	O
+les	B-OBJ
+organes	I-OBJ
 étaient	O
 sains	O
 et	O
@@ -13969,9 +13969,9 @@ il	O
 y	O
 avait	O
 dans	O
-le	O
-pauvre	O
-petit	O
+le	B-OBJ
+pauvre	I-OBJ
+petit	I-OBJ
 comme	O
 une	O
 exhaustion	O
@@ -14002,8 +14002,8 @@ A	O
 ce	O
 moment	O
 ,	O
-le	O
-père	O
+le	B-OBJ
+père	I-OBJ
 nous	O
 rejoignit	O
 :	O
@@ -14026,8 +14026,8 @@ perdu	O
 deux	B-DUR
 ans	I-DUR
 auparavant	B-PONC
-une	O
-femme	O
+une	B-OBJ
+femme	I-OBJ
 qu	O
 '	O
 il	O
@@ -14040,9 +14040,9 @@ toutes	O
 ses	O
 affections	O
 sur	O
-ce	O
-petit	O
-être	O
+ce	B-OBJ
+petit	I-OBJ
+être	I-OBJ
 qu	O
 '	O
 un	O
@@ -14100,7 +14100,7 @@ j	O
 étais	O
 auprès	O
 du	O
-lit	O
+lit	B-OBJ
 ;	O
 et	O
 muet	O
@@ -14358,7 +14358,7 @@ le	O
 quitter	O
 .	O
 
-Il	O
+Il	B-OBJ
 a	O
 fallu	O
 l	O
@@ -14376,7 +14376,7 @@ malgré	O
 sa	O
 faiblesse	O
 ,	O
-il	O
+il	B-OBJ
 résistait	O
 encore	O
 .	O
@@ -14386,7 +14386,7 @@ C	O
 était	O
 comme	O
 une	O
-attraction	O
+attraction	B-OBJ
 à	O
 laquelle	O
 il	O
@@ -14408,7 +14408,7 @@ Vincent	I-PER
 Examinez	O
 l	O
 '	O
-enfant	O
+enfant	B-OBJ
 ,	O
 et	O
 dites	O
@@ -14588,14 +14588,14 @@ m	O
 déjà	O
 élancé	O
 vers	O
-la	O
-fenêtre	O
+la	B-OBJ
+fenêtre	I-OBJ
 ...	O
 
 et	O
 ,	O
 les	O
-rideaux	O
+rideaux	B-OBJ
 écartés	O
 ,	O
 je	O
@@ -14709,7 +14709,7 @@ je	O
 voyais	O
 l	O
 '	O
-enfant	O
+enfant	B-OBJ
 qui	O
 peu	O
 à	O
@@ -14724,11 +14724,11 @@ m	O
 dehors	O
 .	O
 
-Sur	O
-le	O
-seuil	O
-du	O
-perron	O
+Sur	B-OBJ
+le	I-OBJ
+seuil	I-OBJ
+du	I-OBJ
+perron	I-OBJ
 ,	O
 je	O
 vis	O
@@ -14783,7 +14783,7 @@ vous	O
 
 dit	O
 -	O
-il	O
+il	B-OBJ
 .	O
 
 Et	O
@@ -14851,7 +14851,7 @@ l	O
 instant	O
 dans	O
 votre	O
-pavillon	O
+pavillon	B-OBJ
 .	O
 
 Je	O
@@ -14879,8 +14879,8 @@ j	O
 avais	O
 passé	O
 solidement	O
-mon	O
-bras	O
+mon	B-OBJ
+bras	I-OBJ
 sous	O
 celui	O
 du	O
@@ -14957,7 +14957,7 @@ Nous	O
 étions	O
 arrivés	O
 au	O
-pavillon	O
+pavillon	B-OBJ
 .	O
 
 Je	O
@@ -14981,10 +14981,10 @@ jardin	O
 sur	O
 lequel	O
 les	O
-arbres	O
+arbres	B-OBJ
 étendaient	O
-la	O
-voûte	O
+la	B-OBJ
+voûte	I-OBJ
 de	O
 leurs	O
 feuilles	O
@@ -15008,7 +15008,7 @@ le	O
 regardai	O
 .	O
 
-Il	O
+Il	B-OBJ
 était	O
 très	O
 pâle	O
@@ -15021,8 +15021,8 @@ blanche	O
 et	O
 bouffie	O
 ,	O
-ses	O
-yeux	O
+ses	B-OBJ
+yeux	I-OBJ
 semblaient	O
 deux	O
 trous	O
@@ -15083,8 +15083,8 @@ excessif	O
 .	O
 
 Car	O
-ses	O
-yeux	O
+ses	B-OBJ
+yeux	I-OBJ
 ,	O
 à	O
 lui	O
@@ -15105,7 +15105,7 @@ j	O
 le	O
 bras	O
 vers	O
-lui	O
+lui	B-OBJ
 ,	O
 et	O
 ,	O
@@ -15545,10 +15545,10 @@ Vincent	I-PER
 en	O
 me	O
 désignant	O
-la	O
-porte	O
-du	O
-pavillon	O
+la	B-OBJ
+porte	I-OBJ
+du	I-OBJ
+pavillon	I-OBJ
 .	O
 
 Il	O
@@ -15572,23 +15572,23 @@ nous	O
 trouvâmes	O
 dans	O
 un	O
-cabinet	O
+cabinet	B-OBJ
 dont	O
 les	O
 murs	O
 disparaissaient	O
 sous	O
 des	O
-rayons	O
-de	O
-livres	O
+rayons	B-OBJ
+de	I-OBJ
+livres	I-OBJ
 .	O
 
 Il	O
 me	O
 désigna	O
 un	O
-siège	O
+siège	B-OBJ
 ,	O
 s	O
 '	O
@@ -15675,7 +15675,7 @@ siècle	I-DUR
 aux	O
 pratiques	O
 du	O
-magnétisme	O
+magnétisme	B-OBJ
 .	O
 
 Quels	O
@@ -15740,8 +15740,8 @@ propres	O
 paroles	O
 .	O
 
-Votre	O
-science	O
+Votre	B-OBJ
+science	I-OBJ
 ,	O
 à	O
 vous	O
@@ -15816,10 +15816,10 @@ Vincent	I-PER
 laissa	O
 tomber	O
 sa	O
-tête	O
+tête	B-OBJ
 dans	O
 sa	O
-main	O
+main	B-OBJ
 ,	O
 parut	O
 réfléchir	O
@@ -15870,8 +15870,8 @@ science	O
 ...	O
 
 —	O
-Nulle	O
-science	O
+Nulle	B-OBJ
+science	I-OBJ
 n	O
 '	O
 est	O
@@ -15883,8 +15883,8 @@ il	O
 gravement	O
 .	O
 
-Le	O
-scalpel	O
+Le	B-OBJ
+scalpel	I-OBJ
 aux	O
 mains	O
 du	O
@@ -15915,8 +15915,8 @@ crime	O
 ...	O
 
 —	O
-Votre	O
-science	O
+Votre	B-OBJ
+science	I-OBJ
 ,	O
 à	O
 vous	O
@@ -15936,7 +15936,7 @@ cela	O
 .	O
 
 Entre	O
-elle	O
+elle	B-OBJ
 et	O
 l	O
 '	O
@@ -16238,7 +16238,7 @@ vivant	O
 de	O
 l	O
 '	O
-homme	O
+homme	B-OBJ
 surtout	O
 ,	O
 qui	O
@@ -16309,7 +16309,7 @@ consomme	O
 autant	O
 qu	O
 '	O
-il	O
+il	B-OBJ
 absorbe	O
 .	O
 
@@ -16318,9 +16318,9 @@ C	O
 est	O
 l	O
 '	O
-équilibre	O
-des	O
-forts	O
+équilibre	B-OBJ
+des	I-OBJ
+forts	I-OBJ
 .	O
 
 Dans	O
@@ -16338,7 +16338,7 @@ est	O
 inférieure	O
 à	O
 la	O
-consommation	O
+consommation	B-OBJ
 ,	O
 la	O
 dépense	O
@@ -16421,8 +16421,8 @@ par	O
 exemple	O
 ,	O
 ces	O
-effluves	O
-vitaux	O
+effluves	B-OBJ
+vitaux	I-OBJ
 qui	O
 sont	O
 en	O
@@ -16449,8 +16449,8 @@ une	O
 partie	O
 seule	O
 ,	O
-celle	O
-extérieure	O
+celle	B-OBJ
+extérieure	I-OBJ
 ,	O
 serait	O
 à	O
@@ -16532,8 +16532,8 @@ Henri	I-PER
 Cohausen	I-PER
 dans	O
 son	O
-Hermippus	O
-redivivus	O
+Hermippus	B-OBJ
+redivivus	I-OBJ
 ,	O
 en	O
 absorbant	O
@@ -16696,7 +16696,7 @@ résurrection	O
 ,	O
 si	O
 un	O
-cadavre	O
+cadavre	B-OBJ
 pouvait	O
 se	O
 sentir	O
@@ -16766,9 +16766,9 @@ inassouvie	O
 
 «	O
 
-Par	O
-les	O
-doigts	O
+Par	B-OBJ
+les	I-OBJ
+doigts	I-OBJ
 ,	O
 par	O
 le	O
@@ -16890,7 +16890,7 @@ passes	O
 devaient	O
 exécuter	O
 les	O
-mains	O
+mains	B-OBJ
 ,	O
 quelle	O
 direction	O
@@ -16964,8 +16964,8 @@ enfant	O
 !	O
 
 —	O
-Horrible	O
-vieillard	O
+Horrible	B-OBJ
+vieillard	I-OBJ
 !	O
 m	O
 '	O
@@ -17001,8 +17001,8 @@ il	O
 me	O
 sembla	O
 que	O
-sa	O
-voix	O
+sa	B-OBJ
+voix	I-OBJ
 était	O
 comme	O
 une	O
@@ -17057,8 +17057,8 @@ j	O
 ai	O
 volé	O
 à	O
-cet	O
-enfant	O
+cet	B-OBJ
+enfant	I-OBJ
 ,	O
 et	O
 je	O
@@ -17095,7 +17095,7 @@ deux	O
 nous	O
 remontâmes	O
 le	O
-perron	O
+perron	B-OBJ
 ;	O
 tous	O
 deux	O
@@ -17237,11 +17237,11 @@ miracle	O
 Je	O
 vis	O
 le	O
-corps	O
+corps	B-OBJ
 de	O
 l	O
 '	O
-enfant	O
+enfant	B-OBJ
 osciller	O
 ,	O
 hésiter	O
@@ -17274,7 +17274,7 @@ avançait	O
 lentement	O
 ,	O
 les	O
-mains	O
+mains	B-OBJ
 inertes	O
 en	O
 apparence	O
@@ -17314,10 +17314,10 @@ Enfin	O
 il	O
 posa	O
 sa	O
-main	O
+main	B-OBJ
 sur	O
 le	O
-front	O
+front	B-OBJ
 du	O
 petit	O
 malade	O
@@ -17357,8 +17357,8 @@ même	O
 temps	O
 qu	O
 '	O
-une	O
-lueur	O
+une	B-OBJ
+lueur	I-OBJ
 s	O
 '	O
 allumait	O
@@ -17398,8 +17398,8 @@ avait	O
 volée	O
 .	O
 
-Votre	O
-enfant	O
+Votre	B-OBJ
+enfant	I-OBJ
 est	O
 sauvé	O
 ,	O
@@ -17500,7 +17500,7 @@ là	O
 -	O
 bas	O
 au	O
-pavillon	O
+pavillon	B-OBJ
 .	O
 
 Je	O
@@ -17511,8 +17511,8 @@ mes	O
 bras	O
 .	O
 
-Ce	O
-corps	O
+Ce	B-OBJ
+corps	I-OBJ
 n	O
 '	O
 avait	O
@@ -17526,7 +17526,7 @@ le	O
 déposai	O
 sur	O
 son	O
-lit	O
+lit	B-OBJ
 .	O
 
 Là	O
@@ -17567,7 +17567,7 @@ il	O
 me	O
 confia	O
 des	O
-choses	O
+choses	B-OBJ
 que	O
 jamais	O
 oreille	O
@@ -17583,8 +17583,8 @@ faisaient	O
 frissonner	O
 .	O
 
-Ces	O
-choses	O
+Ces	B-OBJ
+choses	I-OBJ
 ,	O
 je	O
 les	O
