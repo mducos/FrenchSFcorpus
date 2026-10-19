@@ -1,218 +1,171 @@
+import json
 import random
+from collections import Counter
 from pathlib import Path
-from collections import defaultdict, Counter
+import numpy as np
 
-def write_tsv(sentences, path):
+# ----------------------------------------------------------------- config ---
+CORPUS_DIR = Path("data/NerSFcorpus")
+OUT_DIR = Path("src/NER_training_files")
+RATIOS = {"train": 0.8, "dev": 0.1, "test": 0.1}
+SEED = 42
+REMOVED_LABELS = {"B-OBJ": "O", "I-OBJ": "O"}
+HAS_HEADER = False  # passer à True si les .tsv ont une ligne d'en-tête
+BALANCED_LABELS = ["COMM"]   # classes à répartir 80/10/10 (en nb d'entités B-)
+MIN_ENTITIES = {"COMM": 100}               # minimum dans dev ET test
+N_RESTARTS = 30
+N_STEPS = 5000
+# ------------------------------------------------------------------------- #
+
+
+def load_book(path: Path):
+    """Retourne la liste des phrases ; une phrase = liste de (token, label)."""
+    sentences, current = [], []
+    with open(path, encoding="utf-8") as f:
+        lines = f.read().splitlines()
+    if HAS_HEADER:
+        lines = lines[1:]
+    for line in lines:
+        if not line.strip():
+            if current:
+                sentences.append(current)
+                current = []
+            continue
+        cols = line.split("\t")
+        if len(cols) < 2:
+            print(f"[WARN] ligne ignorée dans {path.name} : {line!r}")
+            continue
+        token, label = cols[0], cols[-1].strip()
+        label = REMOVED_LABELS.get(label, label)
+        current.append((token, label))
+    if current:
+        sentences.append(current)
+    return sentences
+
+
+def assign_books(books: dict):
+    """
+    Recherche locale avec redémarrages aléatoires.
+    Objectif : phrases + entités des BALANCED_LABELS au plus près de 80/10/10,
+    avec un minimum d'entités (MIN_ENTITIES) dans dev et test.
+    """
+    titles = sorted(books)
+    split_names = list(RATIOS)                       # train, dev, test
+    ratios = np.array([RATIOS[k] for k in split_names])
+
+    # Matrice livres x features : [phrases, B-<label> pour chaque classe]
+    features = ["sents"] + BALANCED_LABELS
+    M = np.zeros((len(titles), len(features)))
+    for i, t in enumerate(titles):
+        M[i, 0] = len(books[t])
+        c = Counter(l for s in books[t] for _, l in s)
+        for j, lab in enumerate(BALANCED_LABELS, start=1):
+            M[i, j] = c[f"B-{lab}"]
+    totals = M.sum(axis=0)
+
+    def score(a):
+        sums = np.zeros((len(split_names), len(features)))
+        np.add.at(sums, a, M)
+        # écart relatif à la cible pour chaque set et chaque feature
+        dev = (sums / (ratios[:, None] * totals) - 1.0) ** 2
+        s = dev.sum()
+        # pénalité forte si le minimum n'est pas atteint dans dev/test
+        for lab, minimum in MIN_ENTITIES.items():
+            j = features.index(lab)
+            for k in (1, 2):                          # dev, test
+                if sums[k, j] < minimum:
+                    s += 100 + (minimum - sums[k, j])
+        return s
+
+    rng = np.random.default_rng(SEED)
+    best_a, best_s = None, float("inf")
+
+    for _ in range(N_RESTARTS):
+        a = rng.choice(len(split_names), size=len(titles), p=ratios)
+        s = score(a)
+        for _ in range(N_STEPS):
+            b = a.copy()
+            if rng.random() < 0.5:                    # déplacer un livre
+                b[rng.integers(len(titles))] = rng.integers(len(split_names))
+            else:                                     # échanger deux livres
+                i, j = rng.integers(len(titles), size=2)
+                b[i], b[j] = a[j], a[i]
+            sb = score(b)
+            if sb <= s:
+                a, s = b, sb
+        if s < best_s:
+            best_a, best_s = a.copy(), s
+
+    assignment = {k: [] for k in split_names}
+    for t, k in zip(titles, best_a):
+        assignment[split_names[k]].append(t)
+
+    ok = all(
+        sum(M[titles.index(t), features.index(lab)] for t in assignment[k]) >= m
+        for lab, m in MIN_ENTITIES.items() for k in ("dev", "test")
+    )
+    print(f"Meilleur score : {best_s:.4f} | contraintes MIN_ENTITIES respectées : {ok}\n")
+    return assignment    
+
+
+def write_split(path: Path, sentences):
+    path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         for sent in sentences:
-            for line in sent:
-                f.write(line + "\n")
+            for token, label in sent:
+                f.write(f"{token}\t{label}\n")
             f.write("\n")
 
-def get_nov_types(sent):
-    """
-    Récupère l'ensemble des formes de surface NOV présentes dans une phrase
-    (reconstruit les entités B-NOV/I-NOV en une seule chaîne, pas juste le premier token).
-    """
-    nov_spans = set()
-    current = []
-    for line in sent:
-        parts = line.split('\t')
-        if len(parts) < 2:
-            continue
-        token, tag = parts[0], parts[1].strip()
-        if tag == 'B-NOV':
-            if current:
-                nov_spans.add(" ".join(current).lower())
-            current = [token]
-        elif tag == 'I-NOV' and current:
-            current.append(token)
-        else:
-            if current:
-                nov_spans.add(" ".join(current).lower())
-                current = []
-    if current:
-        nov_spans.add(" ".join(current).lower())
-    return nov_spans
 
-def count_entities_per_class(sentences):
-    """
-    Compte le nombre d'entités (spans complets, pas de tokens) par classe
-    dans une liste de phrases, en se basant sur les tags B-<CLASS>.
-    """
-    counts = Counter()
-    for sent in sentences:
-        for line in sent:
-            parts = line.split('\t')
-            if len(parts) < 2:
-                continue
-            tag = parts[1].strip()
-            if tag.startswith('B-'):
-                counts[tag[2:]] += 1
-    return counts
+def main():
+    tsv_files = sorted(CORPUS_DIR.glob("*/*.tsv"))
+    if not tsv_files:
+        raise SystemExit(f"Aucun .tsv trouvé dans {CORPUS_DIR}/[titre]/[titre].tsv")
 
-def print_class_distribution(name, sentences):
-    counts = count_entities_per_class(sentences)
-    total = sum(counts.values())
-    print(f"\nDistribution des entités - {name} ({total} entités au total)")
-    for cls, n in sorted(counts.items(), key=lambda x: -x[1]):
-        pct = 100 * n / total if total else 0
-        print(f"  {cls:6s} : {n:5d} ({pct:.1f}%)")
+    books = {}
+    for p in tsv_files:
+        books[p.parent.name] = load_book(p)
+    print(f"{len(books)} livres chargés, "
+          f"{sum(len(s) for s in books.values())} phrases au total\n")
 
-def oversample_nov(sentences, factor=5):
-    result = []
-    for sent in sentences:
-        has_nov = any(
-            len(line.split('\t')) >= 2 and line.split('\t')[1].strip() == 'B-NOV'
-            for line in sent
-        )
-        if has_nov:
-            result.extend([sent] * factor)
-        else:
-            result.append(sent)
-    return result
+    assignment = assign_books(books)
 
-NER_DIR = Path("data/NerSFcorpus")
+    splits = {k: [s for t in assignment[k] for s in books[t]] for k in RATIOS}
+    label_counts = {k: Counter(l for s in splits[k] for _, l in s) for k in RATIOS}
 
-all_sentences = []
-sentence_to_book = []  # même index que all_sentences : nom du livre (sous-dossier) d'origine
+    # --- écriture
+    for name, sents in splits.items():
+        write_split(OUT_DIR / f"{name}.tsv", sents)
+    #with open(OUT_DIR / "split_books.json", "w", encoding="utf-8") as f:
+    #    json.dump(assignment, f, ensure_ascii=False, indent=2)
 
-for subdir in NER_DIR.iterdir():
-    if not subdir.is_dir():
-        continue
-    for tsv_file in subdir.glob("*.tsv"):
-        with open(tsv_file, "r", encoding="utf-8") as f:
-            lines = f.readlines()
-        phrase = []
-        for line in lines:
-            if line.strip() == "":
-                if phrase:
-                    all_sentences.append(phrase)
-                    sentence_to_book.append(subdir.name)
-                    phrase = []
-            else:
-                phrase.append(line.rstrip("\n"))
-        if phrase:
-            all_sentences.append(phrase)
-            sentence_to_book.append(subdir.name)
+    # --- stats : phrases
+    total_sents = sum(len(s) for s in splits.values())
+    total_tokens = sum(sum(label_counts[k].values()) for k in RATIOS)
+    print("=== Phrases / tokens / livres par set ===")
+    print(f"{'set':<8}{'livres':>8}{'phrases':>12}{'% phrases':>12}{'tokens':>12}{'% tokens':>11}")
+    for k in RATIOS:
+        n_tok = sum(label_counts[k].values())
+        print(f"{k:<8}{len(assignment[k]):>8}{len(splits[k]):>12}"
+              f"{100 * len(splits[k]) / total_sents:>11.2f}%"
+              f"{n_tok:>12}{100 * n_tok / total_tokens:>10.2f}%")
 
-print(f"Phrases après filtrage  : {len(all_sentences)}")
+    # --- stats : labels
+    all_labels = sorted(set().union(*label_counts.values()), key=lambda l: (l == "O", l))
+    print("\n=== Occurrences par label (et part de chaque set pour ce label) ===")
+    header = f"{'label':<10}" + "".join(f"{k:>12}{'%':>8}" for k in RATIOS) + f"{'total':>12}"
+    print(header)
+    for lab in all_labels:
+        tot = sum(label_counts[k][lab] for k in RATIOS)
+        row = f"{lab:<10}"
+        for k in RATIOS:
+            c = label_counts[k][lab]
+            row += f"{c:>12}{100 * c / tot if tot else 0:>7.1f}%"
+        row += f"{tot:>12}"
+        print(row)
 
-random.seed(281)
-# Shuffle conjoint pour garder all_sentences et sentence_to_book alignés
-combined = list(zip(all_sentences, sentence_to_book))
-random.shuffle(combined)
-all_sentences, sentence_to_book = [list(t) for t in zip(*combined)]
+    print(f"\nFichiers écrits dans {OUT_DIR}/ (train.tsv, dev.tsv, test.tsv)")
 
-# --- Étape 1 : regrouper les phrases par livre ET par novum (union-find) ---
-# Deux contraintes de regroupement fusionnées dans le même union-find :
-#   (a) toutes les phrases d'un même livre restent ensemble (contrainte principale demandée)
-#   (b) toutes les phrases partageant un même novum restent ensemble
-#       (utile si un même novum apparaît dans plusieurs livres différents ;
-#        sans cette contrainte, un novum partagé entre deux livres pourrait
-#        quand même se retrouver disjoint... mais comme deux livres ne
-#        peuvent de toute façon plus être séparés par la contrainte (a) si
-#        eux-mêmes partagent une phrase groupée, (b) sert surtout de garde-fou
-#        explicite et de vérification a posteriori)
 
-parent = list(range(len(all_sentences)))
-
-def find(x):
-    while parent[x] != x:
-        parent[x] = parent[parent[x]]
-        x = parent[x]
-    return x
-
-def union(x, y):
-    rx, ry = find(x), find(y)
-    if rx != ry:
-        parent[rx] = ry
-
-# (a) Union par livre : toutes les phrases d'un même livre dans un seul groupe
-book_to_first_idx = {}
-for i, book in enumerate(sentence_to_book):
-    if book not in book_to_first_idx:
-        book_to_first_idx[book] = i
-    else:
-        union(book_to_first_idx[book], i)
-
-# (b) Union par novum partagé (inter ou intra-livre)
-nov_to_sentence_idx = defaultdict(list)
-for i, sent in enumerate(all_sentences):
-    for nov in get_nov_types(sent):
-        nov_to_sentence_idx[nov].append(i)
-
-for nov, idxs in nov_to_sentence_idx.items():
-    for other in idxs[1:]:
-        union(idxs[0], other)
-
-groups = defaultdict(list)
-for i in range(len(all_sentences)):
-    groups[find(i)].append(i)
-
-group_list = list(groups.values())
-random.shuffle(group_list)
-
-# --- Étape 2 : répartir les GROUPES (livres + novums fusionnés) en 80/10/10 ---
-n_total = len(all_sentences)
-target_train, target_dev = 0.8 * n_total, 0.1 * n_total
-
-train_idx, dev_idx, test_idx = [], [], []
-train_count = dev_count = 0
-
-for group in group_list:
-    if train_count < target_train:
-        train_idx.extend(group)
-        train_count += len(group)
-    elif dev_count < target_dev:
-        dev_idx.extend(group)
-        dev_count += len(group)
-    else:
-        test_idx.extend(group)
-
-train_sents = [all_sentences[i] for i in train_idx]
-dev_sents = [all_sentences[i] for i in dev_idx]
-test_sents = [all_sentences[i] for i in test_idx]
-
-train_books = {sentence_to_book[i] for i in train_idx}
-dev_books = {sentence_to_book[i] for i in dev_idx}
-test_books = {sentence_to_book[i] for i in test_idx}
-
-print(f"Total number of sentences: {n_total}")
-print(f"Train : {len(train_sents)} sentences, {len(train_books)} livres")
-print(f"Dev   : {len(dev_sents)} sentences, {len(dev_books)} livres")
-print(f"Test  : {len(test_sents)} sentences, {len(test_books)} livres")
-
-# --- Vérification de la disjonction des livres (attendu : ensembles vides) ---
-print(f"Livres en commun train/dev   : {train_books & dev_books}")
-print(f"Livres en commun train/test  : {train_books & test_books}")
-print(f"Livres en commun dev/test    : {dev_books & test_books}")
-
-# --- Vérification de la disjonction NOV ---
-train_nov = set().union(*[get_nov_types(s) for s in train_sents]) if train_sents else set()
-dev_nov = set().union(*[get_nov_types(s) for s in dev_sents]) if dev_sents else set()
-test_nov = set().union(*[get_nov_types(s) for s in test_sents]) if test_sents else set()
-
-print(f"NOV en commun train/dev   : {train_nov & dev_nov}")
-print(f"NOV en commun train/test  : {train_nov & test_nov}")
-print(f"NOV en commun dev/test    : {dev_nov & test_nov}")
-
-# --- Distribution des classes par set (avant oversampling) ---
-print_class_distribution("Train (avant oversampling)", train_sents)
-print_class_distribution("Dev", dev_sents)
-print_class_distribution("Test", test_sents)
-
-# --- Oversampling (uniquement sur train, après split) ---
-train_oversampled = oversample_nov(train_sents, factor=10)
-print(f"\nTrain before oversampling : {len(train_sents)} sentences")
-print(f"Train after oversampling  : {len(train_oversampled)} sentences")
-
-# --- Distribution des classes dans train après oversampling ---
-print_class_distribution("Train (après oversampling)", train_oversampled)
-
-output_dir = Path("src/NER_training_files")
-output_dir.mkdir(parents=True, exist_ok=True)
-
-write_tsv(train_oversampled, output_dir / "train.tsv")
-write_tsv(dev_sents, output_dir / "dev.tsv")
-write_tsv(test_sents, output_dir / "test.tsv")
+if __name__ == "__main__":
+    main()

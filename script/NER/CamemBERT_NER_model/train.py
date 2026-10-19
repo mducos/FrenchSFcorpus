@@ -7,7 +7,9 @@ from transformers import (
     AutoModelForTokenClassification,
     TrainingArguments,
     Trainer,
-    DataCollatorForTokenClassification
+    DataCollatorForTokenClassification,
+    set_seed,
+    EarlyStoppingCallback
 )
 from seqeval.metrics import (
     classification_report,
@@ -16,84 +18,9 @@ from seqeval.metrics import (
     recall_score,
     accuracy_score
 )
+from seqeval.scheme import IOB2
 import numpy as np
-import torch.nn as nn
 
-class WeightedTrainer(Trainer):
-
-    def __init__(self, class_weights=None, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.class_weights = class_weights
-
-    def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
-        labels = inputs.pop("labels")
-        outputs = model(**inputs)
-        logits = outputs.logits
-
-        # Loss avec poids de classes
-        if self.class_weights is not None:
-            loss_fct = nn.CrossEntropyLoss(
-                weight=self.class_weights.to(logits.device),
-                ignore_index=-100
-            )
-            loss = loss_fct(logits.view(-1, self.model.config.num_labels), labels.view(-1))
-        else:
-            loss = outputs.loss
-
-        return (loss, outputs) if return_outputs else loss
-
-class FocalLoss(torch.nn.Module):
-
-    def __init__(self, alpha=None, gamma=2.0, ignore_index=-100):
-        super().__init__()
-        self.alpha = alpha
-        self.gamma = gamma
-        self.ignore_index = ignore_index
-
-    def forward(self, logits, targets):
-        log_probs = nn.functional.log_softmax(logits, dim=-1)
-        probs = torch.exp(log_probs)
-
-        targets = targets.view(-1)
-        mask = targets != self.ignore_index
-
-        logits = logits[mask]
-        targets = targets[mask]
-        log_probs = log_probs[mask]
-        probs = probs[mask]
-
-        target_log_probs = log_probs.gather(1, targets.unsqueeze(1)).squeeze(1)
-        target_probs = probs.gather(1, targets.unsqueeze(1)).squeeze(1)
-
-        if self.alpha is not None:
-            alpha_t = self.alpha[targets]
-        else:
-            alpha_t = 1.0
-
-        loss = -alpha_t * (1-target_probs)**self.gamma*target_log_probs
-        return loss.mean()
-
-class FocalTrainer(Trainer):
-
-    def __init__(self, *args, alpha=None, gamma=2.0, **kwargs):
-        super().__init__(*args,**kwargs)
-        self.focal_loss = FocalLoss(
-                alpha = alpha.to(self.model.device) if alpha is not None else None,
-                gamma = gamma)
-
-    def compute_loss(self, model, inputs, num_items_in_batch=None,return_outputs=False):
-        labels=inputs.pop("labels")
-        outputs = model(**inputs)
-        logits = outputs.logits
-
-        loss = self.focal_loss(
-                logits.view(-1, logits.size(-1)),
-                labels.view(-1))
-
-        return (loss, outputs) if return_outputs else loss
-
-alpha = torch.tensor([20,40,480,150,10,15,65,440,90,15,1], dtype=torch.float)
-gamma = 2.15
 
 def read_tsv_file(file_path: Path) -> List[Tuple[List[str], List[str]]]:
     """
@@ -161,7 +88,7 @@ def tokenize_and_align_labels(examples, tokenizer, label2id):
         truncation=True,
         is_split_into_words=True,
         padding=False,
-        max_length=64
+        max_length=128
     )
 
     labels = []
@@ -176,6 +103,8 @@ def tokenize_and_align_labels(examples, tokenizer, label2id):
                 label_ids.append(-100)
             elif word_idx != previous_word_idx:
                 label_ids.append(label[word_idx])
+            else:
+                label_ids.append(-100)
 
             previous_word_idx = word_idx
 
@@ -205,12 +134,22 @@ def compute_metrics(eval_pred, id2label):
             true_labels.append(true_label)
             true_predictions.append(true_prediction)
 
+    report = classification_report(
+        true_labels, true_predictions, output_dict=True, zero_division=0, mode="strict", scheme=IOB2
+    )
+
     results = {
         'precision': precision_score(true_labels, true_predictions),
         'recall': recall_score(true_labels, true_predictions),
         'f1': f1_score(true_labels, true_predictions),
+        'macro_f1': report['macro avg']['f1-score'],
         'accuracy': accuracy_score(true_labels, true_predictions),
     }
+
+    # F1 par classe 
+    for ent, scores in report.items():
+        if ent not in ('micro avg', 'macro avg', 'weighted avg'):
+            results[f'f1_{ent}'] = scores['f1-score']
 
     return results
 
@@ -239,9 +178,11 @@ def evaluate_and_print_results(trainer, dataset, id2label):
             true_predictions.append(true_prediction)
 
     # Classification report détaillé
-    print(classification_report(true_labels, true_predictions, digits=4))
+    print(classification_report(true_labels, true_predictions, digits=4, mode="strict", scheme=IOB2))
 
 def main():
+
+    set_seed(42)
 
     print(f"GPU available: {torch.cuda.is_available()}")
 
@@ -289,29 +230,27 @@ def main():
         output_dir="src/SF_NER",
         eval_strategy="epoch",
         save_strategy="epoch",
-        learning_rate=3e-5,
-        per_device_train_batch_size=32,
-        per_device_eval_batch_size=32,
-        num_train_epochs=20,
+        learning_rate=2e-5,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
+        num_train_epochs=5,
         warmup_ratio=0,
-        weight_decay=0.01,
-        logging_dir='./logs',
-        logging_steps=10000,
+        weight_decay=0,
+        logging_steps=100_000,
         load_best_model_at_end=True,
-        metric_for_best_model="eval_f1",
+        metric_for_best_model="eval_macro_f1",
         save_total_limit=1,
         fp16=torch.cuda.is_available(),
     )
 
-    trainer = FocalTrainer(
+    trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=tokenized_train,
         eval_dataset=tokenized_dev,
         data_collator=data_collator,
-        alpha=alpha,
-        gamma=gamma,
         compute_metrics=lambda x: compute_metrics(x, id2label),
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=3)],
     )
 
     trainer.train()
