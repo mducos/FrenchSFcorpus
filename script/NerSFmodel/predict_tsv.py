@@ -5,10 +5,6 @@ from pathlib import Path
 from typing import List, Tuple
 from seqeval.metrics import (
     classification_report,
-    f1_score,
-    precision_score,
-    recall_score,
-    accuracy_score
 )
 from datasets import Dataset
 import numpy as np
@@ -25,37 +21,42 @@ def read_tsv_file(file_path: Path) -> List[Tuple[List[str], List[str]]]:
     current_tokens = []
     current_tags = []
 
-    with open(file_path, 'r', encoding='utf-8') as f:
+    with open(file_path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
 
-            if not line:  # Empty line = end of sentence
+            if not line:
                 if current_tokens:
                     sentences.append((current_tokens, current_tags))
                     current_tokens = []
                     current_tags = []
             else:
-                parts = line.split('\t')
+                parts = line.split("\t")
                 if len(parts) == 2:
                     token, tag = parts
+                    tag = tag.strip()
+
+                    if tag in ("B-OBJ", "I-OBJ"):
+                        tag = "O"
+
                     current_tokens.append(token)
-                    current_tags.append(tag.strip())
+                    current_tags.append(tag)
 
         if current_tokens:
             sentences.append((current_tokens, current_tags))
 
     return sentences
 
-model_checkpoint = AutoModelForTokenClassification.from_pretrained("src/SF_NER_final_model")
-tokenizer_checkpoint = AutoTokenizer.from_pretrained("src/SF_NER_final_model")
+model = AutoModelForTokenClassification.from_pretrained("MathildeDucos/NerSFmodel")
+tokenizer = AutoTokenizer.from_pretrained("MathildeDucos/NerSFmodel")
 
-label2id = model_checkpoint.config.label2id
-id2label = model_checkpoint.config.id2label
+label2id = model.config.label2id
+id2label = model.config.id2label
 
 # to reproduce the results on the test set
-test_sentences = read_tsv_file(Path("src/NER_training_files/test_old.tsv"))
+#test_sentences = read_tsv_file(Path("src/NER_training_files/test_old.tsv"))
 # to compare the results with a book
-#test_sentences = read_tsv_file(Path("data/NerSFcorpus/Capus_LHommeBicycle_1893/Capus_LHommeBicycle_1893.tsv"))
+test_sentences = read_tsv_file(Path("data/NerSFcorpus/Capus_LHommeBicycle_1893/Capus_LHommeBicycle_1893.tsv"))
 test_dataset = prepare_dataset(test_sentences, label2id)
 
 def tokenize_and_align_labels(examples, tokenizer, label2id):
@@ -74,10 +75,11 @@ def tokenize_and_align_labels(examples, tokenizer, label2id):
 
         for word_idx in word_ids:
             if word_idx is None:
+                # special token (CLS, SEP, PAD)
                 label_ids.append(-100)
             elif word_idx != previous_word_idx:
                 label_ids.append(label[word_idx])
-            else: 
+            else:
                 label_ids.append(-100)
 
             previous_word_idx = word_idx
@@ -87,10 +89,10 @@ def tokenize_and_align_labels(examples, tokenizer, label2id):
     tokenized_inputs["labels"] = labels
     return tokenized_inputs
 
-tokenize_fn = lambda x: tokenize_and_align_labels(x, tokenizer_checkpoint, label2id)
+tokenize_fn = lambda x: tokenize_and_align_labels(x, tokenizer, label2id)
 tokenized_test = test_dataset.map(tokenize_fn, batched=True, remove_columns=test_dataset.column_names)
 
-data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer_checkpoint)
+data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
 
 args = TrainingArguments(
     output_dir="./tmp",
@@ -99,7 +101,7 @@ args = TrainingArguments(
 )
 
 trainer = Trainer(
-    model=model_checkpoint,
+    model=model,
     args=args,
     data_collator=data_collator,
 )
@@ -121,10 +123,4 @@ for pred_seq, label_seq in zip(preds, labels):
         true_labels.append(tl)
         true_preds.append(tp)
 
-"""
-for l, p in zip(true_labels, true_preds):
-    print(l)
-    print(p)
-    print("-----")
-"""
 print(classification_report(true_labels, true_preds, digits=4))

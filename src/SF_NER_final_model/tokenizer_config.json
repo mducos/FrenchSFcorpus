@@ -1,15 +1,79 @@
 {
-  "add_prefix_space": true,
-  "backend": "tokenizers",
-  "bos_token": "<s>",
-  "cls_token": "<s>",
-  "eos_token": "</s>",
-  "extra_special_tokens": [
+  "added_tokens_decoder": {
+    "0": {
+      "content": "<s>NOTUSED",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "1": {
+      "content": "<pad>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "2": {
+      "content": "</s>NOTUSED",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "4": {
+      "content": "<unk>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "5": {
+      "content": "<s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "6": {
+      "content": "</s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32004": {
+      "content": "<mask>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32005": {
+      "content": "<unk>NOTUSED",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "additional_special_tokens": [
     "<s>NOTUSED",
     "</s>NOTUSED",
     "<unk>NOTUSED"
   ],
-  "is_local": false,
+  "bos_token": "<s>",
+  "clean_up_tokenization_spaces": false,
+  "cls_token": "<s>",
+  "eos_token": "</s>",
   "mask_token": "<mask>",
   "model_max_length": 512,
   "pad_token": "<pad>",
