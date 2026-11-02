@@ -75,7 +75,6 @@ def tokenize_and_align_labels(examples, tokenizer, label2id):
 
         for word_idx in word_ids:
             if word_idx is None:
-                # special token (CLS, SEP, PAD)
                 label_ids.append(-100)
             elif word_idx != previous_word_idx:
                 label_ids.append(label[word_idx])
