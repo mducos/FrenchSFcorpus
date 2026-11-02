@@ -10,7 +10,6 @@ FrenchSFcorpus/
 ├── data/
 │   ├── NerSFcorpus/
 │   │   ├── About_LeCasDeMGuerin_1862/
-│   │   │   ├── About_LeCasDeMGuerin_1862.ann
 │   │   │   └── About_LeCasDeMGuerin_1862.tsv
 │   │   │
 │   │   ├── About_LeNezDUnNotaire_1862/
@@ -33,23 +32,25 @@ FrenchSFcorpus/
 │   │   │   └── ...
 │
 ├── script/
-│   ├── NER/
-│   │   ├── CamemBERT_NER_model/
-│   │   │   ├── train.py
-│   │   │   └── predict_tsv.py
-│   │   ├── LLM/
-│   │   │   ├── predict_mistral.py
-│   │   │   ├── evaluate_mistral.py
-│   │   │   ├── predict_universalNER.py
-│   │   │   └── evaluate_universalNER.py
-│   ├── annotate.py
-│   └── build_dataset.py
+│   ├── NerSFmodel/
+│   │   ├── train.py
+│   │   ├── predict_tsv.py
+│   │   ├── annotate.py
+│   │   └── build_dataset.py
+│
+│   ├── NOV_annotations/
+│   │   ├── distribution_pos.py
+│   │   ├── distribution_types.py
+│   │   └── txt2ann_tsv.py
 │
 ├── src/
-│   ├── SF_NER_final_model/
 │   ├── NER_training_files/
+│   │   ├── train.tsv
+│   │   ├── dev.tsv
+│   │   └── test.tsv
 │   ├── title2novum.json
-│   └── metadata.csv
+│   ├── metadata.csv
+│   └── metadata_complete.json
 
 ```
 
@@ -81,17 +82,15 @@ In `NovSFcorpus`,
 
 In `NerSFcorpus`, 
 
-* `author_title_date.tsv`: tabular version of the text with NER (and novum) annotations 
+* `author_title_date.tsv`: tabular version of the text with NER annotations 
 
-* `author_title_date.ann`: annotation file (BRAT format) of entities and novum
-
-All metadata is grouped together in the file `src/metadata.csv` in the format `author,title,date_publication,nb_tokens`.
+All metadata is grouped together in the file `src/metadata.csv` and `src/metadata_complete.json`.
 
 ## Script folder
 
 The `script/` folder contains:
 
-* `NER/`: folder for the named entity and novum recognition
+* `NerSFmodel`: folder for the named entity and novum recognition
 
 * `NOV_annotations/`: folder to automatically novum annotation
 
@@ -99,9 +98,7 @@ The `script/` folder contains:
 
 The `src/` folder contains:
 
-* `NER_training_files`: set of files to train the NER model (train, dev, set, results from Mistral and UniversalNER zero- and few-shot)
-
-* `SF_NER_final_model/`: trained model with the best hyperparameters
+* `NER_training_files`: set of files to train the NER model (train, dev, set)
 
 * `title2novum.json`: dictionary linking story titles to the novum they contain
 
