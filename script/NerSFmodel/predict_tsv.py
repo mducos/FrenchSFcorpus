@@ -1,11 +1,8 @@
-from transformers import Trainer, TrainingArguments, DataCollatorForTokenClassification
-from transformers import AutoTokenizer, AutoModelForTokenClassification
+from transformers import Trainer, TrainingArguments, DataCollatorForTokenClassification, AutoTokenizer, AutoModelForTokenClassification
 import torch
 from pathlib import Path
 from typing import List, Tuple
-from seqeval.metrics import (
-    classification_report,
-)
+from seqeval.metrics import classification_report
 from datasets import Dataset
 import numpy as np
 
@@ -54,9 +51,9 @@ label2id = model.config.label2id
 id2label = model.config.id2label
 
 # to reproduce the results on the test set
-#test_sentences = read_tsv_file(Path("src/NER_training_files/test_old.tsv"))
+test_sentences = read_tsv_file(Path("src/NER_training_files/test.tsv"))
 # to compare the results with a book
-test_sentences = read_tsv_file(Path("data/NerSFcorpus/Capus_LHommeBicycle_1893/Capus_LHommeBicycle_1893.tsv"))
+#test_sentences = read_tsv_file(Path("data/NerSFcorpus/Capus_LHommeBicycle_1893/Capus_LHommeBicycle_1893.tsv"))
 test_dataset = prepare_dataset(test_sentences, label2id)
 
 def tokenize_and_align_labels(examples, tokenizer, label2id):
