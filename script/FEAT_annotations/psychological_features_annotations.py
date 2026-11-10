@@ -47,49 +47,74 @@ def load_gazetteer(path):
 # 2. ANNOTATION DES FICHIERS TSV
 # ============================================================
 
+
 def annotate_tsv(input_path, output_path, gazetteer_lemmas):
 
-    # Lecture du TSV
+    # Lecture du TSV en conservant les lignes vides
     rows = []
 
     with open(input_path, "r", encoding="utf-8") as f:
         reader = csv.reader(f, delimiter="\t")
+
         for row in reader:
-            if len(row) < 2:
+
+            # Conservation des lignes vides (fins de phrases)
+            if not row or len(row) < 2:
+                rows.append(None)
                 continue
 
             token = row[0]
             ner = row[1] if "PER" in row[1] else "O"
-            coref = row[2]
+            coref = row[2] if len(row) > 2 else "O"
+
             rows.append((token, ner, coref))
 
-    # Lemmatisation des tokens
-    tokens = [row[0] for row in rows]
+    # Lemmatisation uniquement des lignes contenant des tokens
+    valid_rows = [row for row in rows if row is not None]
+    tokens = [row[0] for row in valid_rows]
 
     docs = list(nlp.pipe(tokens, batch_size=1000))
 
+    # Préparation des annotations
+    annotated_rows = []
+
+    for (token, ner, coref), doc in zip(valid_rows, docs):
+
+        lemma = doc[0].lemma_.lower() if len(doc) > 0 else token.lower()
+        pos = doc[0].pos_ if len(doc) > 0 else "X"
+
+        label = (
+            "PSY_FEAT"
+            if lemma in gazetteer_lemmas and pos == "ADJ"
+            else "O"
+        )
+
+        annotated_rows.append([
+            token,
+            lemma,
+            pos,
+            ner,
+            coref,
+            label
+        ])
+
+    # Écriture en conservant exactement les positions des lignes vides
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     with open(output_path, "w", encoding="utf-8", newline="") as f:
-        writer = csv.writer(f, delimiter="\t")
 
-        for (token, ner, coref), doc in zip(rows, docs):
+        writer = csv.writer(f, delimiter="\t", lineterminator="\n")
 
-            # Lemme du token
-            lemma = doc[0].lemma_.lower() if len(doc) > 0 else token.lower()
-            pos = doc[0].pos_ if len(doc) > 0 else "X"
+        annotated_idx = 0
 
-            # Annotation PSY_FEAT si le lemme est dans le gazetteer
-            label = "PSY_FEAT" if lemma in gazetteer_lemmas and pos == "ADJ" else "O"
+        for row in rows:
 
-            writer.writerow([
-                token,
-                lemma,
-                pos,
-                ner,
-                coref,
-                label
-            ])
+            if row is None:
+                f.write("\n")
+            else:
+                writer.writerow(annotated_rows[annotated_idx])
+                annotated_idx += 1
+
 
 
 # ============================================================

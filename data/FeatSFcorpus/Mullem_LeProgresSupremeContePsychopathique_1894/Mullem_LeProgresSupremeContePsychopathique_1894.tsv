@@ -1,6 +1,7 @@
 AVANT	avant	ADP	O	{0}	O
 -	-	PUNCT	O	-	O
 PROPOS	propo	ADJ	O	{1}	O
+
 La	le	DET	O	-	O
 matinée	matinée	NOUN	O	{2}	O
 de	de	ADP	O	-	O
@@ -43,6 +44,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 argent	argent	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{5}	O
 reste	reste	VERB	O	-	O
 du	de	ADP	O	-	O
@@ -55,6 +57,7 @@ des	un	DET	O	-	O
 plus	plus	ADV	O	-	O
 simples	simple	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 se	se	PRON	O	-	O
 composait	composer	VERB	O	-	O
@@ -81,6 +84,7 @@ de	de	ADP	O	-	O
 faux	faux	ADJ	O	-	PSY_FEAT
 acajou	acajou	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Par	par	ADP	O	-	O
 -	-	PUNCT	O	-	O
 ci	ci	PRON	O	-	O
@@ -93,6 +97,7 @@ objets	objet	NOUN	O	-	O
 de	de	ADP	O	-	O
 toilette	toilette	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Un	un	DET	O	-	O
 tel	tel	ADJ	O	-	O
 aspect	aspect	NOUN	O	-	O
@@ -152,6 +157,7 @@ cravaté	cravater	PROPN	O	-	O
 de	de	ADP	O	-	O
 blanc	blanc	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Peu	peu	ADV	O	-	O
 de	de	ADP	O	-	O
 paroles	parole	NOUN	O	-	O
@@ -175,6 +181,7 @@ doute	doute	NOUN	O	-	O
 préalablement	préalablement	ADV	O	-	O
 déterminé	déterminer	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Après	après	ADP	O	-	O
 quelques	quelque	DET	O	-	O
 mots	mot	NOUN	O	-	O
@@ -225,6 +232,7 @@ déjà	déjà	ADV	O	-	O
 de	de	ADP	O	-	O
 paperasses	paperasse	NOUN	O	{12}	O
 .	.	PUNCT	O	-	O
+
 Très	très	ADV	O	-	O
 long	long	ADJ	O	-	O
 et	et	CCONJ	O	-	O
@@ -283,6 +291,7 @@ reclassait	reclasser	VERB	O	-	O
 les	le	DET	O	-	O
 feuillets	feuillet	NOUN	O	{13}	O
 .	.	PUNCT	O	-	O
+
 La	le	DET	B-PER	{14}	O
 femme	femme	NOUN	I-PER	-	O
 du	de	ADP	I-PER	-	O
@@ -341,6 +350,7 @@ aisance	aisance	NOUN	O	-	O
 lentement	lentement	ADV	O	-	O
 ruinée	ruiner	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Elle	lui	PRON	O	-	O
 profilait	profiler	VERB	O	-	O
 vers	vers	ADP	O	-	O
@@ -365,6 +375,7 @@ appuyée	appuyer	VERB	O	-	O
 de	de	ADP	O	-	O
 raisonnement	raisonnement	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Quant	quant	ADV	O	-	O
 au	au	ADP	O	-	O
 jeune	jeune	ADJ	O	-	PSY_FEAT
@@ -419,6 +430,7 @@ teneur	teneur	NOUN	O	-	O
 du	de	ADP	O	-	O
 manuscrit	manuscrit	NOUN	O	{16}	O
 .	.	PUNCT	O	-	O
+
 Enfin	enfin	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 le	le	DET	B-PER	{11}	O
@@ -481,11 +493,13 @@ et	et	CCONJ	O	-	O
 muette	muet	ADJ	O	-	PSY_FEAT
 attention	attention	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 DÉBUT	début	NOUN	O	-	O
 DE	de	ADP	O	-	O
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 ŒUVRE	œuvre	NOUN	O	-	O
+
 «	«	PUNCT	O	-	O
 Les	le	DET	O	-	O
 parties	party	NOUN	O	-	O
@@ -528,6 +542,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 irréel	irréel	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -580,6 +595,7 @@ très	très	ADV	O	-	O
 bref	bref	ADV	O	-	O
 extrait	extraire	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 se	se	PRON	O	-	O
 répandait	répandre	VERB	O	-	O
@@ -624,6 +640,7 @@ l	l	DET	O	-	O
 des	un	DET	O	-	O
 espaces	espace	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Aussi	aussi	ADV	O	-	O
 ressentaient	ressentir	VERB	O	-	O
 -	-	PUNCT	O	-	O
@@ -651,6 +668,7 @@ de	de	ADP	O	-	O
 leurs	leur	DET	O	-	O
 réflexions	réflexion	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Patient	patient	NOUN	O	-	O
 comme	comme	ADP	O	-	O
 le	le	DET	O	-	O
@@ -676,6 +694,7 @@ ancien	ancien	ADJ	O	{21}	O
 globe	globe	PROPN	O	-	O
 terrestre	terrestre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 La	le	DET	O	{22}	O
 Dame	dame	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -712,6 +731,7 @@ volatilisation	volatilisation	NOUN	O	-	O
 toute	tout	DET	O	-	O
 légère	léger	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 De	de	ADP	O	-	O
 même	même	ADV	O	-	O
 les	le	DET	O	{23}	O
@@ -733,6 +753,7 @@ de	de	ADP	O	-	O
 la	le	DET	O	-	O
 terre	terre	NOUN	O	{24}	O
 .	.	PUNCT	O	-	O
+
 Cet	ce	DET	O	-	O
 épisode	épisode	NOUN	O	-	O
 se	se	PRON	O	-	O
@@ -781,6 +802,7 @@ l	l	DET	O	-	O
 exclusivement	exclusivement	ADV	O	-	O
 fluidique	fluidique	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 Monsieur	monsieur	NOUN	O	-	O
 et	et	CCONJ	O	-	O
@@ -825,6 +847,7 @@ des	un	DET	O	-	O
 problèmes	problème	NOUN	O	-	O
 intellectuels	intellectuel	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Notons	noter	VERB	O	-	O
 aussi	aussi	ADV	O	-	O
 que	que	SCONJ	O	-	O
@@ -848,6 +871,7 @@ durant	durer	ADP	O	-	O
 cette	ce	DET	O	-	O
 conversation	conversation	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 De	de	ADP	O	-	O
 là	là	ADV	O	-	O
 résulte	résulter	VERB	O	-	O
@@ -893,6 +917,7 @@ s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
 appliquent	appliquer	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Notre	notre	DET	O	-	O
 humaine	humain	ADJ	O	-	PSY_FEAT
 faculté	faculté	NOUN	O	-	O
@@ -933,6 +958,7 @@ ci	ci	PRON	O	-	O
 -	-	PUNCT	O	-	O
 après	après	ADP	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
@@ -1001,6 +1027,7 @@ cultive	cultiver	VERB	O	-	O
 le	le	DET	O	-	O
 Monsieur	monsieur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Une	un	DET	O	-	O
 heureuse	heureux	ADJ	O	-	PSY_FEAT
 harmonie	harmonie	NOUN	O	-	O
@@ -1029,6 +1056,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 accord	accord	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 même	même	ADV	O	-	O
 chez	chez	ADP	O	-	O
@@ -1073,6 +1101,7 @@ que	que	SCONJ	O	-	O
 de	de	ADP	O	-	O
 persuasion	persuasion	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 duo	duo	NOUN	O	-	O
 de	de	ADP	O	-	O
@@ -1107,6 +1136,7 @@ etc.	etc.	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 etc	etc	CCONJ	O	-	O
 .	.	PUNCT	O	-	O
+
 La	le	DET	B-PER	{27}	O
 Dame	dame	NOUN	I-PER	-	O
 penche	pencher	VERB	O	-	O
@@ -1122,6 +1152,7 @@ mieux	mieux	ADV	O	-	O
 son	son	DET	O	-	O
 imagination	imagination	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 De	de	ADP	O	-	O
 son	son	DET	O	-	O
 côté	côté	NOUN	O	-	O
@@ -1136,6 +1167,7 @@ un	un	DET	O	-	O
 sot	sot	ADJ	O	-	O
 absolutisme	absolutisme	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 il	il	PRON	O	-	O
 s	s	PRON	O	-	O
@@ -1173,6 +1205,7 @@ toujours	toujours	ADV	O	-	O
 avec	avec	ADP	O	-	O
 précision	précision	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Bientôt	bientôt	ADV	O	{29}	O
 il	il	PRON	O	-	O
 s	s	PRON	O	-	O
@@ -1233,9 +1266,11 @@ sa	son	DET	O	-	O
 complète	complet	ADJ	O	-	O
 vaporisation	vaporisation	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Alors	alors	ADV	O	-	O
 ELLE	elle	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Hi	hi	NOUN	O	-	O
 !	!	PUNCT	O	-	O
@@ -1247,15 +1282,18 @@ hi	hi	NOUN	O	-	O
 !	!	PUNCT	O	-	O
 hi	hi	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 LUI	lui	PROPN	O	{11}	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Vous	vous	PRON	O	-	O
 riez	rire	DET	O	-	O
 toujours	toujours	ADV	O	-	O
 !	!	PUNCT	O	-	O
 ...	...	PUNCT	O	-	O
+
 Cela	celer	PRON	O	-	O
 me	me	PRON	O	-	O
 déplaît	déplaire	VERB	O	-	O
@@ -1287,8 +1325,10 @@ moi	moi	PRON	O	-	O
 -	-	PUNCT	O	-	O
 même	même	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 ELLE	elle	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Il	il	PRON	O	-	O
 y	y	PRON	O	-	O
@@ -1303,6 +1343,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 autre	autre	ADJ	O	-	O
 ...	...	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -1321,6 +1362,7 @@ entre	entrer	ADP	O	-	O
 deux	deux	NUM	O	-	O
 extrêmes	extrême	ADJ	O	-	PSY_FEAT
 ...	...	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 ris	ris	PROPN	O	-	O
 parce	parce	SCONJ	O	-	O
@@ -1346,8 +1388,10 @@ de	de	ADP	O	-	O
 leur	son	DET	O	-	O
 authenticité	authenticité	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 LUI	lui	PROPN	O	{11}	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Ne	ne	ADV	O	-	O
 reconnaîtrez	reconnaître	VERB	O	-	O
@@ -1364,6 +1408,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 investigation	investigation	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Certes	certes	ADV	O	-	O
 !	!	PUNCT	O	-	O
 voilà	voilà	VERB	O	-	O
@@ -1372,6 +1417,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 entêtement	entêtement	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 Ne	ne	ADV	O	-	O
 possédons	posséder	VERB	O	-	O
 -	-	PUNCT	O	-	O
@@ -1397,6 +1443,7 @@ précédente	précédent	ADJ	O	-	O
 a	avoir	AUX	O	-	O
 vécu	vivre	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 Ne	ne	ADV	O	-	O
 vous	vous	PRON	O	-	O
 est	être	AUX	O	-	O
@@ -1435,6 +1482,7 @@ exactes	exact	ADJ	O	-	PSY_FEAT
 figures	figure	NOUN	O	{31}	O
 synthétiques	synthétique	ADJ	O	-	O
 ?	?	PUNCT	O	-	O
+
 N	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -1491,6 +1539,7 @@ sur	sur	ADP	O	-	O
 sa	son	DET	O	-	O
 route	route	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Qu	que	PRON	O	-	O
 '	'	PUNCT	O	-	O
 importe	importer	VERB	O	-	O
@@ -1509,6 +1558,7 @@ subsistants	subsistant	NOUN	O	-	O
 ou	ou	CCONJ	O	-	O
 défunts	défunt	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 spectacle	spectacle	NOUN	O	-	O
 des	un	DET	O	-	O
@@ -1535,6 +1585,7 @@ de	de	ADP	O	-	O
 la	le	DET	O	-	O
 clarté	clarté	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Notre	notre	DET	O	{24}	O
 globe	globe	PROPN	O	-	O
 natal	natal	ADJ	O	-	O
@@ -1576,6 +1627,7 @@ l	l	DET	O	-	O
 ensemble	ensemble	NOUN	O	-	O
 cosmogonique	cosmogonique	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	-	O
 vivants	vivant	ADJ	O	-	O
 de	de	ADP	O	-	O
@@ -1613,6 +1665,7 @@ discerner	discerner	VERB	O	-	O
 les	le	DET	O	-	O
 particularités	particularité	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 leur	son	DET	O	-	O
 manquait	manquer	VERB	O	-	O
@@ -1646,6 +1699,7 @@ de	de	ADP	O	-	O
 ses	son	DET	O	-	O
 vibrations	vibration	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Laissons	laisser	VERB	O	-	O
 donc	donc	ADV	O	-	O
 là	là	ADV	O	-	O
@@ -1682,6 +1736,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 infini	infini	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Voici	voici	VERB	O	-	O
 quelques	quelque	DET	O	-	O
 centaines	centaine	NOUN	O	-	O
@@ -1703,6 +1758,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 univers	univers	NOUN	O	{36}	O
 .	.	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 ne	ne	ADV	O	-	O
 soutiendrez	soutenir	VERB	O	-	O
@@ -1733,6 +1789,7 @@ de	de	ADP	O	-	O
 simples	simple	ADJ	O	-	PSY_FEAT
 chimères	chimère	NOUN	O	{39}	O
 ?	?	PUNCT	O	-	O
+
 Examinez	examinez	PROPN	O	-	O
 ,	,	PUNCT	O	-	O
 par	par	ADP	O	-	O
@@ -1753,6 +1810,7 @@ d	d	ADP	O	-	O
 effigies	effigie	NOUN	O	-	O
 planétaires	planétaire	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Ce	ce	PRON	O	{24}	O
 modeste	modeste	ADJ	O	-	PSY_FEAT
 sphéroïde	sphéroïd	ADJ	O	-	O
@@ -1771,6 +1829,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 autrefois	autrefois	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{40}	O
 Monsieur	monsieur	NOUN	O	-	O
 venait	venir	VERB	O	-	O
@@ -1803,6 +1862,7 @@ une	un	DET	O	-	O
 notable	notable	ADJ	O	-	O
 dilatation	dilatation	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 eût	avoir	AUX	O	-	O
 été	être	AUX	O	-	O
@@ -1816,6 +1876,7 @@ cet	ce	DET	O	-	O
 état	état	NOUN	O	-	O
 explosif	explosif	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 La	le	DET	B-PER	{27}	O
 Dame	dame	NOUN	I-PER	-	O
 rassembla	rassembler	VERB	O	-	O
@@ -1885,6 +1946,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 attention	attention	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 Monsieur	monsieur	NOUN	O	-	O
 eut	avoir	VERB	O	-	O
@@ -1903,8 +1965,10 @@ reprit	reprendre	VERB	O	-	O
 son	son	DET	O	-	O
 propos	propos	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 BRÈVE	brève	PROPN	O	{42}	O
 INTERRUPTION	interruption	NOUN	O	-	O
+
 Sur	sur	ADP	O	-	O
 ce	ce	DET	O	-	O
 paragraphe	paragraphe	NOUN	O	-	O
@@ -1934,6 +1998,7 @@ d	d	ADP	O	-	O
 être	être	AUX	O	-	O
 lu	lire	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 Sa	son	DET	O	{43}	O
 physionomie	physionomie	NOUN	O	-	O
 dessinait	dessiner	VERB	O	-	O
@@ -1959,6 +2024,7 @@ l	l	DET	O	-	O
 esprit	esprit	NOUN	O	{44}	O
 mâle	mâle	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 épouse	épouse	NOUN	O	-	O
@@ -1991,6 +2057,7 @@ demi	demi	NOUN	O	-	O
 -	-	PUNCT	O	-	O
 sommeil	sommeil	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 gentleman	gentleman	ADJ	O	-	O
 ,	,	PUNCT	O	-	O
@@ -2028,6 +2095,7 @@ du	de	ADP	O	-	O
 merveilleux	merveilleux	ADJ	O	-	PSY_FEAT
 récit	récit	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Sur	sur	ADP	O	-	O
 quoi	quoi	PRON	O	-	O
 le	le	DET	B-PER	{11}	O
@@ -2043,11 +2111,13 @@ en	en	ADP	O	-	O
 ces	ce	DET	O	-	O
 termes	terme	NOUN	O	-	O
 :	:	PUNCT	O	-	O
+
 SUITE	suite	NOUN	O	-	O
 DE	de	ADP	O	-	O
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 ÉCRIT	écrit	NOUN	O	-	O
+
 «	«	PUNCT	O	-	O
 —	—	PUNCT	O	-	O
 Je	je	PRON	O	-	O
@@ -2087,6 +2157,7 @@ s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
 agit	agir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Grâce	grâce	NOUN	O	-	O
 à	à	ADP	O	-	O
 leur	son	DET	O	-	O
@@ -2101,6 +2172,7 @@ une	un	DET	O	-	O
 netteté	netteté	PRON	O	-	O
 particulière	particulier	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Voyez	voir	VERB	O	-	O
 cela	celer	PRON	O	-	O
 ;	;	PUNCT	O	-	O
@@ -2109,6 +2181,7 @@ nous	nous	PRON	O	-	O
 hâtons	hâton	NOUN	O	-	O
 point	point	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Laissons	laisser	VERB	O	-	O
 s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
@@ -2124,6 +2197,7 @@ millions	million	NOUN	O	-	O
 de	de	ADP	O	-	O
 siècles	siècle	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Pour	pour	ADP	O	-	O
 nous	nous	PRON	O	-	O
 qui	qui	PRON	O	-	O
@@ -2170,6 +2244,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 éternité	éternité	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 pardonnez	pardonner	VERB	O	-	O
 -	-	PUNCT	O	-	O
@@ -2184,6 +2259,7 @@ l	l	DET	O	-	O
 astre	astre	NOUN	O	{24}	O
 indicateur	indicateur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Nous	nous	PRON	O	-	O
 avons	avoir	AUX	O	-	O
@@ -2255,6 +2331,7 @@ dénommés	dénommer	VERB	O	-	O
 la	le	DET	O	{49}	O
 nature	nature	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 paraît	paraître	VERB	O	-	O
 ainsi	ainsi	ADV	O	-	O
@@ -2292,6 +2369,7 @@ nécessaire	nécessaire	ADJ	O	-	O
 et	et	CCONJ	O	-	O
 voulue	vouloir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	-	O
 faits	fait	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -2348,6 +2426,7 @@ le	le	DET	O	-	O
 mieux	mieux	ADV	O	-	O
 agencé	agencer	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Or	or	CCONJ	O	-	O
 ,	,	PUNCT	O	-	O
 c	c	NOUN	O	-	O
@@ -2374,6 +2453,7 @@ par	par	ADP	O	-	O
 nos	notre	DET	O	-	O
 ancêtres	ancêtre	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 n	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -2389,6 +2469,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 expérience	expérience	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Laissons	laisser	VERB	O	-	O
 passer	passer	VERB	O	-	O
 encore	encore	ADV	O	-	O
@@ -2437,6 +2518,7 @@ l	l	DET	O	-	O
 état	état	NOUN	O	{55}	O
 social	social	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Nous	nous	PRON	O	-	O
 pouvons	pouvoir	VERB	O	-	O
 suivre	suivre	VERB	O	-	O
@@ -2463,6 +2545,7 @@ du	de	ADP	O	-	O
 céleste	céleste	ADJ	O	{24}	O
 réflecteur	réflecteur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Sa	son	DET	O	{56}	O
 réverbération	réverbération	NOUN	O	-	O
 dessine	dessiner	VERB	O	-	O
@@ -2473,6 +2556,7 @@ ou	ou	CCONJ	O	-	O
 peu	peu	ADV	O	-	O
 changeants	changeant	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Ce	ce	PRON	O	-	O
 sont	être	AUX	O	-	O
 les	le	DET	O	{57}	O
@@ -2495,6 +2579,7 @@ leurs	leur	DET	O	-	O
 faunes	faune	ADJ	O	-	O
 respectives	respectif	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{59}	O
 reste	reste	VERB	O	-	O
 du	de	ADP	O	-	O
@@ -2513,6 +2598,7 @@ une	un	DET	O	-	O
 irisation	irisation	NOUN	O	-	O
 continue	continuer	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Nous	nous	PRON	O	-	O
 voyons	voir	VERB	O	-	O
 ainsi	ainsi	ADV	O	-	O
@@ -2555,6 +2641,7 @@ l	l	DET	O	-	O
 ordre	ordre	NOUN	O	-	O
 animal	animal	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 D	d	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 où	où	PRON	O	-	O
@@ -2563,6 +2650,7 @@ ce	ce	DET	O	-	O
 frétillement	frétillement	ADV	O	-	O
 perpétuel	perpétuel	ADJ	O	-	O
 ?	?	PUNCT	O	-	O
+
 Pourquoi	pourquoi	ADV	O	-	O
 nos	notre	DET	O	-	O
 aïeux	aïeul	NOUN	O	-	O
@@ -2589,6 +2677,7 @@ sans	sans	ADP	O	-	O
 but	but	NOUN	O	-	O
 apparent	apparent	ADJ	O	-	O
 ?	?	PUNCT	O	-	O
+
 Arrêtons	arrêter	VERB	O	-	O
 -	-	PUNCT	O	-	O
 nous	nous	PRON	O	-	O
@@ -2609,6 +2698,7 @@ il	il	PRON	O	-	O
 ne	ne	ADV	O	-	O
 paraît	paraître	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 Sa	son	DET	O	-	O
 parfaite	parfait	ADJ	O	-	PSY_FEAT
 solution	solution	NOUN	O	-	O
@@ -2647,6 +2737,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 univers	univers	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 S	s	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 il	il	PRON	O	-	O
@@ -2717,6 +2808,7 @@ infinitésimale	infinitésimal	ADJ	O	-	O
 par	par	ADP	O	-	O
 individu	individu	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Rappelez	rappeler	VERB	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
@@ -2742,6 +2834,7 @@ d	d	ADP	O	-	O
 application	application	NOUN	O	-	O
 terrestre	terrestre	VERB	O	{61}	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{64}	O
 pouvoir	pouvoir	VERB	O	-	O
 intellectuel	intellectuel	NOUN	O	-	O
@@ -2771,6 +2864,7 @@ actuels	actuel	ADJ	O	-	O
 et	et	CCONJ	O	-	O
 futurs	futur	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 une	un	DET	O	-	O
 pareille	pareil	ADJ	O	-	O
@@ -2788,6 +2882,7 @@ pouvait	pouvoir	VERB	O	-	O
 que	que	SCONJ	O	-	O
 transitoire	transitoire	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Cela	celer	PRON	O	-	O
 semble	sembler	VERB	O	-	O
 comparable	comparable	ADJ	O	-	O
@@ -2804,6 +2899,7 @@ devenir	devenir	VERB	O	-	O
 une	un	DET	O	-	O
 synthèse	synthèse	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Quels	quel	ADJ	O	-	O
 que	que	SCONJ	O	-	O
 soient	être	AUX	O	-	O
@@ -2854,6 +2950,7 @@ sa	son	DET	O	-	O
 logique	logique	ADJ	O	-	PSY_FEAT
 indépendante	indépendant	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Elle	lui	PRON	O	{27}	O
 ne	ne	ADV	O	-	O
 reste	reste	VERB	O	-	O
@@ -2882,6 +2979,7 @@ d	d	ADP	O	-	O
 essence	essence	NOUN	O	-	O
 spéculative	spéculatif	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Une	un	DET	O	-	O
 fois	fois	NOUN	O	-	O
 cette	ce	DET	O	-	O
@@ -2917,6 +3015,7 @@ des	un	DET	O	-	O
 autres	autre	ADJ	O	-	O
 planètes	planète	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 tout	tout	ADV	O	-	O
 devant	devant	ADP	O	-	O
@@ -2957,6 +3056,7 @@ vraie	vrai	ADJ	O	-	PSY_FEAT
 nature	nature	NOUN	O	-	O
 des	un	DET	O	-	O
 choses	chose	NOUN	O	-	O
+
 Or	or	CCONJ	O	-	O
 ,	,	PUNCT	O	-	O
 ce	ce	DET	O	-	O
@@ -2992,6 +3092,7 @@ menait	mener	VERB	O	-	O
 leur	son	DET	O	-	O
 insu	insu	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Si	si	SCONJ	O	-	O
 nous	nous	PRON	O	-	O
 nous	nous	PRON	O	-	O
@@ -3065,6 +3166,7 @@ pouvaient	pouvoir	VERB	O	-	O
 être	être	AUX	O	-	O
 mesurés	mesurer	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Par	par	ADP	O	-	O
 suite	suite	NOUN	O	-	O
 croyez	croire	VERB	O	-	O
@@ -3095,6 +3197,7 @@ pas	pas	ADV	O	-	O
 simplement	simplement	ADV	O	-	O
 ineptes	inepte	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	-	O
 uns	un	NOUN	O	-	O
 tentaient	tenter	VERB	O	-	O
@@ -3113,6 +3216,7 @@ leur	son	DET	O	-	O
 structure	structure	NOUN	O	-	O
 sensuelle	sensuel	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 D	d	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 autres	autre	ADJ	O	-	O
@@ -3150,6 +3254,7 @@ reconnaissaient	reconnaître	VERB	O	-	O
 partie	partie	NOUN	O	-	O
 intrinsèque	intrinsèque	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 D	d	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 autres	autre	ADJ	O	-	O
@@ -3235,6 +3340,7 @@ etc.	etc.	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 etc	etc	CCONJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 laisse	laisse	VERB	O	-	O
 ici	ici	ADV	O	-	O
@@ -3254,6 +3360,7 @@ arraisonner	arraisonner	VERB	O	-	O
 la	le	DET	O	-	O
 vie	vie	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 nous	nous	PRON	O	-	O
 suffit	suffire	VERB	O	-	O
@@ -3284,6 +3391,7 @@ croiriez	croire	VERB	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 une	un	DET	O	-	O
 application	application	NOUN	O	-	O
 exclusive	exclusif	ADJ	O	-	PSY_FEAT
@@ -3302,6 +3410,7 @@ portion	portion	NOUN	O	-	O
 de	de	ADP	O	-	O
 concept	concept	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 dans	dans	ADP	O	-	O
 tout	tout	ADV	O	-	O
@@ -3359,6 +3468,7 @@ propre	propre	ADJ	O	-	PSY_FEAT
 tel	tel	ADJ	O	-	O
 quel	quel	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 De	de	ADP	O	-	O
 là	là	ADV	O	-	O
 les	le	DET	O	-	O
@@ -3381,6 +3491,7 @@ entre	entrer	ADP	O	-	O
 les	le	DET	O	-	O
 nations	nation	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Analysons	analyson	NOUN	O	-	O
 encore	encore	ADV	O	-	O
 ces	ce	DET	O	-	O
@@ -3398,6 +3509,7 @@ le	le	DET	O	-	O
 luisant	luire	VERB	O	-	O
 constellé	constellé	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Nous	nous	PRON	O	-	O
 n	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -3412,6 +3524,7 @@ vestiges	vestige	NOUN	O	{75}	O
 de	de	ADP	O	-	O
 destruction	destruction	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 A	a	NOUN	O	-	O
 ce	ce	DET	O	-	O
 passage	passage	NOUN	O	-	O
@@ -3454,6 +3567,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 impatience	impatience	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 En	en	ADP	O	-	O
 vérité	vérité	NOUN	O	-	O
@@ -3491,6 +3605,7 @@ si	si	SCONJ	O	-	O
 forts	fort	ADJ	O	-	PSY_FEAT
 raisonnements	raisonnement	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Tout	tout	ADJ	O	{76}	O
 ce	ce	DET	O	-	O
 que	que	SCONJ	O	-	O
@@ -3504,6 +3619,7 @@ vague	vague	NOUN	O	-	O
 et	et	CCONJ	O	-	O
 vaporeux	vaporeux	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Je	je	PRON	O	-	O
 veux	vouloir	VERB	O	-	O
@@ -3534,6 +3650,7 @@ tissu	tissu	NOUN	O	-	O
 de	de	ADP	O	-	O
 lueurs	lueur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Peut	pouvoir	ADV	O	-	O
 -	-	PUNCT	O	-	O
 il	il	PRON	O	-	O
@@ -3602,6 +3719,7 @@ que	que	SCONJ	O	-	O
 nous	nous	PRON	O	-	O
 considérons	considérer	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 puis	pouvoir	CCONJ	O	-	O
 ,	,	PUNCT	O	-	O
@@ -3642,6 +3760,7 @@ confondent	confondre	VERB	O	-	O
 leurs	leur	DET	O	-	O
 détails	détail	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	{79}	O
 mirages	mirage	NOUN	O	-	O
 dont	dont	PRON	O	-	O
@@ -3674,6 +3793,7 @@ d	d	ADP	O	-	O
 incidents	incident	NOUN	O	-	O
 identiques	identique	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Cette	ce	DET	O	{81}	O
 figure	figurer	VERB	O	-	O
 —	—	PUNCT	O	-	O
@@ -3736,6 +3856,7 @@ elle	lui	PRON	O	-	O
 -	-	PUNCT	O	-	O
 même	même	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Nous	nous	PRON	O	-	O
 possédons	posséder	VERB	O	-	O
 ainsi	ainsi	ADV	O	-	O
@@ -3745,6 +3866,7 @@ suffisants	suffisant	ADJ	O	-	O
 de	de	ADP	O	-	O
 déduction	déduction	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	{84}	O
 filaments	filament	NOUN	O	-	O
 tenus	tenir	VERB	O	-	O
@@ -3797,6 +3919,7 @@ la	le	DET	O	-	O
 vie	vie	NOUN	O	-	O
 commune	commune	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Par	par	ADP	O	-	O
 -	-	PUNCT	O	-	O
 ci	ci	PRON	O	-	O
@@ -3824,6 +3947,7 @@ sur	sur	ADP	O	-	O
 le	le	DET	O	-	O
 fond	fond	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Ce	ce	PRON	O	-	O
 sont	être	AUX	O	-	O
 les	le	DET	O	-	O
@@ -3880,6 +4004,7 @@ de	de	ADP	O	-	O
 propagande	propagande	NOUN	O	-	O
 perfectionniste	perfectionniste	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 faut	falloir	VERB	O	-	O
 que	que	SCONJ	O	-	O
@@ -3915,6 +4040,7 @@ ce	ce	DET	O	-	O
 brouillis	brouillis	VERB	O	-	O
 lumineux	lumineux	ADJ	O	-	O
 ...	...	PUNCT	O	-	O
+
 Ici	ici	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 la	le	DET	B-PER	{27}	O
@@ -3932,6 +4058,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 intérêt	intérêt	NOUN	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Et	et	CCONJ	O	-	O
 quels	quel	ADJ	O	-	O
@@ -3960,6 +4087,7 @@ ces	ce	DET	O	-	O
 braves	brave	ADJ	O	-	O
 gens	gens	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 A	a	NOUN	O	-	O
 merveille	merveill	ADJ	O	-	O
@@ -3971,6 +4099,7 @@ répond	répondre	VERB	O	-	O
 le	le	DET	O	-	O
 Monsieur	monsieur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Votre	votre	DET	O	-	O
 question	question	NOUN	O	-	O
 témoigne	témoigner	VERB	O	-	O
@@ -3988,6 +4117,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 autrefois	autrefois	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Imagine	imaginer	VERB	O	-	O
 -	-	PUNCT	O	-	O
 t	t	PROPN	O	-	O
@@ -4008,6 +4138,7 @@ d	d	ADP	O	-	O
 éphémère	éphémère	NOUN	O	-	O
 inanité	inanité	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Chacun	chacun	PRON	O	{86}	O
 de	de	ADP	O	-	O
 ces	ce	DET	O	-	O
@@ -4044,6 +4175,7 @@ quelqu	quelqu	PRON	O	-	O
 '	'	PUNCT	O	-	O
 un	un	DET	O	-	O
 ?	?	PUNCT	O	-	O
+
 Ceux	celui	PRON	O	-	O
 d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
@@ -4103,11 +4235,13 @@ jusqu	jusqu	ADP	O	-	O
 à	à	ADP	O	-	O
 nous	nous	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 ELLE	elle	NOUN	O	{27}	O
 (	(	PUNCT	O	-	O
 complaisamment	complaisamment	ADV	O	-	O
 )	)	PUNCT	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Cela	celer	PRON	O	-	O
 semble	sembler	VERB	O	-	O
@@ -4116,6 +4250,7 @@ plus	plus	ADV	O	-	O
 parfait	parfait	ADJ	O	-	PSY_FEAT
 risible	risible	ADJ	O	-	O
 ...	...	PUNCT	O	-	O
+
 LUI	lui	PROPN	O	{11}	O
 ...	...	PUNCT	O	-	O
 avec	avec	ADP	O	-	O
@@ -4126,6 +4261,7 @@ mélancolie	mélancolie	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
 pourtant	pourtant	ADV	O	-	O
 ...	...	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Egarés	egaré	NOUN	O	-	O
 par	par	ADP	O	-	O
@@ -4163,6 +4299,7 @@ le	le	DET	O	-	O
 plus	plus	ADV	O	-	O
 infinitésimal	infinitésimal	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Ils	il	PRON	O	-	O
 retardaient	retarder	VERB	O	-	O
 ainsi	ainsi	ADV	O	-	O
@@ -4215,6 +4352,7 @@ l	l	DET	O	-	O
 animation	animation	NOUN	O	{87}	O
 terrestre	terrestre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Car	car	CCONJ	O	-	O
 il	il	PRON	O	-	O
 serait	être	AUX	O	-	O
@@ -4252,6 +4390,7 @@ et	et	CCONJ	O	-	O
 des	un	DET	O	-	O
 effets	effet	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Quoi	quoi	ADV	O	-	O
 qu	qu	SCONJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -4280,6 +4419,7 @@ de	de	ADP	O	-	O
 leur	son	DET	O	-	O
 sort	sortir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 chacun	chacun	PRON	O	-	O
 ,	,	PUNCT	O	-	O
@@ -4310,6 +4450,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 intelligence	intelligence	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 n	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -4354,6 +4495,7 @@ compte	compte	NOUN	O	-	O
 une	un	DET	O	-	O
 impasse	impasse	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 élite	élite	NOUN	O	-	O
@@ -4431,6 +4573,7 @@ de	de	ADP	O	-	O
 la	le	DET	O	-	O
 substance	substance	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Entre	entrer	ADP	O	-	O
 ces	ce	DET	O	-	O
 deux	deux	NUM	O	-	O
@@ -4476,6 +4619,7 @@ positivisme	positivisme	NOUN	O	-	O
 des	un	DET	O	-	O
 savants	savant	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -4504,6 +4648,7 @@ prendre	prendre	VERB	O	-	O
 le	le	DET	O	-	O
 dessus	dessus	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Pour	pour	ADP	O	-	O
 toute	tout	DET	O	-	O
 métaphysique	métaphysique	ADJ	O	-	O
@@ -4529,6 +4674,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 activité	activité	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 explication	explication	NOUN	O	-	O
@@ -4547,6 +4693,7 @@ plus	plus	ADV	O	-	O
 entier	entier	ADJ	O	-	O
 discrédit	discrédit	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 enfermait	enfermer	VERB	O	-	O
 à	à	ADP	O	-	O
@@ -4566,6 +4713,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 inconnu	inconnu	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 décréta	décréter	VERB	O	-	O
 que	que	SCONJ	O	-	O
@@ -4604,6 +4752,7 @@ des	un	DET	O	-	O
 forces	force	NOUN	O	-	O
 naturelles	naturel	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 abandonna	abandonner	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -4627,6 +4776,7 @@ quelque	quelque	ADV	O	-	O
 loi	loi	NOUN	O	-	O
 préalable	préalable	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Bientôt	bientôt	ADV	O	{29}	O
 même	même	ADV	O	-	O
 ,	,	PUNCT	O	-	O
@@ -4668,8 +4818,10 @@ bientôt	bientôt	ADV	O	{29}	O
 même	même	ADV	O	-	O
 ...	...	PUNCT	O	-	O
 »	»	PUNCT	O	-	O
+
 UNE	un	DET	O	-	O
 PARENTHÈSE	parenthèse	ADV	O	{92}	O
+
 Ici	ici	ADV	O	-	O
 le	le	DET	B-PER	{11}	O
 Penseur	penseur	NOUN	I-PER	-	O
@@ -4767,6 +4919,7 @@ de	de	ADP	O	-	O
 nos	notre	DET	O	-	O
 jours	jour	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	-	O
 auditeurs	auditeur	NOUN	O	-	O
 de	de	ADP	O	-	O
@@ -4836,6 +4989,7 @@ de	de	ADP	O	-	O
 nos	notre	DET	O	-	O
 contemporains	contemporain	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 réclamait	réclamer	VERB	O	-	O
 donc	donc	ADV	O	-	O
@@ -4857,6 +5011,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 attention	attention	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 La	le	DET	O	-	O
 femme	femme	NOUN	O	-	O
 du	de	ADP	B-PER	{11}	O
@@ -4867,6 +5022,7 @@ avertissement	avertissement	NOUN	O	-	O
 avec	avec	ADP	O	-	O
 condescendance	condescendance	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Elle	lui	PRON	O	-	O
 continuait	continuer	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -4891,6 +5047,7 @@ dans	dans	ADP	O	-	O
 le	le	DET	O	-	O
 dialogue	dialogue	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 gentleman	gentleman	ADJ	O	-	O
 en	en	ADP	O	-	O
@@ -4941,9 +5098,11 @@ pas	pas	ADV	O	-	O
 un	un	DET	O	-	O
 mot	mot	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 SUITE	suite	NOUN	O	-	O
 DU	de	ADP	O	-	O
 MANUSCRIT	manuscrit	PROPN	O	-	O
+
 «	«	PUNCT	O	-	O
 Bientôt	bientôt	ADV	O	{29}	O
 ,	,	PUNCT	O	-	O
@@ -4960,6 +5119,7 @@ donc	donc	ADV	O	-	O
 le	le	DET	O	-	O
 liseur	liseur	NOUN	O	{11}	O
 .	.	PUNCT	O	-	O
+
 A	a	NOUN	O	-	O
 force	force	NOUN	O	-	O
 d	d	ADP	O	-	O
@@ -4981,6 +5141,7 @@ le	le	DET	O	{100}	O
 principe	principe	NOUN	O	-	O
 vital	vital	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	{101}	O
 engins	engin	NOUN	O	-	O
 industriels	industriel	ADJ	O	-	O
@@ -5020,6 +5181,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 outillage	outillage	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 conséquence	conséquence	NOUN	O	-	O
 de	de	ADP	O	-	O
@@ -5068,6 +5230,7 @@ un	un	DET	O	-	O
 automatisme	automatisme	NOUN	O	-	O
 effectif	effectif	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Tout	tout	ADJ	O	-	O
 en	en	ADP	O	-	O
 dévorant	dévorer	VERB	O	-	O
@@ -5093,6 +5256,7 @@ appareillage	appareillage	NOUN	O	{107}	O
 de	de	ADP	O	-	O
 traction	traction	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
@@ -5126,6 +5290,7 @@ vocal	vocal	ADJ	O	-	O
 et	et	CCONJ	O	-	O
 visuel	visuel	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Graduellement	graduellement	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 toutefois	toutefois	ADV	O	-	O
@@ -5174,6 +5339,7 @@ s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
 ensuivre	ensuivre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	{109}	O
 machines	machine	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -5218,14 +5384,18 @@ une	un	DET	O	-	O
 immédiate	immédiat	ADJ	O	-	PSY_FEAT
 viviparité	viviparité	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 ELLE	elle	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Quelle	quell	ADJ	O	-	O
 plaisanterie	plaisanterie	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 LUI	lui	PROPN	O	{11}	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Détrompez	détromper	ADJ	O	-	O
 -	-	PUNCT	O	-	O
@@ -5245,6 +5415,7 @@ je	je	PRON	O	-	O
 suis	être	AUX	O	-	O
 capable	capable	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 ne	ne	ADV	O	-	O
 soyez	être	AUX	O	-	O
@@ -5263,6 +5434,7 @@ pas	pas	ADV	O	-	O
 sans	sans	ADP	O	-	O
 précédents	précédent	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 remontant	remonter	VERB	O	-	O
 au	au	ADP	O	-	O
@@ -5316,6 +5488,7 @@ appelés	appeler	VERB	O	-	O
 des	un	DET	O	-	O
 serfs	serf	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 est	être	AUX	O	-	O
 vraisemblable	vraisemblable	ADJ	O	-	O
@@ -5354,8 +5527,10 @@ de	de	ADP	O	-	O
 houille	houille	NOUN	O	-	O
 anthropomorphe	anthropomorphe	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 ELLE	elle	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Encore	encore	ADV	O	-	O
 une	un	DET	O	-	O
@@ -5369,8 +5544,10 @@ jusqu	jusqu	ADP	O	-	O
 au	au	ADP	O	-	O
 burlesque	burlesque	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 LUI	lui	PROPN	O	{11}	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Restez	restez	PROPN	O	-	O
 persuadée	persuader	VERB	O	-	O
@@ -5388,6 +5565,7 @@ prix	prix	NOUN	O	-	O
 le	le	DET	O	-	O
 badinage	badinage	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Après	après	ADP	O	-	O
 un	un	DET	O	-	O
 exemple	exemple	NOUN	O	-	O
@@ -5444,6 +5622,7 @@ pur	pur	ADJ	O	-	PSY_FEAT
 et	et	CCONJ	O	-	O
 simple	simple	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Ainsi	ainsi	ADV	O	-	O
 se	se	PRON	O	-	O
 justifiait	justifier	VERB	O	-	O
@@ -5464,6 +5643,7 @@ des	un	DET	O	-	O
 leurs	leur	DET	O	-	O
 milieux	milieu	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Cette	ce	DET	O	-	O
 évolution	évolution	NOUN	O	-	O
 considérable	considérable	ADJ	O	-	PSY_FEAT
@@ -5485,6 +5665,7 @@ de	de	ADP	O	-	O
 cette	ce	DET	O	-	O
 société	société	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Faute	faute	NOUN	O	-	O
 de	de	ADP	O	-	O
 soupçonner	soupçonner	VERB	O	-	O
@@ -5508,6 +5689,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 homme	homme	NOUN	O	{54}	O
 .	.	PUNCT	O	-	O
+
 tout	tout	ADV	O	-	O
 en	en	ADP	O	-	O
 progressant	progresser	VERB	O	-	O
@@ -5565,6 +5747,7 @@ l	l	DET	O	-	O
 impuissance	impuissance	NOUN	O	-	O
 humaine	humain	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Au	au	ADP	O	-	O
 point	point	NOUN	O	-	O
 de	de	ADP	O	-	O
@@ -5585,6 +5768,7 @@ de	de	ADP	O	-	O
 la	le	DET	O	-	O
 concentration	concentration	NOUN	O	{119}	O
 .	.	PUNCT	O	-	O
+
 Aussi	aussi	ADV	O	-	O
 les	le	DET	O	-	O
 disputes	dispute	NOUN	O	-	O
@@ -5598,6 +5782,7 @@ et	et	CCONJ	O	-	O
 les	le	DET	O	-	O
 utilitaristes	utilitariste	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Quelques	quelque	DET	O	-	O
 sectes	secte	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -5619,6 +5804,7 @@ des	un	DET	O	-	O
 rénovations	rénovation	NOUN	O	-	O
 économiques	économique	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 La	le	DET	O	-	O
 question	question	NOUN	O	-	O
 de	de	ADP	O	-	O
@@ -5653,6 +5839,7 @@ de	de	ADP	O	-	O
 guerres	guerre	NOUN	O	-	O
 intestines	intestin	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Comme	comme	ADP	O	-	O
 à	à	ADP	O	-	O
 l	l	DET	O	-	O
@@ -5670,6 +5857,7 @@ défenseurs	défenseur	NOUN	O	-	O
 du	de	ADP	O	-	O
 positivisme	positivisme	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 non	non	ADV	O	-	O
 content	conter	VERB	O	-	O
@@ -5753,6 +5941,7 @@ entre	entrer	ADP	O	-	O
 perfectionner	perfectionner	VERB	O	-	O
 indéfiniment	indéfiniment	PRON	O	-	O
 .	.	PUNCT	O	-	O
+
 Impossible	impossible	NOUN	O	-	O
 de	de	ADP	O	-	O
 dire	dire	VERB	O	-	O
@@ -5792,6 +5981,7 @@ mise	mise	NOUN	O	-	O
 en	en	ADP	O	-	O
 pratique	pratique	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Environ	environ	ADV	O	-	O
 vers	vers	ADP	O	-	O
 cette	ce	DET	O	-	O
@@ -5816,6 +6006,7 @@ nombre	nombre	NOUN	O	-	O
 de	de	ADP	O	-	O
 soleils	soleil	NOUN	O	{127}	O
 .	.	PUNCT	O	-	O
+
 Remarquez	remarquez	PROPN	O	-	O
 ,	,	PUNCT	O	-	O
 en	en	ADP	O	-	O
@@ -5843,6 +6034,7 @@ notre	notre	DET	O	-	O
 astre	astre	NOUN	O	{24}	O
 indicateur	indicateur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 La	le	DET	O	{128}	O
 matière	matière	NOUN	O	-	O
 se	se	PRON	O	-	O
@@ -5858,6 +6050,7 @@ de	de	ADP	O	-	O
 tourbillon	tourbillon	PROPN	O	-	O
 de	de	ADP	O	-	O
 molécules	molécule	NOUN	O	-	O
+
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 homme	homme	NOUN	O	{54}	O
@@ -5880,6 +6073,7 @@ de	de	ADP	O	-	O
 calorique	calorique	ADJ	O	-	O
 indispensables	indispensable	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Quelques	quelque	DET	O	-	O
 progressistes	progressiste	NOUN	O	-	O
 acharnés	acharner	VERB	O	-	O
@@ -5909,6 +6103,7 @@ moyens	moyen	NOUN	O	-	O
 de	de	ADP	O	-	O
 travailler	travailler	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
@@ -5919,6 +6114,7 @@ s	s	PRON	O	-	O
 interrogea	interroger	VERB	O	-	O
 stupéfaite	stupéfaite	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Pourquoi	pourquoi	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 diantre	diantre	NOUN	O	-	O
@@ -5947,6 +6143,7 @@ que	que	SCONJ	O	-	O
 ce	ce	DET	O	-	O
 soit	être	CCONJ	O	-	O
 ?	?	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 était	être	AUX	O	-	O
@@ -5971,6 +6168,7 @@ séculaire	séculaire	ADJ	O	-	O
 du	de	ADP	O	-	O
 passé	passer	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Serait	être	VERB	O	-	O
 -	-	PUNCT	O	-	O
 ce	ce	DET	O	-	O
@@ -5995,6 +6193,7 @@ une	un	DET	O	-	O
 terre	terre	NOUN	O	{24}	O
 finie	finir	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 Que	que	SCONJ	O	-	O
 n	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -6022,6 +6221,7 @@ reculés	reculé	ADJ	O	-	O
 des	un	DET	O	-	O
 autrefois	autrefois	ADV	O	-	O
 ?	?	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 reconnut	reconnaître	VERB	O	-	O
 alors	alors	ADV	O	-	O
@@ -6058,6 +6258,7 @@ d	d	ADP	O	-	O
 aménagement	aménagement	NOUN	O	-	O
 social	social	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 était	être	AUX	O	-	O
 ,	,	PUNCT	O	-	O
@@ -6094,6 +6295,7 @@ mise	mise	NOUN	O	-	O
 en	en	ADP	O	-	O
 oeuvre	oeuvre	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
@@ -6137,6 +6339,7 @@ continuer	continuer	VERB	O	-	O
 la	le	DET	O	-	O
 vie	vie	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 Hélas	hélas	INTJ	O	-	O
 !	!	PUNCT	O	-	O
 la	le	DET	O	{24}	O
@@ -6145,6 +6348,7 @@ s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
 effritait	effriter	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 était	être	AUX	O	-	O
 trop	trop	ADV	O	-	O
@@ -6161,6 +6365,7 @@ existences	existence	NOUN	O	-	O
 de	de	ADP	O	-	O
 primitifs	primitif	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 meilleur	meilleur	ADJ	O	-	O
 était	être	AUX	O	-	O
@@ -6190,6 +6395,7 @@ dérober	dérober	VERB	O	-	O
 sous	sou	ADP	O	-	O
 elle	lui	PRON	O	-	O
 .	.	PUNCT	O	-	O
+
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 emploi	emploi	NOUN	O	-	O
@@ -6209,6 +6415,7 @@ effectuer	effectuer	VERB	O	-	O
 ce	ce	DET	O	-	O
 cataclysme	cataclysme	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 y	y	PRON	O	-	O
 eut	avoir	VERB	O	-	O
@@ -6236,6 +6443,7 @@ rougeoyé	rougeoyer	VERB	O	-	O
 de	de	ADP	O	-	O
 flammes	flamme	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	{132}	O
 êtres	être	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -6262,6 +6470,7 @@ de	de	ADP	O	-	O
 détraquements	détraquement	NOUN	O	-	O
 successifs	successif	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Par	par	ADP	O	-	O
 suite	suite	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -6319,8 +6528,10 @@ une	un	DET	O	-	O
 cohésion	cohésion	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
 »	»	PUNCT	O	-	O
+
 UNE	un	DET	O	-	O
 OBSERVATION	observation	NOUN	O	-	O
+
 Le	le	DET	B-PER	{11}	O
 Penseur	penseur	NOUN	I-PER	-	O
 qui	qui	PRON	O	-	O
@@ -6357,6 +6568,7 @@ l	l	DET	O	-	O
 ouvrage	ouvrage	NOUN	O	{136}	O
 inédit	inédit	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Par	par	ADP	O	-	O
 quel	quel	ADJ	O	-	O
@@ -6400,6 +6612,7 @@ moyens	moyen	NOUN	O	-	O
 de	de	ADP	O	-	O
 comburation	comburation	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Oui	oui	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 nous	nous	PRON	O	-	O
@@ -6440,6 +6653,7 @@ dans	dans	ADP	O	-	O
 la	le	DET	O	-	O
 chair	chair	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
@@ -6465,6 +6679,7 @@ ma	mon	DET	O	-	O
 propre	propre	ADJ	O	-	PSY_FEAT
 combustion	combustion	NOUN	O	{138}	O
 ?	?	PUNCT	O	-	O
+
 A	a	NOUN	O	-	O
 ce	ce	DET	O	-	O
 cri	cri	NOUN	O	-	O
@@ -6500,6 +6715,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 éther	éther	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 gentleman	gentleman	ADJ	O	-	O
 en	en	ADP	O	-	O
@@ -6563,6 +6779,7 @@ prendre	prendre	VERB	O	-	O
 en	en	ADP	O	-	O
 note	note	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 ces	ce	DET	O	-	O
 mouvements	mouvement	NOUN	O	-	O
@@ -6572,6 +6789,7 @@ opinion	opinion	NOUN	O	-	O
 passèrent	passer	VERB	O	-	O
 inaperçus	inaperçu	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Le	le	DET	B-PER	{11}	O
 Penseur	penseur	NOUN	I-PER	-	O
 avait	avoir	AUX	O	-	O
@@ -6596,9 +6814,11 @@ entre	entrer	ADP	O	-	O
 les	le	DET	O	-	O
 mains	main	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 FIN	fin	NOUN	O	-	O
 DU	de	ADP	O	-	O
 MANUSCRIT	manuscrit	PROPN	O	-	O
+
 «	«	PUNCT	O	-	O
 Notre	notre	DET	O	{21}	O
 ancien	ancien	ADJ	O	-	O
@@ -6640,6 +6860,7 @@ nous	nous	PRON	O	-	O
 avons	avoir	AUX	O	-	O
 consulté	consulter	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 voilà	voilà	VERB	O	-	O
 comment	comment	ADV	O	-	O
@@ -6690,6 +6911,7 @@ versatilité	versatilité	NOUN	O	-	O
 des	un	DET	O	-	O
 effets	effet	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 Froissée	froissée	PROPN	O	-	O
 ,	,	PUNCT	O	-	O
 peut	pouvoir	VERB	O	-	O
@@ -6717,6 +6939,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 objection	objection	NOUN	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Et	et	CCONJ	O	-	O
 que	que	SCONJ	O	-	O
@@ -6727,6 +6950,7 @@ instinct	instinct	NOUN	O	-	O
 des	un	DET	O	-	O
 bêtes	bête	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 fit	faire	VERB	O	-	O
 -	-	PUNCT	O	-	O
 elle	lui	PRON	O	{27}	O
@@ -6737,6 +6961,7 @@ envie	envie	NOUN	O	-	O
 de	de	ADP	O	-	O
 persiflage	persiflage	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Que	que	SCONJ	O	-	O
 faites	faire	VERB	O	-	O
 -	-	PUNCT	O	-	O
@@ -6778,6 +7003,7 @@ d	d	ADP	O	-	O
 appeler	appeler	VERB	O	-	O
 cela	celer	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 Monsieur	monsieur	NOUN	O	-	O
 marqua	marquer	VERB	O	-	O
@@ -6824,6 +7050,7 @@ de	de	ADP	O	-	O
 puissante	puissant	ADJ	O	-	PSY_FEAT
 mansuétude	mansuétude	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Les	le	DET	O	{142}	O
 éléments	élément	NOUN	O	-	O
@@ -6851,6 +7078,7 @@ latentes	latent	ADJ	O	-	O
 ou	ou	CCONJ	O	-	O
 adventices	adventice	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 était	être	AUX	O	-	O
@@ -6868,6 +7096,7 @@ d	d	ADP	O	-	O
 un	un	DET	O	-	O
 but	but	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Cela	celer	PRON	O	-	O
 consistait	consister	VERB	O	-	O
 pour	pour	ADP	O	-	O
@@ -6918,6 +7147,7 @@ des	un	DET	O	-	O
 vibrations	vibration	NOUN	O	-	O
 ambiantes	ambiant	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Leur	son	DET	O	-	O
 spiritualité	spiritualité	NOUN	O	-	O
 relative	relatif	ADJ	O	-	O
@@ -6944,6 +7174,7 @@ sur	sur	ADP	O	-	O
 les	le	DET	O	-	O
 autres	autre	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Ces	ce	DET	O	-	O
 facultés	faculté	NOUN	O	-	O
 leur	son	DET	O	-	O
@@ -6975,6 +7206,7 @@ sa	son	DET	O	-	O
 physionomie	physionomie	NOUN	O	-	O
 présente	présente	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Elles	lui	PRON	O	-	O
 sont	être	AUX	O	-	O
 devenues	devenir	VERB	O	-	O
@@ -6994,6 +7226,7 @@ toutes	tout	ADJ	O	-	O
 les	le	DET	O	-	O
 âmes	âme	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Produit	produit	NOUN	O	-	O
 d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
@@ -7058,6 +7291,7 @@ système	système	NOUN	O	-	O
 de	de	ADP	O	-	O
 gravitation	gravitation	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Ce	ce	PRON	O	-	O
 sont	être	AUX	O	-	O
 ces	ce	DET	O	-	O
@@ -7124,6 +7358,7 @@ etc	etc	CCONJ	O	-	O
 .	.	PUNCT	O	-	O
 etc	etc	CCONJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Ne	ne	ADV	O	-	O
 trouvez	trouver	VERB	O	-	O
 -	-	PUNCT	O	-	O
@@ -7159,6 +7394,7 @@ nous	nous	PRON	O	-	O
 étions	être	AUX	O	-	O
 autrefois	autrefois	ADV	O	-	O
 ?	?	PUNCT	O	-	O
+
 Malice	malice	PROPN	O	-	O
 ou	ou	CCONJ	O	-	O
 fâcherie	fâcherie	NOUN	O	-	O
@@ -7176,6 +7412,7 @@ cette	ce	DET	O	-	O
 dernière	dernier	ADJ	O	-	O
 opinion	opinion	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Vous	vous	PRON	O	-	O
 avez	avoir	AUX	O	-	O
@@ -7214,6 +7451,7 @@ et	et	CCONJ	O	-	O
 de	de	ADP	O	-	O
 tempéraments	tempérament	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 éprouvait	éprouver	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -7264,6 +7502,7 @@ selon	selon	ADP	O	-	O
 ses	son	DET	O	-	O
 goûts	goût	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 avez	avoir	AUX	O	-	O
 beau	beau	ADJ	O	-	PSY_FEAT
@@ -7307,6 +7546,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 effroi	effroi	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 nous	nous	PRON	O	-	O
 ?	?	PUNCT	O	-	O
@@ -7328,6 +7568,7 @@ tapissé	tapisser	VERB	O	-	O
 de	de	ADP	O	-	O
 reflets	reflet	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Comment	comment	ADV	O	-	O
 tuer	tuer	VERB	O	-	O
 l	l	DET	O	-	O
@@ -7346,6 +7587,7 @@ temps	temps	NOUN	O	{144}	O
 nous	nous	PRON	O	-	O
 tue	taire	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 Là	là	ADV	O	{145}	O
 -	-	PUNCT	O	-	O
 dessus	dessus	ADV	O	-	O
@@ -7359,6 +7601,7 @@ beau	beau	ADJ	O	-	PSY_FEAT
 calme	calme	ADJ	O	-	PSY_FEAT
 aromal	aromal	ADJ	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Ne	ne	ADV	O	-	O
 commettez	commettre	VERB	O	-	O
@@ -7385,6 +7628,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 avenir	avenir	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Quant	quant	ADV	O	-	O
 à	à	ADP	O	-	O
 la	le	DET	O	-	O
@@ -7418,6 +7662,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 éternités	éternité	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Ces	ce	DET	O	-	O
 myriades	myriade	NOUN	O	-	O
 de	de	ADP	O	-	O
@@ -7480,6 +7725,7 @@ avec	avec	ADP	O	-	O
 la	le	DET	O	-	O
 nôtre	nôtre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Imagine	imaginer	VERB	O	-	O
 -	-	PUNCT	O	-	O
 t	t	PROPN	O	-	O
@@ -7506,6 +7752,7 @@ une	un	DET	O	-	O
 telle	tel	ADJ	O	-	O
 évolution	évolution	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Et	et	CCONJ	O	-	O
 après	après	ADP	O	-	O
@@ -7522,6 +7769,7 @@ t	t	PROPN	O	-	O
 -	-	PUNCT	O	-	O
 il	il	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
 inquiétait	inquiéter	VERB	O	-	O
@@ -7530,6 +7778,7 @@ Dame	dame	NOUN	O	-	O
 médiocrement	médiocrement	ADV	O	-	O
 convaincue	convaincre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Après	après	ADP	O	-	O
 !	!	PUNCT	O	-	O
@@ -7572,6 +7821,7 @@ des	un	DET	O	-	O
 autres	autre	ADJ	O	-	O
 cosmos	cosmos	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 O	o	NOUN	O	-	O
 !	!	PUNCT	O	-	O
 prévision	prévision	NOUN	O	-	O
@@ -7627,6 +7877,7 @@ homogène	homogène	ADJ	O	-	O
 et	et	CCONJ	O	-	O
 pensante	pensant	ADJ	O	-	O
 !	!	PUNCT	O	-	O
+
 Notre	notre	DET	O	-	O
 dualité	dualité	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -7657,6 +7908,7 @@ de	de	ADP	O	-	O
 ses	son	DET	O	-	O
 recherches	recherche	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Nous	nous	PRON	O	-	O
 ne	ne	ADV	O	-	O
 discuterons	discuter	VERB	O	-	O
@@ -7676,6 +7928,7 @@ une	un	DET	O	-	O
 conscience	conscience	NOUN	O	-	O
 unique	unique	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 serai	être	AUX	O	-	O
 ,	,	PUNCT	O	-	O
@@ -7796,6 +8049,7 @@ existence	existence	NOUN	O	-	O
 des	un	DET	O	-	O
 objets	objet	NOUN	O	{94}	O
 .	.	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 aurez	avoir	VERB	O	-	O
 le	le	DET	O	-	O
@@ -7820,6 +8074,7 @@ est	être	AUX	O	-	O
 restée	rester	VERB	O	-	O
 inaccessible	inaccessible	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 dut	devoir	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -7912,14 +8167,17 @@ devra	devoir	VERB	O	-	O
 réadvenir	réadvenir	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
 »	»	PUNCT	O	-	O
+
 POST	post	PROPN	O	-	O
 -	-	PUNCT	O	-	O
 SCRIPTUM	scriptum	NOUN	O	-	O
+
 Le	le	DET	O	-	O
 Dialogue	dialogue	NOUN	O	-	O
 était	être	AUX	O	-	O
 terminé	terminer	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	B-PER	{11}	O
 Penseur	penseur	NOUN	I-PER	-	O
 montra	montrer	VERB	O	-	O
@@ -8004,6 +8262,7 @@ quantités	quantité	NOUN	O	-	O
 de	de	ADP	O	-	O
 disparitions	disparition	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Pourquoi	pourquoi	ADV	O	-	O
 le	le	DET	O	-	O
 double	double	ADJ	O	-	O
@@ -8047,6 +8306,7 @@ homogène	homogène	ADJ	O	-	O
 et	et	CCONJ	O	-	O
 invariable	invariable	ADJ	O	-	PSY_FEAT
 ?	?	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 ne	ne	ADV	O	-	O
 se	se	PRON	O	-	O
@@ -8061,6 +8321,7 @@ soi	soi	NUM	O	-	O
 -	-	PUNCT	O	-	O
 même	même	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 dernier	dernier	ADJ	O	-	O
 Homme	homme	NOUN	O	-	O
@@ -8079,6 +8340,7 @@ aussi	aussi	ADV	O	-	O
 banales	banal	ADJ	O	-	PSY_FEAT
 constatations	constatation	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Oui	oui	ADV	O	-	O
 !	!	PUNCT	O	-	O
 c	c	NOUN	O	-	O
@@ -8086,6 +8348,7 @@ c	c	NOUN	O	-	O
 est	être	AUX	O	-	O
 évident	évident	ADJ	O	-	O
 !	!	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 nous	nous	PRON	O	-	O
 ,	,	PUNCT	O	-	O
@@ -8110,6 +8373,7 @@ nécessaires	nécessaire	ADJ	O	-	O
 à	à	ADP	O	-	O
 connaître	connaître	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 Par	par	ADP	O	-	O
 quelle	quel	DET	O	-	O
 fatalité	fatalité	NOUN	O	-	O
@@ -8146,6 +8410,7 @@ d	d	ADP	O	-	O
 intellectualisme	intellectualisme	NOUN	O	{148}	O
 immatériel	immatériel	ADJ	O	-	O
 ?	?	PUNCT	O	-	O
+
 Pourquoi	pourquoi	ADV	O	-	O
 mettions	mettion	NOUN	O	-	O
 -	-	PUNCT	O	-	O
@@ -8180,6 +8445,7 @@ une	un	DET	O	-	O
 substance	substance	NOUN	O	{149}	O
 périssable	périssable	ADJ	O	-	O
 ?	?	PUNCT	O	-	O
+
 Pourquoi	pourquoi	ADV	O	-	O
 méconnaissions	méconnaître	VERB	O	-	O
 -	-	PUNCT	O	-	O
@@ -8211,7 +8477,9 @@ libre	libre	ADJ	O	-	PSY_FEAT
 ?	?	PUNCT	O	-	O
 ...	...	PUNCT	O	-	O
 »	»	PUNCT	O	-	O
+
 DÉNOUEMENT	dénouement	PROPN	O	-	O
+
 En	en	ADP	O	-	O
 prononçant	prononcer	VERB	O	-	O
 ce	ce	DET	O	-	O
@@ -8242,6 +8510,7 @@ théorie	théorie	NOUN	O	-	O
 aux	à	ADP	O	-	O
 actes	acte	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Son	son	DET	O	{150}	O
 grand	grand	ADJ	O	-	PSY_FEAT
 front	front	NOUN	O	-	O
@@ -8275,6 +8544,7 @@ doute	doute	NOUN	O	-	O
 cet	ce	DET	O	-	O
 égard	égard	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 tandis	tandis	ADV	O	-	O
 qu	qu	SCONJ	O	-	O
@@ -8321,6 +8591,7 @@ plus	plus	ADV	O	-	O
 sublimes	sublime	ADJ	O	-	O
 obscurités	obscurité	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Quant	quant	ADV	O	-	O
 au	au	ADP	O	-	O
 gentleman	gentleman	ADJ	O	-	O
@@ -8400,6 +8671,7 @@ présidence	présidence	NOUN	O	-	O
 du	de	ADP	O	-	O
 directeur	directeur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Une	un	DET	O	-	O
 rapide	rapide	ADJ	O	-	PSY_FEAT
 analyse	analyse	NOUN	O	-	O
@@ -8420,6 +8692,7 @@ soumise	soumettre	VERB	O	-	O
 la	le	DET	O	-	O
 délibération	délibération	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 n	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -8448,6 +8721,7 @@ philosophes	philosophe	NOUN	O	-	O
 du	de	ADP	O	-	O
 jour	jour	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 jugea	juger	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -8495,6 +8769,7 @@ l	l	DET	O	-	O
 extrême	extrême	ADJ	O	-	PSY_FEAT
 avenir	avenir	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 La	le	DET	O	-	O
 prétention	prétention	NOUN	O	-	O
 émise	émettre	VERB	O	-	O
@@ -8527,6 +8802,7 @@ de	de	ADP	O	-	O
 nos	notre	DET	O	-	O
 moeurs	moeurs	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
@@ -8548,6 +8824,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 évaporation	évaporation	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 D	d	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 après	après	ADP	O	-	O
@@ -8581,6 +8858,7 @@ glacées	glacé	ADJ	O	-	O
 et	et	CCONJ	O	-	O
 circulaires	circulaire	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 il	il	PRON	O	-	O
 n	n	ADJ	O	-	O
@@ -8599,6 +8877,7 @@ d	d	ADP	O	-	O
 indispensable	indispensable	ADJ	O	-	O
 prophylaxie	prophylaxie	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 L	l	DET	O	{155}	O
 '	'	PUNCT	O	-	O
 Etablissement	etablissement	NOUN	O	-	O
@@ -8608,6 +8887,7 @@ de	de	ADP	O	-	O
 tragiques	tragique	ADJ	O	-	PSY_FEAT
 rumeurs	rumeur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Des	un	DET	O	-	O
 employés	employé	NOUN	O	-	O
 pâles	pâle	ADJ	O	-	O
@@ -8615,6 +8895,7 @@ et	et	CCONJ	O	-	O
 tremblants	tremblant	ADJ	O	-	O
 accoururent	accourir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	B-PER	{11}	O
 Penseur	penseur	NOUN	I-PER	-	O
 ,	,	PUNCT	O	-	O
@@ -8635,6 +8916,7 @@ de	de	ADP	O	-	O
 ses	son	DET	O	-	O
 surveillants	surveillant	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 venait	venir	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -8660,6 +8942,7 @@ la	le	DET	O	-	O
 maison	maison	NOUN	O	{155}	O
 sanitaire	sanitaire	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Deux	deux	NUM	O	-	O
 secondes	seconde	NOUN	O	-	O
 plus	plus	ADV	O	-	O
@@ -8675,6 +8958,7 @@ apparence	apparence	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
 complète	complet	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 infortuné	infortuné	ADV	O	-	O
@@ -8716,6 +9000,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 anthropomorphisme	anthropomorphisme	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Dès	dès	ADP	O	-	O
 ce	ce	DET	O	-	O
 récit	récit	NOUN	O	-	O
@@ -8770,3 +9055,4 @@ procédé	procéder	VERB	O	-	O
 de	de	ADP	O	-	O
 clarté	clarté	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+

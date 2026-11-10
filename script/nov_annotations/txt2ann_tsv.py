@@ -22,33 +22,21 @@ nlp = spacy.load("fr_core_news_sm")
 # ============================================================
 
 def load_tsv(tsv_path):
-    """
-    Récupère les deux premières colonnes :
-    - Colonne 0 : token
-    - Colonne 1 : lemme
-
-    Conserve la segmentation et les fins de phrases.
-    """
-
     tokens = []
 
-    with open(tsv_path, "r", encoding="utf-8") as f:
-
+    with open(tsv_path, "r", encoding="utf-8", newline="") as f:
         for line in f:
+            line = line.rstrip("\r\n")
 
-            line = line.rstrip("\n\r")
-
-            if not line:
-                if tokens:
-                    tokens[-1]["is_sent_end"] = True
+            if line == "":
+                tokens.append(None)
                 continue
 
             parts = line.split("\t")
 
             tokens.append({
                 "text": parts[0],
-                "lemma": parts[1],
-                "is_sent_end": False
+                "lemma": parts[1]
             })
 
     return tokens
@@ -193,65 +181,57 @@ def assign_columns(token_span_indices, num_cols=3):
 
 def write_bio(tokens, spans, bio_path, num_cols=3):
 
+    real_tokens = [tok for tok in tokens if tok is not None]
+
     token_span_indices = []
     token_span_labels = []
 
-    # Conversion des spans en indices de tokens
     for start, end, novum_text in spans:
 
         matched_indices = list(range(start, end + 1))
 
         if matched_indices:
-
-            labels = (
-                ["B-NOV"]
-                + ["I-NOV"] * (len(matched_indices) - 1)
-            )
+            labels = ["B-NOV"] + ["I-NOV"] * (len(matched_indices) - 1)
 
             token_span_indices.append(matched_indices)
             token_span_labels.append(labels)
 
-    # Attribution des spans aux colonnes
     assignments = assign_columns(token_span_indices, num_cols)
 
-    # Création de la grille BIO
     grille = [
-        ["O"] * len(tokens)
+        ["O"] * len(real_tokens)
         for _ in range(num_cols)
     ]
 
     for span_idx, col_idx in assignments:
-
         for tok_idx, label in zip(
             token_span_indices[span_idx],
             token_span_labels[span_idx]
         ):
-
             grille[col_idx][tok_idx] = label
 
-    # Écriture du TSV
-    with open(bio_path, "w", encoding="utf-8") as f:
+    with open(bio_path, "w", encoding="utf-8", newline="") as f:
 
-        for i, tok in enumerate(tokens):
+        token_idx = 0
+
+        for tok in tokens:
+
+            if tok is None:
+                f.write("\n")
+                continue
 
             nov_cols = [
-                grille[col][i]
+                grille[col][token_idx]
                 for col in range(num_cols)
             ]
 
-            # 5 colonnes :
-            # Token | Lemme | NOV1 | NOV2 | NOV3
             f.write(
                 f"{tok['text']}\t"
                 f"{tok['lemma']}\t"
                 f"{'\t'.join(nov_cols)}\n"
             )
 
-            # Conservation des séparateurs de phrases
-            if tok["is_sent_end"]:
-                f.write("\n")
-
-        f.write("\n")
+            token_idx += 1
 
 
 # ============================================================
@@ -315,8 +295,10 @@ for subdir in os.listdir(FEAT_DIR):
             novums_raw.append(novum.lower())
 
         # Recherche des occurrences dans le texte
+        real_tokens = [tok for tok in tokens if tok is not None]
+
         spans = find_novum_spans(
-            tokens,
+            real_tokens,
             novums_lemma,
             novums_raw,
             max_gap=MAX_GAP

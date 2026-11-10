@@ -8,6 +8,7 @@ Paris	paris	PROPN	O	{0}	O
 mars	mars	NOUN	O	-	O
 1881	1881	NUM	O	-	O
 .	.	PUNCT	O	-	O
+
 «	«	PUNCT	O	-	O
 Monsieur	monsieur	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -73,6 +74,7 @@ rois	roi	NOUN	O	-	O
 et	et	CCONJ	O	-	O
 Nériglissor	nériglissor	PROPN	B-PER	{6}	O
 .	.	PUNCT	O	-	O
+
 «	«	PUNCT	O	-	O
 Il	il	PRON	O	-	O
 est	être	AUX	O	-	O
@@ -123,6 +125,7 @@ l	l	DET	O	{8}	O
 '	'	PUNCT	O	-	O
 Étrurie	étrurie	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	{9}	O
 Tables	table	ADJ	O	-	O
 Eugubines	eugubines	PROPN	O	-	O
@@ -158,6 +161,7 @@ les	le	DET	O	-	O
 sociétés	société	NOUN	O	-	O
 étrusques	étrusque	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Au	au	ADP	O	-	O
 surplus	surplu	ADJ	O	-	O
 ,	,	PUNCT	O	-	O
@@ -205,6 +209,7 @@ son	son	DET	O	-	O
 magnifique	magnifique	ADJ	O	-	PSY_FEAT
 développement	développement	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 suis	être	AUX	O	-	O
 comme	comme	ADP	O	-	O
@@ -255,6 +260,7 @@ approximation	approximation	NOUN	O	-	O
 plus	plus	ADV	O	-	O
 étroite	étroite	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -316,6 +322,7 @@ l	l	DET	O	{12}	O
 empire	empire	NOUN	O	-	O
 babylonien	babylonien	ADJ	O	{12}	O
 .	.	PUNCT	O	-	O
+
 «	«	PUNCT	O	-	O
 Voué	vouer	ADJ	O	-	O
 moi	moi	PRON	O	-	O
@@ -409,6 +416,7 @@ l	l	DET	O	-	O
 histoire	histoire	NOUN	O	-	O
 universelle	universel	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 «	«	PUNCT	O	-	O
 Tous	tout	ADJ	O	-	O
 les	le	DET	O	-	O
@@ -438,6 +446,7 @@ dors	dormir	VERB	O	-	O
 presque	presque	ADV	O	-	O
 pas	pas	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 «	«	PUNCT	O	-	O
 Dans	dans	ADP	O	-	O
 l	l	DET	O	-	O
@@ -509,6 +518,7 @@ n°	numéro	NOUN	O	-	O
 14	14	NUM	O	-	O
 .	.	PUNCT	O	-	O
 »	»	PUNCT	O	-	O
+
 Joseph	joseph	PROPN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 (	(	PUNCT	O	-	O
@@ -520,8 +530,10 @@ et	et	CCONJ	O	-	O
 Garonne	garonne	PROPN	O	-	O
 )	)	PUNCT	O	-	O
 ...	...	PUNCT	O	-	O
+
 Comment	comment	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 quand	quand	SCONJ	O	-	O
 ma	mon	DET	O	-	O
 plume	plume	NOUN	O	-	O
@@ -585,6 +597,7 @@ voler	voler	VERB	O	-	O
 ma	mon	DET	O	-	O
 question	question	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Car	car	CCONJ	O	-	O
 elle	lui	PRON	O	-	O
 est	être	AUX	O	-	O
@@ -605,6 +618,7 @@ l	l	DET	O	-	O
 avais	avoir	AUX	O	-	O
 inventée	inventer	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 n	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -625,6 +639,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 histoire	histoire	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Que	que	SCONJ	O	-	O
 deviendra	devenir	VERB	O	-	O
 l	l	DET	O	-	O
@@ -666,6 +681,7 @@ de	de	ADP	O	-	O
 nobles	noble	ADJ	O	-	PSY_FEAT
 erreurs	erreur	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Durand	durand	PROPN	B-PER	{18}	O
 (	(	PUNCT	O	-	O
 de	de	ADP	O	-	O
@@ -673,12 +689,14 @@ Tarn	tarn	PROPN	O	{19}	O
 -	-	PUNCT	O	-	O
 et	et	CCONJ	O	-	O
 -	-	PUNCT	O	-	O
+
 Garonne	garonne	PROPN	O	{19}	O
 )	)	PUNCT	O	-	O
 est	être	AUX	O	-	O
 un	un	DET	O	-	O
 misérable	misérable	ADJ	O	-	PSY_FEAT
 ...	...	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 ,	,	PUNCT	O	-	O
 pensai	penser	PROPN	O	-	O
@@ -717,6 +735,7 @@ de	de	ADP	O	-	O
 son	son	DET	O	-	O
 fait	faire	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 alors	alors	ADV	O	-	O
 peut	pouvoir	VERB	O	-	O
@@ -752,6 +771,7 @@ l	l	DET	O	{24}	O
 '	'	PUNCT	O	-	O
 Institut	institut	PROPN	O	-	O
 !	!	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 voilà	voilà	VERB	O	-	O
 comment	comment	ADV	O	-	O
@@ -794,6 +814,7 @@ dans	dans	ADP	O	-	O
 ma	mon	DET	O	-	O
 vie	vie	NOUN	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 M.	m.	NOUN	B-PER	{18}	O
 Joseph	joseph	PROPN	I-PER	-	O
@@ -813,6 +834,7 @@ il	il	PRON	O	-	O
 vous	vous	PRON	O	-	O
 plaît	plaire	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 portier	portier	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -843,6 +865,7 @@ et	et	CCONJ	O	-	O
 de	de	ADP	O	-	O
 commisération	commisération	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Vous	vous	PRON	O	-	O
 voulez	vouloir	VERB	O	-	O
@@ -850,27 +873,33 @@ voir	voir	VERB	O	-	O
 M.	m.	NOUN	B-PER	{18}	O
 Joseph	joseph	PROPN	I-PER	-	O
 ?	?	PUNCT	O	-	O
+
 me	me	PRON	O	-	O
 dit	dire	VERB	O	-	O
 -	-	PUNCT	O	-	O
 il	il	PRON	O	{25}	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Joseph	joseph	PROPN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Joseph	joseph	PROPN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 De	de	ADP	O	-	O
 Tarn	tarn	PROPN	O	{19}	O
 -	-	PUNCT	O	-	O
 et	et	CCONJ	O	-	O
 -	-	PUNCT	O	-	O
+
 Garonne	garonne	PROPN	O	{19}	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 De	de	ADP	O	-	O
 Tarn	tarn	PROPN	O	{19}	O
@@ -879,12 +908,14 @@ et	et	CCONJ	O	-	O
 -	-	PUNCT	O	-	O
 Garonne	garonne	PROPN	O	-	O
 ?	?	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
 bien	bien	ADV	O	-	O
 ici	ici	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Dans	dans	ADP	O	-	O
 la	le	DET	O	-	O
 deuxième	deuxième	ADJ	O	-	O
@@ -906,6 +937,7 @@ corridor	corridor	NOUN	O	{27}	O
 en	en	ADP	O	-	O
 face	face	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 traversai	traversai	NOUN	O	-	O
 la	le	DET	O	-	O
@@ -951,6 +983,7 @@ elle	lui	PRON	O	-	O
 était	être	AUX	O	-	O
 indescriptible	indescriptible	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Malgré	malgré	ADP	O	-	O
 l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
@@ -1029,6 +1062,7 @@ Homme	homme	NOUN	O	-	O
 de	de	ADP	O	-	O
 lettres	lettre	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 J	j	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 entendis	entendre	VERB	O	-	O
@@ -1080,6 +1114,7 @@ Garonne	garonne	PROPN	O	-	O
 )	)	PUNCT	O	-	O
 »	»	PUNCT	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 dis	dire	VERB	O	-	O
 le	le	DET	O	{31}	O
@@ -1101,6 +1136,7 @@ des	un	DET	O	-	O
 moins	moins	ADV	O	-	O
 étranges	étrange	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Figurez	figurez	NOUN	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
@@ -1165,6 +1201,7 @@ que	que	SCONJ	O	-	O
 les	le	DET	O	-	O
 autres	autre	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Au	au	ADP	O	-	O
 sommet	sommet	NOUN	O	-	O
 de	de	ADP	O	-	O
@@ -1229,6 +1266,7 @@ souvent	souvent	ADV	O	-	O
 la	le	DET	O	-	O
 folie	folie	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Deux	deux	NUM	O	{35}	O
 joues	joue	NOUN	O	-	O
 vides	vide	ADJ	O	-	PSY_FEAT
@@ -1272,6 +1310,7 @@ des	un	DET	O	-	O
 gencives	gencive	ADJ	O	{36}	O
 désertes	désert	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{37}	O
 tranchant	trancher	VERB	O	-	O
 de	de	ADP	O	-	O
@@ -1320,6 +1359,7 @@ alors	alors	ADV	O	-	O
 moins	moins	ADV	O	-	O
 flasques	flasque	ADJ	O	-	PSY_FEAT
 !	!	PUNCT	O	-	O
+
 La	le	DET	O	{39}	O
 coiffure	coiffure	NOUN	O	-	O
 et	et	CCONJ	O	-	O
@@ -1338,6 +1378,7 @@ que	que	SCONJ	O	-	O
 sa	son	DET	O	-	O
 figure	figurer	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 De	de	ADP	O	{40}	O
 longs	long	ADJ	O	-	O
 cheveux	cheveu	NOUN	O	-	O
@@ -1385,6 +1426,7 @@ plus	plus	ADV	O	-	O
 vieil	vieux	ADJ	O	-	PSY_FEAT
 ivoire	ivoir	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{42}	O
 pantalon	pantalon	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -1440,6 +1482,7 @@ autre	autre	ADJ	O	-	O
 ,	,	PUNCT	O	-	O
 rouge	rouge	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	{44}	O
 pieds	pied	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -1475,6 +1518,7 @@ d	d	ADP	O	-	O
 estafilades	estafilade	NOUN	O	-	O
 piteuses	piteux	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Enfin	enfin	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 par	par	ADP	O	-	O
@@ -1576,6 +1620,7 @@ Durand	durand	PROPN	I-PER	-	O
 142	142	NUM	O	-	O
 francs	franc	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 J	j	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 ai	avoir	AUX	O	-	O
@@ -1633,6 +1678,7 @@ les	le	DET	O	-	O
 gens	gens	NOUN	O	-	O
 graves	grave	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Cependant	cependant	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 je	je	PRON	O	-	O
@@ -1646,6 +1692,7 @@ coup	coup	NOUN	O	-	O
 je	je	PRON	O	-	O
 chancelai	chancelai	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Partir	partir	ADJ	O	-	O
 de	de	ADP	O	-	O
 chez	chez	ADP	O	-	O
@@ -1724,6 +1771,7 @@ de	de	ADP	O	-	O
 rien	rien	PRON	O	-	O
 »	»	PUNCT	O	-	O
 .	.	PUNCT	O	-	O
+
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 homme	homme	NOUN	O	-	O
@@ -1745,6 +1793,7 @@ extra	extrer	VERB	O	-	O
 -	-	PUNCT	O	-	O
 humaine	humain	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 La	le	DET	O	-	O
 vieillesse	vieilless	ADJ	O	-	O
 et	et	CCONJ	O	-	O
@@ -1757,6 +1806,7 @@ comment	comment	ADV	O	-	O
 dire	dire	VERB	O	-	O
 cela	celer	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 griffonnés	griffonner	VERB	O	-	O
 dans	dans	ADP	O	-	O
@@ -1831,6 +1881,7 @@ passer	passer	VERB	O	-	O
 par	par	ADP	O	-	O
 là	là	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Cependant	cependant	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 j	j	PRON	O	-	O
@@ -1851,10 +1902,12 @@ de	de	ADP	O	-	O
 courte	court	ADJ	O	-	O
 durée	durée	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 beau	beau	ADJ	O	-	PSY_FEAT
 miracle	miracle	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 me	me	PRON	O	-	O
 disais	dire	VERB	O	-	O
 -	-	PUNCT	O	-	O
@@ -1872,6 +1925,7 @@ original	original	ADJ	O	-	PSY_FEAT
 voilà	voilà	VERB	O	-	O
 tout	tout	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 encore	encore	ADV	O	-	O
 ,	,	PUNCT	O	-	O
@@ -1932,6 +1986,7 @@ un	un	DET	O	-	O
 syllogisme	syllogisme	NOUN	O	-	O
 irréprochable	irréprochable	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Ai	ai	PROPN	O	-	O
 -	-	PUNCT	O	-	O
 je	je	PRON	O	-	O
@@ -1968,6 +2023,7 @@ sa	son	DET	O	-	O
 santé	santé	NOUN	O	{57}	O
 »	»	PUNCT	O	-	O
 ?	?	PUNCT	O	-	O
+
 Que	que	SCONJ	O	-	O
 de	de	ADP	O	-	O
 choses	chose	NOUN	O	-	O
@@ -2001,6 +2057,7 @@ yeux	oeil	NOUN	O	-	O
 du	de	ADP	O	-	O
 monde	monde	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Envoyant	envoyer	VERB	O	-	O
 donc	donc	ADV	O	-	O
 au	au	ADP	O	-	O
@@ -2078,6 +2135,7 @@ de	de	ADP	O	-	O
 sa	son	DET	O	-	O
 lettre	lettre	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 m	m	NOUN	O	-	O
 '	'	PUNCT	O	-	O
@@ -2118,6 +2176,7 @@ un	un	DET	O	-	O
 sujet	sujet	NOUN	O	-	O
 important	important	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 demeura	demeurer	AUX	O	-	O
@@ -2210,6 +2269,7 @@ ci	ci	PRON	O	-	O
 -	-	PUNCT	O	-	O
 après	après	ADP	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Je	je	PRON	O	-	O
 vous	vous	PRON	O	-	O
@@ -2234,6 +2294,7 @@ d	d	ADP	O	-	O
 un	un	DET	O	-	O
 inconnu	inconnu	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Dans	dans	ADP	O	-	O
 les	le	DET	O	-	O
 nombreuses	nombreux	ADJ	O	-	O
@@ -2274,6 +2335,7 @@ la	le	DET	O	-	O
 plus	plus	ADV	O	-	O
 robuste	robuste	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 rien	rien	PRON	O	-	O
 ne	ne	ADV	O	-	O
@@ -2299,6 +2361,7 @@ triompher	triompher	VERB	O	-	O
 la	le	DET	O	-	O
 vérité	vérité	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Si	si	SCONJ	O	-	O
 après	après	ADP	O	-	O
 tant	tant	ADV	O	-	O
@@ -2340,6 +2403,7 @@ inanité	inanité	NOUN	O	-	O
 vraiment	vraiment	ADV	O	-	O
 idiote	idiot	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 vous	vous	PRON	O	-	O
 demande	demande	VERB	O	-	O
@@ -2382,6 +2446,7 @@ peut	pouvoir	VERB	O	-	O
 même	même	ADV	O	-	O
 ennuyeux	ennuyeux	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 si	si	SCONJ	O	-	O
 vous	vous	PRON	O	-	O
@@ -2471,6 +2536,7 @@ jamais	jamais	ADV	O	-	O
 après	après	ADP	O	-	O
 vous	vous	PRON	O	-	O
 !	!	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 commencement	commencement	ADV	O	-	O
 de	de	ADP	O	-	O
@@ -2518,6 +2584,7 @@ d	d	ADP	O	-	O
 auditeur	auditeur	NOUN	O	-	O
 convaincu	convaincre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 commençais	commencer	VERB	O	-	O
 à	à	ADP	O	-	O
@@ -2537,9 +2604,11 @@ allait	aller	VERB	O	-	O
 me	me	PRON	O	-	O
 dominer	dominer	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 reprit	reprendre	VERB	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Mais	mais	CCONJ	O	-	O
 avant	avant	ADP	O	-	O
@@ -2582,6 +2651,7 @@ de	de	ADP	O	-	O
 mon	mon	DET	O	-	O
 âme	âme	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
@@ -2638,6 +2708,7 @@ favoriser	favoriser	VERB	O	-	O
 ce	ce	DET	O	-	O
 sujet	sujet	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Eh	eh	PUNCT	O	-	O
 bien	bien	ADV	O	-	O
@@ -2666,6 +2737,7 @@ je	je	PRON	O	-	O
 suis	être	AUX	O	-	O
 fou	fou	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 fis	faire	VERB	O	-	O
 un	un	DET	O	-	O
@@ -2723,6 +2795,7 @@ Oh	oh	PRON	O	-	O
 !	!	PUNCT	O	-	O
 monsieur	monsieur	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 il	il	PRON	O	-	O
 m	m	NOUN	O	-	O
@@ -2755,9 +2828,11 @@ serais	être	AUX	O	-	O
 je	je	PRON	O	-	O
 trompé	tromper	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 aussi	aussi	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 Quoi	quoi	ADV	O	-	O
 !	!	PUNCT	O	-	O
 ce	ce	DET	O	-	O
@@ -2778,6 +2853,7 @@ arrêterait	arrêter	VERB	O	-	O
 pareille	pareil	ADJ	O	-	O
 vétille	vétille	PROPN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Que	que	SCONJ	O	-	O
 je	je	PRON	O	-	O
 sois	être	AUX	O	-	O
@@ -2792,8 +2868,10 @@ avez	avoir	AUX	O	-	O
 vous	vous	PRON	O	-	O
 pas	pas	ADV	O	-	O
 assez	assez	ADV	O	-	O
+
 20	20	NUM	O	-	O
 .	.	PUNCT	O	-	O
+
 de	de	ADP	O	-	O
 sens	sens	NOUN	O	-	O
 pour	pour	ADP	O	-	O
@@ -2815,6 +2893,7 @@ ou	ou	CCONJ	O	-	O
 du	de	ADP	O	-	O
 génie	génie	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Que	que	SCONJ	O	-	O
 vous	vous	PRON	O	-	O
 importe	importer	VERB	O	-	O
@@ -2830,8 +2909,10 @@ liqueur	liqueur	NOUN	O	-	O
 est	être	AUX	O	-	O
 bonne	bon	ADJ	O	-	PSY_FEAT
 ?	?	PUNCT	O	-	O
+
 Fi	fi	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 monsieur	monsieur	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
 n	n	ADJ	O	-	O
@@ -2874,6 +2955,7 @@ et	et	CCONJ	O	-	O
 vos	votre	DET	O	-	O
 philosophes	philosophe	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Laissez	laisser	VERB	O	-	O
 aux	à	ADP	O	-	O
 épiciers	épicier	NOUN	O	-	O
@@ -2926,6 +3008,7 @@ ces	ce	DET	O	-	O
 classifications	classification	NOUN	O	-	O
 ridicules	ridicule	ADJ	O	-	PSY_FEAT
 ?	?	PUNCT	O	-	O
+
 Elle	lui	PRON	O	-	O
 crée	créer	VERB	O	-	O
 des	un	DET	O	-	O
@@ -2974,6 +3057,7 @@ la	le	DET	O	-	O
 biologie	biologie	NOUN	O	-	O
 universelle	universel	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 De	de	ADP	O	-	O
 même	même	ADV	O	-	O
 pour	pour	ADP	O	-	O
@@ -3020,6 +3104,7 @@ les	le	DET	O	-	O
 corps	corps	NOUN	O	{76}	O
 vivants	vivant	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Non	non	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 monsieur	monsieur	NOUN	O	-	O
@@ -3140,6 +3225,7 @@ un	un	DET	O	-	O
 instant	instant	NOUN	O	-	O
 éblouie	éblouir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 les	le	DET	O	-	O
 choses	chose	NOUN	O	-	O
@@ -3214,6 +3300,7 @@ driez	drier	VERB	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Monsieur	monsieur	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -3240,6 +3327,7 @@ je	je	PRON	O	-	O
 vous	vous	PRON	O	-	O
 écoute	écoute	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 me	me	PRON	O	-	O
 suis	être	AUX	O	-	O
@@ -3304,6 +3392,7 @@ qu	qu	SCONJ	O	-	O
 en	en	ADP	O	-	O
 raisonnant	raisonner	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 On	on	PRON	O	-	O
 ne	ne	ADV	O	-	O
@@ -3318,6 +3407,7 @@ répondit	répondre	VERB	O	-	O
 -	-	PUNCT	O	-	O
 il	il	PRON	O	-	O
 .	.	PUNCT	O	-	O
+
 Ce	ce	PRON	O	-	O
 que	que	SCONJ	O	-	O
 le	le	DET	O	-	O
@@ -3406,16 +3496,19 @@ viennent	venir	VERB	O	-	O
 me	me	PRON	O	-	O
 voir	voir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 avez	avoir	AUX	O	-	O
 dû	devoir	VERB	O	-	O
 ...	...	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 M	m	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 en	en	ADP	O	-	O
 apercevoir	apercevoir	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 Voilà	voilà	VERB	O	-	O
 donc	donc	ADV	O	-	O
 pourquoi	pourquoi	ADV	O	-	O
@@ -3431,11 +3524,13 @@ un	un	DET	O	-	O
 air	air	NOUN	O	-	O
 singulier	singulier	ADJ	O	-	PSY_FEAT
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Voyez	voir	VERB	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
 !	!	PUNCT	O	-	O
+
 là	là	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 qu	qu	SCONJ	O	-	O
@@ -3448,9 +3543,11 @@ je	je	PRON	O	-	O
 vous	vous	PRON	O	-	O
 disais	dire	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	{85}	O
 baste	baste	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 laissons	laisser	VERB	O	-	O
 les	le	DET	O	-	O
 crétins	crétin	NOUN	O	-	O
@@ -3466,6 +3563,7 @@ de	de	ADP	O	-	O
 notre	notre	DET	O	-	O
 affaire	affaire	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Pour	pour	ADP	O	-	O
 commencer	commencer	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -3528,6 +3626,7 @@ explicites	explicite	ADJ	O	-	PSY_FEAT
 et	et	CCONJ	O	-	O
 décisifs	décisif	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Avant	avant	ADP	O	-	O
 d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
@@ -3589,6 +3688,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 histoire	histoire	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Pour	pour	ADP	O	-	O
 moi	moi	PRON	O	-	O
 ,	,	PUNCT	O	-	O
@@ -3670,6 +3770,7 @@ y	y	PRON	O	-	O
 manquent	manquer	VERB	O	-	O
 également	également	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Cela	celer	PRON	O	-	O
 ,	,	PUNCT	O	-	O
 je	je	PRON	O	-	O
@@ -3713,6 +3814,7 @@ découvrir	découvrir	VERB	O	-	O
 la	le	DET	O	-	O
 raison	raison	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 effet	effet	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -3763,6 +3865,7 @@ qu	qu	SCONJ	O	-	O
 un	un	DET	O	-	O
 pas	pas	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Au	au	ADP	O	-	O
 fond	fond	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -3825,6 +3928,7 @@ pour	pour	ADP	O	-	O
 les	le	DET	O	-	O
 justifier	justifier	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Entre	entrer	ADP	O	-	O
 Louis	louis	PROPN	B-PER	{93}	O
 Blanc	blanc	PROPN	I-PER	-	O
@@ -3875,6 +3979,7 @@ intérêt	intérêt	NOUN	O	-	O
 à	à	ADP	O	-	O
 choisir	choisir	VERB	O	-	O
 ...	...	PUNCT	O	-	O
+
 Sans	sans	ADP	O	-	O
 doute	doute	NOUN	O	-	O
 la	le	DET	O	-	O
@@ -3912,6 +4017,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 autre	autre	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 quand	quand	SCONJ	O	-	O
 je	je	PRON	O	-	O
@@ -3964,6 +4070,7 @@ des	un	DET	O	-	O
 ouvrages	ouvrage	NOUN	O	-	O
 précédents	précédent	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Après	après	ADP	O	-	O
 être	être	AUX	O	-	O
 resté	rester	VERB	O	-	O
@@ -4020,6 +4127,7 @@ dans	dans	ADP	O	-	O
 sa	son	DET	O	-	O
 réalité	réalité	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 En	en	ADP	O	-	O
 effet	effet	NOUN	O	-	O
@@ -4066,6 +4174,7 @@ de	de	ADP	O	-	O
 leur	son	DET	O	-	O
 passage	passage	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Je	je	PRON	O	-	O
 ne	ne	ADV	O	-	O
@@ -4133,6 +4242,7 @@ traditions	tradition	NOUN	O	-	O
 des	un	DET	O	-	O
 hommes	homme	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Pas	pas	AUX	O	-	O
 plus	plus	ADV	O	-	O
 que	que	SCONJ	O	-	O
@@ -4170,6 +4280,7 @@ l	l	DET	O	-	O
 âme	âme	PROPN	O	-	O
 universelle	universel	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Ils	il	PRON	O	-	O
 sont	être	AUX	O	-	O
 donc	donc	ADV	O	-	O
@@ -4237,6 +4348,7 @@ pas	pas	ADV	O	-	O
 les	le	DET	O	-	O
 atteindre	atteindre	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Par	par	ADP	O	-	O
 la	le	DET	O	-	O
@@ -4256,6 +4368,7 @@ par	par	ADP	O	-	O
 les	le	DET	O	-	O
 sens	sens	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Oui	oui	ADV	O	-	O
 ...	...	PUNCT	O	-	O
@@ -4267,6 +4380,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 objection	objection	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 faut	falloir	VERB	O	-	O
 qu	qu	SCONJ	O	-	O
@@ -4292,6 +4406,7 @@ vingt	vingt	NUM	O	{103}	O
 cinq	cinq	NUM	O	{104}	O
 ans	an	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Comment	comment	ADV	O	-	O
 !	!	PUNCT	O	-	O
@@ -4309,6 +4424,7 @@ objection	objection	NOUN	O	-	O
 -	-	PUNCT	O	-	O
 là	là	ADV	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Oui	oui	ADV	O	-	O
 ,	,	PUNCT	O	-	O
@@ -4353,6 +4469,7 @@ ondulations	ondulation	NOUN	O	-	O
 de	de	ADP	O	-	O
 lumière	lumière	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 La	le	DET	O	-	O
 théorie	théorie	NOUN	O	-	O
@@ -4362,11 +4479,13 @@ de	de	ADP	O	-	O
 la	le	DET	O	-	O
 lumière	lumière	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Oui	oui	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 monsieur	monsieur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Mais	mais	CCONJ	O	-	O
 quel	quel	ADJ	O	-	O
@@ -4383,6 +4502,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 histoire	histoire	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Celui	celui	PRON	O	-	O
 qu	qu	SCONJ	O	-	O
@@ -4418,6 +4538,7 @@ perçoit	percevoir	VERB	O	-	O
 la	le	DET	O	-	O
 sensation	sensation	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Comment	comment	ADV	O	-	O
 s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
@@ -4425,9 +4546,11 @@ appelle	appeler	VERB	O	-	O
 ce	ce	DET	O	-	O
 rapport	rapport	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 la	le	DET	O	{107}	O
 vision	vision	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Mais	mais	CCONJ	O	-	O
 pour	pour	ADP	O	-	O
@@ -4443,6 +4566,7 @@ un	un	DET	O	-	O
 objet	objet	NOUN	O	{108}	O
 réel	réel	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Je	je	PRON	O	-	O
 vous	vous	PRON	O	-	O
@@ -4455,12 +4579,14 @@ des	un	DET	O	-	O
 objets	objet	NOUN	O	-	O
 réels	réel	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Même	même	ADV	O	-	O
 les	le	DET	O	-	O
 faits	fait	NOUN	O	-	O
 passés	passer	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Même	même	ADV	O	-	O
 les	le	DET	O	-	O
@@ -4472,6 +4598,7 @@ je	je	PRON	O	-	O
 le	le	DET	O	-	O
 prouve	prouver	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 reconnaissez	reconnaître	VERB	O	-	O
 qu	qu	SCONJ	O	-	O
@@ -4528,11 +4655,13 @@ est	être	AUX	O	-	O
 ce	ce	DET	O	-	O
 pas	pas	ADV	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Je	je	PRON	O	-	O
 le	le	DET	O	-	O
 reconnais	reconnaître	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Vous	vous	PRON	O	-	O
 le	le	DET	O	-	O
@@ -4540,6 +4669,7 @@ reconnaissez	reconnaître	VERB	O	-	O
 :	:	PUNCT	O	-	O
 bon	bon	ADJ	O	-	PSY_FEAT
 !	!	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 vous	vous	PRON	O	-	O
 êtes	être	AUX	O	-	O
@@ -4567,6 +4697,7 @@ perçues	percevoir	VERB	O	-	O
 au	au	ADP	O	-	O
 passage	passage	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 N	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -4600,6 +4731,7 @@ droite	droite	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
 indéfiniment	indéfiniment	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Indéfiniment	indéfiniment	PROPN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -4637,6 +4769,7 @@ les	le	DET	O	-	O
 perçoit	percevoir	VERB	O	-	O
 pas	pas	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Mais	mais	CCONJ	O	-	O
 si	si	SCONJ	O	-	O
@@ -4654,6 +4787,7 @@ peuvent	pouvoir	VERB	O	-	O
 elles	lui	PRON	O	-	O
 aller	aller	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Aussi	aussi	ADV	O	-	O
 loin	loin	ADV	O	-	O
@@ -4672,6 +4806,7 @@ pour	pour	ADP	O	-	O
 se	se	PRON	O	-	O
 propager	propager	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Et	et	CCONJ	O	-	O
 alors	alors	ADV	O	-	O
@@ -4773,6 +4908,7 @@ les	le	DET	O	-	O
 espaces	espace	NOUN	O	-	O
 interplanétaires	interplanétaire	ADJ	O	-	O
 ?	?	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 là	là	ADV	O	-	O
 que	que	SCONJ	O	-	O
@@ -4780,11 +4916,13 @@ font	faire	VERB	O	-	O
 -	-	PUNCT	O	-	O
 elles	lui	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 Sont	être	AUX	O	-	O
 -	-	PUNCT	O	-	O
 elles	lui	PRON	O	-	O
 immobiles	immobile	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Rien	rien	PRON	O	-	O
 n	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -4793,12 +4931,14 @@ pu	pouvoir	VERB	O	-	O
 les	le	DET	O	-	O
 arrêter	arrêter	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Sont	être	AUX	O	-	O
 -	-	PUNCT	O	-	O
 elles	lui	PRON	O	-	O
 devenues	devenir	VERB	O	-	O
 imperceptibles	imperceptible	ADJ	O	-	O
 ?	?	PUNCT	O	-	O
+
 Rien	rien	PRON	O	-	O
 n	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -4807,6 +4947,7 @@ pu	pouvoir	VERB	O	-	O
 les	le	DET	O	-	O
 réduire	réduire	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Elles	lui	PRON	O	{116}	O
 sont	être	AUX	O	-	O
 dans	dans	ADP	O	-	O
@@ -4818,6 +4959,7 @@ libre	libre	ADJ	O	-	PSY_FEAT
 et	et	CCONJ	O	-	O
 neutre	neutre	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Elles	lui	PRON	O	-	O
 y	y	PRON	O	-	O
 marchent	marcher	VERB	O	-	O
@@ -4867,6 +5009,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 infini	infini	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 avec	avec	ADP	O	-	O
 les	le	DET	O	-	O
@@ -4889,6 +5032,7 @@ tous	tout	ADJ	O	-	O
 leurs	leur	DET	O	-	O
 actes	acte	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Levez	lever	VERB	O	-	O
 donc	donc	ADV	O	-	O
 les	le	DET	O	-	O
@@ -4951,12 +5095,14 @@ de	de	ADP	O	-	O
 la	le	DET	O	-	O
 terre	terre	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 se	se	PRON	O	-	O
 fit	faire	VERB	O	-	O
 un	un	DET	O	-	O
 silence	silence	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 ,	,	PUNCT	O	-	O
@@ -4991,6 +5137,7 @@ m	m	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 interroger	interroger	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 J	j	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 étais	être	AUX	O	-	O
@@ -5033,6 +5180,7 @@ battre	battre	VERB	O	-	O
 le	le	DET	O	-	O
 coeur	coeur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Ne	ne	ADV	O	-	O
 voulant	vouloir	VERB	O	-	O
 pas	pas	ADV	O	-	O
@@ -5051,6 +5199,7 @@ hasarder	hasarder	ADJ	O	-	O
 une	un	DET	O	-	O
 objection	objection	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Mais	mais	CCONJ	O	-	O
 ,	,	PUNCT	O	-	O
@@ -5147,6 +5296,7 @@ elle	lui	PRON	O	-	O
 toutes	tout	ADJ	O	-	O
 les	le	DET	O	-	O
 précédentes	précédent	ADJ	O	-	O
+
 —	—	PUNCT	O	-	O
 Vous	vous	PRON	O	-	O
 oubliez	oublier	VERB	O	-	O
@@ -5229,6 +5379,7 @@ sais	savoir	VERB	O	-	O
 quelle	quel	DET	O	-	O
 direction	direction	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Or	or	CCONJ	O	-	O
 comme	comme	ADP	O	-	O
 la	le	DET	O	{119}	O
@@ -5300,6 +5451,7 @@ s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
 éloignent	éloigner	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Ces	ce	DET	O	{123}	O
 tangentes	tangent	ADJ	O	-	O
 trouvent	trouver	VERB	O	-	O
@@ -5345,6 +5497,7 @@ se	se	PRON	O	-	O
 croisent	croiser	VERB	O	-	O
 encore	encore	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -5361,6 +5514,7 @@ un	un	DET	O	-	O
 détail	détail	NOUN	O	-	O
 insignifiant	insignifiant	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Mais	mais	CCONJ	O	-	O
 ,	,	PUNCT	O	-	O
@@ -5389,6 +5543,7 @@ celle	celui	PRON	O	-	O
 là	là	ADV	O	-	O
 insurmontable	insurmontable	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Si	si	SCONJ	O	-	O
 vous	vous	PRON	O	-	O
 pouviez	pouvoir	VERB	O	-	O
@@ -5468,6 +5623,7 @@ trouver	trouver	VERB	O	-	O
 vos	votre	DET	O	-	O
 yeux	oeil	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
@@ -5486,6 +5642,7 @@ encore	encore	ADV	O	-	O
 plusieurs	plusieurs	DET	O	-	O
 choses	chose	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 D	d	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 abord	abord	ADV	O	-	O
@@ -5508,6 +5665,7 @@ devant	devant	ADP	O	-	O
 nos	notre	DET	O	-	O
 yeux	oeil	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 La	le	DET	O	-	O
 condition	condition	NOUN	O	-	O
 d	d	ADP	O	-	O
@@ -5534,6 +5692,7 @@ vous	vous	PRON	O	-	O
 le	le	DET	O	-	O
 croyez	croire	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 même	même	ADV	O	-	O
 en	en	ADP	O	-	O
@@ -5586,6 +5745,7 @@ rebrousséraient	rebrousséraient	ADV	O	-	O
 pas	pas	ADV	O	-	O
 chemin	chemin	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Oh	oh	PRON	O	-	O
 !	!	PUNCT	O	-	O
@@ -5629,6 +5789,7 @@ vous	vous	PRON	O	-	O
 ,	,	PUNCT	O	-	O
 mais	mais	CCONJ	O	-	O
 ...	...	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Il	il	PRON	O	-	O
 n	n	ADJ	O	-	O
@@ -5647,6 +5808,7 @@ qui	qui	PRON	O	-	O
 a	avoir	AUX	O	-	O
 lieu	lieu	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Un	un	DET	O	{125}	O
 écran	écran	NOUN	O	-	O
@@ -5656,6 +5818,7 @@ l	l	DET	O	-	O
 espace	espace	NOUN	O	-	O
 planétaire	planétaire	ADJ	O	-	O
 !	!	PUNCT	O	-	O
+
 m	m	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 écriai	écrier	VERB	O	-	O
@@ -5669,6 +5832,7 @@ dans	dans	ADP	O	-	O
 le	le	DET	O	-	O
 vide	vide	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Ce	ce	PRON	O	-	O
 n	n	ADJ	O	-	O
@@ -5712,6 +5876,7 @@ pas	pas	ADV	O	-	O
 le	le	DET	O	-	O
 néant	néant	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Cette	ce	DET	O	-	O
 consistance	consistance	NOUN	O	-	O
 peut	pouvoir	VERB	O	-	O
@@ -5732,6 +5897,7 @@ ou	ou	CCONJ	O	-	O
 telle	tel	ADJ	O	-	O
 cause	cause	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 En	en	ADP	O	-	O
 tout	tout	ADV	O	-	O
@@ -5767,9 +5933,11 @@ réfléchir	réfléchir	VERB	O	-	O
 une	un	DET	O	-	O
 image	image	NOUN	O	{116}	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Comment	comment	ADV	O	-	O
 ?	?	PUNCT	O	-	O
+
 mais	mais	CCONJ	O	-	O
 comme	comme	ADP	O	-	O
 ,	,	PUNCT	O	-	O
@@ -5787,12 +5955,14 @@ air	air	NOUN	O	{127}	O
 les	le	DET	O	-	O
 réfléchit	réfléchir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 oubliez	oublier	VERB	O	-	O
 encore	encore	ADV	O	-	O
 le	le	DET	O	-	O
 mirage	mirage	NOUN	O	{128}	O
 .	.	PUNCT	O	-	O
+
 Comment	comment	ADV	O	-	O
 se	se	PRON	O	-	O
 forment	former	VERB	O	-	O
@@ -5834,6 +6004,7 @@ illusions	illusion	NOUN	O	-	O
 si	si	SCONJ	O	-	O
 complètes	complet	ADJ	O	-	O
 ?	?	PUNCT	O	-	O
+
 Par	par	ADP	O	-	O
 un	un	DET	O	-	O
 concours	concours	NOUN	O	-	O
@@ -5854,6 +6025,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 air	air	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Eh	eh	PUNCT	O	-	O
 bien	bien	ADV	O	-	O
 ,	,	PUNCT	O	-	O
@@ -5927,6 +6099,7 @@ dans	dans	ADP	O	-	O
 notre	notre	DET	O	-	O
 atmosphère	atmosphère	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Voilà	voilà	VERB	O	-	O
 ce	ce	DET	O	-	O
 que	que	SCONJ	O	-	O
@@ -5954,6 +6127,7 @@ ressusciter	ressusciter	VERB	O	-	O
 vos	votre	DET	O	-	O
 yeux	oeil	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Cette	ce	DET	O	-	O
 hypothèse	hypothèse	NOUN	O	-	O
@@ -5965,6 +6139,7 @@ un	un	DET	O	-	O
 peu	peu	ADV	O	-	O
 ému	émouvoir	VERB	O	-	O
 ...	...	PUNCT	O	-	O
+
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 se	se	PRON	O	-	O
@@ -5985,6 +6160,7 @@ placée	placer	VERB	O	-	O
 derrière	derrière	ADP	O	-	O
 lui	luire	PRON	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Vous	vous	PRON	O	-	O
 vous	vous	PRON	O	-	O
@@ -6025,6 +6201,7 @@ devant	devant	ADP	O	-	O
 un	un	DET	O	-	O
 chat	chat	NOUN	O	{131}	O
 .	.	PUNCT	O	-	O
+
 La	le	DET	O	-	O
 vérité	vérité	NOUN	O	-	O
 :	:	PUNCT	O	-	O
@@ -6042,6 +6219,7 @@ hypothèse	hypothèse	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
 21	21	NUM	O	-	O
 .	.	PUNCT	O	-	O
+
 il	il	PRON	O	-	O
 y	y	PRON	O	-	O
 a	avoir	AUX	O	-	O
@@ -6054,10 +6232,12 @@ l	l	DET	O	-	O
 allez	aller	VERB	O	-	O
 voir	voir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Veuillez	vouloir	VERB	O	-	O
 me	me	PRON	O	-	O
 suivre	suivre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 ouvrit	ouvrir	VERB	O	-	O
 la	le	DET	O	-	O
@@ -6107,6 +6287,7 @@ de	de	ADP	O	-	O
 notre	notre	DET	O	-	O
 présence	présence	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
@@ -6119,6 +6300,7 @@ dit	dire	VERB	O	-	O
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -6161,6 +6343,7 @@ de	de	ADP	O	-	O
 pur	pur	ADJ	O	-	PSY_FEAT
 rêve	rêve	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 voyez	voir	VERB	O	-	O
 là	là	ADV	O	-	O
@@ -6185,6 +6368,7 @@ vingt	vingt	NUM	O	-	O
 mille	mille	NUM	O	-	O
 hommes	homme	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -6233,6 +6417,7 @@ gaz	gaz	NOUN	O	-	O
 de	de	ADP	O	-	O
 Pictet	pictet	PROPN	B-PER	{138}	O
 .	.	PUNCT	O	-	O
+
 Après	après	ADP	O	-	O
 avoir	avoir	AUX	O	-	O
 employé	employer	VERB	O	-	O
@@ -6269,6 +6454,7 @@ que	que	SCONJ	O	-	O
 je	je	PRON	O	-	O
 cherchais	chercher	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 N	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
 ayant	avoir	AUX	O	-	O
@@ -6309,6 +6495,7 @@ sur	sur	ADP	O	-	O
 cette	ce	DET	O	-	O
 piste	piste	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 serait	être	AUX	O	-	O
 trop	trop	ADV	O	-	O
@@ -6376,6 +6563,7 @@ une	un	DET	O	-	O
 manière	manière	NOUN	O	-	O
 durable	durable	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 cet	ce	DET	O	-	O
 état	état	NOUN	O	-	O
@@ -6419,6 +6607,7 @@ beau	beau	ADJ	O	-	PSY_FEAT
 flint	flint	PROPN	O	{142}	O
 glass	glass	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 Or	or	CCONJ	O	-	O
 ,	,	PUNCT	O	-	O
 comme	comme	ADP	O	-	O
@@ -6481,6 +6670,7 @@ peu	peu	ADV	O	-	O
 près	près	ADV	O	-	O
 incalculable	incalculable	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 appareil	appareil	NOUN	O	-	O
@@ -6549,6 +6739,7 @@ rochers	rocher	NOUN	O	-	O
 des	un	DET	O	-	O
 Thermopyles	thermopyles	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 pourtant	pourtant	ADV	O	-	O
 c	c	NOUN	O	-	O
@@ -6570,6 +6761,7 @@ comme	comme	ADP	O	-	O
 vous	vous	PRON	O	-	O
 savez	savoir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Maintenant	maintenant	ADV	O	{148}	O
 ,	,	PUNCT	O	-	O
 monsieur	monsieur	NOUN	O	-	O
@@ -6594,6 +6786,7 @@ dans	dans	ADP	O	-	O
 votre	votre	DET	O	-	O
 vie	vie	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 dois	devoir	VERB	O	-	O
 d	d	ADP	O	-	O
@@ -6636,6 +6829,7 @@ aucune	aucun	DET	O	-	O
 lumineuse	lumineux	ADJ	O	-	O
 extérieure	extérieur	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 en	en	ADP	O	-	O
 est	être	AUX	O	-	O
@@ -6674,6 +6868,7 @@ qui	qui	PRON	O	-	O
 y	y	PRON	O	-	O
 correspond	correspondre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 A	a	NOUN	O	-	O
 ces	ce	DET	O	-	O
 mots	mot	NOUN	O	-	O
@@ -6728,6 +6923,7 @@ et	et	CCONJ	O	-	O
 des	un	DET	O	-	O
 rouages	rouage	NOUN	O	{152}	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Le	le	DET	O	-	O
 voici	voici	VERB	O	-	O
@@ -6743,6 +6939,7 @@ L	l	DET	B-PER	{25}	O
 '	'	PUNCT	I-PER	-	O
 HISTORIOSCOPE	historioscope	NOUN	I-PER	-	O
 !	!	PUNCT	O	-	O
+
 Il	il	PRON	O	{25}	O
 est	être	AUX	O	-	O
 orienté	orienter	VERB	O	-	O
@@ -6776,12 +6973,14 @@ vous	vous	PRON	O	-	O
 y	y	PRON	O	-	O
 étiez	être	AUX	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{153}	O
 miracle	miracle	NOUN	O	-	O
 était	être	AUX	O	-	O
 devant	devant	ADP	O	-	O
 moi	moi	PRON	O	-	O
 !	!	PUNCT	O	-	O
+
 Aussi	aussi	ADV	O	-	O
 reconnaissables	reconnaissable	ADJ	O	-	O
 dans	dans	ADP	O	-	O
@@ -6859,6 +7058,7 @@ loin	loin	ADV	O	-	O
 des	un	DET	O	-	O
 incendies	incendie	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 A	a	NOUN	O	-	O
 leur	son	DET	O	-	O
 tête	tête	NOUN	O	-	O
@@ -6928,10 +7128,12 @@ de	de	ADP	O	-	O
 pointes	pointe	NOUN	O	-	O
 aiguës	aigu	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Grand	grand	ADJ	B-PER	{163}	PSY_FEAT
 Dieu	dieu	PROPN	I-PER	-	O
 !	!	PUNCT	O	-	O
+
 m	m	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 écriai	écrier	VERB	O	-	O
@@ -6957,9 +7159,11 @@ gens	gens	NOUN	O	-	O
 -	-	PUNCT	O	-	O
 là	là	ADV	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Oh	oh	PRON	O	-	O
 !	!	PUNCT	O	-	O
+
 oh	oh	PRON	O	-	O
 !	!	PUNCT	O	-	O
 dit	dire	VERB	O	-	O
@@ -6981,6 +7185,7 @@ vous	vous	PRON	O	-	O
 commencez	commencer	VERB	O	-	O
 bien	bien	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 n	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -7052,38 +7257,46 @@ ami	ami	NOUN	O	-	O
 Jean	jean	PROPN	B-PER	{94}	O
 Huss	huss	PROPN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Quoi	quoi	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 c	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
 Jean	jean	PROPN	B-PER	{165}	O
 Ziska	ziska	PROPN	I-PER	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Lui	lui	PROPN	O	-	O
 -	-	PUNCT	O	-	O
 même	même	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Hein	hein	PROPN	O	-	O
 !	!	PUNCT	O	-	O
+
 quelle	quel	DET	O	-	O
 figure	figurer	VERB	O	-	O
 de	de	ADP	O	-	O
 bête	bête	NOUN	O	-	O
 féroce	féroce	ADJ	O	-	PSY_FEAT
 !	!	PUNCT	O	-	O
+
 Est	est	PRON	O	-	O
 -	-	PUNCT	O	-	O
 il	il	PRON	O	-	O
 beau	beau	ADJ	O	-	PSY_FEAT
 ainsi	ainsi	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 ces	ce	DET	O	{166}	O
 Bohémiens	bohémien	ADJ	O	-	O
 !	!	PUNCT	O	-	O
+
 A	a	NOUN	O	-	O
 la	le	DET	O	-	O
 bonne	bon	ADJ	O	-	PSY_FEAT
@@ -7112,6 +7325,7 @@ moi	moi	PRON	O	-	O
 de	de	ADP	O	-	O
 ça	cela	PRON	O	-	O
 !	!	PUNCT	O	-	O
+
 Voyez	voir	VERB	O	-	O
 donc	donc	ADV	O	-	O
 celui	celui	ADJ	O	-	O
@@ -7137,6 +7351,7 @@ de	de	ADP	O	-	O
 la	le	DET	O	-	O
 mère	mère	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Ceci	ceci	PRON	O	-	O
 est	être	AUX	O	-	O
 plus	plus	ADV	O	-	O
@@ -7150,12 +7365,14 @@ taureaux	taureau	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
 oui	oui	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
 passionnant	passionner	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 dis	dire	VERB	O	-	O
 -	-	PUNCT	O	-	O
 je	je	PRON	O	-	O
@@ -7168,6 +7385,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 instrument	instrument	NOUN	O	{25}	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Suivez	suivre	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -7178,12 +7396,14 @@ vous	vous	PRON	O	-	O
 allez	aller	VERB	O	-	O
 voir	voir	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 me	me	PRON	O	-	O
 remis	remettre	VERB	O	-	O
 en	en	ADP	O	-	O
 observation	observation	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Le	le	DET	O	-	O
 voilà	voilà	VERB	O	-	O
@@ -7199,6 +7419,7 @@ le	le	DET	O	{169}	O
 mont	mont	ADJ	O	-	O
 Taurkand	taurkand	PROPN	O	-	O
 ...	...	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 lui	luire	PRON	O	-	O
 crève	crever	VERB	O	-	O
@@ -7206,10 +7427,12 @@ son	son	DET	O	-	O
 second	second	ADJ	O	-	O
 oeil	oeil	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 Sa	son	DET	O	-	O
 fureur	fureur	NOUN	O	-	O
 redouble	redoubl	ADJ	O	-	O
 ...	...	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
@@ -7217,14 +7440,17 @@ ouvre	ouvrir	VERB	O	-	O
 un	un	DET	O	-	O
 passage	passage	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 Suivez	suivre	VERB	O	-	O
 ,	,	PUNCT	O	-	O
 suivez	suivre	VERB	O	-	O
 ...	...	PUNCT	O	-	O
+
 Encore	encore	ADV	O	-	O
 une	un	DET	O	-	O
 victoire	victoire	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 Deux	deux	NUM	O	-	O
 ...	...	PUNCT	O	-	O
 trois	trois	NUM	O	-	O
@@ -7232,11 +7458,13 @@ trois	trois	NUM	O	-	O
 quatre	quatre	NUM	O	-	O
 victoires	victoire	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 Sigismond	sigismond	PROPN	B-PER	{170}	O
 traite	traite	NOUN	O	-	O
 avec	avec	ADP	O	-	O
 lui	luire	PRON	O	-	O
 ...	...	PUNCT	O	-	O
+
 Jean	jean	PROPN	B-PER	{165}	O
 Ziska	ziska	PROPN	I-PER	-	O
 est	être	AUX	O	-	O
@@ -7251,6 +7479,7 @@ Je	je	PRON	O	-	O
 suivais	suivre	VERB	O	-	O
 toujours	toujours	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Tout	tout	ADJ	O	-	O
 à	à	ADP	O	-	O
 coup	coup	NOUN	O	-	O
@@ -7258,6 +7487,7 @@ Jean	jean	PROPN	B-PER	{165}	O
 Ziska	ziska	PROPN	I-PER	-	O
 disparaît	disparaître	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Je	je	PRON	O	-	O
 ne	ne	ADV	O	-	O
@@ -7272,10 +7502,12 @@ je	je	PRON	O	-	O
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Regardez	regardez	NOUN	O	-	O
 encore	encore	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 J	j	NOUN	O	-	O
 '	'	PUNCT	O	-	O
@@ -7293,11 +7525,13 @@ blanche	blanc	ADJ	O	-	O
 appliquée	appliquer	VERB	O	-	O
 dessus	dessus	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Il	il	PRON	O	{165}	O
 est	être	AUX	O	-	O
 mort	mort	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 vient	venir	VERB	O	-	O
 de	de	ADP	O	-	O
@@ -7305,12 +7539,14 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 écorcher	écorcher	VERB	O	{174}	O
 .	.	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
 sa	son	DET	O	{175}	O
 peau	peau	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 la	le	DET	O	-	O
 fait	faire	VERB	O	-	O
@@ -7346,6 +7582,7 @@ seront	être	AUX	O	-	O
 toujours	toujours	ADV	O	-	O
 vainqueurs	vainqueur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Voyez	voir	VERB	O	-	O
 ,	,	PUNCT	O	-	O
 là	là	ADV	O	-	O
@@ -7382,6 +7619,7 @@ celui	celui	ADJ	O	-	O
 -	-	PUNCT	O	-	O
 là	là	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
@@ -7406,6 +7644,7 @@ chair	chair	NOUN	O	-	O
 de	de	ADP	O	-	O
 poule	poule	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Montrez	montrez	PROPN	O	-	O
 -	-	PUNCT	O	-	O
 moi	moi	PRON	O	-	O
@@ -7416,6 +7655,7 @@ de	de	ADP	O	-	O
 moins	moins	ADV	O	-	O
 terrible	terrible	ADJ	O	-	PSY_FEAT
 ?	?	PUNCT	O	-	O
+
 Tenez	tenir	VERB	O	-	O
 ,	,	PUNCT	O	-	O
 je	je	PRON	O	-	O
@@ -7434,6 +7674,7 @@ monarque	monarque	NOUN	O	-	O
 si	si	SCONJ	O	-	O
 populaire	populaire	ADJ	O	-	PSY_FEAT
 !	!	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
@@ -7489,14 +7730,17 @@ chausses	chausse	NOUN	O	-	O
 couleur	couleur	NOUN	O	-	O
 chocolat	chocolat	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Quoi	quoi	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 c	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
 lui	luire	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 Il	il	PRON	O	{25}	O
 est	être	AUX	O	-	O
 tout	tout	ADV	O	-	O
@@ -7518,6 +7762,7 @@ bien	bien	ADV	O	-	O
 bon	bon	ADJ	O	-	PSY_FEAT
 enfant	enfant	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Hum	hum	X	O	-	O
 ,	,	PUNCT	O	-	O
@@ -7529,6 +7774,7 @@ y	y	PRON	O	-	O
 fiez	fier	DET	O	-	O
 pas	pas	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Savez	savoir	VERB	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
@@ -7562,6 +7808,7 @@ barque	barque	NOUN	O	{181}	O
 à	à	ADP	O	-	O
 Caron	caron	PROPN	O	{182}	O
 ?	?	PUNCT	O	-	O
+
 Qu	que	PRON	O	-	O
 '	'	PUNCT	O	-	O
 il	il	PRON	O	-	O
@@ -7631,6 +7878,7 @@ pasteurs	pasteur	NOUN	O	-	O
 de	de	ADP	O	-	O
 peuples	peuple	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 n	n	ADJ	O	-	O
 '	'	PUNCT	O	-	O
@@ -7654,6 +7902,7 @@ tout	tout	ADV	O	-	O
 au	au	ADP	O	-	O
 long	long	ADJ	O	-	O
 ?	?	PUNCT	O	-	O
+
 D	d	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 abord	abord	ADV	O	-	O
@@ -7679,6 +7928,7 @@ un	un	DET	O	-	O
 vieux	vieux	ADJ	O	{25}	PSY_FEAT
 polisson	polisson	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 puis	pouvoir	CCONJ	O	-	O
 il	il	PRON	O	-	O
@@ -7686,6 +7936,7 @@ il	il	PRON	O	-	O
 très	très	ADV	O	-	O
 cruel	cruel	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 il	il	PRON	O	-	O
 était	être	AUX	O	-	O
@@ -7739,6 +7990,7 @@ pour	pour	ADP	O	-	O
 les	le	DET	O	-	O
 bourgeois	bourgeois	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 alors	alors	ADV	O	-	O
 on	on	PRON	O	-	O
@@ -7760,6 +8012,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 orfèvrerie	orfèvrerie	NOUN	O	{187}	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Monsieur	monsieur	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -7780,6 +8033,7 @@ qui	qui	PRON	O	-	O
 me	me	PRON	O	-	O
 déroute	déroute	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -7799,6 +8053,7 @@ de	de	ADP	O	-	O
 ce	ce	DET	O	-	O
 monarque	monarque	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Est	est	PRON	O	-	O
 -	-	PUNCT	O	-	O
 ce	ce	DET	O	-	O
@@ -7825,6 +8080,7 @@ en	en	ADP	O	-	O
 couleur	couleur	NOUN	O	-	O
 chocolat	chocolat	NOUN	O	{193}	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Non	non	ADV	O	-	O
 pas	pas	ADV	O	-	O
@@ -7850,6 +8106,7 @@ de	de	ADP	O	-	O
 -	-	PUNCT	O	-	O
 ciel	ciel	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
@@ -7875,10 +8132,12 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 endroit	endroit	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Sans	sans	ADP	O	-	O
 doute	doute	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Eh	eh	PUNCT	O	-	O
 bien	bien	ADV	O	-	O
@@ -7887,10 +8146,12 @@ et	et	CCONJ	O	-	O
 la	le	DET	O	{196}	O
 chanson	chanson	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 La	le	DET	O	{196}	O
 chanson	chanson	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Oh	oh	PRON	O	-	O
 !	!	PUNCT	O	-	O
 d	d	ADP	O	-	O
@@ -7957,6 +8218,7 @@ du	de	ADP	O	-	O
 xVIIIᵉ	xviiiᵉ	NOUN	O	-	O
 siècle	siècle	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Quant	quant	ADV	O	-	O
 à	à	ADP	O	-	O
 l	l	DET	O	-	O
@@ -7967,6 +8229,7 @@ elle	lui	PRON	O	-	O
 est	être	AUX	O	-	O
 vraie	vrai	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 est	être	AUX	O	-	O
 certain	certain	ADJ	O	-	PSY_FEAT
@@ -8016,6 +8279,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 envers	envers	ADP	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 se	se	PRON	O	-	O
 trouvait	trouver	VERB	O	-	O
@@ -8075,6 +8339,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 envers	envers	ADP	O	-	O
 .	.	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 sortant	sortir	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -8097,6 +8362,7 @@ de	de	ADP	O	-	O
 la	le	DET	O	-	O
 cour	cour	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 De	de	ADP	O	-	O
 là	là	ADV	O	-	O
 quelques	quelque	DET	O	-	O
@@ -8157,6 +8423,7 @@ prince	princ	ADJ	O	-	O
 vraiment	vraiment	ADV	O	-	O
 sérieux	sérieux	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Entre	entrer	ADP	O	-	O
 nous	nous	PRON	O	-	O
 ,	,	PUNCT	O	-	O
@@ -8186,6 +8453,7 @@ de	de	ADP	O	-	O
 ses	son	DET	O	-	O
 examens	examen	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 disant	dire	VERB	O	-	O
 cela	celer	PRON	O	-	O
@@ -8209,6 +8477,7 @@ et	et	CCONJ	O	-	O
 me	me	PRON	O	-	O
 dit	dire	VERB	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Tenez	tenir	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -8247,11 +8516,13 @@ et	et	CCONJ	O	-	O
 du	de	ADP	O	-	O
 génie	génie	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Nous	nous	PRON	O	-	O
 sommes	être	AUX	O	-	O
 à	à	ADP	O	-	O
 Florence	florence	PROPN	O	{203}	O
 .	.	PUNCT	O	-	O
+
 Benvenuto	benvenuto	PROPN	B-PER	{204}	O
 Cellini	cellini	PROPN	I-PER	-	O
 vient	venir	VERB	O	-	O
@@ -8261,6 +8532,7 @@ achever	achever	VERB	O	-	O
 le	le	DET	O	-	O
 Persée	persée	NOUN	O	{205}	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 a	avoir	AUX	O	-	O
 disposé	disposer	VERB	O	-	O
@@ -8282,6 +8554,7 @@ ses	son	DET	O	-	O
 propres	propre	ADJ	O	-	PSY_FEAT
 mains	main	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Regardez	regardez	NOUN	O	-	O
 là	là	ADV	O	-	O
 ,	,	PUNCT	O	-	O
@@ -8293,6 +8566,7 @@ palais	palais	NOUN	O	{208}	O
 ce	ce	DET	O	-	O
 hangar	hangar	NOUN	O	{209}	O
 .	.	PUNCT	O	-	O
+
 Voyez	voir	VERB	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
@@ -8326,6 +8600,7 @@ jeter	jeter	VERB	O	-	O
 du	de	ADP	O	-	O
 bois	bois	NOUN	O	{212}	O
 ?	?	PUNCT	O	-	O
+
 Voyez	voir	VERB	O	-	O
 ,	,	PUNCT	O	-	O
 la	le	DET	O	{213}	O
@@ -8363,6 +8638,7 @@ résiste	résister	VERB	O	-	O
 au	au	ADP	O	-	O
 feu	feu	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Tout	tout	ADJ	O	-	O
 à	à	ADP	O	-	O
 coup	coup	NOUN	O	-	O
@@ -8382,6 +8658,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 arrêt	arrêt	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{218}	O
 métal	métal	NOUN	O	-	O
 ne	ne	ADV	O	-	O
@@ -8416,6 +8693,7 @@ va	aller	VERB	O	-	O
 être	être	AUX	O	-	O
 détruit	détruire	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 Les	le	DET	O	-	O
 jeunes	jeune	ADJ	O	-	PSY_FEAT
 gens	gens	NOUN	O	-	O
@@ -8429,6 +8707,7 @@ bras	bras	NOUN	O	-	O
 au	au	ADP	O	-	O
 ciel	ciel	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Alors	alors	ADV	O	-	O
 on	on	PRON	O	-	O
 voit	voir	VERB	O	-	O
@@ -8473,6 +8752,7 @@ dans	dans	ADP	O	-	O
 ces	ce	DET	O	-	O
 flammes	flamme	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 désespoir	désespoir	VERB	O	-	O
 et	et	CCONJ	O	-	O
@@ -8513,6 +8793,7 @@ dans	dans	ADP	O	-	O
 la	le	DET	O	-	O
 fournaise	fournaise	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 il	il	PRON	O	-	O
 bondit	bondir	VERB	O	-	O
@@ -8529,6 +8810,7 @@ encore	encore	ADV	O	-	O
 et	et	CCONJ	O	-	O
 encore	encore	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 Une	un	DET	O	-	O
 lueur	lueur	NOUN	O	-	O
 vermeille	vermeil	ADJ	O	-	O
@@ -8569,6 +8851,7 @@ les	le	DET	O	-	O
 du	de	ADP	O	-	O
 moule	moule	NOUN	O	{220}	O
 .	.	PUNCT	O	-	O
+
 Benvenuto	benvenuto	PROPN	B-PER	{204}	O
 Cellini	cellini	PROPN	I-PER	-	O
 et	et	CCONJ	O	-	O
@@ -8609,6 +8892,7 @@ oeuvre	oeuvre	NOUN	O	-	O
 de	de	ADP	O	-	O
 plus	plus	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Tout	tout	ADJ	O	-	O
 bien	bien	ADV	O	-	O
 considéré	considérer	VERB	O	-	O
@@ -8698,6 +8982,7 @@ fait	faire	VERB	O	-	O
 de	de	ADP	O	-	O
 mieux	mieux	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
@@ -8736,6 +9021,7 @@ d	d	ADP	O	-	O
 une	un	DET	O	-	O
 statue	statue	NOUN	O	{227}	O
 ...	...	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 En	en	ADP	O	-	O
 apparence	apparence	NOUN	O	-	O
@@ -8771,6 +9057,7 @@ que	que	SCONJ	O	-	O
 les	le	DET	O	-	O
 autres	autre	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{228}	O
 temps	temps	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -8815,6 +9102,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 oubli	oubli	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Sans	sans	ADP	O	-	O
 aller	aller	VERB	O	-	O
 plus	plus	ADV	O	-	O
@@ -8843,6 +9131,7 @@ est	être	AUX	O	-	O
 devenue	devenir	VERB	O	-	O
 immortelle	immortel	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 La	le	DET	O	{231}	O
 célébrité	célébrité	NOUN	O	-	O
 des	un	DET	O	-	O
@@ -8867,6 +9156,7 @@ surtout	surtout	ADV	O	-	O
 de	de	ADP	O	-	O
 chance	chance	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Au	au	ADP	O	-	O
 fond	fond	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -8913,6 +9203,7 @@ ici	ici	ADV	O	-	O
 -	-	PUNCT	O	-	O
 bas	bas	ADJ	O	-	PSY_FEAT
 ?	?	PUNCT	O	-	O
+
 Loin	loin	ADV	O	-	O
 des	un	DET	O	-	O
 yeux	oeil	NOUN	O	-	O
@@ -8954,6 +9245,7 @@ elles	lui	PRON	O	-	O
 sont	être	AUX	O	-	O
 anciennes	ancien	ADJ	O	{234}	O
 .	.	PUNCT	O	-	O
+
 Qui	qui	PRON	O	-	O
 jamais	jamais	ADV	O	-	O
 a	avoir	AUX	O	-	O
@@ -8964,6 +9256,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 histoire	histoire	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 quand	quand	SCONJ	O	-	O
 nous	nous	PRON	O	-	O
@@ -9015,8 +9308,10 @@ peut	pouvoir	VERB	O	-	O
 battre	battre	VERB	O	-	O
 encore	encore	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Hé	hé	DET	O	-	O
 !	!	PUNCT	O	-	O
+
 monsieur	monsieur	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
 depuis	depuis	ADP	O	-	O
@@ -9036,6 +9331,7 @@ a	avoir	AUX	O	-	O
 jamais	jamais	ADV	O	-	O
 changé	changer	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 tout	tout	ADV	O	-	O
 temps	temps	NOUN	O	-	O
@@ -9082,6 +9378,7 @@ eux	lui	PRON	O	-	O
 -	-	PUNCT	O	-	O
 mêmes	même	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	-	O
 événements	événement	NOUN	O	-	O
 n	n	ADJ	O	-	O
@@ -9099,6 +9396,7 @@ une	un	DET	O	-	O
 répétition	répétition	NOUN	O	-	O
 éternelle	éternel	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Pourtant	pourtant	ADV	O	-	O
 ,	,	PUNCT	O	-	O
@@ -9118,6 +9416,7 @@ différence	différence	NOUN	O	-	O
 des	un	DET	O	-	O
 peuples	peuple	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
@@ -9135,6 +9434,7 @@ change	chang	ADJ	O	-	O
 le	le	DET	O	{189}	O
 costume	costume	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Là	là	ADV	O	-	O
 je	je	PRON	O	-	O
 suis	être	AUX	O	-	O
@@ -9144,12 +9444,14 @@ accord	accord	NOUN	O	-	O
 avec	avec	ADP	O	-	O
 vous	vous	PRON	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 c	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
 tout	tout	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Aussi	aussi	ADV	O	-	O
 voici	voici	VERB	O	-	O
 ma	mon	DET	O	-	O
@@ -9189,6 +9491,7 @@ pour	pour	ADP	O	-	O
 le	le	DET	O	-	O
 costume	costume	NOUN	O	{189}	O
 .	.	PUNCT	O	-	O
+
 Quant	quant	ADV	O	-	O
 aux	à	ADP	O	-	O
 guerres	guerre	NOUN	O	-	O
@@ -9233,6 +9536,7 @@ major	major	PROPN	O	-	O
 en	en	ADP	O	-	O
 tête	tête	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 il	il	PRON	O	-	O
 y	y	PRON	O	-	O
@@ -9256,6 +9560,7 @@ servent	servir	VERB	O	-	O
 plusieurs	plusieurs	DET	O	-	O
 fois	fois	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Biologiquement	biologiquement	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -9275,6 +9580,7 @@ de	de	ADP	O	-	O
 vieux	vieux	ADJ	O	-	PSY_FEAT
 morts	mort	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -9370,6 +9676,7 @@ que	que	SCONJ	O	-	O
 vous	vous	PRON	O	-	O
 dites	dire	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 en	en	ADP	O	-	O
 dehors	dehors	ADP	O	-	O
@@ -9398,6 +9705,7 @@ rapprochées	rapprocher	VERB	O	-	O
 de	de	ADP	O	-	O
 22	22	NUM	O	{237}	O
 .	.	PUNCT	O	-	O
+
 nous	nous	PRON	O	{238}	O
 ,	,	PUNCT	O	-	O
 un	un	DET	O	-	O
@@ -9408,6 +9716,7 @@ observation	observation	NOUN	O	-	O
 bien	bien	ADV	O	-	O
 curieux	curieux	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Est	est	PRON	O	-	O
 -	-	PUNCT	O	-	O
 ce	ce	DET	O	-	O
@@ -9429,6 +9738,7 @@ l	l	DET	O	-	O
 histoire	histoire	NOUN	O	-	O
 contemporaine	contemporaine	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Tout	tout	ADJ	O	-	O
 de	de	ADP	O	-	O
@@ -9449,6 +9759,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 instrument	instrument	NOUN	O	{25}	O
 .	.	PUNCT	O	-	O
+
 Voulez	vouloir	VERB	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
@@ -9486,9 +9797,11 @@ Paris	paris	PROPN	O	{0}	O
 la	le	DET	O	-	O
 Commune	commune	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Quoi	quoi	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 ces	ce	DET	O	{241}	O
 personnages	personnage	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -9508,6 +9821,7 @@ les	le	DET	O	-	O
 revoir	revoir	VERB	O	-	O
 encore	encore	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Il	il	PRON	O	-	O
 ne	ne	ADV	O	-	O
@@ -9555,6 +9869,7 @@ ne	ne	ADV	O	-	O
 sont	être	AUX	O	-	O
 plus	plus	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Non	non	ADV	O	-	O
 !	!	PUNCT	O	-	O
@@ -9571,6 +9886,7 @@ effroi	effroi	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
 non	non	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 faites	faire	VERB	O	-	O
 -	-	PUNCT	O	-	O
 moi	moi	PRON	O	-	O
@@ -9585,6 +9901,7 @@ déchirerait	déchirer	VERB	O	-	O
 le	le	DET	O	-	O
 coeur	coeur	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Ah	ah	PUNCT	O	-	O
 !	!	PUNCT	O	-	O
 les	le	DET	O	-	O
@@ -9607,10 +9924,12 @@ flotte	flotte	NOUN	O	-	O
 leur	son	DET	O	-	O
 image	image	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 jamais	jamais	ADV	O	-	O
 ,	,	PUNCT	O	-	O
 jamais	jamais	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Je	je	PRON	O	-	O
 conçois	concevoir	VERB	O	-	O
@@ -9664,6 +9983,7 @@ détourne	détourner	VERB	O	-	O
 mes	mon	DET	O	-	O
 regards	regard	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 ,	,	PUNCT	O	-	O
 tel	tel	ADJ	O	-	O
@@ -9689,11 +10009,14 @@ pas	pas	ADV	O	-	O
 vous	vous	PRON	O	-	O
 retrouver	retrouver	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Montrez	montrez	PROPN	O	-	O
 !	!	PUNCT	O	-	O
+
 montrez	montrer	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 dis	dire	VERB	O	-	O
 -	-	PUNCT	O	-	O
 je	je	PRON	O	-	O
@@ -9709,12 +10032,14 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 instrument	instrument	NOUN	O	{25}	O
 .	.	PUNCT	O	-	O
+
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 ajusta	ajuster	VERB	O	-	O
 la	le	DET	O	-	O
 lunette	lunette	NOUN	O	{25}	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Regardez	regardez	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -9731,6 +10056,7 @@ de	de	ADP	O	-	O
 votre	votre	DET	O	-	O
 naissance	naissance	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Tournez	tournez	PROPN	O	-	O
 doucement	doucement	ADV	O	-	O
 ce	ce	DET	O	{246}	O
@@ -9752,6 +10078,7 @@ de	de	ADP	O	-	O
 votre	votre	DET	O	-	O
 vie	vie	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Comment	comment	ADV	O	-	O
 décrire	décrire	VERB	O	-	O
 le	le	DET	O	-	O
@@ -9792,6 +10119,7 @@ une	un	DET	O	-	O
 incurable	incurable	ADJ	O	-	O
 douleur	douleur	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Une	un	DET	O	-	O
 curiosité	curiosité	NOUN	O	-	O
 plus	plus	ADV	O	-	O
@@ -9806,6 +10134,7 @@ yeux	oeil	NOUN	O	-	O
 ce	ce	DET	O	-	O
 spectacle	spectacle	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 A	a	NOUN	O	-	O
 mesure	mesure	NOUN	O	-	O
 que	que	SCONJ	O	-	O
@@ -9843,6 +10172,7 @@ redoutais	redouter	ADP	O	-	O
 de	de	ADP	O	-	O
 revoir	revoir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 je	je	PRON	O	-	O
 n	n	ADJ	O	-	O
@@ -9878,6 +10208,7 @@ et	et	CCONJ	O	-	O
 les	le	DET	O	-	O
 appeler	appeler	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 plus	plus	ADV	O	-	O
 je	je	PRON	O	-	O
@@ -9932,6 +10263,7 @@ de	de	ADP	O	-	O
 la	le	DET	O	-	O
 vie	vie	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 chacun	chacun	PRON	O	-	O
 de	de	ADP	O	-	O
@@ -9961,6 +10293,7 @@ au	au	ADP	O	-	O
 premier	premier	ADJ	O	-	O
 jour	jour	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 J	j	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 avais	avoir	AUX	O	-	O
@@ -9977,6 +10310,7 @@ arracher	arracher	VERB	O	-	O
 de	de	ADP	O	-	O
 là	là	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 riais	rire	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -9989,6 +10323,7 @@ tordais	tordre	VERB	O	-	O
 de	de	ADP	O	-	O
 désespoir	désespoir	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Grâce	grâce	NOUN	O	-	O
 !	!	PUNCT	O	-	O
@@ -9999,9 +10334,11 @@ criai	criai	ADJ	O	-	O
 -	-	PUNCT	O	-	O
 je	je	PRON	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Ah	ah	PUNCT	O	-	O
 !	!	PUNCT	O	-	O
+
 ah	ah	PUNCT	O	-	O
 !	!	PUNCT	O	-	O
 cela	celer	PRON	O	-	O
@@ -10021,8 +10358,10 @@ songé	songer	VERB	O	-	O
 à	à	ADP	O	-	O
 cela	celer	PRON	O	-	O
 !	!	PUNCT	O	-	O
+
 Ah	ah	PUNCT	O	-	O
 !	!	PUNCT	O	-	O
+
 vous	vous	PRON	O	-	O
 croyez	croire	VERB	O	-	O
 que	que	SCONJ	O	-	O
@@ -10032,6 +10371,7 @@ est	être	AUX	O	-	O
 à	à	ADP	O	-	O
 vous	vous	PRON	O	-	O
 !	!	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 voyez	voir	VERB	O	-	O
 donc	donc	ADV	O	-	O
@@ -10074,6 +10414,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 univers	univers	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 ne	ne	ADV	O	-	O
 les	le	DET	O	-	O
@@ -10120,6 +10461,7 @@ leur	son	DET	O	-	O
 avait	avoir	AUX	O	-	O
 donné	donner	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Or	or	CCONJ	O	-	O
 sachez	savoir	ADP	O	-	O
 -	-	PUNCT	O	-	O
@@ -10179,6 +10521,7 @@ avions	avion	NOUN	O	-	O
 jamais	jamais	ADV	O	-	O
 vécu	vivre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 voilà	voilà	VERB	O	-	O
 pourquoi	pourquoi	ADV	O	-	O
@@ -10211,6 +10554,7 @@ d	d	ADP	O	-	O
 un	un	DET	O	-	O
 mort	mort	NOUN	O	{252}	O
 .	.	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 pouvez	pouvoir	VERB	O	-	O
 comprendre	comprendre	VERB	O	-	O
@@ -10243,6 +10587,7 @@ me	me	PRON	O	-	O
 rendre	rendre	VERB	O	-	O
 fou	fou	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Pour	pour	ADP	O	-	O
 ce	ce	DET	O	-	O
 qui	qui	PRON	O	-	O
@@ -10322,6 +10667,7 @@ la	le	DET	O	-	O
 race	race	NOUN	O	-	O
 humaine	humain	ADJ	O	-	PSY_FEAT
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Même	même	ADV	O	-	O
 au	au	ADP	O	-	O
@@ -10371,6 +10717,7 @@ y	y	PRON	O	-	O
 revenir	revenir	VERB	O	-	O
 encore	encore	ADV	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Toutes	tout	ADJ	O	-	O
 les	le	DET	O	-	O
@@ -10381,6 +10728,7 @@ il	il	PRON	O	-	O
 vous	vous	PRON	O	-	O
 plaira	plaire	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Il	il	PRON	O	-	O
 y	y	PRON	O	-	O
@@ -10447,14 +10795,17 @@ de	de	ADP	O	-	O
 personnages	personnage	NOUN	O	-	O
 muets	muet	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Ah	ah	PUNCT	O	-	O
 !	!	PUNCT	O	-	O
+
 si	si	SCONJ	O	-	O
 on	on	PRON	O	-	O
 pouvait	pouvoir	VERB	O	-	O
 les	le	DET	O	-	O
 entendre	entendre	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Dans	dans	ADP	O	-	O
 l	l	DET	O	-	O
@@ -10490,6 +10841,7 @@ lumière	lumière	NOUN	O	{118}	O
 et	et	CCONJ	O	-	O
 réciproquement	réciproquement	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 est	être	AUX	O	-	O
 donc	donc	ADV	O	-	O
@@ -10524,6 +10876,7 @@ sur	sur	ADP	O	-	O
 la	le	DET	O	-	O
 terre	terre	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 attendant	attendre	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -10573,6 +10926,7 @@ quelques	quelque	DET	O	-	O
 résultats	résultat	NOUN	O	-	O
 appréciables	appréciable	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Tenez	tenir	VERB	O	-	O
 ,	,	PUNCT	O	-	O
 me	me	PRON	O	-	O
@@ -10594,6 +10948,7 @@ voulez	vouloir	VERB	O	-	O
 vous	vous	PRON	O	-	O
 essayer	essayer	VERB	O	-	O
 ?	?	PUNCT	O	-	O
+
 Appliquez	appliquer	VERB	O	-	O
 ce	ce	DET	O	-	O
 récepteur	récepteur	NOUN	O	{134}	O
@@ -10603,11 +10958,13 @@ oreille	oreille	NOUN	O	-	O
 et	et	CCONJ	O	-	O
 écoutez	écouter	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 saisis	saisir	VERB	O	-	O
 le	le	DET	O	-	O
 récepteur	récepteur	NOUN	O	{134}	O
 .	.	PUNCT	O	-	O
+
 Pendant	pendant	ADP	O	-	O
 quelques	quelque	DET	O	-	O
 instants	instant	NOUN	O	-	O
@@ -10617,6 +10974,7 @@ n	n	ADJ	O	-	O
 entendis	entendre	VERB	O	-	O
 rien	rien	PRON	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 peu	peu	ADV	O	-	O
 à	à	ADP	O	-	O
@@ -10644,6 +11002,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 oreille	oreille	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 le	le	DET	O	-	O
 dis	dire	VERB	O	-	O
@@ -10651,6 +11010,7 @@ dis	dire	VERB	O	-	O
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Continuez	continuez	PROPN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -10667,11 +11027,13 @@ devenir	devenir	VERB	O	-	O
 plus	plus	ADV	O	-	O
 fort	fort	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Appliquez	appliquer	VERB	O	-	O
 bien	bien	ADV	O	-	O
 le	le	DET	O	{134}	O
 récepteur	récepteur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 effet	effet	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -10702,6 +11064,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 abeilles	abeille	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Plus	plus	ADV	O	-	O
 j	j	PRON	O	-	O
 '	'	PUNCT	O	-	O
@@ -10726,6 +11089,7 @@ une	un	DET	O	-	O
 acuité	acuité	NOUN	O	-	O
 infinie	infini	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 ,	,	PUNCT	O	-	O
@@ -10744,22 +11108,26 @@ me	me	PRON	O	-	O
 dit	dire	VERB	O	-	O
 alors	alors	ADV	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Entendez	entendre	VERB	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 J	j	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 entends	entendre	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 répondis	répondre	VERB	O	-	O
 -	-	PUNCT	O	-	O
 je	je	PRON	O	-	O
 tout	tout	ADV	O	-	O
 bouleversé	bouleverser	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
@@ -10828,6 +11196,7 @@ souffle	souffle	NOUN	O	-	O
 des	un	DET	O	-	O
 mourants	mourant	NOUN	O	-	O
 ...	...	PUNCT	O	-	O
+
 Pareille	pareille	PROPN	O	-	O
 aux	à	ADP	O	-	O
 accords	accord	NOUN	O	-	O
@@ -10863,10 +11232,12 @@ l	l	DET	O	-	O
 éternité	éternité	NOUN	O	-	O
 .	.	PUNCT	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 jour	jour	NOUN	O	-	O
 baissait	baisser	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 J	j	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 avais	avoir	AUX	O	-	O
@@ -10884,6 +11255,7 @@ de	de	ADP	O	-	O
 cette	ce	DET	O	-	O
 journée	journée	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 pris	prendre	VERB	O	-	O
 congé	congé	NOUN	O	-	O
@@ -10891,6 +11263,7 @@ de	de	ADP	O	-	O
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 au	au	ADP	O	-	O
 moment	moment	NOUN	O	-	O
@@ -10918,6 +11291,7 @@ his	his	X	O	{25}	O
 -	-	PUNCT	O	-	O
 torioscope	torioscope	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 L	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 instrument	instrument	NOUN	O	{25}	O
@@ -10935,11 +11309,13 @@ tourné	tourner	VERB	O	-	O
 au	au	ADP	O	-	O
 hasard	hasard	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 J	j	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 y	y	PRON	O	-	O
 regardai	regarder	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Qu	que	PRON	O	-	O
 '	'	PUNCT	O	-	O
@@ -10963,6 +11339,7 @@ réfléchit	réfléchir	VERB	O	-	O
 le	le	DET	O	{264}	O
 soleil	soleil	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 me	me	PRON	O	-	O
 semble	sembler	VERB	O	-	O
@@ -10976,6 +11353,7 @@ pareilles	pareil	ADJ	O	-	O
 des	un	DET	O	-	O
 monuments	monument	NOUN	O	{265}	O
 .	.	PUNCT	O	-	O
+
 Eh	eh	PUNCT	O	-	O
 mais	mais	CCONJ	O	-	O
 !	!	PUNCT	O	-	O
@@ -10985,9 +11363,11 @@ est	être	AUX	O	-	O
 un	un	DET	O	-	O
 fleuve	fleuve	NOUN	O	{266}	O
 !	!	PUNCT	O	-	O
+
 Voyez	voir	VERB	O	-	O
 donc	donc	ADV	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
@@ -11001,12 +11381,14 @@ c	c	NOUN	O	-	O
 est	être	AUX	O	-	O
 Babylone	babylone	NOUN	O	{12}	O
 !	!	PUNCT	O	-	O
+
 s	s	PRON	O	-	O
 '	'	PUNCT	O	-	O
 écria	écrier	VERB	O	-	O
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 Tenez	tenir	VERB	O	-	O
 ,	,	PUNCT	O	-	O
 regardez	regardez	NOUN	O	-	O
@@ -11022,6 +11404,7 @@ voyez	voir	VERB	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Hé	hé	DET	O	-	O
 !	!	PUNCT	O	-	O
@@ -11034,6 +11417,7 @@ sont	être	AUX	O	-	O
 des	un	DET	O	-	O
 pêcheurs	pêcheur	NOUN	O	{268}	O
 .	.	PUNCT	O	-	O
+
 Oui	oui	ADV	O	-	O
 ...	...	PUNCT	O	-	O
 ils	il	PRON	O	-	O
@@ -11041,10 +11425,12 @@ lèvent	lever	VERB	O	-	O
 des	un	DET	O	-	O
 filets	filet	NOUN	O	{269}	O
 ...	...	PUNCT	O	-	O
+
 Ils	il	PRON	O	-	O
 les	le	DET	O	-	O
 ouvrent	ouvrir	VERB	O	-	O
 ...	...	PUNCT	O	-	O
+
 Ils	il	PRON	O	{4}	O
 en	en	ADP	O	-	O
 tirent	tirer	VERB	O	-	O
@@ -11055,6 +11441,7 @@ poissons	poisson	NOUN	O	-	O
 !	!	PUNCT	O	-	O
 !	!	PUNCT	O	-	O
 ...	...	PUNCT	O	-	O
+
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 se	se	PRON	O	-	O
@@ -11068,6 +11455,7 @@ regarder	regarder	VERB	O	-	O
 son	son	DET	O	-	O
 tour	tour	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Des	un	DET	O	-	O
 poissons	poisson	NOUN	O	-	O
@@ -11093,6 +11481,7 @@ de	de	ADP	O	-	O
 dents	dent	NOUN	O	-	O
 aiguës	aigu	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 Ému	ému	PROPN	O	-	O
 ,	,	PUNCT	O	-	O
 transporté	transporter	VERB	O	-	O
@@ -11110,6 +11499,7 @@ de	de	ADP	O	-	O
 la	le	DET	O	-	O
 lunette	lunette	NOUN	O	{25}	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 vois	voir	VERB	O	-	O
 les	le	DET	O	-	O
@@ -11131,6 +11521,7 @@ percées	percer	VERB	O	-	O
 de	de	ADP	O	-	O
 trous	trou	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Un	un	DET	O	{272}	O
 emballeur	emballeur	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
@@ -11160,6 +11551,7 @@ de	de	ADP	O	-	O
 nos	notre	DET	O	-	O
 messageries	messagerie	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Plus	plus	ADV	O	-	O
 de	de	ADP	O	-	O
@@ -11167,6 +11559,7 @@ doute	doute	NOUN	O	-	O
 ,	,	PUNCT	O	-	O
 voyez	voir	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 dis	dire	VERB	O	-	O
 -	-	PUNCT	O	-	O
 je	je	PRON	O	-	O
@@ -11178,6 +11571,7 @@ place	place	NOUN	O	-	O
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Eh	eh	PUNCT	O	-	O
 bien	bien	ADV	O	-	O
@@ -11187,6 +11581,7 @@ je	je	PRON	O	-	O
 vous	vous	PRON	O	-	O
 disais	dire	VERB	O	-	O
 !	!	PUNCT	O	-	O
+
 Ces	ce	DET	O	-	O
 pêcheurs	pêcheur	NOUN	O	-	O
 de	de	ADP	O	-	O
@@ -11201,6 +11596,7 @@ l	l	DET	O	{8}	O
 '	'	PUNCT	O	-	O
 Étrurie	étrurie	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 Vous	vous	PRON	O	-	O
 avez	avoir	AUX	O	-	O
 vu	voir	VERB	O	-	O
@@ -11232,6 +11628,7 @@ mérodac	mérodac	PROPN	B-PER	{5}	O
 et	et	CCONJ	O	-	O
 Nériglissor	nériglissor	PROPN	B-PER	{6}	O
 !	!	PUNCT	O	-	O
+
 Quelques	quelque	DET	O	{273}	O
 jours	jour	NOUN	O	-	O
 après	après	ADP	O	-	O
@@ -11243,11 +11640,13 @@ voir	voir	VERB	O	-	O
 M.	m.	NOUN	B-PER	{18}	O
 Durand	durand	PROPN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{83}	O
 portier	portier	NOUN	O	-	O
 me	me	PRON	O	-	O
 répondit	répondre	VERB	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Il	il	PRON	O	-	O
 est	être	AUX	O	-	O
@@ -11259,6 +11658,7 @@ vous	vous	PRON	O	-	O
 êtes	être	AUX	O	-	O
 venu	venir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 surlendemain	surlendemain	ADJ	O	-	O
 ,	,	PUNCT	O	-	O
@@ -11292,10 +11692,12 @@ et	et	CCONJ	O	-	O
 est	être	AUX	O	-	O
 parti	partir	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Pour	pour	ADP	O	-	O
 où	où	PRON	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Il	il	PRON	O	-	O
 ne	ne	ADV	O	-	O
@@ -11305,3 +11707,4 @@ a	avoir	AUX	O	-	O
 pas	pas	ADV	O	-	O
 dit	dire	VERB	O	-	O
 ...	...	PUNCT	O	-	O
+

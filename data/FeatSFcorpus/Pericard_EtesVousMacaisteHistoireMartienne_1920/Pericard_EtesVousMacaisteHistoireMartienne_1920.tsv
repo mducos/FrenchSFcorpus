@@ -36,6 +36,7 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 entendre	entendre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 On	on	PRON	O	-	O
 ignore	ignorer	VERB	O	-	O
 trop	trop	ADV	O	-	O
@@ -92,6 +93,7 @@ des	un	DET	O	-	O
 relations	relation	NOUN	O	-	O
 radiotéléphoniques	radiotéléphonique	NOUN	O	{5}	O
 .	.	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 est	être	AUX	O	-	O
@@ -139,6 +141,7 @@ affecté	affecter	VERB	O	-	O
 notre	notre	DET	O	-	O
 division	division	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	B-PER	{6}	O
 capitaine	capitaine	NOUN	I-PER	-	O
 m	m	NOUN	O	-	O
@@ -176,6 +179,7 @@ porte	porte	VERB	O	-	O
 -	-	PUNCT	O	-	O
 drapeau	drapeau	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{13}	O
 repas	repas	NOUN	O	-	O
 fut	être	AUX	O	-	O
@@ -196,6 +200,7 @@ plus	plus	ADV	O	-	O
 amples	ample	ADJ	O	-	O
 détails	détail	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Au	au	ADP	O	{14}	O
 dessert	desservir	VERB	O	-	O
 ,	,	PUNCT	O	-	O
@@ -226,6 +231,7 @@ des	un	DET	O	-	O
 mondes	monde	NOUN	O	-	O
 habités	habiter	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Yes	yes	PROPN	O	-	O
 !	!	PUNCT	O	-	O
@@ -233,9 +239,11 @@ affirma	affirmer	VERB	O	-	O
 le	le	DET	B-PER	{6}	O
 capitaine	capitaine	NOUN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 I	i	ADJ	O	-	O
 know	know	X	O	-	O
 .	.	PUNCT	O	-	O
+
 Qu	que	PRON	O	-	O
 '	'	PUNCT	O	-	O
 une	un	DET	O	-	O
@@ -254,6 +262,7 @@ la	le	DET	O	{2}	O
 planète	planète	NOUN	O	-	O
 Mars	mars	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 voici	voici	VERB	O	-	O
 le	le	DET	O	-	O
@@ -276,6 +285,7 @@ conviction	conviction	NOUN	O	-	O
 sa	son	DET	O	-	O
 suite	suite	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Aux	à	ADP	O	-	O
 derniers	dernier	ADJ	O	-	O
 jours	jour	NOUN	O	-	O
@@ -335,6 +345,7 @@ des	un	DET	O	{19}	O
 Montagnes	montagne	NOUN	O	-	O
 Rocheuses	rocheuse	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Son	son	DET	O	-	O
 ami	ami	NOUN	O	-	O
 le	le	DET	B-PER	{6}	O
@@ -348,6 +359,7 @@ dans	dans	ADP	O	-	O
 ses	son	DET	O	-	O
 expériences	expérience	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	O	{20}	O
 9	9	NUM	O	-	O
 avril	avril	NOUN	O	-	O
@@ -356,6 +368,7 @@ fut	être	AUX	O	-	O
 au	au	ADP	O	-	O
 point	point	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 A	a	NOUN	O	-	O
 neuf	neuf	ADJ	O	{21}	O
 heures	heure	NOUN	O	-	O
@@ -401,6 +414,7 @@ cria	crier	VERB	O	-	O
 le	le	DET	O	-	O
 professeur	professeur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Il	il	PRON	O	-	O
 y	y	PRON	O	-	O
 eut	avoir	VERB	O	-	O
@@ -450,19 +464,23 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 espace	espace	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Vous	vous	PRON	O	-	O
 êtes	être	AUX	O	-	O
 bien	bien	ADV	O	-	O
 Mars	mars	NOUN	B-PER	{2}	O
 ?	?	PUNCT	O	-	O
+
 demanda	demander	VERB	O	-	O
 le	le	DET	O	-	O
 professeur	professeur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Oui	oui	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 vous	vous	PRON	O	-	O
 ,	,	PUNCT	O	-	O
@@ -472,14 +490,17 @@ bien	bien	ADV	O	-	O
 la	le	DET	O	{4}	O
 Terre	terre	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 répondit	répondre	VERB	O	-	O
 la	le	DET	O	-	O
 voix	voix	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Nous	nous	PRON	O	{17}	O
 sommes	être	AUX	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Eh	eh	PUNCT	O	-	O
 bien	bien	ADV	O	-	O
@@ -494,6 +515,7 @@ de	de	ADP	O	-	O
 nous	nous	PRON	O	-	O
 répondre	répondre	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Voilà	voilà	VERB	O	-	O
 six	six	NUM	O	-	O
 cent	cent	NUM	O	-	O
@@ -510,6 +532,7 @@ appelons	appeler	VERB	O	-	O
 au	au	ADP	O	-	O
 téléphone	téléphone	NOUN	O	{25}	O
 !	!	PUNCT	O	-	O
+
 Le	le	DET	O	-	O
 professeur	professeur	NOUN	O	-	O
 allait	aller	VERB	O	-	O
@@ -534,19 +557,23 @@ l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
 offensive	offensive	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Etes	ete	NOUN	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
 macaïste	macaïste	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Macaïste	macaïste	PROPN	O	{26}	O
 ?	?	PUNCT	O	-	O
+
 répondit	répondre	VERB	O	-	O
 le	le	DET	O	-	O
 professeur	professeur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 ne	ne	ADV	O	-	O
 saisis	saisir	VERB	O	-	O
@@ -554,6 +581,7 @@ pas	pas	ADV	O	-	O
 très	très	ADV	O	-	O
 bien	bien	ADV	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 dites	dire	VERB	O	-	O
 -	-	PUNCT	O	-	O
@@ -577,6 +605,7 @@ ce	ce	DET	O	-	O
 que	que	SCONJ	O	-	O
 ?	?	PUNCT	O	-	O
 ...	...	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Je	je	PRON	O	-	O
 vous	vous	PRON	O	-	O
@@ -588,6 +617,7 @@ ma	mon	DET	O	-	O
 -	-	PUNCT	O	-	O
 caïste	caïste	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 dit	dire	VERB	O	-	O
 la	le	DET	O	-	O
 voix	voix	NOUN	O	-	O
@@ -595,6 +625,7 @@ avec	avec	ADP	O	-	O
 mauvaise	mauvais	ADJ	O	-	PSY_FEAT
 humeur	humeur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Si	si	SCONJ	O	-	O
 vous	vous	PRON	O	-	O
 n	n	ADJ	O	-	O
@@ -608,6 +639,7 @@ coupe	coupe	NOUN	O	-	O
 la	le	DET	O	-	O
 communication	communication	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Je	je	PRON	O	-	O
 ne	ne	ADV	O	-	O
 veux	vouloir	VERB	O	-	O
@@ -620,6 +652,7 @@ un	un	DET	O	-	O
 damné	damner	VERB	O	-	O
 antimacaïste	antimacaïst	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 La	le	DET	O	-	O
 façon	façon	NOUN	O	-	O
 dont	dont	PRON	O	-	O
@@ -632,24 +665,29 @@ facile	facile	ADJ	O	-	O
 la	le	DET	O	-	O
 réponse	réponse	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Je	je	PRON	O	-	O
 suis	être	AUX	O	-	O
 macaïste	macaïste	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 affirma	affirmer	VERB	O	-	O
 le	le	DET	O	-	O
 professeur	professeur	NOUN	O	-	O
 avec	avec	ADP	O	-	O
 énergie	énergie	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Bravo	bravo	PROPN	O	-	O
 !	!	PUNCT	O	-	O
+
 dit	dire	VERB	O	-	O
 la	le	DET	O	-	O
 voix	voix	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 sur	sur	ADP	O	-	O
 la	le	DET	O	{4}	O
@@ -665,6 +703,7 @@ d	d	ADP	O	-	O
 '	'	PUNCT	O	-	O
 antimacaïstes	antimacaïste	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Pas	pas	AUX	O	{28}	O
 un	un	DET	O	-	O
@@ -673,6 +712,7 @@ rugit	rugir	VERB	O	-	O
 le	le	DET	O	-	O
 professeur	professeur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Pas	pas	AUX	O	-	O
 un	un	DET	O	-	O
 seul	seul	ADJ	O	-	PSY_FEAT
@@ -684,6 +724,7 @@ donne	donne	VERB	O	-	O
 ma	mon	DET	O	-	O
 parole	parole	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Hourra	hourrer	VERB	O	-	O
 !	!	PUNCT	O	-	O
@@ -691,10 +732,12 @@ vieux	vieux	ADJ	O	-	PSY_FEAT
 frère	frère	NOUN	O	-	O
 terrien	terrien	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Et	et	CCONJ	O	-	O
 vive	vif	ADJ	O	-	PSY_FEAT
 Maca	maca	PROPN	B-PER	{29}	O
 !	!	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Vive	vif	ADJ	O	-	PSY_FEAT
 Maca	maca	PROPN	B-PER	{29}	O
@@ -703,6 +746,7 @@ vieux	vieux	ADJ	O	-	PSY_FEAT
 frère	frère	NOUN	O	-	O
 martien	martien	ADJ	O	-	O
 !	!	PUNCT	O	-	O
+
 La	le	DET	O	{30}	O
 voix	voix	NOUN	O	-	O
 ne	ne	ADV	O	-	O
@@ -717,6 +761,7 @@ questions	question	NOUN	O	-	O
 du	de	ADP	O	-	O
 professeur	professeur	NOUN	O	{16}	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	-	O
 grandes	grand	ADJ	O	-	PSY_FEAT
 lueurs	lueur	NOUN	O	-	O
@@ -755,6 +800,7 @@ ces	ce	DET	O	-	O
 répugnants	répugnant	ADJ	O	-	PSY_FEAT
 bandits	bandit	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Les	le	DET	O	-	O
 canaux	canal	NOUN	O	-	O
 mystérieux	mystérieux	ADJ	O	-	PSY_FEAT
@@ -800,6 +846,7 @@ les	le	DET	O	-	O
 nations	nation	NOUN	O	-	O
 antimacaïstes	antimacaïste	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Le	le	DET	B-PER	{16}	O
 professeur	professeur	NOUN	I-PER	-	O
 Mac	mac	PROPN	I-PER	-	O
@@ -844,6 +891,7 @@ mains	main	NOUN	O	-	O
 des	un	DET	O	-	O
 macaïstes	macaïstes	ADP	O	-	O
 .	.	PUNCT	O	-	O
+
 Ceux	celui	PRON	O	-	O
 -	-	PUNCT	O	-	O
 ci	ci	PRON	O	-	O
@@ -882,51 +930,62 @@ des	un	DET	O	-	O
 pays	pays	NOUN	O	-	O
 antimacaïstes	antimacaïste	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Quelle	quell	ADJ	O	-	O
 est	être	AUX	O	-	O
 votre	votre	DET	O	-	O
 religion	religion	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 demanda	demander	VERB	O	-	O
 encore	encore	ADV	O	-	O
 le	le	DET	O	-	O
 professeur	professeur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Macaïste	macaïste	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Votre	votre	DET	O	-	O
 système	système	NOUN	O	-	O
 philosophique	philosophique	ADJ	O	-	PSY_FEAT
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Macaïste	macaïste	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Votre	votre	DET	O	-	O
 forme	forme	NOUN	O	-	O
 de	de	ADP	O	-	O
 gouvernement	gouvernement	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Macaïste	macaïste	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Votre	votre	DET	O	-	O
 école	école	NOUN	O	-	O
 littéraire	littéraire	ADJ	O	-	PSY_FEAT
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Macaïste	macaïste	PROPN	O	-	O
 .	.	PUNCT	O	-	O
+
 C	c	NOUN	O	-	O
 '	'	PUNCT	O	-	O
 était	être	AUX	O	-	O
 une	un	DET	O	-	O
 obsession	obsession	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Excusez	excuser	VERB	O	-	O
 -	-	PUNCT	O	-	O
@@ -939,6 +998,7 @@ fin	fin	NOUN	O	-	O
 le	le	DET	O	-	O
 professeur	professeur	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 notre	notre	DET	O	{37}	O
 documentation	documentation	NOUN	O	-	O
@@ -947,6 +1007,7 @@ a	avoir	AUX	O	-	O
 quelques	quelque	DET	O	-	O
 lacunes	lacune	ADJ	O	-	O
 .	.	PUNCT	O	-	O
+
 Voudriez	voudriez	X	O	-	O
 -	-	PUNCT	O	-	O
 vous	vous	PRON	O	-	O
@@ -958,6 +1019,7 @@ sur	sur	ADP	O	-	O
 le	le	DET	O	-	O
 macaïsme	macaïsme	NOUN	O	-	O
 ?	?	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Quoi	quoi	ADV	O	-	O
 !	!	PUNCT	O	-	O
@@ -973,6 +1035,7 @@ de	de	ADP	O	-	O
 stupéfaction	stupéfaction	NOUN	O	-	O
 profonde	profond	ADJ	O	-	PSY_FEAT
 .	.	PUNCT	O	-	O
+
 Ne	ne	ADV	O	-	O
 savez	savoir	VERB	O	-	O
 -	-	PUNCT	O	-	O
@@ -1021,6 +1084,7 @@ douzaine	douzaine	NOUN	O	-	O
 de	de	ADP	O	-	O
 fourchettes	fourchette	NOUN	O	{40}	O
 ?	?	PUNCT	O	-	O
+
 A	a	NOUN	O	-	O
 ce	ce	DET	O	-	O
 moment	moment	NOUN	O	-	O
@@ -1032,6 +1096,7 @@ interrompit	interrompre	PROPN	O	-	O
 la	le	DET	O	-	O
 conversation	conversation	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 Elle	lui	PRON	O	{42}	O
 ne	ne	ADV	O	-	O
 put	pouvoir	VERB	O	-	O
@@ -1039,6 +1104,7 @@ jamais	jamais	ADV	O	-	O
 être	être	AUX	O	-	O
 reprise	reprise	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Mais	mais	CCONJ	O	-	O
 en	en	ADP	O	-	O
@@ -1051,6 +1117,7 @@ donc	donc	ADV	O	-	O
 le	le	DET	B-PER	{43}	O
 Martien	martien	PROPN	I-PER	-	O
 ?	?	PUNCT	O	-	O
+
 interrogea	interroger	VERB	O	-	O
 Delarue	delarue	PROPN	B-PER	{11}	O
 ,	,	PUNCT	O	-	O
@@ -1058,6 +1125,7 @@ non	non	ADV	O	-	O
 sans	sans	ADP	O	-	O
 naïveté	naïveté	NOUN	O	-	O
 .	.	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 En	en	ADP	O	-	O
 anglais	anglais	ADJ	O	-	O
@@ -1065,13 +1133,16 @@ anglais	anglais	ADJ	O	-	O
 vieil	vieux	ADJ	O	-	PSY_FEAT
 homme	homme	NOUN	O	-	O
 !	!	PUNCT	O	-	O
+
 répondit	répondre	VERB	O	-	O
 le	le	DET	B-PER	{6}	O
 capitaine	capitaine	NOUN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 En	en	ADP	O	-	O
 anglais	anglais	ADJ	O	-	O
 !	!	PUNCT	O	-	O
+
 La	le	DET	O	-	O
 langage	langage	NOUN	O	-	O
 anglaise	anglais	ADJ	O	-	O
@@ -1084,6 +1155,7 @@ les	le	DET	O	-	O
 planètes	planète	NOUN	O	-	O
 civilisées	civiliser	VERB	O	-	O
 ...	...	PUNCT	O	-	O
+
 Tel	tel	ADJ	O	-	O
 est	être	AUX	O	-	O
 le	le	DET	O	-	O
@@ -1096,6 +1168,7 @@ capitaine	capitaine	NOUN	I-PER	-	O
 Gordon	gordon	PROPN	I-PER	-	O
 Tower	tower	X	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 De	de	ADP	O	-	O
 l	l	DET	O	-	O
 '	'	PUNCT	O	-	O
@@ -1117,10 +1190,12 @@ parole	parole	NOUN	O	-	O
 du	de	ADP	B-PER	{6}	O
 capitaine	capitaine	NOUN	I-PER	-	O
 .	.	PUNCT	O	-	O
+
 Mais	mais	CCONJ	O	-	O
 cela	celer	PRON	O	-	O
 suffit	suffire	VERB	O	-	O
 :	:	PUNCT	O	-	O
+
 —	—	PUNCT	O	-	O
 Il	il	PRON	O	-	O
 m	m	NOUN	O	-	O
@@ -1157,6 +1232,7 @@ je	je	PRON	O	-	O
 suis	être	AUX	O	-	O
 bu	boire	VERB	O	-	O
 .	.	PUNCT	O	-	O
+
 Or	or	CCONJ	O	-	O
 ,	,	PUNCT	O	-	O
 au	au	ADP	O	-	O
@@ -1177,3 +1253,4 @@ bouteille	bouteille	NOUN	O	{44}	O
 de	de	ADP	O	-	O
 champagne	champagne	NOUN	O	{45}	O
 .	.	PUNCT	O	-	O
+
