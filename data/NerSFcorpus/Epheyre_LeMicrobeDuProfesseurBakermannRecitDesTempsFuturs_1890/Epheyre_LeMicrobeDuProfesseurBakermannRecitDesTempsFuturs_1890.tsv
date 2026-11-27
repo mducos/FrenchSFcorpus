@@ -1,11 +1,11 @@
-Vers	O
-les	B-DUR
-derniers	I-DUR
-jours	I-DUR
-du	O
-mois	O
-de	O
-décembre	B-PONC
+Vers	B-PONC
+les	I-PONC
+derniers	I-PONC
+jours	I-PONC
+du	I-PONC
+mois	I-PONC
+de	I-PONC
+décembre	I-PONC
 1935	I-PONC
 ,	O
 le	B-PER
@@ -33,8 +33,8 @@ rues	O
 paisibles	O
 de	O
 la	B-LOC
-petite	O
-ville	B-LOC
+petite	I-LOC
+ville	I-LOC
 de	I-LOC
 Brunnwald	I-LOC
 .	O
@@ -93,11 +93,11 @@ sans	O
 doute	O
 que	O
 ,	O
-depuis	O
-un	O
-demi	O
--	O
-siècle	O
+depuis	B-DUR
+un	I-DUR
+demi	I-DUR
+-	I-DUR
+siècle	I-DUR
 ,	O
 la	O
 science	O
@@ -111,7 +111,7 @@ extraordinaires	O
 .	O
 
 Un	O
-Français	B-COL
+Français	O
 célèbre	O
 ,	O
 Louis	B-PER
@@ -121,8 +121,8 @@ avait	O
 le	O
 premier	O
 ,	O
-vers	O
-le	B-PONC
+vers	B-PONC
+le	I-PONC
 milieu	I-PONC
 du	I-PONC
 XIXe	I-PONC
@@ -184,8 +184,8 @@ cultiver	O
 Mais	O
 maintenant	B-PONC
 ,	O
-en	O
-1935	B-PONC
+en	B-PONC
+1935	I-PONC
 ,	O
 les	O
 travaux	O
@@ -310,8 +310,8 @@ devenue	O
 ,	O
 dans	O
 toutes	O
-les	O
-Universités	O
+les	B-ORG
+Universités	I-ORG
 ,	O
 la	O
 base	O
@@ -332,8 +332,8 @@ moeurs	O
 avaient	O
 bien	O
 changé	O
-depuis	O
-trente	B-DUR
+depuis	B-DUR
+trente	I-DUR
 ans	I-DUR
 .	O
 
@@ -396,7 +396,7 @@ de	I-LOC
 Brunnwald	I-LOC
 possédait	O
 une	O
-Université	B-LOC
+Université	B-ORG
 brillante	O
 ,	O
 des	O
@@ -456,8 +456,8 @@ il	O
 avait	O
 fait	O
 construire	O
-le	O
-laboratoire	O
+le	B-LOC
+laboratoire	I-LOC
 de	O
 ses	O
 rêves	O
@@ -598,8 +598,8 @@ l	O
 '	O
 extrémité	O
 de	O
-son	O
-laboratoire	O
+son	B-LOC
+laboratoire	I-LOC
 ,	O
 une	O
 salle	O
@@ -613,9 +613,9 @@ en	O
 manière	O
 de	O
 plaisanterie	O
-la	O
-chambre	O
-infernale	O
+la	B-LOC
+chambre	I-LOC
+infernale	I-LOC
 ,	O
 et	O
 dont	O
@@ -680,8 +680,8 @@ Donc	O
 ,	O
 ce	B-PONC
 jour	I-PONC
--	O
-là	O
+-	I-PONC
+là	I-PONC
 ,	O
 en	O
 rentrant	O
@@ -836,8 +836,8 @@ assez	O
 fort	O
 pour	O
 tuer	O
-en	O
-une	B-DUR
+en	B-DUR
+une	I-DUR
 heure	I-DUR
 ,	O
 à	O
@@ -1271,17 +1271,17 @@ tuait	O
 un	O
 gros	O
 chien	O
-en	O
-deux	B-DUR
+en	B-DUR
+deux	I-DUR
 heures	I-DUR
-et	O
-demie	O
+et	I-DUR
+demie	I-DUR
 ;	O
 une	O
 seule	O
 goutte	O
-en	O
-deux	B-DUR
+en	B-DUR
+deux	I-DUR
 heures	I-DUR
 pouvait	O
 tuer	O
@@ -1744,9 +1744,9 @@ est	O
 plus	O
 agréable	O
 que	O
-toute	O
-une	O
-soirée	B-PONC
+toute	B-PONC
+une	I-PONC
+soirée	I-PONC
 d	O
 '	O
 aigres	O
@@ -2199,8 +2199,8 @@ qui	O
 tue	O
 les	O
 lapins	O
-en	O
-deux	B-DUR
+en	B-DUR
+deux	I-DUR
 heures	I-DUR
 ,	O
 à	O
@@ -2469,8 +2469,8 @@ elle	O
 irait	O
 jusque	O
 dans	O
-le	O
-sanctuaire	O
+le	B-LOC
+sanctuaire	I-LOC
 ,	O
 c	O
 '	O
@@ -2480,15 +2480,15 @@ est	O
 -	O
 dire	O
 dans	O
-le	O
-laboratoire	O
+le	B-LOC
+laboratoire	I-LOC
 ,	O
 voire	O
 même	O
 dans	O
-la	O
-chambre	O
-infernale	O
+la	B-LOC
+chambre	I-LOC
+infernale	I-LOC
 ,	O
 pour	O
 y	O
@@ -2859,9 +2859,9 @@ entrer	O
 sans	O
 danger	O
 dans	O
-la	O
-chambre	O
-infernale	O
+la	B-LOC
+chambre	I-LOC
+infernale	I-LOC
 .	O
 
 Si	O
@@ -2905,10 +2905,10 @@ Mme	B-PER
 Bakermann	I-PER
 .	O
 
-Presque	O
-tous	O
-les	O
-soirs	B-PONC
+Presque	B-DUR
+tous	I-DUR
+les	I-DUR
+soirs	I-DUR
 ,	O
 c	O
 '	O
@@ -2933,9 +2933,9 @@ le	O
 seuil	O
 redoutable	O
 de	O
-la	O
-chambre	O
-infernale	O
+la	B-LOC
+chambre	I-LOC
+infernale	I-LOC
 .	O
 
 Vers	O
@@ -3478,11 +3478,11 @@ triomphateurs	O
 
 Pourtant	O
 ,	O
-vers	B-DUR
-six	I-DUR
-heures	I-DUR
-du	O
-matin	B-PONC
+vers	B-PONC
+six	I-PONC
+heures	I-PONC
+du	I-PONC
+matin	I-PONC
 ,	O
 il	O
 fut	O
@@ -3822,13 +3822,13 @@ angoisse	O
 Tu	O
 sais	O
 ,	O
-la	O
-chambre	O
-infernale	O
+la	B-LOC
+chambre	I-LOC
+infernale	I-LOC
 !	O
-la	O
-chambre	O
-infernale	O
+la	B-LOC
+chambre	I-LOC
+infernale	I-LOC
 !	O
 ...	O
 Eh	O
@@ -3863,9 +3863,9 @@ lèvres	O
 .	O
 
 —	O
-La	O
-chambre	O
-infernale	O
+La	B-LOC
+chambre	I-LOC
+infernale	I-LOC
 !	O
 
 murmurait	O
@@ -4038,8 +4038,8 @@ Europe	B-LOC
 c	O
 '	O
 est	O
-le	B-PER
-Koussmi	B-NOV
+le	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 du	B-LOC
@@ -4094,8 +4094,8 @@ même	O
 C	O
 '	O
 est	O
-le	B-PER
-Koussmi	B-NOV
+le	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 ,	O
@@ -4184,10 +4184,10 @@ l	O
 
 Il	O
 était	O
-huit	B-DUR
-heures	I-DUR
-du	O
-matin	B-PONC
+huit	B-PONC
+heures	I-PONC
+du	I-PONC
+matin	I-PONC
 .	O
 
 Déjà	O
@@ -4297,9 +4297,9 @@ Josépha	B-PER
 a	O
 parlé	O
 de	O
-la	O
-chambre	O
-infernale	O
+la	B-LOC
+chambre	I-LOC
+infernale	I-LOC
 ...	O
 
 Pourquoi	O
@@ -4342,9 +4342,9 @@ laboratoire	O
 La	O
 porte	O
 de	O
-la	O
-chambre	O
-infernale	O
+la	B-LOC
+chambre	I-LOC
+infernale	I-LOC
 était	O
 ouverte	O
 ,	O
@@ -4588,9 +4588,9 @@ hélas	O
 En	O
 effet	O
 ,	O
-vers	B-DUR
-dix	I-DUR
-heures	I-DUR
+vers	B-PONC
+dix	I-PONC
+heures	I-PONC
 ,	O
 Thérèse	B-PER
 commença	O
@@ -4615,10 +4615,10 @@ des	O
 spasmes	O
 .	O
 
-Au	O
-bout	O
-de	O
-deux	B-DUR
+Au	B-DUR
+bout	I-DUR
+de	I-DUR
+deux	I-DUR
 heures	I-DUR
 ,	O
 la	O
@@ -4633,8 +4633,8 @@ si	O
 bien	O
 qu	O
 '	O
-à	O
-midi	B-PONC
+à	B-PONC
+midi	I-PONC
 l	O
 '	O
 infortunée	O
@@ -4663,8 +4663,8 @@ oui	O
 c	O
 '	O
 est	O
-le	B-PER
-Morti	B-NOV
+le	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 .	O
@@ -4745,8 +4745,8 @@ il	O
 triomphe	O
 .	O
 
-En	O
-trois	B-DUR
+En	B-DUR
+trois	I-DUR
 heures	I-DUR
 ,	O
 tout	O
@@ -4799,8 +4799,8 @@ oui	O
 ,	O
 certes	O
 !	O
-le	O
-Morti	B-NOV
+le	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 est	O
@@ -4867,8 +4867,8 @@ Bakermann	B-PER
 le	O
 connaît	O
 ,	O
-son	O
-Morti	B-NOV
+son	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 ;	O
@@ -4916,8 +4916,8 @@ est	O
 jeté	O
 !	O
 
-Le	B-PER
-Morti	B-NOV
+Le	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 se	O
@@ -4927,8 +4927,8 @@ le	O
 monde	O
 !	O
 
-Le	O
-soir	B-PONC
+Le	B-PONC
+soir	I-PONC
 ,	O
 il	O
 y	O
@@ -4945,30 +4945,30 @@ L	O
 '	O
 élève	O
 pharmacien	O
-à	O
-trois	B-DUR
-heures	I-DUR
+à	B-PONC
+trois	I-PONC
+heures	I-PONC
 ,	O
 puis	O
 Rothbein	B-PER
-à	O
-quatre	B-DUR
-heures	I-DUR
+à	B-PONC
+quatre	I-PONC
+heures	I-PONC
 ,	O
 puis	O
 deux	O
 clients	O
 du	O
 pharmacien	O
-à	O
-cinq	B-DUR
-heures	I-DUR
+à	B-PONC
+cinq	I-PONC
+heures	I-PONC
 ,	O
 puis	O
 ,	O
-à	O
-six	B-DUR
-heures	I-DUR
+à	B-PONC
+six	I-PONC
+heures	I-PONC
 ,	O
 quatre	O
 clients	O
@@ -5101,8 +5101,8 @@ soudainement	O
 et	O
 il	O
 tue	O
-en	O
-quelques	B-DUR
+en	B-DUR
+quelques	I-DUR
 heures	I-DUR
 ,	O
 déjouant	O
@@ -5153,8 +5153,8 @@ ne	O
 serait	O
 autre	O
 que	O
-le	O
-Koussmi	B-NOV
+le	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 ,	O
@@ -5178,8 +5178,8 @@ sur	O
 la	O
 manière	O
 dont	O
-le	B-PER
-Koussmi	B-NOV
+le	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 a	O
@@ -5378,8 +5378,8 @@ Que	O
 faire	O
 ,	O
 puisque	O
-le	B-PER
-Morti	B-NOV
+le	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 est	O
@@ -5473,8 +5473,8 @@ de	O
 semblable	O
 .	O
 
-Le	B-PER
-Morti	B-NOV
+Le	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 ne	O
@@ -5711,8 +5711,8 @@ est	O
 -	O
 ce	O
 bien	O
-le	B-PER
-Morti	B-NOV
+le	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 ?	O
@@ -5738,8 +5738,8 @@ que	O
 c	O
 '	O
 était	O
-le	B-PER
-Koussmi	B-NOV
+le	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 .	O
@@ -5811,8 +5811,8 @@ irrévocable	O
 c	O
 '	O
 est	O
-le	B-PER
-Koussmi	B-NOV
+le	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 .	O
@@ -5892,8 +5892,8 @@ il	O
 y	O
 a	O
 pas	O
-de	B-PER
-Koussmi	B-NOV
+de	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 Koussmi	I-NOV
 ,	O
@@ -6047,7 +6047,7 @@ C	O
 '	O
 est	O
 à	O
-Krankwein	B-LOC
+Krankwein	B-PER
 que	O
 Bakermann	B-PER
 va	O
@@ -6157,8 +6157,8 @@ koussmi	I-NOV
 Ne	O
 parlez	O
 pas	O
-du	B-PER
-Koussmi	B-NOV
+du	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 !	O
@@ -6169,8 +6169,8 @@ s	O
 Bakermann	B-PER
 .	O
 
-Le	B-PER
-Koussmi	B-NOV
+Le	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 n	O
@@ -6321,8 +6321,8 @@ Koussmi	B-NOV
 koussmi	I-NOV
 peut	O
 tuer	O
-en	O
-trois	B-DUR
+en	B-DUR
+trois	I-DUR
 heures	I-DUR
 un	O
 homme	O
@@ -6404,8 +6404,8 @@ douleur	O
 vous	O
 égare	O
 ;	O
-le	B-PER
-Morti	B-NOV
+le	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 est	O
@@ -6592,8 +6592,8 @@ voyez	O
 donc	O
 pas	O
 que	O
-le	B-PER
-Morti	B-NOV
+le	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 ne	O
@@ -6749,8 +6749,8 @@ n	O
 avait	O
 pas	O
 peur	O
-du	B-PER
-Koussmi	B-NOV
+du	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 .	O
@@ -6768,8 +6768,8 @@ peu	O
 .	O
 
 Quant	O
-au	B-PER
-Morti	B-NOV
+au	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 ,	O
@@ -6785,8 +6785,8 @@ pas	O
 croire	O
 .	O
 
-Au	O
-milieu	B-PONC
+Au	B-PONC
+milieu	I-PONC
 de	I-PONC
 la	I-PONC
 nuit	I-PONC
@@ -7050,8 +7050,8 @@ réparer	O
 
 Pour	O
 terrasser	O
-le	B-PER
-Morti	B-NOV
+le	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 ,	O
@@ -7192,10 +7192,10 @@ très	O
 graves	O
 .	O
 
-Le	O
-matin	B-PONC
-du	O
-23	B-PONC
+Le	B-PONC
+matin	I-PONC
+du	I-PONC
+23	I-PONC
 décembre	I-PONC
 ,	O
 à	O
@@ -7282,8 +7282,8 @@ aux	O
 frontières	O
 .	O
 
-En	O
-douze	B-DUR
+En	B-DUR
+douze	I-DUR
 heures	I-DUR
 ,	O
 avec	O
@@ -7311,8 +7311,8 @@ n	O
 est	O
 plus	O
 comme	O
-au	O
-XIXe	B-PONC
+au	B-PONC
+XIXe	I-PONC
 siècle	I-PONC
 ,	O
 où	O
@@ -7331,9 +7331,9 @@ heure	O
 
 Aussi	O
 ,	O
-en	O
-une	O
-nuit	B-PONC
+en	B-DUR
+une	I-DUR
+nuit	I-DUR
 ,	O
 l	B-LOC
 '	I-LOC
@@ -7395,10 +7395,10 @@ l	O
 invasion	O
 ,	O
 et	O
-en	O
-quarante	B-DUR
--	O
-huit	B-DUR
+en	B-DUR
+quarante	I-DUR
+-	I-DUR
+huit	I-DUR
 heures	I-DUR
 l	O
 '	O
@@ -7442,17 +7442,17 @@ Il	O
 ne	O
 craignait	O
 plus	O
-le	B-PER
-Morti	B-NOV
+le	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 .	O
 
 Il	O
 travailla	O
-toute	O
-la	B-PONC
-nuit	I-PONC
+toute	B-DUR
+la	I-DUR
+nuit	I-DUR
 ,	O
 et	O
 le	B-PONC
@@ -7488,8 +7488,8 @@ LE	B-PER
 PROFESSEUR	I-PER
 BAKERMANN	I-PER
 GUÉRIT	O
-LE	B-PER
-KOUSSMI	B-NOV
+LE	B-NOV
+KOUSSMI	I-NOV
 -	I-NOV
 KOUSSMI	I-NOV
 PAR	O
@@ -7695,8 +7695,8 @@ donne	O
 de	O
 la	O
 vigueur	O
-au	B-PER
-Morti	B-NOV
+au	B-NOV
+Morti	I-NOV
 -	I-NOV
 fulgurans	I-NOV
 ,	O
@@ -7842,8 +7842,8 @@ spasmes	O
 le	O
 refroidissement	O
 disparurent	O
-en	O
-quelques	B-DUR
+en	B-DUR
+quelques	I-DUR
 minutes	I-DUR
 comme	O
 par	O
@@ -7956,14 +7956,14 @@ d	O
 oeil	O
 .	O
 
-En	O
-moins	O
-d	O
-'	O
-une	O
-demi	O
--	O
-heure	O
+En	B-DUR
+moins	I-DUR
+d	I-DUR
+'	I-DUR
+une	I-DUR
+demi	I-DUR
+-	I-DUR
+heure	I-DUR
 ,	O
 tous	O
 les	B-COL
@@ -7972,8 +7972,8 @@ surent	O
 que	O
 Bakermann	B-PER
 guérissait	O
-le	B-PER
-Koussmi	B-NOV
+le	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 par	O
@@ -7998,8 +7998,8 @@ modèle	O
 Bakermann	B-PER
 .	O
 
-A	O
-midi	B-PONC
+A	B-PONC
+midi	I-PONC
 ,	O
 il	O
 n	O
@@ -8029,11 +8029,11 @@ vite	O
 .	O
 
 De	O
-neuf	B-DUR
-heures	I-DUR
+neuf	B-PONC
+heures	I-PONC
 à	O
-dix	B-DUR
-heures	I-DUR
+dix	B-PONC
+heures	I-PONC
 ,	O
 il	O
 y	O
@@ -8055,15 +8055,15 @@ Le	O
 chiffre	O
 tomba	O
 ,	O
-à	O
-onze	B-DUR
-heures	I-DUR
+à	B-PONC
+onze	I-PONC
+heures	I-PONC
 ,	O
 à	O
 32	O
 ;	O
-à	O
-midi	B-PONC
+à	B-PONC
+midi	I-PONC
 ,	O
 il	O
 n	O
@@ -8074,9 +8074,9 @@ que	O
 de	O
 8	O
 ;	O
-à	O
-une	B-DUR
-heure	I-DUR
+à	B-PONC
+une	I-PONC
+heure	I-PONC
 ,	O
 il	O
 n	O
@@ -8090,9 +8090,9 @@ un	O
 ,	O
 et	O
 enfin	O
-à	O
-deux	B-DUR
-heures	I-DUR
+à	B-PONC
+deux	I-PONC
+heures	I-PONC
 il	O
 celui	O
 d	O
@@ -8125,8 +8125,8 @@ au	B-LOC
 Dahomey	I-LOC
 on	O
 guérit	O
-du	B-COL
-Koussmi	B-NOV
+du	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 sans	O
@@ -8577,8 +8577,8 @@ suffit	O
 de	O
 se	O
 placer	O
-pendant	O
-quelques	B-DUR
+pendant	B-DUR
+quelques	I-DUR
 minutes	I-DUR
 sur	O
 un	O
@@ -8600,9 +8600,9 @@ rapidité	O
 prodigieuse	O
 .	O
 
-Le	O
-soir	B-PONC
-même	O
+Le	B-PONC
+soir	I-PONC
+même	I-PONC
 ,	O
 dans	O
 toutes	O
@@ -8803,8 +8803,8 @@ on	O
 ne	O
 pouvait	O
 considérer	O
-le	B-PER
-Koussmi	B-NOV
+le	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 comme	O
@@ -8883,27 +8883,27 @@ d	O
 '	O
 or	O
 ,	O
-l	B-PER
-'	I-PER
-Aigle	I-PER
-noir	I-PER
+l	O
+'	O
+Aigle	O
+noir	O
 ,	O
-l	B-PER
-'	I-PER
-Aigle	I-PER
-rouge	I-PER
+l	O
+'	O
+Aigle	O
+rouge	O
 ,	O
-l	B-PER
-'	I-PER
-Éléphant	I-PER
-blanc	I-PER
+l	O
+'	O
+Éléphant	O
+blanc	O
 ,	O
-le	B-PER
-Dragon	I-PER
-vert	I-PER
+le	O
+Dragon	O
+vert	O
 et	O
-le	B-PER
-Chardon	I-PER
+le	O
+Chardon	O
 .	O
 
 Le	O
@@ -8971,8 +8971,8 @@ féliciter	O
 .	O
 
 —	O
-Mon	B-PER
-Dieu	I-PER
+Mon	O
+Dieu	O
 ,	O
 mes	O
 amis	O
@@ -9134,8 +9134,8 @@ s	O
 élèverait	O
 sur	O
 la	B-LOC
-place	O
-publique	O
+place	I-LOC
+publique	I-LOC
 de	O
 Brunnwald	B-LOC
 .	O
@@ -9186,9 +9186,9 @@ a	O
 plus	O
 peur	O
 de	O
-la	O
-chambre	O
-infernale	O
+la	B-LOC
+chambre	I-LOC
+infernale	I-LOC
 .	O
 
 Elle	O
@@ -9196,7 +9196,7 @@ est	O
 ouverte	O
 jour	O
 et	O
-nuit	B-PONC
+nuit	O
 ,	O
 et	O
 tous	O
@@ -9207,8 +9207,8 @@ peuvent	O
 pénétrer	O
 .	O
 
-Le	O
-soir	B-PONC
+Le	B-PONC
+soir	I-PONC
 ,	O
 il	O
 retourne	O
@@ -9357,8 +9357,8 @@ il	O
 sait	O
 bien	O
 que	O
-le	B-PER
-Koussmi	B-NOV
+le	B-NOV
+Koussmi	I-NOV
 -	I-NOV
 koussmi	I-NOV
 n	O
